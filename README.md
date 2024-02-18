@@ -1,25 +1,44 @@
-# synopsis
+# Synopsis
 
-This template should help get you started developing with Vue 3 in Vite.
+## Requirements
+- [x] Primary parallels in `.json` format (SZIT translation)
+- [ ] Main page
+    - [x] Main title
+    - [ ] Description
+    - [x] Four gospel columns
+    - [x] Evangelist name and citation always seen
+    - [x] Chapters, sections, subsections, citations
+    - [x] See gospels with primary parallels
+- [ ] Index page (table of contents)
+- [ ] Details page
+    - [ ] Sources
+    - [ ] Differences compared to the sources, with explanation
+    - [ ] Development informations 
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Additionals
 
-## Type Support for `.vue` Imports in TS
+- [ ] Favicon
+- [ ] Responsive view
+- [ ] Consistent header on every page
+- [x] Consistent footer on every page
+- [ ] Non-primary parallels
+- [ ] Links to subsections.
+    - [ ] Local links in main page (anchor)
+    - [ ] `/:id` URLs for subsection
+    - [ ] Copy link buttons
+- [ ] Daily readings
+    - [ ] Highlight citations which contains part of daily reading
+    - [ ] `/:date` URLs for each subsection contains part of daily reading of the given date
+    - [ ] `/today` URL for each subsection contains part of daily reading
+- [ ] Translations
+    - [ ] Adding Károli translation
+    - [ ] Adding Polish translation
+    - [ ] Creating interface for adding any translation by contributors
+    - [ ] Interface for language switching
+- [ ] Current subsection location visualization on a map
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
