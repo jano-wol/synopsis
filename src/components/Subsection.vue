@@ -5,10 +5,10 @@ export default {
     props: {
         subsectionName: String,
         number: String,
-        matthew: Array,
-        mark: Array,
-        luke: Array,
-        john: Array,
+        matthew: { type: Array<Object>, required: true },
+        mark: { type: Array<Object>, required: true },
+        luke: { type: Array<Object>, required: true },
+        john: { type: Array<Object>, required: true },
 
     },
     components: {
@@ -25,19 +25,20 @@ export default {
         </h3>
     </div>
 
-    <div class="row content mx-3">
-
-        <div v-for="citation in matthew" class="col-3 pb-3">
-            <Citation :citation="citation" name="Máté" />
+    <template v-for="index in matthew?.length">
+        <div class="row content mx-3">
+            <div class="col-3 pb-3">
+                <Citation :citation="matthew[index - 1]" name="Máté" />
+            </div>
+            <div class="col-3 pb-3">
+                <Citation :citation="mark[index - 1]" name="Márk" />
+            </div>
+            <div class="col-3 pb-3">
+                <Citation :citation="luke[index - 1]" name="Lukács" />
+            </div>
+            <div class="col-3 pb-3">
+                <Citation :citation="john[index - 1]" name="János" />
+            </div>
         </div>
-        <div v-for="citation in mark" class="col-3 pb-3">
-            <Citation :citation="citation" name="Márk" />
-        </div>
-        <div v-for="citation in luke" class="col-3 pb-3">
-            <Citation :citation="citation" name="Lukács" />
-        </div>
-        <div v-for="citation in john" class="col-3 pb-3">
-            <Citation :citation="citation" name="János" />
-        </div>
-    </div>
+    </template>
 </template>
