@@ -21,7 +21,7 @@ export default {
     </div>
     <div v-for="section in sections" class="row">
         <h3 class="text-center fs-4">{{ section.section_name }}</h3>
-        <table class="table table-striped table-bordered">
+        <table class="table table-sm table-striped table-bordered">
             <thead>
                 <tr>
                     <th scope="col"></th>
@@ -37,16 +37,16 @@ export default {
                     <th class="col-1" scope="row">{{ subsection.number }}</th>
                     <td class="col-7">{{ subsection.subsection_name }}</td>
                     <td class="col-1">
-                        <IndexCitation :subsection-by-evangelist="subsection.Mt" />
+                        <IndexCitation :citations="subsection.Mt" />
                     </td>
                     <td class="col-1">
-                        <IndexCitation :subsection-by-evangelist="subsection.Mk" />
+                        <IndexCitation :citations="subsection.Mk" />
                     </td>
                     <td class="col-1">
-                        <IndexCitation :subsection-by-evangelist="subsection.Lk" />
+                        <IndexCitation :citations="subsection.Lk" />
                     </td>
                     <td class="col-1">
-                        <IndexCitation :subsection-by-evangelist="subsection.Jn" />
+                        <IndexCitation :citations="subsection.Jn" />
                     </td>
                 </tr>
             </tbody>
