@@ -1,16 +1,18 @@
 <script lang="ts">
-  import { RouterView } from 'vue-router'
-  import Footer from './components/Footer.vue'
+import { RouterView } from 'vue-router'
+import Footer from './components/Footer.vue'
+import Header from './components/Header.vue'
 
-  export default {
+export default {
   components: {
-    Footer
+    Footer, Header
   }
 }
 </script>
 
 <template>
+  <Header />
   <RouterView />
-  <Footer/>
+  <Footer />
 </template>
 
