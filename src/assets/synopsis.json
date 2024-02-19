@@ -10837,6 +10837,7 @@
                                 }
                             ],
                             "Jn": [
+                                null,
                                 {
                                     "citation": "13,16",
                                     "primary": true,
@@ -10849,7 +10850,6 @@
                                         }
                                     ]
                                 },
-                                null,
                                 null
                             ]
                         },
@@ -11088,6 +11088,7 @@
                                 }
                             ],
                             "Jn": [
+                                null,
                                 {
                                     "citation": "12,25",
                                     "primary": true,
@@ -11099,8 +11100,7 @@
                                             "verse": "25"
                                         }
                                     ]
-                                },
-                                null
+                                }
                             ]
                         },
                         {
@@ -21598,6 +21598,9 @@
                                 }
                             ],
                             "Mk": [
+                                null,
+                                null,
+                                null,
                                 {
                                     "citation": "10,31",
                                     "primary": true,
@@ -21609,10 +21612,7 @@
                                             "verse": "31"
                                         }
                                     ]
-                                },
-                                null,
-                                null,
-                                null
+                                }
                             ],
                             "Lk": [
                                 {
@@ -23385,6 +23385,10 @@
                                 null
                             ],
                             "Jn": [
+                                null,
+                                null,
+                                null,
+                                null,
                                 {
                                     "citation": "12,25",
                                     "primary": true,
@@ -23397,10 +23401,6 @@
                                         }
                                     ]
                                 },
-                                null,
-                                null,
-                                null,
-                                null,
                                 null,
                                 null
                             ]
@@ -29925,7 +29925,8 @@
                                             "verse": "42"
                                         }
                                     ]
-                                }
+                                },
+                                null
                             ],
                             "Mk": [
                                 {
@@ -29960,9 +29961,11 @@
                                         }
                                     ]
                                 },
+                                null,
                                 null
                             ],
                             "Lk": [
+                                null,
                                 {
                                     "citation": "19,12-13",
                                     "primary": true,
@@ -31480,6 +31483,7 @@
                             "number": "309",
                             "subsection_name": "Jézus megmossa tanítványai lábát",
                             "Mt": [
+                                null,
                                 {
                                     "citation": "10,24",
                                     "primary": true,
@@ -31507,9 +31511,11 @@
                             ],
                             "Mk": [
                                 null,
+                                null,
                                 null
                             ],
                             "Lk": [
+                                null,
                                 {
                                     "citation": "6,40",
                                     "primary": true,
@@ -31632,6 +31638,7 @@
                                         }
                                     ]
                                 },
+                                null,
                                 null
                             ]
                         },
