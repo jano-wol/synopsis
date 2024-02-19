@@ -32,6 +32,7 @@
     - [ ] `/:date` URLs for each subsection contains part of daily reading of the given date
     - [ ] `/today` URL for each subsection contains part of daily reading
 - [ ] Translations
+    - [ ] Update geographical and personal names to match with SZIT translation
     - [ ] Adding Károli translation
     - [ ] Adding Polish translation
     - [ ] Creating interface for adding any translation by contributors
