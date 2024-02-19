@@ -20,7 +20,7 @@
 
 - [ ] Favicon
 - [ ] Responsive view
-- [ ] Consistent header on every page
+- [x] Consistent header on every page
 - [x] Consistent footer on every page
 - [ ] Non-primary parallels
 - [ ] Links to subsections.
