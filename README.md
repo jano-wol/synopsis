@@ -9,7 +9,7 @@
     - [x] Evangelist name and citation always seen
     - [x] Chapters, sections, subsections, citations
     - [x] See gospels with primary parallels
-- [ ] Index page (table of contents)
+- [x] Index page (table of contents)
 - [ ] Details page
     - [ ] Sources
     - [ ] Differences compared to the sources, with explanation
