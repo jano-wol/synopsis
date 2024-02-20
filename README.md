@@ -24,7 +24,8 @@
 - [x] Consistent footer on every page
 - [ ] Non-primary parallels
 - [ ] Links to subsections.
-    - [ ] Local links in main page (anchor)
+    - [x] `/#:id` anchor links in main page
+    - [x] Anchor links in table of content
     - [ ] `/:id` URLs for subsection
     - [ ] Copy link buttons
 - [ ] Daily readings
