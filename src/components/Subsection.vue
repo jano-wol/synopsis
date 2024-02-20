@@ -1,5 +1,5 @@
 <script lang="ts">
-import Citation from './Citation.vue'
+import Citation from '@/components/Citation.vue'
 
 export default {
     props: {
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <template>
-    <div class="row">
+    <div class="row" :id="number">
 
         <h3 class=" event text-center display-6 mt-5">
             {{ number }}. {{ subsectionName }}

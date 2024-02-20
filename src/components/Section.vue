@@ -1,5 +1,5 @@
 <script lang="ts">
-import Subsection from './Subsection.vue'
+import Subsection from '@/components/Subsection.vue'
 
 export default {
     props: {

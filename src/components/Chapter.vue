@@ -1,5 +1,5 @@
 <script lang="ts">
-import Section from './Section.vue'
+import Section from '@/components/Section.vue'
 
 
 export default {
