@@ -1,5 +1,5 @@
 <script lang="ts">
-import IndexCitation from './IndexCitation.vue';
+import IndexCitation from '@/components/IndexCitation.vue';
 
 
 export default {
@@ -34,7 +34,11 @@ export default {
             </thead>
             <tbody>
                 <tr v-for="subsection in section.subsections">
-                    <th class="col-1" scope="row">{{ subsection.number }}</th>
+                    <th class="col-1" scope="row">
+                        <router-link :to="{ name: 'synopsis', hash: '#' + subsection.number }">
+                            {{ subsection.number }}
+                        </router-link>
+                    </th>
                     <td class="col-7">{{ subsection.subsection_name }}</td>
                     <td class="col-1">
                         <IndexCitation :citations="subsection.Mt" />

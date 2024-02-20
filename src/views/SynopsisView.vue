@@ -1,10 +1,11 @@
 <script lang="ts">
-import Chapter from '../components/Chapter.vue'
-import synopsis from '@/assets/synopsis.json'
+import Chapter from '@/components/Chapter.vue'
+import { useSynopsisStore } from "@/stores/SynopsisStore"
+
 export default {
   data() {
     return {
-      chapters: synopsis.chapters
+      chapters: useSynopsisStore().synopsis.chapters
     }
   },
   components:
@@ -16,6 +17,7 @@ export default {
 </script>
 
 <template>
+  <!-- {{ chapters }} -->
   <div class="container-fluid">
     <h1 class="text-center display-1">Szinopszis</h1>
 

@@ -1,11 +1,12 @@
 <script lang="ts">
-import synopsis from '@/assets/synopsis.json'
 import IndexRecord from '@/components/IndexRecord.vue';
+import { useSynopsisStore } from "@/stores/SynopsisStore"
+
 
 export default {
   data() {
     return {
-      chapters: synopsis.chapters
+      chapters: useSynopsisStore().synopsis.chapters
     };
   },
   components: { IndexRecord }
