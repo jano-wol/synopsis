@@ -23,12 +23,11 @@
                             class="nav-link" aria-current="page">Részletek
                         </router-link>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Fejlesztőknek</a>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link">Részletek</a>
-                    </li> -->
+                        <router-link :to="{ name: 'developers' }" :class="$route.name == 'developers' ? 'active' : ''"
+                            class="nav-link" aria-current="page">Fejlesztőknek
+                        </router-link>
+                    </li>
                 </ul>
             </div>
         </div>

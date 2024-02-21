@@ -16,7 +16,7 @@ export default {
 
 <template>
   <div class="container">
-    <h1 class="text-center display-1">Tartalomjegyzék</h1>
+    <h1 class="text-center">Tartalomjegyzék</h1>
 
 
 

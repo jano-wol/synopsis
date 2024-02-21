@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="text-center display-1">Részletek</h1>
+        <h1 class="text-center">Részletek</h1>
         <h2>Források</h2>
         <ul>
             <li>

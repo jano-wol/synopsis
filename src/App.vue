@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="d-flex flex-column min-vh-100">
     <Header />
-    <RouterView class="wrapper flex-grow-1" />
+    <RouterView class="mt-4 wrapper flex-grow-1" />
     <Footer />
   </div>
 </template>
