@@ -11,8 +11,10 @@ export default {
 </script>
 
 <template>
-  <Header />
-  <RouterView />
-  <Footer />
+  <div class="d-flex flex-column min-vh-100">
+    <Header />
+    <RouterView class="wrapper flex-grow-1" />
+    <Footer />
+  </div>
 </template>
 
