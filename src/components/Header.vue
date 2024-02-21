@@ -5,12 +5,17 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <router-link :to="{ name: 'synopsis' }" :class="$route.name == 'synopsis' ? 'active' : ''"
-                            class="nav-link" aria-current="page" href="#">Szinopszis
+                            class="nav-link" aria-current="page">Szinopszis
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'index' }" :class="$route.name == 'index' ? 'active' : ''"
-                            class="nav-link" aria-current="page" href="#">Tartalomjegyzék
+                            class="nav-link" aria-current="page">Tartalomjegyzék
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
+                        <router-link :to="{ name: 'details' }" :class="$route.name == 'details' ? 'active' : ''"
+                            class="nav-link" aria-current="page">Részletek
                         </router-link>
                     </li>
                     <!-- <li class="nav-item">
