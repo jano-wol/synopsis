@@ -2,18 +2,22 @@
 
 ## Requirements
 - [x] Primary parallels in `.json` format (SZIT translation)
-- [ ] Main page
+- [x] Main page (Synopsis)
     - [x] Main title
-    - [ ] Description
     - [x] Four gospel columns
     - [x] Evangelist name and citation always seen
     - [x] Chapters, sections, subsections, citations
     - [x] See gospels with primary parallels
+- [ ] Description page
 - [x] Index page (table of contents)
-- [ ] Details page
-    - [ ] Sources
-    - [ ] Differences compared to the sources, with explanation
-    - [ ] Development informations 
+- [x] Details page
+    - [x] Sources
+    - [x] Differences compared to the sources, with explanation
+- [ ] Page for contributors
+    - [ ] Github page
+    - [ ] `.json` source
+    - [ ] `.json` scheme
+    - [ ] To notice 
 
 
 ## Additionals
