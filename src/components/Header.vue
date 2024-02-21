@@ -9,6 +9,11 @@
                         </router-link>
                     </li>
                     <li class="nav-item">
+                        <router-link :to="{ name: 'description' }" :class="$route.name == 'description' ? 'active' : ''"
+                            class="nav-link" aria-current="page">Leírás
+                        </router-link>
+                    </li>
+                    <li class="nav-item">
                         <router-link :to="{ name: 'index' }" :class="$route.name == 'index' ? 'active' : ''"
                             class="nav-link" aria-current="page">Tartalomjegyzék
                         </router-link>
