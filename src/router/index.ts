@@ -4,6 +4,7 @@ import IndexView from '@/views/IndexView.vue'
 import DetailsView from '@/views/DetailsView.vue'
 import DescriptionView from '@/views/DescriptionView.vue'
 import DevelopersView from '@/views/DevelopersView.vue'
+import Subsection from '@/components/Subsection.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,12 @@ const router = createRouter({
       path: '/developers',
       name: 'developers',
       component: DevelopersView
+    },
+    {
+      path: '/:id',
+      name: 'subsection',
+      component: Subsection,
+      props: true
     },
   ],
   scrollBehavior(to, from, savedPosition) {

@@ -23,5 +23,5 @@ export default {
         </h4>
     </div>
 
-    <Subsection v-for="subsection in section.subsections" :subsection="subsection" />
+    <Subsection v-for="subsection in section.subsections" :id="subsection.number" />
 </template>
