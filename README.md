@@ -14,15 +14,15 @@
     - [x] Sources
     - [x] Differences compared to the sources, with explanation
 - [ ] Page for contributors
-    - [ ] Github page
-    - [ ] `.json` source
+    - [x] Github page
+    - [x] `.json` source
     - [ ] `.json` scheme
     - [ ] To notice 
 
 
 ## Additionals
 
-- [ ] Favicon
+- [x] Favicon
 - [ ] Responsive view
 - [x] Consistent header on every page
 - [x] Consistent footer on every page

@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <router-link :to="{ name: 'synopsis' }" :class="$route.name == 'synopsis' ? 'active' : ''" class="navbar-brand"
                 aria-current="page">
-                <img src="../../public/favicon.svg" alt="Bootstrap" width="33" height="33">
+                <img src="/favicon.svg" alt="Bootstrap" width="33" height="33">
             </router-link>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
