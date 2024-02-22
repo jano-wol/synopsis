@@ -1,18 +1,14 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-
-interface CitationScheme {
-  citation: string;
-  primary: boolean;
-  leading: boolean;
-  content: { text: string, chapter: string, verse: string }[];
-}
-
+import type { CitationScheme } from '@/interfaces/synopsisInterface';
 
 export default {
   props: {
     name: String,
-    citation: { type: Object }
+    citation: {
+      type: Object as PropType<CitationScheme | null>,
+      required: true
+    }
   }
 }
 </script>
@@ -30,8 +26,5 @@ export default {
         </template>
       </p>
     </div>
-    <!-- <div class="card-footer">
-                                                            </div> -->
-
   </div>
 </template>

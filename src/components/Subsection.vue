@@ -1,14 +1,14 @@
 <script lang="ts">
 import Citation from '@/components/Citation.vue'
+import type { SubsectionScheme } from '@/interfaces/synopsisInterface';
+import type { PropType } from 'vue';
 
 export default {
     props: {
-        subsectionName: String,
-        number: String,
-        matthew: { type: Array<Object>, required: true },
-        mark: { type: Array<Object>, required: true },
-        luke: { type: Array<Object>, required: true },
-        john: { type: Array<Object>, required: true },
+        subsection: {
+            type: Object as PropType<SubsectionScheme>,
+            required: true
+        }
 
     },
     components: {
@@ -18,26 +18,26 @@ export default {
 </script>
 
 <template>
-    <div class="row" :id="number">
+    <div class="row" :id="subsection.number">
 
         <h3 class=" event text-center display-6 mt-5">
-            {{ number }}. {{ subsectionName }}
+            {{ subsection.number }}. {{ subsection.subsection_name }}
         </h3>
     </div>
 
-    <template v-for="index in matthew?.length">
+    <template v-for="index in subsection.Mt.length">
         <div class="row content mx-3">
             <div class="col-3 pb-3">
-                <Citation :citation="matthew[index - 1]" name="Máté" />
+                <Citation :citation="subsection.Mt[index - 1]" name="Máté" />
             </div>
             <div class="col-3 pb-3">
-                <Citation :citation="mark[index - 1]" name="Márk" />
+                <Citation :citation="subsection.Mk[index - 1]" name="Márk" />
             </div>
             <div class="col-3 pb-3">
-                <Citation :citation="luke[index - 1]" name="Lukács" />
+                <Citation :citation="subsection.Lk[index - 1]" name="Lukács" />
             </div>
             <div class="col-3 pb-3">
-                <Citation :citation="john[index - 1]" name="János" />
+                <Citation :citation="subsection.Jn[index - 1]" name="János" />
             </div>
         </div>
     </template>
