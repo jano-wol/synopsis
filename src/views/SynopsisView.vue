@@ -3,12 +3,11 @@ import Chapter from '@/components/Chapter.vue'
 import type { ChapterScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
-const chapters: ChapterScheme[] = useSynopsisStore().synopsis.chapters
 
 export default {
   data() {
     return {
-      chapters: chapters
+      chapters: useSynopsisStore().synopsis.chapters as ChapterScheme[]
     }
   },
   components:
