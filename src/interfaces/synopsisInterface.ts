@@ -13,12 +13,12 @@ export interface SectionScheme {
 }
 
 export interface SubsectionScheme {
-    number: string
+    id: string
     subsection_name: string
-    Mt: (CitationScheme | null)[]
-    Mk: (CitationScheme | null)[]
-    Lk: (CitationScheme | null)[]
-    Jn: (CitationScheme | null)[]
+    mt: (CitationScheme | null)[]
+    mk: (CitationScheme | null)[]
+    lk: (CitationScheme | null)[]
+    jn: (CitationScheme | null)[]
 }
 
 export interface CitationScheme {

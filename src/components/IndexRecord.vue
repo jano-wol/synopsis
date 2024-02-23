@@ -5,7 +5,7 @@ import IndexCitation from '@/components/IndexCitation.vue';
 export default {
     props: {
         chapterName: String,
-        sections: Object
+        sections: Object //TODO: proper typing
     },
     components: {
         IndexCitation
@@ -35,22 +35,22 @@ export default {
             <tbody>
                 <tr v-for="subsection in section.subsections">
                     <th class="col-1" scope="row">
-                        <router-link :to="{ name: 'synopsis', hash: '#' + subsection.number }">
-                            {{ subsection.number }}
+                        <router-link :to="{ name: 'synopsis', hash: '#' + subsection.id }">
+                            {{ subsection.id }}
                         </router-link>
                     </th>
                     <td class="col-7">{{ subsection.subsection_name }}</td>
                     <td class="col-1">
-                        <IndexCitation :citations="subsection.Mt" />
+                        <IndexCitation :citations="subsection.mt" />
                     </td>
                     <td class="col-1">
-                        <IndexCitation :citations="subsection.Mk" />
+                        <IndexCitation :citations="subsection.mk" />
                     </td>
                     <td class="col-1">
-                        <IndexCitation :citations="subsection.Lk" />
+                        <IndexCitation :citations="subsection.lk" />
                     </td>
                     <td class="col-1">
-                        <IndexCitation :citations="subsection.Jn" />
+                        <IndexCitation :citations="subsection.jn" />
                     </td>
                 </tr>
             </tbody>
