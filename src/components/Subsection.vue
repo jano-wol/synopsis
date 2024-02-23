@@ -52,11 +52,10 @@ export default {
 
 <template>
     <div class="row" :id="subsection.number">
-
         <h3 class=" event text-center display-6 mt-5">
             {{ subsection.number }}. {{ subsection.subsection_name }}
-            <button @click="copyShareLink(subsection.number)" type="button" class="btn btn-outline-dark">
-                {{ isCopied ? 'Copied!' : 'Share!' }}
+            <button @click="copyShareLink(subsection.number)" type="button" class="btn  btn-sm">
+                <i class="bi fs-5 text-secondary" :class="{ 'bi-clipboard': !isCopied, 'bi-check': isCopied }"></i>
             </button>
         </h3>
     </div>
