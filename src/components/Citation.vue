@@ -68,7 +68,8 @@ export default {
       {{ evangelistName }} {{ citation?.citation }}
       <button v-if="!citation.leading"
         @click="locateLeadingCitation(citation.content[0].chapter, citation.content[0].verse)" type="button"
-        class=" float-end btn  btn-sm py-0 m-0">
+        class=" float-end btn  btn-sm py-0 m-0" data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-title="Ugrás a törzsszöveghez">
 
         <i class="bi bi-compass fs-6 text-secondary"></i>
       </button>

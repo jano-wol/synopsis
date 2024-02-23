@@ -2,11 +2,19 @@
 import { RouterView } from 'vue-router'
 import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
+import { Tooltip } from 'bootstrap'
+
 
 export default {
   components: {
     Footer, Header
-  }
+  },
+  mounted() {
+    new Tooltip(document.body, {
+      selector: "[data-bs-toggle='tooltip']",
+      trigger: "hover"
+    })
+  },
 }
 </script>
 
