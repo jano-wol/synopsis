@@ -60,16 +60,34 @@ export default {
 </script>
 
 <template>
-    <div class="row" :id="subsection.id">
-        <h3 class=" event text-center display-6 mt-5">
-            {{ subsection.id }}. {{ subsection.subsection_name }}
-            <button @click="copyIdLink(subsection.id)" type="button" class="btn  btn-sm m-0">
-                <i class="bi fs-5 text-secondary" :class="{ 'bi-clipboard': !isIdCopied, 'bi-check': isIdCopied }"></i>
+    <div class="row align-items-center" :id="subsection.id">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+            <h3 class="text-center display-6">
+                {{ subsection.id }}. {{ subsection.subsection_name }}
+            </h3>
+        </div>
+        <div class="col-1">
+            <router-link v-if="!$route.params.id" :to="{ name: 'subsection', params: { id: subsection.id } }"
+                target="_blank">
+                <button type="button" class=" float-right btn  btn-sm m-0">
+                    <i class="bi bi-arrow-up-right-square fs-6 text-secondary"></i>
+                </button>
+            </router-link>
+            <router-link v-if="$route.params.id" :to="{ name: 'synopsis', hash: '#' + subsection.id }">
+                <button type="button" class=" float-right btn  btn-sm m-0">
+                    <i class="bi bi-arrow-down-left-square fs-6 text-secondary"></i>
+                </button>
+            </router-link>
+            <button @click="copyIdLink(subsection.id)" type="button" class=" float-right btn  btn-sm m-0">
+                <i class="bi fs-6 text-secondary" :class="{ 'bi-clipboard': !isIdCopied, 'bi-check': isIdCopied }"></i>
             </button>
-            <button @click="copyShareLink(subsection.id)" type="button" class="btn  btn-sm">
-                <i class="bi fs-5 text-secondary" :class="{ 'bi-share': !isShareCopied, 'bi-check': isShareCopied }"></i>
+            <button @click="copyShareLink(subsection.id)" type="button" class="float-right  btn  btn-sm">
+                <i class="bi fs-6 text-secondary" :class="{ 'bi-share': !isShareCopied, 'bi-check': isShareCopied }"></i>
             </button>
-        </h3>
+        </div>
+
     </div>
 
     <template v-for="index in subsection.mt.length">

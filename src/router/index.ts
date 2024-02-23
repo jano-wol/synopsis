@@ -47,6 +47,9 @@ const router = createRouter({
         el: to.hash,
       }
     }
+    else{
+      return {top: 1}
+    }
   },
 })
 
