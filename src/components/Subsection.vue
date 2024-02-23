@@ -81,7 +81,7 @@ export default {
                 </button>
             </router-link>
             <button @click="copyIdLink(subsection.id)" type="button" class=" float-right btn  btn-sm m-0">
-                <i class="bi fs-6 text-secondary" :class="{ 'bi-clipboard': !isIdCopied, 'bi-check': isIdCopied }"></i>
+                <i class="bi fs-6 text-secondary" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
             </button>
             <button @click="copyShareLink(subsection.id)" type="button" class="float-right  btn  btn-sm">
                 <i class="bi fs-6 text-secondary" :class="{ 'bi-share': !isShareCopied, 'bi-check': isShareCopied }"></i>
