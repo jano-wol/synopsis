@@ -93,17 +93,19 @@ export default {
     <template v-for="index in subsection.mt.length">
         <div class="row content mx-3">
             <div class="col-3 pb-3">
-                <Citation v-if="subsection.mt[index - 1] !== null" :citation="subsection.mt[index - 1]" name="Máté" />
+                <Citation v-if="subsection.mt[index - 1] !== null" :citation="subsection.mt[index - 1]" evangelist="mt" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="subsection.mk[index - 1] !== null" :citation="subsection.mk[index - 1]" name="Márk" />
+                <Citation v-if="subsection.mk[index - 1] !== null" :citation="subsection.mk[index - 1]" evangelist="mk" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="subsection.lk[index - 1] !== null" :citation="subsection.lk[index - 1]" name="Lukács" />
+                <Citation v-if="subsection.lk[index - 1] !== null" :citation="subsection.lk[index - 1]" evangelist="lk" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="subsection.jn[index - 1] !== null" :citation="subsection.jn[index - 1]" name="János" />
+                <Citation v-if="subsection.jn[index - 1] !== null" :citation="subsection.jn[index - 1]" evangelist="jn" />
             </div>
         </div>
     </template>
 </template>
+
+<!-- :id="(subsection.mt[index - 1].leading ? 'leading-' : '') + 'mt-' + (subsection.mt[index - 1].citation)" -->

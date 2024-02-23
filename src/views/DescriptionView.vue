@@ -25,15 +25,18 @@
             <li><i class="bi bi-arrow-up-right-square"></i> vagy <i class="bi bi-arrow-down-left-square"></i> : <br> A
                 megnyitás külön oldalon ( <i class="bi bi-arrow-up-right-square"></i> ) gomb megnyomásával az adott
                 alszekció megnyitható egy különálló, saját aloldalon. <br> A megnyitás az eredeti helyen ( <i
-                    class="bi bi-arrow-down-left-square"></i> ) gomb megnyomásával az adott alszekció megnyitható a
+                    class="bi bi-arrow-down-left-square"></i> ) gomb megnyomásával az adott alszekció elérhető a
                 Szinopszis egész szövegében elhelyezve.
             </li>
-            <li><i class="bi bi-clipboard"></i> : A másolás gomb megnyomásával vágólapra kerül a link, ami az adott
+            <li><i class="bi bi-link-45deg"></i> : A másolás gomb megnyomásával vágólapra kerül a link, ami az adott
                 alszekcióra mutat az Szinopszis egész szövegében elhelyezve.</li>
             <li><i class="bi bi-share"></i> : A megosztás gomb megnyomásával vágólapra kerül a link, ami az adott
                 alszekcióra mutat különállóan, egy saját aloldalon.</li>
         </ul>
-        
+
+        <p>A párhuzamos szövegek fejlécében látható átirányítás ( <i class="bi bi-compass"></i> ) gomb megnyomásával az
+            adott párhuzamos szöveghez tartozó törzsszöveg elérhető Szinopszis egész szövegében elhelyezve. </p>
+
         <p>
             További részletekért lásd a <router-link :to="{ name: 'details' }">Részletek</router-link> menüpontot.
         </p>
