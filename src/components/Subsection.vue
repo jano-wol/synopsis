@@ -30,7 +30,8 @@ export default {
     data() {
         return {
             subsection: locateSubsection(this.id),
-            isCopied: false
+            isShareCopied: false,
+            isIdCopied: false,
         }
     },
     components: {
@@ -38,13 +39,21 @@ export default {
     },
     methods: {
         copyShareLink(id: string) {
-            navigator.clipboard.writeText(window.location.origin + this.$router.currentRoute.value.fullPath + id);
-            this.isCopied = true
-            setTimeout(() => {
-                this.isCopied = false;
-            }, 1500);
+            console.log(this.$router);
 
-        }
+            navigator.clipboard.writeText(window.location.origin + "/" + id);
+            this.isShareCopied = true
+            setTimeout(() => {
+                this.isShareCopied = false;
+            }, 1500);
+        },
+        copyIdLink(id: string) {
+            navigator.clipboard.writeText(window.location.origin + "/#" + id);
+            this.isIdCopied = true
+            setTimeout(() => {
+                this.isIdCopied = false;
+            }, 1500);
+        },
     }
 }
 
@@ -54,8 +63,11 @@ export default {
     <div class="row" :id="subsection.id">
         <h3 class=" event text-center display-6 mt-5">
             {{ subsection.id }}. {{ subsection.subsection_name }}
+            <button @click="copyIdLink(subsection.id)" type="button" class="btn  btn-sm m-0">
+                <i class="bi fs-5 text-secondary" :class="{ 'bi-clipboard': !isIdCopied, 'bi-check': isIdCopied }"></i>
+            </button>
             <button @click="copyShareLink(subsection.id)" type="button" class="btn  btn-sm">
-                <i class="bi fs-5 text-secondary" :class="{ 'bi-clipboard': !isCopied, 'bi-check': isCopied }"></i>
+                <i class="bi fs-5 text-secondary" :class="{ 'bi-share': !isShareCopied, 'bi-check': isShareCopied }"></i>
             </button>
         </h3>
     </div>
