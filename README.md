@@ -27,11 +27,11 @@
 - [x] Consistent header on every page
 - [x] Consistent footer on every page
 - [ ] Non-primary parallels
-- [ ] Links to subsections.
+- [x] Links to subsections.
     - [x] `/#:id` anchor links in main page
     - [x] Anchor links in table of content
-    - [ ] `/:id` URLs for subsection
-    - [ ] Copy link buttons
+    - [x] `/:id` URLs for subsection
+    - [x] Copy link buttons
 - [ ] Daily readings
     - [ ] Highlight citations which contains part of daily reading
     - [ ] `/:date` URLs for each subsection contains part of daily reading of the given date
@@ -42,6 +42,9 @@
     - [ ] Adding Polish translation
     - [ ] Creating interface for adding any translation by contributors
     - [ ] Interface for language switching
+- [] Text box functions
+    - [ ] Button for leading boxes: jump to following leading box.
+    - [ ] Button for other boxes: jump to source leading leading text.
 - [ ] Current subsection location visualization on a map
 
 
