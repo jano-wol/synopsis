@@ -50,7 +50,7 @@
 ## To-dos
 - Check proper ts typing everywhere
 - Correct copy to clipboard on `/:id` subsection pages
-- Substitute databas `.json` keys with better names
+- Substitute database `.json` keys with better names
 
 ## Project Setup
 
