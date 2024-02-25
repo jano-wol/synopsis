@@ -97,16 +97,20 @@ export default {
     <template v-for="index in subsection.mt.length">
         <div class="row content mx-3">
             <div class="col-3 pb-3">
-                <Citation v-if="subsection.mt[index - 1] !== null" :citation="subsection.mt[index - 1]" evangelist="mt" />
+                <Citation v-if="subsection.mt[index - 1] !== null" :citation="subsection.mt[index - 1]" evangelist="mt"
+                    :subsection-id="subsection.id" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="subsection.mk[index - 1] !== null" :citation="subsection.mk[index - 1]" evangelist="mk" />
+                <Citation v-if="subsection.mk[index - 1] !== null" :citation="subsection.mk[index - 1]" evangelist="mk"
+                    :subsection-id="subsection.id" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="subsection.lk[index - 1] !== null" :citation="subsection.lk[index - 1]" evangelist="lk" />
+                <Citation v-if="subsection.lk[index - 1] !== null" :citation="subsection.lk[index - 1]" evangelist="lk"
+                    :subsection-id="subsection.id" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="subsection.jn[index - 1] !== null" :citation="subsection.jn[index - 1]" evangelist="jn" />
+                <Citation v-if="subsection.jn[index - 1] !== null" :citation="subsection.jn[index - 1]" evangelist="jn"
+                    :subsection-id="subsection.id" />
             </div>
         </div>
     </template>

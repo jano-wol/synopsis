@@ -14,12 +14,13 @@
             <li>A törzsszöveg fekete kerettel és árnyékkal jelenik meg. A <router-link
                     :to="{ name: 'index' }">tartalomjegyzékben</router-link> vastag kiemeléssel szerepelnek
                 a hozzá tartozó idézetek. A törzsszöveg a teljes evangéliumot tartalmazza, ismétlődések nélkül, a versek
-                eredeti sorrendjében.</li>
+                eredeti sorrendjében. Minden alszekcióban egy evangélistához, legfeljebb egy törzsszöveg található.
+            </li>
             <li>A párhuzamos szöveg szürke kerettel és árnyék nélkül jelenik meg.</li>
         </ul>
 
         <p>
-            Minden alszekció mellett három gomb található.
+            Az alszekciók címe mellett a következő gombok találhatók.
         </p>
         <ul>
             <li><i class="bi bi-arrow-up-right-square"></i> vagy <i class="bi bi-arrow-down-left-square"></i> : <br> A
@@ -34,8 +35,19 @@
                 alszekcióra mutat különállóan, egy saját aloldalon.</li>
         </ul>
 
-        <p>A párhuzamos szövegek fejlécében látható átirányítás ( <i class="bi bi-compass"></i> ) gomb megnyomásával az
-            adott párhuzamos szöveghez tartozó törzsszöveg elérhető Szinopszis egész szövegében elhelyezve. </p>
+        <p>
+            Az szövegdobozok fejlécében a következő gombok találhatók.
+        </p>
+        <ul>
+            <li><i class="bi bi-compass"></i> : Az átirányítás gombra kattintva az adott párhuzamos szöveg törzsszevegének
+                az alszekciója érhető el a Szinopszis egész szövegében elhelyezve.
+            </li>
+            <li><i class="bi bi-arrow-up"></i> és <i class="bi bi-arrow-down"></i> : Az navigációs gombokra kattintva az
+                adott törzsszöveget megelőző ( <i class="bi bi-arrow-up"></i> ), illetve követő ( <i class="bi bi-arrow-down"></i> ) törzsszöveg alszekciója érhető el a Szinopszis egész
+                szövegében elhelyezve.
+            </li>
+
+        </ul>
 
         <p>
             További részletekért lásd a <router-link :to="{ name: 'details' }">Részletek</router-link> menüpontot.
