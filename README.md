@@ -42,14 +42,13 @@
     - [ ] Adding Polish translation
     - [ ] Creating interface for adding any translation by contributors
     - [ ] Interface for language switching
-- [ ] Text box functions
-    - [ ] Button for leading boxes: jump to following leading box.
-    - [ ] Button for other boxes: jump to source leading leading text.
+- [x] Text box functions
+    - [x] Button for leading boxes: jump to following leading box.
+    - [x] Button for other boxes: jump to source leading leading text.
 - [ ] Current subsection location visualization on a map
 
 ## To-dos
 - Check proper ts typing everywhere
-- Correct copy to clipboard on `/:id` subsection pages
 - Substitute database `.json` keys with better names
 
 ## Project Setup
