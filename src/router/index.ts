@@ -4,6 +4,7 @@ import IndexView from '@/views/IndexView.vue'
 import DetailsView from '@/views/DetailsView.vue'
 import DescriptionView from '@/views/DescriptionView.vue'
 import DevelopersView from '@/views/DevelopersView.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
 import Subsection from '@/components/Subsection.vue'
 
 const router = createRouter({
@@ -35,10 +36,14 @@ const router = createRouter({
       component: DevelopersView
     },
     {
-      path: '/:id',
+      path: '/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
       name: 'subsection',
       component: Subsection,
       props: true
+    }, {
+      path: '/:param(\.*)',
+      name: 'tmp',
+      component: NotFoundView
     },
   ],
   scrollBehavior(to, from, savedPosition) {
@@ -47,8 +52,8 @@ const router = createRouter({
         el: to.hash,
       }
     }
-    else{
-      return {top: 1}
+    else {
+      return { top: 1 }
     }
   },
 })
