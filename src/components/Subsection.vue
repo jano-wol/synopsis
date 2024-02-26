@@ -88,7 +88,8 @@ export default {
             </button>
             <button @click="copyShareLink(subsection.id)" type="button" class="float-right  btn  btn-sm"
                 data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Megosztás">
-                <i class="bi fs-6 text-secondary" :class="{ 'bi-share': !isShareCopied, 'bi-check': isShareCopied }"></i>
+                <i class="bi fs-6 text-secondary"
+                    :class="{ 'bi-share-fill': !isShareCopied, 'bi-check': isShareCopied }"></i>
             </button>
         </div>
 
