@@ -42,7 +42,7 @@
             <li><i class="bi bi-compass"></i> : Az átirányítás gombra kattintva az adott párhuzamos szöveg törzsszevegének
                 az alszekciója érhető el a Szinopszis egész szövegében elhelyezve.
             </li>
-            <li><i class="bi bi-arrow-up"></i> és <i class="bi bi-arrow-down"></i> : Az navigációs gombokra kattintva az
+            <li><i class="bi bi-arrow-up"></i> és <i class="bi bi-arrow-down"></i> : A navigációs gombokra kattintva az
                 adott törzsszöveget megelőző ( <i class="bi bi-arrow-up"></i> ), illetve követő ( <i class="bi bi-arrow-down"></i> ) törzsszöveg alszekciója érhető el a Szinopszis egész
                 szövegében elhelyezve.
             </li>
