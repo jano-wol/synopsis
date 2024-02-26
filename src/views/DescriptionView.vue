@@ -36,7 +36,7 @@
         </ul>
 
         <p>
-            Az szövegdobozok fejlécében a következő gombok találhatók.
+            A különálló alszekció oldalak kivételével, a szövegdobozok fejlécében a következő gombok találhatók.
         </p>
         <ul>
             <li><i class="bi bi-compass"></i> : Az átirányítás gombra kattintva az adott párhuzamos szöveg törzsszevegének
