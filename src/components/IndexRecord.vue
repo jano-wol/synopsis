@@ -39,7 +39,11 @@ export default {
                             {{ subsection.id }}
                         </router-link>
                     </th>
-                    <td class="col-7">{{ subsection.subsection_name }}</td>
+                    <td class="col-7">
+                        <router-link :to="{ name: 'subsection', params: { id: subsection.id } }">
+                            {{ subsection.subsection_name }}
+                        </router-link>
+                    </td>
                     <td class="col-1">
                         <IndexCitation :citations="subsection.mt" />
                     </td>
