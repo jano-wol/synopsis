@@ -1,9 +1,13 @@
+<script setup lang="ts">
+import { useSynopsisStore } from '@/stores/SynopsisStore'
 
+
+</script>
 <template>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <router-link :to="{ name: 'synopsis' }" :class="$route.name == 'synopsis' ? 'active' : ''" class="navbar-brand"
-                aria-current="page">
+            <router-link :to="{ name: 'synopsis' }" :class="$route.name == 'synopsis' ? 'active' : ''"
+                class="navbar-brand" aria-current="page">
                 <img src="/favicon.svg" alt="Szinopszis" width="33" height="33">
             </router-link>
 
@@ -38,8 +42,12 @@
                             class="nav-link" aria-current="page">Fejlesztőknek
                         </router-link>
                     </li>
+                    <li>
+                        <button class="btn" @click="useSynopsisStore().changeLanguage()">Change l</button>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
+    {{ useSynopsisStore().synopsis.chapters[0].chapter_name }}
 </template>

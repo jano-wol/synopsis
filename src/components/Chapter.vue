@@ -2,13 +2,20 @@
 import Section from '@/components/Section.vue'
 import type { ChapterScheme } from '@/interfaces/synopsisInterface'
 import type { PropType } from 'vue';
+import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
 export default {
   props: {
-    chapter: {
-      type: Object as PropType<ChapterScheme>,
+    chapterLocation: {
+      //TODO: Proper typing
+      type: Object,
       required: true
+    }
+  },
+  data() {
+    return {
+      synopsisStore: useSynopsisStore()
     }
   },
   components: {
@@ -20,8 +27,10 @@ export default {
 <template>
   <div class="row">
     <h2 class="event text-center display-4 mt-5">
-      {{ chapter.chapter_name }}
+      <!-- {{ chapterIndex  }} -->
+      {{ synopsisStore.get(chapterLocation)?.chapter_name }}
     </h2>
   </div>
-  <Section v-for="section in chapter.sections" :section="section" />
+  <Section v-for="sectionIndex in synopsisStore.get(chapterLocation)?.sections.length"
+    :section-location="{ ...chapterLocation, sectionIndex: sectionIndex - 1 }" />
 </template>

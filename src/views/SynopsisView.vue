@@ -7,7 +7,7 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 export default {
   data() {
     return {
-      chapters: useSynopsisStore().synopsis.chapters as ChapterScheme[]
+      synopsisStore: useSynopsisStore()
     }
   },
   components:
@@ -22,7 +22,8 @@ export default {
   <div class="container-fluid">
     <h1 class="text-center display-1">Szinopszis</h1>
 
-    <Chapter v-for="chapter in chapters" :chapter="chapter" />
+    <Chapter v-for="chapterIndex in synopsisStore.synopsis.chapters.length"
+      :chapter-location="{ chapterIndex: chapterIndex - 1, sectionIndex: null, subsectionIndex: null}" />
 
   </div>
 </template>

@@ -1,11 +1,17 @@
 <script lang="ts">
 import IndexCitation from '@/components/IndexCitation.vue';
+import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
 export default {
     props: {
         chapterName: String,
         sections: Object //TODO: proper typing
+    },
+    data() {
+        return {
+            synopsisStore: useSynopsisStore()
+        }
     },
     components: {
         IndexCitation
