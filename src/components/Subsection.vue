@@ -34,7 +34,6 @@ export default {
     data() {
         return {
             synopsisStore: useSynopsisStore(),
-            subsection: locateSubsection(this.id),
             isShareCopied: false,
             isIdCopied: false,
         }
@@ -59,42 +58,47 @@ export default {
                 this.isIdCopied = false;
             }, 1500);
         },
+    },
+    computed:
+    {
+        subsection() {
+            return this.$route.params.id ? locateSubsection(this.$route.params.id as string) : this.synopsisStore.get(this.subsectionLocation)
+        }
     }
 }
 
 </script>
 
 <template>
-    <div class="row align-items-center" :id="synopsisStore.get(subsectionLocation).id">
+    <div class="row align-items-center" :id="subsection.id">
         <div class="col-1">
         </div>
         <div class="col-10">
             <h3 class="text-center display-6">
-                {{ synopsisStore.get(subsectionLocation).id }}. {{ synopsisStore.get(subsectionLocation).subsection_name }}
+                {{ subsection.id }}. {{ subsection.subsection_name
+                }}
             </h3>
         </div>
         <div class="col-1">
-            <router-link v-if="!$route.params.id"
-                :to="{ name: 'subsection', params: { id: synopsisStore.get(subsectionLocation).id } }" target="_blank">
-                <button type="button" class=" float-right btn  btn-sm m-0" data-bs-toggle="tooltip" data-bs-placement="top"
-                    data-bs-title="Megnyitás új oldalon.">
+            <router-link v-if="!$route.params.id" :to="{ name: 'subsection', params: { id: subsection.id } }"
+                target="_blank">
+                <button type="button" class=" float-right btn  btn-sm m-0" data-bs-toggle="tooltip"
+                    data-bs-placement="top" data-bs-title="Megnyitás új oldalon.">
                     <i class="bi bi-arrow-up-right-square fs-6 text-secondary"></i>
                 </button>
             </router-link>
-            <router-link v-if="$route.params.id"
-                :to="{ name: 'synopsis', hash: '#' + synopsisStore.get(subsectionLocation).id }" target="_blank">
-                <button type="button" class=" float-right btn  btn-sm m-0" data-bs-toggle="tooltip" data-bs-placement="top"
-                    data-bs-title="Megnyitás a Szinopszisban.">
+            <router-link v-if="$route.params.id" :to="{ name: 'synopsis', hash: '#' + subsection.id }" target="_blank">
+                <button type="button" class=" float-right btn  btn-sm m-0" data-bs-toggle="tooltip"
+                    data-bs-placement="top" data-bs-title="Megnyitás a Szinopszisban.">
                     <i class="bi bi-arrow-down-left-square fs-6 text-secondary"></i>
                 </button>
             </router-link>
-            <button @click="copyIdLink(synopsisStore.get(subsectionLocation).id)" type="button"
-                class=" float-right btn  btn-sm m-0" data-bs-toggle="tooltip" data-bs-placement="top"
-                data-bs-title="Alszekció másolása">
+            <button @click="copyIdLink(subsection.id)" type="button" class=" float-right btn  btn-sm m-0"
+                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Alszekció másolása">
                 <i class="bi fs-6 text-secondary" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
             </button>
-            <button @click="copyShareLink(synopsisStore.get(subsectionLocation).id)" type="button"
-                class="float-right  btn  btn-sm" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Megosztás">
+            <button @click="copyShareLink(subsection.id)" type="button" class="float-right  btn  btn-sm"
+                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Megosztás">
                 <i class="bi fs-6 text-secondary"
                     :class="{ 'bi-share-fill': !isShareCopied, 'bi-check': isShareCopied }"></i>
             </button>
@@ -102,29 +106,24 @@ export default {
 
     </div>
 
-    <template v-for="index in synopsisStore.get(subsectionLocation).mt.length">
+    <template v-for="index in subsection.mt.length">
         <div class="row content mx-3">
             <div class="col-3 pb-3">
-                <Citation v-if="synopsisStore.get(subsectionLocation).mt[index - 1] !== null"
-                    :citation="synopsisStore.get(subsectionLocation).mt[index - 1]" evangelist="mt"
-                    :subsection-id="synopsisStore.get(subsectionLocation).id" />
+                <Citation v-if="subsection.mt[index - 1] !== null" :citation="subsection.mt[index - 1]" evangelist="mt"
+                    :subsection-id="subsection.id" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="synopsisStore.get(subsectionLocation).mk[index - 1] !== null"
-                    :citation="synopsisStore.get(subsectionLocation).mk[index - 1]" evangelist="mk"
-                    :subsection-id="synopsisStore.get(subsectionLocation).id" />
+                <Citation v-if="subsection.mk[index - 1] !== null" :citation="subsection.mk[index - 1]" evangelist="mk"
+                    :subsection-id="subsection.id" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="synopsisStore.get(subsectionLocation).lk[index - 1] !== null"
-                    :citation="synopsisStore.get(subsectionLocation).lk[index - 1]" evangelist="lk"
-                    :subsection-id="synopsisStore.get(subsectionLocation).id" />
+                <Citation v-if="subsection.lk[index - 1] !== null" :citation="subsection.lk[index - 1]" evangelist="lk"
+                    :subsection-id="subsection.id" />
             </div>
             <div class="col-3 pb-3">
-                <Citation v-if="synopsisStore.get(subsectionLocation).jn[index - 1] !== null"
-                    :citation="synopsisStore.get(subsectionLocation).jn[index - 1]" evangelist="jn"
-                    :subsection-id="synopsisStore.get(subsectionLocation).id" />
+                <Citation v-if="subsection.jn[index - 1] !== null" :citation="subsection.jn[index - 1]" evangelist="jn"
+                    :subsection-id="subsection.id" />
             </div>
-    </div>
-</template></template>
-
-<!-- :id="(subsection.mt[index - 1].leading ? 'leading-' : '') + 'mt-' + (subsection.mt[index - 1].citation)" -->
+        </div>
+    </template>
+</template>
