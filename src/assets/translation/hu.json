@@ -7,11 +7,13 @@
         "development": "Fejlesztőknek"
     },
     "tooltips": {
-        "synopsis": "Synopsis",
-        "index": "Table of content",
-        "description": "Description",
-        "sources": "Sources",
-        "development": "Development"
+        "share": "Megosztási link másolása",
+        "location": "Alszekció pozició másolása",
+        "openInSynopsis": "Megnyitás a Szinopszisban",
+        "openSeparately": "Megnyitás külön oldalon",
+        "nextMainText": "Következő törzsszöveg",
+        "previousMainText": "Előző törzsszöveg",
+        "jumpToMainText": "Ugrás a törzsszöveghez"
     },
     "evangelists": {
         "mt": "Máté",

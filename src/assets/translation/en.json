@@ -7,11 +7,13 @@
         "development": "Development"
     },
     "tooltips": {
-        "synopsis": "Synopsis",
-        "index": "Table of content",
-        "description": "Description",
-        "sources": "Sources",
-        "development": "Development"
+        "share": "Copy share link",
+        "location": "Copy subsection link",
+        "openInSynopsis": "Open in Synopsis",
+        "openSeparately": "Open separately",
+        "nextMainText": "Next main text",
+        "previousMainText": "Previous main text",
+        "jumpToMainText": "Jump to main text"
     },
     "evangelists": {
         "mt": "Matthew",

@@ -32,10 +32,10 @@ export default {
                 <tr>
                     <th scope="col"></th>
                     <th scope="col"></th>
-                    <th class="text-center" scope="col">Máté</th>
-                    <th class="text-center" scope="col">Márk</th>
-                    <th class="text-center" scope="col">Lukács</th>
-                    <th class="text-center" scope="col">János</th>
+                    <th class="text-center" scope="col">{{ synopsisStore.translation.evangelists.mt }}</th>
+                    <th class="text-center" scope="col">{{ synopsisStore.translation.evangelists.mk }}</th>
+                    <th class="text-center" scope="col">{{ synopsisStore.translation.evangelists.lk }}</th>
+                    <th class="text-center" scope="col">{{ synopsisStore.translation.evangelists.jn }}</th>
                 </tr>
             </thead>
             <tbody>
