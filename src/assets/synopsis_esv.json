@@ -1,14 +1,14 @@
 {
     "chapters": [
         {
-            "chapter_name": "I. Bevezetés",
+            "chapter_name": "I. Preface",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "1",
-                            "subsection_name": "Prológus",
+                            "subsection_name": "Prologue",
                             "mt": [
                                 {
                                     "citation": "1,1",
@@ -171,14 +171,14 @@
             ]
         },
         {
-            "chapter_name": "II. Előtörténet",
+            "chapter_name": "II. Birth and Childhood",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "2",
-                            "subsection_name": "Keresztelő János születésének igérete",
+                            "subsection_name": "The Promise of the Birth of John the Baptist",
                             "mt": [
                                 null
                             ],
@@ -305,7 +305,7 @@
                         },
                         {
                             "id": "3",
-                            "subsection_name": "Jézus születésének igérete",
+                            "subsection_name": "The Annunciation",
                             "mt": [
                                 null
                             ],
@@ -392,7 +392,7 @@
                         },
                         {
                             "id": "4",
-                            "subsection_name": "Mária Erzsébetnél",
+                            "subsection_name": "Mary's Visit to Elizabeth",
                             "mt": [
                                 null
                             ],
@@ -504,7 +504,7 @@
                         },
                         {
                             "id": "5",
-                            "subsection_name": "Keresztelő János születése",
+                            "subsection_name": "The Birth of John the Baptist",
                             "mt": [
                                 null
                             ],
@@ -646,7 +646,7 @@
                         },
                         {
                             "id": "6",
-                            "subsection_name": "Jézus Krisztus származása",
+                            "subsection_name": "The Genealogy of Jesus",
                             "mt": [
                                 {
                                     "citation": "1,2-17",
@@ -834,7 +834,7 @@
                         },
                         {
                             "id": "7",
-                            "subsection_name": "Jézus Krisztus születése",
+                            "subsection_name": "The Birth of Jesus",
                             "mt": [
                                 {
                                     "citation": "1,18-25",
@@ -937,7 +937,7 @@
                         },
                         {
                             "id": "8",
-                            "subsection_name": "A gyermek imádása",
+                            "subsection_name": "The Adoration of the Infant Jesus",
                             "mt": [
                                 {
                                     "citation": "2,1-12",
@@ -1106,7 +1106,7 @@
                         },
                         {
                             "id": "9",
-                            "subsection_name": "Körülmetélés és bemutatás a templomban. Simeon és Anna",
+                            "subsection_name": "The Circumcision and Presentation in the Temple",
                             "mt": [
                                 null
                             ],
@@ -1218,7 +1218,7 @@
                         },
                         {
                             "id": "10",
-                            "subsection_name": "Menekülés Egyiptomba és visszatérés",
+                            "subsection_name": "The Flight into Egypt and Return",
                             "mt": [
                                 {
                                     "citation": "2,13-21",
@@ -1285,7 +1285,7 @@
                         },
                         {
                             "id": "11",
-                            "subsection_name": "Jézus gyermeksége Názáretben",
+                            "subsection_name": "The Childhood of Jesus at Nazareth",
                             "mt": [
                                 {
                                     "citation": "2,22-23",
@@ -1333,7 +1333,7 @@
                         },
                         {
                             "id": "12",
-                            "subsection_name": "A tizenkét éves Jézus a templomban",
+                            "subsection_name": "The Boy Jesus in the Temple",
                             "mt": [
                                 null
                             ],
@@ -1418,14 +1418,14 @@
             ]
         },
         {
-            "chapter_name": "III. Jézus útjának előkészítése",
+            "chapter_name": "III. Preparation",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "13",
-                            "subsection_name": "Keresztelő János",
+                            "subsection_name": "John the Baptist",
                             "mt": [
                                 {
                                     "citation": "3,1-6",
@@ -1632,7 +1632,7 @@
                         },
                         {
                             "id": "14",
-                            "subsection_name": "Keresztelő János megtérésre hívó beszéde",
+                            "subsection_name": "John's Preaching of Repentance",
                             "mt": [
                                 {
                                     "citation": "3,7-10",
@@ -1695,7 +1695,7 @@
                         },
                         {
                             "id": "15",
-                            "subsection_name": "Keresztelő János válaszai az őt kérdezőknek",
+                            "subsection_name": "John Replies to Questioners",
                             "mt": [
                                 null
                             ],
@@ -1742,7 +1742,7 @@
                         },
                         {
                             "id": "16",
-                            "subsection_name": "Keresztelő János bizonyságtétele a Messiásról",
+                            "subsection_name": "John's Messianic Preaching",
                             "mt": [
                                 {
                                     "citation": "3,11-12",
@@ -1847,7 +1847,7 @@
                         },
                         {
                             "id": "17",
-                            "subsection_name": "János elfogatása",
+                            "subsection_name": "The Imprisonment of John",
                             "mt": [
                                 {
                                     "citation": "14,3-4",
@@ -1911,7 +1911,7 @@
                         },
                         {
                             "id": "18",
-                            "subsection_name": "Jézus megkeresztelkedése",
+                            "subsection_name": "The Baptism of Jesus",
                             "mt": [
                                 {
                                     "citation": "3,13-17",
@@ -2089,7 +2089,7 @@
                         },
                         {
                             "id": "19",
-                            "subsection_name": "Jézus nemzetségi táblázata",
+                            "subsection_name": "The Genealogy of Jesus",
                             "mt": [
                                 {
                                     "citation": "1,1-17",
@@ -2282,7 +2282,7 @@
                         },
                         {
                             "id": "20",
-                            "subsection_name": "Jézus megkísértése",
+                            "subsection_name": "The Temptation",
                             "mt": [
                                 {
                                     "citation": "4,1-11",
@@ -2460,14 +2460,14 @@
             ]
         },
         {
-            "chapter_name": "IV. Jézus nyilvános működésének kezedete (János szerint)",
+            "chapter_name": "IV. The Beginning of Jesus' Public Ministry (According to John)",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "21",
-                            "subsection_name": "Jézus elhívja első tanítványait",
+                            "subsection_name": "The Call of the First Disciples",
                             "mt": [
                                 {
                                     "citation": "4,18-22",
@@ -2739,7 +2739,7 @@
                         },
                         {
                             "id": "22",
-                            "subsection_name": "A kánai menyegző",
+                            "subsection_name": "The Marriage at Cana",
                             "mt": [
                                 null
                             ],
@@ -2816,7 +2816,7 @@
                         },
                         {
                             "id": "23",
-                            "subsection_name": "Tartózkodás Kapernaumban",
+                            "subsection_name": "The Sojourn at Capernaum",
                             "mt": [
                                 null
                             ],
@@ -2843,7 +2843,7 @@
                         },
                         {
                             "id": "24",
-                            "subsection_name": "Jézus először megy Jeruzsálembe",
+                            "subsection_name": "The First Journey to Jerusalem",
                             "mt": [
                                 null
                             ],
@@ -2870,7 +2870,7 @@
                         },
                         {
                             "id": "25",
-                            "subsection_name": "Jézus megtisztítja a templomot",
+                            "subsection_name": "The Cleansing of the Temple",
                             "mt": [
                                 {
                                     "citation": "21,12-13",
@@ -3148,7 +3148,7 @@
                         },
                         {
                             "id": "26",
-                            "subsection_name": "Jézus Jeruzsálemben",
+                            "subsection_name": "Jesus' Ministry in Jerusalem",
                             "mt": [
                                 null
                             ],
@@ -3185,7 +3185,7 @@
                         },
                         {
                             "id": "27",
-                            "subsection_name": "Nikodémus Jézusnál",
+                            "subsection_name": "The Discourse with Nicodemus",
                             "mt": [
                                 null,
                                 {
@@ -3396,7 +3396,7 @@
                         },
                         {
                             "id": "28",
-                            "subsection_name": "Utazás Judeába",
+                            "subsection_name": "Jesus' Ministry in Judea",
                             "mt": [
                                 null
                             ],
@@ -3423,7 +3423,7 @@
                         },
                         {
                             "id": "29",
-                            "subsection_name": "Keresztelő János bizonyságtétele",
+                            "subsection_name": "John's Testimony to Christ",
                             "mt": [
                                 null,
                                 {
@@ -3565,14 +3565,14 @@
             ]
         },
         {
-            "chapter_name": "V. Jézus Galileában",
+            "chapter_name": "V. Jesus' Ministry in Galilee",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "30",
-                            "subsection_name": "Utazás Galileába",
+                            "subsection_name": "The Journey into Galilee",
                             "mt": [
                                 {
                                     "citation": "4,12",
@@ -3642,7 +3642,7 @@
                         },
                         {
                             "id": "31",
-                            "subsection_name": "Jézus és a samáriai asszony",
+                            "subsection_name": "The Discourse with the Woman of Samaria",
                             "mt": [
                                 null,
                                 {
@@ -3890,7 +3890,7 @@
                         },
                         {
                             "id": "32",
-                            "subsection_name": "Jézus Galileában",
+                            "subsection_name": "Ministry in Galilee",
                             "mt": [
                                 {
                                     "citation": "4,13-17",
@@ -4116,7 +4116,7 @@
                         },
                         {
                             "id": "33",
-                            "subsection_name": "Jézus Názáretben",
+                            "subsection_name": "Jesus' Preaching at Nazareth",
                             "mt": [
                                 {
                                     "citation": "13,53-58",
@@ -4285,7 +4285,7 @@
                         },
                         {
                             "id": "34",
-                            "subsection_name": "Jézus elhívja első tanítványait",
+                            "subsection_name": "The Call of the Disciples",
                             "mt": [
                                 {
                                     "citation": "4,18-22",
@@ -4363,7 +4363,7 @@
                         },
                         {
                             "id": "35",
-                            "subsection_name": "Jézus tanít a kapernaumi zsinagógában",
+                            "subsection_name": "Teaching in the Synagogue at Capernaum",
                             "mt": [
                                 null
                             ],
@@ -4411,7 +4411,7 @@
                         },
                         {
                             "id": "36",
-                            "subsection_name": "Jézus tisztátalan lelket űz ki",
+                            "subsection_name": "The Healing of the Demoniac in the Synagogue",
                             "mt": [
                                 null
                             ],
@@ -4494,7 +4494,7 @@
                         },
                         {
                             "id": "37",
-                            "subsection_name": "Jézus meggyógyítja Péter anyósát",
+                            "subsection_name": "The Healing of Peter's Mother-in-law",
                             "mt": [
                                 {
                                     "citation": "8,14-15",
@@ -4563,7 +4563,7 @@
                         },
                         {
                             "id": "38",
-                            "subsection_name": "Jézus sok beteget meggyógyít",
+                            "subsection_name": "The Sick Healed at Evening",
                             "mt": [
                                 {
                                     "citation": "8,16-17",
@@ -4632,7 +4632,7 @@
                         },
                         {
                             "id": "39",
-                            "subsection_name": "Jézus elhagyja Kapernaumot",
+                            "subsection_name": "Jesus Departs from Capernaurn",
                             "mt": [
                                 null
                             ],
@@ -4690,7 +4690,7 @@
                         },
                         {
                             "id": "40",
-                            "subsection_name": "Utazások Galileában",
+                            "subsection_name": "First Preaching Tour in Galilee",
                             "mt": [
                                 {
                                     "citation": "4,23",
@@ -4739,7 +4739,7 @@
                         },
                         {
                             "id": "41",
-                            "subsection_name": "Péter halfogása",
+                            "subsection_name": "The Miraculous Draught of Fish",
                             "mt": [
                                 null
                             ],
@@ -4816,7 +4816,7 @@
                         },
                         {
                             "id": "42",
-                            "subsection_name": "Jézus meggyógyít egy leprást",
+                            "subsection_name": "The Cleansing of the Leper",
                             "mt": [
                                 {
                                     "citation": "8,1-4",
@@ -4925,7 +4925,7 @@
                         },
                         {
                             "id": "43",
-                            "subsection_name": "Jézus meggyógyítja a bénát",
+                            "subsection_name": "The Healing of the Paralytic",
                             "mt": [
                                 {
                                     "citation": "9,1-8",
@@ -5125,7 +5125,7 @@
                         },
                         {
                             "id": "44",
-                            "subsection_name": "Jézus elhívja Lévit",
+                            "subsection_name": "The Call of Levi (Matthew)",
                             "mt": [
                                 {
                                     "citation": "9,9-13",
@@ -5239,7 +5239,7 @@
                         },
                         {
                             "id": "45",
-                            "subsection_name": "Jézus tanítása a böjtről",
+                            "subsection_name": "The Question about Fasting",
                             "mt": [
                                 {
                                     "citation": "9,14-17",
@@ -5353,7 +5353,7 @@
                         },
                         {
                             "id": "46",
-                            "subsection_name": "Kalásztépés szombaton",
+                            "subsection_name": "Plucking Grain on the Sabbath",
                             "mt": [
                                 {
                                     "citation": "12,1-8",
@@ -5482,7 +5482,7 @@
                         },
                         {
                             "id": "47",
-                            "subsection_name": "Jézus szombaton gyógyít",
+                            "subsection_name": "The Man with the Withered Hand",
                             "mt": [
                                 {
                                     "citation": "12,9-14",
@@ -5606,7 +5606,7 @@
                         },
                         {
                             "id": "48",
-                            "subsection_name": "Jézus sok beteget gyógyít a tenger mellett",
+                            "subsection_name": "Jesus Heals Multitudes by the Sea",
                             "mt": [
                                 {
                                     "citation": "4,24-25",
@@ -5715,7 +5715,7 @@
                         },
                         {
                             "id": "49",
-                            "subsection_name": "A tizenkét tanítvány elhívása",
+                            "subsection_name": "The Choosing of the Twelve",
                             "mt": [
                                 {
                                     "citation": "10,1-4",
@@ -5832,14 +5832,14 @@
             ]
         },
         {
-            "chapter_name": "VI. A hegyi beszéd (Máté szerint)",
+            "chapter_name": "VI. The Sermon on the Mount (According to Matthew)",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "50",
-                            "subsection_name": "Bevezetés",
+                            "subsection_name": "Occasion of the Sermon",
                             "mt": [
                                 {
                                     "citation": "4,24-5,2",
@@ -5948,7 +5948,7 @@
                         },
                         {
                             "id": "51",
-                            "subsection_name": "Kik a boldogok?",
+                            "subsection_name": "The Beatitudes",
                             "mt": [
                                 {
                                     "citation": "5,3-12",
@@ -6046,7 +6046,7 @@
                         },
                         {
                             "id": "52",
-                            "subsection_name": "Az ízetlenné vált só",
+                            "subsection_name": "The Salt of the Earth",
                             "mt": [
                                 {
                                     "citation": "5,13",
@@ -6105,7 +6105,7 @@
                         },
                         {
                             "id": "53",
-                            "subsection_name": "Példabeszéd a világosságról",
+                            "subsection_name": "The Light of the World",
                             "mt": [
                                 {
                                     "citation": "5,14-16",
@@ -6164,7 +6164,7 @@
                         },
                         {
                             "id": "54",
-                            "subsection_name": "A törvény magyarázata",
+                            "subsection_name": "On the Law and the Prophets",
                             "mt": [
                                 {
                                     "citation": "5,17-20",
@@ -6222,7 +6222,7 @@
                         },
                         {
                             "id": "55",
-                            "subsection_name": "Az ölésről és a haragról",
+                            "subsection_name": "On Murder and Wrath",
                             "mt": [
                                 {
                                     "citation": "5,21-26",
@@ -6295,7 +6295,7 @@
                         },
                         {
                             "id": "56",
-                            "subsection_name": "A házasságtörésről és a válásról",
+                            "subsection_name": "On Adultery and Divorce",
                             "mt": [
                                 {
                                     "citation": "5,27-32",
@@ -6394,7 +6394,7 @@
                         },
                         {
                             "id": "57",
-                            "subsection_name": "Az esküről",
+                            "subsection_name": "On Oaths",
                             "mt": [
                                 {
                                     "citation": "5,33-37",
@@ -6441,7 +6441,7 @@
                         },
                         {
                             "id": "58",
-                            "subsection_name": "A megtorlásról",
+                            "subsection_name": "On Retaliation",
                             "mt": [
                                 {
                                     "citation": "5,38-42",
@@ -6504,7 +6504,7 @@
                         },
                         {
                             "id": "59",
-                            "subsection_name": "Szeressétek ellenségeiteket!",
+                            "subsection_name": "On Love of One's Enemies",
                             "mt": [
                                 {
                                     "citation": "5,43-48",
@@ -6607,7 +6607,7 @@
                         },
                         {
                             "id": "60",
-                            "subsection_name": "Az adakozás",
+                            "subsection_name": "On Almsgiving",
                             "mt": [
                                 {
                                     "citation": "6,1-4",
@@ -6649,7 +6649,7 @@
                         },
                         {
                             "id": "61",
-                            "subsection_name": "Az imádkozás",
+                            "subsection_name": "On Prayer",
                             "mt": [
                                 {
                                     "citation": "6,5-6",
@@ -6681,7 +6681,7 @@
                         },
                         {
                             "id": "62",
-                            "subsection_name": "A Miatyánk",
+                            "subsection_name": "The Lord's Prayer",
                             "mt": [
                                 {
                                     "citation": "6,7-15",
@@ -6785,7 +6785,7 @@
                         },
                         {
                             "id": "63",
-                            "subsection_name": "A böjtölés",
+                            "subsection_name": "On Fasting",
                             "mt": [
                                 {
                                     "citation": "6,16-18",
@@ -6822,7 +6822,7 @@
                         },
                         {
                             "id": "64",
-                            "subsection_name": "Az igazi kincs",
+                            "subsection_name": "On Treasures",
                             "mt": [
                                 {
                                     "citation": "6,19-21",
@@ -6875,7 +6875,7 @@
                         },
                         {
                             "id": "65",
-                            "subsection_name": "A test lámpása a szem",
+                            "subsection_name": "The Sound Eye",
                             "mt": [
                                 {
                                     "citation": "6,22-23",
@@ -6928,7 +6928,7 @@
                         },
                         {
                             "id": "66",
-                            "subsection_name": "Isten és a mammon",
+                            "subsection_name": "On Serving Two Masters",
                             "mt": [
                                 {
                                     "citation": "6,24",
@@ -6966,7 +6966,7 @@
                         },
                         {
                             "id": "67",
-                            "subsection_name": "Isten gondviselése",
+                            "subsection_name": "On Anxiety",
                             "mt": [
                                 {
                                     "citation": "6,25-34",
@@ -7099,7 +7099,7 @@
                         },
                         {
                             "id": "68",
-                            "subsection_name": "A képmutató ítélkezés",
+                            "subsection_name": "On Judging",
                             "mt": [
                                 {
                                     "citation": "7,1-5",
@@ -7198,7 +7198,7 @@
                         },
                         {
                             "id": "69",
-                            "subsection_name": "A szent dolgok megbecsülése",
+                            "subsection_name": "On Profaning the Holy",
                             "mt": [
                                 {
                                     "citation": "7,6",
@@ -7225,7 +7225,7 @@
                         },
                         {
                             "id": "70",
-                            "subsection_name": "Az imádság meghallgatása",
+                            "subsection_name": "God's Answering of Prayer",
                             "mt": [
                                 {
                                     "citation": "7,7-11",
@@ -7303,7 +7303,7 @@
                         },
                         {
                             "id": "71",
-                            "subsection_name": "Az aranyszabály",
+                            "subsection_name": "The Golden Rule",
                             "mt": [
                                 {
                                     "citation": "7,12",
@@ -7341,7 +7341,7 @@
                         },
                         {
                             "id": "72",
-                            "subsection_name": "Szoros kapu, keskeny út",
+                            "subsection_name": "The Two Ways",
                             "mt": [
                                 {
                                     "citation": "7,13-14",
@@ -7389,7 +7389,7 @@
                         },
                         {
                             "id": "73",
-                            "subsection_name": "A hamis próféták",
+                            "subsection_name": "\"By their Fruits\"",
                             "mt": [
                                 {
                                     "citation": "7,15-20",
@@ -7487,7 +7487,7 @@
                         },
                         {
                             "id": "74",
-                            "subsection_name": "Isten akaratának cselekvése",
+                            "subsection_name": "\"Saying Lord, Lord\"",
                             "mt": [
                                 {
                                     "citation": "7,21-23",
@@ -7560,7 +7560,7 @@
                         },
                         {
                             "id": "75",
-                            "subsection_name": "Aki kősziklára épít",
+                            "subsection_name": "The House Built upon the Rock",
                             "mt": [
                                 {
                                     "citation": "7,24-27",
@@ -7623,7 +7623,7 @@
                         },
                         {
                             "id": "76",
-                            "subsection_name": "A Hegyi Beszéd vége",
+                            "subsection_name": "The Effect of the Sermon",
                             "mt": [
                                 {
                                     "citation": "7,28-29",
@@ -7674,14 +7674,14 @@
             ]
         },
         {
-            "chapter_name": "VII. A mezőn mondott beszéd (Lukács szerint)",
+            "chapter_name": "VII. The Sermon on the Plain (According to Luke)",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "77",
-                            "subsection_name": "Jézus tanít és gyógyít",
+                            "subsection_name": "Occasion of the Sermon",
                             "mt": [
                                 {
                                     "citation": "4,24-5,2",
@@ -7790,7 +7790,7 @@
                         },
                         {
                             "id": "78",
-                            "subsection_name": "Kik a boldogok?",
+                            "subsection_name": "The Beatitudes",
                             "mt": [
                                 {
                                     "citation": "5,3-12",
@@ -7888,7 +7888,7 @@
                         },
                         {
                             "id": "79",
-                            "subsection_name": "„Jaj nektek!”",
+                            "subsection_name": "The Woes",
                             "mt": [
                                 null
                             ],
@@ -7925,7 +7925,7 @@
                         },
                         {
                             "id": "80",
-                            "subsection_name": "Az ellenség szeretete",
+                            "subsection_name": "On Love of One's Enemies",
                             "mt": [
                                 {
                                     "citation": "5,38-48",
@@ -8058,7 +8058,7 @@
                         },
                         {
                             "id": "81",
-                            "subsection_name": "A képmutató ítélkezés",
+                            "subsection_name": "On Judging",
                             "mt": [
                                 {
                                     "citation": "7,1-5",
@@ -8157,7 +8157,7 @@
                         },
                         {
                             "id": "82",
-                            "subsection_name": "Amilyen a fa, olyan a gyümölcse",
+                            "subsection_name": "\"By their Fruits\"",
                             "mt": [
                                 {
                                     "citation": "7,15-20",
@@ -8255,7 +8255,7 @@
                         },
                         {
                             "id": "83",
-                            "subsection_name": "Aki kősziklára épít",
+                            "subsection_name": "The House Built upon the Rock",
                             "mt": [
                                 {
                                     "citation": "7,21-27",
@@ -8341,14 +8341,14 @@
             ]
         },
         {
-            "chapter_name": "VIII. Jézus további működése Galileában",
+            "chapter_name": "VII. Jesus' Ministry in Galilee Continued",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "84",
-                            "subsection_name": "Jézus meggyógyít egy leprást",
+                            "subsection_name": "Cleansing of the Leper",
                             "mt": [
                                 {
                                     "citation": "8,1-4",
@@ -8457,7 +8457,7 @@
                         },
                         {
                             "id": "85",
-                            "subsection_name": "Jézus meggyógyítja a kapernaumi százados szolgáját",
+                            "subsection_name": "The Centurion of Capernaum",
                             "mt": [
                                 {
                                     "citation": "8,5-13",
@@ -8666,7 +8666,7 @@
                         },
                         {
                             "id": "86",
-                            "subsection_name": "Jézus feltámasztja a naini ifjút",
+                            "subsection_name": "The Widow's Son at Nain",
                             "mt": [
                                 null
                             ],
@@ -8723,7 +8723,7 @@
                         },
                         {
                             "id": "87",
-                            "subsection_name": "Jézus meggyógyítja Péter anyósát",
+                            "subsection_name": "The Healing of Peter's Mother-in-law",
                             "mt": [
                                 {
                                     "citation": "8,14-15",
@@ -8792,7 +8792,7 @@
                         },
                         {
                             "id": "88",
-                            "subsection_name": "Jézus sok beteget meggyógyít",
+                            "subsection_name": "The Sick Healed at Evening",
                             "mt": [
                                 {
                                     "citation": "8,16-17",
@@ -8861,7 +8861,7 @@
                         },
                         {
                             "id": "89",
-                            "subsection_name": "Jézus követése",
+                            "subsection_name": "On Following Jesus",
                             "mt": [
                                 {
                                     "citation": "8,18-22",
@@ -8944,7 +8944,7 @@
                         },
                         {
                             "id": "90",
-                            "subsection_name": "Jézus lecsendesíti a tengert",
+                            "subsection_name": "Stilling the Storm",
                             "mt": [
                                 {
                                     "citation": "8,23-27",
@@ -9058,7 +9058,7 @@
                         },
                         {
                             "id": "91",
-                            "subsection_name": "Jézus meggyógyít két gadarai megszállottat",
+                            "subsection_name": "The Gadarene Demoniacs",
                             "mt": [
                                 {
                                     "citation": "8,28-34",
@@ -9297,7 +9297,7 @@
                         },
                         {
                             "id": "92",
-                            "subsection_name": "Jézus meggyógyítja a bénát",
+                            "subsection_name": "The Healing of the Paralytic",
                             "mt": [
                                 {
                                     "citation": "9,1-8",
@@ -9497,7 +9497,7 @@
                         },
                         {
                             "id": "93",
-                            "subsection_name": "Jézus elhívja Mátét",
+                            "subsection_name": "The Call of Levi (Matthew)",
                             "mt": [
                                 {
                                     "citation": "9,9-13",
@@ -9611,7 +9611,7 @@
                         },
                         {
                             "id": "94",
-                            "subsection_name": "Jézus tanítása a böjtről",
+                            "subsection_name": "The Question about Fasting",
                             "mt": [
                                 {
                                     "citation": "9,14-17",
@@ -9725,7 +9725,7 @@
                         },
                         {
                             "id": "95",
-                            "subsection_name": "A vérfolyásos asszony meggyógyítása. Jairus lányának feltámasztása",
+                            "subsection_name": "Jairus' Daughter and the Woman with a Hemorrhage",
                             "mt": [
                                 {
                                     "citation": "9,18-26",
@@ -10004,7 +10004,7 @@
                         },
                         {
                             "id": "96",
-                            "subsection_name": "Jézus meggyógyít két vakot",
+                            "subsection_name": "Two Blind Men",
                             "mt": [
                                 {
                                     "citation": "9,27-31",
@@ -10183,7 +10183,7 @@
                         },
                         {
                             "id": "97",
-                            "subsection_name": "Jézus meggyógyítja a megszállott némát",
+                            "subsection_name": "The Dumb Demoniac",
                             "mt": [
                                 {
                                     "citation": "9,32-34",
@@ -10272,7 +10272,7 @@
                         },
                         {
                             "id": "98",
-                            "subsection_name": "Az aratnivaló sok, a munkás kevés",
+                            "subsection_name": "The Harvest is Great",
                             "mt": [
                                 {
                                     "citation": "9,35-38",
@@ -10362,7 +10362,7 @@
                         },
                         {
                             "id": "99",
-                            "subsection_name": "Jézus kiküldi tizenkét tanítványát",
+                            "subsection_name": "Commissioning the Twelve",
                             "mt": [
                                 {
                                     "citation": "10,1-16",
@@ -10633,7 +10633,7 @@
                         },
                         {
                             "id": "100",
-                            "subsection_name": "A tanítványok sorsa",
+                            "subsection_name": "The Fate of the Disciples",
                             "mt": [
                                 {
                                     "citation": "10,17-25",
@@ -10859,7 +10859,7 @@
                         },
                         {
                             "id": "101",
-                            "subsection_name": "Figyelmeztetés a félelem nélküli hitvallásra",
+                            "subsection_name": "Exhortation to Fearless Confession",
                             "mt": [
                                 {
                                     "citation": "10,26-33",
@@ -10967,7 +10967,7 @@
                         },
                         {
                             "id": "102",
-                            "subsection_name": "Jézus küldetéséről",
+                            "subsection_name": "Divisions within Households",
                             "mt": [
                                 {
                                     "citation": "10,34-36",
@@ -11025,7 +11025,7 @@
                         },
                         {
                             "id": "103",
-                            "subsection_name": "Jézus követésének feltételei",
+                            "subsection_name": "Conditions of Discipleship",
                             "mt": [
                                 {
                                     "citation": "10,37-39",
@@ -11109,7 +11109,7 @@
                         },
                         {
                             "id": "104",
-                            "subsection_name": "Jézus ígérete az őt követőknek",
+                            "subsection_name": "Rewards of Discipleship",
                             "mt": [
                                 {
                                     "citation": "10,40-42",
@@ -11179,7 +11179,7 @@
                         },
                         {
                             "id": "105",
-                            "subsection_name": "Az út folytatása",
+                            "subsection_name": "Continuation of Journey",
                             "mt": [
                                 {
                                     "citation": "11,1",
@@ -11206,7 +11206,7 @@
                         },
                         {
                             "id": "106",
-                            "subsection_name": "Keresztelő János kérdése és Jézus válasza",
+                            "subsection_name": "John the Baptist's Question and Jesus' Answer",
                             "mt": [
                                 {
                                     "citation": "11,2-6",
@@ -11289,7 +11289,7 @@
                         },
                         {
                             "id": "107",
-                            "subsection_name": "Jézus bizonyságtétele Keresztelő Jánosról",
+                            "subsection_name": "Jesus' Witness concerning John",
                             "mt": [
                                 {
                                     "citation": "11,7-19",
@@ -11457,7 +11457,7 @@
                         },
                         {
                             "id": "108",
-                            "subsection_name": "Jézus kárhoztatja a meg nem térő galileai városokat",
+                            "subsection_name": "Woes Pronounced on Galilean Cities",
                             "mt": [
                                 {
                                     "citation": "11,20-24",
@@ -11530,7 +11530,7 @@
                         },
                         {
                             "id": "109",
-                            "subsection_name": "Jézus hálaadása: az Atya dicsérete",
+                            "subsection_name": "Jesus' Thanksgiving to the Father",
                             "mt": [
                                 {
                                     "citation": "11,25-27",
@@ -11583,7 +11583,7 @@
                         },
                         {
                             "id": "110",
-                            "subsection_name": "Jézus magához hívja a megfáradtakat és megterhelteket",
+                            "subsection_name": "\"Come unto Me\"",
                             "mt": [
                                 {
                                     "citation": "11,28-30",
@@ -11620,7 +11620,7 @@
                         },
                         {
                             "id": "111",
-                            "subsection_name": "Kalásztépés szombaton",
+                            "subsection_name": "Plucking Grain on the Sabbath",
                             "mt": [
                                 {
                                     "citation": "12,1-8",
@@ -11749,7 +11749,7 @@
                         },
                         {
                             "id": "112",
-                            "subsection_name": "Jézus meggyógyítja a sorvadt kezűt szombaton",
+                            "subsection_name": "Healing the Withered Hand",
                             "mt": [
                                 {
                                     "citation": "12,9-14",
@@ -11873,7 +11873,7 @@
                         },
                         {
                             "id": "113",
-                            "subsection_name": "Jézus sok beteget gyógyít a tenger mellett",
+                            "subsection_name": "Jesus Heals Multitudes by the Sea",
                             "mt": [
                                 {
                                     "citation": "12,15-21",
@@ -11987,7 +11987,7 @@
                         },
                         {
                             "id": "114",
-                            "subsection_name": "A bűnös nő megkeni Jézus lábát",
+                            "subsection_name": "The Woman with the Ointment",
                             "mt": [
                                 {
                                     "citation": "26,6-13",
@@ -12217,7 +12217,7 @@
                         },
                         {
                             "id": "115",
-                            "subsection_name": "A Jézust követő asszonyok",
+                            "subsection_name": "The Ministering Women",
                             "mt": [
                                 null
                             ],
@@ -12254,7 +12254,7 @@
                         },
                         {
                             "id": "116",
-                            "subsection_name": "Jézus rokonainak a szándéka",
+                            "subsection_name": "Jesus is Thought to be Beside Himself",
                             "mt": [
                                 null
                             ],
@@ -12286,7 +12286,7 @@
                         },
                         {
                             "id": "117",
-                            "subsection_name": "Jézust Belzebub szövetségesének mondják",
+                            "subsection_name": "On Collusion with Satan",
                             "mt": [
                                 {
                                     "citation": "12,22-30",
@@ -12471,7 +12471,7 @@
                         },
                         {
                             "id": "118",
-                            "subsection_name": "A Szentlélek elleni bűn",
+                            "subsection_name": "The Sin against the Holy Spirit",
                             "mt": [
                                 {
                                     "citation": "12,31-37",
@@ -12616,7 +12616,7 @@
                         },
                         {
                             "id": "119",
-                            "subsection_name": "Jézustól jelt kívánnak",
+                            "subsection_name": "The Sign of Jonah",
                             "mt": [
                                 {
                                     "citation": "12,38-42",
@@ -12751,7 +12751,7 @@
                         },
                         {
                             "id": "120",
-                            "subsection_name": "A visszaesésről",
+                            "subsection_name": "The Return of the Evil Spirit",
                             "mt": [
                                 {
                                     "citation": "12,43-45",
@@ -12809,7 +12809,7 @@
                         },
                         {
                             "id": "121",
-                            "subsection_name": "Jézus igazi rokonai",
+                            "subsection_name": "Jesus' True Kindred",
                             "mt": [
                                 {
                                     "citation": "12,46-50",
@@ -12919,7 +12919,7 @@
                         },
                         {
                             "id": "122",
-                            "subsection_name": "Példabeszéd a magvetőről",
+                            "subsection_name": "The Parable of the Sower",
                             "mt": [
                                 {
                                     "citation": "13,1-9",
@@ -13068,7 +13068,7 @@
                         },
                         {
                             "id": "123",
-                            "subsection_name": "Miért mondasz példabeszédeket?",
+                            "subsection_name": "The Reason for Speaking in Parables",
                             "mt": [
                                 {
                                     "citation": "13,10-17",
@@ -13213,7 +13213,7 @@
                         },
                         {
                             "id": "124",
-                            "subsection_name": "A magvetőről szóló példázat magyarázata",
+                            "subsection_name": "Interpretation of the Parable of the Sower",
                             "mt": [
                                 {
                                     "citation": "13,18-23",
@@ -13342,7 +13342,7 @@
                         },
                         {
                             "id": "125",
-                            "subsection_name": "„Ha valakinek van füle a hallásra, hallja!”",
+                            "subsection_name": "\"He who has Ears to Hear, Let him Hear\"",
                             "mt": [
                                 {
                                     "citation": "5,15",
@@ -13466,7 +13466,7 @@
                         },
                         {
                             "id": "126",
-                            "subsection_name": "A magától növekedő vetés",
+                            "subsection_name": "The Parable of the Seed Growing Secretly",
                             "mt": [
                                 null
                             ],
@@ -13508,7 +13508,7 @@
                         },
                         {
                             "id": "127",
-                            "subsection_name": "A búza és a konkoly",
+                            "subsection_name": "The Parable of the Tares",
                             "mt": [
                                 {
                                     "citation": "13,24-30",
@@ -13565,7 +13565,7 @@
                         },
                         {
                             "id": "128",
-                            "subsection_name": "A mustármag",
+                            "subsection_name": "The Parable of the Mustard Seed",
                             "mt": [
                                 {
                                     "citation": "13,31-32",
@@ -13634,7 +13634,7 @@
                         },
                         {
                             "id": "129",
-                            "subsection_name": "A kovász",
+                            "subsection_name": "The Parable of the Leaven",
                             "mt": [
                                 {
                                     "citation": "13,33",
@@ -13677,7 +13677,7 @@
                         },
                         {
                             "id": "130",
-                            "subsection_name": "Jézus példázatairól",
+                            "subsection_name": "Jesus' Use of Parables",
                             "mt": [
                                 {
                                     "citation": "13,34-35",
@@ -13725,7 +13725,7 @@
                         },
                         {
                             "id": "131",
-                            "subsection_name": "A búza és a konkoly példázatának értelme",
+                            "subsection_name": "Interpretation of the Parable of the Tares",
                             "mt": [
                                 {
                                     "citation": "13,36-43",
@@ -13787,7 +13787,7 @@
                         },
                         {
                             "id": "132",
-                            "subsection_name": "Az elrejtett kincs és az igazgyöngy",
+                            "subsection_name": "The Parables of the Hidden Treasure and of the Pearl",
                             "mt": [
                                 {
                                     "citation": "13,44-46",
@@ -13824,7 +13824,7 @@
                         },
                         {
                             "id": "133",
-                            "subsection_name": "A hálóról",
+                            "subsection_name": "The Parable of the Net",
                             "mt": [
                                 {
                                     "citation": "13,47-50",
@@ -13866,7 +13866,7 @@
                         },
                         {
                             "id": "134",
-                            "subsection_name": "A gazda",
+                            "subsection_name": "Treasures New and Old",
                             "mt": [
                                 {
                                     "citation": "13,51-52",
@@ -13898,7 +13898,7 @@
                         },
                         {
                             "id": "135",
-                            "subsection_name": "Jézus igazi rokonai",
+                            "subsection_name": "Jesus' True Kindred",
                             "mt": [
                                 {
                                     "citation": "12,46-50",
@@ -14008,7 +14008,7 @@
                         },
                         {
                             "id": "136",
-                            "subsection_name": "Jézus lecsendesíti a tengert",
+                            "subsection_name": "Stilling the Storm",
                             "mt": [
                                 {
                                     "citation": "8,23-27",
@@ -14122,7 +14122,7 @@
                         },
                         {
                             "id": "137",
-                            "subsection_name": "Jézus meggyógyítja a gadarai megszállottat",
+                            "subsection_name": "The Gerasene Demoniac",
                             "mt": [
                                 {
                                     "citation": "8,28-34",
@@ -14361,7 +14361,7 @@
                         },
                         {
                             "id": "138",
-                            "subsection_name": "A vérfolyásos asszony meggyógyítása. Jairus leányának feltámasztása",
+                            "subsection_name": "Jairus' Daughter and the Woman with a Hemorrhage",
                             "mt": [
                                 {
                                     "citation": "9,18-26",
@@ -14640,7 +14640,7 @@
                         },
                         {
                             "id": "139",
-                            "subsection_name": "Jézus Názáretben",
+                            "subsection_name": "Jesus is Rejected at Nazareth",
                             "mt": [
                                 {
                                     "citation": "13,53-58",
@@ -14809,7 +14809,7 @@
                         },
                         {
                             "id": "140",
-                            "subsection_name": "Jézus második útja Jeruzsálembe",
+                            "subsection_name": "Second Journey (to Jerusalem)",
                             "mt": [
                                 null
                             ],
@@ -14836,7 +14836,7 @@
                         },
                         {
                             "id": "141",
-                            "subsection_name": "Jézus beteget gyógyít szombaton a Betesda tavánál",
+                            "subsection_name": "The Healing at the Pool",
                             "mt": [
                                 null
                             ],
@@ -15088,7 +15088,7 @@
                         },
                         {
                             "id": "142",
-                            "subsection_name": "Jézus kiküldi tizenkét tanítványát",
+                            "subsection_name": "Commissioning the Twelve",
                             "mt": [
                                 {
                                     "citation": "9,35",
@@ -15257,7 +15257,7 @@
                         },
                         {
                             "id": "143",
-                            "subsection_name": "Heródes és a nép vélekedése Jézusról",
+                            "subsection_name": "Opinions regarding Jesus",
                             "mt": [
                                 {
                                     "citation": "14,1-2",
@@ -15331,7 +15331,7 @@
                         },
                         {
                             "id": "144",
-                            "subsection_name": "Keresztelő János halála",
+                            "subsection_name": "The Death of John the Baptist",
                             "mt": [
                                 {
                                     "citation": "14,3-12",
@@ -15490,7 +15490,7 @@
                         },
                         {
                             "id": "145",
-                            "subsection_name": "A tanítványok visszatérése",
+                            "subsection_name": "The Return of the Apostles",
                             "mt": [
                                 null
                             ],
@@ -15533,7 +15533,7 @@
                         },
                         {
                             "id": "146",
-                            "subsection_name": "Ötezer ember megvendégelése",
+                            "subsection_name": "Five Thousand are Fed",
                             "mt": [
                                 {
                                     "citation": "14,13-21",
@@ -15798,7 +15798,7 @@
                         },
                         {
                             "id": "147",
-                            "subsection_name": "Jézus a tengeren jár",
+                            "subsection_name": "The Walking on the Water",
                             "mt": [
                                 {
                                     "citation": "14,22-33",
@@ -15962,7 +15962,7 @@
                         },
                         {
                             "id": "148",
-                            "subsection_name": "Jézus sok beteget meggyógyít",
+                            "subsection_name": "Healings at Gennesaret",
                             "mt": [
                                 {
                                     "citation": "14,34-36",
@@ -16051,7 +16051,7 @@
                         },
                         {
                             "id": "149",
-                            "subsection_name": "Jézus az élet kenyere",
+                            "subsection_name": "The Bread of Life",
                             "mt": [
                                 null
                             ],
@@ -16243,7 +16243,7 @@
                         },
                         {
                             "id": "150",
-                            "subsection_name": "Jézus tanítása a tisztaságról",
+                            "subsection_name": "Defilement - Traditional and Real",
                             "mt": [
                                 {
                                     "citation": "15,1-20",
@@ -16532,7 +16532,7 @@
                         },
                         {
                             "id": "151",
-                            "subsection_name": "A kánaáni asszony",
+                            "subsection_name": "The Syrophoenician (Canaanite) Woman",
                             "mt": [
                                 {
                                     "citation": "15,21-28",
@@ -16635,7 +16635,7 @@
                         },
                         {
                             "id": "152",
-                            "subsection_name": "A süketnéma és sok beteg meggyógyítása",
+                            "subsection_name": "Jesus Heals a Deaf Mute and Many Others",
                             "mt": [
                                 {
                                     "citation": "15,29-31",
@@ -16713,7 +16713,7 @@
                         },
                         {
                             "id": "153",
-                            "subsection_name": "Négyezer ember megvendégelése",
+                            "subsection_name": "Four Thousand are Fed",
                             "mt": [
                                 {
                                     "citation": "15,32-39",
@@ -16831,7 +16831,7 @@
                         },
                         {
                             "id": "154",
-                            "subsection_name": "A farizeusok jelt kívánnak",
+                            "subsection_name": "The Pharisees Seek a Sign",
                             "mt": [
                                 {
                                     "citation": "16,1-4",
@@ -16961,7 +16961,7 @@
                         },
                         {
                             "id": "155",
-                            "subsection_name": "„Őrizkedjetek a farizeusok kovászától!”",
+                            "subsection_name": "The Leaven of the Pharisees",
                             "mt": [
                                 {
                                     "citation": "16,5-12",
@@ -17080,7 +17080,7 @@
                         },
                         {
                             "id": "156",
-                            "subsection_name": "A bétsaidai vak meggyógyítása",
+                            "subsection_name": "A Blind Man is Healed at Bethsaida",
                             "mt": [
                                 null
                             ],
@@ -17130,14 +17130,14 @@
             ]
         },
         {
-            "chapter_name": "IX. A szenvedések útján",
+            "chapter_name": "IX. The Way to the Cross",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "157",
-                            "subsection_name": "A tanítványok zúgolódása",
+                            "subsection_name": "Many Disciples Take Offense at Jesus",
                             "mt": [
                                 null
                             ],
@@ -17194,7 +17194,7 @@
                         },
                         {
                             "id": "158",
-                            "subsection_name": "Péter vallástétele",
+                            "subsection_name": "Peter's Confession",
                             "mt": [
                                 {
                                     "citation": "16,13-20",
@@ -17339,7 +17339,7 @@
                         },
                         {
                             "id": "159",
-                            "subsection_name": "Jézus először szól nyíltan haláláról és feltámadásáról",
+                            "subsection_name": "Jesus Foretells His Passion",
                             "mt": [
                                 {
                                     "citation": "16,21-23",
@@ -17408,7 +17408,7 @@
                         },
                         {
                             "id": "160",
-                            "subsection_name": "Jézus követése",
+                            "subsection_name": "\"If Any Man would Come after Me\"",
                             "mt": [
                                 {
                                     "citation": "16,24-28",
@@ -17533,7 +17533,7 @@
                         },
                         {
                             "id": "161",
-                            "subsection_name": "Jézus megdicsőülése",
+                            "subsection_name": "The Transfiguration",
                             "mt": [
                                 {
                                     "citation": "17,1-9",
@@ -17702,7 +17702,7 @@
                         },
                         {
                             "id": "162",
-                            "subsection_name": "Illés eljövetele",
+                            "subsection_name": "The Coming of Elijah",
                             "mt": [
                                 {
                                     "citation": "17,10-13",
@@ -17765,7 +17765,7 @@
                         },
                         {
                             "id": "163",
-                            "subsection_name": "A holdkóros (megszállott) fiú meggyógyítása",
+                            "subsection_name": "Jesus Heals a Boy Possessed by a Spirit",
                             "mt": [
                                 {
                                     "citation": "17,14-21",
@@ -17969,7 +17969,7 @@
                         },
                         {
                             "id": "164",
-                            "subsection_name": "Jézus másodszor szól haláláról és feltámadásáról",
+                            "subsection_name": "Jesus Foretells His Passion again",
                             "mt": [
                                 {
                                     "citation": "17,22-23",
@@ -18043,7 +18043,7 @@
                         },
                         {
                             "id": "165",
-                            "subsection_name": "Jézus megfizeti a templomadót",
+                            "subsection_name": "Payment of the Temple Tax",
                             "mt": [
                                 {
                                     "citation": "17,24-27",
@@ -18085,7 +18085,7 @@
                         },
                         {
                             "id": "166",
-                            "subsection_name": "A tanítványok vetélkedése",
+                            "subsection_name": "True Greatness",
                             "mt": [
                                 {
                                     "citation": "18,1-5",
@@ -18195,7 +18195,7 @@
                         },
                         {
                             "id": "167",
-                            "subsection_name": "Az ismeretlen ördögűző. Jézus türelemre int",
+                            "subsection_name": "The Strange Exorcist",
                             "mt": [
                                 {
                                     "citation": "10,42",
@@ -18264,7 +18264,7 @@
                         },
                         {
                             "id": "168",
-                            "subsection_name": "Óvás a megbotránkoztatástól",
+                            "subsection_name": "Warnings concerning Temptations",
                             "mt": [
                                 {
                                     "citation": "18,6-9",
@@ -18404,7 +18404,7 @@
                         },
                         {
                             "id": "169",
-                            "subsection_name": "Az eltévedt juh",
+                            "subsection_name": "The Parable of the Lost Sheep",
                             "mt": [
                                 {
                                     "citation": "18,10-14",
@@ -18482,7 +18482,7 @@
                         },
                         {
                             "id": "170",
-                            "subsection_name": "Testvériség a gyülekezetben",
+                            "subsection_name": "On Reproving One's Brother",
                             "mt": [
                                 {
                                     "citation": "18,15-18",
@@ -18546,7 +18546,7 @@
                         },
                         {
                             "id": "171",
-                            "subsection_name": "Ahol ketten vagy hárman összegyűlnek…",
+                            "subsection_name": "\"Where Two or Three are Gathered Together\"",
                             "mt": [
                                 {
                                     "citation": "18,19-20",
@@ -18578,7 +18578,7 @@
                         },
                         {
                             "id": "172",
-                            "subsection_name": "A megbocsátás",
+                            "subsection_name": "On Reconciliation",
                             "mt": [
                                 {
                                     "citation": "18,21-22",
@@ -18621,7 +18621,7 @@
                         },
                         {
                             "id": "173",
-                            "subsection_name": "A gonosz szolga",
+                            "subsection_name": "The Parable of the Unforgiving Servant",
                             "mt": [
                                 {
                                     "citation": "18,23-35",
@@ -18711,14 +18711,14 @@
             ]
         },
         {
-            "chapter_name": "X. Úton Jeruzsálembe (Lukács szerint)",
+            "chapter_name": "X. Last Journey to Jerusalem (According to Luke)",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "174",
-                            "subsection_name": "Útban Galileából",
+                            "subsection_name": "Decision to Go to Jerusalem",
                             "mt": [
                                 {
                                     "citation": "19,1-2",
@@ -18772,7 +18772,7 @@
                         },
                         {
                             "id": "175",
-                            "subsection_name": "Jézust nem fogadják be egy samáriai faluban",
+                            "subsection_name": "Jesus is Rejected by Samaritans",
                             "mt": [
                                 null
                             ],
@@ -18819,7 +18819,7 @@
                         },
                         {
                             "id": "176",
-                            "subsection_name": "Jézus követése",
+                            "subsection_name": "On Following Jesus",
                             "mt": [
                                 {
                                     "citation": "8,18-22",
@@ -18902,7 +18902,7 @@
                         },
                         {
                             "id": "177",
-                            "subsection_name": "Jézus kiküldi hetvenkét tanítványát",
+                            "subsection_name": "Commissioning the Seventy",
                             "mt": [
                                 {
                                     "citation": "9,37-38",
@@ -19060,7 +19060,7 @@
                         },
                         {
                             "id": "178",
-                            "subsection_name": "Jézus kárhoztatja a meg nem térő galileai városokat",
+                            "subsection_name": "Woes Pronounced on Galilaean Cities",
                             "mt": [
                                 {
                                     "citation": "11,20-24",
@@ -19128,7 +19128,7 @@
                         },
                         {
                             "id": "179",
-                            "subsection_name": "„Aki titeket hallgat, engem hallgat”",
+                            "subsection_name": "\"He who Hears You, Hears Me\"",
                             "mt": [
                                 {
                                     "citation": "10,40",
@@ -19177,7 +19177,7 @@
                         },
                         {
                             "id": "180",
-                            "subsection_name": "A hetvenkét tanítvány visszatérése",
+                            "subsection_name": "The Return of the Seventy",
                             "mt": [
                                 null
                             ],
@@ -19219,7 +19219,7 @@
                         },
                         {
                             "id": "181",
-                            "subsection_name": "Jézus hálaadása",
+                            "subsection_name": "Jesus' Thanksgiving to the Father, and the Blessedness of the Disciples",
                             "mt": [
                                 {
                                     "citation": "11,25-27",
@@ -19302,7 +19302,7 @@
                         },
                         {
                             "id": "182",
-                            "subsection_name": "A nagy parancsolat",
+                            "subsection_name": "The Lawyer's Question",
                             "mt": [
                                 {
                                     "citation": "22,34-40",
@@ -19426,7 +19426,7 @@
                         },
                         {
                             "id": "183",
-                            "subsection_name": "Az irgalmas samaritánus",
+                            "subsection_name": "The Parable of the Good Samaritan",
                             "mt": [
                                 null
                             ],
@@ -19493,7 +19493,7 @@
                         },
                         {
                             "id": "184",
-                            "subsection_name": "Mária és Márta",
+                            "subsection_name": "Mary and Martha",
                             "mt": [
                                 null
                             ],
@@ -19540,7 +19540,7 @@
                         },
                         {
                             "id": "185",
-                            "subsection_name": "A Miatyánk",
+                            "subsection_name": "The Lord's Prayer",
                             "mt": [
                                 {
                                     "citation": "6,9-13",
@@ -19613,7 +19613,7 @@
                         },
                         {
                             "id": "186",
-                            "subsection_name": "Példázat a sürgős kérésről",
+                            "subsection_name": "The Importunate Friend at Midnight",
                             "mt": [
                                 null
                             ],
@@ -19655,7 +19655,7 @@
                         },
                         {
                             "id": "187",
-                            "subsection_name": "Az imádság meghallgatása",
+                            "subsection_name": "Encouragement to Pray",
                             "mt": [
                                 {
                                     "citation": "7,7-11",
@@ -19733,7 +19733,7 @@
                         },
                         {
                             "id": "188",
-                            "subsection_name": "Jézust Belzebub szövetségesének mondják",
+                            "subsection_name": "The Beelzebub Controversy",
                             "mt": [
                                 {
                                     "citation": "12,22-30",
@@ -19892,7 +19892,7 @@
                         },
                         {
                             "id": "189",
-                            "subsection_name": "A visszaesésről",
+                            "subsection_name": "The Return of the Evil Spirit",
                             "mt": [
                                 {
                                     "citation": "12,43-45",
@@ -19950,7 +19950,7 @@
                         },
                         {
                             "id": "190",
-                            "subsection_name": "Jézus anyját boldognak mondják",
+                            "subsection_name": "True Blessedness",
                             "mt": [
                                 null
                             ],
@@ -19982,7 +19982,7 @@
                         },
                         {
                             "id": "191",
-                            "subsection_name": "Jónás jele",
+                            "subsection_name": "The Sign of Jonah",
                             "mt": [
                                 {
                                     "citation": "12,38-42",
@@ -20071,7 +20071,7 @@
                         },
                         {
                             "id": "192",
-                            "subsection_name": "Példázat a lámpásról",
+                            "subsection_name": "Concerning Light",
                             "mt": [
                                 {
                                     "citation": "5,15",
@@ -20120,7 +20120,7 @@
                         },
                         {
                             "id": "193",
-                            "subsection_name": "A test lámpása a szem",
+                            "subsection_name": "The Sound Eye",
                             "mt": [
                                 {
                                     "citation": "6,22-23",
@@ -20173,7 +20173,7 @@
                         },
                         {
                             "id": "194",
-                            "subsection_name": "Jézus beszéde a farizeusok és a törvénytudók ellen",
+                            "subsection_name": "Discourses against the Pharisees and Lawyers",
                             "mt": [
                                 {
                                     "citation": "15,1-9",
@@ -20387,7 +20387,7 @@
                         },
                         {
                             "id": "195",
-                            "subsection_name": "„Óvakodjatok a farizeusok kovászától!”",
+                            "subsection_name": "The Leaven of the Pharisees",
                             "mt": [
                                 {
                                     "citation": "16,5-6",
@@ -20446,7 +20446,7 @@
                         },
                         {
                             "id": "196",
-                            "subsection_name": "Bátorítás vallástételre",
+                            "subsection_name": "Exhortation to Fearless Confession",
                             "mt": [
                                 {
                                     "citation": "10,26-33",
@@ -20554,7 +20554,7 @@
                         },
                         {
                             "id": "197",
-                            "subsection_name": "A Szentlélek elleni bűn",
+                            "subsection_name": "The Sin against the Holy Spirit",
                             "mt": [
                                 {
                                     "citation": "12,31-32",
@@ -20618,7 +20618,7 @@
                         },
                         {
                             "id": "198",
-                            "subsection_name": "A Szentlélek segítsége",
+                            "subsection_name": "The Assistance of the Holy Spirit",
                             "mt": [
                                 {
                                     "citation": "10,19-20",
@@ -20697,7 +20697,7 @@
                         },
                         {
                             "id": "199",
-                            "subsection_name": "A kapzsiságról",
+                            "subsection_name": "Warning against Avarice",
                             "mt": [
                                 null
                             ],
@@ -20734,7 +20734,7 @@
                         },
                         {
                             "id": "200",
-                            "subsection_name": "A bolond gazdag",
+                            "subsection_name": "The Parable of the Rich Fool",
                             "mt": [
                                 null
                             ],
@@ -20786,7 +20786,7 @@
                         },
                         {
                             "id": "201",
-                            "subsection_name": "Isten gondviselése",
+                            "subsection_name": "Anxieties about Earthly Things",
                             "mt": [
                                 {
                                     "citation": "6,25-34",
@@ -20919,7 +20919,7 @@
                         },
                         {
                             "id": "202",
-                            "subsection_name": "Az igazi kincs",
+                            "subsection_name": "Treasures in Heaven",
                             "mt": [
                                 {
                                     "citation": "6,19-21",
@@ -20972,7 +20972,7 @@
                         },
                         {
                             "id": "203",
-                            "subsection_name": "Intés vigyázásra. Az okos és a gonosz szolga",
+                            "subsection_name": "Watchfulness and Faithfulness",
                             "mt": [
                                 {
                                     "citation": "24,42-51",
@@ -21120,7 +21120,7 @@
                         },
                         {
                             "id": "204",
-                            "subsection_name": "Meghasonlás az evangélium miatt",
+                            "subsection_name": "Division in Households",
                             "mt": [
                                 {
                                     "citation": "10,34-36",
@@ -21188,7 +21188,7 @@
                         },
                         {
                             "id": "205",
-                            "subsection_name": "Az idők jele",
+                            "subsection_name": "Interpreting the Times",
                             "mt": [
                                 {
                                     "citation": "16,2-3",
@@ -21241,7 +21241,7 @@
                         },
                         {
                             "id": "206",
-                            "subsection_name": "Megbékélés útközben",
+                            "subsection_name": "Agreement with One's Accuser",
                             "mt": [
                                 {
                                     "citation": "5,25-26",
@@ -21294,7 +21294,7 @@
                         },
                         {
                             "id": "207",
-                            "subsection_name": "A terméketlen fügefa",
+                            "subsection_name": "Repentance or Destruction (the Parable of the Barren Fig Tree)",
                             "mt": [
                                 null
                             ],
@@ -21361,7 +21361,7 @@
                         },
                         {
                             "id": "208",
-                            "subsection_name": "Jézus meggyógyítja a meggörnyedt asszonyt",
+                            "subsection_name": "The Healing of the Crippled Woman on the Sabbath",
                             "mt": [
                                 null
                             ],
@@ -21423,7 +21423,7 @@
                         },
                         {
                             "id": "209",
-                            "subsection_name": "A mustármag",
+                            "subsection_name": "The Parable of the Mustard Seed",
                             "mt": [
                                 {
                                     "citation": "13,31-32",
@@ -21492,7 +21492,7 @@
                         },
                         {
                             "id": "210",
-                            "subsection_name": "A kovász",
+                            "subsection_name": "The Parable of the Leaven",
                             "mt": [
                                 {
                                     "citation": "13,33",
@@ -21535,7 +21535,7 @@
                         },
                         {
                             "id": "211",
-                            "subsection_name": "A szoros kapu",
+                            "subsection_name": "Exclusion from the Kingdom",
                             "mt": [
                                 {
                                     "citation": "7,13-14",
@@ -21684,7 +21684,7 @@
                         },
                         {
                             "id": "212",
-                            "subsection_name": "Jézus üzen Herodesnek",
+                            "subsection_name": "A Warning against Herod",
                             "mt": [
                                 null
                             ],
@@ -21721,7 +21721,7 @@
                         },
                         {
                             "id": "213",
-                            "subsection_name": "Jézus ítéletet mond Jeruzsálem felett",
+                            "subsection_name": "The Lament over Jerusalem",
                             "mt": [
                                 {
                                     "citation": "23,37-39",
@@ -21774,7 +21774,7 @@
                         },
                         {
                             "id": "214",
-                            "subsection_name": "Jézus meggyógyít egy vizkórost szombaton",
+                            "subsection_name": "The Healing of the Man with Dropsy",
                             "mt": [
                                 null
                             ],
@@ -21826,7 +21826,7 @@
                         },
                         {
                             "id": "215",
-                            "subsection_name": "A főhelyek válogatása. Vendéglátás viszonzás nélkül",
+                            "subsection_name": "Teaching on Humility",
                             "mt": [
                                 null
                             ],
@@ -21888,7 +21888,7 @@
                         },
                         {
                             "id": "216",
-                            "subsection_name": "A nagy vacsora",
+                            "subsection_name": "The Parable of the Great Supper",
                             "mt": [
                                 {
                                     "citation": "22,1-14",
@@ -22036,7 +22036,7 @@
                         },
                         {
                             "id": "217",
-                            "subsection_name": "Önmegtagadás és kereszthordozás",
+                            "subsection_name": "The Conditions of Discipleship",
                             "mt": [
                                 {
                                     "citation": "10,37-38",
@@ -22119,7 +22119,7 @@
                         },
                         {
                             "id": "218",
-                            "subsection_name": "Az izetlenné vált só",
+                            "subsection_name": "The Parable of Salt",
                             "mt": [
                                 {
                                     "citation": "5,13",
@@ -22178,7 +22178,7 @@
                         },
                         {
                             "id": "219",
-                            "subsection_name": "Az elveszett juh",
+                            "subsection_name": "The Parable of the Lost Sheep",
                             "mt": [
                                 {
                                     "citation": "18,12-14",
@@ -22256,7 +22256,7 @@
                         },
                         {
                             "id": "220",
-                            "subsection_name": "Az elveszett drahma",
+                            "subsection_name": "The Parable of the Lost Coin",
                             "mt": [
                                 null
                             ],
@@ -22293,7 +22293,7 @@
                         },
                         {
                             "id": "221",
-                            "subsection_name": "A tékozló fiú",
+                            "subsection_name": "The Parable of the Prodigal Son",
                             "mt": [
                                 null
                             ],
@@ -22425,7 +22425,7 @@
                         },
                         {
                             "id": "222",
-                            "subsection_name": "A hamis sáfár",
+                            "subsection_name": "The Parable of the Unjust Steward",
                             "mt": [
                                 null
                             ],
@@ -22492,7 +22492,7 @@
                         },
                         {
                             "id": "223",
-                            "subsection_name": "Hűség a kevésen",
+                            "subsection_name": "On Faithfulness in What is Least",
                             "mt": [
                                 null
                             ],
@@ -22529,7 +22529,7 @@
                         },
                         {
                             "id": "224",
-                            "subsection_name": "Isten és a mammon",
+                            "subsection_name": "On Serving Two Masters",
                             "mt": [
                                 {
                                     "citation": "6,24",
@@ -22567,7 +22567,7 @@
                         },
                         {
                             "id": "225",
-                            "subsection_name": "A farizeusok ellen",
+                            "subsection_name": "The Pharisees Reproved",
                             "mt": [
                                 null
                             ],
@@ -22599,7 +22599,7 @@
                         },
                         {
                             "id": "226",
-                            "subsection_name": "A törvény érvényessége",
+                            "subsection_name": "Concerning the Law",
                             "mt": [
                                 {
                                     "citation": "11,12-13",
@@ -22662,7 +22662,7 @@
                         },
                         {
                             "id": "227",
-                            "subsection_name": "A válás tilalma",
+                            "subsection_name": "Concerning Divorce",
                             "mt": [
                                 {
                                     "citation": "19,9",
@@ -22716,7 +22716,7 @@
                         },
                         {
                             "id": "228",
-                            "subsection_name": "A gazdag és Lázár",
+                            "subsection_name": "The Parable of the Rich Man and Lazarus",
                             "mt": [
                                 null
                             ],
@@ -22803,7 +22803,7 @@
                         },
                         {
                             "id": "229",
-                            "subsection_name": "Botránkozás és botránkoztatás",
+                            "subsection_name": "Warning against Offenses",
                             "mt": [
                                 {
                                     "citation": "18,6-7",
@@ -22867,7 +22867,7 @@
                         },
                         {
                             "id": "230",
-                            "subsection_name": "A megbocsátás",
+                            "subsection_name": "On Forgiveness",
                             "mt": [
                                 {
                                     "citation": "18,15",
@@ -22910,7 +22910,7 @@
                         },
                         {
                             "id": "231",
-                            "subsection_name": "A mustármagnyi hit",
+                            "subsection_name": "On Faith",
                             "mt": [
                                 {
                                     "citation": "17,19-21",
@@ -22979,7 +22979,7 @@
                         },
                         {
                             "id": "232",
-                            "subsection_name": "A szolga jutalma",
+                            "subsection_name": "We are Unprofitable Servants",
                             "mt": [
                                 null
                             ],
@@ -23021,7 +23021,7 @@
                         },
                         {
                             "id": "233",
-                            "subsection_name": "Tíz leprás meggyógyítása",
+                            "subsection_name": "The Cleansing of the Ten Lepers",
                             "mt": [
                                 null
                             ],
@@ -23088,7 +23088,7 @@
                         },
                         {
                             "id": "234",
-                            "subsection_name": "Isten országa eljövetele",
+                            "subsection_name": "On the Coming of the Kingdom of God",
                             "mt": [
                                 null
                             ],
@@ -23120,7 +23120,7 @@
                         },
                         {
                             "id": "235",
-                            "subsection_name": "Az Emberfia eljövetele",
+                            "subsection_name": "The Day of the Son of Man",
                             "mt": [
                                 {
                                     "citation": "24,23",
@@ -23411,7 +23411,7 @@
                         },
                         {
                             "id": "236",
-                            "subsection_name": "A hamis bíró",
+                            "subsection_name": "The Parable of the Unjust Judge",
                             "mt": [
                                 null
                             ],
@@ -23473,7 +23473,7 @@
                         },
                         {
                             "id": "237",
-                            "subsection_name": "A farizeus és a vámszedő",
+                            "subsection_name": "The Pharisee and the Publican",
                             "mt": [
                                 null
                             ],
@@ -23528,14 +23528,14 @@
             ]
         },
         {
-            "chapter_name": "XI. Jézus a lombsátor-ünnepen Jeruzsálemben (János szerint)",
+            "chapter_name": "XI. Jesus at the Feast of Tabernacles (According to John)",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "238",
-                            "subsection_name": "Jézus további tartózkodása Galileában",
+                            "subsection_name": "Jesus Remains in Galilee",
                             "mt": [
                                 null
                             ],
@@ -23602,7 +23602,7 @@
                         },
                         {
                             "id": "239",
-                            "subsection_name": "Jézus titokban Jeruzsálembe megy",
+                            "subsection_name": "Journey to Jerusalem in Secret",
                             "mt": [
                                 null
                             ],
@@ -23644,7 +23644,7 @@
                         },
                         {
                             "id": "240",
-                            "subsection_name": "Jézus nyilvánosan tanít a templomban",
+                            "subsection_name": "Teaching in the Temple",
                             "mt": [
                                 null
                             ],
@@ -23796,7 +23796,7 @@
                         },
                         {
                             "id": "241",
-                            "subsection_name": "Ellentétes vélemények Jézusról",
+                            "subsection_name": "Division among the People regarding Jesus",
                             "mt": [
                                 null
                             ],
@@ -23883,7 +23883,7 @@
                         },
                         {
                             "id": "242",
-                            "subsection_name": "Jézus és a házasságtörő asszony",
+                            "subsection_name": "The Woman Caught in Adultery",
                             "mt": [
                                 null
                             ],
@@ -23965,7 +23965,7 @@
                         },
                         {
                             "id": "243",
-                            "subsection_name": "Jézus a világ világossága",
+                            "subsection_name": "\"I am the Light of the World\"",
                             "mt": [
                                 null
                             ],
@@ -24032,7 +24032,7 @@
                         },
                         {
                             "id": "244",
-                            "subsection_name": "Jézus az Atyától jön, és az Atyához megy",
+                            "subsection_name": "Discussion with the Jews",
                             "mt": [
                                 null
                             ],
@@ -24099,7 +24099,7 @@
                         },
                         {
                             "id": "245",
-                            "subsection_name": "Jézus megszabadít a bűntől",
+                            "subsection_name": "\"The Truth will Make You Free\"",
                             "mt": [
                                 null
                             ],
@@ -24156,7 +24156,7 @@
                         },
                         {
                             "id": "246",
-                            "subsection_name": "Ábrahám utódai és az ördög fiai",
+                            "subsection_name": "Children of the Devil",
                             "mt": [
                                 null
                             ],
@@ -24233,7 +24233,7 @@
                         },
                         {
                             "id": "247",
-                            "subsection_name": "Jézus előbb volt, mint Ábrahám",
+                            "subsection_name": "\"Before Abraham was, I am\"",
                             "mt": [
                                 null
                             ],
@@ -24315,7 +24315,7 @@
                         },
                         {
                             "id": "248",
-                            "subsection_name": "A vakon született ember meggyógyítása szombaton",
+                            "subsection_name": "Jesus Heals the Man Born Blind",
                             "mt": [
                                 null
                             ],
@@ -24542,7 +24542,7 @@
                         },
                         {
                             "id": "249",
-                            "subsection_name": "A jó pásztor",
+                            "subsection_name": "\"I am the Good Shepherd\"",
                             "mt": [
                                 null
                             ],
@@ -24654,7 +24654,7 @@
                         },
                         {
                             "id": "250",
-                            "subsection_name": "A vélemények újabb megoszlása",
+                            "subsection_name": "Division among the Jews again",
                             "mt": [
                                 null
                             ],
@@ -24694,14 +24694,14 @@
             ]
         },
         {
-            "chapter_name": "XII. Jézus működése Júdeában",
+            "chapter_name": "XII. The Ministry in Judea",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "251",
-                            "subsection_name": "Úton Judeába",
+                            "subsection_name": "Departure to Judea",
                             "mt": [
                                 {
                                     "citation": "19,1-2",
@@ -24755,7 +24755,7 @@
                         },
                         {
                             "id": "252",
-                            "subsection_name": "Kérdés a házassági elválásról",
+                            "subsection_name": "On Divorce and Celibacy",
                             "mt": [
                                 {
                                     "citation": "19,3-12",
@@ -24899,7 +24899,7 @@
                         },
                         {
                             "id": "253",
-                            "subsection_name": "Jézus megáldja a gyermekeket",
+                            "subsection_name": "Jesus Blesses the Children",
                             "mt": [
                                 {
                                     "citation": "19,13-15",
@@ -24983,7 +24983,7 @@
                         },
                         {
                             "id": "254",
-                            "subsection_name": "A gazdag ifjú",
+                            "subsection_name": "The Rich Young Man",
                             "mt": [
                                 {
                                     "citation": "19,16-22",
@@ -25112,7 +25112,7 @@
                         },
                         {
                             "id": "255",
-                            "subsection_name": "A gazdagság veszélye és a tanítványok jutalma",
+                            "subsection_name": "On Riches and the Rewards of Discipleship",
                             "mt": [
                                 {
                                     "citation": "19,23-30",
@@ -25291,7 +25291,7 @@
                         },
                         {
                             "id": "256",
-                            "subsection_name": "A szőlőmunkások",
+                            "subsection_name": "The Parable of the Laborers in the Vineyard",
                             "mt": [
                                 {
                                     "citation": "20,1-16",
@@ -25415,7 +25415,7 @@
                         },
                         {
                             "id": "257",
-                            "subsection_name": "Jézus a templomszentelési ünnepen Jeruzsálemben",
+                            "subsection_name": "Jesus at the Feast of Dedication in Jerusalem",
                             "mt": [
                                 null
                             ],
@@ -25527,7 +25527,7 @@
                         },
                         {
                             "id": "258",
-                            "subsection_name": "Jézus a Jordánnál",
+                            "subsection_name": "Jesus Withdraws across the Jordan",
                             "mt": [
                                 null
                             ],
@@ -25564,7 +25564,7 @@
                         },
                         {
                             "id": "259",
-                            "subsection_name": "Lázár feltámasztása",
+                            "subsection_name": "The Raising of Lazarus",
                             "mt": [
                                 null
                             ],
@@ -25806,7 +25806,7 @@
                         },
                         {
                             "id": "260",
-                            "subsection_name": "A nagytanács elhatározza Jézus megölését",
+                            "subsection_name": "The Chief Priests and Pharisees Take Counsel against Jesus",
                             "mt": [
                                 null
                             ],
@@ -25873,7 +25873,7 @@
                         },
                         {
                             "id": "261",
-                            "subsection_name": "Jézus Efraimban",
+                            "subsection_name": "Jesus Retires to Ephraim",
                             "mt": [
                                 null
                             ],
@@ -25915,7 +25915,7 @@
                         },
                         {
                             "id": "262",
-                            "subsection_name": "Jézus harmadszor szól haláláról és feltámadásáról",
+                            "subsection_name": "The Third Prediction of the Passion",
                             "mt": [
                                 {
                                     "citation": "20,17-19",
@@ -25999,7 +25999,7 @@
                         },
                         {
                             "id": "263",
-                            "subsection_name": "Zebedeus fiainak kérése",
+                            "subsection_name": "The Sons of Zebedee; Precedence among the Disciples",
                             "mt": [
                                 {
                                     "citation": "20,20-28",
@@ -26153,7 +26153,7 @@
                         },
                         {
                             "id": "264",
-                            "subsection_name": "Vakok meggyógyítása (Bartimeus)",
+                            "subsection_name": "The Healing of the Blind Men (Bartimaeus)",
                             "mt": [
                                 {
                                     "citation": "20,29-34",
@@ -26332,7 +26332,7 @@
                         },
                         {
                             "id": "265",
-                            "subsection_name": "Zákeus",
+                            "subsection_name": "Zacchaeus",
                             "mt": [
                                 {
                                     "citation": "18,11",
@@ -26415,7 +26415,7 @@
                         },
                         {
                             "id": "266",
-                            "subsection_name": "A minák",
+                            "subsection_name": "The Parable of the Pounds",
                             "mt": [
                                 {
                                     "citation": "25,14-30",
@@ -26624,7 +26624,7 @@
                         },
                         {
                             "id": "267",
-                            "subsection_name": "Jézus megkenetése Betániában",
+                            "subsection_name": "The Anointing at Bethany",
                             "mt": [
                                 {
                                     "citation": "26,6-13",
@@ -26854,7 +26854,7 @@
                         },
                         {
                             "id": "268",
-                            "subsection_name": "A nagytanács elhatározza Lázár megölését",
+                            "subsection_name": "The Plot against Lazarus",
                             "mt": [
                                 null
                             ],
@@ -26894,14 +26894,14 @@
             ]
         },
         {
-            "chapter_name": "XIII. Jézus utolsó útja Jeruzsálembe",
+            "chapter_name": "XIII. The Final Ministry in Jerusalem",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "269",
-                            "subsection_name": "Jézus bevonulása Jeruzsálembe",
+                            "subsection_name": "The Triumphal Entry",
                             "mt": [
                                 {
                                     "citation": "21,1-9",
@@ -27141,7 +27141,7 @@
                         },
                         {
                             "id": "270",
-                            "subsection_name": "Jézus siratja Jeruzsálemet",
+                            "subsection_name": "Jesus Weeps over Jerusalem",
                             "mt": [
                                 null
                             ],
@@ -27183,7 +27183,7 @@
                         },
                         {
                             "id": "271",
-                            "subsection_name": "Jézus megtisztítja a templomot",
+                            "subsection_name": "Jesus in Jerusalem (Cleansing the Temple), Return to Bethany",
                             "mt": [
                                 {
                                     "citation": "21,10-17",
@@ -27297,7 +27297,7 @@
                         },
                         {
                             "id": "272",
-                            "subsection_name": "A fügefa elszáradása",
+                            "subsection_name": "The Cursing of the Fig Tree",
                             "mt": [
                                 {
                                     "citation": "21,18-19",
@@ -27350,7 +27350,7 @@
                         },
                         {
                             "id": "273",
-                            "subsection_name": "Jézus megtisztítja a templomot",
+                            "subsection_name": "The Cleansing of the Temple",
                             "mt": [
                                 {
                                     "citation": "21,12-13",
@@ -27450,7 +27450,7 @@
                         },
                         {
                             "id": "274",
-                            "subsection_name": "A főpapok és az írástudók elhatározzák Jézus megölését",
+                            "subsection_name": "The Chief Priests and Scribes Conspire against Jesus",
                             "mt": [
                                 null
                             ],
@@ -27498,7 +27498,7 @@
                         },
                         {
                             "id": "275",
-                            "subsection_name": "A fügefa elszáradása",
+                            "subsection_name": "The Fig Tree is Withered",
                             "mt": [
                                 {
                                     "citation": "21,20-22",
@@ -27596,7 +27596,7 @@
                         },
                         {
                             "id": "276",
-                            "subsection_name": "Kérdés Jézus hatalmáról",
+                            "subsection_name": "The Question about Authority",
                             "mt": [
                                 {
                                     "citation": "21,23-27",
@@ -27730,7 +27730,7 @@
                         },
                         {
                             "id": "277",
-                            "subsection_name": "A két testvér példázata",
+                            "subsection_name": "The Parable of the Two Sons",
                             "mt": [
                                 {
                                     "citation": "21,28-32",
@@ -27777,7 +27777,7 @@
                         },
                         {
                             "id": "278",
-                            "subsection_name": "A gonosz szőlőművesek",
+                            "subsection_name": "The Parable of the Wicked Husbandmen",
                             "mt": [
                                 {
                                     "citation": "21,33-46",
@@ -27996,7 +27996,7 @@
                         },
                         {
                             "id": "279",
-                            "subsection_name": "A királyi menyegző",
+                            "subsection_name": "The Parable of the Great Supper",
                             "mt": [
                                 {
                                     "citation": "22,1-14",
@@ -28144,7 +28144,7 @@
                         },
                         {
                             "id": "280",
-                            "subsection_name": "Az adópénz",
+                            "subsection_name": "On Paying Tribute to Caesar",
                             "mt": [
                                 {
                                     "citation": "22,15-22",
@@ -28278,7 +28278,7 @@
                         },
                         {
                             "id": "281",
-                            "subsection_name": "Kérdés a feltámadásról",
+                            "subsection_name": "The Question about the Resurrection",
                             "mt": [
                                 {
                                     "citation": "22,23-33",
@@ -28487,7 +28487,7 @@
                         },
                         {
                             "id": "282",
-                            "subsection_name": "A nagy parancsolat",
+                            "subsection_name": "The Great Commandment",
                             "mt": [
                                 {
                                     "citation": "22,34-40",
@@ -28611,7 +28611,7 @@
                         },
                         {
                             "id": "283",
-                            "subsection_name": "Krisztus Dávidnak Fia és Ura",
+                            "subsection_name": "The Question about David's Son",
                             "mt": [
                                 {
                                     "citation": "22,41-46",
@@ -28710,7 +28710,7 @@
                         },
                         {
                             "id": "284",
-                            "subsection_name": "Jézus beszéde az írástudók és a farizeusok ellen",
+                            "subsection_name": "Woe to the Scribes and Pharisees",
                             "mt": [
                                 {
                                     "citation": "23,1-36",
@@ -28959,7 +28959,7 @@
                         },
                         {
                             "id": "285",
-                            "subsection_name": "Jézus panasza Jeruzsálem ellen",
+                            "subsection_name": "Jesus' Lament over Jerusalem",
                             "mt": [
                                 {
                                     "citation": "23,37-39",
@@ -29012,7 +29012,7 @@
                         },
                         {
                             "id": "286",
-                            "subsection_name": "Az özvegy asszony két fillérje",
+                            "subsection_name": "The Widow's Mite",
                             "mt": [
                                 null
                             ],
@@ -29083,14 +29083,14 @@
             ]
         },
         {
-            "chapter_name": "XIV. A szinoptikus apokalipszis",
+            "chapter_name": "XIV. The Olivet Discourse",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "287",
-                            "subsection_name": "Jézus jövendölése a templomról",
+                            "subsection_name": "Prediction of the Destruction of the Temple",
                             "mt": [
                                 {
                                     "citation": "24,1-2",
@@ -29154,7 +29154,7 @@
                         },
                         {
                             "id": "288",
-                            "subsection_name": "A nagy megpróbáltatás ideje",
+                            "subsection_name": "Signs before the End",
                             "mt": [
                                 {
                                     "citation": "24,3-8",
@@ -29273,7 +29273,7 @@
                         },
                         {
                             "id": "289",
-                            "subsection_name": "Jézus jövendölése az üldöztetésekről",
+                            "subsection_name": "Persecutions Foretold",
                             "mt": [
                                 {
                                     "citation": "24,9-14",
@@ -29458,7 +29458,7 @@
                         },
                         {
                             "id": "290",
-                            "subsection_name": "Itélet Judea felett",
+                            "subsection_name": "The Desolating Sacrilege",
                             "mt": [
                                 {
                                     "citation": "24,15-22",
@@ -29592,7 +29592,7 @@
                         },
                         {
                             "id": "291",
-                            "subsection_name": "Jézus figyelmeztet a hamis prófétákra",
+                            "subsection_name": "False Christs and False Prophets",
                             "mt": [
                                 {
                                     "citation": "24,23-28",
@@ -29696,7 +29696,7 @@
                         },
                         {
                             "id": "292",
-                            "subsection_name": "Az Emberfia eljövetele",
+                            "subsection_name": "The Coming of the Son of Man",
                             "mt": [
                                 {
                                     "citation": "24,29-31",
@@ -29785,7 +29785,7 @@
                         },
                         {
                             "id": "293",
-                            "subsection_name": "Jézus visszajövetelének időpontja, példázat a fügefáról",
+                            "subsection_name": "The Time of the Coming: the Parable of the Fig Tree",
                             "mt": [
                                 {
                                     "citation": "24,32-36",
@@ -29894,7 +29894,7 @@
                         },
                         {
                             "id": "294",
-                            "subsection_name": "Befejezés: intés éberségre (Márk szerint)",
+                            "subsection_name": "Conclusion: \"Take Heed, Watch!\" (According to Mark)",
                             "mt": [
                                 {
                                     "citation": "25,13-15",
@@ -30008,7 +30008,7 @@
                         },
                         {
                             "id": "295",
-                            "subsection_name": "Befejezés: intés éberségre (Lukács szerint)",
+                            "subsection_name": "Conclusion: \"Take Heed, Watch!\" (According to Luke)",
                             "mt": [
                                 null
                             ],
@@ -30048,14 +30048,14 @@
             ]
         },
         {
-            "chapter_name": "XV. A passió előtti idő bemutatásának befejezése",
+            "chapter_name": "XV. Conclusion of the Account before the Passion",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "296",
-                            "subsection_name": "Példázat a vízözönről és intés éberségre",
+                            "subsection_name": "The Parable of the Flood and Exhortation to Watchfulness",
                             "mt": [
                                 {
                                     "citation": "24,37-44",
@@ -30209,7 +30209,7 @@
                         },
                         {
                             "id": "297",
-                            "subsection_name": "Az okos és a gonosz szolga",
+                            "subsection_name": "The Parable of the Good Servant and the Wicked Servant",
                             "mt": [
                                 {
                                     "citation": "24,45-51",
@@ -30302,7 +30302,7 @@
                         },
                         {
                             "id": "298",
-                            "subsection_name": "A tíz szűz",
+                            "subsection_name": "The Parable of the Ten Virgins",
                             "mt": [
                                 {
                                     "citation": "25,1-13",
@@ -30389,7 +30389,7 @@
                         },
                         {
                             "id": "299",
-                            "subsection_name": "A talentumok",
+                            "subsection_name": "The Parable of the Talents",
                             "mt": [
                                 {
                                     "citation": "25,14-30",
@@ -30598,7 +30598,7 @@
                         },
                         {
                             "id": "300",
-                            "subsection_name": "Az utolsó ítéletről",
+                            "subsection_name": "The Last Judgment",
                             "mt": [
                                 {
                                     "citation": "25,31-46",
@@ -30711,7 +30711,7 @@
                         },
                         {
                             "id": "301",
-                            "subsection_name": "Jézus jeruzsálemi működésének jellemzése",
+                            "subsection_name": "The Ministry of Jesus in Jerusalem",
                             "mt": [
                                 null
                             ],
@@ -30743,7 +30743,7 @@
                         },
                         {
                             "id": "302",
-                            "subsection_name": "A földbe esett búzaszem",
+                            "subsection_name": "Greeks Seek Jesus; Discourse on His Death",
                             "mt": [
                                 null
                             ],
@@ -30850,7 +30850,7 @@
                         },
                         {
                             "id": "303",
-                            "subsection_name": "A nép hite és hitetlensége",
+                            "subsection_name": "The Unbelief of the People",
                             "mt": [
                                 null
                             ],
@@ -30907,7 +30907,7 @@
                         },
                         {
                             "id": "304",
-                            "subsection_name": "Aki hisz Jézusban, az Atyában hisz",
+                            "subsection_name": "Judgment by the Word",
                             "mt": [
                                 null
                             ],
@@ -30967,14 +30967,14 @@
             ]
         },
         {
-            "chapter_name": "XVI. A szenvedéstörténet",
+            "chapter_name": "XVI. The Passion Narrative",
             "sections": [
                 {
                     "section_name": "1. A Gecsemáné kertbe vezető úton",
                     "subsections": [
                         {
                             "id": "305",
-                            "subsection_name": "A nép vezetőinek tanácskozása Jézus ellen",
+                            "subsection_name": "Jesus' Death is Premeditated",
                             "mt": [
                                 {
                                     "citation": "26,1-5",
@@ -31053,7 +31053,7 @@
                         },
                         {
                             "id": "306",
-                            "subsection_name": "Jézus megkenetése Betániában",
+                            "subsection_name": "The Anointing in Bethany",
                             "mt": [
                                 {
                                     "citation": "26,6-13",
@@ -31283,7 +31283,7 @@
                         },
                         {
                             "id": "307",
-                            "subsection_name": "Júdás elárulja Jézust",
+                            "subsection_name": "The Betrayal by Judas",
                             "mt": [
                                 {
                                     "citation": "26,14-16",
@@ -31362,7 +31362,7 @@
                         },
                         {
                             "id": "308",
-                            "subsection_name": "Az utolsó vacsora",
+                            "subsection_name": "Preparation for the Passover",
                             "mt": [
                                 {
                                     "citation": "26,17-20",
@@ -31486,7 +31486,7 @@
                         },
                         {
                             "id": "309",
-                            "subsection_name": "Jézus megmossa tanítványai lábát",
+                            "subsection_name": "Washing the Disciples' Feet",
                             "mt": [
                                 null,
                                 {
@@ -31649,7 +31649,7 @@
                         },
                         {
                             "id": "310",
-                            "subsection_name": "Az áruló leleplezése",
+                            "subsection_name": "Jesus Foretells His Betrayal",
                             "mt": [
                                 {
                                     "citation": "26,21-25",
@@ -31799,7 +31799,7 @@
                         },
                         {
                             "id": "311",
-                            "subsection_name": "Az úrvacsora",
+                            "subsection_name": "The Last Supper",
                             "mt": [
                                 {
                                     "citation": "26,26-29",
@@ -31903,7 +31903,7 @@
                         },
                         {
                             "id": "312",
-                            "subsection_name": "Az áruló leleplezése",
+                            "subsection_name": "Jesus Foretells His Betrayal",
                             "mt": [
                                 {
                                     "citation": "26,21-25",
@@ -32053,7 +32053,7 @@
                         },
                         {
                             "id": "313",
-                            "subsection_name": "Ki a legnagyobb?",
+                            "subsection_name": "Precedence among the Disciples and the Reward of Discipleship",
                             "mt": [
                                 {
                                     "citation": "20,24-28",
@@ -32187,7 +32187,7 @@
                         },
                         {
                             "id": "314",
-                            "subsection_name": "Az új parancsolat",
+                            "subsection_name": "The New Commandment of Love",
                             "mt": [
                                 null
                             ],
@@ -32234,7 +32234,7 @@
                         },
                         {
                             "id": "315",
-                            "subsection_name": "Úton az Olajfák hegyére, Jézus megjövendöli Péter tagadását",
+                            "subsection_name": "Peter's Denial Predicted",
                             "mt": [
                                 {
                                     "citation": "26,30-35",
@@ -32369,7 +32369,7 @@
                         },
                         {
                             "id": "316",
-                            "subsection_name": "A két kard",
+                            "subsection_name": "The Two Swords",
                             "mt": [
                                 null
                             ],
@@ -32416,7 +32416,7 @@
                     "subsections": [
                         {
                             "id": "317",
-                            "subsection_name": "Jézus az út az Atyához",
+                            "subsection_name": "\"Let Not Your Hearts be Troubled\"",
                             "mt": [
                                 null
                             ],
@@ -32508,7 +32508,7 @@
                         },
                         {
                             "id": "318",
-                            "subsection_name": "A másik Pártfogó igérete",
+                            "subsection_name": "The Promise of the Paraclete",
                             "mt": [
                                 null
                             ],
@@ -32590,7 +32590,7 @@
                         },
                         {
                             "id": "319",
-                            "subsection_name": "„Békességet hagyok nektek”",
+                            "subsection_name": "The Gift of Peace",
                             "mt": [
                                 null
                             ],
@@ -32637,7 +32637,7 @@
                         },
                         {
                             "id": "320",
-                            "subsection_name": "Az igazi szőlőtő",
+                            "subsection_name": "Jesus the True Vine",
                             "mt": [
                                 null
                             ],
@@ -32699,7 +32699,7 @@
                         },
                         {
                             "id": "321",
-                            "subsection_name": "Aki Krisztusban marad, megmarad a szeretetben",
+                            "subsection_name": "\"Abide in My Love\"",
                             "mt": [
                                 null
                             ],
@@ -32766,7 +32766,7 @@
                         },
                         {
                             "id": "322",
-                            "subsection_name": "A tanítványok és a világ",
+                            "subsection_name": "The World's Hatred",
                             "mt": [
                                 null
                             ],
@@ -32828,7 +32828,7 @@
                         },
                         {
                             "id": "323",
-                            "subsection_name": "A Pártfogó bizonyságtétele",
+                            "subsection_name": "The Witness of the Paraclete",
                             "mt": [
                                 null
                             ],
@@ -32860,7 +32860,7 @@
                         },
                         {
                             "id": "324",
-                            "subsection_name": "Az üldöztetésekről",
+                            "subsection_name": "On Persecutions",
                             "mt": [
                                 null
                             ],
@@ -32902,7 +32902,7 @@
                         },
                         {
                             "id": "325",
-                            "subsection_name": "A Szentlélek elvezet a teljes igazságra",
+                            "subsection_name": "The Work of the Paraclete",
                             "mt": [
                                 null
                             ],
@@ -32979,7 +32979,7 @@
                         },
                         {
                             "id": "326",
-                            "subsection_name": "Jézus közeli visszatérését ígéri",
+                            "subsection_name": "Sorrow Turned to Joy",
                             "mt": [
                                 null
                             ],
@@ -33036,7 +33036,7 @@
                         },
                         {
                             "id": "327",
-                            "subsection_name": "Jézus az imádság meghallgatását ígéri",
+                            "subsection_name": "Prayer in the Name of Jesus",
                             "mt": [
                                 null
                             ],
@@ -33088,7 +33088,7 @@
                         },
                         {
                             "id": "328",
-                            "subsection_name": "Jézus megjövendöli a tanítványok elszéledését",
+                            "subsection_name": "Prediction of the Disciples' Flight",
                             "mt": [
                                 null
                             ],
@@ -33135,7 +33135,7 @@
                         },
                         {
                             "id": "329",
-                            "subsection_name": "Jézus főpapi imádsága",
+                            "subsection_name": "The Intercessory Prayer",
                             "mt": [
                                 null
                             ],
@@ -33292,7 +33292,7 @@
                     "subsections": [
                         {
                             "id": "330",
-                            "subsection_name": "A Gecsemáné kertben",
+                            "subsection_name": "Gethsemane",
                             "mt": [
                                 {
                                     "citation": "26,36-46",
@@ -33502,7 +33502,7 @@
                         },
                         {
                             "id": "331",
-                            "subsection_name": "Jézus elfogatása",
+                            "subsection_name": "Jesus Arrested",
                             "mt": [
                                 {
                                     "citation": "26,47-56",
@@ -33732,7 +33732,7 @@
                         },
                         {
                             "id": "332",
-                            "subsection_name": "Jézus a nagytanács előtt (Péter tagadása)",
+                            "subsection_name": "Jesus before the Sanhedrin (Peter's Denial)",
                             "mt": [
                                 {
                                     "citation": "26,57-68",
@@ -34047,7 +34047,7 @@
                         },
                         {
                             "id": "333",
-                            "subsection_name": "Péter megtagadja Jézust",
+                            "subsection_name": "Peter's Denial",
                             "mt": [
                                 {
                                     "citation": "26,69-75",
@@ -34207,7 +34207,7 @@
                         },
                         {
                             "id": "334",
-                            "subsection_name": "Jézust átadják Pilátusnak",
+                            "subsection_name": "Jesus Delivered to Pilate",
                             "mt": [
                                 {
                                     "citation": "27,1-2",
@@ -34272,7 +34272,7 @@
                         },
                         {
                             "id": "335",
-                            "subsection_name": "Júdás halála",
+                            "subsection_name": "The Death of Judas",
                             "mt": [
                                 {
                                     "citation": "27,3-10",
@@ -34334,7 +34334,7 @@
                         },
                         {
                             "id": "336",
-                            "subsection_name": "Jézus Pilátus előtt",
+                            "subsection_name": "The Trial before Pilate",
                             "mt": [
                                 {
                                     "citation": "27,11-14",
@@ -34484,7 +34484,7 @@
                         },
                         {
                             "id": "337",
-                            "subsection_name": "Jézus Heródes előtt",
+                            "subsection_name": "Jesus before Herod",
                             "mt": [
                                 null
                             ],
@@ -34541,7 +34541,7 @@
                         },
                         {
                             "id": "338",
-                            "subsection_name": "Pilátus Jézust ártatlannak jelenti ki",
+                            "subsection_name": "Pilate Declares Jesus Innocent",
                             "mt": [
                                 null
                             ],
@@ -34583,7 +34583,7 @@
                         },
                         {
                             "id": "339",
-                            "subsection_name": "Jézus és Barabbás",
+                            "subsection_name": "Jesus or Barabbas?",
                             "mt": [
                                 {
                                     "citation": "27,15-23",
@@ -34758,7 +34758,7 @@
                         },
                         {
                             "id": "340",
-                            "subsection_name": "Pilátus kiszolgáltatja Jézust",
+                            "subsection_name": "\"Behold the Man!\"",
                             "mt": [
                                 {
                                     "citation": "27,28-31",
@@ -34912,7 +34912,7 @@
                         },
                         {
                             "id": "341",
-                            "subsection_name": "Jézus elítélése",
+                            "subsection_name": "Pilate Delivers Jesus to be Crucified",
                             "mt": [
                                 {
                                     "citation": "27,24-26",
@@ -34987,7 +34987,7 @@
                         },
                         {
                             "id": "342",
-                            "subsection_name": "Jézus megcsúfolása",
+                            "subsection_name": "Jesus Mocked by the Soldiers",
                             "mt": [
                                 {
                                     "citation": "27,27-31a",
@@ -35081,7 +35081,7 @@
                         },
                         {
                             "id": "343",
-                            "subsection_name": "Jézus útja a Golgotára",
+                            "subsection_name": "The Road to Golgotha",
                             "mt": [
                                 {
                                     "citation": "27,31b-32",
@@ -35186,7 +35186,7 @@
                         },
                         {
                             "id": "344",
-                            "subsection_name": "Jézus megfeszítése",
+                            "subsection_name": "The Crucifixion",
                             "mt": [
                                 {
                                     "citation": "27,33-37",
@@ -35341,7 +35341,7 @@
                         },
                         {
                             "id": "345",
-                            "subsection_name": "A megfeszített gyalázása",
+                            "subsection_name": "Jesus Derided on the Cross",
                             "mt": [
                                 {
                                     "citation": "27,38-43",
@@ -35455,7 +35455,7 @@
                         },
                         {
                             "id": "346",
-                            "subsection_name": "A két lator",
+                            "subsection_name": "The Two Thieves",
                             "mt": [
                                 {
                                     "citation": "27,44",
@@ -35524,7 +35524,7 @@
                         },
                         {
                             "id": "347",
-                            "subsection_name": "Jézus halála",
+                            "subsection_name": "The Death of Jesus",
                             "mt": [
                                 {
                                     "citation": "27,45-54",
@@ -35689,7 +35689,7 @@
                         },
                         {
                             "id": "348",
-                            "subsection_name": "Tanúk a kereszt körül",
+                            "subsection_name": "Witnesses of the Crucifixion",
                             "mt": [
                                 {
                                     "citation": "27,55-56",
@@ -35769,7 +35769,7 @@
                         },
                         {
                             "id": "349",
-                            "subsection_name": "Jézus halála",
+                            "subsection_name": "Jesus' Side Pierced",
                             "mt": [
                                 null
                             ],
@@ -35826,7 +35826,7 @@
                         },
                         {
                             "id": "350",
-                            "subsection_name": "Jézus temetése",
+                            "subsection_name": "The Burial of Jesus",
                             "mt": [
                                 {
                                     "citation": "27,57-61",
@@ -35981,7 +35981,7 @@
                         },
                         {
                             "id": "351",
-                            "subsection_name": "A sír őrzése",
+                            "subsection_name": "The Guard at the Tomb",
                             "mt": [
                                 {
                                     "citation": "27,62-66",
@@ -36031,14 +36031,14 @@
             ]
         },
         {
-            "chapter_name": "XVII. A feltámadott Jézus",
+            "chapter_name": "XVII. The Resurrection",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "352",
-                            "subsection_name": "Az üres sír",
+                            "subsection_name": "The Women at the Tomb",
                             "mt": [
                                 {
                                     "citation": "28,1-8",
@@ -36283,7 +36283,7 @@
                         },
                         {
                             "id": "353",
-                            "subsection_name": "Jézus megjelenik az asszonyoknak",
+                            "subsection_name": "Jesus Appears to the Women",
                             "mt": [
                                 {
                                     "citation": "28,9-10",
@@ -36383,7 +36383,7 @@
                         },
                         {
                             "id": "354",
-                            "subsection_name": "Az őrség megvesztegetése",
+                            "subsection_name": "The Report of the Guard",
                             "mt": [
                                 {
                                     "citation": "28,11-15",
@@ -36430,7 +36430,7 @@
                         },
                         {
                             "id": "355",
-                            "subsection_name": "Jézus megjelenik két tanítványnak az emmausi úton",
+                            "subsection_name": "Jesus Appears to Two on the Way to Emmaus",
                             "mt": [
                                 null
                             ],
@@ -36583,7 +36583,7 @@
                         },
                         {
                             "id": "356",
-                            "subsection_name": "Jézus megjelenik a tanítványoknak (Tamás távollétében)",
+                            "subsection_name": "Jesus Appears to His Disciples (Thomas being Absent)",
                             "mt": [
                                 null
                             ],
@@ -36676,7 +36676,7 @@
                         },
                         {
                             "id": "357",
-                            "subsection_name": "Jézus megjelenik a tanítványoknak (Tamás jelenlétében)",
+                            "subsection_name": "Jesus Appears to His Disciples (Thomas being Present)",
                             "mt": [
                                 null
                             ],
@@ -36728,7 +36728,7 @@
                         },
                         {
                             "id": "358",
-                            "subsection_name": "Az apostolok kiküldése",
+                            "subsection_name": "Jesus Appears to the Eleven While They Sit at Table",
                             "mt": [
                                 null
                             ],
@@ -36775,7 +36775,7 @@
                         },
                         {
                             "id": "359",
-                            "subsection_name": "Jézus megjelenik a tizenegy tanítványnak Galileában egy hegyen. Az apostolok kiküldése",
+                            "subsection_name": "Jesus Appears to the Eleven on a Mountain in Galilee",
                             "mt": [
                                 {
                                     "citation": "28,16-20",
@@ -36822,7 +36822,7 @@
                         },
                         {
                             "id": "360",
-                            "subsection_name": "Jézus megjelenik a tanítványoknak a Tibériás tengernél",
+                            "subsection_name": "Jesus Appears to His Disciples by the Sea of Tiberias",
                             "mt": [
                                 null
                             ],
@@ -36917,14 +36917,14 @@
             ]
         },
         {
-            "chapter_name": "XVIII. Az evangéliumok befejezései",
+            "chapter_name": "XVIII. The Endings of the Gospels",
             "sections": [
                 {
                     "section_name": null,
                     "subsections": [
                         {
                             "id": "363",
-                            "subsection_name": "Márk hosszabb befejezése",
+                            "subsection_name": "The Longer Ending of Mark",
                             "mt": [
                                 null
                             ],
@@ -37006,7 +37006,7 @@
                         },
                         {
                             "id": "364",
-                            "subsection_name": "Máté befejezése: az apostolok kiküldése",
+                            "subsection_name": "The Ending of Matthew: The Great Commission",
                             "mt": [
                                 {
                                     "citation": "28,16-20",
@@ -37053,7 +37053,7 @@
                         },
                         {
                             "id": "365",
-                            "subsection_name": "Lukács befejezése: Jézus utolsó szavai és mennybemenetele",
+                            "subsection_name": "The Ending of Luke: Jesus' Last Words and Ascension",
                             "mt": [
                                 null
                             ],
@@ -37150,7 +37150,7 @@
                         },
                         {
                             "id": "366",
-                            "subsection_name": "Az első, János szerinti befejezés: az evangélium célja",
+                            "subsection_name": "The Ending of John",
                             "mt": [
                                 null
                             ],
@@ -37182,7 +37182,7 @@
                         },
                         {
                             "id": "367",
-                            "subsection_name": "A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél. A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány sorsáról",
+                            "subsection_name": "The Appendix to John: Jesus at the Sea of Tiberias.",
                             "mt": [
                                 null
                             ],
