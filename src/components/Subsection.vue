@@ -80,25 +80,22 @@ export default {
             </h3>
         </div>
         <div class="col-1">
-            <router-link v-if="!$route.params.id" :to="{ name: 'subsection', params: { id: subsection.id } }"
-                target="_blank">
-                <button type="button" class=" float-right btn  btn-sm m-0" data-bs-toggle="tooltip"
-                    data-bs-placement="top" data-bs-title="Megnyitás új oldalon.">
+            <router-link v-if="!$route.params.id" :to="{ name: 'subsection', params: { id: subsection.id } }">
+                <button type="button" class=" float-right btn  btn-sm m-0" title="Megnyitás új oldalon.">
                     <i class="bi bi-arrow-up-right-square fs-6 text-secondary"></i>
                 </button>
             </router-link>
-            <router-link v-if="$route.params.id" :to="{ name: 'synopsis', hash: '#' + subsection.id }" target="_blank">
-                <button type="button" class=" float-right btn  btn-sm m-0" data-bs-toggle="tooltip"
-                    data-bs-placement="top" data-bs-title="Megnyitás a Szinopszisban.">
+            <router-link v-if="$route.params.id" :to="{ name: 'synopsis', hash: '#' + subsection.id }">
+                <button type="button" class=" float-right btn  btn-sm m-0" title="Megnyitás a Szinopszisban.">
                     <i class="bi bi-arrow-down-left-square fs-6 text-secondary"></i>
                 </button>
             </router-link>
             <button @click="copyIdLink(subsection.id)" type="button" class=" float-right btn  btn-sm m-0"
-                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Alszekció másolása">
+                title="Alszekció másolása">
                 <i class="bi fs-6 text-secondary" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
             </button>
             <button @click="copyShareLink(subsection.id)" type="button" class="float-right  btn  btn-sm"
-                data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Megosztás">
+                title="Megosztás">
                 <i class="bi fs-6 text-secondary"
                     :class="{ 'bi-share-fill': !isShareCopied, 'bi-check': isShareCopied }"></i>
             </button>

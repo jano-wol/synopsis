@@ -1,8 +1,8 @@
 import { defineStore } from 'pinia'
 import synopsis_szit from '@/assets/synopsis_szit.json'
 import synopsis_esv from '@/assets/synopsis_esv.json'
-import translation_en from '@/assets/translation_en.json'
-import translation_hu from '@/assets/translation_hu.json'
+import translation_en from '@/assets/translation/en.json'
+import translation_hu from '@/assets/translation/hu.json'
 import type { SynopsisScheme } from '@/interfaces/synopsisInterface'
 const synopsis: SynopsisScheme = synopsis_szit
 const synopsisEsv: SynopsisScheme = synopsis_esv
