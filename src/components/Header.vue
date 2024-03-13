@@ -26,33 +26,37 @@ export default {
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <router-link :to="{ name: 'synopsis' }" :class="$route.name == 'synopsis' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.synopsis}}
+                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.synopsis }}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'index' }" :class="$route.name == 'index' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.index}}
+                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.index }}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'description' }" :class="$route.name == 'description' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.description}}
+                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.description }}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'sources' }" :class="$route.name == 'sources' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.sources}}
+                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.sources }}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'developers' }" :class="$route.name == 'developers' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.development}}
+                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.development }}
                         </router-link>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <button class="btn" @click="synopsisStore.changeLanguage()"><i class="bi bi-globe2 fs-5"></i></button>
+                        <button v-if="synopsisStore.language === 'en'" type="button" class="nav-link btn d-inline"
+                            @click="synopsisStore.changeLanguage()">HU</button>
+                        <button v-if="synopsisStore.language === 'hu'" type="button" class="nav-link btn d-inline"
+                            @click="synopsisStore.changeLanguage()">EN </button>
+                        <i class="bi bi-translate fs-5"></i>
                     </li>
 
                 </ul>
