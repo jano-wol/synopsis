@@ -20,11 +20,10 @@ export default {
 
 <template>
   <div class="container-fluid">
-    <h1 class="text-center display-1">Szinopszis</h1>
+    <h1 class="text-center display-1">{{ synopsisStore.translation.menu.synopsis }}</h1>
 
     <Chapter v-for="chapterIndex in synopsisStore.synopsis.chapters.length"
-      :chapter-location="{ chapterIndex: chapterIndex - 1, sectionIndex: null, subsectionIndex: null}" />
+      :chapter-location="{ chapterIndex: chapterIndex - 1, sectionIndex: null, subsectionIndex: null }" />
 
   </div>
 </template>
-
