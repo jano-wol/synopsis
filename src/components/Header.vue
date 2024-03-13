@@ -40,7 +40,7 @@ export default {
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'details' }" :class="$route.name == 'details' ? 'active' : ''"
+                        <router-link :to="{ name: 'sources' }" :class="$route.name == 'sources' ? 'active' : ''"
                             class="nav-link" aria-current="page">{{synopsisStore.translation.menu.sources}}
                         </router-link>
                     </li>

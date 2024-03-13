@@ -3,18 +3,18 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
 export default {
-  data() {
-    return {
-      synopsisStore: useSynopsisStore()
-    };
-  }
+    data() {
+        return {
+            synopsisStore: useSynopsisStore()
+        };
+    }
 }
 
 </script>
 
 <template>
     <div class="container">
-        <h1 class="text-center">{{synopsisStore.translation.menu.description}}</h1>
+        <h1 class="text-center">{{ synopsisStore.translation.menu.description }}</h1>
         <p>
 
             A Szinopszis Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.<br>
@@ -53,7 +53,8 @@ export default {
             A különálló alszekció oldalak kivételével, a szövegdobozok fejlécében a következő gombok találhatók.
         </p>
         <ul>
-            <li><i class="bi bi-compass"></i> : Az átirányítás gombra kattintva az adott párhuzamos szöveg törzsszevegének
+            <li><i class="bi bi-compass"></i> : Az átirányítás gombra kattintva az adott párhuzamos szöveg
+                törzsszevegének
                 az alszekciója érhető el a Szinopszis egész szövegében elhelyezve.
             </li>
             <li><i class="bi bi-arrow-up"></i> és <i class="bi bi-arrow-down"></i> : A navigációs gombokra kattintva az
@@ -65,7 +66,7 @@ export default {
         </ul>
 
         <p>
-            További részletekért lásd a <router-link :to="{ name: 'details' }">Részletek</router-link> menüpontot.
+            További részletekért lásd a <router-link :to="{ name: 'sources' }">Források</router-link> menüpontot.
         </p>
     </div>
 </template>
