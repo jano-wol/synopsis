@@ -6,7 +6,7 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 export default {
   data() {
     return {
-      chapters: useSynopsisStore().synopsis.chapters
+      synopsisStore: useSynopsisStore()
     };
   },
   components: { IndexRecord }
@@ -16,11 +16,11 @@ export default {
 
 <template>
   <div class="container">
-    <h1 class="text-center">Tartalomjegyzék</h1>
+    <h1 class="text-center">{{synopsisStore.translation.menu.index}}</h1>
 
 
 
-    <IndexRecord v-for="chapter in chapters" :chapter-name="chapter.chapter_name" :sections="chapter.sections" />
+    <IndexRecord v-for="chapter in synopsisStore.synopsis.chapters" :chapter-name="chapter.chapter_name" :sections="chapter.sections" />
 
   </div>
 </template>

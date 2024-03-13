@@ -4,6 +4,12 @@ import type { CitationScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
+  data()
+  {
+    return {
+      synopsisStore: useSynopsisStore(),
+    }
+  },
   props: {
     evangelist: {
       type: String,
@@ -118,7 +124,7 @@ export default {
   <div class="card h-100" v-if="citation?.content && citation.primary"
     :class="{ 'shadow border-dark': citation.leading, 'border-light text-bg-light': !citation.primary }">
     <div class="card-header sticky-top bg-light">
-      {{ evangelistName }} {{ citation?.citation }}
+      {{ synopsisStore.translation.evangelists[evangelist] }} {{ citation?.citation }}
       <template v-if="!$route.params.id">
         <button v-if="!citation.leading"
           @click="redirectToLeadingCitation(citation.content[0].chapter, citation.content[0].verse)" type="button"

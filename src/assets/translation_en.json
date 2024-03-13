@@ -1,0 +1,22 @@
+{
+    "menu": {
+        "synopsis": "Synopsis",
+        "index": "Table of content",
+        "description": "Description",
+        "sources": "Sources",
+        "development": "Development"
+    },
+    "tooltips": {
+        "synopsis": "Synopsis",
+        "index": "Table of content",
+        "description": "Description",
+        "sources": "Sources",
+        "development": "Development"
+    },
+    "evangelists": {
+        "mt": "Matthew",
+        "mk": "Mark",
+        "lk": "Luke",
+        "jn": "John"
+    }
+}

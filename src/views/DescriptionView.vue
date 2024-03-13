@@ -1,6 +1,20 @@
+<script lang="ts">
+import { useSynopsisStore } from "@/stores/SynopsisStore"
+
+
+export default {
+  data() {
+    return {
+      synopsisStore: useSynopsisStore()
+    };
+  }
+}
+
+</script>
+
 <template>
     <div class="container">
-        <h1 class="text-center">Leírás</h1>
+        <h1 class="text-center">{{synopsisStore.translation.menu.description}}</h1>
         <p>
 
             A Szinopszis Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.<br>

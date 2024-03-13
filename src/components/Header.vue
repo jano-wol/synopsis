@@ -1,6 +1,13 @@
-<script setup lang="ts">
+<script lang="ts">
 import { useSynopsisStore } from '@/stores/SynopsisStore'
 
+export default {
+    data() {
+        return {
+            synopsisStore: useSynopsisStore(),
+        }
+    },
+}
 
 </script>
 <template>
@@ -19,35 +26,37 @@ import { useSynopsisStore } from '@/stores/SynopsisStore'
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <router-link :to="{ name: 'synopsis' }" :class="$route.name == 'synopsis' ? 'active' : ''"
-                            class="nav-link" aria-current="page">Szinopszis
+                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.synopsis}}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'index' }" :class="$route.name == 'index' ? 'active' : ''"
-                            class="nav-link" aria-current="page">Tartalomjegyzék
+                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.index}}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'description' }" :class="$route.name == 'description' ? 'active' : ''"
-                            class="nav-link" aria-current="page">Leírás
+                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.description}}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'details' }" :class="$route.name == 'details' ? 'active' : ''"
-                            class="nav-link" aria-current="page">Részletek
+                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.sources}}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link :to="{ name: 'developers' }" :class="$route.name == 'developers' ? 'active' : ''"
-                            class="nav-link" aria-current="page">Fejlesztőknek
+                            class="nav-link" aria-current="page">{{synopsisStore.translation.menu.development}}
                         </router-link>
                     </li>
-                    <li>
-                        <button class="btn" @click="useSynopsisStore().changeLanguage()">Change l</button>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button class="btn" @click="synopsisStore.changeLanguage()"><i class="bi bi-globe2 fs-5"></i></button>
                     </li>
+
                 </ul>
             </div>
         </div>
     </nav>
-    {{ useSynopsisStore().synopsis.chapters[0].chapter_name }}
 </template>

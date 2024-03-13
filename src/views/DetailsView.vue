@@ -1,12 +1,31 @@
+<script lang="ts">
+import { useSynopsisStore } from "@/stores/SynopsisStore"
+
+
+export default {
+    data() {
+        return {
+            synopsisStore: useSynopsisStore()
+        };
+    }
+}
+
+</script>
+
 <template>
     <div class="container">
-        <h1 class="text-center">Részletek</h1>
+        <h1 class="text-center">{{ synopsisStore.translation.menu.sources }}</h1>
         <h2>Források</h2>
         <ul>
             <li>
                 Biblia,
                 <a href="https://szentistvantarsulat.hu/">Szent István Társulat</a>,
                 <a href="https://szentiras.hu/api">szentiras.hu API</a>
+            </li>
+            <li>
+                Bible,
+                <a href="https://www.esv.org/">ESV</a>,
+                <a href="https://api.esv.org/">esv.org API</a>
             </li>
             <li>
                 Szinopszis – Máté, Márk, Lukács és János evangéliumának párhuzamos szövege,
@@ -63,4 +82,3 @@
         </ul>
     </div>
 </template>
-  

@@ -1,15 +1,19 @@
 import { defineStore } from 'pinia'
 import synopsis_szit from '@/assets/synopsis_szit.json'
-import synopsis_random from '@/assets/synopsis_random.json'
 import synopsis_esv from '@/assets/synopsis_esv.json'
+import translation_en from '@/assets/translation_en.json'
+import translation_hu from '@/assets/translation_hu.json'
 import type { SynopsisScheme } from '@/interfaces/synopsisInterface'
 const synopsis: SynopsisScheme = synopsis_szit
-const synopsis_r: SynopsisScheme = synopsis_random
 const synopsisEsv: SynopsisScheme = synopsis_esv
+//TODO: proper typing
+const translationEn: any = translation_en
+const translationHu: any = translation_hu
 
 export const useSynopsisStore = defineStore('synopsis', {
     state: () => {
         return {
+            translation: translationHu,
             synopsis: synopsis,
             language: "hu"
         }
@@ -18,10 +22,12 @@ export const useSynopsisStore = defineStore('synopsis', {
         changeLanguage() {
             if (this.language == "hu")
             {
+                this.translation = translationEn
                 this.synopsis = synopsisEsv
-                this.language = "ra"
+                this.language = "en"
             }
             else {
+                this.translation = translationHu
                 this.synopsis = synopsis
                 this.language = "hu"
             }
