@@ -15,7 +15,6 @@ export default {
 <template>
     <div class="container">
         <h1 class="text-center">{{ synopsisStore.translation.menu.sources }}</h1>
-        <h2>Források</h2>
         <ul>
             <li>
                 Biblia,
@@ -68,16 +67,16 @@ export default {
             </li>
             <br>
             <li>
-                A 139. alszekcióban a Mk6.1-6a idézet Mk6.1-6 idézetre lett cserélve, illetve a 142. alszekcióban a
-                Mk6.6b-13 idézet Mk6.7-13 idézetre lett cserélve.<br>
-                Indoklás: A Szent István Társulat fordításában így szerepel az adott szöveghez tartozó számozás.<br>
-                Megjegyzés: Feltehetően hiba a Szent István Társulat szövegének szerkesztésében.
-            </li>
-            <br>
-            <li>
                 A törzsszöveget tartalmazó idézetek kivételével az alversek helyett mindig az egész vers szerepel.<br>
                 Indoklás: Egyszerűsítés.<br>
                 Megjegyzés: A törzsszöveg folytonossága így fennmarad.
+            </li>
+            <br>
+            <li>
+                A SZIT fordításában a 139. alszekcióban a Mk6.1-6a idézet Mk6.1-6 idézetre lett cserélve, illetve a 142. alszekcióban a
+                Mk6.6b-13 idézet Mk6.7-13 idézetre lett cserélve.<br>
+                Indoklás: A Szent István Társulat fordításában így szerepel az adott szöveghez tartozó számozás.<br>
+                Megjegyzés: Feltehetően hiba a Szent István Társulat szövegének szerkesztésében.
             </li>
         </ul>
     </div>

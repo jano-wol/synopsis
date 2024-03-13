@@ -14682,7 +14682,7 @@
                             ],
                             "mk": [
                                 {
-                                    "citation": "6,1-6",
+                                    "citation": "6,1-6a",
                                     "primary": true,
                                     "leading": true,
                                     "content": [
@@ -14712,9 +14712,9 @@
                                             "verse": "5"
                                         },
                                         {
-                                            "text": "And he marveled because of their unbelief. And he went about among the villages teaching.",
+                                            "text": "And he marveled because of their unbelief.",
                                             "chapter": "6",
-                                            "verse": "6"
+                                            "verse": "6a"
                                         }
                                     ]
                                 }
@@ -15161,10 +15161,15 @@
                             ],
                             "mk": [
                                 {
-                                    "citation": "6,7-13",
+                                    "citation": "6,6b-13",
                                     "primary": true,
                                     "leading": true,
                                     "content": [
+                                        {
+                                            "text": "And he went about among the villages teaching.",
+                                            "chapter": "6",
+                                            "verse": "6b"
+                                        },
                                         {
                                             "text": "And he called the twelve and began to send them out two by two, and gave them authority over the unclean spirits.",
                                             "chapter": "6",
