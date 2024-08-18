@@ -9,10 +9,11 @@
         Two types of text boxes are distinguished:
     </p>
     <ul>
-        <li>Boxes with black frame and shadow contain the body text. A <router-link
-                :to="{ name: 'index' }">tartalomjegyzékben</router-link> vastag kiemeléssel szerepelnek
-            a hozzá tartozó idézetek. A törzsszöveg a teljes evangéliumot tartalmazza, ismétlődések nélkül, a versek
-            eredeti sorrendjében. Minden alszekcióban egy evangélistához, legfeljebb egy törzsszöveg található.
+        <li>Boxes with black frame and shadow contain the body text. The body text contains the whole Gospel, without
+            repetitions, in the original
+            order of the verses. Each subsection contains maximum one body text, for one evangelist.
+            In the <router-link
+                :to="{ name: 'index' }">Table of contents</router-link> ther citation appears with bold.
         </li>
         <li>Boxes with grey frame and no shadow contain parallel text.</li>
     </ul>
