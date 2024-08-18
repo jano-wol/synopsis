@@ -14682,7 +14682,7 @@
                             ],
                             "mk": [
                                 {
-                                    "citation": "6,1-6",
+                                    "citation": "6,1-6a",
                                     "primary": true,
                                     "leading": true,
                                     "content": [
@@ -14714,7 +14714,7 @@
                                         {
                                             "text": "Maga is csodálkozott hitetlenségükön.",
                                             "chapter": "6",
-                                            "verse": "6"
+                                            "verse": "6a"
                                         }
                                     ]
                                 }
@@ -15161,12 +15161,17 @@
                             ],
                             "mk": [
                                 {
-                                    "citation": "6,7-13",
+                                    "citation": "6,6b-13",
                                     "primary": true,
                                     "leading": true,
                                     "content": [
                                         {
-                                            "text": "Végigjárta a falvakat és tanított. Magához hívta a tizenkettőt, és kettesével szétküldte őket, hatalmat adva nekik a tisztátalan lelkeken.",
+                                            "text": "Végigjárta a falvakat és tanított.",
+                                            "chapter": "6",
+                                            "verse": "6b"
+                                        },
+                                        {
+                                            "text": "Magához hívta a tizenkettőt, és kettesével szétküldte őket, hatalmat adva nekik a tisztátalan lelkeken.",
                                             "chapter": "6",
                                             "verse": "7"
                                         },

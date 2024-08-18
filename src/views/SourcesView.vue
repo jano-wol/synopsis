@@ -73,9 +73,10 @@ export default {
             </li>
             <br>
             <li>
-                A SZIT fordításában a 139. alszekcióban a Mk6.1-6a idézet Mk6.1-6 idézetre lett cserélve, illetve a 142. alszekcióban a
-                Mk6.6b-13 idézet Mk6.7-13 idézetre lett cserélve.<br>
-                Indoklás: A Szent István Társulat fordításában így szerepel az adott szöveghez tartozó számozás.<br>
+                A SZIT fordításában:<br>
+                A 139. alszekcióban a Mk6.6a idézet a SZIT szerkesztésében a Mk6.6 idézetnek felel meg.<br>
+                A 142. alszekcióban a Mk6.6b idézet a a SZIT szerkesztésében a Mk6.7 idézet elejének felel meg.<br>
+                Indoklás: Nem követi kivételes számozás a Szinopszis törzsszövegét a többi fordításhoz képest.<br>
                 Megjegyzés: Feltehetően hiba a Szent István Társulat szövegének szerkesztésében.
             </li>
         </ul>
