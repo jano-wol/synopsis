@@ -15,8 +15,7 @@ export const useSynopsisStore = defineStore('synopsis', {
         return {
             translation: translationHu,
             synopsis: synopsis,
-            language: "hu",
-            isRendered: false
+            language: "hu"
         }
     },
     actions: {
