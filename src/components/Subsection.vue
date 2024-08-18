@@ -80,13 +80,14 @@ export default {
             </h3>
         </div>
         <div class="col-1">
-            <router-link v-if="!$route.params.id" :to="{ name: 'subsection', params: { id: subsection.id } }">
+            <router-link v-if="!$route.params.id" :to="{ name: 'subsection', params: { id: subsection.id } }"
+                target="_blank">
                 <button type="button" class=" float-right btn  btn-sm m-0"
                     :title="synopsisStore.translation.tooltips.openSeparately">
                     <i class="bi bi-arrow-up-right-square fs-6 text-secondary"></i>
                 </button>
             </router-link>
-            <router-link v-if="$route.params.id" :to="{ name: 'synopsis', hash: '#' + subsection.id }">
+            <router-link v-if="$route.params.id" :to="{ name: 'synopsis', hash: '#' + subsection.id }" target="_blank">
                 <button type="button" class=" float-right btn  btn-sm m-0"
                     :title="synopsisStore.translation.tooltips.openInSynopsis">
                     <i class="bi bi-arrow-down-left-square fs-6 text-secondary"></i>
