@@ -35,8 +35,8 @@ export default {
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'description' }" :class="$route.name == 'description' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.description }}
+                        <router-link :to="{ name: 'about' }" :class="$route.name == 'about' ? 'active' : ''"
+                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.about }}
                         </router-link>
                     </li>
                     <li class="nav-item">
@@ -45,7 +45,7 @@ export default {
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'developers' }" :class="$route.name == 'developers' ? 'active' : ''"
+                        <router-link :to="{ name: 'development' }" :class="$route.name == 'development' ? 'active' : ''"
                             class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.development }}
                         </router-link>
                     </li>

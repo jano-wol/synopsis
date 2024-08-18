@@ -2,7 +2,7 @@
     "menu": {
         "synopsis": "Synopsis",
         "index": "Table of content",
-        "description": "Description",
+        "about": "About",
         "sources": "Sources",
         "development": "Development"
     },

@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import SynopsisView from '@/views/SynopsisView.vue'
 import IndexView from '@/views/IndexView.vue'
 import SourcesView from '@/views/SourcesView.vue'
-import DescriptionView from '@/views/DescriptionView.vue'
-import DevelopersView from '@/views/DevelopersView.vue'
+import AboutView from '@/views/AboutView.vue'
+import DevelopmentView from '@/views/DevelopmentView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Subsection from '@/components/Subsection.vue'
 
@@ -16,9 +16,9 @@ const router = createRouter({
       component: SynopsisView
     },
     {
-      path: '/description',
-      name: 'description',
-      component: DescriptionView
+      path: '/about',
+      name: 'about',
+      component: AboutView
     },
     {
       path: '/index',
@@ -31,9 +31,9 @@ const router = createRouter({
       component: SourcesView
     },
     {
-      path: '/developers',
-      name: 'developers',
-      component: DevelopersView
+      path: '/development',
+      name: 'development',
+      component: DevelopmentView
     },
     {
       path: '/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',

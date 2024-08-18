@@ -2,7 +2,7 @@
     "menu": {
         "synopsis": "Szinopszis",
         "index": "Tartalomjegyzék",
-        "description": "Leírás",
+        "about": "Leírás",
         "sources": "Források",
         "development": "Fejlesztőknek"
     },
