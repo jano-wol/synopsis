@@ -20,5 +20,8 @@
         "mk": "Mark",
         "lk": "Luke",
         "jn": "John"
+    },
+    "index": {
+        "title": "Title"
     }
 }

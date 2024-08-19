@@ -44,23 +44,23 @@ export default {
 
 <template>
     <router-link v-if="$route.name !== 'subsection'" :to="{ name: 'subsection', params: { id: id } }" target="_blank">
-        <button type="button" class=" float-right btn  btn-sm m-0"
+        <button type="button" class="float-right btn btn-light  btn-sm me-1"
             :title="synopsisStore.translation.tooltips.openSeparately">
-            <i class="bi bi-arrow-up-right-square fs-6 text-secondary"></i>
+            <i class="bi bi-arrow-up-right-square fs-6"></i>
         </button>
     </router-link>
     <router-link v-if="$route.name !== 'synopsis'" :to="{ name: 'synopsis', hash: '#' + id }" target="_blank">
-        <button type="button" class=" float-right btn  btn-sm m-0"
+        <button type="button" class="float-right btn btn-light btn-sm me-1"
             :title="synopsisStore.translation.tooltips.openInSynopsis">
-            <i class="bi bi-arrow-down-left-square fs-6 text-secondary"></i>
+            <i class="bi bi-arrow-down-left-square fs-6"></i>
         </button>
     </router-link>
-    <button @click="copyIdLink(id)" type="button" class=" float-right btn  btn-sm m-0"
+    <button @click="copyIdLink(id)" type="button" class=" float-right btn btn-light btn-sm me-1"
         :title="synopsisStore.translation.tooltips.location">
-        <i class="bi fs-6 text-secondary" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
+        <i class="bi fs-6" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
     </button>
-    <button @click="copyShareLink(id)" type="button" class="float-right  btn  btn-sm"
+    <button @click="copyShareLink(id)" type="button" class="float-right  btn btn-light btn-sm me-1"
         :title="synopsisStore.translation.tooltips.share">
-        <i class="bi fs-6 text-secondary" :class="{ 'bi-share-fill': !isShareCopied, 'bi-check': isShareCopied }"></i>
+        <i class="bi fs-6" :class="{ 'bi-share-fill': !isShareCopied, 'bi-check': isShareCopied }"></i>
     </button>
 </template>
