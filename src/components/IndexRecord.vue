@@ -40,26 +40,26 @@ export default {
             </thead>
             <tbody>
                 <tr v-for="subsection in section.subsections">
-                    <th class="col-1" scope="row">
+                    <th class="col-1 align-middle" scope="row">
                         <router-link :to="{ name: 'synopsis', hash: '#' + subsection.id }">
                             {{ subsection.id }}
                         </router-link>
                     </th>
-                    <td class="col-7">
+                    <td class="col-7 align-middle">
                         <router-link :to="{ name: 'subsection', params: { id: subsection.id } }">
                             {{ subsection.subsection_name }}
                         </router-link>
                     </td>
-                    <td class="col-1">
+                    <td class="col-1 align-middle">
                         <IndexCitation :citations="subsection.mt" />
                     </td>
-                    <td class="col-1">
+                    <td class="col-1 align-middle">
                         <IndexCitation :citations="subsection.mk" />
                     </td>
-                    <td class="col-1">
+                    <td class="col-1 align-middle">
                         <IndexCitation :citations="subsection.lk" />
                     </td>
-                    <td class="col-1">
+                    <td class="col-1 align-middle">
                         <IndexCitation :citations="subsection.jn" />
                     </td>
                 </tr>
