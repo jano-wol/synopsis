@@ -49,7 +49,7 @@ export default {
             <i class="bi bi-arrow-up-right-square fs-6"></i>
         </button>
     </router-link>
-    <router-link v-if="$route.name !== 'synopsis'" :to="{ name: 'synopsis', hash: '#' + id }" target="_blank">
+    <router-link v-if="$route.name !== 'synopsis'" :to="{ name: 'synopsis', hash: '#' + id }">
         <button type="button" class="float-right btn btn-light btn-sm me-1"
             :title="synopsisStore.translation.tooltips.openInSynopsis">
             <i class="bi bi-arrow-down-left-square fs-6"></i>

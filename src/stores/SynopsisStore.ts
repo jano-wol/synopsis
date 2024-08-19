@@ -14,22 +14,24 @@ export const useSynopsisStore = defineStore('synopsis', {
     state: () => {
         return {
             translation: translationHu,
+            language: "hu",
             synopsis: synopsis,
-            language: "hu"
         }
     },
     actions: {
         changeLanguage() {
-            if (this.language == "hu")
+            if (localStorage.getItem("lang") === "hu")
             {
                 this.translation = translationEn
                 this.synopsis = synopsisEsv
                 this.language = "en"
+                localStorage.setItem("lang", "en");
             }
             else {
                 this.translation = translationHu
                 this.synopsis = synopsis
                 this.language = "hu"
+                localStorage.setItem("lang", "hu");
             }
         },
         //TODO: proper typing
@@ -45,6 +47,20 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
             return result
+        },
+        setupLanguage(language: any)
+        {
+            if (language === "hu")
+            {
+                this.translation = translationHu,
+                this.language = "hu",
+                this.synopsis = synopsis
+            }
+            else {
+                this.translation = translationEn,
+                this.language = "en",
+                this.synopsis = synopsisEsv
+            }
         }
     }
 })

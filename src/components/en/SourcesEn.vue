@@ -26,7 +26,6 @@
         <li>
             Secondary parallels are not included.<br>
             Reason: Simplification.<br>
-            Note: Under development.
         </li>
         <br>
         <li>

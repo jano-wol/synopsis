@@ -26,7 +26,6 @@
         <li>
             A másodlagos párhuzamok nem szerepelnek.<br>
             Indoklás: Egyszerűsítés.<br>
-            Megjegyzés: Fejlesztés alatt.
         </li>
         <br>
         <li>
