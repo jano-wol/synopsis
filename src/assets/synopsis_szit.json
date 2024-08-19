@@ -1085,23 +1085,7 @@
                                 }
                             ],
                             "jn": [
-                                {
-                                    "citation": "7,41-42",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Mások meg: „Ő a Messiás!” De voltak, akik így vélekedtek: „Hát jöhet a Messiás Galileából?",
-                                            "chapter": "7",
-                                            "verse": "41"
-                                        },
-                                        {
-                                            "text": "Az Írás szerint Dávid családjából s Betlehem városából kell a Messiásnak jönnie.”",
-                                            "chapter": "7",
-                                            "verse": "42"
-                                        }
-                                    ]
-                                }
+                                null
                             ]
                         },
                         {
@@ -1463,30 +1447,6 @@
                                             "verse": "6"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "11,10",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Ő az, akiről az Írás szól: Nézd, elküldöm követemet előtted, hogy előkészítse utadat.",
-                                            "chapter": "11",
-                                            "verse": "10"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "4,17",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Ettől fogva Jézus elkezdett tanítani. „Tartsatok bűnbánatot – hirdette –, mert közel van a mennyek országa!”",
-                                            "chapter": "4",
-                                            "verse": "17"
-                                        }
-                                    ]
                                 }
                             ],
                             "mk": [
@@ -1519,24 +1479,6 @@
                                             "text": "János teveszőrből készült ruhát viselt, csípőjét bőröv vette körül, és sáskával meg vadmézzel élt.",
                                             "chapter": "1",
                                             "verse": "6"
-                                        }
-                                    ]
-                                },
-                                null,
-                                {
-                                    "citation": "1,14-15",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "János elfogatása után Jézus Galileába ment, s ott hirdette az Isten evangéliumát",
-                                            "chapter": "1",
-                                            "verse": "14"
-                                        },
-                                        {
-                                            "text": "és mondta: „Beteljesedett az idő, és már közel van az Isten országa. Tartsatok bűnbánatot, és higgyetek az evangéliumban.”",
-                                            "chapter": "1",
-                                            "verse": "15"
                                         }
                                     ]
                                 }
@@ -1578,20 +1520,7 @@
                                             "verse": "6"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "7,27",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Őróla van megírva: „Íme, elküldöm követemet színed előtt, hogy előkészítse utadat.”",
-                                            "chapter": "7",
-                                            "verse": "27"
-                                        }
-                                    ]
-                                },
-                                null
+                                }
                             ],
                             "jn": [
                                 {
@@ -1625,9 +1554,7 @@
                                             "verse": "23"
                                         }
                                     ]
-                                },
-                                null,
-                                null
+                                }
                             ]
                         },
                         {
@@ -1944,18 +1871,6 @@
                                             "verse": "17"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "17,5",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Amíg beszélt, hirtelen fényes felhő borult rájuk, s a felhőből szózat hallatszott: „Ez az én szeretett Fiam, akiben kedvem telik, őt hallgassátok!”",
-                                            "chapter": "17",
-                                            "verse": "5"
-                                        }
-                                    ]
                                 }
                             ],
                             "mk": [
@@ -1980,18 +1895,6 @@
                                             "verse": "11"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "9,7",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Ekkor felhő ereszkedett alá, s árnyéka rájuk vetődött. A felhőből szózat hallatszott: „Ez az én szeretett Fiam, őt hallgassátok!”",
-                                            "chapter": "9",
-                                            "verse": "7"
-                                        }
-                                    ]
                                 }
                             ],
                             "lk": [
@@ -2009,18 +1912,6 @@
                                             "text": "és a Szentlélek galamb alakjában leszállt rá. Szózat is hallatszott az égből: „Te vagy az én szeretett Fiam, benned telik kedvem.”",
                                             "chapter": "3",
                                             "verse": "22"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "9,35",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "A felhőből szózat hallatszott: „Ez az én választott Fiam, őt hallgassátok!”",
-                                            "chapter": "9",
-                                            "verse": "35"
                                         }
                                     ]
                                 }
@@ -2060,28 +1951,6 @@
                                             "text": "Láttam és tanúskodom róla, hogy ő az Isten Fia.”",
                                             "chapter": "1",
                                             "verse": "34"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "12,28-30",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Atyám, dicsőítsd meg nevedet!” Erre szózat hallatszott az égből: „Megdicsőítettem és ezután is megdicsőítem.”",
-                                            "chapter": "12",
-                                            "verse": "28"
-                                        },
-                                        {
-                                            "text": "A nép, amely ott ácsorgott, ennek hallatára azt gondolta, hogy mennydörgött. Mások így vélekedtek: „Angyal beszélt vele.”",
-                                            "chapter": "12",
-                                            "verse": "29"
-                                        },
-                                        {
-                                            "text": "Jézus megmagyarázta nekik: „Nem miattam hallatszott ez a szózat, hanem miattatok.",
-                                            "chapter": "12",
-                                            "verse": "30"
                                         }
                                     ]
                                 }
@@ -2441,18 +2310,7 @@
                                 }
                             ],
                             "jn": [
-                                {
-                                    "citation": "1,51",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "„Bizony, bizony, mondom nektek: Látni fogjátok, hogy megnyílik az ég, s az Isten angyalai föl­ s leszállnak az Emberfia fölött.”",
-                                            "chapter": "1",
-                                            "verse": "51"
-                                        }
-                                    ]
-                                }
+                                null
                             ]
                         }
                     ]
@@ -2469,177 +2327,13 @@
                             "id": "21",
                             "subsection_name": "Jézus elhívja első tanítványait",
                             "mt": [
-                                {
-                                    "citation": "4,18-22",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Amikor Jézus a Galileai-tó mellett járt, látott két testvért, Simont, másik nevén Pétert és testvérét, Andrást. Halászok voltak, s épp hálót vetettek a tengerbe.",
-                                            "chapter": "4",
-                                            "verse": "18"
-                                        },
-                                        {
-                                            "text": "Megszólította őket: „Gyertek, kövessetek, s én emberek halászává teszlek benneteket!”",
-                                            "chapter": "4",
-                                            "verse": "19"
-                                        },
-                                        {
-                                            "text": "Azon nyomban otthagyták hálójukat és csatlakoztak hozzá.",
-                                            "chapter": "4",
-                                            "verse": "20"
-                                        },
-                                        {
-                                            "text": "Útját folytatva megpillantott két másik testvért is, Zebedeus fiát, Jakabot és testvérét, Jánost. Épp hálójukat javítgatták a bárkában, apjukkal, Zebedeussal. Őket is hívta.",
-                                            "chapter": "4",
-                                            "verse": "21"
-                                        },
-                                        {
-                                            "text": "Rögtön otthagyták a bárkát apjukkal egyetemben, és a nyomába szegődtek.",
-                                            "chapter": "4",
-                                            "verse": "22"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "16,17-18",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Erre Jézus azt mondta neki: „Boldog vagy, Simon, Jónás fia, mert nem a test és vér nyilatkoztatta ki ezt neked, hanem az én mennyei Atyám.",
-                                            "chapter": "16",
-                                            "verse": "17"
-                                        },
-                                        {
-                                            "text": "Én is mondom neked: Péter vagy, erre a sziklára építem egyházamat, s az alvilág kapui sem vesznek rajta erőt.",
-                                            "chapter": "16",
-                                            "verse": "18"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "mk": [
-                                {
-                                    "citation": "1,16-20",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Amikor Jézus a Galileai-tó partján járt, látta, hogy Simon és testvére, András – halászok lévén – épp hálót vetnek a vízbe.",
-                                            "chapter": "1",
-                                            "verse": "16"
-                                        },
-                                        {
-                                            "text": "Jézus ezt mondta nekik: „Gyertek, kövessetek, és emberek halászává teszlek benneteket.”",
-                                            "chapter": "1",
-                                            "verse": "17"
-                                        },
-                                        {
-                                            "text": "Rögtön otthagyták hálójukat és követték.",
-                                            "chapter": "1",
-                                            "verse": "18"
-                                        },
-                                        {
-                                            "text": "Alig ment valamivel tovább, megpillantotta Jakabot, Zebedeus fiát és testvérét, Jánost, amint a hálót szedték rendbe a bárkában.",
-                                            "chapter": "1",
-                                            "verse": "19"
-                                        },
-                                        {
-                                            "text": "Őket is mindjárt meghívta. Erre otthagyták apjukat, Zebedeust, halászlegényeivel a bárkában, és a nyomába szegődtek.",
-                                            "chapter": "1",
-                                            "verse": "20"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "3,16",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Ezt a tizenkettőt rendelte: Simont, akinek a Péter nevet adta,",
-                                            "chapter": "3",
-                                            "verse": "16"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "lk": [
-                                {
-                                    "citation": "5,1-11",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Amikor egyszer a Genezáret tavánál állt, nagy tömeg sereglett oda hozzá, hogy hallgassa az Isten szavát.",
-                                            "chapter": "5",
-                                            "verse": "1"
-                                        },
-                                        {
-                                            "text": "Látta, hogy a tó partján két bárka vesztegel. A halászok kiszálltak, és a hálót mosták.",
-                                            "chapter": "5",
-                                            "verse": "2"
-                                        },
-                                        {
-                                            "text": "Beszállt hát az egyik bárkába, Simonéba, s megkérte, hogy lökje egy kicsit beljebb a parttól. Aztán leült, és a bárkából tanította a népet.",
-                                            "chapter": "5",
-                                            "verse": "3"
-                                        },
-                                        {
-                                            "text": "Amikor befejezte a tanítást, így szólt Simonhoz: „Evezz a mélyre, és vessétek ki a hálótokat halfogásra!”",
-                                            "chapter": "5",
-                                            "verse": "4"
-                                        },
-                                        {
-                                            "text": "„Mester, egész éjszaka fáradoztunk, s nem fogtunk semmit, de a te szavadra, kivetem a hálót” – válaszolta Simon –,",
-                                            "chapter": "5",
-                                            "verse": "5"
-                                        },
-                                        {
-                                            "text": "és így is tett, s annyi halat fogtak, hogy szakadozni kezdett a háló.",
-                                            "chapter": "5",
-                                            "verse": "6"
-                                        },
-                                        {
-                                            "text": "Intettek a másik bárkában levő társaiknak, hogy menjenek segíteni. Mentek is, és úgy telerakták mind a két bárkát, hogy majdnem elsüllyedt.",
-                                            "chapter": "5",
-                                            "verse": "7"
-                                        },
-                                        {
-                                            "text": "Ennek láttán Simon Péter Jézus lábához borult, és e szavakra fakadt: „Uram, menj el tőlem, mert bűnös ember vagyok!”",
-                                            "chapter": "5",
-                                            "verse": "8"
-                                        },
-                                        {
-                                            "text": "Mert a szerencsés halfogás láttán társaival együtt félelem töltötte el.",
-                                            "chapter": "5",
-                                            "verse": "9"
-                                        },
-                                        {
-                                            "text": "Hasonlóképpen Jakabot és Jánost is, Zebedeus fiait, Simon társait. De Jézus így szólt Simonhoz: „Ne félj! Ezentúl emberhalász leszel.”",
-                                            "chapter": "5",
-                                            "verse": "10"
-                                        },
-                                        {
-                                            "text": "Kivonták a hajókat a partra, és mindenüket elhagyva követték.",
-                                            "chapter": "5",
-                                            "verse": "11"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "6,14",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Simont, akit Péternek hívott, testvérét, Andrást, Jakabot és Jánost, Fülöpöt és Bertalant,",
-                                            "chapter": "6",
-                                            "verse": "14"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "jn": [
                                 {
@@ -2733,8 +2427,7 @@
                                             "verse": "51"
                                         }
                                     ]
-                                },
-                                null
+                                }
                             ]
                         },
                         {
@@ -2888,55 +2581,6 @@
                                             "verse": "13"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "21,23-27",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Amikor a templomba érve tanított, odamentek hozzá az írástudók és a nép vénei és megkérdezték: „Miféle hatalom birtokában teszed te ezeket? Ki adott neked hatalmat ehhez?”",
-                                            "chapter": "21",
-                                            "verse": "23"
-                                        },
-                                        {
-                                            "text": "Jézus így válaszolt: „Én is kérdezek tőletek valamit. Ha megfeleltek rá, én is megmondom, milyen hatalom birtokában teszem ezeket.",
-                                            "chapter": "21",
-                                            "verse": "24"
-                                        },
-                                        {
-                                            "text": "Honnan volt János keresztsége? Az égből vagy az emberektől?” Azok tanakodni kezdtek egymás közt: „Ha azt mondjuk, hogy az égből, azt fogja kérdezni: Akkor miért nem hittetek neki?",
-                                            "chapter": "21",
-                                            "verse": "25"
-                                        },
-                                        {
-                                            "text": "Ha azt mondjuk, hogy az emberektől, félnünk kell a néptől, hisz Jánost mindenki prófétának tartja.”",
-                                            "chapter": "21",
-                                            "verse": "26"
-                                        },
-                                        {
-                                            "text": "Ezért ezt a választ adták Jézusnak: „Nem tudjuk.” Erre ő így felelt: „Akkor én sem mondom meg, milyen hatalom birtokában teszem ezeket.”",
-                                            "chapter": "21",
-                                            "verse": "27"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "26,60-61",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "de mivel nem találtak, sok hamis tanú jelentkezett. Végre jött kettő,",
-                                            "chapter": "26",
-                                            "verse": "60"
-                                        },
-                                        {
-                                            "text": "s így vádaskodott: „Azt állította: Le tudom bontani az Isten templomát, és három nap alatt újra fel tudom építeni.”",
-                                            "chapter": "26",
-                                            "verse": "61"
-                                        }
-                                    ]
                                 }
                             ],
                             "mk": [
@@ -2961,65 +2605,6 @@
                                             "verse": "17"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "11,27-33",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Ismét Jeruzsálembe mentek. Amikor a templomban járt, odamentek hozzá a főpapok, írástudók és vének,",
-                                            "chapter": "11",
-                                            "verse": "27"
-                                        },
-                                        {
-                                            "text": "és megkérdezték: „Milyen hatalom birtokában teszed ezeket? Ki adta neked a hatalmat, hogy ilyeneket tegyél?”",
-                                            "chapter": "11",
-                                            "verse": "28"
-                                        },
-                                        {
-                                            "text": "Jézus így válaszolt: „Kérdezek tőletek valamit, s feleljetek rá nekem, aztán majd én is megmondom, milyen hatalom birtokában teszem, amit teszek.",
-                                            "chapter": "11",
-                                            "verse": "29"
-                                        },
-                                        {
-                                            "text": "János keresztsége az égből való volt, vagy pedig emberektől származott? Feleljetek nekem!”",
-                                            "chapter": "11",
-                                            "verse": "30"
-                                        },
-                                        {
-                                            "text": "Erre elkezdtek egymás közt tanakodni. Így okoskodtak: „Ha azt mondjuk: Az égből – azt fogja kérdezni: Akkor miért nem hittetek neki?",
-                                            "chapter": "11",
-                                            "verse": "31"
-                                        },
-                                        {
-                                            "text": "Mondjuk talán azt, hogy az emberektől.” De féltek a tömegtől, mert Jánosról mindenki azt tartotta, hogy valóban próféta volt.",
-                                            "chapter": "11",
-                                            "verse": "32"
-                                        },
-                                        {
-                                            "text": "Ezért így válaszoltak Jézusnak: „Nem tudjuk.” Jézus azért ezt felelte: „Akkor én sem mondom meg nektek, milyen hatalom birtokában teszem ezeket.”",
-                                            "chapter": "11",
-                                            "verse": "33"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "14,57-58",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Ekkor néhányan felálltak, s ezt a hamis tanúságot tették ellene:",
-                                            "chapter": "14",
-                                            "verse": "57"
-                                        },
-                                        {
-                                            "text": "„Hallottuk, amikor kijelentette: Lebontom ezt az emberi kéz építette templomot, és három nap alatt másikat építek, amely nem emberi kéz alkotása.”",
-                                            "chapter": "14",
-                                            "verse": "58"
-                                        }
-                                    ]
                                 }
                             ],
                             "lk": [
@@ -3039,55 +2624,7 @@
                                             "verse": "46"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "20,1-8",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Egy nap, amikor a népet tanította a templomban s az evangéliumot hirdette, odamentek a főpapok, írástudók és a nép vénei,",
-                                            "chapter": "20",
-                                            "verse": "1"
-                                        },
-                                        {
-                                            "text": "és megkérdezték: „Mondd meg nekünk, milyen hatalom birtokában teszed ezeket, vagy ki adta neked ezt a hatalmat?”",
-                                            "chapter": "20",
-                                            "verse": "2"
-                                        },
-                                        {
-                                            "text": "Így felelt nekik: „Én is kérdezek tőletek valamit. Mondjátok meg nekem:",
-                                            "chapter": "20",
-                                            "verse": "3"
-                                        },
-                                        {
-                                            "text": "János keresztsége az égből való volt, vagy emberektől származott?”",
-                                            "chapter": "20",
-                                            "verse": "4"
-                                        },
-                                        {
-                                            "text": "Erre tanakodni kezdtek maguk közt: „Ha azt mondjuk: Az égből –, azt fogja kérdezni: Akkor miért nem hittetek neki?",
-                                            "chapter": "20",
-                                            "verse": "5"
-                                        },
-                                        {
-                                            "text": "Ha meg azt mondjuk: Az emberektől –, megkövez minket az egész nép, mert meggyőződése, hogy János próféta.”",
-                                            "chapter": "20",
-                                            "verse": "6"
-                                        },
-                                        {
-                                            "text": "Ezért azt válaszolták neki, hogy nem tudják, honnét való.",
-                                            "chapter": "20",
-                                            "verse": "7"
-                                        },
-                                        {
-                                            "text": "Jézus erre így felelt nekik: „Akkor én sem mondom meg nektek, hogy milyen hatalom birtokában teszem ezeket.”",
-                                            "chapter": "20",
-                                            "verse": "8"
-                                        }
-                                    ]
-                                },
-                                null
+                                }
                             ],
                             "jn": [
                                 {
@@ -3141,9 +2678,7 @@
                                             "verse": "22"
                                         }
                                     ]
-                                },
-                                null,
-                                null
+                                }
                             ]
                         },
                         {
@@ -3187,95 +2722,13 @@
                             "id": "27",
                             "subsection_name": "Nikodémus Jézusnál",
                             "mt": [
-                                null,
-                                {
-                                    "citation": "22,16",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Odaküldték hozzá tanítványaikat, a Heródes-pártiakkal együtt. Ezek így beszéltek: „Mester, tudjuk, hogy igazat mondasz, az Isten útját az igazsághoz híven tanítod, nem vagy tekintettel senki személyére, mert nem igazodol emberi tekintélyhez.",
-                                            "chapter": "22",
-                                            "verse": "16"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "18,3",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "s azt mondta: „Bizony mondom nektek, ha nem változtok meg, s nem lesztek olyanok, mint a gyerekek, nem mentek be a mennyek országába.",
-                                            "chapter": "18",
-                                            "verse": "3"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "mk": [
-                                null,
-                                {
-                                    "citation": "12,13-14",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "A farizeusok és a Heródes-pártiak közül odaküldtek hozzá néhány embert, hogy a szavaiba belekössenek.",
-                                            "chapter": "12",
-                                            "verse": "13"
-                                        },
-                                        {
-                                            "text": "Ezek odamentek hozzá és megkérdezték: „Mester, tudjuk, hogy igazat mondasz, és nem veszed tekintetbe az emberek személyét, hanem az igazsághoz híven tanítod az Isten útját. Szabad adót fizetni a császárnak, vagy nem? Fizessünk, vagy ne fizessünk?”",
-                                            "chapter": "12",
-                                            "verse": "14"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "10,15",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Bizony mondom nektek, aki nem úgy fogadja az Isten országát, mint egy gyermek, nem jut be oda.”",
-                                            "chapter": "10",
-                                            "verse": "15"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "lk": [
-                                null,
-                                {
-                                    "citation": "20,20-21",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Szemmel tartották és cselvetőket küldtek ki. Ezek jószándékú embernek tettették magukat, hogy szaván fogják, s aztán kiszolgáltassák a hatóságnak és a helytartó hatalmának.",
-                                            "chapter": "20",
-                                            "verse": "20"
-                                        },
-                                        {
-                                            "text": "„Mester – kezdték –, tudjuk, hogy az igazságot hirdeted és tanítod, nem nézed az emberek személyét, hanem az igazsághoz híven tanítod az Isten útját.",
-                                            "chapter": "20",
-                                            "verse": "21"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "18,17",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Bizony mondom nektek, hogy aki Isten országát nem úgy fogadja, mint a gyermek, az nem jut be oda.”",
-                                            "chapter": "18",
-                                            "verse": "17"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "jn": [
                                 {
@@ -3389,9 +2842,7 @@
                                             "verse": "21"
                                         }
                                     ]
-                                },
-                                null,
-                                null
+                                }
                             ]
                         },
                         {
@@ -3425,59 +2876,13 @@
                             "id": "29",
                             "subsection_name": "Keresztelő János bizonyságtétele",
                             "mt": [
-                                null,
-                                {
-                                    "citation": "9,15",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Jézus így felelt: „Hát búsulhat a násznép, míg vele a vőlegény? Eljön a nap, amikor elviszik a vőlegényt, akkor majd böjtölnek.",
-                                            "chapter": "9",
-                                            "verse": "15"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "mk": [
-                                null,
-                                {
-                                    "citation": "2,19-20",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Jézus így válaszolt: „Böjtölhet a násznép, míg vele a vőlegény? Amíg velük a vőlegény, nem böjtölhetnek.",
-                                            "chapter": "2",
-                                            "verse": "19"
-                                        },
-                                        {
-                                            "text": "De eljön az idő, amikor kiragadják körükből a vőlegényt, akkor majd böjtölnek.",
-                                            "chapter": "2",
-                                            "verse": "20"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "lk": [
-                                null,
-                                {
-                                    "citation": "5,34-35",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Jézus ezt válaszolta nekik: „Képesek volnátok böjtre fogni a násznépet, amikor még vele van a vőlegény?",
-                                            "chapter": "5",
-                                            "verse": "34"
-                                        },
-                                        {
-                                            "text": "Eljönnek a napok, amikor elviszik a vőlegényt, akkor majd böjtölnek.”",
-                                            "chapter": "5",
-                                            "verse": "35"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "jn": [
                                 {
@@ -3556,8 +2961,7 @@
                                             "verse": "36"
                                         }
                                     ]
-                                },
-                                null
+                                }
                             ]
                         }
                     ]
@@ -3644,43 +3048,13 @@
                             "id": "31",
                             "subsection_name": "Jézus és a samáriai asszony",
                             "mt": [
-                                null,
-                                {
-                                    "citation": "9,37-38",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "„Az aratnivaló sok, de a munkás kevés” – mondta akkor tanítványainak. –",
-                                            "chapter": "9",
-                                            "verse": "37"
-                                        },
-                                        {
-                                            "text": "„Kérjétek hát az aratás urát, küldjön munkásokat az aratáshoz.”",
-                                            "chapter": "9",
-                                            "verse": "38"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "mk": [
-                                null,
                                 null
                             ],
                             "lk": [
-                                null,
-                                {
-                                    "citation": "10,2",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Így szólt hozzájuk: „Az aratnivaló sok, de a munkás kevés. Kérjétek hát az aratás urát, küldjön munkásokat az aratásra.",
-                                            "chapter": "10",
-                                            "verse": "2"
-                                        }
-                                    ]
-                                }
+                                null
                             ],
                             "jn": [
                                 {
@@ -3884,8 +3258,7 @@
                                             "verse": "42"
                                         }
                                     ]
-                                },
-                                null
+                                }
                             ]
                         },
                         {
@@ -3923,36 +3296,6 @@
                                             "verse": "17"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "13,57b",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Jézus erre megjegyezte: „A prófétának csak a saját hazájában és házában nincs becsülete.”",
-                                            "chapter": "13",
-                                            "verse": "57b"
-                                        }
-                                    ]
-                                },
-                                null,
-                                {
-                                    "citation": "3,1-2",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Ezekben a napokban Júdea pusztájában fellépett Keresztelő János,",
-                                            "chapter": "3",
-                                            "verse": "1"
-                                        },
-                                        {
-                                            "text": "és így prédikált: „Tartsatok bűnbánatot, mert közel van a mennyek országa!”",
-                                            "chapter": "3",
-                                            "verse": "2"
-                                        }
-                                    ]
                                 }
                             ],
                             "mk": [
@@ -3972,42 +3315,6 @@
                                             "verse": "15"
                                         }
                                     ]
-                                },
-                                {
-                                    "citation": "6,4",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Jézus erre megjegyezte: „A prófétának csak hazájában, rokonai körében, a saját házában nincs becsülete.”",
-                                            "chapter": "6",
-                                            "verse": "4"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "1,21",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Betértek Kafarnaumba. Itt szombaton mindjárt elment a zsinagógába és tanított.",
-                                            "chapter": "1",
-                                            "verse": "21"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "1,4",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Történt, hogy Keresztelő János a pusztában hirdette a bűnbánat keresztségét a bűnök bocsánatára.",
-                                            "chapter": "1",
-                                            "verse": "4"
-                                        }
-                                    ]
                                 }
                             ],
                             "lk": [
@@ -4025,47 +3332,6 @@
                                             "text": "Tanított a zsinagógákban, és mindenki magasztalta.",
                                             "chapter": "4",
                                             "verse": "15"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "4,24",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Majd így folytatta: „Bizony mondom nektek, hogy egy prófétát sem látnak szívesen a saját hazájában.",
-                                            "chapter": "4",
-                                            "verse": "24"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "4,31",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Jézus lement Kafarnaumba, Galilea egyik városába, és szombaton tanította őket.",
-                                            "chapter": "4",
-                                            "verse": "31"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "citation": "3,2-3",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Annás és Kaifás főpapok idején az Úr szózatot intézett Jánoshoz, Zakariás fiához a pusztában.",
-                                            "chapter": "3",
-                                            "verse": "2"
-                                        },
-                                        {
-                                            "text": "S ő bejárta a Jordán egész környékét, hirdette a bűnbánat keresztségét a bűnök bocsánatára,",
-                                            "chapter": "3",
-                                            "verse": "3"
                                         }
                                     ]
                                 }
@@ -4097,21 +3363,7 @@
                                             "verse": "46a"
                                         }
                                     ]
-                                },
-                                null,
-                                {
-                                    "citation": "2,12",
-                                    "primary": false,
-                                    "leading": false,
-                                    "content": [
-                                        {
-                                            "text": "Aztán lement anyjával, testvéreivel és tanítványaival Kafarnaumba, de csak néhány napig maradtak ott.",
-                                            "chapter": "2",
-                                            "verse": "12"
-                                        }
-                                    ]
-                                },
-                                null
+                                }
                             ]
                         },
                         {
