@@ -18,8 +18,7 @@ export default {
     Chapter
   },
   mounted() {
-    if (this.$route.hash.substring(1))
-    {
+    if (this.$route.hash.substring(1)) {
       this.showScroller = true
     }
     this.delayedRender(0);
