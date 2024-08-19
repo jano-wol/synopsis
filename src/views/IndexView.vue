@@ -7,12 +7,12 @@ export default {
   data() {
     return {
       synopsisStore: useSynopsisStore(),
-      visibleIndex: 0
+      visibleIndex: 1
     };
   },
   components: { IndexRecord },
   mounted() {
-    this.delayedRender(0);
+    this.delayedRender(1);
   },
   methods: {
     delayedRender(index: number) {
@@ -32,10 +32,13 @@ export default {
   <div class="container">
     <h1 class="text-center">{{ synopsisStore.translation.menu.index }}</h1>
 
-
-    <template  v-for="(chapter, chapterIndex) in synopsisStore.synopsis.chapters">
+    <IndexRecord
+        :chapter-name="synopsisStore.synopsis.chapters[0].chapter_name"
+        :sections="synopsisStore.synopsis.chapters[0].sections" />
+    <template v-for="chapterIndex in synopsisStore.synopsis.chapters.length">
       <IndexRecord v-if="visibleIndex >= chapterIndex"
-        :chapter-name="chapter.chapter_name" :sections="chapter.sections" />
+        :chapter-name="synopsisStore.synopsis.chapters[chapterIndex].chapter_name"
+        :sections="synopsisStore.synopsis.chapters[chapterIndex].sections" />
     </template>
 
   </div>
