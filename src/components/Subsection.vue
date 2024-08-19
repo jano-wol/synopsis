@@ -52,39 +52,41 @@ export default {
 </script>
 
 <template>
-    <div class="row align-items-center" :id="id">
-        <div class="col-1">
-        </div>
-        <div class="col-10">
-            <h3 class="text-center display-6">
-                {{ id }}. {{ subsection.subsection_name
-                }}
-            </h3>
-        </div>
-        <div class="col-1">
-            <FunctionButtons :subsection-location="subsectionLocation" :id="id"/>
-        </div>
+    
 
-    </div>
+        <div class="row align-items-center mx-3" :id="id">
+            <div class="col-lg-2 col-md-12">
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <h3 class="text-center display-6">
+                    {{ id }}. {{ subsection.subsection_name
+                    }}
+                </h3>
+            </div>
+            <div class="col-lg-2 col-md-12 d-flex justify-content-md-center justify-content-lg-end">
+                <FunctionButtons :subsection-location="subsectionLocation" :id="id" />
+            </div>
+        </div>
 
     <template v-for="index in subsection.mt.length">
         <div class="row content mx-3">
-            <div class="col-3 pb-3">
+            <div class="col-lg-3 col-md-12 pb-3">
                 <Citation v-if="subsection.mt[index - 1] !== null" :citation="subsection.mt[index - 1]" evangelist="mt"
                     :subsection-id="id" />
             </div>
-            <div class="col-3 pb-3">
+            <div class="col-lg-3 col-md-12 pb-3">
                 <Citation v-if="subsection.mk[index - 1] !== null" :citation="subsection.mk[index - 1]" evangelist="mk"
                     :subsection-id="id" />
             </div>
-            <div class="col-3 pb-3">
+            <div class="col-lg-3 col-md-12 pb-3">
                 <Citation v-if="subsection.lk[index - 1] !== null" :citation="subsection.lk[index - 1]" evangelist="lk"
                     :subsection-id="id" />
             </div>
-            <div class="col-3 pb-3">
+            <div class="col-lg-3 col-md-12 pb-3">
                 <Citation v-if="subsection.jn[index - 1] !== null" :citation="subsection.jn[index - 1]" evangelist="jn"
                     :subsection-id="id" />
             </div>
         </div>
+        <hr class="d-lg-none">
     </template>
 </template>
