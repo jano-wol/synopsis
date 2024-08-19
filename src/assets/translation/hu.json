@@ -23,5 +23,8 @@
     },
     "index": {
         "title": "Cím"
+    },
+    "notFound": {
+        "notFound": "Az oldal nem található"
     }
 }

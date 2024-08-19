@@ -23,5 +23,8 @@
     },
     "index": {
         "title": "Title"
+    },
+    "notFound": {
+        "notFound": "Not found"
     }
 }
