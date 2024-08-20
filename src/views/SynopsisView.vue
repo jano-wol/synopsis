@@ -10,7 +10,8 @@ export default {
       synopsisStore: useSynopsisStore(),
       visibleIndex: 0,
       scrolledToAnchor: false,
-      showScroller: false
+      showScroller: false,
+      hash: this.$route.hash.substring(1)
     }
   },
   components:
@@ -18,61 +19,78 @@ export default {
     Chapter
   },
   mounted() {
-    if (this.$route.hash.substring(1)) {
+    if (this.hash && this.isValidHash(this.hash)) {
       this.showScroller = true
     }
     this.delayedRender(0);
   },
   methods: {
     delayedRender(index: number) {
+      if (!this.scrolledToAnchor) {
+        this.scrollToAnchor();
+      }
       if (index < this.synopsisStore.synopsis.chapters.length) {
         setTimeout(() => {
           this.visibleIndex = index + 1;
           this.delayedRender(index + 1);
-          if (!this.scrolledToAnchor) {
-            this.scrollToAnchor();
-          }
-          if (index + 1 === this.synopsisStore.synopsis.chapters.length) {
-            this.showScroller = false;
-          }
         }, 1);
       }
     },
     scrollToAnchor() {
       this.$nextTick(() => {
-        const hash = this.$route.hash.substring(1);
-        if (hash) {
-          const anchorElement = document.getElementById(hash);
+        if (this.hash) {
+          const anchorElement = document.getElementById(this.hash);
           if (anchorElement) {
+            this.showScroller = false
             this.scrolledToAnchor = true
             anchorElement.scrollIntoView();
           }
         }
       });
+    },
+    isValidHash(hash: string)
+    {
+      let validHashes = []
+      for (let i = 1; i<368; i++)
+      {
+        validHashes.push(i);
+      }
+      validHashes.splice(360, 2);
+      console.log(validHashes)
+      return validHashes.includes(parseInt(hash))
     }
   }
 }
 
 </script>
 
+<style>
+.spinner-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+</style>
+
 <template>
   <div class="container-fluid">
-    <div class="container text-center">
-      <div class="row justify-content-md-center">
-        <div class="col col-lg-2">
-        </div>
-        <div class="col-md-auto">
-          <h1 class="text-center display-1">{{ synopsisStore.translation.menu.synopsis }}</h1>
-        </div>
-        <div class="col col-lg-2 d-flex align-items-center justify-content-start">
-          <div v-if="showScroller" class="spinner-border spinner-border-sm text-secondary" role="status">
-            <span class="visually-hidden">Loading...</span>
-          </div>
-        </div>
+    <h1 class="text-center display-1">{{ synopsisStore.translation.menu.synopsis }}</h1>
+    <div v-if="showScroller" class="spinner-background">
+      <!-- Spinner -->
+      <div class="spinner-border spinner-border-lg" role="status">
+        <span class="visually-hidden">Loading...</span>
       </div>
     </div>
 
-    <template v-for="chapterIndex in synopsisStore.synopsis.chapters.length">
+    <template v-show="!showScroller" v-for="chapterIndex in synopsisStore.synopsis.chapters.length">
       <Chapter v-if="visibleIndex >= chapterIndex - 1"
         :chapter-location="{ chapterIndex: chapterIndex - 1, sectionIndex: null, subsectionIndex: null }" />
     </template>
