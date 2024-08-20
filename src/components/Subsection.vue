@@ -63,7 +63,7 @@ export default {
                     }}
                 </h3>
             </div>
-            <div class="col-lg-2 col-md-12 d-flex justify-content-md-center justify-content-lg-end">
+            <div class="col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end">
                 <FunctionButtons :subsection-location="subsectionLocation" :id="id" />
             </div>
         </div>
