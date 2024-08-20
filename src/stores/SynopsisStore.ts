@@ -20,7 +20,7 @@ export const useSynopsisStore = defineStore('synopsis', {
     },
     actions: {
         changeLanguage() {
-            if (localStorage.getItem("lang") === "hu")
+            if (this.language === "hu")
             {
                 this.translation = translationEn
                 this.synopsis = synopsisEsv
@@ -50,7 +50,7 @@ export const useSynopsisStore = defineStore('synopsis', {
         },
         setupLanguage(language: any)
         {
-            if (language === "hu")
+            if (language !== "en")
             {
                 this.translation = translationHu,
                 this.language = "hu",
