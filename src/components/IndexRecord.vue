@@ -28,7 +28,7 @@ export default {
     <template v-for="section in sections" class="row">
         <h3 class="text-center fs-4">{{ section.section_name }}</h3>
         <div class="table-responsive">
-            <table class="table table-sm table-striped ">
+            <table class="table bg-dark table-sm table-striped table-bordered">
                 <thead>
                     <tr>
                         <th class="fw-normal text-nowrap" scope="col">Id ( <i
