@@ -83,6 +83,7 @@ export default {
 <template>
   <div class="container-fluid">
     <h1 class="text-center display-1">{{ synopsisStore.translation.menu.synopsis }}</h1>
+    <p class="text-center">Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.</p>
     <div v-if="showScroller" class="spinner-background">
       <!-- Spinner -->
       <div class="spinner-border spinner-border-lg" role="status">
