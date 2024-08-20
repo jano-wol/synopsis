@@ -48,11 +48,9 @@ export default {
         }
       });
     },
-    isValidHash(hash: string)
-    {
+    isValidHash(hash: string) {
       let validHashes = []
-      for (let i = 1; i<368; i++)
-      {
+      for (let i = 1; i < 368; i++) {
         validHashes.push(i);
       }
       validHashes.splice(360, 2);
@@ -83,7 +81,7 @@ export default {
 <template>
   <div class="container-fluid">
     <h1 class="text-center display-1">{{ synopsisStore.translation.menu.synopsis }}</h1>
-    <p class="text-center">Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.</p>
+    <p class="text-center">{{ synopsisStore.translation.synopsis.subheading }}</p>
     <div v-if="showScroller" class="spinner-background">
       <!-- Spinner -->
       <div class="spinner-border spinner-border-lg" role="status">
