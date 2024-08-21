@@ -1,3 +1,16 @@
+<script lang="ts">
+import { useSynopsisStore } from "@/stores/SynopsisStore"
+
+export default {
+    data() {
+        return {
+            synopsisStore: useSynopsisStore()
+        };
+    }
+}
+
+</script>
+
 <template>
     <p>
 
@@ -10,7 +23,7 @@
     </p>
     <ul>
         <li>A törzsszöveg fekete kerettel és árnyékkal jelenik meg. A <router-link
-                :to="{ name: 'index' }">tartalomjegyzékben</router-link> vastag kiemeléssel szerepelnek
+                :to="{ name: 'index', params: { lang: synopsisStore.language } }">tartalomjegyzékben</router-link> vastag kiemeléssel szerepelnek
             a hozzá tartozó idézetek. A törzsszöveg a teljes evangéliumot tartalmazza, ismétlődések nélkül, a versek
             eredeti sorrendjében. Minden alszekcióban egy evangélistához, legfeljebb egy törzsszöveg található.
         </li>
@@ -48,6 +61,6 @@
     </ul>
 
     <p>
-        További részletekért lásd a <router-link :to="{ name: 'sources' }">Források</router-link> menüpontot.
+        További részletekért lásd a <router-link :to="{ name: 'sources', params: { lang: synopsisStore.language } }">Források</router-link> menüpontot.
     </p>
 </template>

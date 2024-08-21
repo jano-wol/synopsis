@@ -1,3 +1,16 @@
+<script lang="ts">
+import { useSynopsisStore } from "@/stores/SynopsisStore"
+
+export default {
+    data() {
+        return {
+            synopsisStore: useSynopsisStore()
+        };
+    }
+}
+
+</script>
+
 <template>
     <p>
 
@@ -13,7 +26,7 @@
             repetitions, in the original
             order of the verses. Each subsection contains maximum one body text, for one evangelist.
             In the <router-link
-                :to="{ name: 'index' }">Table of contents</router-link> ther citation appears with bold.
+                :to="{ name: 'index', params: { lang: synopsisStore.language } }">Table of contents</router-link> ther citation appears with bold.
         </li>
         <li>Boxes with grey frame and no shadow contain parallel text.</li>
     </ul>
@@ -45,6 +58,6 @@
     </ul>
 
     <p>
-        More details under <router-link :to="{ name: 'sources' }">Sources</router-link>.
+        More details under <router-link :to="{ name: 'sources', params: { lang: synopsisStore.language } }">Sources</router-link>.
     </p>
 </template>

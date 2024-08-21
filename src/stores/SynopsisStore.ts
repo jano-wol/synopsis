@@ -4,6 +4,7 @@ import synopsis_esv from '@/assets/synopsis_esv.json'
 import translation_en from '@/assets/translation/en.json'
 import translation_hu from '@/assets/translation/hu.json'
 import type { SynopsisScheme } from '@/interfaces/synopsisInterface'
+import router from '../router';
 const synopsis: SynopsisScheme = synopsis_szit
 const synopsisEsv: SynopsisScheme = synopsis_esv
 //TODO: proper typing
@@ -20,46 +21,40 @@ export const useSynopsisStore = defineStore('synopsis', {
     },
     actions: {
         changeLanguage() {
-            if (this.language === "hu")
-            {
+            if (this.language === "hu") {
                 this.translation = translationEn
                 this.synopsis = synopsisEsv
                 this.language = "en"
-                localStorage.setItem("lang", "en");
             }
             else {
                 this.translation = translationHu
                 this.synopsis = synopsis
                 this.language = "hu"
-                localStorage.setItem("lang", "hu");
             }
+            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language} });
         },
         //TODO: proper typing
         get(location: any) {
 
-            let result:any = this.synopsis.chapters[location.chapterIndex]
-            if (location.sectionIndex !== null)
-            {
+            let result: any = this.synopsis.chapters[location.chapterIndex]
+            if (location.sectionIndex !== null) {
                 result = result.sections[location.sectionIndex]
-                if (location.subsectionIndex !== null)
-                {
+                if (location.subsectionIndex !== null) {
                     result = result.subsections[location.subsectionIndex]
                 }
             }
             return result
         },
-        setupLanguage(language: any)
-        {
-            if (language !== "en")
-            {
+        setupLanguage(language: any) {
+            if (language !== "en") {
                 this.translation = translationHu,
-                this.language = "hu",
-                this.synopsis = synopsis
+                    this.language = "hu",
+                    this.synopsis = synopsis
             }
             else {
                 this.translation = translationEn,
-                this.language = "en",
-                this.synopsis = synopsisEsv
+                    this.language = "en",
+                    this.synopsis = synopsisEsv
             }
         }
     }

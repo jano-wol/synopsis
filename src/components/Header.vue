@@ -13,8 +13,8 @@ export default {
 <template>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <router-link :to="{ name: 'synopsis' }" :class="$route.name == 'synopsis' ? 'active' : ''"
-                class="navbar-brand" aria-current="page">
+            <router-link :to="{ name: 'synopsis', params: { lang: synopsisStore.language } }"
+                :class="$route.name == 'synopsis' ? 'active' : ''" class="navbar-brand" aria-current="page">
                 <img src="/favicon.svg" alt="Szinopszis" width="33" height="33">
             </router-link>
 
@@ -25,28 +25,33 @@ export default {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <router-link :to="{ name: 'synopsis' }" :class="$route.name == 'synopsis' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.synopsis }}
+                        <router-link :to="{ name: 'synopsis', params: { lang: synopsisStore.language } }"
+                            :class="$route.name == 'synopsis' ? 'active' : ''" class="nav-link" aria-current="page">{{
+                synopsisStore.translation.menu.synopsis }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'index' }" :class="$route.name == 'index' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.index }}
+                        <router-link :to="{ name: 'index', params: { lang: synopsisStore.language } }"
+                            :class="$route.name == 'index' ? 'active' : ''" class="nav-link" aria-current="page">{{
+                synopsisStore.translation.menu.index }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'about' }" :class="$route.name == 'about' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.about }}
+                        <router-link :to="{ name: 'about', params: { lang: synopsisStore.language } }"
+                            :class="$route.name == 'about' ? 'active' : ''" class="nav-link" aria-current="page">{{
+                synopsisStore.translation.menu.about }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'sources' }" :class="$route.name == 'sources' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.sources }}
+                        <router-link :to="{ name: 'sources', params: { lang: synopsisStore.language } }"
+                            :class="$route.name == 'sources' ? 'active' : ''" class="nav-link" aria-current="page">{{
+                synopsisStore.translation.menu.sources }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'development' }" :class="$route.name == 'development' ? 'active' : ''"
-                            class="nav-link" aria-current="page">{{ synopsisStore.translation.menu.development }}
+                        <router-link :to="{ name: 'development', params: { lang: synopsisStore.language } }"
+                            :class="$route.name == 'development' ? 'active' : ''" class="nav-link"
+                            aria-current="page">{{ synopsisStore.translation.menu.development }}
                         </router-link>
                     </li>
                 </ul>

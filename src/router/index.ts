@@ -12,32 +12,32 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/:lang(hu|en)?',
       name: 'synopsis',
       component: SynopsisView
     },
     {
-      path: '/about',
+      path: '/:lang(hu|en)/about',
       name: 'about',
       component: AboutView
     },
     {
-      path: '/index',
+      path: '/:lang(hu|en)/index',
       name: 'index',
       component: IndexView
     },
     {
-      path: '/sources',
+      path: '/:lang(hu|en)/sources',
       name: 'sources',
       component: SourcesView
     },
     {
-      path: '/development',
+      path: '/:lang(hu|en)/development',
       name: 'development',
       component: DevelopmentView
     },
     {
-      path: '/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
+      path: '/:lang(hu|en)/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
       name: 'subsection',
       component: Subsection,
       props: true
@@ -59,7 +59,7 @@ const router = createRouter({
   },
 })
 
-router.beforeEach(() => {
-  useSynopsisStore().setupLanguage(localStorage.getItem("lang"))
+router.beforeEach((to, from) => {
+  useSynopsisStore().setupLanguage(to.params.lang)
 })
 export default router
