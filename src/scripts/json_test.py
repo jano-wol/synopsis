@@ -7,7 +7,7 @@ for file in os.listdir(os.fsencode(json_folder)):
     filename = os.fsdecode(file)
     if filename.endswith(".json"):
         file_to_check = os.path.join(json_folder, filename)
-        with open(file_to_check) as f:
+        with open(file_to_check + "tt") as f:
             try:
                 json_loaded = json.load(f)
             except ValueError as e:
