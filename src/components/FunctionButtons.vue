@@ -44,26 +44,26 @@ export default {
 
 <template>
     <router-link v-if="$route.name !== 'subsection'"
-        :to="{ name: 'subsection', params: { lang: synopsisStore.language, translation: synopsisStore.publisher, id: id } }"
+        :to="{ name: 'subsection', params: { lang: synopsisStore.language, translation: synopsisStore.translation, id: id } }"
         target="_blank">
         <button type="button" class="float-right btn btn-light  btn-sm ms-1 mb-1"
-            :title="synopsisStore.translation.tooltips.openSeparately">
+            :title="synopsisStore.dictionary.tooltips.openSeparately">
             <i class="bi bi-arrow-up-right-square fs-6"></i>
         </button>
     </router-link>
     <router-link v-if="$route.name !== 'synopsis'"
-        :to="{ name: 'synopsis', params: { lang: synopsisStore.language, translation: synopsisStore.publisher }, hash: '#' + id }">
+        :to="{ name: 'synopsis', params: { lang: synopsisStore.language, translation: synopsisStore.translation }, hash: '#' + id }">
         <button type="button" class="float-right btn btn-light btn-sm ms-1 mb-1"
-            :title="synopsisStore.translation.tooltips.openInSynopsis">
+            :title="synopsisStore.dictionary.tooltips.openInSynopsis">
             <i class="bi bi-arrow-down-left-square fs-6"></i>
         </button>
     </router-link>
     <button v-if="$route.name === 'synopsis'" @click="copyIdLink(id)" type="button"
-        class=" float-right btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.translation.tooltips.location">
+        class=" float-right btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.dictionary.tooltips.location">
         <i class="bi fs-6" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
     </button>
     <button v-if="$route.name === 'subsection'" @click="copyShareLink(id)" type="button"
-        class="float-right  btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.translation.tooltips.share">
+        class="float-right  btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.dictionary.tooltips.share">
         <i class="bi fs-6" :class="{ 'bi-link-45deg': !isShareCopied, 'bi-check': isShareCopied }"></i>
     </button>
 </template>

@@ -80,8 +80,8 @@ export default {
 
 <template>
   <div class="container-fluid">
-    <h1 class="text-center display-1">{{ synopsisStore.translation.menu.synopsis }}</h1>
-    <p class="text-center">{{ synopsisStore.translation.synopsis.subheading }}</p>
+    <h1 class="text-center display-1">{{ synopsisStore.dictionary.menu.synopsis }}</h1>
+    <p class="text-center">{{ synopsisStore.dictionary.synopsis.subheading }}</p>
     <div v-if="showScroller" class="spinner-background">
       <!-- Spinner -->
       <div class="spinner-border spinner-border-lg" role="status">

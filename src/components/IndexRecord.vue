@@ -33,15 +33,15 @@ export default {
                     <tr>
                         <th class="fw-normal text-nowrap" scope="col"># ( <i
                                 class="bi bi-arrow-down-left-square fs-6"></i> )</th>
-                        <th class="fw-normal text-nowrap" scope="col">{{ synopsisStore.translation.index.title }} ( <i
+                        <th class="fw-normal text-nowrap" scope="col">{{ synopsisStore.dictionary.index.title }} ( <i
                                 class="bi bi-arrow-up-right-square fs-6"></i> )</th>
-                        <th class="text-center fw-normal" scope="col">{{ synopsisStore.translation.evangelists.mt }}
+                        <th class="text-center fw-normal" scope="col">{{ synopsisStore.dictionary.evangelists.mt }}
                         </th>
-                        <th class="text-center fw-normal" scope="col">{{ synopsisStore.translation.evangelists.mk }}
+                        <th class="text-center fw-normal" scope="col">{{ synopsisStore.dictionary.evangelists.mk }}
                         </th>
-                        <th class="text-center fw-normal" scope="col">{{ synopsisStore.translation.evangelists.lk }}
+                        <th class="text-center fw-normal" scope="col">{{ synopsisStore.dictionary.evangelists.lk }}
                         </th>
-                        <th class="text-center fw-normal" scope="col">{{ synopsisStore.translation.evangelists.jn }}
+                        <th class="text-center fw-normal" scope="col">{{ synopsisStore.dictionary.evangelists.jn }}
                         </th>
                     </tr>
                 </thead>

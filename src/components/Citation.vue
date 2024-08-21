@@ -123,11 +123,11 @@ export default {
   <div class="card h-100" v-if="citation?.content && citation.primary"
     :class="{ 'shadow border-dark': citation.leading, 'border-light text-bg-light': !citation.primary }">
     <div class="card-header sticky-top bg-light">
-      {{ synopsisStore.translation.evangelists[evangelist] }} {{ citation?.citation }}
+      {{ synopsisStore.dictionary.evangelists[evangelist] }} {{ citation?.citation }}
       <template v-if="!$route.params.id">
         <button v-if="!citation.leading"
           @click="redirectToLeadingCitation(citation.content[0].chapter, citation.content[0].verse)" type="button"
-          class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.translation.tooltips.jumpToMainText">
+          class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.dictionary.tooltips.jumpToMainText">
 
           <i class="bi bi-compass fs-6 text-secondary"></i>
         </button>
@@ -138,12 +138,12 @@ export default {
       || (evangelist === 'lk' && subsectionId === '365')
       || (evangelist === 'jn' && subsectionId === '367')
     )" @click="redirectToNextLeadingCitation()" type="button" class=" float-end btn  btn-sm py-0 m-0"
-          :title="synopsisStore.translation.tooltips.nextMainText">
+          :title="synopsisStore.dictionary.tooltips.nextMainText">
           <i class="bi bi-arrow-down fs-6 text-secondary"></i>
         </button>
         <button v-if="citation.leading && subsectionId !== '1'" @click="redirectToPreviousLeadingCitation()"
           type="button" class=" float-end btn  btn-sm py-0 m-0"
-          :title="synopsisStore.translation.tooltips.previousMainText">
+          :title="synopsisStore.dictionary.tooltips.previousMainText">
           <i class="bi bi-arrow-up fs-6 text-secondary"></i>
         </button>
       </template>

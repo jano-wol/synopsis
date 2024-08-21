@@ -22,8 +22,8 @@ export default {
         Kétfajta szövegdobozt különböztetünk meg:
     </p>
     <ul>
-        <li>A törzsszöveg fekete kerettel és árnyékkal jelenik meg. A <router-link
-                :to="{ name: 'index', params: { lang: synopsisStore.language, translate: synopsisStore.publisher } }">tartalomjegyzékben</router-link>
+        <li>A törzsszöveg fekete kerettel és árnyékkal jelenik meg. A
+            <router-link    :to="{ name: 'index', params: { lang: synopsisStore.language, translation: synopsisStore.translation } }">tartalomjegyzékben</router-link>
             vastag kiemeléssel szerepelnek
             a hozzá tartozó idézetek. A törzsszöveg a teljes evangéliumot tartalmazza, ismétlődések nélkül, a versek
             eredeti sorrendjében. Minden alszekcióban egy evangélistához, legfeljebb egy törzsszöveg található.

@@ -1,38 +1,38 @@
 import { defineStore } from 'pinia'
 import synopsis_szit from '@/assets/synopsis_szit.json'
 import synopsis_esv from '@/assets/synopsis_esv.json'
-import translation_en from '@/assets/translation/en.json'
-import translation_hu from '@/assets/translation/hu.json'
+import dictionary_en from '@/assets/translation/en.json'
+import dictionary_hu from '@/assets/translation/hu.json'
 import type { SynopsisScheme } from '@/interfaces/synopsisInterface'
 import router from '../router';
-const synopsis: SynopsisScheme = synopsis_szit
-const synopsisEsv: SynopsisScheme = synopsis_esv
+const synopsisSZIT: SynopsisScheme = synopsis_szit
+const synopsisESV: SynopsisScheme = synopsis_esv
 //TODO: proper typing
-const translationEn: any = translation_en
-const translationHu: any = translation_hu
+const dictionaryEn: any = dictionary_en
+const dictionaryHu: any = dictionary_hu
 
 export const useSynopsisStore = defineStore('synopsis', {
     state: () => {
         return {
-            translation: translationHu,
+            dictionary: dictionaryHu,
             language: "hu",
-            publisher: "SZIT",
-            synopsis: synopsis,
+            translation: "SZIT",
+            synopsis: synopsisSZIT,
         }
     },
     actions: {
         changeLanguage() {
             if (this.language === "hu") {
-                this.translation = translationEn
-                this.synopsis = synopsisEsv
+                this.dictionary = dictionaryEn
+                this.synopsis = synopsisESV
                 this.language = "en"
-                this.publisher = "ESV"
+                this.translation = "ESV"
             }
             else {
-                this.translation = translationHu
-                this.synopsis = synopsis
+                this.dictionary = dictionaryHu
+                this.synopsis = synopsisSZIT
                 this.language = "hu"
-                this.publisher = "SZIT"
+                this.translation = "SZIT"
             }
             router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language } });
         },
@@ -50,16 +50,16 @@ export const useSynopsisStore = defineStore('synopsis', {
         },
         setupLanguage(language: any) {
             if (language !== "en" && language !== "ESV") {
-                this.translation = translationHu
+                this.dictionary = dictionaryHu
                 this.language = "hu"
-                this.publisher = "SZIT"
-                this.synopsis = synopsis
+                this.translation = "SZIT"
+                this.synopsis = synopsisSZIT
             }
             else {
-                this.translation = translationEn
+                this.dictionary = dictionaryEn
                 this.language = "en"
-                this.publisher = "ESV"
-                this.synopsis = synopsisEsv
+                this.translation = "ESV"
+                this.synopsis = synopsisESV
             }
         }
     }

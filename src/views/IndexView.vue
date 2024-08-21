@@ -30,11 +30,10 @@ export default {
 
 <template>
   <div class="container">
-    <h1 class="text-center">{{ synopsisStore.translation.menu.index }}</h1>
+    <h1 class="text-center">{{ synopsisStore.dictionary.menu.index }}</h1>
 
-    <IndexRecord
-        :chapter-name="synopsisStore.synopsis.chapters[0].chapter_name"
-        :sections="synopsisStore.synopsis.chapters[0].sections" />
+    <IndexRecord :chapter-name="synopsisStore.synopsis.chapters[0].chapter_name"
+      :sections="synopsisStore.synopsis.chapters[0].sections" />
     <template v-for="chapterIndex in synopsisStore.synopsis.chapters.length - 1">
       <IndexRecord v-if="visibleIndex >= chapterIndex"
         :chapter-name="synopsisStore.synopsis.chapters[chapterIndex].chapter_name"
