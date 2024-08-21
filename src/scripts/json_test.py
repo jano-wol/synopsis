@@ -9,7 +9,7 @@ for file in os.listdir(os.fsencode(json_folder)):
         file_to_check = os.path.join(json_folder, filename)
         with open(file_to_check) as f:
             try:
-                json.load(f)
+                json_loaded = json.load(f)
             except ValueError as e:
                print(f'Invalid json= {file_to_check}. error={e}')
                sys.exit(1)
