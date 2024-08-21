@@ -147,7 +147,7 @@ export default {
                         367. A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél
                     </td>
                     <td class="col-lg-6 align-middle">
-                        367. A második, János szerinti befejezés: Jézus megjelenik a Tiberias tavánál
+                        367. A második, János szerinti befejezés: Jézus megjelenik a Tibérias tavánál
                     </td>
                 </tr>
             </tbody>
