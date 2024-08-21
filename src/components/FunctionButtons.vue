@@ -44,14 +44,14 @@ export default {
 
 <template>
     <router-link v-if="$route.name !== 'subsection'"
-        :to="{ name: 'subsection', params: { lang: synopsisStore.language, id: id } }" target="_blank">
+        :to="{ name: 'subsection', params: { lang: synopsisStore.publisher, id: id } }" target="_blank">
         <button type="button" class="float-right btn btn-light  btn-sm ms-1 mb-1"
             :title="synopsisStore.translation.tooltips.openSeparately">
             <i class="bi bi-arrow-up-right-square fs-6"></i>
         </button>
     </router-link>
     <router-link v-if="$route.name !== 'synopsis'"
-        :to="{ name: 'synopsis', params: { lang: synopsisStore.language }, hash: '#' + id }">
+        :to="{ name: 'synopsis', params: { lang: synopsisStore.publisher }, hash: '#' + id }">
         <button type="button" class="float-right btn btn-light btn-sm ms-1 mb-1"
             :title="synopsisStore.translation.tooltips.openInSynopsis">
             <i class="bi bi-arrow-down-left-square fs-6"></i>

@@ -12,7 +12,7 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/:lang(hu|en)?',
+      path: '/:lang(SZIT|ESV)?',
       name: 'synopsis',
       component: SynopsisView
     },
@@ -22,7 +22,7 @@ const router = createRouter({
       component: AboutView
     },
     {
-      path: '/:lang(hu|en)/index',
+      path: '/:lang(SZIT|ESV)/index',
       name: 'index',
       component: IndexView
     },
@@ -37,7 +37,7 @@ const router = createRouter({
       component: DevelopmentView
     },
     {
-      path: '/:lang(hu|en)/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
+      path: '/:lang(SZIT|ESV)/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
       name: 'subsection',
       component: Subsection,
       props: true

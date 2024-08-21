@@ -16,6 +16,7 @@ export const useSynopsisStore = defineStore('synopsis', {
         return {
             translation: translationHu,
             language: "hu",
+            publisher: "SZIT",
             synopsis: synopsis,
         }
     },
@@ -25,13 +26,27 @@ export const useSynopsisStore = defineStore('synopsis', {
                 this.translation = translationEn
                 this.synopsis = synopsisEsv
                 this.language = "en"
+                this.publisher = "ESV"
             }
             else {
                 this.translation = translationHu
                 this.synopsis = synopsis
                 this.language = "hu"
+                this.publisher = "SZIT"
             }
-            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language } });
+
+
+            const currentRouteName = router.currentRoute.value.name
+            let param = ""
+            if (currentRouteName === "synopsis" ||
+                currentRouteName === "index" ||
+                currentRouteName === "subsection") {
+                    param = this.publisher
+            }
+            else {
+                param = this.language
+            }
+            router.push({ name: router.currentRoute.value.name as string, params: { lang: param } });
         },
         //TODO: proper typing
         get(location: any) {
@@ -46,14 +61,16 @@ export const useSynopsisStore = defineStore('synopsis', {
             return result
         },
         setupLanguage(language: any) {
-            if (language !== "en") {
+            if (language !== "en" && language !== "ESV") {
                 this.translation = translationHu
                 this.language = "hu"
+                this.publisher = "SZIT"
                 this.synopsis = synopsis
             }
             else {
                 this.translation = translationEn
                 this.language = "en"
+                this.publisher = "ESV"
                 this.synopsis = synopsisEsv
             }
         }
