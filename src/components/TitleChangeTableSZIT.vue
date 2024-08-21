@@ -134,6 +134,22 @@ export default {
                         339. Jézus és Barabás
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        360. Jézus megjelenik a tanítványoknak a Tibériás tengernél
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        360. Jézus megjelenik a tanítványoknak a Tibériás tavánál
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        367. A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        367. A második, János szerinti befejezés: Jézus megjelenik a Tiberias tavánál
+                    </td>
+                </tr>
             </tbody>
         </table>
     </div>
