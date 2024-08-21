@@ -31,7 +31,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 this.synopsis = synopsis
                 this.language = "hu"
             }
-            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language} });
+            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language } });
         },
         //TODO: proper typing
         get(location: any) {
@@ -47,14 +47,14 @@ export const useSynopsisStore = defineStore('synopsis', {
         },
         setupLanguage(language: any) {
             if (language !== "en") {
-                this.translation = translationHu,
-                    this.language = "hu",
-                    this.synopsis = synopsis
+                this.translation = translationHu
+                this.language = "hu"
+                this.synopsis = synopsis
             }
             else {
-                this.translation = translationEn,
-                    this.language = "en",
-                    this.synopsis = synopsisEsv
+                this.translation = translationEn
+                this.language = "en"
+                this.synopsis = synopsisEsv
             }
         }
     }
