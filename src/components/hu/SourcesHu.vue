@@ -62,5 +62,11 @@
             Indoklás: Nem követi kivételes számozás a Szinopszis törzsszövegét a többi fordításhoz képest.<br>
             Megjegyzés: Feltehetően hiba a Szent István Társulat szövegének szerkesztésében.
         </li>
+        <br>
+        <li>
+            Magyar nyelven a 367. alszekció címe rövidítve lett.<br>
+            Indoklás: Egyszerűsítés.<br>
+            Megjegyzés: Az eredeti cím "<i>A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél. A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány sorsáról</i>"
+        </li>
     </ul>
 </template>
