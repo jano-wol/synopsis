@@ -1,3 +1,21 @@
+<script lang="ts">
+import { useSynopsisStore } from "@/stores/SynopsisStore"
+import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
+
+
+export default {
+    data() {
+        return {
+            synopsisStore: useSynopsisStore()
+        };
+    },
+    components: {
+        TitleChangeTableSZIT
+    }
+}
+
+</script>
+
 <template>
     <ul>
         <li>
@@ -66,7 +84,16 @@
         <li>
             Magyar nyelven a 367. alszekció címe rövidítve lett.<br>
             Indoklás: Egyszerűsítés.<br>
-            Megjegyzés: Az eredeti cím "<i>A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél. A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány sorsáról</i>"
+            Megjegyzés: Az eredeti cím "<i>A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél. A
+                nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány
+                sorsáról</i>"
+        </li>
+        <br>
+        <li>
+            A Szinopszis szerkezeti elnevezései egységesítve lettek a SZIT fordítás szerinti szóhasználattal.<br>
+            Inoklás: Egységesítés.<br>
+            Megjegyzés: Az elnevezések változását az alábbi táblázat foglalja össze.
+            <TitleChangeTableSZIT />
         </li>
     </ul>
 </template>

@@ -1,3 +1,15 @@
+<script lang="ts">
+import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
+
+
+export default {
+    components: {
+        TitleChangeTableSZIT
+    }
+}
+
+</script>
+
 <template>
     <ul>
         <li>
@@ -50,7 +62,8 @@
         </li>
         <br>
         <li>
-            With the exception of quotations containing the main text, the whole verse is given instead of the sub-verses.<br>
+            With the exception of quotations containing the main text, the whole verse is given instead of the
+            sub-verses.<br>
             Reason: Simplification.<br>
             Note: The continuity of the main text is preserved.
         </li>
@@ -66,7 +79,16 @@
         <li>
             In hungarian the title of subsection 367 is shorter.<br>
             Reason: Simplification.<br>
-            Note: The original title is "<i>A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél. A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány sorsáról</i>"
+            Note: The original title is "<i>A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél.
+                A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány
+                sorsáról</i>"
+        </li>
+        <br>
+        <li>
+            The structural names of Synopsis have been unified with the SZIT translation.<br>
+            Reason: Unification.<br>
+            Note: Changes are summarised in the table below.
+            <TitleChangeTableSZIT />
         </li>
     </ul>
 </template>
