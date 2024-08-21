@@ -62,5 +62,11 @@
             Reason: No exceptional numbering follows the main text of the Synopsis compared to other translations.<br>
             Note: Probably an error in the editing of the text of the SZIT publisher.
         </li>
+        <br>
+        <li>
+            In hungarian the title of subsection 367 is shorter.<br>
+            Reason: Simplification.<br>
+            Note: The original title is "<i>A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél. A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány sorsáról</i>"
+        </li>
     </ul>
 </template>
