@@ -34,7 +34,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 this.language = "hu"
                 this.translation = "SZIT"
             }
-            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language } });
+            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language, translation: this.translation } });
         },
         //TODO: proper typing
         get(location: any) {
