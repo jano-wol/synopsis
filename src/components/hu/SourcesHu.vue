@@ -1,14 +1,7 @@
 <script lang="ts">
-import { useSynopsisStore } from "@/stores/SynopsisStore"
 import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
 
-
 export default {
-    data() {
-        return {
-            synopsisStore: useSynopsisStore()
-        };
-    },
     components: {
         TitleChangeTableSZIT
     }
