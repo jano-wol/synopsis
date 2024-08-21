@@ -28,9 +28,7 @@
             Szinopszis egész szövegében elhelyezve.
         </li>
         <li><i class="bi bi-link-45deg"></i> : A másolás gomb megnyomásával vágólapra kerül a link, ami az adott
-            alszekcióra mutat az Szinopszis egész szövegében elhelyezve.</li>
-        <li><i class="bi bi-share-fill"></i> : A megosztás gomb megnyomásával vágólapra kerül a link, ami az adott
-            alszekcióra mutat különállóan, egy saját aloldalon.</li>
+            alszekcióra mutat.</li>
     </ul>
 
     <p>

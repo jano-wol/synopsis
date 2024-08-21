@@ -8,7 +8,7 @@
     },
     "tooltips": {
         "share": "Copy share link",
-        "location": "Copy subsection link",
+        "location": "Copy share link in Synopsis",
         "openInSynopsis": "Open in Synopsis",
         "openSeparately": "Open separately",
         "nextMainText": "Next main text",

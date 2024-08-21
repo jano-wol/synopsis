@@ -55,12 +55,12 @@ export default {
             <i class="bi bi-arrow-down-left-square fs-6"></i>
         </button>
     </router-link>
-    <button @click="copyIdLink(id)" type="button" class=" float-right btn btn-light btn-sm ms-1 mb-1"
-        :title="synopsisStore.translation.tooltips.location">
+    <button v-if="$route.name === 'synopsis'" @click="copyIdLink(id)" type="button"
+        class=" float-right btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.translation.tooltips.location">
         <i class="bi fs-6" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
     </button>
-    <button @click="copyShareLink(id)" type="button" class="float-right  btn btn-light btn-sm ms-1 mb-1"
-        :title="synopsisStore.translation.tooltips.share">
-        <i class="bi fs-6" :class="{ 'bi-share-fill': !isShareCopied, 'bi-check': isShareCopied }"></i>
+    <button v-if="$route.name === 'subsection'" @click="copyShareLink(id)" type="button"
+        class="float-right  btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.translation.tooltips.share">
+        <i class="bi fs-6" :class="{ 'bi-link-45deg': !isShareCopied, 'bi-check': isShareCopied }"></i>
     </button>
 </template>

@@ -27,8 +27,7 @@
             Open link at original place ( <i class="bi bi-arrow-down-left-square"></i> ): returns the reader to the
             subsection’s original place on the main page.
         </li>
-        <li><i class="bi bi-link-45deg"></i> : copies subsection’s link on the main page to clipboard.</li>
-        <li><i class="bi bi-share-fill"></i> : copies subsection’s link at its separate page to clipboard.</li>
+        <li><i class="bi bi-link-45deg"></i> : copies subsection’s link to clipboard.</li>
     </ul>
 
     <p>
