@@ -53,17 +53,17 @@ export default {
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <div class="btn-group me-2">
-                            <a @click="synopsisStore.language !== 'hu' ? synopsisStore.changeLanguage() : null"
-                                class="btn btn-light border border-light-subtle"
-                                :class="synopsisStore.language === 'hu' ? 'active' : ''">
-                                HU</a>
                             <a @click="synopsisStore.language === 'hu' ? synopsisStore.changeLanguage() : null"
                                 class="btn btn-light border border-light-subtle"
                                 :class="synopsisStore.language !== 'hu' ? 'active' : ''">
                                 EN</a>
+                            <a @click="synopsisStore.language !== 'hu' ? synopsisStore.changeLanguage() : null"
+                                class="btn btn-light border border-light-subtle"
+                                :class="synopsisStore.language === 'hu' ? 'active' : ''">
+                                HU</a>
                         </div>
 
-                        <i class="bi bi-translate fs-5"></i>
+                        <i class="bi bi-globe2 fs-5 align-middle"></i>
                     </li>
 
                 </ul>
