@@ -16,4 +16,4 @@ jobs:
 
     - name: Run tests
       run: |
-        ./src/scripts/test.sh release
+        ./src/scripts/test.sh
