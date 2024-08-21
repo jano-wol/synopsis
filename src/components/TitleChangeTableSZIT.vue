@@ -32,6 +32,14 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        28. Utazás Judeába
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        28. Utazás Júdeába
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         31. Jézus és a samáriai asszony
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -104,18 +112,34 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
-                        1. A Gecsemáné kertbe vezető úton
-                    </td>
-                    <td class="col-lg-6 align-middle">
-                        1. A Getszemáni kertbe vezető úton
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-lg-6 align-middle">
                         XI. Jézus a lombsátor-ünnepen Jeruzsálemben (János szerint)
                     </td>
                     <td class="col-lg-6 align-middle">
                         XI. Jézus a sátoros ünnepen Jeruzsálemben (János szerint)
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        251. Úton Judeába
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        251. Úton Júdeába
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        290. Itélet Judea felett
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        290. Itélet Júdea felett
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        1. A Gecsemáné kertbe vezető úton
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        1. A Getszemáni kertbe vezető úton
                     </td>
                 </tr>
                 <tr>
@@ -134,6 +158,7 @@ export default {
                         339. Jézus és Barabás
                     </td>
                 </tr>
+                <!-- NOTE: Eredetiben egyszer Tibériás máskor Tiberiás. KG fordításnál ellenőrizd. -->
                 <tr>
                     <td class="col-lg-6 align-middle">
                         360. Jézus megjelenik a tanítványoknak a Tibériás tengernél
