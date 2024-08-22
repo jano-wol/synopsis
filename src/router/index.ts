@@ -7,12 +7,14 @@ import DevelopmentView from '@/views/DevelopmentView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Subsection from '@/components/Subsection.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
+import { TypePredicateKind } from 'typescript'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/:lang(hu|en)?/:translation(SZIT|ESV)',
+      path: '/:lang(hu|en)/:translation(SZIT|ESV)',
+      alias: '/',
       name: 'synopsis',
       component: SynopsisView
     },
@@ -42,8 +44,8 @@ const router = createRouter({
       component: Subsection,
       props: true
     }, {
-      path: '/:param(\.*)',
-      name: 'tmp',
+      path: '/:param(.*)*',
+      name: 'notFound',
       component: NotFoundView
     },
   ],
@@ -59,7 +61,16 @@ const router = createRouter({
   },
 })
 
-router.beforeEach((to, from) => {
+router.beforeEach((to, from, next) => {
+
+  const { lang, translation } = to.params;
+  if ((lang === 'hu' && translation === 'ESV') || (lang === 'en' && translation === 'SZIT')) {
+    next({ name: "notFound", params: { param: to.path.split('/').slice(1) } });
+  } else {
+    next();
+  }
+
+
   useSynopsisStore().setupLanguage(to.params.lang)
 })
 export default router
