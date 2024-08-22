@@ -84,7 +84,7 @@ export default {
         <br>
         <li>
             A Szinopszis szerkezeti elnevezései egységesítve lettek a SZIT fordítás szerinti szóhasználattal.<br>
-            Inoklás: Egységesítés.<br>
+            Indoklás: Egységesítés.<br>
             Megjegyzés: Az elnevezések változását az alábbi táblázat foglalja össze.
             <TitleChangeTableSZIT />
         </li>
