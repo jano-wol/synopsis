@@ -1,13 +1,13 @@
 <script lang="ts">
 import Subsection from '@/components/Subsection.vue'
-import type { SectionScheme } from '@/interfaces/synopsisInterface';
+import type { SubchapterScheme } from '@/interfaces/synopsisInterface';
 import type { PropType } from 'vue';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
     props: {
         //TODO: proper typing
-        sectionLocation: {
+        subchapterLocation: {
             type: Object,
             required: true
         }
@@ -26,11 +26,11 @@ export default {
 <template>
     <div class="row">
         <h4 class="event text-center display-5">
-            {{ synopsisStore.get(sectionLocation).section_name }}
+            {{ synopsisStore.get(subchapterLocation).subchapter_name }}
         </h4>
     </div>
 
-    <Subsection v-for="subsectionIndex in synopsisStore.get(sectionLocation).subsections.length"
-        :id="synopsisStore.get(sectionLocation).subsections[subsectionIndex - 1].id"
-        :subsection-location="{ ...sectionLocation, subsectionIndex: subsectionIndex - 1 }" />
+    <Subsection v-for="subsectionIndex in synopsisStore.get(subchapterLocation).subsections.length"
+        :id="synopsisStore.get(subchapterLocation).subsections[subsectionIndex - 1].id"
+        :subsection-location="{ ...subchapterLocation, subsectionIndex: subsectionIndex - 1 }" />
 </template>

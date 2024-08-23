@@ -8,7 +8,7 @@ export interface ChapterScheme {
 }
 
 export interface SubchapterScheme {
-    section_name: string | null
+    subchapter_name: string | null
     subsections: SubsectionScheme[]
 }
 

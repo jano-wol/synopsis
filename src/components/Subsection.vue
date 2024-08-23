@@ -9,9 +9,9 @@ function locateSubsection(id: string): any {
     for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
         const chapter = useSynopsisStore().synopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
-            const section = chapter.subchapters[j]
-            for (let k = 0; k < section.subsections.length; k++) {
-                const subsection = section.subsections[k]
+            const subchapter = chapter.subchapters[j]
+            for (let k = 0; k < subchapter.subsections.length; k++) {
+                const subsection = subchapter.subsections[k]
                 if (subsection.id === id) {
                     return subsection
                 }

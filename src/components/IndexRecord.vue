@@ -25,8 +25,8 @@ export default {
             {{ chapterName }}
         </h2>
     </div>
-    <template v-for="section in subchapters" class="row">
-        <h3 class="text-center fs-4">{{ section.section_name }}</h3>
+    <template v-for="subchapter in subchapters" class="row">
+        <h3 class="text-center fs-4">{{ subchapter.subchapter_name }}</h3>
         <div class="table-responsive">
             <table class="table bg-dark table-sm table-striped table-bordered">
                 <thead>
@@ -46,7 +46,7 @@ export default {
                     </tr>
                 </thead>
                 <tbody class="table-group-divider">
-                    <tr v-for="subsection in section.subsections">
+                    <tr v-for="subsection in subchapter.subsections">
                         <th class="col-lg-1 align-middle text-nowrap" scope="row">
                             <router-link :to="{ name: 'synopsis', hash: '#' + subsection.id }">
                                 {{ subsection.id }}

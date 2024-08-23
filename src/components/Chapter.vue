@@ -1,5 +1,5 @@
 <script lang="ts">
-import Section from '@/components/Section.vue'
+import Subchapter from '@/components/Subchapter.vue'
 import type { ChapterScheme } from '@/interfaces/synopsisInterface'
 import type { PropType } from 'vue';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
@@ -19,7 +19,7 @@ export default {
     }
   },
   components: {
-    Section
+    Subchapter
   }
 }
 </script>
@@ -31,6 +31,6 @@ export default {
       {{ synopsisStore.get(chapterLocation)?.chapter_name }}
     </h2>
   </div>
-  <Section v-for="sectionIndex in synopsisStore.get(chapterLocation)?.subchapters.length"
-    :section-location="{ ...chapterLocation, sectionIndex: sectionIndex - 1 }" />
+  <Subchapter v-for="subchapterIndex in synopsisStore.get(chapterLocation)?.subchapters.length"
+    :subchapter-location="{ ...chapterLocation, subchapterIndex: subchapterIndex - 1 }" />
 </template>

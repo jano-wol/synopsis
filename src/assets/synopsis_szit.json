@@ -4,7 +4,7 @@
             "chapter_name": "I. Bevezetés",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "1",
@@ -170,7 +170,7 @@
             "chapter_name": "II. Előtörténet",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "2",
@@ -1386,7 +1386,7 @@
             "chapter_name": "III. Jézus útjának előkészítése",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "13",
@@ -2279,7 +2279,7 @@
             "chapter_name": "IV. Jézus nyilvános működésének kezedete (János szerint)",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "21",
@@ -2918,7 +2918,7 @@
             "chapter_name": "V. Jézus Galileában",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "30",
@@ -4977,7 +4977,7 @@
             "chapter_name": "VI. A hegyi beszéd (Máté szerint)",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "50",
@@ -6761,7 +6761,7 @@
             "chapter_name": "VII. A mezőn mondott beszéd (Lukács szerint)",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "77",
@@ -7412,7 +7412,7 @@
             "chapter_name": "VIII. Jézus további működése Galileában",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "84",
@@ -15988,7 +15988,7 @@
             "chapter_name": "IX. A szenvedések útján",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "157",
@@ -17523,7 +17523,7 @@
             "chapter_name": "X. Úton Jeruzsálembe (Lukács szerint)",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "174",
@@ -22204,7 +22204,7 @@
             "chapter_name": "XI. Jézus a sátoros ünnepen Jeruzsálemben (János szerint)",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "238",
@@ -23357,7 +23357,7 @@
             "chapter_name": "XII. Jézus működése Júdeában",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "251",
@@ -25513,7 +25513,7 @@
             "chapter_name": "XIII. Jézus utolsó útja Jeruzsálembe",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "269",
@@ -27654,7 +27654,7 @@
             "chapter_name": "XIV. A szinoptikus apokalipszis",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "287",
@@ -28589,7 +28589,7 @@
             "chapter_name": "XV. A passió előtti idő bemutatásának befejezése",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "296",
@@ -29492,7 +29492,7 @@
             "chapter_name": "XVI. A szenvedéstörténet",
             "subchapters": [
                 {
-                    "section_name": "1. A Getszemáni kertbe vezető úton",
+                    "subchapter_name": "1. A Getszemáni kertbe vezető úton",
                     "subsections": [
                         {
                             "id": "305",
@@ -30896,7 +30896,7 @@
                     ]
                 },
                 {
-                    "section_name": "2. Jézus búcsúbeszéde (János szerint)",
+                    "subchapter_name": "2. Jézus búcsúbeszéde (János szerint)",
                     "subsections": [
                         {
                             "id": "317",
@@ -31759,7 +31759,7 @@
                     ]
                 },
                 {
-                    "section_name": "3. Jézus elfogatása, megfeszítése és eltemetése",
+                    "subchapter_name": "3. Jézus elfogatása, megfeszítése és eltemetése",
                     "subsections": [
                         {
                             "id": "330",
@@ -34435,7 +34435,7 @@
             "chapter_name": "XVII. A feltámadott Jézus",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "352",
@@ -35304,7 +35304,7 @@
             "chapter_name": "XVIII. Az evangéliumok befejezései",
             "subchapters": [
                 {
-                    "section_name": null,
+                    "subchapter_name": null,
                     "subsections": [
                         {
                             "id": "363",

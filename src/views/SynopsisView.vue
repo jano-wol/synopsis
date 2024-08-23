@@ -54,6 +54,7 @@ export default {
         validHashes.push(i);
       }
       validHashes.splice(360, 2);
+      console.log(validHashes)
       return validHashes.includes(parseInt(hash))
     }
   }
@@ -90,7 +91,7 @@ export default {
 
     <template v-show="!showScroller" v-for="chapterIndex in synopsisStore.synopsis.chapters.length">
       <Chapter v-if="visibleIndex >= chapterIndex - 1"
-        :chapter-location="{ chapterIndex: chapterIndex - 1, sectionIndex: null, subsectionIndex: null }" />
+        :chapter-location="{ chapterIndex: chapterIndex - 1, subchapterIndex: null, subsectionIndex: null }" />
     </template>
 
   </div>
