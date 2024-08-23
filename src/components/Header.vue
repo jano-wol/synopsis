@@ -62,9 +62,9 @@ export default {
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'development', params: { lang: synopsisStore.language } }"
-                            :class="$route.name == 'development' ? 'active' : ''" class="nav-link"
-                            aria-current="page">{{ synopsisStore.dictionary.menu.development }}
+                        <router-link :to="{ name: 'contact', params: { lang: synopsisStore.language } }"
+                            :class="$route.name == 'contact' ? 'active' : ''" class="nav-link"
+                            aria-current="page">{{ synopsisStore.dictionary.menu.contact }}
                         </router-link>
                     </li>
                 </ul>

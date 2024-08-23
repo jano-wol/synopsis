@@ -3,7 +3,7 @@ import SynopsisView from '@/views/SynopsisView.vue'
 import IndexView from '@/views/IndexView.vue'
 import SourcesView from '@/views/SourcesView.vue'
 import AboutView from '@/views/AboutView.vue'
-import DevelopmentView from '@/views/DevelopmentView.vue'
+import ContactView from '@/views/ContactView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Subsection from '@/components/Subsection.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
@@ -34,9 +34,9 @@ const router = createRouter({
       component: SourcesView
     },
     {
-      path: '/:lang(hu|en)/development',
-      name: 'development',
-      component: DevelopmentView
+      path: '/:lang(hu|en)/contact',
+      name: 'contact',
+      component: ContactView
     },
     {
       path: '/:lang(hu|en)/:translation(SZIT|ESV)/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
