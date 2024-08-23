@@ -29,9 +29,9 @@ export default {
         //TODO: think about better name than chapter in .json
         const chapter = useSynopsisStore().synopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
-          const section = chapter.subchapters[j]
-          for (let k = 0; k < section.subsections.length; k++) {
-            const subsection = section.subsections[k]
+          const subchapter = chapter.subchapters[j]
+          for (let k = 0; k < subchapter.subsections.length; k++) {
+            const subsection = subchapter.subsections[k]
             //TODO: remove hacky solution.
             const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
             // TODO: this.evangelist not type correct for some reason.
@@ -56,10 +56,10 @@ export default {
       for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
         const chapter = useSynopsisStore().synopsis.chapters[i]
-        for (let j = 0; j < chapter.sections.length; j++) {
-          const section = chapter.sections[j]
-          for (let k = 0; k < section.subsections.length; k++) {
-            const subsection = section.subsections[k]
+        for (let j = 0; j < chapter.subchapters.length; j++) {
+          const subchapter = chapter.subchapters[j]
+          for (let k = 0; k < subchapter.subsections.length; k++) {
+            const subsection = subchapter.subsections[k]
             //TODO: remove hacky solution.
             const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
             // TODO: this.evangelist not type correct for some reason.
@@ -82,9 +82,9 @@ export default {
         //TODO: think about better name than chapter in .json
         const chapter = useSynopsisStore().synopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
-          const section = chapter.subchapters[j]
-          for (let k = 0; k < section.subsections.length; k++) {
-            const subsection = section.subsections[k]
+          const subchapter = chapter.subchapters[j]
+          for (let k = 0; k < subchapter.subsections.length; k++) {
+            const subsection = subchapter.subsections[k]
             //TODO: remove hacky solution.
             const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
             // TODO: this.evangelist not type correct for some reason.
