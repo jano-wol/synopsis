@@ -9,12 +9,12 @@ export interface ChapterScheme {
 
 export interface SubchapterScheme {
     subchapter_name: string | null
-    subsections: SubsectionScheme[]
+    sections: SectionScheme[]
 }
 
-export interface SubsectionScheme {
+export interface SectionScheme {
     id: string
-    subsection_name: string
+    section_name: string
     mt: (CitationScheme | null)[]
     mk: (CitationScheme | null)[]
     lk: (CitationScheme | null)[]

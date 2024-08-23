@@ -18,7 +18,7 @@ export default {
       type: Object as PropType<CitationScheme | null>,
       required: true
     },
-    subsectionId: {
+    sectionId: {
       type: String,
       required: true
     },
@@ -30,19 +30,19 @@ export default {
         const chapter = useSynopsisStore().synopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
           const subchapter = chapter.subchapters[j]
-          for (let k = 0; k < subchapter.subsections.length; k++) {
-            const subsection = subchapter.subsections[k]
+          for (let k = 0; k < subchapter.sections.length; k++) {
+            const section = subchapter.sections[k]
             //TODO: remove hacky solution.
             const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
             // TODO: this.evangelist not type correct for some reason.
-            for (let l = 0; l < subsection[evangelist].length; l++) {
-              const citation = subsection[evangelist][l]
+            for (let l = 0; l < section[evangelist].length; l++) {
+              const citation = section[evangelist][l]
               if (citation?.leading) {
                 for (let m = 0; m < citation.content.length; m++) {
                   const content = citation.content[m]
                   const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
                   if (content.chapter === chapterLocation && formattedVerse === verseLocation) {
-                    this.$router.push({ name: "synopsis", hash: "#" + subsection.id })
+                    this.$router.push({ name: "synopsis", hash: "#" + section.id })
                   }
                 }
               }
@@ -52,25 +52,25 @@ export default {
       }
     },
     redirectToPreviousLeadingCitation() {
-      let previousSubsectionId;
+      let previousSectionId;
       for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
         const chapter = useSynopsisStore().synopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
           const subchapter = chapter.subchapters[j]
-          for (let k = 0; k < subchapter.subsections.length; k++) {
-            const subsection = subchapter.subsections[k]
+          for (let k = 0; k < subchapter.sections.length; k++) {
+            const section = subchapter.sections[k]
             //TODO: remove hacky solution.
             const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
             // TODO: this.evangelist not type correct for some reason.
-            for (let l = 0; l < subsection[evangelist].length; l++) {
-              const citation = subsection[evangelist][l]
-              if (subsection.id === this.subsectionId) {
-                this.$router.push({ name: "synopsis", hash: "#" + previousSubsectionId })
+            for (let l = 0; l < section[evangelist].length; l++) {
+              const citation = section[evangelist][l]
+              if (section.id === this.sectionId) {
+                this.$router.push({ name: "synopsis", hash: "#" + previousSectionId })
                 return
               }
               if (citation?.leading) {
-                previousSubsectionId = subsection.id
+                previousSectionId = section.id
               }
             }
           }
@@ -83,15 +83,15 @@ export default {
         const chapter = useSynopsisStore().synopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
           const subchapter = chapter.subchapters[j]
-          for (let k = 0; k < subchapter.subsections.length; k++) {
-            const subsection = subchapter.subsections[k]
+          for (let k = 0; k < subchapter.sections.length; k++) {
+            const section = subchapter.sections[k]
             //TODO: remove hacky solution.
             const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
             // TODO: this.evangelist not type correct for some reason.
-            for (let l = 0; l < subsection[evangelist].length; l++) {
-              const citation = subsection[evangelist][l]
-              if (Number(subsection.id) > Number(this.subsectionId) && citation?.leading) {
-                this.$router.push({ name: "synopsis", hash: "#" + subsection.id })
+            for (let l = 0; l < section[evangelist].length; l++) {
+              const citation = section[evangelist][l]
+              if (Number(section.id) > Number(this.sectionId) && citation?.leading) {
+                this.$router.push({ name: "synopsis", hash: "#" + section.id })
                 return
               }
             }
@@ -133,15 +133,15 @@ export default {
         </button>
 
         <button v-if="citation.leading
-    && !((evangelist === 'mt' && subsectionId === '364')
-      || (evangelist === 'mk' && subsectionId === '363')
-      || (evangelist === 'lk' && subsectionId === '365')
-      || (evangelist === 'jn' && subsectionId === '367')
+    && !((evangelist === 'mt' && sectionId === '364')
+      || (evangelist === 'mk' && sectionId === '363')
+      || (evangelist === 'lk' && sectionId === '365')
+      || (evangelist === 'jn' && sectionId === '367')
     )" @click="redirectToNextLeadingCitation()" type="button" class=" float-end btn  btn-sm py-0 m-0"
           :title="synopsisStore.dictionary.tooltips.nextMainText">
           <i class="bi bi-arrow-down fs-6 text-secondary"></i>
         </button>
-        <button v-if="citation.leading && subsectionId !== '1'" @click="redirectToPreviousLeadingCitation()"
+        <button v-if="citation.leading && sectionId !== '1'" @click="redirectToPreviousLeadingCitation()"
           type="button" class=" float-end btn  btn-sm py-0 m-0"
           :title="synopsisStore.dictionary.tooltips.previousMainText">
           <i class="bi bi-arrow-up fs-6 text-secondary"></i>

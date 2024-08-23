@@ -5,7 +5,7 @@ import SourcesView from '@/views/SourcesView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
-import Subsection from '@/components/Subsection.vue'
+import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 import { TypePredicateKind } from 'typescript'
 
@@ -40,8 +40,8 @@ const router = createRouter({
     },
     {
       path: '/:lang(hu|en)/:translation(SZIT|ESV)/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
-      name: 'subsection',
-      component: Subsection,
+      name: 'section',
+      component: Section,
       props: true
     }, {
       path: '/:param(.*)*',

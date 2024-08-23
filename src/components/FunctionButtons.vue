@@ -9,7 +9,7 @@ export default {
             default: "0"
         },
         //TODO: proper typing
-        subsectionLocation: {
+        sectionLocation: {
             type: Object,
         }
     },
@@ -43,8 +43,8 @@ export default {
 </script>
 
 <template>
-    <router-link v-if="$route.name !== 'subsection'"
-        :to="{ name: 'subsection', params: { lang: synopsisStore.language, translation: synopsisStore.translation, id: id } }"
+    <router-link v-if="$route.name !== 'section'"
+        :to="{ name: 'section', params: { lang: synopsisStore.language, translation: synopsisStore.translation, id: id } }"
         target="_blank">
         <button type="button" class="float-right btn btn-light  btn-sm ms-1 mb-1"
             :title="synopsisStore.dictionary.tooltips.openSeparately">
@@ -62,7 +62,7 @@ export default {
         class=" float-right btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.dictionary.tooltips.location">
         <i class="bi fs-6" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
     </button>
-    <button v-if="$route.name === 'subsection'" @click="copyShareLink(id)" type="button"
+    <button v-if="$route.name === 'section'" @click="copyShareLink(id)" type="button"
         class="float-right  btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.dictionary.tooltips.share">
         <i class="bi fs-6" :class="{ 'bi-link-45deg': !isShareCopied, 'bi-check': isShareCopied }"></i>
     </button>

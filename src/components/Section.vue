@@ -1,19 +1,19 @@
 <script lang="ts">
 import Citation from '@/components/Citation.vue'
 import FunctionButtons from '@/components/FunctionButtons.vue'
-import type { SubsectionScheme } from '@/interfaces/synopsisInterface'
+import type { SectionScheme } from '@/interfaces/synopsisInterface'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 //TODO: proper typing
-function locateSubsection(id: string): any {
+function locateSection(id: string): any {
     for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
         const chapter = useSynopsisStore().synopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
             const subchapter = chapter.subchapters[j]
-            for (let k = 0; k < subchapter.subsections.length; k++) {
-                const subsection = subchapter.subsections[k]
-                if (subsection.id === id) {
-                    return subsection
+            for (let k = 0; k < subchapter.sections.length; k++) {
+                const section = subchapter.sections[k]
+                if (section.id === id) {
+                    return section
                 }
             }
         }
@@ -28,7 +28,7 @@ export default {
             default: "0"
         },
         //TODO: proper typing
-        subsectionLocation: {
+        sectionLocation: {
             type: Object,
         }
     },
@@ -43,8 +43,8 @@ export default {
     },
     computed:
     {
-        subsection() {
-            return this.$route.params.id ? locateSubsection(this.$route.params.id as string) : this.synopsisStore.get(this.subsectionLocation)
+        section() {
+            return this.$route.params.id ? locateSection(this.$route.params.id as string) : this.synopsisStore.get(this.sectionLocation)
         }
     }
 }
@@ -59,32 +59,32 @@ export default {
             </div>
             <div class="col-lg-8 col-md-12">
                 <h3 class="text-center display-6">
-                    {{ id }}. {{ subsection.subsection_name
+                    {{ id }}. {{ section.section_name
                     }}
                 </h3>
             </div>
             <div class="col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end">
-                <FunctionButtons :subsection-location="subsectionLocation" :id="id" />
+                <FunctionButtons :section-location="sectionLocation" :id="id" />
             </div>
         </div>
 
-    <template v-for="index in subsection.mt.length">
+    <template v-for="index in section.mt.length">
         <div class="row content mx-3">
             <div class="col-lg-3 col-md-12 pb-3">
-                <Citation v-if="subsection.mt[index - 1] !== null" :citation="subsection.mt[index - 1]" evangelist="mt"
-                    :subsection-id="id" />
+                <Citation v-if="section.mt[index - 1] !== null" :citation="section.mt[index - 1]" evangelist="mt"
+                    :section-id="id" />
             </div>
             <div class="col-lg-3 col-md-12 pb-3">
-                <Citation v-if="subsection.mk[index - 1] !== null" :citation="subsection.mk[index - 1]" evangelist="mk"
-                    :subsection-id="id" />
+                <Citation v-if="section.mk[index - 1] !== null" :citation="section.mk[index - 1]" evangelist="mk"
+                    :section-id="id" />
             </div>
             <div class="col-lg-3 col-md-12 pb-3">
-                <Citation v-if="subsection.lk[index - 1] !== null" :citation="subsection.lk[index - 1]" evangelist="lk"
-                    :subsection-id="id" />
+                <Citation v-if="section.lk[index - 1] !== null" :citation="section.lk[index - 1]" evangelist="lk"
+                    :section-id="id" />
             </div>
             <div class="col-lg-3 col-md-12 pb-3">
-                <Citation v-if="subsection.jn[index - 1] !== null" :citation="subsection.jn[index - 1]" evangelist="jn"
-                    :subsection-id="id" />
+                <Citation v-if="section.jn[index - 1] !== null" :citation="section.jn[index - 1]" evangelist="jn"
+                    :section-id="id" />
             </div>
         </div>
         <hr class="d-lg-none">

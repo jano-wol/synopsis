@@ -24,7 +24,7 @@ export default {
     <ul>
         <li>Boxes with black frame and shadow contain the body text. The body text contains the whole Gospel, without
             repetitions, in the original
-            order of the verses. Each subsection contains maximum one body text, for one evangelist.
+            order of the verses. Each section contains maximum one body text, for one evangelist.
             In the <router-link
                 :to="{ name: 'index', params: { lang: synopsisStore.language, translation: synopsisStore.translation } }">Table
                 of contents</router-link> ther citation appears with bold.
@@ -33,15 +33,15 @@ export default {
     </ul>
 
     <p>
-        Next to subsections the following buttons can be found:
+        Next to sections the following buttons can be found:
     </p>
     <ul>
         <li><i class="bi bi-arrow-up-right-square"></i> or <i class="bi bi-arrow-down-left-square"></i> : <br> Open link
             at its separate page ( <i class="bi bi-arrow-up-right-square"></i> )<br>
             Open link at original place ( <i class="bi bi-arrow-down-left-square"></i> ): returns the reader to the
-            subsection’s original place on the main page.
+            section’s original place on the main page.
         </li>
-        <li><i class="bi bi-link-45deg"></i> : copies subsection’s link to clipboard.</li>
+        <li><i class="bi bi-link-45deg"></i> : copies section’s link to clipboard.</li>
     </ul>
 
     <p>

@@ -46,28 +46,28 @@ export default {
                     </tr>
                 </thead>
                 <tbody class="table-group-divider">
-                    <tr v-for="subsection in subchapter.subsections">
+                    <tr v-for="section in subchapter.sections">
                         <th class="col-lg-1 align-middle text-nowrap" scope="row">
-                            <router-link :to="{ name: 'synopsis', hash: '#' + subsection.id }">
-                                {{ subsection.id }}
+                            <router-link :to="{ name: 'synopsis', hash: '#' + section.id }">
+                                {{ section.id }}
                             </router-link>
                         </th>
                         <td class="col-lg-7 align-middle text-nowrap">
-                            <router-link :to="{ name: 'subsection', params: { id: subsection.id } }">
-                                {{ subsection.subsection_name }}
+                            <router-link :to="{ name: 'section', params: { id: section.id } }">
+                                {{ section.section_name }}
                             </router-link>
                         </td>
                         <td class="col-lg-1 align-middle">
-                            <IndexCitation :citations="subsection.mt" />
+                            <IndexCitation :citations="section.mt" />
                         </td>
                         <td class="col-lg-1 align-middle">
-                            <IndexCitation :citations="subsection.mk" />
+                            <IndexCitation :citations="section.mk" />
                         </td>
                         <td class="col-lg-1 align-middle">
-                            <IndexCitation :citations="subsection.lk" />
+                            <IndexCitation :citations="section.lk" />
                         </td>
                         <td class="col-lg-1 align-middle">
-                            <IndexCitation :citations="subsection.jn" />
+                            <IndexCitation :citations="section.jn" />
                         </td>
                     </tr>
                 </tbody>

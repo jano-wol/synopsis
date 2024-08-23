@@ -91,7 +91,7 @@ export default {
 
     <template v-show="!showScroller" v-for="chapterIndex in synopsisStore.synopsis.chapters.length">
       <Chapter v-if="visibleIndex >= chapterIndex - 1"
-        :chapter-location="{ chapterIndex: chapterIndex - 1, subchapterIndex: null, subsectionIndex: null }" />
+        :chapter-location="{ chapterIndex: chapterIndex - 1, subchapterIndex: null, sectionIndex: null }" />
     </template>
 
   </div>
