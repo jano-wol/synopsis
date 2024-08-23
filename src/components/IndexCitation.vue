@@ -9,8 +9,8 @@ export default {
 <template>
     <p v-for="citation in citations" :class="{
         'fw-bold': citation?.leading,
-        'text-secondary fw-light': !citation?.primary
+        'text-secondary fw-light': !citation
     }" class="text-center m-1">
-        {{ !citation?.primary || citation.citation === null ? "-" : citation?.citation }}
+        {{ !citation?.citation ? "-" : citation?.citation }}
     </p>
 </template>

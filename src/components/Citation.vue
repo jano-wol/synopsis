@@ -120,8 +120,8 @@ export default {
 </script>
 
 <template>
-  <div class="card h-100" v-if="citation?.content && citation.primary"
-    :class="{ 'shadow border-dark': citation.leading, 'border-light text-bg-light': !citation.primary }">
+  <div class="card h-100" v-if="citation?.content"
+    :class="{ 'shadow border-dark': citation.leading }">
     <div class="card-header sticky-top bg-light">
       {{ synopsisStore.dictionary.evangelists[evangelist] }} {{ citation?.citation }}
       <template v-if="!$route.params.id">

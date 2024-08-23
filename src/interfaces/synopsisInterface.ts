@@ -23,7 +23,6 @@ export interface SubsectionScheme {
 
 export interface CitationScheme {
     citation: string
-    primary: boolean
     leading: boolean
     content: ContentScheme[]
 
