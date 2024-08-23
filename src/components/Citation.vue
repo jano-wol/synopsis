@@ -28,8 +28,8 @@ export default {
       for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
         const chapter = useSynopsisStore().synopsis.chapters[i]
-        for (let j = 0; j < chapter.sections.length; j++) {
-          const section = chapter.sections[j]
+        for (let j = 0; j < chapter.subchapters.length; j++) {
+          const section = chapter.subchapters[j]
           for (let k = 0; k < section.subsections.length; k++) {
             const subsection = section.subsections[k]
             //TODO: remove hacky solution.
@@ -81,8 +81,8 @@ export default {
       for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
         const chapter = useSynopsisStore().synopsis.chapters[i]
-        for (let j = 0; j < chapter.sections.length; j++) {
-          const section = chapter.sections[j]
+        for (let j = 0; j < chapter.subchapters.length; j++) {
+          const section = chapter.subchapters[j]
           for (let k = 0; k < section.subsections.length; k++) {
             const subsection = section.subsections[k]
             //TODO: remove hacky solution.

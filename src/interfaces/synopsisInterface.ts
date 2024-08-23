@@ -4,10 +4,10 @@ export interface SynopsisScheme {
 
 export interface ChapterScheme {
     chapter_name: string
-    sections: SectionScheme[]
+    subchapters: SubchapterScheme[]
 }
 
-export interface SectionScheme {
+export interface SubchapterScheme {
     section_name: string | null
     subsections: SubsectionScheme[]
 }

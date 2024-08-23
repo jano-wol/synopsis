@@ -6,7 +6,7 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 export default {
     props: {
         chapterName: String,
-        sections: Object //TODO: proper typing
+        subchapters: Object //TODO: proper typing
     },
     data() {
         return {
@@ -25,7 +25,7 @@ export default {
             {{ chapterName }}
         </h2>
     </div>
-    <template v-for="section in sections" class="row">
+    <template v-for="section in subchapters" class="row">
         <h3 class="text-center fs-4">{{ section.section_name }}</h3>
         <div class="table-responsive">
             <table class="table bg-dark table-sm table-striped table-bordered">

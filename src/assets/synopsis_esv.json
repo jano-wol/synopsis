@@ -2,7 +2,7 @@
     "chapters": [
         {
             "chapter_name": "I. Preface",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -168,7 +168,7 @@
         },
         {
             "chapter_name": "II. Birth and Childhood",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -1384,7 +1384,7 @@
         },
         {
             "chapter_name": "III. Preparation",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -2277,7 +2277,7 @@
         },
         {
             "chapter_name": "IV. The Beginning of Jesus' Public Ministry (According to John)",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -2916,7 +2916,7 @@
         },
         {
             "chapter_name": "V. Jesus' Ministry in Galilee",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -4975,7 +4975,7 @@
         },
         {
             "chapter_name": "VI. The Sermon on the Mount (According to Matthew)",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -6759,7 +6759,7 @@
         },
         {
             "chapter_name": "VII. The Sermon on the Plain (According to Luke)",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -7410,7 +7410,7 @@
         },
         {
             "chapter_name": "VII. Jesus' Ministry in Galilee Continued",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -15986,7 +15986,7 @@
         },
         {
             "chapter_name": "IX. The Way to the Cross",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -17521,7 +17521,7 @@
         },
         {
             "chapter_name": "X. Last Journey to Jerusalem (According to Luke)",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -22202,7 +22202,7 @@
         },
         {
             "chapter_name": "XI. Jesus at the Feast of Tabernacles (According to John)",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -23355,7 +23355,7 @@
         },
         {
             "chapter_name": "XII. The Ministry in Judea",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -25511,7 +25511,7 @@
         },
         {
             "chapter_name": "XIII. The Final Ministry in Jerusalem",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -27652,7 +27652,7 @@
         },
         {
             "chapter_name": "XIV. The Olivet Discourse",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -28587,7 +28587,7 @@
         },
         {
             "chapter_name": "XV. Conclusion of the Account before the Passion",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -29490,7 +29490,7 @@
         },
         {
             "chapter_name": "XVI. The Passion Narrative",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": "1. Until Going to Gethsemane",
                     "subsections": [
@@ -34433,7 +34433,7 @@
         },
         {
             "chapter_name": "XVII. The Resurrection",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [
@@ -35302,7 +35302,7 @@
         },
         {
             "chapter_name": "XVIII. The Endings of the Gospels",
-            "sections": [
+            "subchapters": [
                 {
                     "section_name": null,
                     "subsections": [

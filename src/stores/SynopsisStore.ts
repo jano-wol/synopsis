@@ -53,7 +53,7 @@ export const useSynopsisStore = defineStore('synopsis', {
 
             let result: any = this.synopsis.chapters[location.chapterIndex]
             if (location.sectionIndex !== null) {
-                result = result.sections[location.sectionIndex]
+                result = result.subchapters[location.sectionIndex]
                 if (location.subsectionIndex !== null) {
                     result = result.subsections[location.subsectionIndex]
                 }

@@ -31,6 +31,6 @@ export default {
       {{ synopsisStore.get(chapterLocation)?.chapter_name }}
     </h2>
   </div>
-  <Section v-for="sectionIndex in synopsisStore.get(chapterLocation)?.sections.length"
+  <Section v-for="sectionIndex in synopsisStore.get(chapterLocation)?.subchapters.length"
     :section-location="{ ...chapterLocation, sectionIndex: sectionIndex - 1 }" />
 </template>
