@@ -10,6 +10,16 @@ export default {
 }
 
 </script>
+
+<style>
+    .hoverable:hover{
+        cursor: pointer;
+    }
+    .hoverable:active{
+        background: #adb5bd;
+    }
+</style>
+
 <template>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -59,32 +69,40 @@ export default {
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <div class="btn-group me-2">
-                            <a @click="synopsisStore.language === 'hu' ? synopsisStore.changeLanguage() : null"
-                                class="btn btn-light border border-light-subtle"
-                                :class="synopsisStore.language !== 'hu' ? 'active' : ''">
-                                EN</a>
-                            <a @click="synopsisStore.language !== 'hu' ? synopsisStore.changeLanguage() : null"
-                                class="btn btn-light border border-light-subtle"
-                                :class="synopsisStore.language === 'hu' ? 'active' : ''">
-                                HU</a>
-                        </div>
-                        <i class="bi bi-globe2 fs-5 align-middle me-3"></i>
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-sm btn-light border border-light-subtle dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ synopsisStore.language.toUpperCase() }}
+                            <i class="bi bi-globe2 fs-5 align-middle"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li> <a @click="synopsisStore.language === 'hu' ? synopsisStore.changeLanguage() : null"
+                                class="dropdown-item hoverable text-black"
+                                :class="synopsisStore.language !== 'hu' ? 'bg-dark-subtle' : ''">
+                                EN</a></li>
+                            <li><a @click="synopsisStore.language !== 'hu' ? synopsisStore.changeLanguage() : null"
+                                class="dropdown-item hoverable text-black"
+                                :class="synopsisStore.language === 'hu' ? 'bg-dark-subtle' : ''">
+                                HU</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <div class="btn-group me-2">
-                            <a @click="synopsisStore.translation === 'SZIT' ? synopsisStore.changeTranslation() : null"
-                                class="btn btn-light border border-light-subtle"
-                                :class="synopsisStore.translation !== 'SZIT' ? 'active' : ''">
-                                ESV</a>
-                            <a @click="synopsisStore.translation !== 'SZIT' ? synopsisStore.changeTranslation() : null"
-                                class="btn btn-light border border-light-subtle"
-                                :class="synopsisStore.translation === 'SZIT' ? 'active' : ''">
-                                SZIT</a>
-                        </div>
-                        <i class="bi bi-book fs-5 align-middle"></i>
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-sm btn-light border border-light-subtle dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-book fs-5 align-middle"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li> <a @click="synopsisStore.translation === 'SZIT' ? synopsisStore.changeTranslation() : null"
+                                    class="dropdown-item hoverable text-black"
+                                    :class="synopsisStore.translation !== 'SZIT' ? 'bg-dark-subtle' : ''">
+                                    ESV (en)</a></li>
+                            <li><a @click="synopsisStore.translation !== 'SZIT' ? synopsisStore.changeTranslation() : null"
+                                    class="dropdown-item hoverable text-black"
+                                    :class="synopsisStore.translation === 'SZIT' ? 'bg-dark-subtle' : ''">
+                                    SZIT (hu)</a></li>
+                        </ul>
                     </li>
+
 
                 </ul>
             </div>
