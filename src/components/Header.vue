@@ -70,8 +70,20 @@ export default {
                                 :class="synopsisStore.language === 'hu' ? 'active' : ''">
                                 HU</a>
                         </div>
-
-                        <i class="bi bi-globe2 fs-5 align-middle"></i>
+                        <i class="bi bi-globe2 fs-5 align-middle me-3"></i>
+                    </li>
+                    <li class="nav-item">
+                        <div class="btn-group me-2">
+                            <a @click="synopsisStore.translation === 'SZIT' ? synopsisStore.changeTranslation() : null"
+                                class="btn btn-light border border-light-subtle"
+                                :class="synopsisStore.translation !== 'SZIT' ? 'active' : ''">
+                                ESV</a>
+                            <a @click="synopsisStore.translation !== 'SZIT' ? synopsisStore.changeTranslation() : null"
+                                class="btn btn-light border border-light-subtle"
+                                :class="synopsisStore.translation === 'SZIT' ? 'active' : ''">
+                                SZIT</a>
+                        </div>
+                        <i class="bi bi-book fs-5 align-middle"></i>
                     </li>
 
                 </ul>

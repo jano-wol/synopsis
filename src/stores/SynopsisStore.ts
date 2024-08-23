@@ -24,14 +24,26 @@ export const useSynopsisStore = defineStore('synopsis', {
         changeLanguage() {
             if (this.language === "hu") {
                 this.dictionary = dictionaryEn
-                this.synopsis = synopsisESV
                 this.language = "en"
+                this.synopsis = synopsisESV
                 this.translation = "ESV"
             }
             else {
                 this.dictionary = dictionaryHu
-                this.synopsis = synopsisSZIT
                 this.language = "hu"
+                this.synopsis = synopsisSZIT
+                this.translation = "SZIT"
+            }
+            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language, translation: this.translation } });
+        },
+        changeTranslation() {
+            console.log("HELLO")
+            if (this.translation === "SZIT") {
+                this.synopsis = synopsisESV
+                this.translation = "ESV"
+            }
+            else {
+                this.synopsis = synopsisSZIT
                 this.translation = "SZIT"
             }
             router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language, translation: this.translation } });
@@ -49,15 +61,21 @@ export const useSynopsisStore = defineStore('synopsis', {
             return result
         },
         setupLanguage(language: any) {
-            if (language !== "en" && language !== "ESV") {
+            if (language !== "en") {
                 this.dictionary = dictionaryHu
                 this.language = "hu"
-                this.translation = "SZIT"
-                this.synopsis = synopsisSZIT
             }
             else {
                 this.dictionary = dictionaryEn
                 this.language = "en"
+            }
+        },
+        setupTranslation(translation: any) {
+            if (translation === "SZIT") {
+                this.translation = "SZIT"
+                this.synopsis = synopsisSZIT
+            }
+            if (translation === "ESV") {
                 this.translation = "ESV"
                 this.synopsis = synopsisESV
             }

@@ -61,16 +61,8 @@ const router = createRouter({
   },
 })
 
-router.beforeEach((to, from, next) => {
-
-  const { lang, translation } = to.params;
-  if ((lang === 'hu' && translation === 'ESV') || (lang === 'en' && translation === 'SZIT')) {
-    next({ name: "notFound", params: { param: to.path.split('/').slice(1) } });
-  } else {
-    next();
-  }
-
-
+router.beforeEach((to, from) => {
   useSynopsisStore().setupLanguage(to.params.lang)
+  useSynopsisStore().setupTranslation(to.params.translation)
 })
 export default router
