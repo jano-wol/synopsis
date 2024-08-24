@@ -31,7 +31,7 @@ export default {
             }, 1500);
         },
         copyIdLink(id: string) {
-            navigator.clipboard.writeText(window.location.origin + "/" + this.$route.params.lang + "/" + this.$route.params.translation + "#" + id);
+            navigator.clipboard.writeText(window.location.origin + "/" + this.$route.params.language + "/" + this.$route.params.translation + "#" + id);
             this.isIdCopied = true
             setTimeout(() => {
                 this.isIdCopied = false;

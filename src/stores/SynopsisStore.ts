@@ -63,23 +63,19 @@ export const useSynopsisStore = defineStore('synopsis', {
             return result
         },
         setupLanguage(language: any) {
-            if (language !== "en") {
-                this.currentDictionary = dictionaryHu
-                this.currentLanguage = "hu"
-            }
-            else {
-                this.currentDictionary = dictionaryEn
-                this.currentLanguage = "en"
+            for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
+                if (language === this.synopses[synopsisIndex].language) {
+                    this.currentDictionary = dictionary[language]
+                    this.currentLanguage = language
+                }
             }
         },
         setupTranslation(translation: any) {
-            if (translation === "SZIT") {
-                this.currentTranslation = "SZIT"
-                this.currentSynopsis = synopsisSZIT
-            }
-            if (translation === "ESV") {
-                this.currentTranslation = "ESV"
-                this.currentSynopsis = synopsisESV
+            for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
+                if (translation === this.synopses[synopsisIndex].translation) {
+                    this.currentTranslation = translation
+                    this.currentSynopsis = this.synopses[synopsisIndex]
+                }
             }
         }
     }
