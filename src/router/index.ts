@@ -13,33 +13,33 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/:lang(hu|en)/:translation(SZIT|ESV)',
+      path: '/:language(hu|en)/:translation(SZIT|ESV)',
       alias: '/',
       name: 'synopsis',
       component: SynopsisView
     },
     {
-      path: '/:lang(hu|en)/about',
+      path: '/:language(hu|en)/about',
       name: 'about',
       component: AboutView
     },
     {
-      path: '/:lang(hu|en)/:translation(SZIT|ESV)/index',
+      path: '/:language(hu|en)/:translation(SZIT|ESV)/index',
       name: 'index',
       component: IndexView
     },
     {
-      path: '/:lang(hu|en)/sources',
+      path: '/:language(hu|en)/sources',
       name: 'sources',
       component: SourcesView
     },
     {
-      path: '/:lang(hu|en)/contact',
+      path: '/:language(hu|en)/contact',
       name: 'contact',
       component: ContactView
     },
     {
-      path: '/:lang(hu|en)/:translation(SZIT|ESV)/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
+      path: '/:language(hu|en)/:translation(SZIT|ESV)/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
       name: 'section',
       component: Section,
       props: true
@@ -62,7 +62,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from) => {
-  useSynopsisStore().setupLanguage(to.params.lang)
+  useSynopsisStore().setupLanguage(to.params.language)
   useSynopsisStore().setupTranslation(to.params.translation)
 })
 export default router

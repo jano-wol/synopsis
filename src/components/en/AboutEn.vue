@@ -26,7 +26,7 @@ export default {
             repetitions, in the original
             order of the verses. Each section contains maximum one body text, for one evangelist.
             In the <router-link
-                :to="{ name: 'index', params: { lang: synopsisStore.language, translation: synopsisStore.translation } }">Table
+                :to="{ name: 'index', params: { language: synopsisStore.language, translation: synopsisStore.translation } }">Table
                 of contents</router-link> ther citation appears with bold.
         </li>
         <li>Boxes with grey frame and no shadow contain parallel text.</li>
@@ -59,6 +59,6 @@ export default {
     </ul>
 
     <p>
-        <!-- More details under <router-link :to="{ name: 'sources', params: { lang: synopsisStore.language } }">Sources</router-link>. -->
+        More details under <router-link :to="{ name: 'sources', params: { language: synopsisStore.language } }">Sources</router-link>.
     </p>
 </template>

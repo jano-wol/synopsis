@@ -30,6 +30,12 @@ export default {
         //TODO: proper typing
         sectionLocation: {
             type: Object,
+        },
+        language: {
+            type: String
+        },
+        translation: {
+            type: String
         }
     },
     data() {
@@ -52,21 +58,21 @@ export default {
 </script>
 
 <template>
-    
 
-        <div class="row align-items-center mx-3" :id="id">
-            <div class="col-lg-2 col-md-12">
-            </div>
-            <div class="col-lg-8 col-md-12">
-                <h3 class="text-center display-6">
-                    {{ id }}. {{ section.section_name
-                    }}
-                </h3>
-            </div>
-            <div class="col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end">
-                <FunctionButtons :section-location="sectionLocation" :id="id" />
-            </div>
+
+    <div class="row align-items-center mx-3" :id="id">
+        <div class="col-lg-2 col-md-12">
         </div>
+        <div class="col-lg-8 col-md-12">
+            <h3 class="text-center display-6">
+                {{ id }}. {{ section.section_name
+                }}
+            </h3>
+        </div>
+        <div class="col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end">
+            <FunctionButtons :section-location="sectionLocation" :id="id" />
+        </div>
+    </div>
 
     <template v-for="index in section.mt.length">
         <div class="row content mx-3">

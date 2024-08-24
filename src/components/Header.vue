@@ -12,19 +12,20 @@ export default {
 </script>
 
 <style>
-    .hoverable:hover{
-        cursor: pointer;
-    }
-    .hoverable:active{
-        background: #adb5bd;
-    }
+.hoverable:hover {
+    cursor: pointer;
+}
+
+.hoverable:active {
+    background: #adb5bd;
+}
 </style>
 
 <template>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <router-link
-                :to="{ name: 'synopsis', params: { lang: synopsisStore.language, translation: synopsisStore.translation } }"
+                :to="{ name: 'synopsis', params: { language: synopsisStore.language, translation: synopsisStore.translation } }"
                 :class="$route.name == 'synopsis' ? 'active' : ''" class="navbar-brand" aria-current="page">
                 <img src="/favicon.svg" alt="Szinopszis" width="33" height="33">
             </router-link>
@@ -37,34 +38,34 @@ export default {
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <router-link
-                            :to="{ name: 'synopsis', params: { lang: synopsisStore.language, translation: synopsisStore.translation } }"
+                            :to="{ name: 'synopsis', params: { language: synopsisStore.language, translation: synopsisStore.translation } }"
                             :class="$route.name == 'synopsis' ? 'active' : ''" class="nav-link" aria-current="page">{{
                     synopsisStore.dictionary.menu.synopsis }}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link
-                            :to="{ name: 'index', params: { lang: synopsisStore.language, translation: synopsisStore.translation } }"
+                            :to="{ name: 'index', params: { language: synopsisStore.language, translation: synopsisStore.translation } }"
                             :class="$route.name == 'index' ? 'active' : ''" class="nav-link" aria-current="page">{{
                     synopsisStore.dictionary.menu.index }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'about', params: { lang: synopsisStore.language } }"
+                        <router-link :to="{ name: 'about', params: { language: synopsisStore.language } }"
                             :class="$route.name == 'about' ? 'active' : ''" class="nav-link" aria-current="page">{{
                     synopsisStore.dictionary.menu.about }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'sources', params: { lang: synopsisStore.language } }"
+                        <router-link :to="{ name: 'sources', params: { language: synopsisStore.language } }"
                             :class="$route.name == 'sources' ? 'active' : ''" class="nav-link" aria-current="page">{{
                     synopsisStore.dictionary.menu.sources }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'contact', params: { lang: synopsisStore.language } }"
-                            :class="$route.name == 'contact' ? 'active' : ''" class="nav-link"
-                            aria-current="page">{{ synopsisStore.dictionary.menu.contact }}
+                        <router-link :to="{ name: 'contact', params: { language: synopsisStore.language } }"
+                            :class="$route.name == 'contact' ? 'active' : ''" class="nav-link" aria-current="page">{{
+                    synopsisStore.dictionary.menu.contact }}
                         </router-link>
                     </li>
                 </ul>
@@ -77,13 +78,13 @@ export default {
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li> <a @click="synopsisStore.language === 'hu' ? synopsisStore.changeLanguage() : null"
-                                class="dropdown-item hoverable text-black"
-                                :class="synopsisStore.language !== 'hu' ? 'bg-dark-subtle' : ''">
-                                EN</a></li>
+                                    class="dropdown-item hoverable text-black"
+                                    :class="synopsisStore.language !== 'hu' ? 'bg-dark-subtle' : ''">
+                                    EN</a></li>
                             <li><a @click="synopsisStore.language !== 'hu' ? synopsisStore.changeLanguage() : null"
-                                class="dropdown-item hoverable text-black"
-                                :class="synopsisStore.language === 'hu' ? 'bg-dark-subtle' : ''">
-                                HU</a></li>
+                                    class="dropdown-item hoverable text-black"
+                                    :class="synopsisStore.language === 'hu' ? 'bg-dark-subtle' : ''">
+                                    HU</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">

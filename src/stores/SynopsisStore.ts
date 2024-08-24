@@ -36,7 +36,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 this.synopsis = synopsisSZIT
                 this.translation = "SZIT"
             }
-            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language, translation: this.translation } });
+            router.push({ name: router.currentRoute.value.name as string, params: { language: this.language, translation: this.translation } });
         },
         changeTranslation(translation: string) {
             for (let synopsisIndex = 0; synopsisIndex<synopses.length; synopsisIndex++)
@@ -45,7 +45,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 {
                     this.synopsis = synopses[synopsisIndex]
                     this.translation = translation
-                    router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language, translation: this.translation } });
+                    router.push({ name: router.currentRoute.value.name as string, params: { language: this.language, translation: this.translation } });
                     break
                 }
             }

@@ -44,7 +44,7 @@ export default {
 
 <template>
     <router-link v-if="$route.name !== 'section'"
-        :to="{ name: 'section', params: { lang: synopsisStore.language, translation: synopsisStore.translation, id: id } }"
+        :to="{ name: 'section', params: { language: synopsisStore.language, translation: synopsisStore.translation, id: id } }"
         target="_blank">
         <button type="button" class="float-right btn btn-light  btn-sm ms-1 mb-1"
             :title="synopsisStore.dictionary.tooltips.openSeparately">
@@ -52,7 +52,7 @@ export default {
         </button>
     </router-link>
     <router-link v-if="$route.name !== 'synopsis'"
-        :to="{ name: 'synopsis', params: { lang: synopsisStore.language, translation: synopsisStore.translation }, hash: '#' + id }">
+        :to="{ name: 'synopsis', params: { language: synopsisStore.language, translation: synopsisStore.translation }, hash: '#' + id }">
         <button type="button" class="float-right btn btn-light btn-sm ms-1 mb-1"
             :title="synopsisStore.dictionary.tooltips.openInSynopsis">
             <i class="bi bi-arrow-down-left-square fs-6"></i>

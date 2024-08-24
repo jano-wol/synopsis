@@ -23,7 +23,7 @@ export default {
     </p>
     <ul>
         <li>A törzsszöveg fekete kerettel és árnyékkal jelenik meg. A
-            <router-link    :to="{ name: 'index', params: { lang: synopsisStore.language, translation: synopsisStore.translation } }">tartalomjegyzékben</router-link>
+            <router-link    :to="{ name: 'index', params: { language: synopsisStore.language, translation: synopsisStore.translation } }">tartalomjegyzékben</router-link>
             vastag kiemeléssel szerepelnek
             a hozzá tartozó idézetek. A törzsszöveg a teljes evangéliumot tartalmazza, ismétlődések nélkül, a versek
             eredeti sorrendjében. Minden szekcióban egy evangélistához, legfeljebb egy törzsszöveg található.
@@ -63,6 +63,6 @@ export default {
 
     <p>
         További részletekért lásd a <router-link
-            :to="{ name: 'sources', params: { lang: synopsisStore.language } }">Források</router-link> menüpontot.
+            :to="{ name: 'sources', params: { language: synopsisStore.language } }">Források</router-link> menüpontot.
     </p>
 </template>
