@@ -10,6 +10,8 @@ const synopsisESV: SynopsisScheme = synopsis_esv
 //TODO: proper typing
 const dictionaryEn: any = dictionary_en
 const dictionaryHu: any = dictionary_hu
+const synopses = [synopsisSZIT, synopsisESV]
+
 
 export const useSynopsisStore = defineStore('synopsis', {
     state: () => {
@@ -36,17 +38,17 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
             router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language, translation: this.translation } });
         },
-        changeTranslation() {
-            console.log("HELLO")
-            if (this.translation === "SZIT") {
-                this.synopsis = synopsisESV
-                this.translation = "ESV"
+        changeTranslation(translation: string) {
+            for (let synopsisIndex = 0; synopsisIndex<synopses.length; synopsisIndex++)
+            {
+                if (synopses[synopsisIndex].translation == translation)
+                {
+                    this.synopsis = synopses[synopsisIndex]
+                    this.translation = translation
+                    router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language, translation: this.translation } });
+                    break
+                }
             }
-            else {
-                this.synopsis = synopsisSZIT
-                this.translation = "SZIT"
-            }
-            router.push({ name: router.currentRoute.value.name as string, params: { lang: this.language, translation: this.translation } });
         },
         //TODO: proper typing
         get(location: any) {

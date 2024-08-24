@@ -92,11 +92,11 @@ export default {
                             <i class="bi bi-book fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li> <a @click="synopsisStore.translation === 'SZIT' ? synopsisStore.changeTranslation() : null"
+                            <li> <a @click="synopsisStore.translation === 'SZIT' ? synopsisStore.changeTranslation('ESV') : null"
                                     class="dropdown-item hoverable text-black"
                                     :class="synopsisStore.translation !== 'SZIT' ? 'bg-dark-subtle' : ''">
                                     ESV (en)</a></li>
-                            <li><a @click="synopsisStore.translation !== 'SZIT' ? synopsisStore.changeTranslation() : null"
+                            <li><a @click="synopsisStore.translation !== 'SZIT' ? synopsisStore.changeTranslation('SZIT') : null"
                                     class="dropdown-item hoverable text-black"
                                     :class="synopsisStore.translation === 'SZIT' ? 'bg-dark-subtle' : ''">
                                     SZIT (hu)</a></li>

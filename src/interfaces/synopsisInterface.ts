@@ -1,4 +1,6 @@
 export interface SynopsisScheme {
+    language: string,
+    translation: string,
     chapters: ChapterScheme[]
 }
 
