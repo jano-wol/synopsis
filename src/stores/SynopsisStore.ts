@@ -14,7 +14,6 @@ const dictionary: any = {
     en: dictionaryEn,
     hu: dictionaryHu
 }
-const synopses = [synopsisSZIT, synopsisESV]
 
 
 export const useSynopsisStore = defineStore('synopsis', {
@@ -24,16 +23,17 @@ export const useSynopsisStore = defineStore('synopsis', {
             language: "hu",
             translation: "SZIT",
             synopsis: synopsisSZIT,
+            synopses: [synopsisSZIT, synopsisESV]
         }
     },
     actions: {
         changeLanguage(language: string) {
-            for (let synopsisIndex = 0; synopsisIndex < synopses.length; synopsisIndex++) {
-                if (this.language !== language && synopses[synopsisIndex].language === language) {
+            for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
+                if (this.language !== language && this.synopses[synopsisIndex].language === language) {
                     this.language = language
                     this.dictionary = dictionary[this.language]
 
-                    this.synopsis = synopses[synopsisIndex]
+                    this.synopsis = this.synopses[synopsisIndex]
                     this.translation = this.synopsis.translation
                     router.push({ name: router.currentRoute.value.name as string, params: { language: this.language, translation: this.translation } });
                     break
@@ -41,9 +41,9 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
         },
         changeTranslation(translation: string) {
-            for (let synopsisIndex = 0; synopsisIndex < synopses.length; synopsisIndex++) {
-                if (synopses[synopsisIndex].translation == translation) {
-                    this.synopsis = synopses[synopsisIndex]
+            for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
+                if (this.synopses[synopsisIndex].translation == translation) {
+                    this.synopsis = this.synopses[synopsisIndex]
                     this.translation = translation
                     router.push({ name: router.currentRoute.value.name as string, params: { language: this.language, translation: this.translation } });
                     break

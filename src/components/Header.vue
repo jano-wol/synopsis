@@ -77,14 +77,12 @@ export default {
                             <i class="bi bi-globe2 fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li> <a @click="synopsisStore.language === 'hu' ? synopsisStore.changeLanguage('en') : null"
-                                    class="dropdown-item hoverable text-black"
-                                    :class="synopsisStore.language !== 'hu' ? 'bg-dark-subtle' : ''">
-                                    EN</a></li>
-                            <li><a @click="synopsisStore.language !== 'hu' ? synopsisStore.changeLanguage('hu') : null"
-                                    class="dropdown-item hoverable text-black"
-                                    :class="synopsisStore.language === 'hu' ? 'bg-dark-subtle' : ''">
-                                    HU</a></li>
+                            <template v-for="synopsis in synopsisStore.synopses">
+                                <li> <a @click="synopsis.language !== synopsisStore.language ? synopsisStore.changeLanguage(synopsis.language) : null"
+                                        class="dropdown-item hoverable text-black"
+                                        :class="synopsis.language === synopsisStore.language ? 'bg-dark-subtle' : ''">
+                                        {{ synopsis.language.toUpperCase() }}</a></li>
+                            </template>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -93,18 +91,14 @@ export default {
                             <i class="bi bi-book fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li> <a @click="synopsisStore.translation === 'SZIT' ? synopsisStore.changeTranslation('ESV') : null"
-                                    class="dropdown-item hoverable text-black"
-                                    :class="synopsisStore.translation !== 'SZIT' ? 'bg-dark-subtle' : ''">
-                                    ESV (en)</a></li>
-                            <li><a @click="synopsisStore.translation !== 'SZIT' ? synopsisStore.changeTranslation('SZIT') : null"
-                                    class="dropdown-item hoverable text-black"
-                                    :class="synopsisStore.translation === 'SZIT' ? 'bg-dark-subtle' : ''">
-                                    SZIT (hu)</a></li>
+                            <template v-for="synopsis in synopsisStore.synopses">
+                                <li> <a @click="synopsis.translation !== synopsisStore.translation ? synopsisStore.changeTranslation(synopsis.translation) : null"
+                                        class="dropdown-item hoverable text-black"
+                                        :class="synopsis.translation === synopsisStore.translation ? 'bg-dark-subtle' : ''">
+                                        {{ synopsis.translation}}</a></li>
+                            </template>
                         </ul>
                     </li>
-
-
                 </ul>
             </div>
         </div>
