@@ -54,7 +54,6 @@ export default {
         validHashes.push(i);
       }
       validHashes.splice(360, 2);
-      console.log(validHashes)
       return validHashes.includes(parseInt(hash))
     }
   }
