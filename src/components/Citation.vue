@@ -1,6 +1,6 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-import type { CitationScheme, SectionScheme } from '@/interfaces/synopsisInterface';
+import type { ChapterScheme, CitationScheme, SectionScheme, SubchapterScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
@@ -27,9 +27,9 @@ export default {
     redirectToLeadingCitation(chapterLocation: string, verseLocation: string): void {
       for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
-        const chapter = useSynopsisStore().currentSynopsis.chapters[i]
+        const chapter: ChapterScheme = useSynopsisStore().currentSynopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
-          const subchapter = chapter.subchapters[j]
+          const subchapter: SubchapterScheme = chapter.subchapters[j]
           for (let k = 0; k < subchapter.sections.length; k++) {
             const section: SectionScheme = subchapter.sections[k]
             for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
@@ -53,16 +53,13 @@ export default {
       let previousSectionId;
       for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
-        const chapter = useSynopsisStore().currentSynopsis.chapters[i]
+        const chapter: ChapterScheme = useSynopsisStore().currentSynopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
-          const subchapter = chapter.subchapters[j]
+          const subchapter: SubchapterScheme = chapter.subchapters[j]
           for (let k = 0; k < subchapter.sections.length; k++) {
-            const section = subchapter.sections[k]
-            //TODO: remove hacky solution.
-            const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
-            // TODO: this.evangelist not type correct for some reason.
-            for (let l = 0; l < section[evangelist].length; l++) {
-              const citation = section[evangelist][l]
+            const section: SectionScheme = subchapter.sections[k]
+            for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
+              const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (section.id === this.sectionId) {
                 this.$router.push({ name: "synopsis", hash: "#" + previousSectionId })
                 return
@@ -78,16 +75,13 @@ export default {
     redirectToNextLeadingCitation() {
       for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
-        const chapter = useSynopsisStore().currentSynopsis.chapters[i]
+        const chapter: ChapterScheme = useSynopsisStore().currentSynopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
-          const subchapter = chapter.subchapters[j]
+          const subchapter: SubchapterScheme = chapter.subchapters[j]
           for (let k = 0; k < subchapter.sections.length; k++) {
-            const section = subchapter.sections[k]
-            //TODO: remove hacky solution.
-            const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
-            // TODO: this.evangelist not type correct for some reason.
-            for (let l = 0; l < section[evangelist].length; l++) {
-              const citation = section[evangelist][l]
+            const section: SectionScheme = subchapter.sections[k]
+            for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
+              const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (Number(section.id) > Number(this.sectionId) && citation?.leading) {
                 this.$router.push({ name: "synopsis", hash: "#" + section.id })
                 return
@@ -97,21 +91,6 @@ export default {
         }
       }
     },
-  },
-  computed: {
-    evangelistName() {
-      switch (this.evangelist) {
-        case "mt":
-          return "Máté"
-        case "mk":
-          return "Márk"
-        case "lk":
-          return "Lukács"
-        default:
-          return "János"
-      }
-    },
-
   }
 }
 </script>
