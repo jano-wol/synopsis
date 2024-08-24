@@ -51,16 +51,19 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
         },
         //TODO: proper typing
-        get(location: any) {
-
-            let result: any = this.currentSynopsis.chapters[location.chapterIndex]
-            if (location.subchapterIndex !== null) {
-                result = result.subchapters[location.subchapterIndex]
-                if (location.sectionIndex !== null) {
-                    result = result.sections[location.sectionIndex]
+        locateSection(id: string): any {
+            for (let i = 0; i < this.currentSynopsis.chapters.length; i++) {
+                const chapter = this.currentSynopsis.chapters[i]
+                for (let j = 0; j < chapter.subchapters.length; j++) {
+                    const subchapter = chapter.subchapters[j]
+                    for (let k = 0; k < subchapter.sections.length; k++) {
+                        const section = subchapter.sections[k]
+                        if (section.id === id) {
+                            return section
+                        }
+                    }
                 }
             }
-            return result
         },
         setupLanguage(language: any) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {

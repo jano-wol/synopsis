@@ -7,10 +7,6 @@ export default {
             type: String,
             requested: true,
             default: "0"
-        },
-        //TODO: proper typing
-        sectionLocation: {
-            type: Object,
         }
     },
     data() {

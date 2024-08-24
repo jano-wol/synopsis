@@ -4,32 +4,12 @@ import FunctionButtons from '@/components/FunctionButtons.vue'
 import type { SectionScheme } from '@/interfaces/synopsisInterface'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
-//TODO: proper typing
-function locateSection(id: string): any {
-    for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
-        const chapter = useSynopsisStore().currentSynopsis.chapters[i]
-        for (let j = 0; j < chapter.subchapters.length; j++) {
-            const subchapter = chapter.subchapters[j]
-            for (let k = 0; k < subchapter.sections.length; k++) {
-                const section = subchapter.sections[k]
-                if (section.id === id) {
-                    return section
-                }
-            }
-        }
-    }
-}
-
 export default {
     props: {
         id: {
             type: String,
             requested: true,
             default: "0"
-        },
-        //TODO: proper typing
-        sectionLocation: {
-            type: Object,
         },
         language: {
             type: String
@@ -50,7 +30,7 @@ export default {
     computed:
     {
         section() {
-            return this.$route.params.id ? locateSection(this.$route.params.id as string) : this.synopsisStore.get(this.sectionLocation)
+            return this.synopsisStore.locateSection(this.id)
         }
     }
 }
@@ -70,7 +50,7 @@ export default {
             </h3>
         </div>
         <div class="col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end">
-            <FunctionButtons :section-location="sectionLocation" :id="id" />
+            <FunctionButtons :id="id" />
         </div>
     </div>
 
