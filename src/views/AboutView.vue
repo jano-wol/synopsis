@@ -20,8 +20,8 @@ export default {
 
 <template>
     <div class="container">
-        <h1 class="text-center">{{ synopsisStore.dictionary.menu.about }}</h1>
-        <AboutHu v-if="synopsisStore.language === 'hu'" />
-        <AboutEn v-if="synopsisStore.language !== 'hu'" />
+        <h1 class="text-center">{{ synopsisStore.currentDictionary.menu.about }}</h1>
+        <AboutHu v-if="synopsisStore.currentLanguage === 'hu'" />
+        <AboutEn v-if="synopsisStore.currentLanguage !== 'hu'" />
     </div>
 </template>

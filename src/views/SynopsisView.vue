@@ -29,7 +29,7 @@ export default {
       if (!this.scrolledToAnchor) {
         this.scrollToAnchor();
       }
-      if (index < this.synopsisStore.synopsis.chapters.length) {
+      if (index < this.synopsisStore.currentSynopsis.chapters.length) {
         setTimeout(() => {
           this.visibleIndex = index + 1;
           this.delayedRender(index + 1);
@@ -80,8 +80,8 @@ export default {
 
 <template>
   <div class="container-fluid">
-    <h1 class="text-center display-1">{{ synopsisStore.dictionary.menu.synopsis }}</h1>
-    <p class="text-center">{{ synopsisStore.dictionary.synopsis.subheading }}</p>
+    <h1 class="text-center display-1">{{ synopsisStore.currentDictionary.menu.synopsis }}</h1>
+    <p class="text-center">{{ synopsisStore.currentDictionary.synopsis.subheading }}</p>
     <div v-if="showScroller" class="spinner-background">
       <!-- Spinner -->
       <div class="spinner-border spinner-border-lg" role="status">
@@ -89,7 +89,7 @@ export default {
       </div>
     </div>
 
-    <template v-show="!showScroller" v-for="chapterIndex in synopsisStore.synopsis.chapters.length">
+    <template v-show="!showScroller" v-for="chapterIndex in synopsisStore.currentSynopsis.chapters.length">
       <Chapter v-if="visibleIndex >= chapterIndex - 1"
         :chapter-location="{ chapterIndex: chapterIndex - 1, subchapterIndex: null, sectionIndex: null }" />
     </template>

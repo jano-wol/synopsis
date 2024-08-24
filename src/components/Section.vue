@@ -6,8 +6,8 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 //TODO: proper typing
 function locateSection(id: string): any {
-    for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
-        const chapter = useSynopsisStore().synopsis.chapters[i]
+    for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
+        const chapter = useSynopsisStore().currentSynopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
             const subchapter = chapter.subchapters[j]
             for (let k = 0; k < subchapter.sections.length; k++) {

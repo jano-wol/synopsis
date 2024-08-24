@@ -25,7 +25,7 @@ export default {
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <router-link
-                :to="{ name: 'synopsis', params: { language: synopsisStore.language, translation: synopsisStore.translation } }"
+                :to="{ name: 'synopsis', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }"
                 :class="$route.name == 'synopsis' ? 'active' : ''" class="navbar-brand" aria-current="page">
                 <img src="/favicon.svg" alt="Szinopszis" width="33" height="33">
             </router-link>
@@ -38,34 +38,34 @@ export default {
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <router-link
-                            :to="{ name: 'synopsis', params: { language: synopsisStore.language, translation: synopsisStore.translation } }"
+                            :to="{ name: 'synopsis', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }"
                             :class="$route.name == 'synopsis' ? 'active' : ''" class="nav-link" aria-current="page">{{
-                    synopsisStore.dictionary.menu.synopsis }}
+                    synopsisStore.currentDictionary.menu.synopsis }}
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link
-                            :to="{ name: 'index', params: { language: synopsisStore.language, translation: synopsisStore.translation } }"
+                            :to="{ name: 'index', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }"
                             :class="$route.name == 'index' ? 'active' : ''" class="nav-link" aria-current="page">{{
-                    synopsisStore.dictionary.menu.index }}
+                    synopsisStore.currentDictionary.menu.index }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'about', params: { language: synopsisStore.language } }"
+                        <router-link :to="{ name: 'about', params: { language: synopsisStore.currentLanguage } }"
                             :class="$route.name == 'about' ? 'active' : ''" class="nav-link" aria-current="page">{{
-                    synopsisStore.dictionary.menu.about }}
+                    synopsisStore.currentDictionary.menu.about }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'sources', params: { language: synopsisStore.language } }"
+                        <router-link :to="{ name: 'sources', params: { language: synopsisStore.currentLanguage } }"
                             :class="$route.name == 'sources' ? 'active' : ''" class="nav-link" aria-current="page">{{
-                    synopsisStore.dictionary.menu.sources }}
+                    synopsisStore.currentDictionary.menu.sources }}
                         </router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link :to="{ name: 'contact', params: { language: synopsisStore.language } }"
+                        <router-link :to="{ name: 'contact', params: { language: synopsisStore.currentLanguage } }"
                             :class="$route.name == 'contact' ? 'active' : ''" class="nav-link" aria-current="page">{{
-                    synopsisStore.dictionary.menu.contact }}
+                    synopsisStore.currentDictionary.menu.contact }}
                         </router-link>
                     </li>
                 </ul>
@@ -73,14 +73,14 @@ export default {
                     <li class="nav-item dropdown">
                         <button class="btn btn-sm btn-light border border-light-subtle dropdown-toggle"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ synopsisStore.language.toUpperCase() }}
+                            {{ synopsisStore.currentLanguage.toUpperCase() }}
                             <i class="bi bi-globe2 fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <template v-for="synopsis in synopsisStore.synopses">
-                                <li> <a @click="synopsis.language !== synopsisStore.language ? synopsisStore.changeLanguage(synopsis.language) : null"
+                                <li> <a @click="synopsis.language !== synopsisStore.currentLanguage ? synopsisStore.changeLanguage(synopsis.language) : null"
                                         class="dropdown-item hoverable text-black"
-                                        :class="synopsis.language === synopsisStore.language ? 'bg-dark-subtle' : ''">
+                                        :class="synopsis.language === synopsisStore.currentLanguage ? 'bg-dark-subtle' : ''">
                                         {{ synopsis.language.toUpperCase() }}</a></li>
                             </template>
                         </ul>
@@ -92,9 +92,9 @@ export default {
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <template v-for="synopsis in synopsisStore.synopses">
-                                <li> <a @click="synopsis.translation !== synopsisStore.translation ? synopsisStore.changeTranslation(synopsis.translation) : null"
+                                <li> <a @click="synopsis.translation !== synopsisStore.currentTranslation ? synopsisStore.changeTranslation(synopsis.translation) : null"
                                         class="dropdown-item hoverable text-black"
-                                        :class="synopsis.translation === synopsisStore.translation ? 'bg-dark-subtle' : ''">
+                                        :class="synopsis.translation === synopsisStore.currentTranslation ? 'bg-dark-subtle' : ''">
                                         {{ synopsis.translation}}</a></li>
                             </template>
                         </ul>

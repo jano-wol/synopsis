@@ -25,9 +25,9 @@ export default {
   },
   methods: {
     redirectToLeadingCitation(chapterLocation: string, verseLocation: string): void {
-      for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
+      for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
-        const chapter = useSynopsisStore().synopsis.chapters[i]
+        const chapter = useSynopsisStore().currentSynopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
           const subchapter = chapter.subchapters[j]
           for (let k = 0; k < subchapter.sections.length; k++) {
@@ -53,9 +53,9 @@ export default {
     },
     redirectToPreviousLeadingCitation() {
       let previousSectionId;
-      for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
+      for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
-        const chapter = useSynopsisStore().synopsis.chapters[i]
+        const chapter = useSynopsisStore().currentSynopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
           const subchapter = chapter.subchapters[j]
           for (let k = 0; k < subchapter.sections.length; k++) {
@@ -78,9 +78,9 @@ export default {
       }
     },
     redirectToNextLeadingCitation() {
-      for (let i = 0; i < useSynopsisStore().synopsis.chapters.length; i++) {
+      for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
         //TODO: think about better name than chapter in .json
-        const chapter = useSynopsisStore().synopsis.chapters[i]
+        const chapter = useSynopsisStore().currentSynopsis.chapters[i]
         for (let j = 0; j < chapter.subchapters.length; j++) {
           const subchapter = chapter.subchapters[j]
           for (let k = 0; k < subchapter.sections.length; k++) {
@@ -123,11 +123,11 @@ export default {
   <div class="card h-100" v-if="citation?.content"
     :class="{ 'shadow border-dark': citation.leading }">
     <div class="card-header sticky-top bg-light">
-      {{ synopsisStore.dictionary.evangelists[evangelist] }} {{ citation?.citation }}
+      {{ synopsisStore.currentDictionary.evangelists[evangelist] }} {{ citation?.citation }}
       <template v-if="!$route.params.id">
         <button v-if="!citation.leading"
           @click="redirectToLeadingCitation(citation.content[0].chapter, citation.content[0].verse)" type="button"
-          class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.dictionary.tooltips.jumpToMainText">
+          class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.jumpToMainText">
 
           <i class="bi bi-compass fs-6 text-secondary"></i>
         </button>
@@ -138,12 +138,12 @@ export default {
       || (evangelist === 'lk' && sectionId === '365')
       || (evangelist === 'jn' && sectionId === '367')
     )" @click="redirectToNextLeadingCitation()" type="button" class=" float-end btn  btn-sm py-0 m-0"
-          :title="synopsisStore.dictionary.tooltips.nextMainText">
+          :title="synopsisStore.currentDictionary.tooltips.nextMainText">
           <i class="bi bi-arrow-down fs-6 text-secondary"></i>
         </button>
         <button v-if="citation.leading && sectionId !== '1'" @click="redirectToPreviousLeadingCitation()"
           type="button" class=" float-end btn  btn-sm py-0 m-0"
-          :title="synopsisStore.dictionary.tooltips.previousMainText">
+          :title="synopsisStore.currentDictionary.tooltips.previousMainText">
           <i class="bi bi-arrow-up fs-6 text-secondary"></i>
         </button>
       </template>

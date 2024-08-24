@@ -17,8 +17,8 @@ export default {
         <table class="table bg-dark table-sm table-striped table-bordered">
             <thead>
                 <tr>
-                    <th class="text-nowrap" scope="col">{{ synopsisStore.dictionary.sources.originalTitle }}</th>
-                    <th class="text-nowrap" scope="col">{{ synopsisStore.dictionary.sources.unifiedSZITTitle }}</th>
+                    <th class="text-nowrap" scope="col">{{ synopsisStore.currentDictionary.sources.originalTitle }}</th>
+                    <th class="text-nowrap" scope="col">{{ synopsisStore.currentDictionary.sources.unifiedSZITTitle }}</th>
                 </tr>
             </thead>
             <tbody class="table-group-divider">

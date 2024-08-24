@@ -21,8 +21,8 @@ export default {
 
 <template>
   <div class="container">
-    <h1 class="text-center">{{ synopsisStore.dictionary.menu.contact }}</h1>
-    <ContactHu v-if="synopsisStore.language === 'hu'" />
-    <ContactEn v-if="synopsisStore.language !== 'hu'" />
+    <h1 class="text-center">{{ synopsisStore.currentDictionary.menu.contact }}</h1>
+    <ContactHu v-if="synopsisStore.currentLanguage === 'hu'" />
+    <ContactEn v-if="synopsisStore.currentLanguage !== 'hu'" />
   </div>
 </template>

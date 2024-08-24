@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     delayedRender(index: number) {
-      if (index < this.synopsisStore.synopsis.chapters.length) {
+      if (index < this.synopsisStore.currentSynopsis.chapters.length) {
         setTimeout(() => {
           this.visibleIndex = index + 1;
           this.delayedRender(index + 1);
@@ -30,14 +30,14 @@ export default {
 
 <template>
   <div class="container">
-    <h1 class="text-center">{{ synopsisStore.dictionary.menu.index }}</h1>
+    <h1 class="text-center">{{ synopsisStore.currentDictionary.menu.index }}</h1>
 
-    <IndexRecord :chapter-name="synopsisStore.synopsis.chapters[0].chapter_name"
-      :subchapters="synopsisStore.synopsis.chapters[0].subchapters" />
-    <template v-for="chapterIndex in synopsisStore.synopsis.chapters.length - 1">
+    <IndexRecord :chapter-name="synopsisStore.currentSynopsis.chapters[0].chapter_name"
+      :subchapters="synopsisStore.currentSynopsis.chapters[0].subchapters" />
+    <template v-for="chapterIndex in synopsisStore.currentSynopsis.chapters.length - 1">
       <IndexRecord v-if="visibleIndex >= chapterIndex"
-        :chapter-name="synopsisStore.synopsis.chapters[chapterIndex].chapter_name"
-        :subchapters="synopsisStore.synopsis.chapters[chapterIndex].subchapters" />
+        :chapter-name="synopsisStore.currentSynopsis.chapters[chapterIndex].chapter_name"
+        :subchapters="synopsisStore.currentSynopsis.chapters[chapterIndex].subchapters" />
     </template>
 
   </div>
