@@ -77,11 +77,11 @@ export default {
                             <i class="bi bi-globe2 fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li> <a @click="synopsisStore.language === 'hu' ? synopsisStore.changeLanguage() : null"
+                            <li> <a @click="synopsisStore.language === 'hu' ? synopsisStore.changeLanguage('en') : null"
                                     class="dropdown-item hoverable text-black"
                                     :class="synopsisStore.language !== 'hu' ? 'bg-dark-subtle' : ''">
                                     EN</a></li>
-                            <li><a @click="synopsisStore.language !== 'hu' ? synopsisStore.changeLanguage() : null"
+                            <li><a @click="synopsisStore.language !== 'hu' ? synopsisStore.changeLanguage('hu') : null"
                                     class="dropdown-item hoverable text-black"
                                     :class="synopsisStore.language === 'hu' ? 'bg-dark-subtle' : ''">
                                     HU</a></li>

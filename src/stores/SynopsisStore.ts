@@ -10,6 +10,10 @@ const synopsisESV: SynopsisScheme = synopsis_esv
 //TODO: proper typing
 const dictionaryEn: any = dictionary_en
 const dictionaryHu: any = dictionary_hu
+const dictionary: any = {
+    en: dictionaryEn,
+    hu: dictionaryHu
+}
 const synopses = [synopsisSZIT, synopsisESV]
 
 
@@ -23,26 +27,22 @@ export const useSynopsisStore = defineStore('synopsis', {
         }
     },
     actions: {
-        changeLanguage() {
-            if (this.language === "hu") {
-                this.dictionary = dictionaryEn
-                this.language = "en"
-                this.synopsis = synopsisESV
-                this.translation = "ESV"
+        changeLanguage(language: string) {
+            for (let synopsisIndex = 0; synopsisIndex < synopses.length; synopsisIndex++) {
+                if (this.language !== language && synopses[synopsisIndex].language === language) {
+                    this.language = language
+                    this.dictionary = dictionary[this.language]
+
+                    this.synopsis = synopses[synopsisIndex]
+                    this.translation = this.synopsis.translation
+                    router.push({ name: router.currentRoute.value.name as string, params: { language: this.language, translation: this.translation } });
+                    break
+                }
             }
-            else {
-                this.dictionary = dictionaryHu
-                this.language = "hu"
-                this.synopsis = synopsisSZIT
-                this.translation = "SZIT"
-            }
-            router.push({ name: router.currentRoute.value.name as string, params: { language: this.language, translation: this.translation } });
         },
         changeTranslation(translation: string) {
-            for (let synopsisIndex = 0; synopsisIndex<synopses.length; synopsisIndex++)
-            {
-                if (synopses[synopsisIndex].translation == translation)
-                {
+            for (let synopsisIndex = 0; synopsisIndex < synopses.length; synopsisIndex++) {
+                if (synopses[synopsisIndex].translation == translation) {
                     this.synopsis = synopses[synopsisIndex]
                     this.translation = translation
                     router.push({ name: router.currentRoute.value.name as string, params: { language: this.language, translation: this.translation } });
