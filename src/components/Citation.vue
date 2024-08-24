@@ -1,6 +1,6 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-import type { CitationScheme } from '@/interfaces/synopsisInterface';
+import type { CitationScheme, SectionScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
@@ -31,18 +31,16 @@ export default {
         for (let j = 0; j < chapter.subchapters.length; j++) {
           const subchapter = chapter.subchapters[j]
           for (let k = 0; k < subchapter.sections.length; k++) {
-            const section = subchapter.sections[k]
-            //TODO: remove hacky solution.
-            const evangelist = this.evangelist === "mt" ? "mt" : (this.evangelist === "mk" ? "mk" : (this.evangelist === "lk" ? "lk" : "jn"))
-            // TODO: this.evangelist not type correct for some reason.
-            for (let l = 0; l < section[evangelist].length; l++) {
-              const citation = section[evangelist][l]
+            const section: SectionScheme = subchapter.sections[k]
+            for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
+              const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (citation?.leading) {
                 for (let m = 0; m < citation.content.length; m++) {
                   const content = citation.content[m]
                   const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
                   if (content.chapter === chapterLocation && formattedVerse === verseLocation) {
-                    this.$router.push({ name: "synopsis", hash: "#" + section.id })
+                    this.$router.push({ name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + section.id })
+                    return
                   }
                 }
               }
@@ -119,8 +117,7 @@ export default {
 </script>
 
 <template>
-  <div class="card h-100" v-if="citation?.content"
-    :class="{ 'shadow border-dark': citation.leading }">
+  <div class="card h-100" v-if="citation?.content" :class="{ 'shadow border-dark': citation.leading }">
     <div class="card-header sticky-top bg-light">
       {{ synopsisStore.currentDictionary.evangelists[evangelist] }} {{ citation?.citation }}
       <template v-if="!$route.params.id">
@@ -140,9 +137,8 @@ export default {
           :title="synopsisStore.currentDictionary.tooltips.nextMainText">
           <i class="bi bi-arrow-down fs-6 text-secondary"></i>
         </button>
-        <button v-if="citation.leading && sectionId !== '1'" @click="redirectToPreviousLeadingCitation()"
-          type="button" class=" float-end btn  btn-sm py-0 m-0"
-          :title="synopsisStore.currentDictionary.tooltips.previousMainText">
+        <button v-if="citation.leading && sectionId !== '1'" @click="redirectToPreviousLeadingCitation()" type="button"
+          class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.previousMainText">
           <i class="bi bi-arrow-up fs-6 text-secondary"></i>
         </button>
       </template>
