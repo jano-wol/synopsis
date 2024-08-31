@@ -34,7 +34,7 @@ export default {
 
     <IndexRecord :chapter-name="synopsisStore.currentSynopsis.chapters[0].chapter_name"
       :subchapters="synopsisStore.currentSynopsis.chapters[0].subchapters" />
-    <template v-for="chapterIndex in synopsisStore.currentSynopsis.chapters.length - 1">
+    <template v-for="chapterIndex in synopsisStore.currentSynopsis.chapters.length - 1" :key="chapterIndex">
       <IndexRecord v-if="visibleIndex >= chapterIndex"
         :chapter-name="synopsisStore.currentSynopsis.chapters[chapterIndex].chapter_name"
         :subchapters="synopsisStore.currentSynopsis.chapters[chapterIndex].subchapters" />

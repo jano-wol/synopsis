@@ -17,7 +17,7 @@ export default {
         }
     },
     methods: {
-        copyShareLink(id: string) {
+        copyShareLink() {
             console.log(this.$router);
 
             navigator.clipboard.writeText(window.location.origin + this.$route.path);
@@ -26,8 +26,8 @@ export default {
                 this.isShareCopied = false;
             }, 1500);
         },
-        copyIdLink(id: string) {
-            navigator.clipboard.writeText(window.location.origin + "/" + this.synopsisStore.currentLanguage + "/" + this.synopsisStore.currentTranslation + "#" + id);
+        copyIdLink() {
+            navigator.clipboard.writeText(window.location.origin + "/" + this.synopsisStore.currentLanguage + "/" + this.synopsisStore.currentTranslation + "#" + this.id);
             this.isIdCopied = true
             setTimeout(() => {
                 this.isIdCopied = false;
@@ -54,11 +54,11 @@ export default {
             <i class="bi bi-arrow-down-left-square fs-6"></i>
         </button>
     </router-link>
-    <button v-if="$route.name === 'synopsis'" @click="copyIdLink(id)" type="button"
+    <button v-if="$route.name === 'synopsis'" @click="copyIdLink()" type="button"
         class=" float-right btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.currentDictionary.tooltips.location">
         <i class="bi fs-6" :class="{ 'bi-link-45deg': !isIdCopied, 'bi-check': isIdCopied }"></i>
     </button>
-    <button v-if="$route.name === 'section'" @click="copyShareLink(id)" type="button"
+    <button v-if="$route.name === 'section'" @click="copyShareLink()" type="button"
         class="float-right  btn btn-light btn-sm ms-1 mb-1" :title="synopsisStore.currentDictionary.tooltips.share">
         <i class="bi fs-6" :class="{ 'bi-link-45deg': !isShareCopied, 'bi-check': isShareCopied }"></i>
     </button>

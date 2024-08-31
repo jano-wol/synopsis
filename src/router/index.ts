@@ -7,7 +7,6 @@ import ContactView from '@/views/ContactView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
-import { TypePredicateKind } from 'typescript'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -49,7 +48,7 @@ const router = createRouter({
       component: NotFoundView
     },
   ],
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to) {
     if (to.hash) {
       return {
         el: to.hash,
@@ -61,7 +60,7 @@ const router = createRouter({
   },
 })
 
-router.beforeEach((to, from) => {
+router.beforeEach((to) => {
   useSynopsisStore().setupLanguage(to.params.language)
   useSynopsisStore().setupTranslation(to.params.translation)
 })

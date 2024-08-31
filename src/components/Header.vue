@@ -77,7 +77,7 @@ export default {
                             <i class="bi bi-globe2 fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <template v-for="synopsis in synopsisStore.synopses">
+                            <template v-for="synopsis in synopsisStore.synopses" :key="synopsis.language">
                                 <li> <a @click="synopsis.language !== synopsisStore.currentLanguage ? synopsisStore.changeLanguage(synopsis.language) : null"
                                         class="dropdown-item hoverable text-black"
                                         :class="synopsis.language === synopsisStore.currentLanguage ? 'bg-dark-subtle' : ''">
@@ -91,7 +91,7 @@ export default {
                             <i class="bi bi-book fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <template v-for="synopsis in synopsisStore.synopses">
+                            <template v-for="synopsis in synopsisStore.synopses" :key="synopsis.translation">
                                 <li> <a @click="synopsis.translation !== synopsisStore.currentTranslation ? synopsisStore.changeTranslation(synopsis.translation) : null"
                                         class="dropdown-item hoverable text-black"
                                         :class="synopsis.translation === synopsisStore.currentTranslation ? 'bg-dark-subtle' : ''">

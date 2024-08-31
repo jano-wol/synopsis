@@ -1,6 +1,5 @@
 <script lang="ts">
 import Chapter from '@/components/Chapter.vue'
-import type { ChapterScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
@@ -88,8 +87,8 @@ export default {
       </div>
     </div>
 
-    <template v-show="!showScroller" v-for="chapterIndex in synopsisStore.currentSynopsis.chapters.length">
-      <Chapter v-if="visibleIndex >= chapterIndex - 1"
+    <template v-for="chapterIndex in synopsisStore.currentSynopsis.chapters.length">
+      <Chapter v-show="!showScroller" v-if="visibleIndex >= chapterIndex - 1"
         :chapter="synopsisStore.currentSynopsis.chapters[chapterIndex - 1]" />
     </template>
 

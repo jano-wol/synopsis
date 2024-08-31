@@ -29,7 +29,7 @@ export default {
         </h4>
     </div>
 
-    <Section v-for="section in subchapter.sections" :id="section.id"/>
+    <Section v-for="section in subchapter.sections" :id="section.id" :key="section.id"/>
 
 
 </template>

@@ -1,7 +1,6 @@
 <script lang="ts">
 import Citation from '@/components/Citation.vue'
 import FunctionButtons from '@/components/FunctionButtons.vue'
-import type { SectionScheme } from '@/interfaces/synopsisInterface'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
@@ -54,7 +53,7 @@ export default {
         </div>
     </div>
 
-    <template v-for="index in section.mt.length">
+    <template v-for="index in section.mt.length" :key="index">
         <div class="row content mx-3">
             <div class="col-lg-3 col-md-12 pb-3">
                 <Citation v-if="section.mt[index - 1] !== null" :citation="section.mt[index - 1]" evangelist="mt"
