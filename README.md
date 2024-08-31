@@ -1,55 +1,26 @@
 # Synopsis
+Website for the parallel Gospels of Matthew, Mark, Luke and John.
 
-## Requirements
-- [x] Primary parallels in `.json` format (SZIT translation)
-- [x] Main page (Synopsis)
-    - [x] Main title
-    - [x] Four gospel columns
-    - [x] Evangelist name and citation always seen
-    - [x] Chapters, sections, subsections, citations
-    - [x] See gospels with primary parallels
-- [x] Description page
-- [x] Index page (table of contents)
-- [x] Details page
-    - [x] Sources
-    - [x] Differences compared to the sources, with explanation
-- [ ] Page for contributors
-    - [x] Github page
-    - [x] `.json` source
-    - [ ] `.json` scheme
-    - [ ] To notice 
+Running on [synopticus.org](https://www.synopticus.org/).
 
+## Contribution
+The two main field of upcoming develeopment are 
+- Adding new Gospel translations
+- Adding daily reading option
+    - Highlight citations which contains part of daily reading
+    - `/:date` URLs for each subsection contains part of daily reading of the given date
+    - `/today` URLs for each subsection contains part of daily reading
 
-## Additionals
+All help is welcome!
 
-- [x] Favicon
-- [ ] Responsive view
-- [x] Consistent header on every page
-- [x] Consistent footer on every page
-- [ ] Non-primary parallels
-- [x] Links to subsections.
-    - [x] `/#:id` anchor links in main page
-    - [x] Anchor links in table of content
-    - [x] `/:id` URLs for subsection
-    - [x] Copy link buttons
-- [ ] Daily readings
-    - [ ] Highlight citations which contains part of daily reading
-    - [ ] `/:date` URLs for each subsection contains part of daily reading of the given date
-    - [ ] `/today` URL for each subsection contains part of daily reading
-- [ ] Translations
-    - [ ] Update geographical and personal names to match with SZIT translation
-    - [ ] Adding Károli translation
-    - [ ] Adding Polish translation
-    - [ ] Creating interface for adding any translation by contributors
-    - [ ] Interface for language switching
-- [x] Text box functions
-    - [x] Button for leading boxes: jump to following leading box.
-    - [x] Button for other boxes: jump to source leading leading text.
-- [ ] Current subsection location visualization on a map
+## Dependencies
 
+npm
+
+<!-- 
 ## To-dos
 - Check proper ts typing everywhere
-- Substitute database `.json` keys with better names
+- Substitute database `.json` keys with better names -->
 
 ## Project Setup
 
