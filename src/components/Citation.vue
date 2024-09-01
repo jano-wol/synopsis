@@ -98,7 +98,7 @@ export default {
 <template>
   <div class="card h-100" v-if="citation?.content" :class="{ 'shadow border-dark': citation.leading }">
     <div class="card-header sticky-top bg-light">
-      {{ synopsisStore.currentDictionary.evangelists[evangelist] }} {{ citation?.citation }}
+      {{ synopsisStore.currentDictionary.evangelists[evangelist] }} {{ synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse, citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
       <template v-if="!$route.params.id">
         <button v-if="!citation.leading"
           @click="redirectToLeadingCitation(citation.content[0].chapter, citation.content[0].verse)" type="button"

@@ -80,6 +80,19 @@ export const useSynopsisStore = defineStore('synopsis', {
                     this.currentSynopsis = this.synopses[synopsisIndex]
                 }
             }
+        },
+        getCitation(firstChapter: string, firstVerse: string, lastChapter : string, lastVerse : string)
+        {
+            let citation = firstChapter + "," + firstVerse
+            if (lastChapter !== firstChapter)
+            {
+                return citation + "-" + lastChapter + "," + lastVerse
+            }
+            if (lastChapter === firstChapter && lastVerse !== firstVerse)
+            {
+                return citation + "-" + lastVerse
+            }
+            return  citation
         }
     }
 })
