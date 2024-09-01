@@ -73,7 +73,7 @@ export default {
                     <li class="nav-item dropdown">
                         <button class="btn btn-sm btn-light border border-light-subtle dropdown-toggle"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ synopsisStore.currentLanguage.toUpperCase() }}
+                            <span class="align-middle me-1">{{ synopsisStore.currentLanguage.toUpperCase() }}</span>
                             <i class="bi bi-globe2 fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
