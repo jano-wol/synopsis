@@ -8,37 +8,40 @@ import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
+const languageOptionsRegex = "(hu|en)"
+const translationOptionsRegex = "(SZIT|ESV)"
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/:language(hu|en)/:translation(SZIT|ESV)',
+      path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}`,
       alias: '/',
       name: 'synopsis',
       component: SynopsisView
     },
     {
-      path: '/:language(hu|en)/about',
+      path: `/:language${languageOptionsRegex}/about`,
       name: 'about',
       component: AboutView
     },
     {
-      path: '/:language(hu|en)/:translation(SZIT|ESV)/index',
+      path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}/index`,
       name: 'index',
       component: IndexView
     },
     {
-      path: '/:language(hu|en)/sources',
+      path: `/:language${languageOptionsRegex}/sources`,
       name: 'sources',
       component: SourcesView
     },
     {
-      path: '/:language(hu|en)/contact',
+      path: `/:language${languageOptionsRegex}/contact`,
       name: 'contact',
       component: ContactView
     },
     {
-      path: '/:language(hu|en)/:translation(SZIT|ESV)/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])',
+      path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])`,
       name: 'section',
       component: Section,
       props: true
