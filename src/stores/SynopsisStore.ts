@@ -4,12 +4,13 @@ import synopsis_esv from '@/assets/synopsis_esv.json'
 import dictionary_en from '@/assets/translation/en.json'
 import dictionary_hu from '@/assets/translation/hu.json'
 import type { SynopsisScheme } from '@/interfaces/synopsisInterface'
+import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
 const synopsisSZIT: SynopsisScheme = synopsis_szit
 const synopsisESV: SynopsisScheme = synopsis_esv
 //TODO: proper typing
-const dictionaryEn: any = dictionary_en
-const dictionaryHu: any = dictionary_hu
+const dictionaryEn: DictionaryScheme = dictionary_en
+const dictionaryHu: DictionaryScheme = dictionary_hu
 const dictionary: any = {
     en: dictionaryEn,
     hu: dictionaryHu
