@@ -16,7 +16,7 @@ export interface SubpartScheme {
 
 export interface SectionScheme {
     id: string
-    section_name: string
+    section_title: string
     mt: (CitationScheme | null)[]
     mk: (CitationScheme | null)[]
     lk: (CitationScheme | null)[]

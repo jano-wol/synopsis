@@ -44,7 +44,7 @@ export default {
         </div>
         <div class="col-lg-8 col-md-12">
             <h3 class="text-center display-6">
-                {{ id }}. {{ section.section_name
+                {{ id }}. {{ section.section_title
                 }}
             </h3>
         </div>

@@ -10,7 +10,7 @@
                     "sections": [
                         {
                             "id": "1",
-                            "section_name": "Prológus",
+                            "section_title": "Prológus",
                             "mt": [
                                 {
                                     "leading": true,
@@ -172,7 +172,7 @@
                     "sections": [
                         {
                             "id": "2",
-                            "section_name": "Keresztelő János születésének igérete",
+                            "section_title": "Keresztelő János születésének igérete",
                             "mt": [
                                 null
                             ],
@@ -297,7 +297,7 @@
                         },
                         {
                             "id": "3",
-                            "section_name": "Jézus születésének igérete",
+                            "section_title": "Jézus születésének igérete",
                             "mt": [
                                 null
                             ],
@@ -382,7 +382,7 @@
                         },
                         {
                             "id": "4",
-                            "section_name": "Mária Erzsébetnél",
+                            "section_title": "Mária Erzsébetnél",
                             "mt": [
                                 null
                             ],
@@ -492,7 +492,7 @@
                         },
                         {
                             "id": "5",
-                            "section_name": "Keresztelő János születése",
+                            "section_title": "Keresztelő János születése",
                             "mt": [
                                 null
                             ],
@@ -632,7 +632,7 @@
                         },
                         {
                             "id": "6",
-                            "section_name": "Jézus Krisztus származása",
+                            "section_title": "Jézus Krisztus származása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -816,7 +816,7 @@
                         },
                         {
                             "id": "7",
-                            "section_name": "Jézus Krisztus születése",
+                            "section_title": "Jézus Krisztus születése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -915,7 +915,7 @@
                         },
                         {
                             "id": "8",
-                            "section_name": "A gyermek imádása",
+                            "section_title": "A gyermek imádása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -1064,7 +1064,7 @@
                         },
                         {
                             "id": "9",
-                            "section_name": "Körülmetélés és bemutatás a templomban. Simeon és Anna",
+                            "section_title": "Körülmetélés és bemutatás a templomban. Simeon és Anna",
                             "mt": [
                                 null
                             ],
@@ -1174,7 +1174,7 @@
                         },
                         {
                             "id": "10",
-                            "section_name": "Menekülés Egyiptomba és visszatérés",
+                            "section_title": "Menekülés Egyiptomba és visszatérés",
                             "mt": [
                                 {
                                     "leading": true,
@@ -1239,7 +1239,7 @@
                         },
                         {
                             "id": "11",
-                            "section_name": "Jézus gyermeksége Názáretben",
+                            "section_title": "Jézus gyermeksége Názáretben",
                             "mt": [
                                 {
                                     "leading": true,
@@ -1283,7 +1283,7 @@
                         },
                         {
                             "id": "12",
-                            "section_name": "A tizenkét éves Jézus a templomban",
+                            "section_title": "A tizenkét éves Jézus a templomban",
                             "mt": [
                                 null
                             ],
@@ -1373,7 +1373,7 @@
                     "sections": [
                         {
                             "id": "13",
-                            "section_name": "Keresztelő János",
+                            "section_title": "Keresztelő János",
                             "mt": [
                                 {
                                     "leading": true,
@@ -1515,7 +1515,7 @@
                         },
                         {
                             "id": "14",
-                            "section_name": "Keresztelő János megtérésre hívó beszéde",
+                            "section_title": "Keresztelő János megtérésre hívó beszéde",
                             "mt": [
                                 {
                                     "leading": true,
@@ -1574,7 +1574,7 @@
                         },
                         {
                             "id": "15",
-                            "section_name": "Keresztelő János válaszai az őt kérdezőknek",
+                            "section_title": "Keresztelő János válaszai az őt kérdezőknek",
                             "mt": [
                                 null
                             ],
@@ -1619,7 +1619,7 @@
                         },
                         {
                             "id": "16",
-                            "section_name": "Keresztelő János bizonyságtétele a Messiásról",
+                            "section_title": "Keresztelő János bizonyságtétele a Messiásról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -1716,7 +1716,7 @@
                         },
                         {
                             "id": "17",
-                            "section_name": "János elfogatása",
+                            "section_title": "János elfogatása",
                             "mt": [
                                 {
                                     "leading": false,
@@ -1774,7 +1774,7 @@
                         },
                         {
                             "id": "18",
-                            "section_name": "Jézus megkeresztelkedése",
+                            "section_title": "Jézus megkeresztelkedése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -1886,7 +1886,7 @@
                         },
                         {
                             "id": "19",
-                            "section_name": "Jézus nemzetségi táblázata",
+                            "section_title": "Jézus nemzetségi táblázata",
                             "mt": [
                                 {
                                     "leading": false,
@@ -2075,7 +2075,7 @@
                         },
                         {
                             "id": "20",
-                            "section_name": "Jézus megkísértése",
+                            "section_title": "Jézus megkísértése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -2243,7 +2243,7 @@
                     "sections": [
                         {
                             "id": "21",
-                            "section_name": "Jézus elhívja első tanítványait",
+                            "section_title": "Jézus elhívja első tanítványait",
                             "mt": [
                                 null
                             ],
@@ -2348,7 +2348,7 @@
                         },
                         {
                             "id": "22",
-                            "section_name": "A kánai menyegző",
+                            "section_title": "A kánai menyegző",
                             "mt": [
                                 null
                             ],
@@ -2423,7 +2423,7 @@
                         },
                         {
                             "id": "23",
-                            "section_name": "Tartózkodás Kafarnaumban",
+                            "section_title": "Tartózkodás Kafarnaumban",
                             "mt": [
                                 null
                             ],
@@ -2448,7 +2448,7 @@
                         },
                         {
                             "id": "24",
-                            "section_name": "Jézus először megy Jeruzsálembe",
+                            "section_title": "Jézus először megy Jeruzsálembe",
                             "mt": [
                                 null
                             ],
@@ -2473,7 +2473,7 @@
                         },
                         {
                             "id": "25",
-                            "section_name": "Jézus megtisztítja a templomot",
+                            "section_title": "Jézus megtisztítja a templomot",
                             "mt": [
                                 {
                                     "leading": false,
@@ -2585,7 +2585,7 @@
                         },
                         {
                             "id": "26",
-                            "section_name": "Jézus Jeruzsálemben",
+                            "section_title": "Jézus Jeruzsálemben",
                             "mt": [
                                 null
                             ],
@@ -2620,7 +2620,7 @@
                         },
                         {
                             "id": "27",
-                            "section_name": "Nikodémus Jézusnál",
+                            "section_title": "Nikodémus Jézusnál",
                             "mt": [
                                 null
                             ],
@@ -2745,7 +2745,7 @@
                         },
                         {
                             "id": "28",
-                            "section_name": "Utazás Júdeába",
+                            "section_title": "Utazás Júdeába",
                             "mt": [
                                 null
                             ],
@@ -2770,7 +2770,7 @@
                         },
                         {
                             "id": "29",
-                            "section_name": "Keresztelő János bizonyságtétele",
+                            "section_title": "Keresztelő János bizonyságtétele",
                             "mt": [
                                 null
                             ],
@@ -2870,7 +2870,7 @@
                     "sections": [
                         {
                             "id": "30",
-                            "section_name": "Utazás Galileába",
+                            "section_title": "Utazás Galileába",
                             "mt": [
                                 {
                                     "leading": true,
@@ -2932,7 +2932,7 @@
                         },
                         {
                             "id": "31",
-                            "section_name": "Jézus és a szamáriai asszony",
+                            "section_title": "Jézus és a szamáriai asszony",
                             "mt": [
                                 null
                             ],
@@ -3147,7 +3147,7 @@
                         },
                         {
                             "id": "32",
-                            "section_name": "Jézus Galileában",
+                            "section_title": "Jézus Galileában",
                             "mt": [
                                 {
                                     "leading": true,
@@ -3244,7 +3244,7 @@
                         },
                         {
                             "id": "33",
-                            "section_name": "Jézus Názáretben",
+                            "section_title": "Jézus Názáretben",
                             "mt": [
                                 {
                                     "leading": false,
@@ -3407,7 +3407,7 @@
                         },
                         {
                             "id": "34",
-                            "section_name": "Jézus elhívja első tanítványait",
+                            "section_title": "Jézus elhívja első tanítványait",
                             "mt": [
                                 {
                                     "leading": true,
@@ -3481,7 +3481,7 @@
                         },
                         {
                             "id": "35",
-                            "section_name": "Jézus tanít a kapernaumi zsinagógában",
+                            "section_title": "Jézus tanít a kapernaumi zsinagógában",
                             "mt": [
                                 null
                             ],
@@ -3525,7 +3525,7 @@
                         },
                         {
                             "id": "36",
-                            "section_name": "Jézus tisztátalan lelket űz ki",
+                            "section_title": "Jézus tisztátalan lelket űz ki",
                             "mt": [
                                 null
                             ],
@@ -3604,7 +3604,7 @@
                         },
                         {
                             "id": "37",
-                            "section_name": "Jézus meggyógyítja Péter anyósát",
+                            "section_title": "Jézus meggyógyítja Péter anyósát",
                             "mt": [
                                 {
                                     "leading": false,
@@ -3667,7 +3667,7 @@
                         },
                         {
                             "id": "38",
-                            "section_name": "Jézus sok beteget meggyógyít",
+                            "section_title": "Jézus sok beteget meggyógyít",
                             "mt": [
                                 {
                                     "leading": false,
@@ -3730,7 +3730,7 @@
                         },
                         {
                             "id": "39",
-                            "section_name": "Jézus elhagyja Kafarnaumot",
+                            "section_title": "Jézus elhagyja Kafarnaumot",
                             "mt": [
                                 null
                             ],
@@ -3784,7 +3784,7 @@
                         },
                         {
                             "id": "40",
-                            "section_name": "Utazások Galileában",
+                            "section_title": "Utazások Galileában",
                             "mt": [
                                 {
                                     "leading": true,
@@ -3827,7 +3827,7 @@
                         },
                         {
                             "id": "41",
-                            "section_name": "Péter halfogása",
+                            "section_title": "Péter halfogása",
                             "mt": [
                                 null
                             ],
@@ -3902,7 +3902,7 @@
                         },
                         {
                             "id": "42",
-                            "section_name": "Jézus meggyógyít egy leprást",
+                            "section_title": "Jézus meggyógyít egy leprást",
                             "mt": [
                                 {
                                     "leading": false,
@@ -4005,7 +4005,7 @@
                         },
                         {
                             "id": "43",
-                            "section_name": "Jézus meggyógyítja a bénát",
+                            "section_title": "Jézus meggyógyítja a bénát",
                             "mt": [
                                 {
                                     "leading": false,
@@ -4197,7 +4197,7 @@
                         },
                         {
                             "id": "44",
-                            "section_name": "Jézus elhívja Lévit",
+                            "section_title": "Jézus elhívja Lévit",
                             "mt": [
                                 {
                                     "leading": false,
@@ -4305,7 +4305,7 @@
                         },
                         {
                             "id": "45",
-                            "section_name": "Jézus tanítása a böjtről",
+                            "section_title": "Jézus tanítása a böjtről",
                             "mt": [
                                 {
                                     "leading": false,
@@ -4413,7 +4413,7 @@
                         },
                         {
                             "id": "46",
-                            "section_name": "Kalásztépés szombaton",
+                            "section_title": "Kalásztépés szombaton",
                             "mt": [
                                 {
                                     "leading": false,
@@ -4536,7 +4536,7 @@
                         },
                         {
                             "id": "47",
-                            "section_name": "Jézus szombaton gyógyít",
+                            "section_title": "Jézus szombaton gyógyít",
                             "mt": [
                                 {
                                     "leading": false,
@@ -4654,7 +4654,7 @@
                         },
                         {
                             "id": "48",
-                            "section_name": "Jézus sok beteget gyógyít a tenger mellett",
+                            "section_title": "Jézus sok beteget gyógyít a tenger mellett",
                             "mt": [
                                 {
                                     "leading": false,
@@ -4755,7 +4755,7 @@
                         },
                         {
                             "id": "49",
-                            "section_name": "A tizenkét tanítvány elhívása",
+                            "section_title": "A tizenkét tanítvány elhívása",
                             "mt": [
                                 {
                                     "leading": false,
@@ -4873,7 +4873,7 @@
                     "sections": [
                         {
                             "id": "50",
-                            "section_name": "Bevezetés",
+                            "section_title": "Bevezetés",
                             "mt": [
                                 {
                                     "leading": true,
@@ -4976,7 +4976,7 @@
                         },
                         {
                             "id": "51",
-                            "section_name": "Kik a boldogok?",
+                            "section_title": "Kik a boldogok?",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5070,7 +5070,7 @@
                         },
                         {
                             "id": "52",
-                            "section_name": "Az ízetlenné vált só",
+                            "section_title": "Az ízetlenné vált só",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5123,7 +5123,7 @@
                         },
                         {
                             "id": "53",
-                            "section_name": "Példabeszéd a világosságról",
+                            "section_title": "Példabeszéd a világosságról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5176,7 +5176,7 @@
                         },
                         {
                             "id": "54",
-                            "section_name": "A törvény magyarázata",
+                            "section_title": "A törvény magyarázata",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5230,7 +5230,7 @@
                         },
                         {
                             "id": "55",
-                            "section_name": "Az ölésről és a haragról",
+                            "section_title": "Az ölésről és a haragról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5299,7 +5299,7 @@
                         },
                         {
                             "id": "56",
-                            "section_name": "A házasságtörésről és a válásról",
+                            "section_title": "A házasságtörésről és a válásról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5392,7 +5392,7 @@
                         },
                         {
                             "id": "57",
-                            "section_name": "Az esküről",
+                            "section_title": "Az esküről",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5437,7 +5437,7 @@
                         },
                         {
                             "id": "58",
-                            "section_name": "A megtorlásról",
+                            "section_title": "A megtorlásról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5496,7 +5496,7 @@
                         },
                         {
                             "id": "59",
-                            "section_name": "Szeressétek ellenségeiteket!",
+                            "section_title": "Szeressétek ellenségeiteket!",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5593,7 +5593,7 @@
                         },
                         {
                             "id": "60",
-                            "section_name": "Az adakozás",
+                            "section_title": "Az adakozás",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5633,7 +5633,7 @@
                         },
                         {
                             "id": "61",
-                            "section_name": "Az imádkozás",
+                            "section_title": "Az imádkozás",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5663,7 +5663,7 @@
                         },
                         {
                             "id": "62",
-                            "section_name": "A Miatyánk",
+                            "section_title": "A Miatyánk",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5761,7 +5761,7 @@
                         },
                         {
                             "id": "63",
-                            "section_name": "A böjtölés",
+                            "section_title": "A böjtölés",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5796,7 +5796,7 @@
                         },
                         {
                             "id": "64",
-                            "section_name": "Az igazi kincs",
+                            "section_title": "Az igazi kincs",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5845,7 +5845,7 @@
                         },
                         {
                             "id": "65",
-                            "section_name": "A test lámpása a szem",
+                            "section_title": "A test lámpása a szem",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5894,7 +5894,7 @@
                         },
                         {
                             "id": "66",
-                            "section_name": "Isten és a mammon",
+                            "section_title": "Isten és a mammon",
                             "mt": [
                                 {
                                     "leading": true,
@@ -5928,7 +5928,7 @@
                         },
                         {
                             "id": "67",
-                            "section_name": "Isten gondviselése",
+                            "section_title": "Isten gondviselése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6057,7 +6057,7 @@
                         },
                         {
                             "id": "68",
-                            "section_name": "A képmutató ítélkezés",
+                            "section_title": "A képmutató ítélkezés",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6150,7 +6150,7 @@
                         },
                         {
                             "id": "69",
-                            "section_name": "A szent dolgok megbecsülése",
+                            "section_title": "A szent dolgok megbecsülése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6175,7 +6175,7 @@
                         },
                         {
                             "id": "70",
-                            "section_name": "Az imádság meghallgatása",
+                            "section_title": "Az imádság meghallgatása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6249,7 +6249,7 @@
                         },
                         {
                             "id": "71",
-                            "section_name": "Az aranyszabály",
+                            "section_title": "Az aranyszabály",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6283,7 +6283,7 @@
                         },
                         {
                             "id": "72",
-                            "section_name": "Szoros kapu, keskeny út",
+                            "section_title": "Szoros kapu, keskeny út",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6327,7 +6327,7 @@
                         },
                         {
                             "id": "73",
-                            "section_name": "A hamis próféták",
+                            "section_title": "A hamis próféták",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6419,7 +6419,7 @@
                         },
                         {
                             "id": "74",
-                            "section_name": "Isten akaratának cselekvése",
+                            "section_title": "Isten akaratának cselekvése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6486,7 +6486,7 @@
                         },
                         {
                             "id": "75",
-                            "section_name": "Aki kősziklára épít",
+                            "section_title": "Aki kősziklára épít",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6545,7 +6545,7 @@
                         },
                         {
                             "id": "76",
-                            "section_name": "A Hegyi Beszéd vége",
+                            "section_title": "A Hegyi Beszéd vége",
                             "mt": [
                                 {
                                     "leading": true,
@@ -6599,7 +6599,7 @@
                     "sections": [
                         {
                             "id": "77",
-                            "section_name": "Jézus tanít és gyógyít",
+                            "section_title": "Jézus tanít és gyógyít",
                             "mt": [
                                 {
                                     "leading": false,
@@ -6702,7 +6702,7 @@
                         },
                         {
                             "id": "78",
-                            "section_name": "Kik a boldogok?",
+                            "section_title": "Kik a boldogok?",
                             "mt": [
                                 {
                                     "leading": false,
@@ -6796,7 +6796,7 @@
                         },
                         {
                             "id": "79",
-                            "section_name": "„Jaj nektek!”",
+                            "section_title": "„Jaj nektek!”",
                             "mt": [
                                 null
                             ],
@@ -6831,7 +6831,7 @@
                         },
                         {
                             "id": "80",
-                            "section_name": "Az ellenség szeretete",
+                            "section_title": "Az ellenség szeretete",
                             "mt": [
                                 {
                                     "leading": false,
@@ -6960,7 +6960,7 @@
                         },
                         {
                             "id": "81",
-                            "section_name": "A képmutató ítélkezés",
+                            "section_title": "A képmutató ítélkezés",
                             "mt": [
                                 {
                                     "leading": false,
@@ -7053,7 +7053,7 @@
                         },
                         {
                             "id": "82",
-                            "section_name": "Amilyen a fa, olyan a gyümölcse",
+                            "section_title": "Amilyen a fa, olyan a gyümölcse",
                             "mt": [
                                 {
                                     "leading": false,
@@ -7145,7 +7145,7 @@
                         },
                         {
                             "id": "83",
-                            "section_name": "Aki kősziklára épít",
+                            "section_title": "Aki kősziklára épít",
                             "mt": [
                                 {
                                     "leading": false,
@@ -7234,7 +7234,7 @@
                     "sections": [
                         {
                             "id": "84",
-                            "section_name": "Jézus meggyógyít egy leprást",
+                            "section_title": "Jézus meggyógyít egy leprást",
                             "mt": [
                                 {
                                     "leading": true,
@@ -7337,7 +7337,7 @@
                         },
                         {
                             "id": "85",
-                            "section_name": "Jézus meggyógyítja a kafarnaumi százados szolgáját",
+                            "section_title": "Jézus meggyógyítja a kafarnaumi százados szolgáját",
                             "mt": [
                                 {
                                     "leading": true,
@@ -7536,7 +7536,7 @@
                         },
                         {
                             "id": "86",
-                            "section_name": "Jézus feltámasztja a naimi ifjút",
+                            "section_title": "Jézus feltámasztja a naimi ifjút",
                             "mt": [
                                 null
                             ],
@@ -7591,7 +7591,7 @@
                         },
                         {
                             "id": "87",
-                            "section_name": "Jézus meggyógyítja Péter anyósát",
+                            "section_title": "Jézus meggyógyítja Péter anyósát",
                             "mt": [
                                 {
                                     "leading": true,
@@ -7654,7 +7654,7 @@
                         },
                         {
                             "id": "88",
-                            "section_name": "Jézus sok beteget meggyógyít",
+                            "section_title": "Jézus sok beteget meggyógyít",
                             "mt": [
                                 {
                                     "leading": true,
@@ -7717,7 +7717,7 @@
                         },
                         {
                             "id": "89",
-                            "section_name": "Jézus követése",
+                            "section_title": "Jézus követése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -7796,7 +7796,7 @@
                         },
                         {
                             "id": "90",
-                            "section_name": "Jézus lecsendesíti a tengert",
+                            "section_title": "Jézus lecsendesíti a tengert",
                             "mt": [
                                 {
                                     "leading": true,
@@ -7904,7 +7904,7 @@
                         },
                         {
                             "id": "91",
-                            "section_name": "Jézus meggyógyít két gadarai megszállottat",
+                            "section_title": "Jézus meggyógyít két gadarai megszállottat",
                             "mt": [
                                 {
                                     "leading": true,
@@ -8137,7 +8137,7 @@
                         },
                         {
                             "id": "92",
-                            "section_name": "Jézus meggyógyítja a bénát",
+                            "section_title": "Jézus meggyógyítja a bénát",
                             "mt": [
                                 {
                                     "leading": true,
@@ -8329,7 +8329,7 @@
                         },
                         {
                             "id": "93",
-                            "section_name": "Jézus elhívja Mátét",
+                            "section_title": "Jézus elhívja Mátét",
                             "mt": [
                                 {
                                     "leading": true,
@@ -8437,7 +8437,7 @@
                         },
                         {
                             "id": "94",
-                            "section_name": "Jézus tanítása a böjtről",
+                            "section_title": "Jézus tanítása a böjtről",
                             "mt": [
                                 {
                                     "leading": true,
@@ -8545,7 +8545,7 @@
                         },
                         {
                             "id": "95",
-                            "section_name": "A vérfolyásos asszony meggyógyítása. Jairus lányának feltámasztása",
+                            "section_title": "A vérfolyásos asszony meggyógyítása. Jairus lányának feltámasztása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -8818,7 +8818,7 @@
                         },
                         {
                             "id": "96",
-                            "section_name": "Jézus meggyógyít két vakot",
+                            "section_title": "Jézus meggyógyít két vakot",
                             "mt": [
                                 {
                                     "leading": true,
@@ -8989,7 +8989,7 @@
                         },
                         {
                             "id": "97",
-                            "section_name": "Jézus meggyógyítja a megszállott némát",
+                            "section_title": "Jézus meggyógyítja a megszállott némát",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9070,7 +9070,7 @@
                         },
                         {
                             "id": "98",
-                            "section_name": "Az aratnivaló sok, a munkás kevés",
+                            "section_title": "Az aratnivaló sok, a munkás kevés",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9150,7 +9150,7 @@
                         },
                         {
                             "id": "99",
-                            "section_name": "Jézus kiküldi tizenkét tanítványát",
+                            "section_title": "Jézus kiküldi tizenkét tanítványát",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9405,7 +9405,7 @@
                         },
                         {
                             "id": "100",
-                            "section_name": "A tanítványok sorsa",
+                            "section_title": "A tanítványok sorsa",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9617,7 +9617,7 @@
                         },
                         {
                             "id": "101",
-                            "section_name": "Figyelmeztetés a félelem nélküli hitvallásra",
+                            "section_title": "Figyelmeztetés a félelem nélküli hitvallásra",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9721,7 +9721,7 @@
                         },
                         {
                             "id": "102",
-                            "section_name": "Jézus küldetéséről",
+                            "section_title": "Jézus küldetéséről",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9775,7 +9775,7 @@
                         },
                         {
                             "id": "103",
-                            "section_name": "Jézus követésének feltételei",
+                            "section_title": "Jézus követésének feltételei",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9851,7 +9851,7 @@
                         },
                         {
                             "id": "104",
-                            "section_name": "Jézus ígérete az őt követőknek",
+                            "section_title": "Jézus ígérete az őt követőknek",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9913,7 +9913,7 @@
                         },
                         {
                             "id": "105",
-                            "section_name": "Az út folytatása",
+                            "section_title": "Az út folytatása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -9938,7 +9938,7 @@
                         },
                         {
                             "id": "106",
-                            "section_name": "Keresztelő János kérdése és Jézus válasza",
+                            "section_title": "Keresztelő János kérdése és Jézus válasza",
                             "mt": [
                                 {
                                     "leading": true,
@@ -10017,7 +10017,7 @@
                         },
                         {
                             "id": "107",
-                            "section_name": "Jézus bizonyságtétele Keresztelő Jánosról",
+                            "section_title": "Jézus bizonyságtétele Keresztelő Jánosról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -10179,7 +10179,7 @@
                         },
                         {
                             "id": "108",
-                            "section_name": "Jézus kárhoztatja a meg nem térő galileai városokat",
+                            "section_title": "Jézus kárhoztatja a meg nem térő galileai városokat",
                             "mt": [
                                 {
                                     "leading": true,
@@ -10248,7 +10248,7 @@
                         },
                         {
                             "id": "109",
-                            "section_name": "Jézus hálaadása: az Atya dicsérete",
+                            "section_title": "Jézus hálaadása: az Atya dicsérete",
                             "mt": [
                                 {
                                     "leading": true,
@@ -10297,7 +10297,7 @@
                         },
                         {
                             "id": "110",
-                            "section_name": "Jézus magához hívja a megfáradtakat és megterhelteket",
+                            "section_title": "Jézus magához hívja a megfáradtakat és megterhelteket",
                             "mt": [
                                 {
                                     "leading": true,
@@ -10332,7 +10332,7 @@
                         },
                         {
                             "id": "111",
-                            "section_name": "Kalásztépés szombaton",
+                            "section_title": "Kalásztépés szombaton",
                             "mt": [
                                 {
                                     "leading": true,
@@ -10455,7 +10455,7 @@
                         },
                         {
                             "id": "112",
-                            "section_name": "Jézus meggyógyítja a sorvadt kezűt szombaton",
+                            "section_title": "Jézus meggyógyítja a sorvadt kezűt szombaton",
                             "mt": [
                                 {
                                     "leading": true,
@@ -10573,7 +10573,7 @@
                         },
                         {
                             "id": "113",
-                            "section_name": "Jézus sok beteget gyógyít a tenger mellett",
+                            "section_title": "Jézus sok beteget gyógyít a tenger mellett",
                             "mt": [
                                 {
                                     "leading": true,
@@ -10681,7 +10681,7 @@
                         },
                         {
                             "id": "114",
-                            "section_name": "A bűnös nő megkeni Jézus lábát",
+                            "section_title": "A bűnös nő megkeni Jézus lábát",
                             "mt": [
                                 {
                                     "leading": false,
@@ -10903,7 +10903,7 @@
                         },
                         {
                             "id": "115",
-                            "section_name": "A Jézust követő asszonyok",
+                            "section_title": "A Jézust követő asszonyok",
                             "mt": [
                                 null
                             ],
@@ -10938,7 +10938,7 @@
                         },
                         {
                             "id": "116",
-                            "section_name": "Jézus rokonainak a szándéka",
+                            "section_title": "Jézus rokonainak a szándéka",
                             "mt": [
                                 null
                             ],
@@ -10968,7 +10968,7 @@
                         },
                         {
                             "id": "117",
-                            "section_name": "Jézust Belzebub szövetségesének mondják",
+                            "section_title": "Jézust Belzebub szövetségesének mondják",
                             "mt": [
                                 {
                                     "leading": true,
@@ -11143,7 +11143,7 @@
                         },
                         {
                             "id": "118",
-                            "section_name": "A Szentlélek elleni bűn",
+                            "section_title": "A Szentlélek elleni bűn",
                             "mt": [
                                 {
                                     "leading": true,
@@ -11278,7 +11278,7 @@
                         },
                         {
                             "id": "119",
-                            "section_name": "Jézustól jelt kívánnak",
+                            "section_title": "Jézustól jelt kívánnak",
                             "mt": [
                                 {
                                     "leading": true,
@@ -11401,7 +11401,7 @@
                         },
                         {
                             "id": "120",
-                            "section_name": "A visszaesésről",
+                            "section_title": "A visszaesésről",
                             "mt": [
                                 {
                                     "leading": true,
@@ -11455,7 +11455,7 @@
                         },
                         {
                             "id": "121",
-                            "section_name": "Jézus igazi rokonai",
+                            "section_title": "Jézus igazi rokonai",
                             "mt": [
                                 {
                                     "leading": true,
@@ -11557,7 +11557,7 @@
                         },
                         {
                             "id": "122",
-                            "section_name": "Példabeszéd a magvetőről",
+                            "section_title": "Példabeszéd a magvetőről",
                             "mt": [
                                 {
                                     "leading": true,
@@ -11700,7 +11700,7 @@
                         },
                         {
                             "id": "123",
-                            "section_name": "Miért mondasz példabeszédeket?",
+                            "section_title": "Miért mondasz példabeszédeket?",
                             "mt": [
                                 {
                                     "leading": true,
@@ -11833,7 +11833,7 @@
                         },
                         {
                             "id": "124",
-                            "section_name": "A magvetőről szóló példázat magyarázata",
+                            "section_title": "A magvetőről szóló példázat magyarázata",
                             "mt": [
                                 {
                                     "leading": true,
@@ -11956,7 +11956,7 @@
                         },
                         {
                             "id": "125",
-                            "section_name": "„Ha valakinek van füle a hallásra, hallja!”",
+                            "section_title": "„Ha valakinek van füle a hallásra, hallja!”",
                             "mt": [
                                 {
                                     "leading": false,
@@ -12068,7 +12068,7 @@
                         },
                         {
                             "id": "126",
-                            "section_name": "A magától növekedő vetés",
+                            "section_title": "A magától növekedő vetés",
                             "mt": [
                                 null
                             ],
@@ -12108,7 +12108,7 @@
                         },
                         {
                             "id": "127",
-                            "section_name": "A búza és a konkoly",
+                            "section_title": "A búza és a konkoly",
                             "mt": [
                                 {
                                     "leading": true,
@@ -12163,7 +12163,7 @@
                         },
                         {
                             "id": "128",
-                            "section_name": "A mustármag",
+                            "section_title": "A mustármag",
                             "mt": [
                                 {
                                     "leading": true,
@@ -12226,7 +12226,7 @@
                         },
                         {
                             "id": "129",
-                            "section_name": "A kovász",
+                            "section_title": "A kovász",
                             "mt": [
                                 {
                                     "leading": true,
@@ -12265,7 +12265,7 @@
                         },
                         {
                             "id": "130",
-                            "section_name": "Jézus példázatairól",
+                            "section_title": "Jézus példázatairól",
                             "mt": [
                                 {
                                     "leading": true,
@@ -12309,7 +12309,7 @@
                         },
                         {
                             "id": "131",
-                            "section_name": "A búza és a konkoly példázatának értelme",
+                            "section_title": "A búza és a konkoly példázatának értelme",
                             "mt": [
                                 {
                                     "leading": true,
@@ -12369,7 +12369,7 @@
                         },
                         {
                             "id": "132",
-                            "section_name": "Az elrejtett kincs és az igazgyöngy",
+                            "section_title": "Az elrejtett kincs és az igazgyöngy",
                             "mt": [
                                 {
                                     "leading": true,
@@ -12404,7 +12404,7 @@
                         },
                         {
                             "id": "133",
-                            "section_name": "A hálóról",
+                            "section_title": "A hálóról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -12444,7 +12444,7 @@
                         },
                         {
                             "id": "134",
-                            "section_name": "A gazda",
+                            "section_title": "A gazda",
                             "mt": [
                                 {
                                     "leading": true,
@@ -12474,7 +12474,7 @@
                         },
                         {
                             "id": "135",
-                            "section_name": "Jézus igazi rokonai",
+                            "section_title": "Jézus igazi rokonai",
                             "mt": [
                                 {
                                     "leading": false,
@@ -12576,7 +12576,7 @@
                         },
                         {
                             "id": "136",
-                            "section_name": "Jézus lecsendesíti a tengert",
+                            "section_title": "Jézus lecsendesíti a tengert",
                             "mt": [
                                 {
                                     "leading": false,
@@ -12684,7 +12684,7 @@
                         },
                         {
                             "id": "137",
-                            "section_name": "Jézus meggyógyítja a gadarai megszállottat",
+                            "section_title": "Jézus meggyógyítja a gadarai megszállottat",
                             "mt": [
                                 {
                                     "leading": false,
@@ -12917,7 +12917,7 @@
                         },
                         {
                             "id": "138",
-                            "section_name": "A vérfolyásos asszony meggyógyítása. Jairus leányának feltámasztása",
+                            "section_title": "A vérfolyásos asszony meggyógyítása. Jairus leányának feltámasztása",
                             "mt": [
                                 {
                                     "leading": false,
@@ -13190,7 +13190,7 @@
                         },
                         {
                             "id": "139",
-                            "section_name": "Jézus Názáretben",
+                            "section_title": "Jézus Názáretben",
                             "mt": [
                                 {
                                     "leading": true,
@@ -13353,7 +13353,7 @@
                         },
                         {
                             "id": "140",
-                            "section_name": "Jézus második útja Jeruzsálembe",
+                            "section_title": "Jézus második útja Jeruzsálembe",
                             "mt": [
                                 null
                             ],
@@ -13378,7 +13378,7 @@
                         },
                         {
                             "id": "141",
-                            "section_name": "Jézus beteget gyógyít szombaton a Beteszda tavánál",
+                            "section_title": "Jézus beteget gyógyít szombaton a Beteszda tavánál",
                             "mt": [
                                 null
                             ],
@@ -13628,7 +13628,7 @@
                         },
                         {
                             "id": "142",
-                            "section_name": "Jézus kiküldi tizenkét tanítványát",
+                            "section_title": "Jézus kiküldi tizenkét tanítványát",
                             "mt": [
                                 {
                                     "leading": false,
@@ -13790,7 +13790,7 @@
                         },
                         {
                             "id": "143",
-                            "section_name": "Heródes és a nép vélekedése Jézusról",
+                            "section_title": "Heródes és a nép vélekedése Jézusról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -13858,7 +13858,7 @@
                         },
                         {
                             "id": "144",
-                            "section_name": "Keresztelő János halála",
+                            "section_title": "Keresztelő János halála",
                             "mt": [
                                 {
                                     "leading": true,
@@ -14011,7 +14011,7 @@
                         },
                         {
                             "id": "145",
-                            "section_name": "A tanítványok visszatérése",
+                            "section_title": "A tanítványok visszatérése",
                             "mt": [
                                 null
                             ],
@@ -14050,7 +14050,7 @@
                         },
                         {
                             "id": "146",
-                            "section_name": "Ötezer ember megvendégelése",
+                            "section_title": "Ötezer ember megvendégelése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -14307,7 +14307,7 @@
                         },
                         {
                             "id": "147",
-                            "section_name": "Jézus a tengeren jár",
+                            "section_title": "Jézus a tengeren jár",
                             "mt": [
                                 {
                                     "leading": true,
@@ -14465,7 +14465,7 @@
                         },
                         {
                             "id": "148",
-                            "section_name": "Jézus sok beteget meggyógyít",
+                            "section_title": "Jézus sok beteget meggyógyít",
                             "mt": [
                                 {
                                     "leading": true,
@@ -14548,7 +14548,7 @@
                         },
                         {
                             "id": "149",
-                            "section_name": "Jézus az élet kenyere",
+                            "section_title": "Jézus az élet kenyere",
                             "mt": [
                                 null
                             ],
@@ -14738,7 +14738,7 @@
                         },
                         {
                             "id": "150",
-                            "section_name": "Jézus tanítása a tisztaságról",
+                            "section_title": "Jézus tanítása a tisztaságról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15019,7 +15019,7 @@
                         },
                         {
                             "id": "151",
-                            "section_name": "A kánaáni asszony",
+                            "section_title": "A kánaáni asszony",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15118,7 +15118,7 @@
                         },
                         {
                             "id": "152",
-                            "section_name": "A süketnéma és sok beteg meggyógyítása",
+                            "section_title": "A süketnéma és sok beteg meggyógyítása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15192,7 +15192,7 @@
                         },
                         {
                             "id": "153",
-                            "section_name": "Négyezer ember megvendégelése",
+                            "section_title": "Négyezer ember megvendégelése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15306,7 +15306,7 @@
                         },
                         {
                             "id": "154",
-                            "section_name": "A farizeusok jelt kívánnak",
+                            "section_title": "A farizeusok jelt kívánnak",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15424,7 +15424,7 @@
                         },
                         {
                             "id": "155",
-                            "section_name": "„Őrizkedjetek a farizeusok kovászától!”",
+                            "section_title": "„Őrizkedjetek a farizeusok kovászától!”",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15537,7 +15537,7 @@
                         },
                         {
                             "id": "156",
-                            "section_name": "A betszaidai vak meggyógyítása",
+                            "section_title": "A betszaidai vak meggyógyítása",
                             "mt": [
                                 null
                             ],
@@ -15592,7 +15592,7 @@
                     "sections": [
                         {
                             "id": "157",
-                            "section_name": "A tanítványok zúgolódása",
+                            "section_title": "A tanítványok zúgolódása",
                             "mt": [
                                 null
                             ],
@@ -15647,7 +15647,7 @@
                         },
                         {
                             "id": "158",
-                            "section_name": "Péter vallástétele",
+                            "section_title": "Péter vallástétele",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15784,7 +15784,7 @@
                         },
                         {
                             "id": "159",
-                            "section_name": "Jézus először szól nyíltan haláláról és feltámadásáról",
+                            "section_title": "Jézus először szól nyíltan haláláról és feltámadásáról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15847,7 +15847,7 @@
                         },
                         {
                             "id": "160",
-                            "section_name": "Jézus követése",
+                            "section_title": "Jézus követése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -15964,7 +15964,7 @@
                         },
                         {
                             "id": "161",
-                            "section_name": "Jézus megdicsőülése",
+                            "section_title": "Jézus megdicsőülése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16127,7 +16127,7 @@
                         },
                         {
                             "id": "162",
-                            "section_name": "Illés eljövetele",
+                            "section_title": "Illés eljövetele",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16186,7 +16186,7 @@
                         },
                         {
                             "id": "163",
-                            "section_name": "A holdkóros (megszállott) fiú meggyógyítása",
+                            "section_title": "A holdkóros (megszállott) fiú meggyógyítása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16382,7 +16382,7 @@
                         },
                         {
                             "id": "164",
-                            "section_name": "Jézus másodszor szól haláláról és feltámadásáról",
+                            "section_title": "Jézus másodszor szól haláláról és feltámadásáról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16450,7 +16450,7 @@
                         },
                         {
                             "id": "165",
-                            "section_name": "Jézus megfizeti a templomadót",
+                            "section_title": "Jézus megfizeti a templomadót",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16490,7 +16490,7 @@
                         },
                         {
                             "id": "166",
-                            "section_name": "A tanítványok vetélkedése",
+                            "section_title": "A tanítványok vetélkedése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16592,7 +16592,7 @@
                         },
                         {
                             "id": "167",
-                            "section_name": "Az ismeretlen ördögűző. Jézus türelemre int",
+                            "section_title": "Az ismeretlen ördögűző. Jézus türelemre int",
                             "mt": [
                                 {
                                     "leading": false,
@@ -16655,7 +16655,7 @@
                         },
                         {
                             "id": "168",
-                            "section_name": "Óvás a megbotránkoztatástól",
+                            "section_title": "Óvás a megbotránkoztatástól",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16785,7 +16785,7 @@
                         },
                         {
                             "id": "169",
-                            "section_name": "Az eltévedt juh",
+                            "section_title": "Az eltévedt juh",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16859,7 +16859,7 @@
                         },
                         {
                             "id": "170",
-                            "section_name": "Testvériség a gyülekezetben",
+                            "section_title": "Testvériség a gyülekezetben",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16917,7 +16917,7 @@
                         },
                         {
                             "id": "171",
-                            "section_name": "Ahol ketten vagy hárman összegyűlnek…",
+                            "section_title": "Ahol ketten vagy hárman összegyűlnek…",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16947,7 +16947,7 @@
                         },
                         {
                             "id": "172",
-                            "section_name": "A megbocsátás",
+                            "section_title": "A megbocsátás",
                             "mt": [
                                 {
                                     "leading": true,
@@ -16986,7 +16986,7 @@
                         },
                         {
                             "id": "173",
-                            "section_name": "A gonosz szolga",
+                            "section_title": "A gonosz szolga",
                             "mt": [
                                 {
                                     "leading": true,
@@ -17081,7 +17081,7 @@
                     "sections": [
                         {
                             "id": "174",
-                            "section_name": "Útban Galileából",
+                            "section_title": "Útban Galileából",
                             "mt": [
                                 {
                                     "leading": false,
@@ -17129,7 +17129,7 @@
                         },
                         {
                             "id": "175",
-                            "section_name": "Jézust nem fogadják be egy szamáriai faluban",
+                            "section_title": "Jézust nem fogadják be egy szamáriai faluban",
                             "mt": [
                                 null
                             ],
@@ -17174,7 +17174,7 @@
                         },
                         {
                             "id": "176",
-                            "section_name": "Jézus követése",
+                            "section_title": "Jézus követése",
                             "mt": [
                                 {
                                     "leading": false,
@@ -17253,7 +17253,7 @@
                         },
                         {
                             "id": "177",
-                            "section_name": "Jézus kiküldi hetvenkét tanítványát",
+                            "section_title": "Jézus kiküldi hetvenkét tanítványát",
                             "mt": [
                                 {
                                     "leading": false,
@@ -17405,7 +17405,7 @@
                         },
                         {
                             "id": "178",
-                            "section_name": "Jézus kárhoztatja a meg nem térő galileai városokat",
+                            "section_title": "Jézus kárhoztatja a meg nem térő galileai városokat",
                             "mt": [
                                 {
                                     "leading": false,
@@ -17469,7 +17469,7 @@
                         },
                         {
                             "id": "179",
-                            "section_name": "„Aki titeket hallgat, engem hallgat”",
+                            "section_title": "„Aki titeket hallgat, engem hallgat”",
                             "mt": [
                                 {
                                     "leading": false,
@@ -17512,7 +17512,7 @@
                         },
                         {
                             "id": "180",
-                            "section_name": "A hetvenkét tanítvány visszatérése",
+                            "section_title": "A hetvenkét tanítvány visszatérése",
                             "mt": [
                                 null
                             ],
@@ -17552,7 +17552,7 @@
                         },
                         {
                             "id": "181",
-                            "section_name": "Jézus hálaadása",
+                            "section_title": "Jézus hálaadása",
                             "mt": [
                                 {
                                     "leading": false,
@@ -17629,7 +17629,7 @@
                         },
                         {
                             "id": "182",
-                            "section_name": "A nagy parancsolat",
+                            "section_title": "A nagy parancsolat",
                             "mt": [
                                 {
                                     "leading": false,
@@ -17747,7 +17747,7 @@
                         },
                         {
                             "id": "183",
-                            "section_name": "Az irgalmas samaritánus",
+                            "section_title": "Az irgalmas samaritánus",
                             "mt": [
                                 null
                             ],
@@ -17812,7 +17812,7 @@
                         },
                         {
                             "id": "184",
-                            "section_name": "Mária és Márta",
+                            "section_title": "Mária és Márta",
                             "mt": [
                                 null
                             ],
@@ -17857,7 +17857,7 @@
                         },
                         {
                             "id": "185",
-                            "section_name": "A Miatyánk",
+                            "section_title": "A Miatyánk",
                             "mt": [
                                 {
                                     "leading": false,
@@ -17926,7 +17926,7 @@
                         },
                         {
                             "id": "186",
-                            "section_name": "Példázat a sürgős kérésről",
+                            "section_title": "Példázat a sürgős kérésről",
                             "mt": [
                                 null
                             ],
@@ -17966,7 +17966,7 @@
                         },
                         {
                             "id": "187",
-                            "section_name": "Az imádság meghallgatása",
+                            "section_title": "Az imádság meghallgatása",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18040,7 +18040,7 @@
                         },
                         {
                             "id": "188",
-                            "section_name": "Jézust Beelzebul szövetségesének mondják",
+                            "section_title": "Jézust Beelzebul szövetségesének mondják",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18193,7 +18193,7 @@
                         },
                         {
                             "id": "189",
-                            "section_name": "A visszaesésről",
+                            "section_title": "A visszaesésről",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18247,7 +18247,7 @@
                         },
                         {
                             "id": "190",
-                            "section_name": "Jézus anyját boldognak mondják",
+                            "section_title": "Jézus anyját boldognak mondják",
                             "mt": [
                                 null
                             ],
@@ -18277,7 +18277,7 @@
                         },
                         {
                             "id": "191",
-                            "section_name": "Jónás jele",
+                            "section_title": "Jónás jele",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18360,7 +18360,7 @@
                         },
                         {
                             "id": "192",
-                            "section_name": "Példázat a lámpásról",
+                            "section_title": "Példázat a lámpásról",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18403,7 +18403,7 @@
                         },
                         {
                             "id": "193",
-                            "section_name": "A test lámpása a szem",
+                            "section_title": "A test lámpása a szem",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18452,7 +18452,7 @@
                         },
                         {
                             "id": "194",
-                            "section_name": "Jézus beszéde a farizeusok és a törvénytudók ellen",
+                            "section_title": "Jézus beszéde a farizeusok és a törvénytudók ellen",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18660,7 +18660,7 @@
                         },
                         {
                             "id": "195",
-                            "section_name": "„Óvakodjatok a farizeusok kovászától!”",
+                            "section_title": "„Óvakodjatok a farizeusok kovászától!”",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18713,7 +18713,7 @@
                         },
                         {
                             "id": "196",
-                            "section_name": "Bátorítás vallástételre",
+                            "section_title": "Bátorítás vallástételre",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18817,7 +18817,7 @@
                         },
                         {
                             "id": "197",
-                            "section_name": "A Szentlélek elleni bűn",
+                            "section_title": "A Szentlélek elleni bűn",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18875,7 +18875,7 @@
                         },
                         {
                             "id": "198",
-                            "section_name": "A Szentlélek segítsége",
+                            "section_title": "A Szentlélek segítsége",
                             "mt": [
                                 {
                                     "leading": false,
@@ -18946,7 +18946,7 @@
                         },
                         {
                             "id": "199",
-                            "section_name": "A kapzsiságról",
+                            "section_title": "A kapzsiságról",
                             "mt": [
                                 null
                             ],
@@ -18981,7 +18981,7 @@
                         },
                         {
                             "id": "200",
-                            "section_name": "A bolond gazdag",
+                            "section_title": "A bolond gazdag",
                             "mt": [
                                 null
                             ],
@@ -19031,7 +19031,7 @@
                         },
                         {
                             "id": "201",
-                            "section_name": "Isten gondviselése",
+                            "section_title": "Isten gondviselése",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19160,7 +19160,7 @@
                         },
                         {
                             "id": "202",
-                            "section_name": "Az igazi kincs",
+                            "section_title": "Az igazi kincs",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19209,7 +19209,7 @@
                         },
                         {
                             "id": "203",
-                            "section_name": "Intés vigyázásra. Az okos és a gonosz szolga",
+                            "section_title": "Intés vigyázásra. Az okos és a gonosz szolga",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19353,7 +19353,7 @@
                         },
                         {
                             "id": "204",
-                            "section_name": "Meghasonlás az evangélium miatt",
+                            "section_title": "Meghasonlás az evangélium miatt",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19417,7 +19417,7 @@
                         },
                         {
                             "id": "205",
-                            "section_name": "Az idők jele",
+                            "section_title": "Az idők jele",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19466,7 +19466,7 @@
                         },
                         {
                             "id": "206",
-                            "section_name": "Megbékélés útközben",
+                            "section_title": "Megbékélés útközben",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19515,7 +19515,7 @@
                         },
                         {
                             "id": "207",
-                            "section_name": "A terméketlen fügefa",
+                            "section_title": "A terméketlen fügefa",
                             "mt": [
                                 null
                             ],
@@ -19580,7 +19580,7 @@
                         },
                         {
                             "id": "208",
-                            "section_name": "Jézus meggyógyítja a meggörnyedt asszonyt",
+                            "section_title": "Jézus meggyógyítja a meggörnyedt asszonyt",
                             "mt": [
                                 null
                             ],
@@ -19640,7 +19640,7 @@
                         },
                         {
                             "id": "209",
-                            "section_name": "A mustármag",
+                            "section_title": "A mustármag",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19703,7 +19703,7 @@
                         },
                         {
                             "id": "210",
-                            "section_name": "A kovász",
+                            "section_title": "A kovász",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19742,7 +19742,7 @@
                         },
                         {
                             "id": "211",
-                            "section_name": "A szoros kapu",
+                            "section_title": "A szoros kapu",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19879,7 +19879,7 @@
                         },
                         {
                             "id": "212",
-                            "section_name": "Jézus üzen Herodesnek",
+                            "section_title": "Jézus üzen Herodesnek",
                             "mt": [
                                 null
                             ],
@@ -19914,7 +19914,7 @@
                         },
                         {
                             "id": "213",
-                            "section_name": "Jézus ítéletet mond Jeruzsálem felett",
+                            "section_title": "Jézus ítéletet mond Jeruzsálem felett",
                             "mt": [
                                 {
                                     "leading": false,
@@ -19963,7 +19963,7 @@
                         },
                         {
                             "id": "214",
-                            "section_name": "Jézus meggyógyít egy vízkórost szombaton",
+                            "section_title": "Jézus meggyógyít egy vízkórost szombaton",
                             "mt": [
                                 null
                             ],
@@ -20013,7 +20013,7 @@
                         },
                         {
                             "id": "215",
-                            "section_name": "A főhelyek válogatása. Vendéglátás viszonzás nélkül",
+                            "section_title": "A főhelyek válogatása. Vendéglátás viszonzás nélkül",
                             "mt": [
                                 null
                             ],
@@ -20073,7 +20073,7 @@
                         },
                         {
                             "id": "216",
-                            "section_name": "A nagy vacsora",
+                            "section_title": "A nagy vacsora",
                             "mt": [
                                 {
                                     "leading": false,
@@ -20217,7 +20217,7 @@
                         },
                         {
                             "id": "217",
-                            "section_name": "Önmegtagadás és kereszthordozás",
+                            "section_title": "Önmegtagadás és kereszthordozás",
                             "mt": [
                                 {
                                     "leading": false,
@@ -20296,7 +20296,7 @@
                         },
                         {
                             "id": "218",
-                            "section_name": "Az ízetlenné vált só",
+                            "section_title": "Az ízetlenné vált só",
                             "mt": [
                                 {
                                     "leading": false,
@@ -20349,7 +20349,7 @@
                         },
                         {
                             "id": "219",
-                            "section_name": "Az elveszett juh",
+                            "section_title": "Az elveszett juh",
                             "mt": [
                                 {
                                     "leading": false,
@@ -20423,7 +20423,7 @@
                         },
                         {
                             "id": "220",
-                            "section_name": "Az elveszett drachma",
+                            "section_title": "Az elveszett drachma",
                             "mt": [
                                 null
                             ],
@@ -20458,7 +20458,7 @@
                         },
                         {
                             "id": "221",
-                            "section_name": "A tékozló fiú",
+                            "section_title": "A tékozló fiú",
                             "mt": [
                                 null
                             ],
@@ -20588,7 +20588,7 @@
                         },
                         {
                             "id": "222",
-                            "section_name": "A hamis sáfár",
+                            "section_title": "A hamis sáfár",
                             "mt": [
                                 null
                             ],
@@ -20653,7 +20653,7 @@
                         },
                         {
                             "id": "223",
-                            "section_name": "Hűség a kevésen",
+                            "section_title": "Hűség a kevésen",
                             "mt": [
                                 null
                             ],
@@ -20688,7 +20688,7 @@
                         },
                         {
                             "id": "224",
-                            "section_name": "Isten és a mammon",
+                            "section_title": "Isten és a mammon",
                             "mt": [
                                 {
                                     "leading": false,
@@ -20722,7 +20722,7 @@
                         },
                         {
                             "id": "225",
-                            "section_name": "A farizeusok ellen",
+                            "section_title": "A farizeusok ellen",
                             "mt": [
                                 null
                             ],
@@ -20752,7 +20752,7 @@
                         },
                         {
                             "id": "226",
-                            "section_name": "A törvény érvényessége",
+                            "section_title": "A törvény érvényessége",
                             "mt": [
                                 {
                                     "leading": false,
@@ -20809,7 +20809,7 @@
                         },
                         {
                             "id": "227",
-                            "section_name": "A válás tilalma",
+                            "section_title": "A válás tilalma",
                             "mt": [
                                 {
                                     "leading": false,
@@ -20857,7 +20857,7 @@
                         },
                         {
                             "id": "228",
-                            "section_name": "A gazdag és Lázár",
+                            "section_title": "A gazdag és Lázár",
                             "mt": [
                                 null
                             ],
@@ -20942,7 +20942,7 @@
                         },
                         {
                             "id": "229",
-                            "section_name": "Botránkozás és botránkoztatás",
+                            "section_title": "Botránkozás és botránkoztatás",
                             "mt": [
                                 {
                                     "leading": false,
@@ -21000,7 +21000,7 @@
                         },
                         {
                             "id": "230",
-                            "section_name": "A megbocsátás",
+                            "section_title": "A megbocsátás",
                             "mt": [
                                 {
                                     "leading": false,
@@ -21039,7 +21039,7 @@
                         },
                         {
                             "id": "231",
-                            "section_name": "A mustármagnyi hit",
+                            "section_title": "A mustármagnyi hit",
                             "mt": [
                                 {
                                     "leading": false,
@@ -21102,7 +21102,7 @@
                         },
                         {
                             "id": "232",
-                            "section_name": "A szolga jutalma",
+                            "section_title": "A szolga jutalma",
                             "mt": [
                                 null
                             ],
@@ -21142,7 +21142,7 @@
                         },
                         {
                             "id": "233",
-                            "section_name": "Tíz leprás meggyógyítása",
+                            "section_title": "Tíz leprás meggyógyítása",
                             "mt": [
                                 null
                             ],
@@ -21207,7 +21207,7 @@
                         },
                         {
                             "id": "234",
-                            "section_name": "Isten országa eljövetele",
+                            "section_title": "Isten országa eljövetele",
                             "mt": [
                                 null
                             ],
@@ -21237,7 +21237,7 @@
                         },
                         {
                             "id": "235",
-                            "section_name": "Az Emberfia eljövetele",
+                            "section_title": "Az Emberfia eljövetele",
                             "mt": [
                                 {
                                     "leading": false,
@@ -21506,7 +21506,7 @@
                         },
                         {
                             "id": "236",
-                            "section_name": "A hamis bíró",
+                            "section_title": "A hamis bíró",
                             "mt": [
                                 null
                             ],
@@ -21566,7 +21566,7 @@
                         },
                         {
                             "id": "237",
-                            "section_name": "A farizeus és a vámszedő",
+                            "section_title": "A farizeus és a vámszedő",
                             "mt": [
                                 null
                             ],
@@ -21626,7 +21626,7 @@
                     "sections": [
                         {
                             "id": "238",
-                            "section_name": "Jézus további tartózkodása Galileában",
+                            "section_title": "Jézus további tartózkodása Galileában",
                             "mt": [
                                 null
                             ],
@@ -21691,7 +21691,7 @@
                         },
                         {
                             "id": "239",
-                            "section_name": "Jézus titokban Jeruzsálembe megy",
+                            "section_title": "Jézus titokban Jeruzsálembe megy",
                             "mt": [
                                 null
                             ],
@@ -21731,7 +21731,7 @@
                         },
                         {
                             "id": "240",
-                            "section_name": "Jézus nyilvánosan tanít a templomban",
+                            "section_title": "Jézus nyilvánosan tanít a templomban",
                             "mt": [
                                 null
                             ],
@@ -21881,7 +21881,7 @@
                         },
                         {
                             "id": "241",
-                            "section_name": "Ellentétes vélemények Jézusról",
+                            "section_title": "Ellentétes vélemények Jézusról",
                             "mt": [
                                 null
                             ],
@@ -21966,7 +21966,7 @@
                         },
                         {
                             "id": "242",
-                            "section_name": "Jézus és a házasságtörő asszony",
+                            "section_title": "Jézus és a házasságtörő asszony",
                             "mt": [
                                 null
                             ],
@@ -22046,7 +22046,7 @@
                         },
                         {
                             "id": "243",
-                            "section_name": "Jézus a világ világossága",
+                            "section_title": "Jézus a világ világossága",
                             "mt": [
                                 null
                             ],
@@ -22111,7 +22111,7 @@
                         },
                         {
                             "id": "244",
-                            "section_name": "Jézus az Atyától jön, és az Atyához megy",
+                            "section_title": "Jézus az Atyától jön, és az Atyához megy",
                             "mt": [
                                 null
                             ],
@@ -22176,7 +22176,7 @@
                         },
                         {
                             "id": "245",
-                            "section_name": "Jézus megszabadít a bűntől",
+                            "section_title": "Jézus megszabadít a bűntől",
                             "mt": [
                                 null
                             ],
@@ -22231,7 +22231,7 @@
                         },
                         {
                             "id": "246",
-                            "section_name": "Ábrahám utódai és az ördög fiai",
+                            "section_title": "Ábrahám utódai és az ördög fiai",
                             "mt": [
                                 null
                             ],
@@ -22306,7 +22306,7 @@
                         },
                         {
                             "id": "247",
-                            "section_name": "Jézus előbb volt, mint Ábrahám",
+                            "section_title": "Jézus előbb volt, mint Ábrahám",
                             "mt": [
                                 null
                             ],
@@ -22386,7 +22386,7 @@
                         },
                         {
                             "id": "248",
-                            "section_name": "A vakon született ember meggyógyítása szombaton",
+                            "section_title": "A vakon született ember meggyógyítása szombaton",
                             "mt": [
                                 null
                             ],
@@ -22611,7 +22611,7 @@
                         },
                         {
                             "id": "249",
-                            "section_name": "A jó pásztor",
+                            "section_title": "A jó pásztor",
                             "mt": [
                                 null
                             ],
@@ -22721,7 +22721,7 @@
                         },
                         {
                             "id": "250",
-                            "section_name": "A vélemények újabb megoszlása",
+                            "section_title": "A vélemények újabb megoszlása",
                             "mt": [
                                 null
                             ],
@@ -22766,7 +22766,7 @@
                     "sections": [
                         {
                             "id": "251",
-                            "section_name": "Úton Júdeába",
+                            "section_title": "Úton Júdeába",
                             "mt": [
                                 {
                                     "leading": true,
@@ -22814,7 +22814,7 @@
                         },
                         {
                             "id": "252",
-                            "section_name": "Kérdés a házassági elválásról",
+                            "section_title": "Kérdés a házassági elválásról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -22952,7 +22952,7 @@
                         },
                         {
                             "id": "253",
-                            "section_name": "Jézus megáldja a gyermekeket",
+                            "section_title": "Jézus megáldja a gyermekeket",
                             "mt": [
                                 {
                                     "leading": true,
@@ -23030,7 +23030,7 @@
                         },
                         {
                             "id": "254",
-                            "section_name": "A gazdag ifjú",
+                            "section_title": "A gazdag ifjú",
                             "mt": [
                                 {
                                     "leading": true,
@@ -23153,7 +23153,7 @@
                         },
                         {
                             "id": "255",
-                            "section_name": "A gazdagság veszélye és a tanítványok jutalma",
+                            "section_title": "A gazdagság veszélye és a tanítványok jutalma",
                             "mt": [
                                 {
                                     "leading": true,
@@ -23324,7 +23324,7 @@
                         },
                         {
                             "id": "256",
-                            "section_name": "A szőlőmunkások",
+                            "section_title": "A szőlőmunkások",
                             "mt": [
                                 {
                                     "leading": true,
@@ -23442,7 +23442,7 @@
                         },
                         {
                             "id": "257",
-                            "section_name": "Jézus a templomszentelési ünnepen Jeruzsálemben",
+                            "section_title": "Jézus a templomszentelési ünnepen Jeruzsálemben",
                             "mt": [
                                 null
                             ],
@@ -23552,7 +23552,7 @@
                         },
                         {
                             "id": "258",
-                            "section_name": "Jézus a Jordánnál",
+                            "section_title": "Jézus a Jordánnál",
                             "mt": [
                                 null
                             ],
@@ -23587,7 +23587,7 @@
                         },
                         {
                             "id": "259",
-                            "section_name": "Lázár feltámasztása",
+                            "section_title": "Lázár feltámasztása",
                             "mt": [
                                 null
                             ],
@@ -23827,7 +23827,7 @@
                         },
                         {
                             "id": "260",
-                            "section_name": "A nagytanács elhatározza Jézus megölését",
+                            "section_title": "A nagytanács elhatározza Jézus megölését",
                             "mt": [
                                 null
                             ],
@@ -23892,7 +23892,7 @@
                         },
                         {
                             "id": "261",
-                            "section_name": "Jézus Efraimban",
+                            "section_title": "Jézus Efraimban",
                             "mt": [
                                 null
                             ],
@@ -23932,7 +23932,7 @@
                         },
                         {
                             "id": "262",
-                            "section_name": "Jézus harmadszor szól haláláról és feltámadásáról",
+                            "section_title": "Jézus harmadszor szól haláláról és feltámadásáról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -24010,7 +24010,7 @@
                         },
                         {
                             "id": "263",
-                            "section_name": "Zebedeus fiainak kérése",
+                            "section_title": "Zebedeus fiainak kérése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -24158,7 +24158,7 @@
                         },
                         {
                             "id": "264",
-                            "section_name": "Vakok meggyógyítása (Bartimeus)",
+                            "section_title": "Vakok meggyógyítása (Bartimeus)",
                             "mt": [
                                 {
                                     "leading": true,
@@ -24329,7 +24329,7 @@
                         },
                         {
                             "id": "265",
-                            "section_name": "Zákeus",
+                            "section_title": "Zákeus",
                             "mt": [
                                 {
                                     "leading": false,
@@ -24408,7 +24408,7 @@
                         },
                         {
                             "id": "266",
-                            "section_name": "A minák",
+                            "section_title": "A minák",
                             "mt": [
                                 {
                                     "leading": false,
@@ -24611,7 +24611,7 @@
                         },
                         {
                             "id": "267",
-                            "section_name": "Jézus megkenetése Betániában",
+                            "section_title": "Jézus megkenetése Betániában",
                             "mt": [
                                 {
                                     "leading": false,
@@ -24833,7 +24833,7 @@
                         },
                         {
                             "id": "268",
-                            "section_name": "A nagytanács elhatározza Lázár megölését",
+                            "section_title": "A nagytanács elhatározza Lázár megölését",
                             "mt": [
                                 null
                             ],
@@ -24878,7 +24878,7 @@
                     "sections": [
                         {
                             "id": "269",
-                            "section_name": "Jézus bevonulása Jeruzsálembe",
+                            "section_title": "Jézus bevonulása Jeruzsálembe",
                             "mt": [
                                 {
                                     "leading": true,
@@ -25110,7 +25110,7 @@
                         },
                         {
                             "id": "270",
-                            "section_name": "Jézus siratja Jeruzsálemet",
+                            "section_title": "Jézus siratja Jeruzsálemet",
                             "mt": [
                                 null
                             ],
@@ -25150,7 +25150,7 @@
                         },
                         {
                             "id": "271",
-                            "section_name": "Jézus megtisztítja a templomot",
+                            "section_title": "Jézus megtisztítja a templomot",
                             "mt": [
                                 {
                                     "leading": true,
@@ -25256,7 +25256,7 @@
                         },
                         {
                             "id": "272",
-                            "section_name": "A fügefa elszáradása",
+                            "section_title": "A fügefa elszáradása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -25305,7 +25305,7 @@
                         },
                         {
                             "id": "273",
-                            "section_name": "Jézus megtisztítja a templomot",
+                            "section_title": "Jézus megtisztítja a templomot",
                             "mt": [
                                 {
                                     "leading": false,
@@ -25397,7 +25397,7 @@
                         },
                         {
                             "id": "274",
-                            "section_name": "A főpapok és az írástudók elhatározzák Jézus megölését",
+                            "section_title": "A főpapok és az írástudók elhatározzák Jézus megölését",
                             "mt": [
                                 null
                             ],
@@ -25441,7 +25441,7 @@
                         },
                         {
                             "id": "275",
-                            "section_name": "A fügefa elszáradása",
+                            "section_title": "A fügefa elszáradása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -25533,7 +25533,7 @@
                         },
                         {
                             "id": "276",
-                            "section_name": "Kérdés Jézus hatalmáról",
+                            "section_title": "Kérdés Jézus hatalmáról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -25661,7 +25661,7 @@
                         },
                         {
                             "id": "277",
-                            "section_name": "A két testvér példázata",
+                            "section_title": "A két testvér példázata",
                             "mt": [
                                 {
                                     "leading": true,
@@ -25706,7 +25706,7 @@
                         },
                         {
                             "id": "278",
-                            "section_name": "A gonosz szőlőművesek",
+                            "section_title": "A gonosz szőlőművesek",
                             "mt": [
                                 {
                                     "leading": true,
@@ -25919,7 +25919,7 @@
                         },
                         {
                             "id": "279",
-                            "section_name": "A királyi menyegző",
+                            "section_title": "A királyi menyegző",
                             "mt": [
                                 {
                                     "leading": true,
@@ -26063,7 +26063,7 @@
                         },
                         {
                             "id": "280",
-                            "section_name": "Az adópénz",
+                            "section_title": "Az adópénz",
                             "mt": [
                                 {
                                     "leading": true,
@@ -26191,7 +26191,7 @@
                         },
                         {
                             "id": "281",
-                            "section_name": "Kérdés a feltámadásról",
+                            "section_title": "Kérdés a feltámadásról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -26394,7 +26394,7 @@
                         },
                         {
                             "id": "282",
-                            "section_name": "A nagy parancsolat",
+                            "section_title": "A nagy parancsolat",
                             "mt": [
                                 {
                                     "leading": true,
@@ -26512,7 +26512,7 @@
                         },
                         {
                             "id": "283",
-                            "section_name": "Krisztus Dávidnak Fia és Ura",
+                            "section_title": "Krisztus Dávidnak Fia és Ura",
                             "mt": [
                                 {
                                     "leading": true,
@@ -26605,7 +26605,7 @@
                         },
                         {
                             "id": "284",
-                            "section_name": "Jézus beszéde az írástudók és a farizeusok ellen",
+                            "section_title": "Jézus beszéde az írástudók és a farizeusok ellen",
                             "mt": [
                                 {
                                     "leading": true,
@@ -26848,7 +26848,7 @@
                         },
                         {
                             "id": "285",
-                            "section_name": "Jézus panasza Jeruzsálem ellen",
+                            "section_title": "Jézus panasza Jeruzsálem ellen",
                             "mt": [
                                 {
                                     "leading": true,
@@ -26897,7 +26897,7 @@
                         },
                         {
                             "id": "286",
-                            "section_name": "Az özvegy asszony két fillérje",
+                            "section_title": "Az özvegy asszony két fillérje",
                             "mt": [
                                 null
                             ],
@@ -26971,7 +26971,7 @@
                     "sections": [
                         {
                             "id": "287",
-                            "section_name": "Jézus jövendölése a templomról",
+                            "section_title": "Jézus jövendölése a templomról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -27029,7 +27029,7 @@
                         },
                         {
                             "id": "288",
-                            "section_name": "A nagy megpróbáltatás ideje",
+                            "section_title": "A nagy megpróbáltatás ideje",
                             "mt": [
                                 {
                                     "leading": true,
@@ -27142,7 +27142,7 @@
                         },
                         {
                             "id": "289",
-                            "section_name": "Jézus jövendölése az üldöztetésekről",
+                            "section_title": "Jézus jövendölése az üldöztetésekről",
                             "mt": [
                                 {
                                     "leading": true,
@@ -27317,7 +27317,7 @@
                         },
                         {
                             "id": "290",
-                            "section_name": "Itélet Júdea felett",
+                            "section_title": "Itélet Júdea felett",
                             "mt": [
                                 {
                                     "leading": true,
@@ -27445,7 +27445,7 @@
                         },
                         {
                             "id": "291",
-                            "section_name": "Jézus figyelmeztet a hamis prófétákra",
+                            "section_title": "Jézus figyelmeztet a hamis prófétákra",
                             "mt": [
                                 {
                                     "leading": true,
@@ -27541,7 +27541,7 @@
                         },
                         {
                             "id": "292",
-                            "section_name": "Az Emberfia eljövetele",
+                            "section_title": "Az Emberfia eljövetele",
                             "mt": [
                                 {
                                     "leading": true,
@@ -27624,7 +27624,7 @@
                         },
                         {
                             "id": "293",
-                            "section_name": "Jézus visszajövetelének időpontja, példázat a fügefáról",
+                            "section_title": "Jézus visszajövetelének időpontja, példázat a fügefáról",
                             "mt": [
                                 {
                                     "leading": true,
@@ -27727,7 +27727,7 @@
                         },
                         {
                             "id": "294",
-                            "section_name": "Befejezés: intés éberségre (Márk szerint)",
+                            "section_title": "Befejezés: intés éberségre (Márk szerint)",
                             "mt": [
                                 {
                                     "leading": false,
@@ -27831,7 +27831,7 @@
                         },
                         {
                             "id": "295",
-                            "section_name": "Befejezés: intés éberségre (Lukács szerint)",
+                            "section_title": "Befejezés: intés éberségre (Lukács szerint)",
                             "mt": [
                                 null
                             ],
@@ -27876,7 +27876,7 @@
                     "sections": [
                         {
                             "id": "296",
-                            "section_name": "Példázat a vízözönről és intés éberségre",
+                            "section_title": "Példázat a vízözönről és intés éberségre",
                             "mt": [
                                 {
                                     "leading": true,
@@ -28022,7 +28022,7 @@
                         },
                         {
                             "id": "297",
-                            "section_name": "Az okos és a gonosz szolga",
+                            "section_title": "Az okos és a gonosz szolga",
                             "mt": [
                                 {
                                     "leading": true,
@@ -28111,7 +28111,7 @@
                         },
                         {
                             "id": "298",
-                            "section_name": "A tíz szűz",
+                            "section_title": "A tíz szűz",
                             "mt": [
                                 {
                                     "leading": true,
@@ -28196,7 +28196,7 @@
                         },
                         {
                             "id": "299",
-                            "section_name": "A talentumok",
+                            "section_title": "A talentumok",
                             "mt": [
                                 {
                                     "leading": true,
@@ -28399,7 +28399,7 @@
                         },
                         {
                             "id": "300",
-                            "section_name": "Az utolsó ítéletről",
+                            "section_title": "Az utolsó ítéletről",
                             "mt": [
                                 {
                                     "leading": true,
@@ -28508,7 +28508,7 @@
                         },
                         {
                             "id": "301",
-                            "section_name": "Jézus jeruzsálemi működésének jellemzése",
+                            "section_title": "Jézus jeruzsálemi működésének jellemzése",
                             "mt": [
                                 null
                             ],
@@ -28538,7 +28538,7 @@
                         },
                         {
                             "id": "302",
-                            "section_name": "A földbe esett búzaszem",
+                            "section_title": "A földbe esett búzaszem",
                             "mt": [
                                 null
                             ],
@@ -28643,7 +28643,7 @@
                         },
                         {
                             "id": "303",
-                            "section_name": "A nép hite és hitetlensége",
+                            "section_title": "A nép hite és hitetlensége",
                             "mt": [
                                 null
                             ],
@@ -28698,7 +28698,7 @@
                         },
                         {
                             "id": "304",
-                            "section_name": "Aki hisz Jézusban, az Atyában hisz",
+                            "section_title": "Aki hisz Jézusban, az Atyában hisz",
                             "mt": [
                                 null
                             ],
@@ -28763,7 +28763,7 @@
                     "sections": [
                         {
                             "id": "305",
-                            "section_name": "A nép vezetőinek tanácskozása Jézus ellen",
+                            "section_title": "A nép vezetőinek tanácskozása Jézus ellen",
                             "mt": [
                                 {
                                     "leading": true,
@@ -28836,7 +28836,7 @@
                         },
                         {
                             "id": "306",
-                            "section_name": "Jézus megkenetése Betániában",
+                            "section_title": "Jézus megkenetése Betániában",
                             "mt": [
                                 {
                                     "leading": true,
@@ -29058,7 +29058,7 @@
                         },
                         {
                             "id": "307",
-                            "section_name": "Júdás elárulja Jézust",
+                            "section_title": "Júdás elárulja Jézust",
                             "mt": [
                                 {
                                     "leading": true,
@@ -29131,7 +29131,7 @@
                         },
                         {
                             "id": "308",
-                            "section_name": "Az utolsó vacsora",
+                            "section_title": "Az utolsó vacsora",
                             "mt": [
                                 {
                                     "leading": true,
@@ -29249,7 +29249,7 @@
                         },
                         {
                             "id": "309",
-                            "section_name": "Jézus megmossa tanítványai lábát",
+                            "section_title": "Jézus megmossa tanítványai lábát",
                             "mt": [
                                 null,
                                 {
@@ -29404,7 +29404,7 @@
                         },
                         {
                             "id": "310",
-                            "section_name": "Az áruló leleplezése",
+                            "section_title": "Az áruló leleplezése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -29546,7 +29546,7 @@
                         },
                         {
                             "id": "311",
-                            "section_name": "Az úrvacsora",
+                            "section_title": "Az úrvacsora",
                             "mt": [
                                 {
                                     "leading": true,
@@ -29644,7 +29644,7 @@
                         },
                         {
                             "id": "312",
-                            "section_name": "Az áruló leleplezése",
+                            "section_title": "Az áruló leleplezése",
                             "mt": [
                                 {
                                     "leading": false,
@@ -29786,7 +29786,7 @@
                         },
                         {
                             "id": "313",
-                            "section_name": "Ki a legnagyobb?",
+                            "section_title": "Ki a legnagyobb?",
                             "mt": [
                                 {
                                     "leading": false,
@@ -29912,7 +29912,7 @@
                         },
                         {
                             "id": "314",
-                            "section_name": "Az új parancsolat",
+                            "section_title": "Az új parancsolat",
                             "mt": [
                                 null
                             ],
@@ -29957,7 +29957,7 @@
                         },
                         {
                             "id": "315",
-                            "section_name": "Úton az Olajfák hegyére, Jézus megjövendöli Péter tagadását",
+                            "section_title": "Úton az Olajfák hegyére, Jézus megjövendöli Péter tagadását",
                             "mt": [
                                 {
                                     "leading": true,
@@ -30084,7 +30084,7 @@
                         },
                         {
                             "id": "316",
-                            "section_name": "A két kard",
+                            "section_title": "A két kard",
                             "mt": [
                                 null
                             ],
@@ -30129,7 +30129,7 @@
                     "sections": [
                         {
                             "id": "317",
-                            "section_name": "Jézus az út az Atyához",
+                            "section_title": "Jézus az út az Atyához",
                             "mt": [
                                 null
                             ],
@@ -30219,7 +30219,7 @@
                         },
                         {
                             "id": "318",
-                            "section_name": "A másik Pártfogó igérete",
+                            "section_title": "A másik Pártfogó igérete",
                             "mt": [
                                 null
                             ],
@@ -30299,7 +30299,7 @@
                         },
                         {
                             "id": "319",
-                            "section_name": "„Békességet hagyok nektek”",
+                            "section_title": "„Békességet hagyok nektek”",
                             "mt": [
                                 null
                             ],
@@ -30344,7 +30344,7 @@
                         },
                         {
                             "id": "320",
-                            "section_name": "Az igazi szőlőtő",
+                            "section_title": "Az igazi szőlőtő",
                             "mt": [
                                 null
                             ],
@@ -30404,7 +30404,7 @@
                         },
                         {
                             "id": "321",
-                            "section_name": "Aki Krisztusban marad, megmarad a szeretetben",
+                            "section_title": "Aki Krisztusban marad, megmarad a szeretetben",
                             "mt": [
                                 null
                             ],
@@ -30469,7 +30469,7 @@
                         },
                         {
                             "id": "322",
-                            "section_name": "A tanítványok és a világ",
+                            "section_title": "A tanítványok és a világ",
                             "mt": [
                                 null
                             ],
@@ -30529,7 +30529,7 @@
                         },
                         {
                             "id": "323",
-                            "section_name": "A Pártfogó bizonyságtétele",
+                            "section_title": "A Pártfogó bizonyságtétele",
                             "mt": [
                                 null
                             ],
@@ -30559,7 +30559,7 @@
                         },
                         {
                             "id": "324",
-                            "section_name": "Az üldöztetésekről",
+                            "section_title": "Az üldöztetésekről",
                             "mt": [
                                 null
                             ],
@@ -30599,7 +30599,7 @@
                         },
                         {
                             "id": "325",
-                            "section_name": "A Szentlélek elvezet a teljes igazságra",
+                            "section_title": "A Szentlélek elvezet a teljes igazságra",
                             "mt": [
                                 null
                             ],
@@ -30674,7 +30674,7 @@
                         },
                         {
                             "id": "326",
-                            "section_name": "Jézus közeli visszatérését ígéri",
+                            "section_title": "Jézus közeli visszatérését ígéri",
                             "mt": [
                                 null
                             ],
@@ -30729,7 +30729,7 @@
                         },
                         {
                             "id": "327",
-                            "section_name": "Jézus az imádság meghallgatását ígéri",
+                            "section_title": "Jézus az imádság meghallgatását ígéri",
                             "mt": [
                                 null
                             ],
@@ -30779,7 +30779,7 @@
                         },
                         {
                             "id": "328",
-                            "section_name": "Jézus megjövendöli a tanítványok elszéledését",
+                            "section_title": "Jézus megjövendöli a tanítványok elszéledését",
                             "mt": [
                                 null
                             ],
@@ -30824,7 +30824,7 @@
                         },
                         {
                             "id": "329",
-                            "section_name": "Jézus főpapi imádsága",
+                            "section_title": "Jézus főpapi imádsága",
                             "mt": [
                                 null
                             ],
@@ -30979,7 +30979,7 @@
                     "sections": [
                         {
                             "id": "330",
-                            "section_name": "A Getszemáni kertben",
+                            "section_title": "A Getszemáni kertben",
                             "mt": [
                                 {
                                     "leading": true,
@@ -31179,7 +31179,7 @@
                         },
                         {
                             "id": "331",
-                            "section_name": "Jézus elfogatása",
+                            "section_title": "Jézus elfogatása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -31401,7 +31401,7 @@
                         },
                         {
                             "id": "332",
-                            "section_name": "Jézus a nagytanács előtt (Péter tagadása)",
+                            "section_title": "Jézus a nagytanács előtt (Péter tagadása)",
                             "mt": [
                                 {
                                     "leading": true,
@@ -31708,7 +31708,7 @@
                         },
                         {
                             "id": "333",
-                            "section_name": "Péter megtagadja Jézust",
+                            "section_title": "Péter megtagadja Jézust",
                             "mt": [
                                 {
                                     "leading": true,
@@ -31860,7 +31860,7 @@
                         },
                         {
                             "id": "334",
-                            "section_name": "Jézust átadják Pilátusnak",
+                            "section_title": "Jézust átadják Pilátusnak",
                             "mt": [
                                 {
                                     "leading": true,
@@ -31917,7 +31917,7 @@
                         },
                         {
                             "id": "335",
-                            "section_name": "Júdás halála",
+                            "section_title": "Júdás halála",
                             "mt": [
                                 {
                                     "leading": true,
@@ -31977,7 +31977,7 @@
                         },
                         {
                             "id": "336",
-                            "section_name": "Jézus Pilátus előtt",
+                            "section_title": "Jézus Pilátus előtt",
                             "mt": [
                                 {
                                     "leading": true,
@@ -32119,7 +32119,7 @@
                         },
                         {
                             "id": "337",
-                            "section_name": "Jézus Heródes előtt",
+                            "section_title": "Jézus Heródes előtt",
                             "mt": [
                                 null
                             ],
@@ -32174,7 +32174,7 @@
                         },
                         {
                             "id": "338",
-                            "section_name": "Pilátus Jézust ártatlannak jelenti ki",
+                            "section_title": "Pilátus Jézust ártatlannak jelenti ki",
                             "mt": [
                                 null
                             ],
@@ -32214,7 +32214,7 @@
                         },
                         {
                             "id": "339",
-                            "section_name": "Jézus és Barabás",
+                            "section_title": "Jézus és Barabás",
                             "mt": [
                                 {
                                     "leading": true,
@@ -32381,7 +32381,7 @@
                         },
                         {
                             "id": "340",
-                            "section_name": "Pilátus kiszolgáltatja Jézust",
+                            "section_title": "Pilátus kiszolgáltatja Jézust",
                             "mt": [
                                 {
                                     "leading": false,
@@ -32529,7 +32529,7 @@
                         },
                         {
                             "id": "341",
-                            "section_name": "Jézus elítélése",
+                            "section_title": "Jézus elítélése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -32596,7 +32596,7 @@
                         },
                         {
                             "id": "342",
-                            "section_name": "Jézus megcsúfolása",
+                            "section_title": "Jézus megcsúfolása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -32684,7 +32684,7 @@
                         },
                         {
                             "id": "343",
-                            "section_name": "Jézus útja a Golgotára",
+                            "section_title": "Jézus útja a Golgotára",
                             "mt": [
                                 {
                                     "leading": true,
@@ -32781,7 +32781,7 @@
                         },
                         {
                             "id": "344",
-                            "section_name": "Jézus megfeszítése",
+                            "section_title": "Jézus megfeszítése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -32928,7 +32928,7 @@
                         },
                         {
                             "id": "345",
-                            "section_name": "A megfeszített gyalázása",
+                            "section_title": "A megfeszített gyalázása",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33036,7 +33036,7 @@
                         },
                         {
                             "id": "346",
-                            "section_name": "A két lator",
+                            "section_title": "A két lator",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33099,7 +33099,7 @@
                         },
                         {
                             "id": "347",
-                            "section_name": "Jézus halála",
+                            "section_title": "Jézus halála",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33256,7 +33256,7 @@
                         },
                         {
                             "id": "348",
-                            "section_name": "Tanúk a kereszt körül",
+                            "section_title": "Tanúk a kereszt körül",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33328,7 +33328,7 @@
                         },
                         {
                             "id": "349",
-                            "section_name": "Jézus halála",
+                            "section_title": "Jézus halála",
                             "mt": [
                                 null
                             ],
@@ -33383,7 +33383,7 @@
                         },
                         {
                             "id": "350",
-                            "section_name": "Jézus temetése",
+                            "section_title": "Jézus temetése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33530,7 +33530,7 @@
                         },
                         {
                             "id": "351",
-                            "section_name": "A sír őrzése",
+                            "section_title": "A sír őrzése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33585,7 +33585,7 @@
                     "sections": [
                         {
                             "id": "352",
-                            "section_name": "Az üres sír",
+                            "section_title": "Az üres sír",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33822,7 +33822,7 @@
                         },
                         {
                             "id": "353",
-                            "section_name": "Jézus megjelenik az asszonyoknak",
+                            "section_title": "Jézus megjelenik az asszonyoknak",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33914,7 +33914,7 @@
                         },
                         {
                             "id": "354",
-                            "section_name": "Az őrség megvesztegetése",
+                            "section_title": "Az őrség megvesztegetése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -33959,7 +33959,7 @@
                         },
                         {
                             "id": "355",
-                            "section_name": "Jézus megjelenik két tanítványnak az emmausi úton",
+                            "section_title": "Jézus megjelenik két tanítványnak az emmausi úton",
                             "mt": [
                                 null
                             ],
@@ -34108,7 +34108,7 @@
                         },
                         {
                             "id": "356",
-                            "section_name": "Jézus megjelenik a tanítványoknak (Tamás távollétében)",
+                            "section_title": "Jézus megjelenik a tanítványoknak (Tamás távollétében)",
                             "mt": [
                                 null
                             ],
@@ -34197,7 +34197,7 @@
                         },
                         {
                             "id": "357",
-                            "section_name": "Jézus megjelenik a tanítványoknak (Tamás jelenlétében)",
+                            "section_title": "Jézus megjelenik a tanítványoknak (Tamás jelenlétében)",
                             "mt": [
                                 null
                             ],
@@ -34247,7 +34247,7 @@
                         },
                         {
                             "id": "358",
-                            "section_name": "Az apostolok kiküldése",
+                            "section_title": "Az apostolok kiküldése",
                             "mt": [
                                 null
                             ],
@@ -34292,7 +34292,7 @@
                         },
                         {
                             "id": "359",
-                            "section_name": "Jézus megjelenik a tizenegy tanítványnak Galileában egy hegyen. Az apostolok kiküldése",
+                            "section_title": "Jézus megjelenik a tizenegy tanítványnak Galileában egy hegyen. Az apostolok kiküldése",
                             "mt": [
                                 {
                                     "leading": false,
@@ -34337,7 +34337,7 @@
                         },
                         {
                             "id": "360",
-                            "section_name": "Jézus megjelenik a tanítványoknak a Tibériás tavánál",
+                            "section_title": "Jézus megjelenik a tanítványoknak a Tibériás tavánál",
                             "mt": [
                                 null
                             ],
@@ -34437,7 +34437,7 @@
                     "sections": [
                         {
                             "id": "363",
-                            "section_name": "Márk hosszabb befejezése",
+                            "section_title": "Márk hosszabb befejezése",
                             "mt": [
                                 null
                             ],
@@ -34517,7 +34517,7 @@
                         },
                         {
                             "id": "364",
-                            "section_name": "Máté befejezése: az apostolok kiküldése",
+                            "section_title": "Máté befejezése: az apostolok kiküldése",
                             "mt": [
                                 {
                                     "leading": true,
@@ -34562,7 +34562,7 @@
                         },
                         {
                             "id": "365",
-                            "section_name": "Lukács befejezése: Jézus utolsó szavai és mennybemenetele",
+                            "section_title": "Lukács befejezése: Jézus utolsó szavai és mennybemenetele",
                             "mt": [
                                 null,
                                 null
@@ -34654,7 +34654,7 @@
                         },
                         {
                             "id": "366",
-                            "section_name": "Az első, János szerinti befejezés: az evangélium célja",
+                            "section_title": "Az első, János szerinti befejezés: az evangélium célja",
                             "mt": [
                                 null
                             ],
@@ -34684,7 +34684,7 @@
                         },
                         {
                             "id": "367",
-                            "section_name": "A második, János szerinti befejezés: Jézus megjelenik a Tibérias tavánál",
+                            "section_title": "A második, János szerinti befejezés: Jézus megjelenik a Tibérias tavánál",
                             "mt": [
                                 null
                             ],

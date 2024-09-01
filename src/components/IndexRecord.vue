@@ -55,7 +55,7 @@ export default {
                             </th>
                             <td class="col-lg-7 align-middle text-nowrap">
                                 <router-link :to="{ name: 'section', params: { id: section.id } }">
-                                    {{ section.section_name }}
+                                    {{ section.section_title }}
                                 </router-link>
                             </td>
                             <td class="col-lg-1 align-middle">
