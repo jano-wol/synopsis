@@ -1,13 +1,13 @@
 <script lang="ts">
 import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
-import type { SubcpartScheme } from '@/interfaces/synopsisInterface'
+import type { SubpartScheme } from '@/interfaces/synopsisInterface'
 import type { PropType } from 'vue';
 
 export default {
     props: {
         subpart: {
-            type: Object as PropType<SubcpartScheme>,
+            type: Object as PropType<SubpartScheme>,
             required: true
         }
     },
