@@ -52,12 +52,12 @@ export const useSynopsisStore = defineStore('synopsis', {
         },
         //TODO: proper typing
         locateSection(id: string): any {
-            for (let i = 0; i < this.currentSynopsis.chapters.length; i++) {
-                const chapter = this.currentSynopsis.chapters[i]
-                for (let j = 0; j < chapter.subchapters.length; j++) {
-                    const subchapter = chapter.subchapters[j]
-                    for (let k = 0; k < subchapter.sections.length; k++) {
-                        const section = subchapter.sections[k]
+            for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
+                const part = this.currentSynopsis.parts[i]
+                for (let j = 0; j < part.subparts.length; j++) {
+                    const subpart = part.subparts[j]
+                    for (let k = 0; k < subpart.sections.length; k++) {
+                        const section = subpart.sections[k]
                         if (section.id === id) {
                             return section
                         }

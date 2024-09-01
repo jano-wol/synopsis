@@ -1,6 +1,6 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-import type { ChapterScheme, CitationScheme, SectionScheme, SubchapterScheme } from '@/interfaces/synopsisInterface';
+import type { PartScheme, CitationScheme, SectionScheme, SubpartScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
@@ -25,13 +25,12 @@ export default {
   },
   methods: {
     redirectToLeadingCitation(chapterLocation: string, verseLocation: string): void {
-      for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
-        //TODO: think about better name than chapter in .json
-        const chapter: ChapterScheme = useSynopsisStore().currentSynopsis.chapters[i]
-        for (let j = 0; j < chapter.subchapters.length; j++) {
-          const subchapter: SubchapterScheme = chapter.subchapters[j]
-          for (let k = 0; k < subchapter.sections.length; k++) {
-            const section: SectionScheme = subchapter.sections[k]
+      for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
+        const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
+        for (let j = 0; j < part.subparts.length; j++) {
+          const subpart: SubpartScheme = part.subparts[j]
+          for (let k = 0; k < subpart.sections.length; k++) {
+            const section: SectionScheme = subpart.sections[k]
             for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
               const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (citation?.leading) {
@@ -51,13 +50,12 @@ export default {
     },
     redirectToPreviousLeadingCitation() {
       let previousSectionId;
-      for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
-        //TODO: think about better name than chapter in .json
-        const chapter: ChapterScheme = useSynopsisStore().currentSynopsis.chapters[i]
-        for (let j = 0; j < chapter.subchapters.length; j++) {
-          const subchapter: SubchapterScheme = chapter.subchapters[j]
-          for (let k = 0; k < subchapter.sections.length; k++) {
-            const section: SectionScheme = subchapter.sections[k]
+      for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
+        const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
+        for (let j = 0; j < part.subparts.length; j++) {
+          const subpart: SubpartScheme = part.subparts[j]
+          for (let k = 0; k < subpart.sections.length; k++) {
+            const section: SectionScheme = subpart.sections[k]
             for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
               const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (section.id === this.sectionId) {
@@ -73,13 +71,12 @@ export default {
       }
     },
     redirectToNextLeadingCitation() {
-      for (let i = 0; i < useSynopsisStore().currentSynopsis.chapters.length; i++) {
-        //TODO: think about better name than chapter in .json
-        const chapter: ChapterScheme = useSynopsisStore().currentSynopsis.chapters[i]
-        for (let j = 0; j < chapter.subchapters.length; j++) {
-          const subchapter: SubchapterScheme = chapter.subchapters[j]
-          for (let k = 0; k < subchapter.sections.length; k++) {
-            const section: SectionScheme = subchapter.sections[k]
+      for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
+        const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
+        for (let j = 0; j < part.subparts.length; j++) {
+          const subpart: SubpartScheme = part.subparts[j]
+          for (let k = 0; k < subpart.sections.length; k++) {
+            const section: SectionScheme = subpart.sections[k]
             for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
               const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (Number(section.id) > Number(this.sectionId) && citation?.leading) {

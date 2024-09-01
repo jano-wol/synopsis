@@ -1,12 +1,12 @@
 {
     "translation": "ESV",
     "language": "en",
-    "chapters": [
+    "parts": [
         {
-            "chapter_name": "I. Preface",
-            "subchapters": [
+            "part_title": "I. Preface",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "1",
@@ -165,10 +165,10 @@
             ]
         },
         {
-            "chapter_name": "II. Birth and Childhood",
-            "subchapters": [
+            "part_title": "II. Birth and Childhood",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "2",
@@ -1366,10 +1366,10 @@
             ]
         },
         {
-            "chapter_name": "III. Preparation",
-            "subchapters": [
+            "part_title": "III. Preparation",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "13",
@@ -2236,10 +2236,10 @@
             ]
         },
         {
-            "chapter_name": "IV. The Beginning of Jesus' Public Ministry (According to John)",
-            "subchapters": [
+            "part_title": "IV. The Beginning of Jesus' Public Ministry (According to John)",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "21",
@@ -2863,10 +2863,10 @@
             ]
         },
         {
-            "chapter_name": "V. Jesus' Ministry in Galilee",
-            "subchapters": [
+            "part_title": "V. Jesus' Ministry in Galilee",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "30",
@@ -4866,10 +4866,10 @@
             ]
         },
         {
-            "chapter_name": "VI. The Sermon on the Mount (According to Matthew)",
-            "subchapters": [
+            "part_title": "VI. The Sermon on the Mount (According to Matthew)",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "50",
@@ -6592,10 +6592,10 @@
             ]
         },
         {
-            "chapter_name": "VII. The Sermon on the Plain (According to Luke)",
-            "subchapters": [
+            "part_title": "VII. The Sermon on the Plain (According to Luke)",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "77",
@@ -7227,10 +7227,10 @@
             ]
         },
         {
-            "chapter_name": "VII. Jesus' Ministry in Galilee Continued",
-            "subchapters": [
+            "part_title": "VII. Jesus' Ministry in Galilee Continued",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "84",
@@ -15585,10 +15585,10 @@
             ]
         },
         {
-            "chapter_name": "IX. The Way to the Cross",
-            "subchapters": [
+            "part_title": "IX. The Way to the Cross",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "157",
@@ -17074,10 +17074,10 @@
             ]
         },
         {
-            "chapter_name": "X. Last Journey to Jerusalem (According to Luke)",
-            "subchapters": [
+            "part_title": "X. Last Journey to Jerusalem (According to Luke)",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "174",
@@ -21619,10 +21619,10 @@
             ]
         },
         {
-            "chapter_name": "XI. Jesus at the Feast of Tabernacles (According to John)",
-            "subchapters": [
+            "part_title": "XI. Jesus at the Feast of Tabernacles (According to John)",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "238",
@@ -22759,10 +22759,10 @@
             ]
         },
         {
-            "chapter_name": "XII. The Ministry in Judea",
-            "subchapters": [
+            "part_title": "XII. The Ministry in Judea",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "251",
@@ -24871,10 +24871,10 @@
             ]
         },
         {
-            "chapter_name": "XIII. The Final Ministry in Jerusalem",
-            "subchapters": [
+            "part_title": "XIII. The Final Ministry in Jerusalem",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "269",
@@ -26964,10 +26964,10 @@
             ]
         },
         {
-            "chapter_name": "XIV. The Olivet Discourse",
-            "subchapters": [
+            "part_title": "XIV. The Olivet Discourse",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "287",
@@ -27869,10 +27869,10 @@
             ]
         },
         {
-            "chapter_name": "XV. Conclusion of the Account before the Passion",
-            "subchapters": [
+            "part_title": "XV. Conclusion of the Account before the Passion",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "296",
@@ -28756,10 +28756,10 @@
             ]
         },
         {
-            "chapter_name": "XVI. The Passion Narrative",
-            "subchapters": [
+            "part_title": "XVI. The Passion Narrative",
+            "subparts": [
                 {
-                    "subchapter_name": "1. Until Going to Gethsemane",
+                    "subpart_title": "1. Until Going to Gethsemane",
                     "sections": [
                         {
                             "id": "305",
@@ -30125,7 +30125,7 @@
                     ]
                 },
                 {
-                    "subchapter_name": "2. The Farewell Discourses (According to John)",
+                    "subpart_title": "2. The Farewell Discourses (According to John)",
                     "sections": [
                         {
                             "id": "317",
@@ -30975,7 +30975,7 @@
                     ]
                 },
                 {
-                    "subchapter_name": "3. The Arrest, Crucifixion, and Burial",
+                    "subpart_title": "3. The Arrest, Crucifixion, and Burial",
                     "sections": [
                         {
                             "id": "330",
@@ -33578,10 +33578,10 @@
             ]
         },
         {
-            "chapter_name": "XVII. The Resurrection",
-            "subchapters": [
+            "part_title": "XVII. The Resurrection",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "352",
@@ -34430,10 +34430,10 @@
             ]
         },
         {
-            "chapter_name": "XVIII. The Endings of the Gospels",
-            "subchapters": [
+            "part_title": "XVIII. The Endings of the Gospels",
+            "subparts": [
                 {
-                    "subchapter_name": null,
+                    "subpart_title": null,
                     "sections": [
                         {
                             "id": "363",

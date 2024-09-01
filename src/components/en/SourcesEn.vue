@@ -43,12 +43,12 @@ export default {
         <li>
             Section 361 is not not included.<br>
             Reason: It refers to 1Cor15,3-8, which is not part of the four gospels.<br>
-            Note: The numbering of other chapters remains the same.
+            Note: The numbering of other parts remains the same.
         </li>
         <li>
             Section 362 is not not included.<br>
             Reason: It follows the non-canonical ending of Mark.<br>
-            Note: The numbering of other chapters remains the same.
+            Note: The numbering of other parts remains the same.
         </li>
         <br>
         <!-- TODO: Esetleg Jn6,6 és Jn6,67-71 szétvágás is lehetséges-->

@@ -1,5 +1,5 @@
 <script lang="ts">
-import Chapter from '@/components/Chapter.vue'
+import Part from '@/components/Part.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
@@ -15,7 +15,7 @@ export default {
   },
   components:
   {
-    Chapter
+    Part
   },
   mounted() {
     if (this.hash && this.isValidHash(this.hash)) {
@@ -28,7 +28,7 @@ export default {
       if (!this.scrolledToAnchor) {
         this.scrollToAnchor();
       }
-      if (index < this.synopsisStore.currentSynopsis.chapters.length) {
+      if (index < this.synopsisStore.currentSynopsis.parts.length) {
         setTimeout(() => {
           this.visibleIndex = index + 1;
           this.delayedRender(index + 1);
@@ -87,9 +87,9 @@ export default {
       </div>
     </div>
 
-    <template v-for="chapterIndex in synopsisStore.currentSynopsis.chapters.length">
-      <Chapter v-show="!showScroller" v-if="visibleIndex >= chapterIndex - 1"
-        :chapter="synopsisStore.currentSynopsis.chapters[chapterIndex - 1]" />
+    <template v-for="partIndex in synopsisStore.currentSynopsis.parts.length">
+      <Part v-show="!showScroller" v-if="visibleIndex >= partIndex - 1" :key="partIndex"
+        :part="synopsisStore.currentSynopsis.parts[partIndex - 1]" />
     </template>
 
   </div>

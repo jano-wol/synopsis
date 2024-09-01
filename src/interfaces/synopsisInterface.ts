@@ -1,16 +1,16 @@
 export interface SynopsisScheme {
     language: string,
     translation: string,
-    chapters: ChapterScheme[]
+    parts: PartScheme[]
 }
 
-export interface ChapterScheme {
-    chapter_name: string
-    subchapters: SubchapterScheme[]
+export interface PartScheme {
+    part_title: string
+    subparts: SubpartScheme[]
 }
 
-export interface SubchapterScheme {
-    subchapter_name: string | null
+export interface SubpartScheme {
+    subpart_title: string | null
     sections: SectionScheme[]
 }
 
@@ -24,7 +24,6 @@ export interface SectionScheme {
 }
 
 export interface CitationScheme {
-    citation: string
     leading: boolean
     content: ContentScheme[]
 
