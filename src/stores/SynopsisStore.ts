@@ -11,8 +11,7 @@ const synopsisSZIT: SynopsisScheme = szit
 const synopsisESV: SynopsisScheme = esv
 const dictionaryEn: DictionaryScheme = en
 const dictionaryHu: DictionaryScheme = hu
-// TODO: proper typing
-const dictionary: any = {
+const dictionary: { [key: string]: DictionaryScheme } = {
     en: dictionaryEn,
     hu: dictionaryHu
 }
@@ -67,7 +66,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
             return this.currentSynopsis.parts[0].subparts[0].sections[0]
         },
-        setupLanguage(language: any) {
+        setupLanguage(language: string) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (language === this.synopses[synopsisIndex].language) {
                     this.currentDictionary = dictionary[language]
@@ -75,7 +74,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
         },
-        setupTranslation(translation: any) {
+        setupTranslation(translation: string) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (translation === this.synopses[synopsisIndex].translation) {
                     this.currentTranslation = translation

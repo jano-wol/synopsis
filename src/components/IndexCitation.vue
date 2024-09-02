@@ -1,14 +1,18 @@
 <script lang="ts">
 import { useSynopsisStore } from "@/stores/SynopsisStore"
+import type { CitationScheme } from '@/interfaces/synopsisInterface';
 
 export default {
     data() {
-    return {
-      synopsisStore: useSynopsisStore(),
-    }
-  },
+        return {
+            synopsisStore: useSynopsisStore(),
+        }
+    },
     props: {
-        citations: { type: Array<any>, required: true }
+        citations: {
+            required: true,
+            type: Array<CitationScheme>
+        }
     }
 }
 </script>
@@ -18,6 +22,7 @@ export default {
         'fw-bold': citation?.leading,
         'text-secondary fw-light': !citation
     }" class="text-center m-1">
-        {{ !citation ? "-" : synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse, citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
+        {{ !citation ? "-" : synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse,
+        citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
     </p>
 </template>
