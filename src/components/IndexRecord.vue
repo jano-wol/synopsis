@@ -1,12 +1,13 @@
 <script lang="ts">
 import IndexCitation from '@/components/IndexCitation.vue';
+import type { SubpartScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
 export default {
     props: {
         partTitle: String,
-        subparts: Object //TODO: proper typing
+        subparts: Array<SubpartScheme>
     },
     data() {
         return {

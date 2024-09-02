@@ -3,12 +3,11 @@ import synopsis_szit from '@/assets/synopsis_szit.json'
 import synopsis_esv from '@/assets/synopsis_esv.json'
 import dictionary_en from '@/assets/translation/en.json'
 import dictionary_hu from '@/assets/translation/hu.json'
-import type { SynopsisScheme } from '@/interfaces/synopsisInterface'
+import type { SectionScheme, SynopsisScheme } from '@/interfaces/synopsisInterface'
 import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
 const synopsisSZIT: SynopsisScheme = synopsis_szit
 const synopsisESV: SynopsisScheme = synopsis_esv
-//TODO: proper typing
 const dictionaryEn: DictionaryScheme = dictionary_en
 const dictionaryHu: DictionaryScheme = dictionary_hu
 const dictionary: any = {
@@ -51,8 +50,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
         },
-        //TODO: proper typing
-        locateSection(id: string): any {
+        locateSection(id: string): SectionScheme {
             for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
                 const part = this.currentSynopsis.parts[i]
                 for (let j = 0; j < part.subparts.length; j++) {
@@ -65,6 +63,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                     }
                 }
             }
+            return this.currentSynopsis.parts[0].subparts[0].sections[0]
         },
         setupLanguage(language: any) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
@@ -82,18 +81,15 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
         },
-        getCitation(firstChapter: string, firstVerse: string, lastChapter : string, lastVerse : string)
-        {
+        getCitation(firstChapter: string, firstVerse: string, lastChapter: string, lastVerse: string) {
             let citation = firstChapter + "," + firstVerse
-            if (lastChapter !== firstChapter)
-            {
+            if (lastChapter !== firstChapter) {
                 return citation + "-" + lastChapter + "," + lastVerse
             }
-            if (lastChapter === firstChapter && lastVerse !== firstVerse)
-            {
+            if (lastChapter === firstChapter && lastVerse !== firstVerse) {
                 return citation + "-" + lastVerse
             }
-            return  citation
+            return citation
         }
     }
 })
