@@ -7,9 +7,9 @@
     </p>
     <p>Jelenleg a különböző evangélium fordítások integrációja a cél. Az Szinopszis struktúrájában eddig feldolgozott
         fordtások <code class="text-dark">.json</code> formátumban elérhetők itt:
-        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/synopsis_szit.json"
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/szit.json"
             target="_blank">SZIT</a>,
-        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/synopsis_esv.json"
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/esv.json"
             target="_blank">ESV</a>.
     </p>
 </template>

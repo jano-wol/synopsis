@@ -6,9 +6,9 @@
     </p>
     <p>Currently, the aim is to integrate the different Gospel translations. The translations processed so far (in <code
             class="text-dark">.json</code> format) are the following:
-        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/synopsis_szit.json"
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/szit.json"
             target="_blank">SZIT</a>,
-        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/synopsis_esv.json"
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/esv.json"
             target="_blank">ESV</a>.
     </p>
 </template>
