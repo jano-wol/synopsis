@@ -158,6 +158,14 @@ export default {
                         339. Jézus és Barabás
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        355. Jézus megjelenik két tanítványnak az emmausi úton
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        355. Jézus megjelenik két tanítványnak az emmauszi úton
+                    </td>
+                </tr>
                 <!-- NOTE: Eredetiben egyszer Tibériás máskor Tiberiás. KG fordításnál ellenőrizd. -->
                 <tr>
                     <td class="col-lg-6 align-middle">
