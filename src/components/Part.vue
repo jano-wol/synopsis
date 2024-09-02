@@ -17,10 +17,12 @@ export default {
 </script>
 
 <template>
-  <div class="row">
-    <h2 class="event text-center display-4 mt-5">
-      {{ part?.part_title }}
-    </h2>
+  <div>
+    <div class="row">
+      <h2 class="event text-center display-4 mt-5">
+        {{ part?.part_title }}
+      </h2>
+    </div>
+    <Subpart v-for="subpart in part?.subparts" :subpart="subpart" />
   </div>
-  <Subpart v-for="subpart in part?.subparts" :subpart="subpart" />
 </template>

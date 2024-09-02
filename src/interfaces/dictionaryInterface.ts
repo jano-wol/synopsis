@@ -26,7 +26,7 @@ interface TooltipsScheme {
     jumpToMainText: string
 }
 
-interface EvangelistsScheme {
+export interface EvangelistsScheme {
     mt: string, 
     mk: string, 
     lk: string, 
