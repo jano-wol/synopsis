@@ -1,15 +1,17 @@
 import { defineStore } from 'pinia'
-import synopsis_szit from '@/assets/synopsis_szit.json'
-import synopsis_esv from '@/assets/synopsis_esv.json'
-import dictionary_en from '@/assets/translation/en.json'
-import dictionary_hu from '@/assets/translation/hu.json'
 import type { SectionScheme, SynopsisScheme } from '@/interfaces/synopsisInterface'
 import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
-const synopsisSZIT: SynopsisScheme = synopsis_szit
-const synopsisESV: SynopsisScheme = synopsis_esv
-const dictionaryEn: DictionaryScheme = dictionary_en
-const dictionaryHu: DictionaryScheme = dictionary_hu
+
+import szit from '@/assets/translations/szit.json'
+import esv from '@/assets/translations/esv.json'
+import en from '@/assets/languages/en.json'
+import hu from '@/assets/languages/hu.json'
+const synopsisSZIT: SynopsisScheme = szit
+const synopsisESV: SynopsisScheme = esv
+const dictionaryEn: DictionaryScheme = en
+const dictionaryHu: DictionaryScheme = hu
+// TODO: proper typing
 const dictionary: any = {
     en: dictionaryEn,
     hu: dictionaryHu
