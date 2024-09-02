@@ -1,6 +1,7 @@
 <script lang="ts">
 import type { PropType } from 'vue';
 import type { PartScheme, CitationScheme, SectionScheme, SubpartScheme } from '@/interfaces/synopsisInterface';
+import type { EvangelistsScheme } from '@/interfaces/dictionaryInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
@@ -25,19 +26,33 @@ export default {
   },
   methods: {
     redirectToLeadingCitation(chapterLocation: string, verseLocation: string): void {
+      console.log("A")
       for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
+        console.log("B")
         const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
+        console.log("C")
         for (let j = 0; j < part.subparts.length; j++) {
+          console.log("D")
           const subpart: SubpartScheme = part.subparts[j]
+          console.log("E")
           for (let k = 0; k < subpart.sections.length; k++) {
+            console.log("F")
             const section: SectionScheme = subpart.sections[k]
+            console.log("G")
             for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
+              console.log("H")
               const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
+              console.log("I")
               if (citation?.leading) {
+                console.log("J")
                 for (let m = 0; m < citation.content.length; m++) {
+                  console.log("K")
                   const content = citation.content[m]
+                  console.log("L")
                   const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
+                  console.log("M")
                   if (content.chapter === chapterLocation && formattedVerse === verseLocation) {
+                    console.log("N")
                     this.$router.push({ name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + section.id })
                     return
                   }
@@ -95,7 +110,7 @@ export default {
 <template>
   <div class="card h-100" v-if="citation?.content" :class="{ 'shadow border-dark': citation.leading }">
     <div class="card-header sticky-top bg-light">
-      {{ synopsisStore.currentDictionary.evangelists[evangelist] }} {{ synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse, citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
+      {{ synopsisStore.currentDictionary.evangelists[evangelist as keyof EvangelistsScheme] }} {{ synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse, citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
       <template v-if="!$route.params.id">
         <button v-if="!citation.leading"
           @click="redirectToLeadingCitation(citation.content[0].chapter, citation.content[0].verse)" type="button"
