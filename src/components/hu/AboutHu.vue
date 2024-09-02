@@ -32,7 +32,7 @@ export default {
     </ul>
 
     <p>
-        Az szekciók címe mellett a következő gombok találhatók.
+        A szekciók címe mellett a következő gombok találhatók.
     </p>
     <ul>
         <li><i class="bi bi-arrow-up-right-square"></i> vagy <i class="bi bi-arrow-down-left-square"></i> : <br> A
@@ -51,7 +51,7 @@ export default {
     <ul>
         <li><i class="bi bi-compass"></i> : Az átirányítás gombra kattintva az adott párhuzamos szöveg
             törzsszevegének
-            az szekciója érhető el a Szinopszis egész szövegében elhelyezve.
+            a szekciója érhető el a Szinopszis egész szövegében elhelyezve.
         </li>
         <li><i class="bi bi-arrow-up"></i> és <i class="bi bi-arrow-down"></i> : A navigációs gombokra kattintva az
             adott törzsszöveget megelőző ( <i class="bi bi-arrow-up"></i> ), illetve követő ( <i
