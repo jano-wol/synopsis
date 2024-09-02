@@ -41,6 +41,13 @@ export default {
         </li>
         <br>
         <li>
+            With the exception of quotations containing the main text, the whole verse is given instead of the
+            sub-verses.<br>
+            Reason: Simplification.<br>
+            Note: The continuity of the main text is preserved.
+        </li>
+        <br>
+        <li>
             Section 361 is not not included.<br>
             Reason: It refers to 1Cor15,3-8, which is not part of the four gospels.<br>
             Note: The numbering of other parts remains the same.
@@ -53,19 +60,8 @@ export default {
         <br>
         <!-- TODO: Esetleg Jn6,6 és Jn6,67-71 szétvágás is lehetséges-->
         <li>
-            In section 158, the quotation Jn6,66.67-71 has been changed to Jn6,67-71.<br>
-            Reason: Simplification.
-        </li>
-        <li>
             In section 365, the quotation Mk16,15.19 has been separated to Mk16,15 and Mk16,19 .<br>
             Reason: Simplification.
-        </li>
-        <br>
-        <li>
-            With the exception of quotations containing the main text, the whole verse is given instead of the
-            sub-verses.<br>
-            Reason: Simplification.<br>
-            Note: The continuity of the main text is preserved.
         </li>
         <br>
         <li>
@@ -79,9 +75,9 @@ export default {
         <li>
             In hungarian the title of section 367 is shorter.<br>
             Reason: Simplification.<br>
-            Note: The original title is "<i>A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél.
+            Note: The original title is <i>"A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél.
                 A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány
-                sorsáról</i>"
+                sorsáról"</i>
         </li>
         <br>
         <li>
