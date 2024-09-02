@@ -4,10 +4,11 @@ Website for the parallel Gospels of Matthew, Mark, Luke and John.
 Running on [synopticus.org](https://www.synopticus.org/).
 
 ## Contribution
-The main field of upcoming developmen is adding new Gospel translations.
+All help is welcome!
+
+The main field of upcoming development is adding new Gospel translations.
 <!-- Daily reading -->
 
-All help is welcome!
 
 ## Dependencies
 
