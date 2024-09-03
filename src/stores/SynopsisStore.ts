@@ -66,7 +66,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
             return this.currentSynopsis.parts[0].subparts[0].sections[0]
         },
-        setupLanguage(language: string) {
+        setupLanguage(language: string | string[]) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (language === this.synopses[synopsisIndex].language) {
                     this.currentDictionary = dictionary[language]
@@ -74,7 +74,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
         },
-        setupTranslation(translation: string) {
+        setupTranslation(translation: string | string[]) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (translation === this.synopses[synopsisIndex].translation) {
                     this.currentTranslation = translation

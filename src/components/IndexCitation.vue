@@ -11,7 +11,7 @@ export default {
     props: {
         citations: {
             required: true,
-            type: Array<CitationScheme>
+            type: Array as () => (CitationScheme | null)[]
         }
     }
 }
