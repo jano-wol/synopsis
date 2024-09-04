@@ -89,6 +89,14 @@ export default {
         }
       }
     },
+    isLastSection(evangelist: string)
+    {
+      return ((evangelist === 'mt' && this.sectionId === '364')
+      || (evangelist === 'mk' && this.sectionId === '363')
+      || (evangelist === 'lk' && this.sectionId === '365')
+      || (evangelist === 'jn' && this.sectionId === '367')
+      )
+    }
   }
 }
 </script>
@@ -106,11 +114,7 @@ export default {
         </button>
 
         <button v-if="citation.leading
-    && !((evangelist === 'mt' && sectionId === '364')
-      || (evangelist === 'mk' && sectionId === '363')
-      || (evangelist === 'lk' && sectionId === '365')
-      || (evangelist === 'jn' && sectionId === '367')
-    )" @click="redirectToNextLeadingCitation()" type="button" class=" float-end btn  btn-sm py-0 m-0"
+    && !isLastSection(evangelist)" @click="redirectToNextLeadingCitation()" type="button" class=" float-end btn  btn-sm py-0 m-0"
           :title="synopsisStore.currentDictionary.tooltips.nextMainText">
           <i class="bi bi-arrow-down fs-6 text-secondary"></i>
         </button>
