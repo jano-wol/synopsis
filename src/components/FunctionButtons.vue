@@ -18,8 +18,6 @@ export default {
     },
     methods: {
         copyShareLink() {
-            console.log(this.$router);
-
             navigator.clipboard.writeText(window.location.origin + this.$route.path);
             this.isShareCopied = true
             setTimeout(() => {
