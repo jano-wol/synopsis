@@ -18,7 +18,7 @@ export default {
     Part
   },
   mounted() {
-    if (this.hash && this.isValidHash(this.hash)) {
+    if (this.isValidHash(this.hash)) {
       this.showScroller = true
     }
     this.delayedRender(0);
@@ -36,7 +36,6 @@ export default {
       }
     },
     scrollToAnchor() {
-      this.$nextTick(() => {
         if (this.hash) {
           const anchorElement = document.getElementById(this.hash);
           if (anchorElement) {
@@ -45,15 +44,9 @@ export default {
             anchorElement.scrollIntoView();
           }
         }
-      });
     },
     isValidHash(hash: string) {
-      let validHashes = []
-      for (let i = 1; i < 368; i++) {
-        validHashes.push(i);
-      }
-      validHashes.splice(360, 2);
-      return validHashes.includes(parseInt(hash))
+      return parseInt(hash) > 0 && parseInt(hash) < 368 && parseInt(hash) !== 361 && parseInt(hash) !== 362
     }
   }
 }
