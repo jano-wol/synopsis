@@ -128,6 +128,14 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        265. Zákeus
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        265. Zakeus
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         290. Itélet Judea felett
                     </td>
                     <td class="col-lg-6 align-middle">
