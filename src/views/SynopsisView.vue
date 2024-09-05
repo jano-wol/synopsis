@@ -88,7 +88,7 @@ export default {
     </div>
 
     <template v-for="partIndex in synopsisStore.currentSynopsis.parts.length">
-      <Part v-show="!showScroller" v-if="visibleIndex >= partIndex - 1" :key="partIndex"
+      <Part v-if="visibleIndex >= partIndex - 1" :key="partIndex"
         :part="synopsisStore.currentSynopsis.parts[partIndex - 1]" />
     </template>
 
