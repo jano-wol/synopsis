@@ -15,8 +15,11 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
+      path: '/',
+      redirect: '/hu/SZIT',
+    },
+    {
       path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}`,
-      alias: '/',
       name: 'synopsis',
       component: SynopsisView
     },
