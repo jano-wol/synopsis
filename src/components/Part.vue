@@ -1,5 +1,5 @@
 <script lang="ts">
-import Subpart from '@/components/Subpart.vue'
+import Section from '@/components/Section.vue'
 import type { PartScheme } from '@/interfaces/synopsisInterface'
 import type { PropType } from 'vue';
 
@@ -11,7 +11,7 @@ export default {
     }
   },
   components: {
-    Subpart
+    Section
   }
 }
 </script>
@@ -23,6 +23,6 @@ export default {
         {{ part?.part_title }}
       </h2>
     </div>
-    <Subpart v-for="subpart in part?.subparts" :subpart="subpart" />
+    <Section v-for="section in part.sections" :id="section.id" :key="section.id"/>
   </div>
 </template>

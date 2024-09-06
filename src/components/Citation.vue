@@ -1,6 +1,6 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-import type { PartScheme, CitationScheme, SectionScheme, SubpartScheme } from '@/interfaces/synopsisInterface';
+import type { PartScheme, CitationScheme, SectionScheme} from '@/interfaces/synopsisInterface';
 import type { EvangelistsScheme } from '@/interfaces/dictionaryInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
@@ -28,10 +28,9 @@ export default {
     redirectToLeadingCitation(chapterLocation: string, verseLocation: string): void {
       for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
         const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
-        for (let j = 0; j < part.subparts.length; j++) {
-          const subpart: SubpartScheme = part.subparts[j]
-          for (let k = 0; k < subpart.sections.length; k++) {
-            const section: SectionScheme = subpart.sections[k]
+        for (let j = 0; j < part.sections.length; j++) {
+        
+            const section: SectionScheme = part.sections[j]
             for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
               const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (citation?.leading) {
@@ -47,16 +46,13 @@ export default {
             }
           }
         }
-      }
     },
     redirectToPreviousLeadingCitation() {
       let previousSectionId;
       for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
         const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
-        for (let j = 0; j < part.subparts.length; j++) {
-          const subpart: SubpartScheme = part.subparts[j]
-          for (let k = 0; k < subpart.sections.length; k++) {
-            const section: SectionScheme = subpart.sections[k]
+        for (let j = 0; j < part.sections.length; j++) {
+            const section: SectionScheme = part.sections[j]
             for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
               const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (section.id === this.sectionId) {
@@ -69,15 +65,12 @@ export default {
             }
           }
         }
-      }
     },
     redirectToNextLeadingCitation() {
       for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
         const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
-        for (let j = 0; j < part.subparts.length; j++) {
-          const subpart: SubpartScheme = part.subparts[j]
-          for (let k = 0; k < subpart.sections.length; k++) {
-            const section: SectionScheme = subpart.sections[k]
+        for (let j = 0; j < part.sections.length; j++) {
+            const section: SectionScheme = part.sections[j]
             for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
               const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
               if (Number(section.id) > Number(this.sectionId) && citation?.leading) {
@@ -87,7 +80,6 @@ export default {
             }
           }
         }
-      }
     },
     isLastSection(evangelist: string)
     {

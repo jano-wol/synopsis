@@ -1,13 +1,13 @@
 <script lang="ts">
 import IndexCitation from '@/components/IndexCitation.vue';
-import type { SubpartScheme } from '@/interfaces/synopsisInterface';
+import type { SectionScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
 export default {
     props: {
         partTitle: String,
-        subparts: Array<SubpartScheme>
+        sections: Array<SectionScheme>
     },
     data() {
         return {
@@ -26,9 +26,8 @@ export default {
             {{ partTitle }}
         </h2>
     </div>
-    <template v-for="subpart in subparts">
+    
         <div clas="row">
-            <h3 class="text-center fs-4">{{ subpart.subpart_title }}</h3>
             <div class="table-responsive">
                 <table class="table bg-dark table-sm table-striped table-bordered">
                     <thead>
@@ -48,7 +47,7 @@ export default {
                         </tr>
                     </thead>
                     <tbody class="table-group-divider">
-                        <tr v-for="section in subpart.sections">
+                        <tr v-for="section in sections">
                             <th class="col-lg-1 align-middle text-nowrap" scope="row">
                                 <router-link :to="{ name: 'synopsis', hash: '#' + section.id }">
                                     {{ section.id }}
@@ -76,5 +75,5 @@ export default {
                 </table>
             </div>
         </div>
-    </template>
+
 </template>

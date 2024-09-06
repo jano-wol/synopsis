@@ -33,11 +33,11 @@ export default {
     <h1 class="text-center">{{ synopsisStore.currentDictionary.menu.index }}</h1>
 
     <IndexRecord :part-title="synopsisStore.currentSynopsis.parts[0].part_title"
-      :subparts="synopsisStore.currentSynopsis.parts[0].subparts" />
+      :sections="synopsisStore.currentSynopsis.parts[0].sections" />
     <template v-for="partIndex in synopsisStore.currentSynopsis.parts.length - 1" :key="partIndex">
       <IndexRecord v-if="visibleIndex >= partIndex"
         :part-title="synopsisStore.currentSynopsis.parts[partIndex].part_title"
-        :subparts="synopsisStore.currentSynopsis.parts[partIndex].subparts" />
+        :sections="synopsisStore.currentSynopsis.parts[partIndex].sections" />
     </template>
 
   </div>

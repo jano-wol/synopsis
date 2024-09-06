@@ -54,7 +54,7 @@ export default {
     </div>
 
     <template v-for="index in section.mt.length" :key="index">
-        <div class="row content mx-3">
+        <div class="row content mx-3 mb-2">
             <div class="col-lg-3 col-md-12 pb-3">
                 <Citation v-if="section.mt[index - 1] !== null" :citation="section.mt[index - 1]" evangelist="mt"
                     :section-id="id" />

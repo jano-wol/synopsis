@@ -54,17 +54,14 @@ export const useSynopsisStore = defineStore('synopsis', {
         locateSection(id: string): SectionScheme {
             for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
                 const part = this.currentSynopsis.parts[i]
-                for (let j = 0; j < part.subparts.length; j++) {
-                    const subpart = part.subparts[j]
-                    for (let k = 0; k < subpart.sections.length; k++) {
-                        const section = subpart.sections[k]
-                        if (section.id === id) {
-                            return section
-                        }
+                for (let j = 0; j < part.sections.length; j++) {
+                    const section = part.sections[j]
+                    if (section.id === id) {
+                        return section
                     }
                 }
             }
-            return this.currentSynopsis.parts[0].subparts[0].sections[0]
+            return this.currentSynopsis.parts[0].sections[0]
         },
         setupLanguage(language: string | string[]) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {

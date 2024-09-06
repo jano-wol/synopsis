@@ -6,13 +6,9 @@ export interface SynopsisScheme {
 
 export interface PartScheme {
     part_title: string
-    subparts: SubpartScheme[]
-}
-
-export interface SubpartScheme {
-    subpart_title: string | null
     sections: SectionScheme[]
 }
+
 
 export interface SectionScheme {
     id: string
