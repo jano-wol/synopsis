@@ -32,6 +32,7 @@
     },
     "sources": {
         "originalTitle": "Eredeti elnevezés",
-        "unifiedSZITTitle": "SZIT fordítás szerinti elnevezés"
+        "unifiedSZITTitle": "SZIT fordítás szerinti elnevezés",
+        "shorterTitle": "Rövidített cím"
     }
 }

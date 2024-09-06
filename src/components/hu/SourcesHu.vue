@@ -1,9 +1,11 @@
 <script lang="ts">
 import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
+import TitleChangeTableShorter from '@/components/TitleChangeTableShorter.vue'
 
 export default {
     components: {
-        TitleChangeTableSZIT
+        TitleChangeTableSZIT,
+        TitleChangeTableShorter,
     }
 }
 
@@ -71,11 +73,10 @@ export default {
         </li>
         <br>
         <li>
-            Magyar nyelven a 367. szekció címe rövidítve lett.<br>
+            A 367. szekció címe rövidítve lett.<br>
             Indoklás: Egyszerűsítés.<br>
-            Megjegyzés: Az eredeti cím <i>„A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél. A
-                nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány
-                sorsáról”</i>
+            Megjegyzés: Az címek változását az alábbi táblázat foglalja össze.
+            <TitleChangeTableShorter />
         </li>
         <br>
         <li>

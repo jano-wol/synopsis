@@ -1,10 +1,12 @@
 <script lang="ts">
 import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
+import TitleChangeTableShorter from '@/components/TitleChangeTableShorter.vue'
 
 
 export default {
     components: {
-        TitleChangeTableSZIT
+        TitleChangeTableSZIT,
+        TitleChangeTableShorter
     }
 }
 
@@ -73,11 +75,10 @@ export default {
         </li>
         <br>
         <li>
-            In hungarian the title of section 367 is shorter.<br>
+            The title of section 367 is shorter.<br>
             Reason: Simplification.<br>
-            Note: The original title is <i>"A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél.
-                A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány
-                sorsáról"</i>
+            Note: Changes are summarised in the table below.
+            <TitleChangeTableShorter />
         </li>
         <br>
         <li>

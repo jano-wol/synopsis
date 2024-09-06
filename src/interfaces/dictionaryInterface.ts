@@ -48,6 +48,7 @@ interface SynopsisScheme {
 interface SourcesScheme {
     originalTitle: string 
     unifiedSZITTitle: string 
+    shorterTitle: string 
 }
 
 
