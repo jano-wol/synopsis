@@ -12,7 +12,7 @@ The main field of upcoming development is adding new Gospel translations.
 
 ## Dependencies
 
-npm
+- npm >= 9.2.0
 
 ## Project Setup
 
