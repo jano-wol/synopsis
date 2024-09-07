@@ -4,7 +4,8 @@
         "index": "Tartalomjegyzék",
         "about": "Leírás",
         "sources": "Források",
-        "contact": "Kapcsolat"
+        "contact": "Kapcsolat",
+        "translations": "Fordítások"
     },
     "tooltips": {
         "share": "Megosztási link másolása",

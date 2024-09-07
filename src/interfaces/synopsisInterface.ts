@@ -1,4 +1,5 @@
 export interface SynopsisScheme {
+    name: string,
     language: string,
     translation: string,
     parts: PartScheme[]
