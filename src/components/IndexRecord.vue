@@ -1,6 +1,6 @@
 <script lang="ts">
 import IndexCitation from '@/components/IndexCitation.vue';
-import type { SectionScheme } from '@/interfaces/synopsisInterface';
+import type { CitationScheme, SectionScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
@@ -58,17 +58,9 @@ export default {
                                     {{ section.section_title }}
                                 </router-link>
                             </td>
-                            <td class="col-lg-1 align-middle">
-                                <IndexCitation :citations="section.mt" />
-                            </td>
-                            <td class="col-lg-1 align-middle">
-                                <IndexCitation :citations="section.mk" />
-                            </td>
-                            <td class="col-lg-1 align-middle">
-                                <IndexCitation :citations="section.lk" />
-                            </td>
-                            <td class="col-lg-1 align-middle">
-                                <IndexCitation :citations="section.jn" />
+                            <td class="col-lg-1 align-middle" v-for="evangelist in ['mt', 'mk', 'lk', 'jn']">
+                                <IndexCitation
+                                :citations="section[evangelist as keyof SectionScheme] as Array<CitationScheme>" />
                             </td>
                         </tr>
                     </tbody>

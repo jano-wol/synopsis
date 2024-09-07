@@ -1,6 +1,7 @@
 <script lang="ts">
 import Citation from '@/components/Citation.vue'
 import FunctionButtons from '@/components/FunctionButtons.vue'
+import type { CitationScheme, SectionScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
@@ -55,21 +56,11 @@ export default {
 
     <template v-for="index in section.mt.length" :key="index">
         <div class="row content mx-3 mb-2">
-            <div class="col-lg-3 col-md-12 pb-3">
-                <Citation v-if="section.mt[index - 1] !== null" :citation="section.mt[index - 1]" evangelist="mt"
-                    :section-id="id" />
-            </div>
-            <div class="col-lg-3 col-md-12 pb-3">
-                <Citation v-if="section.mk[index - 1] !== null" :citation="section.mk[index - 1]" evangelist="mk"
-                    :section-id="id" />
-            </div>
-            <div class="col-lg-3 col-md-12 pb-3">
-                <Citation v-if="section.lk[index - 1] !== null" :citation="section.lk[index - 1]" evangelist="lk"
-                    :section-id="id" />
-            </div>
-            <div class="col-lg-3 col-md-12 pb-3">
-                <Citation v-if="section.jn[index - 1] !== null" :citation="section.jn[index - 1]" evangelist="jn"
-                    :section-id="id" />
+            <div class="col-lg-3 col-md-12 pb-3" v-for="evangelist in ['mt', 'mk', 'lk', 'jn']">
+                <Citation v-if="section[evangelist as keyof SectionScheme][index - 1] !== null"
+                :citation="section[evangelist as keyof SectionScheme][index - 1] as CitationScheme"
+                :evangelist="evangelist"
+                :section-id="id" />
             </div>
         </div>
         <hr class="d-lg-none">
