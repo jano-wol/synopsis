@@ -80,7 +80,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
         },
         getCitation(firstChapter: string, firstVerse: string, lastChapter: string, lastVerse: string) {
-            let citation = firstChapter + "," + firstVerse
+            const citation = firstChapter + "," + firstVerse
             if (lastChapter !== firstChapter) {
                 return citation + "-" + lastChapter + "," + lastVerse
             }

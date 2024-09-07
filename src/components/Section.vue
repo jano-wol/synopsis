@@ -56,7 +56,7 @@ export default {
 
     <template v-for="index in section.mt.length" :key="index">
         <div class="row content mx-3 mb-2">
-            <div class="col-lg-3 col-md-12 pb-3" v-for="evangelist in ['mt', 'mk', 'lk', 'jn']">
+            <div class="col-lg-3 col-md-12 pb-3" v-for="evangelist in ['mt', 'mk', 'lk', 'jn']" :key="evangelist">
                 <Citation v-if="section[evangelist as keyof SectionScheme][index - 1] !== null"
                 :citation="section[evangelist as keyof SectionScheme][index - 1] as CitationScheme"
                 :evangelist="evangelist"

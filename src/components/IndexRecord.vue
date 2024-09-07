@@ -47,7 +47,7 @@ export default {
                         </tr>
                     </thead>
                     <tbody class="table-group-divider">
-                        <tr v-for="section in sections">
+                        <tr v-for="section in sections" :key="section.id">
                             <th class="col-lg-1 align-middle text-nowrap" scope="row">
                                 <router-link :to="{ name: 'synopsis', hash: '#' + section.id }">
                                     {{ section.id }}
@@ -58,7 +58,7 @@ export default {
                                     {{ section.section_title }}
                                 </router-link>
                             </td>
-                            <td class="col-lg-1 align-middle" v-for="evangelist in ['mt', 'mk', 'lk', 'jn']">
+                            <td class="col-lg-1 align-middle" v-for="evangelist in ['mt', 'mk', 'lk', 'jn']" :key="evangelist">
                                 <IndexCitation
                                 :citations="section[evangelist as keyof SectionScheme] as Array<CitationScheme>" />
                             </td>

@@ -18,10 +18,10 @@ export default {
 </script>
 
 <template>
-    <p v-for="citation in citations" :class="{
+    <p v-for="(citation, index) in citations" :class="{
         'fw-bold': citation?.leading,
         'text-secondary fw-light': !citation
-    }" class="text-center m-1">
+    }" class="text-center m-1" :key="index">
         {{ !citation ? "-" : synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse,
         citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
     </p>
