@@ -3,12 +3,10 @@ import type { SectionScheme, SynopsisScheme } from '@/interfaces/synopsisInterfa
 import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
 
-import szit from '@/assets/translations/szit.json'
-import esv from '@/assets/translations/esv.json'
+import synopsisSZIT from '@/assets/translations/szit.json'
+import synopsisESV from '@/assets/translations/esv.json'
 import en from '@/assets/languages/en.json'
 import hu from '@/assets/languages/hu.json'
-const synopsisSZIT: SynopsisScheme = szit
-const synopsisESV: SynopsisScheme = esv
 const dictionaryEn: DictionaryScheme = en
 const dictionaryHu: DictionaryScheme = hu
 const dictionary: { [key: string]: DictionaryScheme } = {
@@ -24,7 +22,10 @@ export const useSynopsisStore = defineStore('synopsis', {
             currentLanguage: "hu",
             currentTranslation: "SZIT",
             currentSynopsis: synopsisSZIT,
-            synopses: [synopsisSZIT, synopsisESV]
+            synopses: [
+                synopsisSZIT as SynopsisScheme,
+                synopsisESV as SynopsisScheme
+            ]
         }
     },
     actions: {
