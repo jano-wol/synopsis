@@ -7,7 +7,7 @@ export default {
   props: {
     part: {
       type: Object as PropType<PartScheme>,
-      required: false
+      required: true
     }
   },
   components: {
