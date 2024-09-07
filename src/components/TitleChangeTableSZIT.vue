@@ -48,6 +48,14 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        35. Jézus tanít a kapernaumi zsinagógában
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        35. Jézus tanít a kafarnaumi zsinagógában
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         39. Jézus elhagyja Kapernaumot
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -140,14 +148,6 @@ export default {
                     </td>
                     <td class="col-lg-6 align-middle">
                         290. Itélet Júdea felett
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-lg-6 align-middle">
-                        1. A Gecsemáné kertbe vezető úton
-                    </td>
-                    <td class="col-lg-6 align-middle">
-                        1. A Getszemáni kertbe vezető úton
                     </td>
                 </tr>
                 <tr>
