@@ -77,11 +77,11 @@ export default {
                             <i class="bi bi-globe2 fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <template v-for="synopsis in synopsisStore.synopses" :key="synopsis.language">
-                                <li> <a @click="synopsis.language !== synopsisStore.currentLanguage ? synopsisStore.changeLanguage(synopsis.language) : null"
+                            <template v-for="key in Object.keys(synopsisStore.dictionary)" :key="key">
+                                <li> <a @click="key !== synopsisStore.currentLanguage ? synopsisStore.changeLanguage(key) : null"
                                         class="dropdown-item hoverable text-black"
-                                        :class="synopsis.language === synopsisStore.currentLanguage ? 'bg-dark-subtle' : ''">
-                                        {{ synopsis.language.toUpperCase() }}</a></li>
+                                        :class="key === synopsisStore.currentLanguage ? 'bg-dark-subtle' : ''">
+                                        {{ key.toUpperCase() }}</a></li>
                             </template>
                         </ul>
                     </li>

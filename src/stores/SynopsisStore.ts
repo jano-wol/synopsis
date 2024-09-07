@@ -5,14 +5,8 @@ import router from '../router';
 
 import synopsisSZIT from '@/assets/translations/szit.json'
 import synopsisESV from '@/assets/translations/esv.json'
-import en from '@/assets/languages/en.json'
-import hu from '@/assets/languages/hu.json'
-const dictionaryEn: DictionaryScheme = en
-const dictionaryHu: DictionaryScheme = hu
-const dictionary: { [key: string]: DictionaryScheme } = {
-    en: dictionaryEn,
-    hu: dictionaryHu
-}
+import dictionaryEn from '@/assets/languages/en.json'
+import dictionaryHu from '@/assets/languages/hu.json'
 
 
 export const useSynopsisStore = defineStore('synopsis', {
@@ -22,6 +16,10 @@ export const useSynopsisStore = defineStore('synopsis', {
             currentLanguage: "hu",
             currentTranslation: "SZIT",
             currentSynopsis: synopsisSZIT,
+            dictionary: {
+               hu: dictionaryHu as DictionaryScheme,
+               en: dictionaryEn as DictionaryScheme
+            },
             synopses: [
                 synopsisSZIT as SynopsisScheme,
                 synopsisESV as SynopsisScheme
@@ -33,7 +31,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (this.currentLanguage !== language && this.synopses[synopsisIndex].language === language) {
                     this.currentLanguage = language
-                    this.currentDictionary = dictionary[this.currentLanguage]
+                    this.currentDictionary = this.dictionary[this.currentLanguage as keyof typeof this.dictionary]
 
                     this.currentSynopsis = this.synopses[synopsisIndex]
                     this.currentTranslation = this.currentSynopsis.translation
@@ -67,7 +65,7 @@ export const useSynopsisStore = defineStore('synopsis', {
         setupLanguage(language: string | string[]) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (language === this.synopses[synopsisIndex].language) {
-                    this.currentDictionary = dictionary[language]
+                    this.currentDictionary = this.dictionary[language as keyof typeof this.dictionary]
                     this.currentLanguage = language
                 }
             }
