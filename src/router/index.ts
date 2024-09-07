@@ -9,7 +9,7 @@ import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const languageOptionsRegex = "(hu|en)"
-const translationOptionsRegex = "(SZIT|ESV)"
+const translationOptionsRegex = "(SZIT|ESV|KG)"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
