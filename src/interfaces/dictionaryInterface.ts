@@ -13,7 +13,8 @@ interface MenuScheme {
     index: string,
     about: string, 
     sources: string, 
-    contact: string 
+    contact: string,
+    translations: string
 }
 
 interface TooltipsScheme {

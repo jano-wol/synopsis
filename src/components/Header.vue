@@ -91,11 +91,18 @@ export default {
                             <i class="bi bi-book fs-5 align-middle"></i>
                         </button>
                         <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <h6 class="dropdown-header">{{ synopsisStore.currentDictionary.menu.translations }}</h6>
+                            </li>
                             <template v-for="synopsis in synopsisStore.synopses" :key="synopsis.translation">
-                                <li> <a @click="synopsis.translation !== synopsisStore.currentTranslation ? synopsisStore.changeTranslation(synopsis.translation) : null"
-                                        class="dropdown-item hoverable text-black"
+                                <li>
+                                    <a @click="synopsis.translation !== synopsisStore.currentTranslation ? synopsisStore.changeTranslation(synopsis.translation) : null"
+                                        class="dropdown-item hoverable text-black d-flex justify-content-between"
                                         :class="synopsis.translation === synopsisStore.currentTranslation ? 'bg-dark-subtle' : ''">
-                                        {{ synopsis.translation}}</a></li>
+                                        <span class="me-3">{{ synopsis.name }}</span>
+                                        <span>({{ synopsis.language }})</span>
+                                    </a>
+                                </li>
                             </template>
                         </ul>
                     </li>

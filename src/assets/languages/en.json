@@ -4,7 +4,8 @@
         "index": "Table of content",
         "about": "About",
         "sources": "Sources",
-        "contact": "Contact"
+        "contact": "Contact",
+        "translations": "Translations"
     },
     "tooltips": {
         "share": "Copy share link",
