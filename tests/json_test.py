@@ -12,7 +12,7 @@ def blank_values(json_element):
         return None
 
 
-update_blank_json = False  # In the rare case of json structure change, set this to True, to update the test reference.
+update_blank_json = (sys.argv[3] == "update")
 blank_json_file_path = sys.argv[2]
 with open(blank_json_file_path, 'r') as file:
     blank_json = json.load(file)
@@ -35,7 +35,7 @@ for file in os.listdir(os.fsencode(json_folder)):
             if update_blank_json:
                 with open(blank_json_file_path, 'w') as file_to_update:
                     json.dump(json_loaded, file_to_update, separators=(',', ':'))
-                print(f'{blank_json_file_path} was updated. Test is failed as update_blank_json was set to True')
+                print(f'{blank_json_file_path} was updated. Test is failed as update was called')
                 sys.exit(1)
             if json_loaded != blank_json:
                 print(f'Invalid json= {file_to_check}. error=Not fitting scheme of blank json.({blank_json_file_path})')
