@@ -9,7 +9,7 @@ import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const languageOptionsRegex = "(hu|en)"
-const translationOptionsRegex = "(KG|SZIT|KNB|ESV)"
+const translationOptionsRegex = "(KG|SZIT|KNB|UF|ESV)"
 function defaultLanguage(){
   const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
   if (timeZone === "Europe/Budapest")

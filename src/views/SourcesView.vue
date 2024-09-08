@@ -38,6 +38,11 @@ export default {
                 <a href="https://szentiras.hu/api">szentiras.hu API</a>
             </li>
             <li>
+                Biblia,
+                <a href="https://bibliatarsulat.hu">Magyar Bibliatársulat újfordítású Bibliája (1990)</a>,
+                <a href="https://szentiras.hu/api">szentiras.hu API</a>
+            </li>
+            <li>
                 Bible,
                 <a href="https://www.esv.org/">ESV</a>,
                 <a href="https://api.esv.org/">esv.org API</a>

@@ -6,6 +6,7 @@ import router from '../router';
 import synopsisKG from '@/assets/translations/kg.json'
 import synopsisSZIT from '@/assets/translations/szit.json'
 import synopsisKNB from '@/assets/translations/knb.json'
+import synopsisUF from '@/assets/translations/uf.json'
 import synopsisESV from '@/assets/translations/esv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
@@ -26,6 +27,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisKG as SynopsisScheme,
                 synopsisSZIT as SynopsisScheme,
                 synopsisKNB as SynopsisScheme,
+                synopsisUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme
             ]
         }
