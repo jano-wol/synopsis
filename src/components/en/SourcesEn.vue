@@ -1,10 +1,12 @@
 <script lang="ts">
+import TitleChangeTableKG from '@/components/TitleChangeTableKG.vue'
 import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
 import TitleChangeTableShorter from '@/components/TitleChangeTableShorter.vue'
 
 
 export default {
     components: {
+        TitleChangeTableKG,
         TitleChangeTableSZIT,
         TitleChangeTableShorter
     }
@@ -65,5 +67,11 @@ export default {
             Note: Changes are summarised in the table below.
             <TitleChangeTableSZIT />
         </li>
+        <li>
+            The structural names of Synopsis have been unified with the KG translation.<br>
+            Reason: Unification.<br>
+            Note: Changes are summarised in the table below.
+            <TitleChangeTableKG />
+        </li>        
     </ul>
 </template>

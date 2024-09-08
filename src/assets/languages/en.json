@@ -33,6 +33,7 @@
     },
     "sources": {
         "originalTitle": "Original title",
+        "unifiedKGTitle": "Unified title according to KG",
         "unifiedSZITTitle": "Unified title according to SZIT",
         "shorterTitle": "Shorter title"
     }

@@ -33,6 +33,7 @@
     },
     "sources": {
         "originalTitle": "Eredeti elnevezés",
+        "unifiedKGTitle": "KG fordítás szerinti elnevezés",        
         "unifiedSZITTitle": "SZIT fordítás szerinti elnevezés",
         "shorterTitle": "Rövidített cím"
     }

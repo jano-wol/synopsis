@@ -1,9 +1,11 @@
 <script lang="ts">
+import TitleChangeTableKG from '@/components/TitleChangeTableKG.vue'
 import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
 import TitleChangeTableShorter from '@/components/TitleChangeTableShorter.vue'
 
 export default {
     components: {
+        TitleChangeTableKG,
         TitleChangeTableSZIT,
         TitleChangeTableShorter,
     }
@@ -63,5 +65,11 @@ export default {
             Megjegyzés: Az elnevezések változását az alábbi táblázat foglalja össze.
             <TitleChangeTableSZIT />
         </li>
+        <li>
+            A Szinopszis szerkezeti elnevezései egységesítve lettek a KG fordítás szerinti szóhasználattal.<br>
+            Indoklás: Egységesítés.<br>
+            Megjegyzés: Az elnevezések változását az alábbi táblázat foglalja össze.
+            <TitleChangeTableKG />
+        </li>        
     </ul>
 </template>
