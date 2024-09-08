@@ -30,6 +30,30 @@ export default {
                         10. Menekülés Égyiptomba és visszatérés
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        28. Utazás Judeába
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        28. Utazás Júdeába
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        42. Jézus meggyógyít egy leprást
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        42. Jézus meggyógyít egy bélpoklost
+                    </td>
+                </tr> 
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        43. Jézus meggyógyítja a bénát
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        43. Jézus meggyógyítja a gutaütöttet
+                    </td>
+                </tr>                                                     
             </tbody>
         </table>
     </div>
