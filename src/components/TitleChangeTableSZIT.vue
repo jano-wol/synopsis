@@ -24,6 +24,14 @@ export default {
             <tbody class="table-group-divider">
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        19. Jézus nemzetségi táblázata
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        19. Jézus nemzetségtáblája
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         23. Tartózkodás Kapernaumban
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -70,6 +78,30 @@ export default {
                         48. Jézus sok beteget gyógyít a tó mellett
                     </td>
                 </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        56. A házasságtörésről és a válásról
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        56. A házasságtörésről és a házassági elbocsátásról
+                    </td>
+                </tr>        
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        65. A test lámpása a szem
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        65. A test világa a szem
+                    </td>
+                </tr>      
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        66. Isten és a mammon
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        66. Isten és a Mammon
+                    </td>
+                </tr>                                         
                 <tr>
                     <td class="col-lg-6 align-middle">
                         72. Szoros kapu, keskeny út
@@ -318,6 +350,14 @@ export default {
                         251. Úton Júdeába
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        252. Kérdés a házassági elválásról
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        252. Kérdés a házassági elbocsátásról
+                    </td>
+                </tr>                    
                 <tr>
                     <td class="col-lg-6 align-middle">
                         260. A nagytanács elhatározza Jézus megölését

@@ -40,6 +40,14 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        37. Jézus meggyógyítja Péter anyósát
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        37. Jézus meggyógyítja Simon napát
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         42. Jézus meggyógyít egy leprást
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -60,6 +68,30 @@ export default {
                     </td>
                     <td class="col-lg-6 align-middle">
                         45. Jézus tanítása a bőjtről
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        56. A házasságtörésről és a válásról
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        56. A házasságtörésről és a házassági elbocsátásról
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        63. A böjtölés
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        63. A bőjtölés
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        66. Isten és a mammon
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        66. Isten és a Mammon
                     </td>
                 </tr>
                 <tr>
@@ -94,6 +126,14 @@ export default {
                         87. Jézus meggyógyítja Péter napát
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        91. Jézus meggyógyít két gadarai megszállottat
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        91. Jézus meggyógyít két gadarai ördöngőst
+                    </td>
+                </tr>                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         92. Jézus meggyógyítja a bénát
@@ -324,6 +364,14 @@ export default {
                     </td>
                     <td class="col-lg-6 align-middle">
                         251. Úton Júdeába
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        252. Kérdés a házassági elválásról
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        252. Kérdés a házassági elbocsátásról
                     </td>
                 </tr>
                 <tr>
