@@ -24,6 +24,14 @@ export default {
             <tbody class="table-group-divider">
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        19. Jézus nemzetségi táblázata
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        19. Jézus nemzetségtáblája
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         23. Tartózkodás Kapernaumban
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -48,10 +56,82 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        35. Jézus tanít a kapernaumi zsinagógában
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        35. Jézus tanít a kafarnaumi zsinagógában
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         39. Jézus elhagyja Kapernaumot
                     </td>
                     <td class="col-lg-6 align-middle">
                         39. Jézus elhagyja Kafarnaumot
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        48. Jézus sok beteget gyógyít a tenger mellett
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        48. Jézus sok beteget gyógyít a tó mellett
+                    </td>
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        56. A házasságtörésről és a válásról
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        56. A házasságtörésről és a házassági elbocsátásról
+                    </td>
+                </tr>        
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        65. A test lámpása a szem
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        65. A test világa a szem
+                    </td>
+                </tr>      
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        66. Isten és a mammon
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        66. Isten és a Mammon
+                    </td>
+                </tr>                                         
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        72. Szoros kapu, keskeny út
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        72. Szűk kapu, keskeny út
+                    </td>
+                </tr>  
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        75. Aki kősziklára épít
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        75. Aki sziklára épít
+                    </td>
+                </tr>  
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        76. A Hegyi Beszéd vége
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        76. A hegyi beszéd vége
+                    </td>
+                </tr>                                                               
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        83. Aki kősziklára épít
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        83. Aki sziklára épít
                     </td>
                 </tr>
                 <tr>
@@ -70,6 +150,14 @@ export default {
                         86. Jézus feltámasztja a naimi ifjút
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        90. Jézus lecsendesíti a tengert
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        90. Jézus lecsendesíti a tavat
+                    </td>
+                </tr>                        
                 <tr>
                     <td class="col-lg-6 align-middle">
                         141. Jézus beteget gyógyít szombaton a Betesda tavánál
