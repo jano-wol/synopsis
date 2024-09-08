@@ -6,7 +6,7 @@ Running on [synopticus.org](https://www.synopticus.org/).
 ## Contribution
 All help is welcome!
 
-The main field of upcoming development is adding new Gospel translations. See how to do it in commit [Add new translation](https://github.com/anwolosz/synopsis/commit/5a34c94634247c7652738739e84a58d04c8553c6).
+The main field of upcoming development is adding new Gospel translations. See how to do it in commit [Add new translation](https://github.com/anwolosz/synopsis/commit/92a87e3fd6ee29f74109729fcfd058e175cb1182).
 <!-- Daily reading -->
 
 

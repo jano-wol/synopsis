@@ -9,14 +9,22 @@ import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const languageOptionsRegex = "(hu|en)"
-const translationOptionsRegex = "(SZIT|ESV|KG)"
+const translationOptionsRegex = "(KG|SZIT|KNB|UF|ESV)"
+function defaultLanguage(){
+  const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
+  if (timeZone === "Europe/Budapest")
+  {
+    return "/hu/KG"
+  }
+  return "/en/ESV"
+}
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      redirect: '/hu/SZIT',
+      redirect: defaultLanguage(),
     },
     {
       path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}`,

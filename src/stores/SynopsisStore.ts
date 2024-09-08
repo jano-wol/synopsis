@@ -3,9 +3,11 @@ import type { SectionScheme, SynopsisScheme } from '@/interfaces/synopsisInterfa
 import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
 
-import synopsisSZIT from '@/assets/translations/szit.json'
-import synopsisESV from '@/assets/translations/esv.json'
 import synopsisKG from '@/assets/translations/kg.json'
+import synopsisSZIT from '@/assets/translations/szit.json'
+import synopsisKNB from '@/assets/translations/knb.json'
+import synopsisUF from '@/assets/translations/uf.json'
+import synopsisESV from '@/assets/translations/esv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
 
@@ -15,16 +17,18 @@ export const useSynopsisStore = defineStore('synopsis', {
         return {
             currentDictionary: dictionaryHu,
             currentLanguage: "hu",
-            currentTranslation: "SZIT",
-            currentSynopsis: synopsisSZIT,
+            currentTranslation: "KG",
+            currentSynopsis: synopsisKG,
             dictionary: {
                hu: dictionaryHu as DictionaryScheme,
                en: dictionaryEn as DictionaryScheme
             },
             synopses: [
+                synopsisKG as SynopsisScheme,
                 synopsisSZIT as SynopsisScheme,
-                synopsisESV as SynopsisScheme,
-                synopsisKG as SynopsisScheme
+                synopsisKNB as SynopsisScheme,
+                synopsisUF as SynopsisScheme,
+                synopsisESV as SynopsisScheme
             ]
         }
     },
