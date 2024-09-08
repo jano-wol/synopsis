@@ -33,6 +33,11 @@ export default {
                 <a href="https://szentiras.hu/api">szentiras.hu API</a>
             </li>
             <li>
+                Biblia,
+                <a href="https://www.biblia-tarsulat.hu/">Káldi-Neovulgáta</a>,
+                <a href="https://szentiras.hu/api">szentiras.hu API</a>
+            </li>
+            <li>
                 Bible,
                 <a href="https://www.esv.org/">ESV</a>,
                 <a href="https://api.esv.org/">esv.org API</a>
