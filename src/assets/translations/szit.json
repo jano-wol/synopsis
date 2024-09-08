@@ -11919,7 +11919,7 @@
                 },
                 {
                     "id": "125",
-                    "section_title": "„Ha valakinek van füle a hallásra, hallja!”",
+                    "section_title": "„Akinek van füle a hallásra, hallja meg!”",
                     "mt": [
                         {
                             "leading": false,
@@ -15387,7 +15387,7 @@
                 },
                 {
                     "id": "155",
-                    "section_title": "„Őrizkedjetek a farizeusok kovászától!”",
+                    "section_title": "„Óvakodjatok a farizeusok kovászától!”",
                     "mt": [
                         {
                             "leading": true,
@@ -17700,7 +17700,7 @@
                 },
                 {
                     "id": "183",
-                    "section_title": "Az irgalmas samaritánus",
+                    "section_title": "Az irgalmas szamariai",
                     "mt": [
                         null
                     ],
@@ -20541,7 +20541,7 @@
                 },
                 {
                     "id": "222",
-                    "section_title": "A hamis sáfár",
+                    "section_title": "A hamis intéző",
                     "mt": [
                         null
                     ],
@@ -30137,7 +30137,7 @@
                 },
                 {
                     "id": "318",
-                    "section_title": "A másik Pártfogó igérete",
+                    "section_title": "A másik vígasztaló igérete",
                     "mt": [
                         null
                     ],
@@ -30217,7 +30217,7 @@
                 },
                 {
                     "id": "319",
-                    "section_title": "„Békességet hagyok nektek”",
+                    "section_title": "„Békességet hagyok rátok”",
                     "mt": [
                         null
                     ],
@@ -30447,7 +30447,7 @@
                 },
                 {
                     "id": "323",
-                    "section_title": "A Pártfogó bizonyságtétele",
+                    "section_title": "A Vígasztaló tanúságtétele",
                     "mt": [
                         null
                     ],
@@ -32949,7 +32949,7 @@
                 },
                 {
                     "id": "346",
-                    "section_title": "A két lator",
+                    "section_title": "A két gonosztevő",
                     "mt": [
                         {
                             "leading": true,

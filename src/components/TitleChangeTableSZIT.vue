@@ -80,12 +80,28 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        125. „Ha valakinek van füle a hallásra, hallja!”
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        125. „Akinek van füle a hallásra, hallja meg!”
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         141. Jézus beteget gyógyít szombaton a Betesda tavánál
                     </td>
                     <td class="col-lg-6 align-middle">
                         141. Jézus beteget gyógyít szombaton a Beteszda tavánál
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        155. „Őrizkedjetek a farizeusok kovászától!”
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        155. „Óvakodjatok a farizeusok kovászától!”
+                    </td>
+                </tr>                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         156. A bétsaidai vak meggyógyítása
@@ -104,6 +120,14 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        183. Az irgalmas samaritánus
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        183. Az irgalmas szamariai
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         188. Jézust Belzebub szövetségesének mondják
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -118,6 +142,14 @@ export default {
                         220. Az elveszett drachma
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        220. A hamis sáfár
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        220. A hamis intéző
+                    </td>
+                </tr>                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         XI. Jézus a lombsátor-ünnepen Jeruzsálemben (János szerint)
@@ -152,6 +184,31 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        318. A másik Pártfogó igérete
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        318. A másik vígasztaló igérete
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        319. „Békességet hagyok nektek”
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        319. „Békességet hagyok rátok”
+                    </td>
+                </tr>  
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        323. A Pártfogó bizonyságtétele
+
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        323. A Vígasztaló tanúságtétele
+                    </td>
+                </tr>                                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         330. A Gecsemáné kertben
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -166,6 +223,14 @@ export default {
                         339. Jézus és Barabás
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        346. A két lator
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        346. A két gonosztevő
+                    </td>
+                </tr>                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         355. Jézus megjelenik két tanítványnak az emmausi úton
