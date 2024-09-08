@@ -9,14 +9,14 @@ import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const languageOptionsRegex = "(hu|en)"
-const translationOptionsRegex = "(SZIT|ESV|KG)"
+const translationOptionsRegex = "(KG|ESV|SZIT)"
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      redirect: '/hu/SZIT',
+      redirect: '/hu/KG',
     },
     {
       path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}`,
