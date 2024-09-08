@@ -1,10 +1,12 @@
 <script lang="ts">
+import TitleChangeTableKG from '@/components/TitleChangeTableKG.vue'
 import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
 import TitleChangeTableShorter from '@/components/TitleChangeTableShorter.vue'
 
 
 export default {
     components: {
+        TitleChangeTableKG,
         TitleChangeTableSZIT,
         TitleChangeTableShorter
     }
