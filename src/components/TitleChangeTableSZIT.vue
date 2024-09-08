@@ -149,7 +149,15 @@ export default {
                     <td class="col-lg-6 align-middle">
                         125. „Akinek van füle a hallásra, hallja meg!”
                     </td>
-                </tr>                
+                </tr>    
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        136. Jézus lecsendesíti a tengert
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        136. Jézus lecsendesíti a tavat
+                    </td>
+                </tr>                            
                 <tr>
                     <td class="col-lg-6 align-middle">
                         141. Jézus beteget gyógyít szombaton a Betesda tavánál
@@ -158,6 +166,14 @@ export default {
                         141. Jézus beteget gyógyít szombaton a Beteszda tavánál
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        147. Jézus a tengeren jár
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        147. Jézus a vízen jár
+                    </td>
+                </tr>                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         155. „Őrizkedjetek a farizeusok kovászától!”
@@ -176,12 +192,28 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        170. Testvériség a gyülekezetben
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        170. Testvériség az egyházban
+                    </td>
+                </tr>                                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         175. Jézust nem fogadják be egy samáriai faluban
                     </td>
                     <td class="col-lg-6 align-middle">
                         175. Jézust nem fogadják be egy szamáriai faluban
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        182. A nagy parancsolat
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        182. A főparancs
+                    </td>
+                </tr>                 
                 <tr>
                     <td class="col-lg-6 align-middle">
                         183. Az irgalmas samaritánus
@@ -200,6 +232,38 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        192. Példázat a lámpásról
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        192. Példázat a világról
+                    </td>
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        193. A test lámpása a szem
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        193. A test világa a szem
+                    </td>
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        195. „Óvakodjatok a farizeusok kovászától!”
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        195. „Óvakodjatok a farizeusok kovászától”
+                    </td>
+                </tr>     
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        200. A bolond gazdag
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        200. Az esztelen gazdag
+                    </td>
+                </tr>                                              
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         220. Az elveszett drahma
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -208,12 +272,36 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
-                        220. A hamis sáfár
+                        222. A hamis sáfár
                     </td>
                     <td class="col-lg-6 align-middle">
-                        220. A hamis intéző
+                        222. A hamis intéző
                     </td>
-                </tr>                
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        223. Hűség a kevésen
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        223. Hűség a kicsiben
+                    </td>
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        227. A válás tilalma
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        227. Az elbocsátás tilalma
+                    </td>
+                </tr>      
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        237. A farizeus és a vámszedő
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        237. A farizeus és a vámos
+                    </td>
+                </tr>                             
                 <tr>
                     <td class="col-lg-6 align-middle">
                         XI. Jézus a lombsátor-ünnepen Jeruzsálemben (János szerint)
@@ -232,12 +320,52 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        260. A nagytanács elhatározza Jézus megölését
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        260. A főtanács elhatározza Jézus megölését
+                    </td>
+                </tr>                   
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         265. Zákeus
                     </td>
                     <td class="col-lg-6 align-middle">
                         265. Zakeus
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        268. A nagytanács elhatározza Lázár megölését
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        268. A főtanács elhatározza Lázár megölését
+                    </td>
+                </tr>                  
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        272. A fügefa elszáradása
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        272. A fügefa kiszáradása
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        275. A fügefa elszáradása
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        275. A fügefa kiszáradása
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        282. A nagy parancsolat
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        282. A főparancs
+                    </td>
+                </tr>                                                                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         290. Itélet Judea felett
@@ -248,10 +376,42 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        291. Jézus figyelmeztet a hamis prófétákra
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        291. Jézus figyelmeztet az álprófétákra
+                    </td>
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        297. Az okos és a gonosz szolga
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        297. Az okos és a hitvány szolga
+                    </td>
+                </tr>    
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        311. Az úrvacsora
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        311. Az utolsó vacsora
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        314. Az új parancsolat
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        314. Az új parancs
+                    </td>
+                </tr>                              
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         318. A másik Pártfogó igérete
                     </td>
                     <td class="col-lg-6 align-middle">
-                        318. A másik vígasztaló igérete
+                        318. A másik vigasztaló igérete
                     </td>
                 </tr>
                 <tr>
@@ -265,12 +425,19 @@ export default {
                 <tr>
                     <td class="col-lg-6 align-middle">
                         323. A Pártfogó bizonyságtétele
-
                     </td>
                     <td class="col-lg-6 align-middle">
-                        323. A Vígasztaló tanúságtétele
+                        323. A Vigasztaló tanúságtétele
                     </td>
-                </tr>                                
+                </tr>    
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        328. Jézus megjövendöli a tanítványok elszéledését
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        328. Jézus megjövendöli a tanítványok szétszéledését
+                    </td>
+                </tr>                              
                 <tr>
                     <td class="col-lg-6 align-middle">
                         330. A Gecsemáné kertben
@@ -281,12 +448,36 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        332. Jézus a nagytanács előtt (Péter tagadása)
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        332. Jézus a főtanács előtt (Péter tagadása)
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         339. Jézus és Barabbás
                     </td>
                     <td class="col-lg-6 align-middle">
                         339. Jézus és Barabás
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        344. Jézus megfeszítése
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        344. Jézus keresztre feszítése
+                    </td>
+                </tr>    
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        345. A megfeszített gyalázása
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        345. A keresztre feszített gyalázása
+                    </td>
+                </tr>                             
                 <tr>
                     <td class="col-lg-6 align-middle">
                         346. A két lator
@@ -309,7 +500,7 @@ export default {
                         360. Jézus megjelenik a tanítványoknak a Tibériás tengernél
                     </td>
                     <td class="col-lg-6 align-middle">
-                        360. Jézus megjelenik a tanítványoknak a Tibériás tavánál
+                        360. Jézus megjelenik a tanítványoknak Tibériás tavánál
                     </td>
                 </tr>
                 <tr>
@@ -317,7 +508,7 @@ export default {
                         367. A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél
                     </td>
                     <td class="col-lg-6 align-middle">
-                        367. A második, János szerinti befejezés: Jézus megjelenik a Tibérias tavánál
+                        367. A második, János szerinti befejezés: Jézus megjelenik Tibériás tavánál
                     </td>
                 </tr>
             </tbody>
