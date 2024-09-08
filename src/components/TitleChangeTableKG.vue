@@ -304,6 +304,14 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        204. Meghasonlás az evangélium miatt
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        204. Meghasonlás az evangyéliom miatt
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         212. Jézus üzen Herodesnek
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -355,7 +363,7 @@ export default {
                         XI. Jézus a lombsátor-ünnepen Jeruzsálemben (János szerint)
                     </td>
                     <td class="col-lg-6 align-middle">
-                       XI. Jézus a sátoros ünnepen Jeruzsálemben (János szerint)
+                        XI. Jézus a sátoros ünnepen Jeruzsálemben (János szerint)
                     </td>
                 </tr>
                 <tr>
@@ -542,6 +550,22 @@ export default {
                         343. Jézus útja a Golgothára
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        XVIII. Az evangéliumok befejezései
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        XVIII. Az evangyéliomok befejezései
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        366. Az első, János szerinti befejezés: az evangélium célja
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        366. Az első, János szerinti befejezés: az evangyéliom célja
+                    </td>
+                </tr>                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         367. A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél.
