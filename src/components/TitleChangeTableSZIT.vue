@@ -64,6 +64,46 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        48. Jézus sok beteget gyógyít a tenger mellett
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        48. Jézus sok beteget gyógyít a tó mellett
+                    </td>
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        72. Szoros kapu, keskeny út
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        72. Szűk kapu, keskeny út
+                    </td>
+                </tr>  
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        75. Aki kősziklára épít
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        75. Aki sziklára épít
+                    </td>
+                </tr>  
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        76. A Hegyi Beszéd vége
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        76. A hegyi beszéd vége
+                    </td>
+                </tr>                                                               
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        83. Aki kősziklára épít
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        83. Aki sziklára épít
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         85. Jézus meggyógyítja a kapernaumi százados szolgáját
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -78,6 +118,30 @@ export default {
                         86. Jézus feltámasztja a naimi ifjút
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        90. Jézus lecsendesíti a tengert
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        90. Jézus lecsendesíti a tavat
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        112. Jézus meggyógyítja a sorvadt kezűt szombaton
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        112. Jézus meggyógyítja a béna kezűt szombaton
+                    </td>
+                </tr> 
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        113. Jézus sok beteget gyógyít a tenger mellett
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        113. Jézus sok beteget gyógyít a tó mellett
+                    </td>
+                </tr>                                  
                 <tr>
                     <td class="col-lg-6 align-middle">
                         125. „Ha valakinek van füle a hallásra, hallja!”
