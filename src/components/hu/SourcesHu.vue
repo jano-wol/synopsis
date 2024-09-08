@@ -85,5 +85,11 @@ export default {
             Megjegyzés: Az elnevezések változását az alábbi táblázat foglalja össze.
             <TitleChangeTableSZIT />
         </li>
+        <li>
+            A Szinopszis szerkezeti elnevezései egységesítve lettek a KG fordítás szerinti szóhasználattal.<br>
+            Indoklás: Egységesítés.<br>
+            Megjegyzés: Az elnevezések változását az alábbi táblázat foglalja össze.
+            <TitleChangeTableKG />
+        </li>        
     </ul>
 </template>
