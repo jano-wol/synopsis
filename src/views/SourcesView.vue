@@ -24,6 +24,11 @@ export default {
         <ul>
             <li>
                 Biblia,
+                Károli Gáspár revideált,
+                <a href="https://szentiras.hu/api">szentiras.hu API</a>
+            </li>
+            <li>
+                Biblia,
                 <a href="https://szentistvantarsulat.hu/">Szent István Társulat</a>,
                 <a href="https://szentiras.hu/api">szentiras.hu API</a>
             </li>
