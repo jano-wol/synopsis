@@ -24,6 +24,14 @@ export default {
             <tbody class="table-group-divider">
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        14. Keresztelő János megtérésre hívó beszéde
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        14. Keresztelő János bűnbánatra hívó beszéde
+                    </td>
+                </tr>            
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         19. Jézus nemzetségi táblázata
                     </td>
                     <td class="col-lg-6 align-middle">
