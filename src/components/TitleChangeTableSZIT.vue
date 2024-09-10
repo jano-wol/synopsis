@@ -29,7 +29,15 @@ export default {
                     <td class="col-lg-6 align-middle">
                         14. Keresztelő János bűnbánatra hívó beszéde
                     </td>
-                </tr>            
+                </tr>      
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        16. Keresztelő János bizonyságtétele a Messiásról
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        16. Keresztelő János tanúságtétele a Messiásról
+                    </td>
+                </tr>         
                 <tr>
                     <td class="col-lg-6 align-middle">
                         19. Jézus nemzetségi táblázata
@@ -54,6 +62,14 @@ export default {
                         28. Utazás Júdeába
                     </td>
                 </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        29. Keresztelő János bizonyságtétele
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        29. Keresztelő János tanúságtétele
+                    </td>
+                </tr>                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         31. Jézus és a samáriai asszony
