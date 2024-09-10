@@ -187,7 +187,7 @@ export default {
                         90. Jézus lecsendesíti a tengert
                     </td>
                     <td class="col-lg-6 align-middle">
-                        90. Jézus lecsendesíti a tavat
+                        90. Jézus lecsendesíti a vihart
                     </td>
                 </tr>
                 <tr>
@@ -259,7 +259,7 @@ export default {
                         136. Jézus lecsendesíti a tengert
                     </td>
                     <td class="col-lg-6 align-middle">
-                        136. Jézus lecsendesíti a tavat
+                        136. Jézus lecsendesíti a vihart
                     </td>
                 </tr>                            
                 <tr>
