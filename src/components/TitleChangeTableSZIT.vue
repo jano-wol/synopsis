@@ -221,7 +221,15 @@ export default {
                     <td class="col-lg-6 align-middle">
                         117. Jézust Beelzebul szövetségesének mondják
                     </td>
-                </tr>                                                  
+                </tr> 
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        124. A magvetőről szóló példázat magyarázata
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        124. A magvetőről szóló példabeszéd magyarázata
+                    </td>
+                </tr>                                                                  
                 <tr>
                     <td class="col-lg-6 align-middle">
                         125. „Ha valakinek van füle a hallásra, hallja!”
@@ -229,7 +237,23 @@ export default {
                     <td class="col-lg-6 align-middle">
                         125. „Akinek van füle a hallásra, hallja meg!”
                     </td>
-                </tr>    
+                </tr>  
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        130. Jézus példázatairól 
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        130. Jézus példabeszédeiről
+                    </td>
+                </tr> 
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        131. A búza és a konkoly példázatának értelme
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        131. A búza és a konkoly példabeszédének értelme
+                    </td>
+                </tr>                                    
                 <tr>
                     <td class="col-lg-6 align-middle">
                         136. Jézus lecsendesíti a tengert
@@ -301,7 +325,15 @@ export default {
                     <td class="col-lg-6 align-middle">
                         183. Az irgalmas szamariai
                     </td>
-                </tr>                
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        186. Példázat a sürgős kérésről
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        186. Példabeszéd a sürgős kérésről
+                    </td>
+                </tr>                                
                 <tr>
                     <td class="col-lg-6 align-middle">
                         188. Jézust Belzebub szövetségesének mondják
@@ -312,10 +344,10 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
-                        192. Példázat a lámpásról
+                        192. Példabeszéd a lámpásról
                     </td>
                     <td class="col-lg-6 align-middle">
-                        192. Példázat a világról
+                        192. Példabeszéd a világról
                     </td>
                 </tr>   
                 <tr>
@@ -448,6 +480,14 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        277. A két testvér példázata
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        277. A két testvér példabeszéde
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         282. A nagy parancsolat
                     </td>
                     <td class="col-lg-6 align-middle">
@@ -469,7 +509,23 @@ export default {
                     <td class="col-lg-6 align-middle">
                         291. Jézus figyelmeztet az álprófétákra
                     </td>
-                </tr>   
+                </tr>  
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        293. Jézus visszajövetelének időpontja, példázat a fügefáról
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        293. Jézus visszajövetelének időpontja, példabeszéd a fügefáról
+                    </td>
+                </tr>                   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        296. Példázat vízözönről és intés éberségre
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        296. Példabeszéd vízözönről és intés éberségre
+                    </td>
+                </tr>                 
                 <tr>
                     <td class="col-lg-6 align-middle">
                         297. Az okos és a gonosz szolga
