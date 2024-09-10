@@ -85,7 +85,15 @@ export default {
                     <td class="col-lg-6 align-middle">
                         35. Jézus tanít a kafarnaumi zsinagógában
                     </td>
-                </tr>                
+                </tr>   
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        37. Jézus meggyógyítja Péter anyósát
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        37. Jézus meggyógyítja Simon anyósát
+                    </td>
+                </tr>                  
                 <tr>
                     <td class="col-lg-6 align-middle">
                         39. Jézus elhagyja Kapernaumot
