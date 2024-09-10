@@ -213,7 +213,15 @@ export default {
                     <td class="col-lg-6 align-middle">
                         113. Jézus sok beteget gyógyít a tó mellett
                     </td>
-                </tr>                                  
+                </tr>
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        117. Jézust Belzebub szövetségesének mondják
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        117. Jézust Beelzebul szövetségesének mondják
+                    </td>
+                </tr>                                                  
                 <tr>
                     <td class="col-lg-6 align-middle">
                         125. „Ha valakinek van füle a hallásra, hallja!”
