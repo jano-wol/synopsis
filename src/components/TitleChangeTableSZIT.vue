@@ -253,7 +253,15 @@ export default {
                     <td class="col-lg-6 align-middle">
                         131. A búza és a konkoly példabeszédének értelme
                     </td>
-                </tr>                                    
+                </tr>    
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        134. A gazda
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        134. A házigazda
+                    </td>
+                </tr>                                                   
                 <tr>
                     <td class="col-lg-6 align-middle">
                         136. Jézus lecsendesíti a tengert
