@@ -10,7 +10,7 @@ def get_change_table_path(components_folder, translation):
     return components_folder + 'TitleChangeTable' + translation + '.vue'
 
 
-def getIdAndTitle(table_element):
+def get_id_and_title(table_element):
     a, b = table_element.split(' ', 1)
     return a, b
 
@@ -41,8 +41,8 @@ def read_overwritten_titles(components_folder, translation):
         if len(row) != 2:
             print(f'Change table row contains other than two elements. path={path} row={row}')
             sys.exit(1)
-        id1, title1 = getIdAndTitle(row[0])
-        id2, title2 = getIdAndTitle(row[1])
+        id1, title1 = get_id_and_title(row[0])
+        id2, title2 = get_id_and_title(row[1])
         if id1 != id2:
             print(f'Change table row contains different ids. id1={id1} id2={id2} path={path} row={row}')
             sys.exit(1)
@@ -92,7 +92,7 @@ def perform_title_check(id1, json_title, default_titles, overwritten_titles, tra
 def check_json_titles(json_loaded, default_titles, overwritten_titles, translation):
     for p in json_loaded['parts']:
         part_title = p['part_title']
-        id1, json_title = getIdAndTitle(part_title)
+        id1, json_title = get_id_and_title(part_title)
         perform_title_check(id1, json_title, default_titles, overwritten_titles, translation)
         for s in p['sections']:
             id1 = s['id'] + '.'
