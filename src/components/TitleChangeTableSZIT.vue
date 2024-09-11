@@ -352,7 +352,7 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
-                        192. Példabeszéd a lámpásról
+                        192. Példázat a lámpásról
                     </td>
                     <td class="col-lg-6 align-middle">
                         192. Példabeszéd a világról
