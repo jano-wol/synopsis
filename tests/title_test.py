@@ -99,7 +99,22 @@ def check_json_titles(json_loaded, default_titles, overwritten_titles, translati
 
 
 
-def update():
+def update(json_loaded, default_titles, components_folder, translation):
+    changes = []
+    for p in json_loaded['parts']:
+        part_title = p['part_title']
+        id1, json_title = get_id_and_title(part_title)
+        default_title = default_titles[id1]
+        if default_title != json_title:
+            changes.append([id1 + ' ' + default_title, id1 + ' ' + json_title])
+        for s in p['sections']:
+            id1 = s['id'] + '.'
+            json_title = s['section_title']
+            default_title = default_titles[id1]
+            if default_title != json_title:
+                changes.append([id1 + ' ' + default_title, id1 + ' ' + json_title])
+    if not changes:
+        return
     vue_content = """
 <!-- Generated file, update it by calling locally: ./tests/test.sh update -->
 <script lang="ts">
@@ -126,39 +141,23 @@ export default {
                 </tr>
             </thead>
             <tbody class="table-group-divider">
-                <tr>
-                    <td class="col-lg-6 align-middle">
-                        23. Tartózkodás Kapernaumban
-                    </td>
-                    <td class="col-lg-6 align-middle">
-                        23. Tartózkodás Kafarnaumban
-                    </td>
-                </tr>
-                <!-- More rows... -->
             </tbody>
         </table>
     </div>
 </template>
 """
-
-
     soup = BeautifulSoup(vue_content, 'html.parser')
-
-
-    first_row = soup.find('tbody').find_all('tr')[0]
-    first_cell = first_row.find_all('td')[0]
-    first_cell.string = "23. Modified Location"
-
-    new_row = soup.new_tag('tr')
-    new_cell1 = soup.new_tag('td', attrs={"class": "col-lg-6 align-middle"})
-    new_cell1.string = "400. New Event"
-    new_cell2 = soup.new_tag('td', attrs={"class": "col-lg-6 align-middle"})
-    new_cell2.string = "400. New Event Description"
-    new_row.append(new_cell1)
-    new_row.append(new_cell2)
-    soup.find('tbody').append(new_row)
-
-    with open('ModifiedComponent.vue', 'w') as file:
+    for change in changes:
+        new_row = soup.new_tag('tr')
+        new_cell1 = soup.new_tag('td', attrs={"class": "col-lg-6 align-middle"})
+        new_cell1.string = change[0]
+        new_cell2 = soup.new_tag('td', attrs={"class": "col-lg-6 align-middle"})
+        new_cell2.string = change[1]
+        new_row.append(new_cell1)
+        new_row.append(new_cell2)
+        soup.find('tbody').append(new_row)
+    path = get_change_table_path(components_folder, translation)
+    with open(path, 'w') as file:
         file.write(soup.prettify())
 
 
@@ -191,7 +190,7 @@ def main():
             if json_loaded['language'] in titles_json:
                 default_titles = titles_json[json_loaded['language']]
                 if update_vue:
-                    pass
+                    update(json_loaded, default_titles, components_folder, translation)
                 else:
                     overwritten_titles = read_overwritten_titles(components_folder, translation)
                     check_overwritten(default_titles, overwritten_titles, translation)
