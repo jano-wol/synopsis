@@ -144,14 +144,6 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
-                        1. A Gecsemáné kertbe vezető úton
-                    </td>
-                    <td class="col-lg-6 align-middle">
-                        1. A Getszemáni kertbe vezető úton
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-lg-6 align-middle">
                         330. A Gecsemáné kertben
                     </td>
                     <td class="col-lg-6 align-middle">
