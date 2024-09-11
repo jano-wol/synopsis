@@ -3,7 +3,7 @@ import os
 import sys
 from bs4 import BeautifulSoup
 
-tested_translations = ['KG', 'SZIT', 'ESV']
+tested_translations = ['ESV', 'KG', 'KNB', 'SZIT', 'UF']
 
 
 def getIdAndTitle(table_element):
@@ -84,6 +84,26 @@ def check_json_titles(json_loaded, default_titles, overwritten_titles, translati
             if json_title != overwritten_title:
                 print(f'json title is not equal to overwritten_title. Part title contradicts TitleChangeTable{translation}.vue. id={id1} json_title={json_title} overwritten_title.={overwritten_title} translation={translation}')
                 sys.exit(1)
+        for s in  p['sections']:
+            id1 = s['id'] + '.'
+            json_title = s['section_title']
+            if overwritten_titles is None or id1 not in overwritten_titles:
+                if id1 not in default_titles:
+                    print(
+                        f'json id is not found in default. id={id1} section_title={part_title} translation={translation}')
+                    sys.exit(1)
+                default_title = default_titles[id1]
+                if json_title != default_title:
+                    print(
+                        f'json title is not equal to default_title, but the change was not mentioned in TitleChangeTable{translation}.vue. id={id1} json_title={json_title} default_title={default_title} translation={translation}')
+                    sys.exit(1)
+            else:
+                overwritten_title = overwritten_titles[id1][1]
+                if json_title != overwritten_title:
+                    print(
+                        f'json_title is not equal to overwritten_title. Part title contradicts TitleChangeTable{translation}.vue. id={id1} json_title={json_title} overwritten_title.={overwritten_title} translation={translation}')
+                    sys.exit(1)
+
 
 
 def main():
