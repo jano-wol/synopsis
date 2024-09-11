@@ -184,6 +184,14 @@ export default {
                 </tr>
                 <tr>
                     <td class="col-lg-6 align-middle">
+                        118. A Szentlélek elleni bűn
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        118. A Szent Lélek elleni bűn
+                    </td>
+                </tr>                
+                <tr>
+                    <td class="col-lg-6 align-middle">
                         122. Példabeszéd a magvetőről
                     </td>
                     <td class="col-lg-6 align-middle">
