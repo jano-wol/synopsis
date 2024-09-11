@@ -1,9 +1,7 @@
+from bs4 import BeautifulSoup
 import json
 import os
 import sys
-from bs4 import BeautifulSoup
-
-tested_translations = ['ESV', 'KG', 'KNB', 'SZIT', 'UF']
 
 
 def get_change_table_path(components_folder, translation):
@@ -117,7 +115,7 @@ def main():
                     print(f'Invalid json= {file_to_check}. error={e}')
                     sys.exit(1)
             translation = json_loaded['translation']
-            if translation in tested_translations:
+            if json_loaded['language'] in titles_json:
                 default_titles = titles_json[json_loaded['language']]
                 overwritten_titles = read_overwritten_titles(components_folder, translation)
                 check_overwritten(default_titles, overwritten_titles, translation)
