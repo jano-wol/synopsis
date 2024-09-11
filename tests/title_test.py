@@ -98,7 +98,6 @@ def check_json_titles(json_loaded, default_titles, overwritten_titles, translati
             perform_title_check(id1, json_title, default_titles, overwritten_titles, translation)
 
 
-
 def update(json_loaded, default_titles, components_folder, translation):
     changes = []
     for p in json_loaded['parts']:
@@ -159,14 +158,6 @@ export default {
     path = get_change_table_path(components_folder, translation)
     with open(path, 'w') as file:
         file.write(soup.prettify())
-
-
-
-
-
-
-
-
 
 
 def main():
