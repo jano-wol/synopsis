@@ -291,7 +291,7 @@ export default {
                         195. „Óvakodjatok a farizeusok kovászától!”
                     </td>
                     <td class="col-lg-6 align-middle">
-                        195. „Oltalmazzátok meg magatokat a farizeusok kovászától”
+                        195. „Oltalmazzátok meg magatokat a farizeusok kovászától!”
                     </td>
                 </tr>
                 <tr>
