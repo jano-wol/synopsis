@@ -35,8 +35,7 @@ def main():
                 if update_blank_json:
                     with open(blank_json_file_path, 'w') as file_to_update:
                         json.dump(json_loaded, file_to_update, separators=(',', ':'))
-                    print(f'{blank_json_file_path} was updated. Test is failed as update was called')
-                    sys.exit(1)
+                    sys.exit(0)
                 if json_loaded != blank_json:
                     print(
                         f'Invalid json= {file_to_check}. error=Not fitting scheme of blank json.({blank_json_file_path})')

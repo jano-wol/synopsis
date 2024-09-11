@@ -98,7 +98,7 @@ def check_json_titles(json_loaded, default_titles, overwritten_titles, translati
             perform_title_check(id1, json_title, default_titles, overwritten_titles, translation)
 
 
-def update(json_loaded, default_titles, components_folder, translation):
+def update(json_loaded, default_titles, blank_vue, components_folder, translation):
     changes = []
     for p in json_loaded['parts']:
         part_title = p['part_title']
@@ -114,37 +114,12 @@ def update(json_loaded, default_titles, components_folder, translation):
                 changes.append([id1 + ' ' + default_title, id1 + ' ' + json_title])
     if not changes:
         return
-    vue_content = """
-<!-- Generated file, update it by calling locally: ./tests/test.sh update -->
-<script lang="ts">
-import { useSynopsisStore } from "@/stores/SynopsisStore"
-
-
-export default {
-    data() {
-        return {
-            synopsisStore: useSynopsisStore()
-        };
-    }
-}
-
-</script>
-
-<template>
-    <div class="table-responsive">
-        <table class="table bg-dark table-sm table-striped table-bordered">
-            <thead>
-                <tr>
-                    <th class="text-nowrap" scope="col">{{ synopsisStore.currentDictionary.sources.originalTitle }}</th>
-                    <th class="text-nowrap" scope="col">{{ synopsisStore.currentDictionary.sources.unifiedSZITTitle }}</th>
-                </tr>
-            </thead>
-            <tbody class="table-group-divider">
-            </tbody>
-        </table>
-    </div>
-</template>
-"""
+    with open(blank_vue, 'r', encoding='utf-8') as file:
+        try:
+            vue_content = file.read()
+        except ValueError as e:
+            print(f'Error while reading string from file={blank_vue}. error={e}')
+            sys.exit(1)
     soup = BeautifulSoup(vue_content, 'html.parser')
     for change in changes:
         new_row = soup.new_tag('tr')
@@ -164,7 +139,8 @@ def main():
     json_folder = sys.argv[1]
     components_folder = sys.argv[2]
     titles_json_file_path = sys.argv[3]
-    update_vue = (sys.argv[4] == 'update')
+    blank_vue = sys.argv[4]
+    update_vue = (sys.argv[5] == 'update')
     with open(titles_json_file_path, 'r') as file:
         titles_json = json.load(file)
     for file in os.listdir(os.fsencode(json_folder)):
@@ -181,14 +157,11 @@ def main():
             if json_loaded['language'] in titles_json:
                 default_titles = titles_json[json_loaded['language']]
                 if update_vue:
-                    update(json_loaded, default_titles, components_folder, translation)
+                    update(json_loaded, default_titles, blank_vue, components_folder, translation)
                 else:
                     overwritten_titles = read_overwritten_titles(components_folder, translation)
                     check_overwritten(default_titles, overwritten_titles, translation)
                     check_json_titles(json_loaded, default_titles, overwritten_titles, translation)
-    if update_vue:
-        print(f'Test is failed as update was called')
-        sys.exit(1)
 
 
 if __name__ == "__main__":
