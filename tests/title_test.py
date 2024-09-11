@@ -98,10 +98,83 @@ def check_json_titles(json_loaded, default_titles, overwritten_titles, translati
             perform_title_check(id1, json_title, default_titles, overwritten_titles, translation)
 
 
+
+def update():
+    vue_content = """
+<!-- Generated file, update it by calling locally: ./tests/test.sh update -->
+<script lang="ts">
+import { useSynopsisStore } from "@/stores/SynopsisStore"
+
+
+export default {
+    data() {
+        return {
+            synopsisStore: useSynopsisStore()
+        };
+    }
+}
+
+</script>
+
+<template>
+    <div class="table-responsive">
+        <table class="table bg-dark table-sm table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th class="text-nowrap" scope="col">{{ synopsisStore.currentDictionary.sources.originalTitle }}</th>
+                    <th class="text-nowrap" scope="col">{{ synopsisStore.currentDictionary.sources.unifiedSZITTitle }}</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td class="col-lg-6 align-middle">
+                        23. Tartózkodás Kapernaumban
+                    </td>
+                    <td class="col-lg-6 align-middle">
+                        23. Tartózkodás Kafarnaumban
+                    </td>
+                </tr>
+                <!-- More rows... -->
+            </tbody>
+        </table>
+    </div>
+</template>
+"""
+
+
+    soup = BeautifulSoup(vue_content, 'html.parser')
+
+
+    first_row = soup.find('tbody').find_all('tr')[0]
+    first_cell = first_row.find_all('td')[0]
+    first_cell.string = "23. Modified Location"
+
+    new_row = soup.new_tag('tr')
+    new_cell1 = soup.new_tag('td', attrs={"class": "col-lg-6 align-middle"})
+    new_cell1.string = "400. New Event"
+    new_cell2 = soup.new_tag('td', attrs={"class": "col-lg-6 align-middle"})
+    new_cell2.string = "400. New Event Description"
+    new_row.append(new_cell1)
+    new_row.append(new_cell2)
+    soup.find('tbody').append(new_row)
+
+    with open('ModifiedComponent.vue', 'w') as file:
+        file.write(soup.prettify())
+
+
+
+
+
+
+
+
+
+
 def main():
     json_folder = sys.argv[1]
     components_folder = sys.argv[2]
     titles_json_file_path = sys.argv[3]
+    update_vue = (sys.argv[4] == 'update')
     with open(titles_json_file_path, 'r') as file:
         titles_json = json.load(file)
     for file in os.listdir(os.fsencode(json_folder)):
@@ -117,9 +190,15 @@ def main():
             translation = json_loaded['translation']
             if json_loaded['language'] in titles_json:
                 default_titles = titles_json[json_loaded['language']]
-                overwritten_titles = read_overwritten_titles(components_folder, translation)
-                check_overwritten(default_titles, overwritten_titles, translation)
-                check_json_titles(json_loaded, default_titles, overwritten_titles, translation)
+                if update_vue:
+                    pass
+                else:
+                    overwritten_titles = read_overwritten_titles(components_folder, translation)
+                    check_overwritten(default_titles, overwritten_titles, translation)
+                    check_json_titles(json_loaded, default_titles, overwritten_titles, translation)
+    if update_vue:
+        print(f'Test is failed as update was called')
+        sys.exit(1)
 
 
 if __name__ == "__main__":

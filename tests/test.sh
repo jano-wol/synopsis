@@ -10,5 +10,5 @@ if [[ $1 = "update" ]]; then
     UPDATE="update"
 fi	
 python3 "$SCRIPT_FOLDER"/json_test.py "$TRANSLATION_FOLDER" "$BLANK_JSON" "$UPDATE"
-python3 "$SCRIPT_FOLDER"/title_test.py "$TRANSLATION_FOLDER" "$COMPONENTS_FOLDER" "$TITLES_JSON"
+python3 "$SCRIPT_FOLDER"/title_test.py "$TRANSLATION_FOLDER" "$COMPONENTS_FOLDER" "$TITLES_JSON" "$UPDATE"
 echo "All tests passed"
