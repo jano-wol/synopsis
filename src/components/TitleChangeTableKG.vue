@@ -200,14 +200,6 @@ export default {
                 </tr>                                
                 <tr>
                     <td class="col-lg-6 align-middle">
-                        125. „Ha valakinek van füle a hallásra, hallja!”
-                    </td>
-                    <td class="col-lg-6 align-middle">
-                        125. „Ha valakinek van füle a hallásra, hallja.”
-                    </td>
-                </tr>
-                <tr>
-                    <td class="col-lg-6 align-middle">
                         133. A hálóról
                     </td>
                     <td class="col-lg-6 align-middle">
