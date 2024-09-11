@@ -4,14 +4,9 @@ import sys
 from bs4 import BeautifulSoup
 
 tested_translations = ['KG', 'SZIT', 'ESV']
-json_folder = sys.argv[1]
-components_folder = sys.argv[2]
-titles_json_file_path = sys.argv[3]
-with open(titles_json_file_path, 'r') as file:
-    titles_json = json.load(file)
 
 
-def read_overwritten_titles(translation):
+def read_overwritten_titles(translation, components_folder):
     path = components_folder + 'TitleChangeTable' + translation + '.vue'
     if os.path.isfile(path) is False:
         return None
@@ -37,6 +32,11 @@ def read_overwritten_titles(translation):
 
 
 def main():
+    json_folder = sys.argv[1]
+    components_folder = sys.argv[2]
+    titles_json_file_path = sys.argv[3]
+    with open(titles_json_file_path, 'r') as file:
+        titles_json = json.load(file)
     for file in os.listdir(os.fsencode(json_folder)):
         filename = os.fsdecode(file)
         if filename.endswith('.json'):
@@ -50,7 +50,7 @@ def main():
             translation = json_loaded['translation']
             if translation in tested_translations:
                 default_titles = titles_json[json_loaded['language']]
-                overwritten_titles = read_overwritten_titles(translation)
+                overwritten_titles = read_overwritten_titles(translation, components_folder)
 
 
 if __name__ == "__main__":
