@@ -368,14 +368,6 @@ export default {
                 </tr>   
                 <tr>
                     <td class="col-lg-6 align-middle">
-                        195. „Óvakodjatok a farizeusok kovászától!”
-                    </td>
-                    <td class="col-lg-6 align-middle">
-                        195. „Óvakodjatok a farizeusok kovászától”
-                    </td>
-                </tr>     
-                <tr>
-                    <td class="col-lg-6 align-middle">
                         200. A bolond gazdag
                     </td>
                     <td class="col-lg-6 align-middle">
