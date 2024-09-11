@@ -12,18 +12,20 @@ def get_id_and_title(table_element):
     a, b = table_element.split(' ', 1)
     return a, b
 
+def file_to_string(path):
+    with open(path, 'r', encoding='utf-8') as file:
+        try:
+            return file.read()
+        except ValueError as e:
+            print(f'Error while reading string from file={path}. error={e}')
+            sys.exit(1)
+
 
 def read_overwritten_titles(components_folder, translation):
     path = get_change_table_path(components_folder, translation)
     if os.path.isfile(path) is False:
         return None
-    with open(path, 'r', encoding='utf-8') as file:
-        try:
-            vue_content = file.read()
-        except ValueError as e:
-            print(f'Error while reading string from file={path}. error={e}')
-            sys.exit(1)
-
+    vue_content = file_to_string(path)
     soup = BeautifulSoup(vue_content, 'html.parser')
     template_content = soup.find('template')
     table = template_content.find('table')
@@ -114,12 +116,7 @@ def update(json_loaded, default_titles, blank_vue, components_folder, translatio
                 changes.append([id1 + ' ' + default_title, id1 + ' ' + json_title])
     if not changes:
         return
-    with open(blank_vue, 'r', encoding='utf-8') as file:
-        try:
-            vue_content = file.read()
-        except ValueError as e:
-            print(f'Error while reading string from file={blank_vue}. error={e}')
-            sys.exit(1)
+    vue_content = file_to_string(blank_vue)
     soup = BeautifulSoup(vue_content, 'html.parser')
     for change in changes:
         new_row = soup.new_tag('tr')
