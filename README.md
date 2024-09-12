@@ -13,6 +13,7 @@ The main field of upcoming development is adding new Gospel translations. See ho
 ## Dependencies
 
 - npm >= 9.2.0
+- bs4 
 
 ## Project Setup
 
