@@ -1,6 +1,7 @@
 import json
-import os
 import sys
+
+from file_utils import iterate_jsons
 
 
 def blank_values(json_element):
@@ -20,26 +21,16 @@ def main():
         blank_json = json.load(file)
     update_blank_json = (sys.argv[3] == 'update')
 
-    for file in os.listdir(os.fsencode(json_folder)):
-        filename = os.fsdecode(file)
-        if filename.endswith('.json'):
-            file_to_check = os.path.join(json_folder, filename)
-            with open(file_to_check) as f:
-                try:
-                    json_files_found = True
-                    json_loaded = json.load(f)
-                except ValueError as e:
-                    print(f'Invalid json= {file_to_check}. error={e}')
-                    sys.exit(1)
-                json_loaded = blank_values(json_loaded)
-                if update_blank_json:
-                    with open(blank_json_file_path, 'w') as file_to_update:
-                        json.dump(json_loaded, file_to_update, separators=(',', ':'))
-                    sys.exit(0)
-                if json_loaded != blank_json:
-                    print(
-                        f'Invalid json= {file_to_check}. error=Not fitting scheme of blank json.({blank_json_file_path})')
-                    sys.exit(1)
+    for json_loaded, json_path in iterate_jsons(json_folder):
+        json_files_found = True
+        json_loaded = blank_values(json_loaded)
+        if update_blank_json:
+            with open(blank_json_file_path, 'w') as file_to_update:
+                json.dump(json_loaded, file_to_update, separators=(',', ':'))
+                sys.exit(0)
+        if json_loaded != blank_json:
+            print(f'Invalid json={json_path}. error=Not fitting scheme of blank json.({blank_json_file_path})')
+            sys.exit(1)
     if json_files_found is False:
         print(f'No json files were found in folder={json_folder}')
         sys.exit(1)

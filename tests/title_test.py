@@ -3,6 +3,8 @@ import json
 import os
 import sys
 
+from file_utils import iterate_jsons
+
 
 def get_change_table_path(components_folder, translation):
     return components_folder + 'TitleChangeTable' + translation + '.vue'
@@ -11,6 +13,7 @@ def get_change_table_path(components_folder, translation):
 def get_id_and_title(table_element):
     a, b = table_element.split(' ', 1)
     return a, b
+
 
 def file_to_string(path):
     with open(path, 'r', encoding='utf-8') as file:
@@ -140,25 +143,16 @@ def main():
     update_vue = (sys.argv[5] == 'update')
     with open(titles_json_file_path, 'r') as file:
         titles_json = json.load(file)
-    for file in os.listdir(os.fsencode(json_folder)):
-        filename = os.fsdecode(file)
-        if filename.endswith('.json'):
-            file_to_check = os.path.join(json_folder, filename)
-            with open(file_to_check) as f:
-                try:
-                    json_loaded = json.load(f)
-                except ValueError as e:
-                    print(f'Invalid json= {file_to_check}. error={e}')
-                    sys.exit(1)
-            translation = json_loaded['translation']
-            if json_loaded['language'] in titles_json:
-                default_titles = titles_json[json_loaded['language']]
-                if update_vue:
-                    update(json_loaded, default_titles, blank_vue, components_folder, translation)
-                else:
-                    overwritten_titles = read_overwritten_titles(components_folder, translation)
-                    check_overwritten(default_titles, overwritten_titles, translation)
-                    check_json_titles(json_loaded, default_titles, overwritten_titles, translation)
+    for json_loaded, json_path in iterate_jsons(json_folder):
+        translation = json_loaded['translation']
+        if json_loaded['language'] in titles_json:
+            default_titles = titles_json[json_loaded['language']]
+            if update_vue:
+                update(json_loaded, default_titles, blank_vue, components_folder, translation)
+            else:
+                overwritten_titles = read_overwritten_titles(components_folder, translation)
+                check_overwritten(default_titles, overwritten_titles, translation)
+                check_json_titles(json_loaded, default_titles, overwritten_titles, translation)
 
 
 if __name__ == "__main__":
