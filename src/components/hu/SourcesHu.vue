@@ -1,18 +1,3 @@
-<script lang="ts">
-import TitleChangeTableKG from '@/components/TitleChangeTableKG.vue'
-import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
-import TitleChangeTableShorter from '@/components/TitleChangeTableShorter.vue'
-
-export default {
-    components: {
-        TitleChangeTableKG,
-        TitleChangeTableSZIT,
-        TitleChangeTableShorter,
-    }
-}
-
-</script>
-
 <template>
     <h2>Eltérések a forrásoktól</h2>
     <ul>
@@ -53,23 +38,9 @@ export default {
         </li>
         <br>
         <li>
-            A 367. szekció címe rövidítve lett.<br>
-            Indoklás: Egyszerűsítés.<br>
-            Megjegyzés: Az címek változását az alábbi táblázat foglalja össze.
-            <TitleChangeTableShorter />
+            A Szinopszis szerkezeti elnevezései néhány fordításban módosítva lettek.<br>
+            Indoklás: Egységesítés a Biblia szöveggel, olvashatóság javítása, stb.<br>
+            <!-- Megjegyzés: Az egységesítés szempontjait lásd a contributorok számára készített dokumentációban.  -->
         </li>
-        <br>
-        <li>
-            A Szinopszis szerkezeti elnevezései egységesítve lettek a SZIT fordítás szerinti szóhasználattal.<br>
-            Indoklás: Egységesítés.<br>
-            Megjegyzés: Az elnevezések változását az alábbi táblázat foglalja össze.
-            <TitleChangeTableSZIT />
-        </li>
-        <li>
-            A Szinopszis szerkezeti elnevezései egységesítve lettek a KG fordítás szerinti szóhasználattal.<br>
-            Indoklás: Egységesítés.<br>
-            Megjegyzés: Az elnevezések változását az alábbi táblázat foglalja össze.
-            <TitleChangeTableKG />
-        </li>        
     </ul>
 </template>

@@ -1,19 +1,3 @@
-<script lang="ts">
-import TitleChangeTableKG from '@/components/TitleChangeTableKG.vue'
-import TitleChangeTableSZIT from '@/components/TitleChangeTableSZIT.vue'
-import TitleChangeTableShorter from '@/components/TitleChangeTableShorter.vue'
-
-
-export default {
-    components: {
-        TitleChangeTableKG,
-        TitleChangeTableSZIT,
-        TitleChangeTableShorter
-    }
-}
-
-</script>
-
 <template>
     <h2>Differences compared to sources</h2>
     <ul>
@@ -55,23 +39,9 @@ export default {
         </li>
         <br>
         <li>
-            The title of section 367 is shorter.<br>
-            Reason: Simplification.<br>
-            Note: Changes are summarised in the table below.
-            <TitleChangeTableShorter />
+            The structural names of Synopsis have been modified in some translations.<br>
+            Reason: Unification, better readability, etc.<br>
+            <!-- Note: For details of the unification, see the documentation for contributors. -->
         </li>
-        <br>
-        <li>
-            The structural names of Synopsis have been unified with the SZIT translation.<br>
-            Reason: Unification.<br>
-            Note: Changes are summarised in the table below.
-            <TitleChangeTableSZIT />
-        </li>
-        <li>
-            The structural names of Synopsis have been unified with the KG translation.<br>
-            Reason: Unification.<br>
-            Note: Changes are summarised in the table below.
-            <TitleChangeTableKG />
-        </li>        
     </ul>
 </template>
