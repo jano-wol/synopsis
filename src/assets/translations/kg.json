@@ -1167,7 +1167,7 @@
                 },
                 {
                     "id": "10",
-                    "section_title": "Menekülés Egyiptomba és visszatérés",
+                    "section_title": "Menekülés Égyiptomba és visszatérés",
                     "mt": [
                         {
                             "leading": true,
@@ -2728,7 +2728,7 @@
                 },
                 {
                     "id": "28",
-                    "section_title": "Utazás Judeába",
+                    "section_title": "Utazás Júdeába",
                     "mt": [
                         null
                     ],
@@ -3582,7 +3582,7 @@
                 },
                 {
                     "id": "37",
-                    "section_title": "Jézus meggyógyítja Péter anyósát",
+                    "section_title": "Jézus meggyógyítja Simon napát",
                     "mt": [
                         {
                             "leading": false,
@@ -3880,7 +3880,7 @@
                 },
                 {
                     "id": "42",
-                    "section_title": "Jézus meggyógyít egy leprást",
+                    "section_title": "Jézus meggyógyít egy bélpoklost",
                     "mt": [
                         {
                             "leading": false,
@@ -3983,7 +3983,7 @@
                 },
                 {
                     "id": "43",
-                    "section_title": "Jézus meggyógyítja a bénát",
+                    "section_title": "Jézus meggyógyítja a gutaütöttet",
                     "mt": [
                         {
                             "leading": false,
@@ -4283,7 +4283,7 @@
                 },
                 {
                     "id": "45",
-                    "section_title": "Jézus tanítása a böjtről",
+                    "section_title": "Jézus tanítása a bőjtről",
                     "mt": [
                         {
                             "leading": false,
@@ -5272,7 +5272,7 @@
                 },
                 {
                     "id": "56",
-                    "section_title": "A házasságtörésről és a válásról",
+                    "section_title": "A házasságtörésről és a házassági elbocsátásról",
                     "mt": [
                         {
                             "leading": true,
@@ -5734,7 +5734,7 @@
                 },
                 {
                     "id": "63",
-                    "section_title": "A böjtölés",
+                    "section_title": "A bőjtölés",
                     "mt": [
                         {
                             "leading": true,
@@ -5867,7 +5867,7 @@
                 },
                 {
                     "id": "66",
-                    "section_title": "Isten és a mammon",
+                    "section_title": "Isten és a Mammon",
                     "mt": [
                         {
                             "leading": true,
@@ -6518,7 +6518,7 @@
                 },
                 {
                     "id": "76",
-                    "section_title": "A Hegyi Beszéd vége",
+                    "section_title": "A hegyi beszéd vége",
                     "mt": [
                         {
                             "leading": true,
@@ -6764,7 +6764,7 @@
                 },
                 {
                     "id": "79",
-                    "section_title": "„Jaj nektek!”",
+                    "section_title": "„Jaj néktek!”",
                     "mt": [
                         null
                     ],
@@ -7197,7 +7197,7 @@
             "sections": [
                 {
                     "id": "84",
-                    "section_title": "Jézus meggyógyít egy leprást",
+                    "section_title": "Jézus meggyógyít egy bélpoklost",
                     "mt": [
                         {
                             "leading": true,
@@ -7554,7 +7554,7 @@
                 },
                 {
                     "id": "87",
-                    "section_title": "Jézus meggyógyítja Péter anyósát",
+                    "section_title": "Jézus meggyógyítja Péter napát",
                     "mt": [
                         {
                             "leading": true,
@@ -7867,7 +7867,7 @@
                 },
                 {
                     "id": "91",
-                    "section_title": "Jézus meggyógyít két gadarai megszállottat",
+                    "section_title": "Jézus meggyógyít két gadarai ördöngőst",
                     "mt": [
                         {
                             "leading": true,
@@ -8100,7 +8100,7 @@
                 },
                 {
                     "id": "92",
-                    "section_title": "Jézus meggyógyítja a bénát",
+                    "section_title": "Jézus meggyógyítja a gutaütöttet",
                     "mt": [
                         {
                             "leading": true,
@@ -8400,7 +8400,7 @@
                 },
                 {
                     "id": "94",
-                    "section_title": "Jézus tanítása a böjtről",
+                    "section_title": "Jézus tanítása a bőjtről",
                     "mt": [
                         {
                             "leading": true,
@@ -8952,7 +8952,7 @@
                 },
                 {
                     "id": "97",
-                    "section_title": "Jézus meggyógyítja a megszállott némát",
+                    "section_title": "Jézus meggyógyítja az ördöngős némát",
                     "mt": [
                         {
                             "leading": true,
@@ -9033,7 +9033,7 @@
                 },
                 {
                     "id": "98",
-                    "section_title": "Az aratnivaló sok, a munkás kevés",
+                    "section_title": "Az aratni való sok, a munkás kevés",
                     "mt": [
                         {
                             "leading": true,
