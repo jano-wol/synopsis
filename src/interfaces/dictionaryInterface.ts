@@ -4,8 +4,7 @@ export interface DictionaryScheme {
     evangelists: EvangelistsScheme,
     index: IndexScheme,
     notFound: NotFoundScheme,
-    synopsis: SynopsisScheme,
-    sources: SourcesScheme
+    synopsis: SynopsisScheme
 }
 
 interface MenuScheme {
@@ -45,12 +44,5 @@ interface NotFoundScheme {
 interface SynopsisScheme {
     subheading: string 
 }
-
-interface SourcesScheme {
-    originalTitle: string 
-    unifiedSZITTitle: string 
-    shorterTitle: string 
-}
-
 
 
