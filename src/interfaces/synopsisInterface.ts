@@ -2,7 +2,15 @@ export interface SynopsisScheme {
     name: string,
     language: string,
     translation: string,
-    parts: PartScheme[]
+    parts: PartScheme[],
+    evangelists: EvangelistsScheme
+}
+
+export interface EvangelistsScheme {
+    mt: string, 
+    mk: string, 
+    lk: string, 
+    jn: string 
 }
 
 export interface PartScheme {

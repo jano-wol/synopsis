@@ -2,6 +2,12 @@
     "name": "Káldi-Neovulgáta",
     "translation": "KNB",
     "language": "hu",
+    "evangelists": {
+        "mt": "Máté",
+        "mk": "Márk",
+        "lk": "Lukács",
+        "jn": "János"
+    },
     "parts": [
         {
             "part_title": "I. Bevezetés",

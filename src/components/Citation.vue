@@ -1,7 +1,6 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-import type { PartScheme, CitationScheme, SectionScheme } from '@/interfaces/synopsisInterface';
-import type { EvangelistsScheme } from '@/interfaces/dictionaryInterface';
+import type { PartScheme, CitationScheme, SectionScheme, EvangelistsScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
@@ -95,7 +94,7 @@ export default {
 <template>
   <div class="card h-100" v-if="citation?.content" :class="{ 'shadow border-dark': citation.leading }">
     <div class="card-header sticky-top bg-light z-1">
-      {{ synopsisStore.currentDictionary.evangelists[evangelist as keyof EvangelistsScheme] }} {{
+      {{ synopsisStore.currentSynopsis.evangelists[evangelist as keyof EvangelistsScheme] }} {{
     synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse,
       citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
       <template v-if="!$route.params.id">

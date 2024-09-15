@@ -16,12 +16,6 @@
         "previousMainText": "Előző törzsszöveg",
         "jumpToMainText": "Ugrás a törzsszöveghez"
     },
-    "evangelists": {
-        "mt": "Máté",
-        "mk": "Márk",
-        "lk": "Lukács",
-        "jn": "János"
-    },
     "index": {
         "title": "Cím"
     },

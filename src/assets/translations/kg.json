@@ -2,6 +2,12 @@
     "name": "Károli Gáspár revideált",
     "translation": "KG",
     "language": "hu",
+    "evangelists": {
+        "mt": "Máté",
+        "mk": "Márk",
+        "lk": "Lukács",
+        "jn": "János"
+    },
     "parts": [
         {
             "part_title": "I. Bevezetés",

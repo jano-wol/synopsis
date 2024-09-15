@@ -2,6 +2,12 @@
     "name": "Magyar Bibliatársulat újfordítású Bibliája (1990)",
     "translation": "UF",
     "language": "hu",
+    "evangelists": {
+        "mt": "Máté",
+        "mk": "Márk",
+        "lk": "Lukács",
+        "jn": "János"
+    },
     "parts": [
         {
             "part_title": "I. Bevezetés",

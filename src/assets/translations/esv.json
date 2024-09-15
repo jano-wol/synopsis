@@ -2,6 +2,12 @@
     "name": "English Standard Version",
     "translation": "ESV",
     "language": "en",
+    "evangelists": {
+        "mt": "Matthew",
+        "mk": "Mark",
+        "lk": "Luke",
+        "jn": "John"
+    },
     "parts": [
         {
             "part_title": "I. Preface",

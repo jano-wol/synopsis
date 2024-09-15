@@ -2,6 +2,12 @@
     "name": "Biblia Tysiąclecia",
     "translation": "BT",
     "language": "pl",
+    "evangelists": {
+        "mt": "Mateusz",
+        "mk": "Marek",
+        "lk": "Łukasz",
+        "jn": "Jan"
+    },
     "parts": [
         {
             "part_title": "I. Bevezetés",
