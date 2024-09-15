@@ -37,6 +37,13 @@
             Reason: No exceptional numbering follows the main text of the Synopsis compared to other translations.<br>
             Note: Probably an error in the editing of the text of the SZIT publisher.
         </li>
+        <li>
+            In BT translation:<br>
+            In section 229, the quotation Lk17.3a is equivalent with quotation Lk17.2 in BT edition.<br>
+            In section 230, the quotation Lk17.3b is equivalent with quotation Lk17.3 in BT edition.<br>
+            Reason: No exceptional numbering follows the main text of the Synopsis compared to other translations.<br>
+            Note: Probably an error in the editing of the text of the BT publisher.
+        </li>
         <br>
         <li>
             The structural names of Synopsis have been modified in some translations.<br>
