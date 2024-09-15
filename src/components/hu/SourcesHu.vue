@@ -39,7 +39,7 @@
         <li>
             Az BT fordításában:<br>
             A 229. szekcióban a Lk17.3a idézet az M szerkesztésében a Lk17.2 idézet végének felel meg.<br>
-            A 230. szekcióban a Lk17.3b idézet az M szerkesztésében a Lk17.3 idézet elejének felel meg.<br>
+            A 230. szekcióban a Lk17.3b idézet az M szerkesztésében a Lk17.3 idézetnek felel meg.<br>
             Indoklás: Nem követi kivételes számozás a Szinopszis törzsszövegét a többi fordításhoz képest.<br>
             Megjegyzés: Feltehetően hiba a Biblia Tysiąclecia szövegének szerkesztésében.
         </li>
