@@ -32,15 +32,15 @@
         <br>
         <li>
             In SZIT translation:<br>
-            In section 139, the quotation Mk6.6a is equivalent with quotation Mk6.6 in SZIT edition.<br>
-            In section 142, the quotation Mk6.6b is equivalent with beginning of quotation Mk6.7 in SZIT edition.<br>
+            In section 139, the quotation Mk6,6a is equivalent with quotation Mk6,6 in SZIT edition.<br>
+            In section 142, the quotation Mk6,6b is equivalent with beginning of quotation Mk6,7 in SZIT edition.<br>
             Reason: No exceptional numbering follows the main text of the Synopsis compared to other translations.<br>
             Note: Probably an error in the editing of the text of the SZIT publisher.
         </li>
         <li>
             In BT translation:<br>
-            In section 229, the quotation Lk17.3a is equivalent with ending of quotation Lk17.2 in BT edition.<br>
-            In section 230, the quotation Lk17.3b is equivalent with quotation Lk17.3 in BT edition.<br>
+            In section 229, the quotation Lk17,3a is equivalent with ending of quotation Lk17,2 in BT edition.<br>
+            In section 230, the quotation Lk17,3b is equivalent with quotation Lk17,3 in BT edition.<br>
             Reason: No exceptional numbering follows the main text of the Synopsis compared to other translations.<br>
             Note: Probably an error in the editing of the text of the BT publisher.
         </li>
