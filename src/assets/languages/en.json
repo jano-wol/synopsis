@@ -16,12 +16,6 @@
         "previousMainText": "Previous main text",
         "jumpToMainText": "Jump to main text"
     },
-    "evangelists": {
-        "mt": "Matthew",
-        "mk": "Mark",
-        "lk": "Luke",
-        "jn": "John"
-    },
     "index": {
         "title": "Title"
     },

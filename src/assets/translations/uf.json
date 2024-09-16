@@ -2,6 +2,12 @@
     "name": "Magyar Bibliatársulat újfordítású Bibliája (1990)",
     "translation": "UF",
     "language": "hu",
+    "evangelists": {
+        "mt": "Máté",
+        "mk": "Márk",
+        "lk": "Lukács",
+        "jn": "János"
+    },
     "parts": [
         {
             "part_title": "I. Bevezetés",
@@ -27250,7 +27256,7 @@
                 },
                 {
                     "id": "290",
-                    "section_title": "Itélet Judea felett",
+                    "section_title": "Ítélet Judea felett",
                     "mt": [
                         {
                             "leading": true,
