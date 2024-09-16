@@ -1,7 +1,6 @@
 export interface DictionaryScheme {
     menu: MenuScheme,
     tooltips: TooltipsScheme,
-    evangelists: EvangelistsScheme,
     index: IndexScheme,
     notFound: NotFoundScheme,
     synopsis: SynopsisScheme
@@ -24,13 +23,6 @@ interface TooltipsScheme {
     nextMainText: string,
     previousMainText: string,
     jumpToMainText: string
-}
-
-export interface EvangelistsScheme {
-    mt: string, 
-    mk: string, 
-    lk: string, 
-    jn: string 
 }
 
 interface IndexScheme {
