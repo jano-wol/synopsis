@@ -10,7 +10,7 @@ export default {
         }
     },
     mounted() {
-        this.navbarHeight = this.$refs.customNavbar.offsetHeight;
+        this.navbarHeight = (this.$refs.customNavbar as HTMLElement).offsetHeight;
 
         window.addEventListener('mousemove', this.handleMouseMove);
         window.addEventListener('scroll', this.checkScrollPosition);
@@ -41,7 +41,7 @@ export default {
         },
         updateNavbarHeight() {
             // Update the navbar height if the window is resized
-            this.navbarHeight = this.$refs.customNavbar.offsetHeight;
+            this.navbarHeight = (this.$refs.customNavbar as HTMLElement).offsetHeight;
         },
     },
 }
