@@ -92,8 +92,8 @@ export default {
 </script>
 
 <template>
-  <div class="card h-100" v-if="citation?.content" :class="{ 'shadow border-dark': citation.leading }">
-    <div class="card-header sticky-top bg-light z-1">
+  <div class="card h-100" v-if="citation?.content" :class="{ 'shadow border-2 border-secondary bg-body-tertiary': citation.leading }">
+    <div class="card-header sticky-top bg-light z-1" :class="{ 'bg-dark-subtle': citation.leading }">
       {{ synopsisStore.currentSynopsis.evangelists[evangelist as keyof EvangelistsScheme] }} {{
     synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse,
       citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
@@ -108,11 +108,11 @@ export default {
         <button v-if="citation.leading
     && !isLastSection(evangelist)" @click="redirectToNextLeadingCitation()" type="button"
           class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.nextMainText">
-          <i class="bi bi-arrow-down fs-6 text-secondary"></i>
+          <i class="bi bi-arrow-down fs-6"></i>
         </button>
         <button v-if="citation.leading && sectionId !== '1'" @click="redirectToPreviousLeadingCitation()" type="button"
           class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.previousMainText">
-          <i class="bi bi-arrow-up fs-6 text-secondary"></i>
+          <i class="bi bi-arrow-up fs-6"></i>
         </button>
       </template>
 
