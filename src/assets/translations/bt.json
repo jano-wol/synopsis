@@ -10,11 +10,11 @@
     },
     "parts": [
         {
-            "part_title": "I. Bevezetés",
+            "part_title": "I Przedmowa",
             "sections": [
                 {
                     "id": "1",
-                    "section_title": "Prologue",
+                    "section_title": "Prolog",
                     "mt": [
                         {
                             "leading": true,
@@ -167,11 +167,11 @@
             ]
         },
         {
-            "part_title": "II. Előtörténet",
+            "part_title": "II Preludium",
             "sections": [
                 {
                     "id": "2",
-                    "section_title": "The Promise of the Birth of John the Baptist",
+                    "section_title": "Zapowiedź narodzenia Jana",
                     "mt": [
                         null
                     ],
@@ -296,7 +296,7 @@
                 },
                 {
                     "id": "3",
-                    "section_title": "The Annunciation",
+                    "section_title": "Zwiastowanie Maryi",
                     "mt": [
                         null
                     ],
@@ -381,7 +381,7 @@
                 },
                 {
                     "id": "4",
-                    "section_title": "Mary's Visit to Elizabeth",
+                    "section_title": "Nawiedzenie",
                     "mt": [
                         null
                     ],
@@ -491,7 +491,7 @@
                 },
                 {
                     "id": "5",
-                    "section_title": "The Birth of John the Baptist",
+                    "section_title": "Narodzenie Jana",
                     "mt": [
                         null
                     ],
@@ -631,7 +631,7 @@
                 },
                 {
                     "id": "6",
-                    "section_title": "The Genealogy of Jesus",
+                    "section_title": "Rodowód Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -815,7 +815,7 @@
                 },
                 {
                     "id": "7",
-                    "section_title": "The Birth of Jesus",
+                    "section_title": "Narodzenie Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -914,7 +914,7 @@
                 },
                 {
                     "id": "8",
-                    "section_title": "The Adoration of the Infant Jesus",
+                    "section_title": "Mędrcy ze Wschodu",
                     "mt": [
                         {
                             "leading": true,
@@ -1063,7 +1063,7 @@
                 },
                 {
                     "id": "9",
-                    "section_title": "The Circumcision and Presentation in the Temple",
+                    "section_title": "Obrzezanie i ofiarowanie w świątyni. Starzec Symeon i prorokini Anna",
                     "mt": [
                         null
                     ],
@@ -1173,7 +1173,7 @@
                 },
                 {
                     "id": "10",
-                    "section_title": "The Flight into Egypt and Return",
+                    "section_title": "Ucieczka do Egiptu i powrót do Nazaretu",
                     "mt": [
                         {
                             "leading": true,
@@ -1238,7 +1238,7 @@
                 },
                 {
                     "id": "11",
-                    "section_title": "The Childhood of Jesus at Nazareth",
+                    "section_title": "Dziecięctwo Jezusa w Nazarecie",
                     "mt": [
                         {
                             "leading": true,
@@ -1282,7 +1282,7 @@
                 },
                 {
                     "id": "12",
-                    "section_title": "The Boy Jesus in the Temple",
+                    "section_title": "Dwunastoletni Jezus w świątyni",
                     "mt": [
                         null
                     ],
@@ -1363,11 +1363,11 @@
             ]
         },
         {
-            "part_title": "III. Jézus útjának előkészítése",
+            "part_title": "III Przygotowanie do działalności Jezusa",
             "sections": [
                 {
                     "id": "13",
-                    "section_title": "John the Baptist",
+                    "section_title": "Jan Chrzciciel",
                     "mt": [
                         {
                             "leading": true,
@@ -1509,7 +1509,7 @@
                 },
                 {
                     "id": "14",
-                    "section_title": "John's Preaching of Repentance",
+                    "section_title": "Wezwanie do nawrócenia",
                     "mt": [
                         {
                             "leading": true,
@@ -1568,7 +1568,7 @@
                 },
                 {
                     "id": "15",
-                    "section_title": "John Replies to Questioners",
+                    "section_title": "Szczególne wskazania",
                     "mt": [
                         null
                     ],
@@ -1613,7 +1613,7 @@
                 },
                 {
                     "id": "16",
-                    "section_title": "John's Messianic Preaching",
+                    "section_title": "Świadectwo Jana o Mesjaszu",
                     "mt": [
                         {
                             "leading": true,
@@ -1710,7 +1710,7 @@
                 },
                 {
                     "id": "17",
-                    "section_title": "The Imprisonment of John",
+                    "section_title": "Uwięzienie Jana",
                     "mt": [
                         {
                             "leading": false,
@@ -1768,7 +1768,7 @@
                 },
                 {
                     "id": "18",
-                    "section_title": "The Baptism of Jesus",
+                    "section_title": "Chrzest Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -1880,7 +1880,7 @@
                 },
                 {
                     "id": "19",
-                    "section_title": "The Genealogy of Jesus",
+                    "section_title": "Rodowód Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -2069,7 +2069,7 @@
                 },
                 {
                     "id": "20",
-                    "section_title": "The Temptation",
+                    "section_title": "Kuszenie Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -2228,11 +2228,11 @@
             ]
         },
         {
-            "part_title": "IV. Jézus nyilvános működésének kezedete (János szerint)",
+            "part_title": "IV Początek publicznej działalności Jezusa (wg Jana)",
             "sections": [
                 {
                     "id": "21",
-                    "section_title": "The Call of the First Disciples",
+                    "section_title": "Świadectwo uczniów",
                     "mt": [
                         null
                     ],
@@ -2337,7 +2337,7 @@
                 },
                 {
                     "id": "22",
-                    "section_title": "The Marriage at Cana",
+                    "section_title": "Pierwszy znak w Kanie Galilejskiej",
                     "mt": [
                         null
                     ],
@@ -2412,7 +2412,7 @@
                 },
                 {
                     "id": "23",
-                    "section_title": "The Sojourn at Capernaum",
+                    "section_title": "Pobyt w Kafarnaum",
                     "mt": [
                         null
                     ],
@@ -2437,7 +2437,7 @@
                 },
                 {
                     "id": "24",
-                    "section_title": "The First Journey to Jerusalem",
+                    "section_title": "Jezus udaje się do Jerozolimy",
                     "mt": [
                         null
                     ],
@@ -2462,7 +2462,7 @@
                 },
                 {
                     "id": "25",
-                    "section_title": "The Cleansing of the Temple",
+                    "section_title": "Wypędzenie przekupniów",
                     "mt": [
                         {
                             "leading": false,
@@ -2574,7 +2574,7 @@
                 },
                 {
                     "id": "26",
-                    "section_title": "Jesus' Ministry in Jerusalem",
+                    "section_title": "Jezus w Jerozolimie",
                     "mt": [
                         null
                     ],
@@ -2609,7 +2609,7 @@
                 },
                 {
                     "id": "27",
-                    "section_title": "The Discourse with Nicodemus",
+                    "section_title": "Nikodem",
                     "mt": [
                         null
                     ],
@@ -2734,7 +2734,7 @@
                 },
                 {
                     "id": "28",
-                    "section_title": "Jesus' Ministry in Judea",
+                    "section_title": "Podróż do ziemi judzkiej",
                     "mt": [
                         null
                     ],
@@ -2759,7 +2759,7 @@
                 },
                 {
                     "id": "29",
-                    "section_title": "John's Testimony to Christ",
+                    "section_title": "Jezus a Jan Chrzciciel",
                     "mt": [
                         null
                     ],
@@ -2850,11 +2850,11 @@
             ]
         },
         {
-            "part_title": "V. Jézus Galileában",
+            "part_title": "V Jezus w Galilei",
             "sections": [
                 {
                     "id": "30",
-                    "section_title": "The Journey into Galilee",
+                    "section_title": "Podróż do Galilei",
                     "mt": [
                         {
                             "leading": true,
@@ -2916,7 +2916,7 @@
                 },
                 {
                     "id": "31",
-                    "section_title": "The Discourse with the Woman of Samaria",
+                    "section_title": "Jezus i Samarytanka",
                     "mt": [
                         null
                     ],
@@ -3131,7 +3131,7 @@
                 },
                 {
                     "id": "32",
-                    "section_title": "Ministry in Galilee",
+                    "section_title": "Jezus w Galilei",
                     "mt": [
                         {
                             "leading": true,
@@ -3228,7 +3228,7 @@
                 },
                 {
                     "id": "33",
-                    "section_title": "Jesus' Preaching at Nazareth",
+                    "section_title": "Jezus w Nazarecie",
                     "mt": [
                         {
                             "leading": false,
@@ -3391,7 +3391,7 @@
                 },
                 {
                     "id": "34",
-                    "section_title": "The Call of the Disciples",
+                    "section_title": "Powołanie pierwszych uczniów",
                     "mt": [
                         {
                             "leading": true,
@@ -3465,7 +3465,7 @@
                 },
                 {
                     "id": "35",
-                    "section_title": "Teaching in the Synagogue at Capernaum",
+                    "section_title": "Nauczanie w Kafarnaum",
                     "mt": [
                         null
                     ],
@@ -3509,7 +3509,7 @@
                 },
                 {
                     "id": "36",
-                    "section_title": "The Healing of the Demoniac in the Synagogue",
+                    "section_title": "Uzdrowienie opętanego",
                     "mt": [
                         null
                     ],
@@ -3588,7 +3588,7 @@
                 },
                 {
                     "id": "37",
-                    "section_title": "The Healing of Peter's Mother-in-law",
+                    "section_title": "W domu Piotra",
                     "mt": [
                         {
                             "leading": false,
@@ -3651,7 +3651,7 @@
                 },
                 {
                     "id": "38",
-                    "section_title": "The Sick Healed at Evening",
+                    "section_title": "Liczne uzdrowienia",
                     "mt": [
                         {
                             "leading": false,
@@ -3714,7 +3714,7 @@
                 },
                 {
                     "id": "39",
-                    "section_title": "Jesus Departs from Capernaum",
+                    "section_title": "Jezus opuszcza Kafarnaum",
                     "mt": [
                         null
                     ],
@@ -3768,7 +3768,7 @@
                 },
                 {
                     "id": "40",
-                    "section_title": "First Preaching Tour in Galilee",
+                    "section_title": "Podróże po Galilei",
                     "mt": [
                         {
                             "leading": true,
@@ -3811,7 +3811,7 @@
                 },
                 {
                     "id": "41",
-                    "section_title": "The Miraculous Draught of Fish",
+                    "section_title": "Obfity połów",
                     "mt": [
                         null
                     ],
@@ -3886,7 +3886,7 @@
                 },
                 {
                     "id": "42",
-                    "section_title": "The Cleansing of the Leper",
+                    "section_title": "Uzdrowienie trędowatego",
                     "mt": [
                         {
                             "leading": false,
@@ -3989,7 +3989,7 @@
                 },
                 {
                     "id": "43",
-                    "section_title": "The Healing of the Paralytic",
+                    "section_title": "Uzdrowienie paralityka",
                     "mt": [
                         {
                             "leading": false,
@@ -4181,7 +4181,7 @@
                 },
                 {
                     "id": "44",
-                    "section_title": "The Call of Levi (Matthew)",
+                    "section_title": "Powołanie Lewiego",
                     "mt": [
                         {
                             "leading": false,
@@ -4289,7 +4289,7 @@
                 },
                 {
                     "id": "45",
-                    "section_title": "The Question about Fasting",
+                    "section_title": "Sprawa postów",
                     "mt": [
                         {
                             "leading": false,
@@ -4397,7 +4397,7 @@
                 },
                 {
                     "id": "46",
-                    "section_title": "Plucking Grain on the Sabbath",
+                    "section_title": "Łuskanie kłosów w szabat",
                     "mt": [
                         {
                             "leading": false,
@@ -4520,7 +4520,7 @@
                 },
                 {
                     "id": "47",
-                    "section_title": "The Man with the Withered Hand",
+                    "section_title": "Uzdrowienie w szabat",
                     "mt": [
                         {
                             "leading": false,
@@ -4638,7 +4638,7 @@
                 },
                 {
                     "id": "48",
-                    "section_title": "Jesus Heals Multitudes by the Sea",
+                    "section_title": "Napływ ludu",
                     "mt": [
                         {
                             "leading": false,
@@ -4739,7 +4739,7 @@
                 },
                 {
                     "id": "49",
-                    "section_title": "The Choosing of the Twelve",
+                    "section_title": "Wybór Dwunastu",
                     "mt": [
                         {
                             "leading": false,
@@ -4848,11 +4848,11 @@
             ]
         },
         {
-            "part_title": "VI. A hegyi beszéd (Máté szerint)",
+            "part_title": "VI Kazanie na Górze (wg Mateusza)",
             "sections": [
                 {
                     "id": "50",
-                    "section_title": "Occasion of the Sermon",
+                    "section_title": "Jezus uzdrawia i naucza",
                     "mt": [
                         {
                             "leading": true,
@@ -4955,7 +4955,7 @@
                 },
                 {
                     "id": "51",
-                    "section_title": "The Beatitudes",
+                    "section_title": "Błogosławieństwa",
                     "mt": [
                         {
                             "leading": true,
@@ -5049,7 +5049,7 @@
                 },
                 {
                     "id": "52",
-                    "section_title": "The Salt of the Earth",
+                    "section_title": "Sól, która smak utraci",
                     "mt": [
                         {
                             "leading": true,
@@ -5102,7 +5102,7 @@
                 },
                 {
                     "id": "53",
-                    "section_title": "The Light of the World",
+                    "section_title": "Przypowieść o lampie",
                     "mt": [
                         {
                             "leading": true,
@@ -5155,7 +5155,7 @@
                 },
                 {
                     "id": "54",
-                    "section_title": "On the Law and the Prophets",
+                    "section_title": "Jezus a Prawo",
                     "mt": [
                         {
                             "leading": true,
@@ -5209,7 +5209,7 @@
                 },
                 {
                     "id": "55",
-                    "section_title": "On Murder and Wrath",
+                    "section_title": "O morderstwie i o gniewie",
                     "mt": [
                         {
                             "leading": true,
@@ -5278,7 +5278,7 @@
                 },
                 {
                     "id": "56",
-                    "section_title": "On Adultery and Divorce",
+                    "section_title": "O cudzołóstwie, zgorszeniu i rozwodzie",
                     "mt": [
                         {
                             "leading": true,
@@ -5371,7 +5371,7 @@
                 },
                 {
                     "id": "57",
-                    "section_title": "On Oaths",
+                    "section_title": "Ósme przykazanie",
                     "mt": [
                         {
                             "leading": true,
@@ -5416,7 +5416,7 @@
                 },
                 {
                     "id": "58",
-                    "section_title": "On Retaliation",
+                    "section_title": "Prawo odwetu",
                     "mt": [
                         {
                             "leading": true,
@@ -5475,7 +5475,7 @@
                 },
                 {
                     "id": "59",
-                    "section_title": "On Love of One's Enemies",
+                    "section_title": "Miłość nieprzyjaciół",
                     "mt": [
                         {
                             "leading": true,
@@ -5572,7 +5572,7 @@
                 },
                 {
                     "id": "60",
-                    "section_title": "On Almsgiving",
+                    "section_title": "Jałmużna",
                     "mt": [
                         {
                             "leading": true,
@@ -5612,7 +5612,7 @@
                 },
                 {
                     "id": "61",
-                    "section_title": "On Prayer",
+                    "section_title": "Modlitwa",
                     "mt": [
                         {
                             "leading": true,
@@ -5642,7 +5642,7 @@
                 },
                 {
                     "id": "62",
-                    "section_title": "The Lord's Prayer",
+                    "section_title": "Ojcze nasz",
                     "mt": [
                         {
                             "leading": true,
@@ -5740,7 +5740,7 @@
                 },
                 {
                     "id": "63",
-                    "section_title": "On Fasting",
+                    "section_title": "Post",
                     "mt": [
                         {
                             "leading": true,
@@ -5775,7 +5775,7 @@
                 },
                 {
                     "id": "64",
-                    "section_title": "On Treasures",
+                    "section_title": "Dobra trwałe",
                     "mt": [
                         {
                             "leading": true,
@@ -5824,7 +5824,7 @@
                 },
                 {
                     "id": "65",
-                    "section_title": "The Sound Eye",
+                    "section_title": "Światłem ciała jest oko",
                     "mt": [
                         {
                             "leading": true,
@@ -5873,7 +5873,7 @@
                 },
                 {
                     "id": "66",
-                    "section_title": "On Serving Two Masters",
+                    "section_title": "Bóg i Mamona",
                     "mt": [
                         {
                             "leading": true,
@@ -5907,7 +5907,7 @@
                 },
                 {
                     "id": "67",
-                    "section_title": "On Anxiety",
+                    "section_title": "Zbytnie troski",
                     "mt": [
                         {
                             "leading": true,
@@ -6036,7 +6036,7 @@
                 },
                 {
                     "id": "68",
-                    "section_title": "On Judging",
+                    "section_title": "Powściągliwość w sądzeniu",
                     "mt": [
                         {
                             "leading": true,
@@ -6129,7 +6129,7 @@
                 },
                 {
                     "id": "69",
-                    "section_title": "On Profaning the Holy",
+                    "section_title": "O profanowaniu rzeczy świętych",
                     "mt": [
                         {
                             "leading": true,
@@ -6154,7 +6154,7 @@
                 },
                 {
                     "id": "70",
-                    "section_title": "God's Answering of Prayer",
+                    "section_title": "Wytrwałość w modlitwie",
                     "mt": [
                         {
                             "leading": true,
@@ -6228,7 +6228,7 @@
                 },
                 {
                     "id": "71",
-                    "section_title": "The Golden Rule",
+                    "section_title": "Złota zasada postępowania",
                     "mt": [
                         {
                             "leading": true,
@@ -6262,7 +6262,7 @@
                 },
                 {
                     "id": "72",
-                    "section_title": "The Two Ways",
+                    "section_title": "Ciasna brama",
                     "mt": [
                         {
                             "leading": true,
@@ -6306,7 +6306,7 @@
                 },
                 {
                     "id": "73",
-                    "section_title": "\"By their Fruits\"",
+                    "section_title": "Poznacie ich po ich owocach",
                     "mt": [
                         {
                             "leading": true,
@@ -6398,7 +6398,7 @@
                 },
                 {
                     "id": "74",
-                    "section_title": "\"Saying Lord, Lord\"",
+                    "section_title": "Spełnianie woli Boga",
                     "mt": [
                         {
                             "leading": true,
@@ -6465,7 +6465,7 @@
                 },
                 {
                     "id": "75",
-                    "section_title": "The House Built upon the Rock",
+                    "section_title": "Dobra lub zła budowa",
                     "mt": [
                         {
                             "leading": true,
@@ -6524,7 +6524,7 @@
                 },
                 {
                     "id": "76",
-                    "section_title": "The Effect of the Sermon",
+                    "section_title": "Zdumienie nauką Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -6569,11 +6569,11 @@
             ]
         },
         {
-            "part_title": "VII. A mezőn mondott beszéd (Lukács szerint)",
+            "part_title": "VII Kazanie na równinie (wg Łukasza)",
             "sections": [
                 {
                     "id": "77",
-                    "section_title": "Occasion of the Sermon",
+                    "section_title": "Jezus uzdrawia i naucza",
                     "mt": [
                         {
                             "leading": false,
@@ -6676,7 +6676,7 @@
                 },
                 {
                     "id": "78",
-                    "section_title": "The Beatitudes",
+                    "section_title": "Błogosławieństwa",
                     "mt": [
                         {
                             "leading": false,
@@ -6770,7 +6770,7 @@
                 },
                 {
                     "id": "79",
-                    "section_title": "The Woes",
+                    "section_title": "Przekleństwa",
                     "mt": [
                         null
                     ],
@@ -6805,7 +6805,7 @@
                 },
                 {
                     "id": "80",
-                    "section_title": "On Love of One's Enemies",
+                    "section_title": "Miłość nieprzyjaciół",
                     "mt": [
                         {
                             "leading": false,
@@ -6934,7 +6934,7 @@
                 },
                 {
                     "id": "81",
-                    "section_title": "On Judging",
+                    "section_title": "Powściągliwość w sądzeniu",
                     "mt": [
                         {
                             "leading": false,
@@ -7027,7 +7027,7 @@
                 },
                 {
                     "id": "82",
-                    "section_title": "\"By their Fruits\"",
+                    "section_title": "Poznacie ich po ich owocach",
                     "mt": [
                         {
                             "leading": false,
@@ -7119,7 +7119,7 @@
                 },
                 {
                     "id": "83",
-                    "section_title": "The House Built upon the Rock",
+                    "section_title": "Dobra lub zła budowa",
                     "mt": [
                         {
                             "leading": false,
@@ -7199,11 +7199,11 @@
             ]
         },
         {
-            "part_title": "VIII. Jézus további működése Galileában",
+            "part_title": "VIII Dalsza działalność Jezusa w Galilei",
             "sections": [
                 {
                     "id": "84",
-                    "section_title": "Cleansing of the Leper",
+                    "section_title": "Uzdrowienie trędowatego",
                     "mt": [
                         {
                             "leading": true,
@@ -7306,7 +7306,7 @@
                 },
                 {
                     "id": "85",
-                    "section_title": "The Centurion of Capernaum",
+                    "section_title": "Setnik z Kafarnaum",
                     "mt": [
                         {
                             "leading": true,
@@ -7505,7 +7505,7 @@
                 },
                 {
                     "id": "86",
-                    "section_title": "The Widow's Son at Nain",
+                    "section_title": "Młodzieniec z Nain",
                     "mt": [
                         null
                     ],
@@ -7560,7 +7560,7 @@
                 },
                 {
                     "id": "87",
-                    "section_title": "The Healing of Peter's Mother-in-law",
+                    "section_title": "W domu Piotra",
                     "mt": [
                         {
                             "leading": true,
@@ -7623,7 +7623,7 @@
                 },
                 {
                     "id": "88",
-                    "section_title": "The Sick Healed at Evening",
+                    "section_title": "Liczne uzdrowienia",
                     "mt": [
                         {
                             "leading": true,
@@ -7686,7 +7686,7 @@
                 },
                 {
                     "id": "89",
-                    "section_title": "On Following Jesus",
+                    "section_title": "Naśladowcy Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -7765,7 +7765,7 @@
                 },
                 {
                     "id": "90",
-                    "section_title": "Stilling the Storm",
+                    "section_title": "Uciszenie burzy",
                     "mt": [
                         {
                             "leading": true,
@@ -7873,7 +7873,7 @@
                 },
                 {
                     "id": "91",
-                    "section_title": "The Gadarene Demoniacs",
+                    "section_title": "Uzdrowienie opętanego",
                     "mt": [
                         {
                             "leading": true,
@@ -8106,7 +8106,7 @@
                 },
                 {
                     "id": "92",
-                    "section_title": "The Healing of the Paralytic",
+                    "section_title": "Uzdrowienie paralityka",
                     "mt": [
                         {
                             "leading": true,
@@ -8298,7 +8298,7 @@
                 },
                 {
                     "id": "93",
-                    "section_title": "The Call of Levi (Matthew)",
+                    "section_title": "Powołanie Mateusza",
                     "mt": [
                         {
                             "leading": true,
@@ -8406,7 +8406,7 @@
                 },
                 {
                     "id": "94",
-                    "section_title": "The Question about Fasting",
+                    "section_title": "Sprawa postów",
                     "mt": [
                         {
                             "leading": true,
@@ -8514,7 +8514,7 @@
                 },
                 {
                     "id": "95",
-                    "section_title": "Jairus' Daughter and the Woman with a Hemorrhage",
+                    "section_title": "Córka Jaira i kobieta cierpiąca na krwotok",
                     "mt": [
                         {
                             "leading": true,
@@ -8787,7 +8787,7 @@
                 },
                 {
                     "id": "96",
-                    "section_title": "Two Blind Men",
+                    "section_title": "Uzdrowienie dwóch niewidomych",
                     "mt": [
                         {
                             "leading": true,
@@ -8958,7 +8958,7 @@
                 },
                 {
                     "id": "97",
-                    "section_title": "The Dumb Demoniac",
+                    "section_title": "Uzdrowienie opętanego niemowy",
                     "mt": [
                         {
                             "leading": true,
@@ -9039,7 +9039,7 @@
                 },
                 {
                     "id": "98",
-                    "section_title": "The Harvest is Great",
+                    "section_title": "„Żniwo wprawdzie wielkie, ale robotników mało”",
                     "mt": [
                         {
                             "leading": true,
@@ -9119,7 +9119,7 @@
                 },
                 {
                     "id": "99",
-                    "section_title": "Commissioning the Twelve",
+                    "section_title": "Rozesłanie Dwunastu",
                     "mt": [
                         {
                             "leading": true,
@@ -9374,7 +9374,7 @@
                 },
                 {
                     "id": "100",
-                    "section_title": "The Fate of the Disciples",
+                    "section_title": "Zapowiedź prześladowań",
                     "mt": [
                         {
                             "leading": true,
@@ -9586,7 +9586,7 @@
                 },
                 {
                     "id": "101",
-                    "section_title": "Exhortation to Fearless Confession",
+                    "section_title": "Zachęta do odważnego przyznawania się do Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -9690,7 +9690,7 @@
                 },
                 {
                     "id": "102",
-                    "section_title": "Divisions within Households",
+                    "section_title": "Za Jezusem lub przeciw Niemu",
                     "mt": [
                         {
                             "leading": true,
@@ -9744,7 +9744,7 @@
                 },
                 {
                     "id": "103",
-                    "section_title": "Conditions of Discipleship",
+                    "section_title": "Obowiązki uczniów Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -9820,7 +9820,7 @@
                 },
                 {
                     "id": "104",
-                    "section_title": "Rewards of Discipleship",
+                    "section_title": "Nagroda za oddanie się Jezusowi",
                     "mt": [
                         {
                             "leading": true,
@@ -9882,7 +9882,7 @@
                 },
                 {
                     "id": "105",
-                    "section_title": "Continuation of Journey",
+                    "section_title": "Kontynuacja nauczania",
                     "mt": [
                         {
                             "leading": true,
@@ -9907,7 +9907,7 @@
                 },
                 {
                     "id": "106",
-                    "section_title": "John the Baptist's Question and Jesus' Answer",
+                    "section_title": "Poselstwo Jana Chrzciciela",
                     "mt": [
                         {
                             "leading": true,
@@ -9986,7 +9986,7 @@
                 },
                 {
                     "id": "107",
-                    "section_title": "Jesus' Witness concerning John",
+                    "section_title": "Świadectwo Jezusa o Janie",
                     "mt": [
                         {
                             "leading": true,
@@ -10148,7 +10148,7 @@
                 },
                 {
                     "id": "108",
-                    "section_title": "Woes Pronounced on Galilean Cities",
+                    "section_title": "Biada nie pokutującym miastom",
                     "mt": [
                         {
                             "leading": true,
@@ -10217,7 +10217,7 @@
                 },
                 {
                     "id": "109",
-                    "section_title": "Jesus' Thanksgiving to the Father",
+                    "section_title": "Objawienie Ojca i Syna",
                     "mt": [
                         {
                             "leading": true,
@@ -10266,7 +10266,7 @@
                 },
                 {
                     "id": "110",
-                    "section_title": "\"Come unto Me\"",
+                    "section_title": "Wezwanie do utrudzonych",
                     "mt": [
                         {
                             "leading": true,
@@ -10301,7 +10301,7 @@
                 },
                 {
                     "id": "111",
-                    "section_title": "Plucking Grain on the Sabbath",
+                    "section_title": "Łuskanie kłosów w szabat",
                     "mt": [
                         {
                             "leading": true,
@@ -10424,7 +10424,7 @@
                 },
                 {
                     "id": "112",
-                    "section_title": "Healing the Withered Hand",
+                    "section_title": "Uzdrowienie w szabat",
                     "mt": [
                         {
                             "leading": true,
@@ -10542,7 +10542,7 @@
                 },
                 {
                     "id": "113",
-                    "section_title": "Jesus Heals Multitudes by the Sea",
+                    "section_title": "Napływ ludu",
                     "mt": [
                         {
                             "leading": true,
@@ -10650,7 +10650,7 @@
                 },
                 {
                     "id": "114",
-                    "section_title": "The Woman with the Ointment",
+                    "section_title": "Namaszczenie w Betanii",
                     "mt": [
                         {
                             "leading": false,
@@ -10872,7 +10872,7 @@
                 },
                 {
                     "id": "115",
-                    "section_title": "The Ministering Women",
+                    "section_title": "Śladem Jezusa",
                     "mt": [
                         null
                     ],
@@ -10907,7 +10907,7 @@
                 },
                 {
                     "id": "116",
-                    "section_title": "Jesus is Thought to be Beside Himself",
+                    "section_title": "Wzmożony ruch",
                     "mt": [
                         null
                     ],
@@ -10937,7 +10937,7 @@
                 },
                 {
                     "id": "117",
-                    "section_title": "On Collusion with Satan",
+                    "section_title": "Złośliwe zarzuty",
                     "mt": [
                         {
                             "leading": true,
@@ -11112,7 +11112,7 @@
                 },
                 {
                     "id": "118",
-                    "section_title": "The Sin against the Holy Spirit",
+                    "section_title": "Grzech przeciwko Duchowi Świętemu",
                     "mt": [
                         {
                             "leading": true,
@@ -11247,7 +11247,7 @@
                 },
                 {
                     "id": "119",
-                    "section_title": "The Sign of Jonah",
+                    "section_title": "Żądanie znaku",
                     "mt": [
                         {
                             "leading": true,
@@ -11370,7 +11370,7 @@
                 },
                 {
                     "id": "120",
-                    "section_title": "The Return of the Evil Spirit",
+                    "section_title": "Nawrót do grzechu",
                     "mt": [
                         {
                             "leading": true,
@@ -11424,7 +11424,7 @@
                 },
                 {
                     "id": "121",
-                    "section_title": "Jesus' True Kindred",
+                    "section_title": "Prawdziwi krewni Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -11526,7 +11526,7 @@
                 },
                 {
                     "id": "122",
-                    "section_title": "The Parable of the Sower",
+                    "section_title": "Przypowieść o siewcy",
                     "mt": [
                         {
                             "leading": true,
@@ -11669,7 +11669,7 @@
                 },
                 {
                     "id": "123",
-                    "section_title": "The Reason for Speaking in Parables",
+                    "section_title": "Cel przypowieści",
                     "mt": [
                         {
                             "leading": true,
@@ -11802,7 +11802,7 @@
                 },
                 {
                     "id": "124",
-                    "section_title": "Interpretation of the Parable of the Sower",
+                    "section_title": "Wyjaśnienie przypowieści o siewcy",
                     "mt": [
                         {
                             "leading": true,
@@ -11925,7 +11925,7 @@
                 },
                 {
                     "id": "125",
-                    "section_title": "\"He who has Ears to Hear, Let him Hear\"",
+                    "section_title": "„Kto ma uszy do słuchania, niechaj słucha!”",
                     "mt": [
                         {
                             "leading": false,
@@ -12037,7 +12037,7 @@
                 },
                 {
                     "id": "126",
-                    "section_title": "The Parable of the Seed Growing Secretly",
+                    "section_title": "Przypowieść o zasiewie",
                     "mt": [
                         null
                     ],
@@ -12077,7 +12077,7 @@
                 },
                 {
                     "id": "127",
-                    "section_title": "The Parable of the Tares",
+                    "section_title": "Przypowieść o chwaście",
                     "mt": [
                         {
                             "leading": true,
@@ -12132,7 +12132,7 @@
                 },
                 {
                     "id": "128",
-                    "section_title": "The Parable of the Mustard Seed",
+                    "section_title": "Przypowieść o ziarnku gorczycy",
                     "mt": [
                         {
                             "leading": true,
@@ -12195,7 +12195,7 @@
                 },
                 {
                     "id": "129",
-                    "section_title": "The Parable of the Leaven",
+                    "section_title": "Przypowieść o zaczynie",
                     "mt": [
                         {
                             "leading": true,
@@ -12234,7 +12234,7 @@
                 },
                 {
                     "id": "130",
-                    "section_title": "Jesus' Use of Parables",
+                    "section_title": "O nauczaniu w przypowieściach",
                     "mt": [
                         {
                             "leading": true,
@@ -12278,7 +12278,7 @@
                 },
                 {
                     "id": "131",
-                    "section_title": "Interpretation of the Parable of the Tares",
+                    "section_title": "Wyjaśnienie przypowieści o chwaście",
                     "mt": [
                         {
                             "leading": true,
@@ -12338,7 +12338,7 @@
                 },
                 {
                     "id": "132",
-                    "section_title": "The Parables of the Hidden Treasure and of the Pearl",
+                    "section_title": "Przypowieść o skarbie i perle",
                     "mt": [
                         {
                             "leading": true,
@@ -12373,7 +12373,7 @@
                 },
                 {
                     "id": "133",
-                    "section_title": "The Parable of the Net",
+                    "section_title": "Przypowieść o sieci",
                     "mt": [
                         {
                             "leading": true,
@@ -12413,7 +12413,7 @@
                 },
                 {
                     "id": "134",
-                    "section_title": "Treasures New and Old",
+                    "section_title": "Skarbiec rzeczy nowych i starych",
                     "mt": [
                         {
                             "leading": true,
@@ -12443,7 +12443,7 @@
                 },
                 {
                     "id": "135",
-                    "section_title": "Jesus' True Kindred",
+                    "section_title": "Prawdziwi krewni Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -12545,7 +12545,7 @@
                 },
                 {
                     "id": "136",
-                    "section_title": "Stilling the Storm",
+                    "section_title": "Uciszenie burzy",
                     "mt": [
                         {
                             "leading": false,
@@ -12653,7 +12653,7 @@
                 },
                 {
                     "id": "137",
-                    "section_title": "The Gerasene Demoniac",
+                    "section_title": "Uzdrowienie opętanego",
                     "mt": [
                         {
                             "leading": false,
@@ -12886,7 +12886,7 @@
                 },
                 {
                     "id": "138",
-                    "section_title": "Jairus' Daughter and the Woman with a Hemorrhage",
+                    "section_title": "Córka Jaira i kobieta cierpiąca na krwotok",
                     "mt": [
                         {
                             "leading": false,
@@ -13159,7 +13159,7 @@
                 },
                 {
                     "id": "139",
-                    "section_title": "Jesus is Rejected at Nazareth",
+                    "section_title": "Jezus w Nazarecie",
                     "mt": [
                         {
                             "leading": true,
@@ -13322,7 +13322,7 @@
                 },
                 {
                     "id": "140",
-                    "section_title": "Second Journey (to Jerusalem)",
+                    "section_title": "Jezus udaje się do Jerozolimy",
                     "mt": [
                         null
                     ],
@@ -13347,7 +13347,7 @@
                 },
                 {
                     "id": "141",
-                    "section_title": "The Healing at the Pool",
+                    "section_title": "Uzdrowienie chromego nad sadzawką",
                     "mt": [
                         null
                     ],
@@ -13597,7 +13597,7 @@
                 },
                 {
                     "id": "142",
-                    "section_title": "Commissioning the Twelve",
+                    "section_title": "Wysłanie Dwunastu",
                     "mt": [
                         {
                             "leading": false,
@@ -13759,7 +13759,7 @@
                 },
                 {
                     "id": "143",
-                    "section_title": "Opinions regarding Jesus",
+                    "section_title": "Sąd Heroda o Jezusie",
                     "mt": [
                         {
                             "leading": true,
@@ -13827,7 +13827,7 @@
                 },
                 {
                     "id": "144",
-                    "section_title": "The Death of John the Baptist",
+                    "section_title": "Śmierć Jana Chrzciciela",
                     "mt": [
                         {
                             "leading": true,
@@ -13980,7 +13980,7 @@
                 },
                 {
                     "id": "145",
-                    "section_title": "The Return of the Apostles",
+                    "section_title": "Powrót Apostołów",
                     "mt": [
                         null
                     ],
@@ -14019,7 +14019,7 @@
                 },
                 {
                     "id": "146",
-                    "section_title": "Five Thousand are Fed",
+                    "section_title": "Pierwsze rozmnożenie chleba",
                     "mt": [
                         {
                             "leading": true,
@@ -14276,7 +14276,7 @@
                 },
                 {
                     "id": "147",
-                    "section_title": "The Walking on the Water",
+                    "section_title": "Jezus chodzi po jeziorze",
                     "mt": [
                         {
                             "leading": true,
@@ -14434,7 +14434,7 @@
                 },
                 {
                     "id": "148",
-                    "section_title": "Healings at Gennesaret",
+                    "section_title": "Uzdrowienia w Genezaret",
                     "mt": [
                         {
                             "leading": true,
@@ -14517,7 +14517,7 @@
                 },
                 {
                     "id": "149",
-                    "section_title": "The Bread of Life",
+                    "section_title": "Chleb żywy",
                     "mt": [
                         null
                     ],
@@ -14707,7 +14707,7 @@
                 },
                 {
                     "id": "150",
-                    "section_title": "Defilement - Traditional and Real",
+                    "section_title": "Spór o tradycję",
                     "mt": [
                         {
                             "leading": true,
@@ -14988,7 +14988,7 @@
                 },
                 {
                     "id": "151",
-                    "section_title": "The Syrophoenician (Canaanite) Woman",
+                    "section_title": "Wiara kobiety kananejskiej",
                     "mt": [
                         {
                             "leading": true,
@@ -15087,7 +15087,7 @@
                 },
                 {
                     "id": "152",
-                    "section_title": "Jesus Heals a Deaf Mute and Many Others",
+                    "section_title": "Uzdrowienia nad jeziorem",
                     "mt": [
                         {
                             "leading": true,
@@ -15161,7 +15161,7 @@
                 },
                 {
                     "id": "153",
-                    "section_title": "Four Thousand are Fed",
+                    "section_title": "Drugie rozmnożenie chleba",
                     "mt": [
                         {
                             "leading": true,
@@ -15275,7 +15275,7 @@
                 },
                 {
                     "id": "154",
-                    "section_title": "The Pharisees Seek a Sign",
+                    "section_title": "Żądanie znaku",
                     "mt": [
                         {
                             "leading": true,
@@ -15393,7 +15393,7 @@
                 },
                 {
                     "id": "155",
-                    "section_title": "The Leaven of the Pharisees",
+                    "section_title": "„Strzeżcie się kwasu faryzeuszów!”",
                     "mt": [
                         {
                             "leading": true,
@@ -15506,7 +15506,7 @@
                 },
                 {
                     "id": "156",
-                    "section_title": "A Blind Man is Healed at Bethsaida",
+                    "section_title": "Uzdrowienie niewidomego w Betsaidzie",
                     "mt": [
                         null
                     ],
@@ -15552,11 +15552,11 @@
             ]
         },
         {
-            "part_title": "IX. A szenvedések útján",
+            "part_title": "IX Na drodze cierpienia",
             "sections": [
                 {
                     "id": "157",
-                    "section_title": "Many Disciples Take Offense at Jesus",
+                    "section_title": "Zgorszenie uczniów",
                     "mt": [
                         null
                     ],
@@ -15611,7 +15611,7 @@
                 },
                 {
                     "id": "158",
-                    "section_title": "Peter's Confession",
+                    "section_title": "Wyznanie Piotra",
                     "mt": [
                         {
                             "leading": true,
@@ -15748,7 +15748,7 @@
                 },
                 {
                     "id": "159",
-                    "section_title": "Jesus Foretells His Passion",
+                    "section_title": "Pierwsza zapowiedź męki i zmartwychwstania",
                     "mt": [
                         {
                             "leading": true,
@@ -15811,7 +15811,7 @@
                 },
                 {
                     "id": "160",
-                    "section_title": "\"If Any Man would Come after Me\"",
+                    "section_title": "Warunki naśladowania Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -15928,7 +15928,7 @@
                 },
                 {
                     "id": "161",
-                    "section_title": "The Transfiguration",
+                    "section_title": "Przemienienie Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -16091,7 +16091,7 @@
                 },
                 {
                     "id": "162",
-                    "section_title": "The Coming of Elijah",
+                    "section_title": "Przyjście Eliasza",
                     "mt": [
                         {
                             "leading": true,
@@ -16150,7 +16150,7 @@
                 },
                 {
                     "id": "163",
-                    "section_title": "Jesus Heals a Boy Possessed by a Spirit",
+                    "section_title": "Uzdrowienie epileptyka",
                     "mt": [
                         {
                             "leading": true,
@@ -16346,7 +16346,7 @@
                 },
                 {
                     "id": "164",
-                    "section_title": "Jesus Foretells His Passion again",
+                    "section_title": "Druga zapowiedź męki i zmartwychwstania",
                     "mt": [
                         {
                             "leading": true,
@@ -16414,7 +16414,7 @@
                 },
                 {
                     "id": "165",
-                    "section_title": "Payment of the Temple Tax",
+                    "section_title": "Podatek na świątynię",
                     "mt": [
                         {
                             "leading": true,
@@ -16454,7 +16454,7 @@
                 },
                 {
                     "id": "166",
-                    "section_title": "True Greatness",
+                    "section_title": "Spór o pierwszeństwo",
                     "mt": [
                         {
                             "leading": true,
@@ -16556,7 +16556,7 @@
                 },
                 {
                     "id": "167",
-                    "section_title": "The Strange Exorcist",
+                    "section_title": "W imię Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -16619,7 +16619,7 @@
                 },
                 {
                     "id": "168",
-                    "section_title": "Warnings concerning Temptations",
+                    "section_title": "Zgorszenie",
                     "mt": [
                         {
                             "leading": true,
@@ -16749,7 +16749,7 @@
                 },
                 {
                     "id": "169",
-                    "section_title": "The Parable of the Lost Sheep",
+                    "section_title": "Owca zabłąkana",
                     "mt": [
                         {
                             "leading": true,
@@ -16823,7 +16823,7 @@
                 },
                 {
                     "id": "170",
-                    "section_title": "On Reproving One's Brother",
+                    "section_title": "Upomnienie braterskie",
                     "mt": [
                         {
                             "leading": true,
@@ -16881,7 +16881,7 @@
                 },
                 {
                     "id": "171",
-                    "section_title": "\"Where Two or Three are Gathered Together\"",
+                    "section_title": "„Gdzie są dwaj albo trzej zebrani w imię moje…”",
                     "mt": [
                         {
                             "leading": true,
@@ -16911,7 +16911,7 @@
                 },
                 {
                     "id": "172",
-                    "section_title": "On Reconciliation",
+                    "section_title": "Obowiązek przebaczenia",
                     "mt": [
                         {
                             "leading": true,
@@ -16950,7 +16950,7 @@
                 },
                 {
                     "id": "173",
-                    "section_title": "The Parable of the Unforgiving Servant",
+                    "section_title": "Nielitościwy dłużnik",
                     "mt": [
                         {
                             "leading": true,
@@ -17036,11 +17036,11 @@
             ]
         },
         {
-            "part_title": "X. Úton Jeruzsálembe (Lukács szerint)",
+            "part_title": "X Podróż do Jerozolimy (wg Łukasza)",
             "sections": [
                 {
                     "id": "174",
-                    "section_title": "Decision to Go to Jerusalem",
+                    "section_title": "W drodze z Galilei",
                     "mt": [
                         {
                             "leading": false,
@@ -17088,7 +17088,7 @@
                 },
                 {
                     "id": "175",
-                    "section_title": "Jesus is Rejected by Samaritans",
+                    "section_title": "Niegościnni Samarytanie",
                     "mt": [
                         null
                     ],
@@ -17133,7 +17133,7 @@
                 },
                 {
                     "id": "176",
-                    "section_title": "On Following Jesus",
+                    "section_title": "Naśladowcy Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -17212,7 +17212,7 @@
                 },
                 {
                     "id": "177",
-                    "section_title": "Commissioning the Seventy",
+                    "section_title": "Wysłanie siedemdziesięciu dwóch",
                     "mt": [
                         {
                             "leading": false,
@@ -17364,7 +17364,7 @@
                 },
                 {
                     "id": "178",
-                    "section_title": "Woes Pronounced on Galilaean Cities",
+                    "section_title": "Biada nie pokutującym miastom",
                     "mt": [
                         {
                             "leading": false,
@@ -17428,7 +17428,7 @@
                 },
                 {
                     "id": "179",
-                    "section_title": "\"He who Hears You, Hears Me\"",
+                    "section_title": "„Kto was słucha, Mnie słucha”",
                     "mt": [
                         {
                             "leading": false,
@@ -17471,7 +17471,7 @@
                 },
                 {
                     "id": "180",
-                    "section_title": "The Return of the Seventy",
+                    "section_title": "Radość apostoła",
                     "mt": [
                         null
                     ],
@@ -17511,7 +17511,7 @@
                 },
                 {
                     "id": "181",
-                    "section_title": "Jesus' Thanksgiving to the Father, and the Blessedness of the Disciples",
+                    "section_title": "Objawienie Ojca i Syna",
                     "mt": [
                         {
                             "leading": false,
@@ -17588,7 +17588,7 @@
                 },
                 {
                     "id": "182",
-                    "section_title": "The Lawyer's Question",
+                    "section_title": "Największe przykazanie",
                     "mt": [
                         {
                             "leading": false,
@@ -17706,7 +17706,7 @@
                 },
                 {
                     "id": "183",
-                    "section_title": "The Parable of the Good Samaritan",
+                    "section_title": "Miłosierny Samarytanin",
                     "mt": [
                         null
                     ],
@@ -17771,7 +17771,7 @@
                 },
                 {
                     "id": "184",
-                    "section_title": "Mary and Martha",
+                    "section_title": "Marta i Maria",
                     "mt": [
                         null
                     ],
@@ -17816,7 +17816,7 @@
                 },
                 {
                     "id": "185",
-                    "section_title": "The Lord's Prayer",
+                    "section_title": "Ojcze nasz",
                     "mt": [
                         {
                             "leading": false,
@@ -17885,7 +17885,7 @@
                 },
                 {
                     "id": "186",
-                    "section_title": "The Importunate Friend at Midnight",
+                    "section_title": "Natrętny przyjaciel",
                     "mt": [
                         null
                     ],
@@ -17925,7 +17925,7 @@
                 },
                 {
                     "id": "187",
-                    "section_title": "Encouragement to Pray",
+                    "section_title": "Wytrwałość w modlitwie",
                     "mt": [
                         {
                             "leading": false,
@@ -17999,7 +17999,7 @@
                 },
                 {
                     "id": "188",
-                    "section_title": "The Beelzebub Controversy",
+                    "section_title": "Złośliwe zarzuty",
                     "mt": [
                         {
                             "leading": false,
@@ -18152,7 +18152,7 @@
                 },
                 {
                     "id": "189",
-                    "section_title": "The Return of the Evil Spirit",
+                    "section_title": "Nawrót do grzechu",
                     "mt": [
                         {
                             "leading": false,
@@ -18206,7 +18206,7 @@
                 },
                 {
                     "id": "190",
-                    "section_title": "True Blessedness",
+                    "section_title": "Prawdziwie błogosławieni",
                     "mt": [
                         null
                     ],
@@ -18236,7 +18236,7 @@
                 },
                 {
                     "id": "191",
-                    "section_title": "The Sign of Jonah",
+                    "section_title": "Żądanie znaku",
                     "mt": [
                         {
                             "leading": false,
@@ -18319,7 +18319,7 @@
                 },
                 {
                     "id": "192",
-                    "section_title": "Concerning Light",
+                    "section_title": "Przypowieść o świetle",
                     "mt": [
                         {
                             "leading": false,
@@ -18362,7 +18362,7 @@
                 },
                 {
                     "id": "193",
-                    "section_title": "The Sound Eye",
+                    "section_title": "Światłem ciała jest oko",
                     "mt": [
                         {
                             "leading": false,
@@ -18411,7 +18411,7 @@
                 },
                 {
                     "id": "194",
-                    "section_title": "Discourses against the Pharisees and Lawyers",
+                    "section_title": "Spór o tradycję",
                     "mt": [
                         {
                             "leading": false,
@@ -18619,7 +18619,7 @@
                 },
                 {
                     "id": "195",
-                    "section_title": "The Leaven of the Pharisees",
+                    "section_title": "„Strzeżcie się kwasu faryzeuszów!”",
                     "mt": [
                         {
                             "leading": false,
@@ -18672,7 +18672,7 @@
                 },
                 {
                     "id": "196",
-                    "section_title": "Exhortation to Fearless Confession",
+                    "section_title": "Zachęta do odważnego przyznawania się do Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -18776,7 +18776,7 @@
                 },
                 {
                     "id": "197",
-                    "section_title": "The Sin against the Holy Spirit",
+                    "section_title": "Grzech przeciwko Duchowi Świętemu",
                     "mt": [
                         {
                             "leading": false,
@@ -18834,7 +18834,7 @@
                 },
                 {
                     "id": "198",
-                    "section_title": "The Assistance of the Holy Spirit",
+                    "section_title": "Pomoc Ducha Świętego",
                     "mt": [
                         {
                             "leading": false,
@@ -18905,7 +18905,7 @@
                 },
                 {
                     "id": "199",
-                    "section_title": "Warning against Avarice",
+                    "section_title": "Ostrzeżenie przed chciwością",
                     "mt": [
                         null
                     ],
@@ -18940,7 +18940,7 @@
                 },
                 {
                     "id": "200",
-                    "section_title": "The Parable of the Rich Fool",
+                    "section_title": "Przypowieść o bogatym głupcu",
                     "mt": [
                         null
                     ],
@@ -18990,7 +18990,7 @@
                 },
                 {
                     "id": "201",
-                    "section_title": "Anxieties about Earthly Things",
+                    "section_title": "Zbytnie troski",
                     "mt": [
                         {
                             "leading": false,
@@ -19119,7 +19119,7 @@
                 },
                 {
                     "id": "202",
-                    "section_title": "Treasures in Heaven",
+                    "section_title": "Dobra trwałe",
                     "mt": [
                         {
                             "leading": false,
@@ -19168,7 +19168,7 @@
                 },
                 {
                     "id": "203",
-                    "section_title": "Watchfulness and Faithfulness",
+                    "section_title": "Gotowość na przyjście Pana",
                     "mt": [
                         {
                             "leading": false,
@@ -19312,7 +19312,7 @@
                 },
                 {
                     "id": "204",
-                    "section_title": "Division in Households",
+                    "section_title": "Za Jezusem lub przeciw Niemu",
                     "mt": [
                         {
                             "leading": false,
@@ -19376,7 +19376,7 @@
                 },
                 {
                     "id": "205",
-                    "section_title": "Interpreting the Times",
+                    "section_title": "Znaki czasu",
                     "mt": [
                         {
                             "leading": false,
@@ -19425,7 +19425,7 @@
                 },
                 {
                     "id": "206",
-                    "section_title": "Agreement with One's Accuser",
+                    "section_title": "„Pogódź się ze swoim przeciwnikiem!”",
                     "mt": [
                         {
                             "leading": false,
@@ -19474,7 +19474,7 @@
                 },
                 {
                     "id": "207",
-                    "section_title": "Repentance or Destruction (the Parable of the Barren Fig Tree)",
+                    "section_title": "Nieurodzajne drzewo figowe",
                     "mt": [
                         null
                     ],
@@ -19539,7 +19539,7 @@
                 },
                 {
                     "id": "208",
-                    "section_title": "The Healing of the Crippled Woman on the Sabbath",
+                    "section_title": "Uzdrowienie kobiety w szabat",
                     "mt": [
                         null
                     ],
@@ -19599,7 +19599,7 @@
                 },
                 {
                     "id": "209",
-                    "section_title": "The Parable of the Mustard Seed",
+                    "section_title": "Przypowieść o ziarnku gorczycy",
                     "mt": [
                         {
                             "leading": false,
@@ -19662,7 +19662,7 @@
                 },
                 {
                     "id": "210",
-                    "section_title": "The Parable of the Leaven",
+                    "section_title": "Przypowieść o zaczynie",
                     "mt": [
                         {
                             "leading": false,
@@ -19701,7 +19701,7 @@
                 },
                 {
                     "id": "211",
-                    "section_title": "Exclusion from the Kingdom",
+                    "section_title": "Ciasna brama",
                     "mt": [
                         {
                             "leading": false,
@@ -19838,7 +19838,7 @@
                 },
                 {
                     "id": "212",
-                    "section_title": "A Warning against Herod",
+                    "section_title": "Chytry Herod",
                     "mt": [
                         null
                     ],
@@ -19873,7 +19873,7 @@
                 },
                 {
                     "id": "213",
-                    "section_title": "The Lament over Jerusalem",
+                    "section_title": "Jezus odwraca się od Miasta",
                     "mt": [
                         {
                             "leading": false,
@@ -19922,7 +19922,7 @@
                 },
                 {
                     "id": "214",
-                    "section_title": "The Healing of the Man with Dropsy",
+                    "section_title": "Nowe uzdrowienie w szabat",
                     "mt": [
                         null
                     ],
@@ -19972,7 +19972,7 @@
                 },
                 {
                     "id": "215",
-                    "section_title": "Teaching on Humility",
+                    "section_title": "Skromność. Kogo zapraszać na ucztę",
                     "mt": [
                         null
                     ],
@@ -20032,7 +20032,7 @@
                 },
                 {
                     "id": "216",
-                    "section_title": "The Parable of the Great Supper",
+                    "section_title": "Przypowieść o uczcie królewskiej",
                     "mt": [
                         {
                             "leading": false,
@@ -20176,7 +20176,7 @@
                 },
                 {
                     "id": "217",
-                    "section_title": "The Conditions of Discipleship",
+                    "section_title": "Obowiązki uczniów Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -20255,7 +20255,7 @@
                 },
                 {
                     "id": "218",
-                    "section_title": "The Parable of Salt",
+                    "section_title": "Sól, która smak utraci",
                     "mt": [
                         {
                             "leading": false,
@@ -20308,7 +20308,7 @@
                 },
                 {
                     "id": "219",
-                    "section_title": "The Parable of the Lost Sheep",
+                    "section_title": "Owca zabłąkana",
                     "mt": [
                         {
                             "leading": false,
@@ -20382,7 +20382,7 @@
                 },
                 {
                     "id": "220",
-                    "section_title": "The Parable of the Lost Coin",
+                    "section_title": "Zgubiona drachma",
                     "mt": [
                         null
                     ],
@@ -20417,7 +20417,7 @@
                 },
                 {
                     "id": "221",
-                    "section_title": "The Parable of the Prodigal Son",
+                    "section_title": "Syn marnotrawny",
                     "mt": [
                         null
                     ],
@@ -20547,7 +20547,7 @@
                 },
                 {
                     "id": "222",
-                    "section_title": "The Parable of the Unjust Steward",
+                    "section_title": "Obrotny rządca",
                     "mt": [
                         null
                     ],
@@ -20612,7 +20612,7 @@
                 },
                 {
                     "id": "223",
-                    "section_title": "On Faithfulness in What is Least",
+                    "section_title": "„Kto w drobnej rzeczy jest wierny…”",
                     "mt": [
                         null
                     ],
@@ -20647,7 +20647,7 @@
                 },
                 {
                     "id": "224",
-                    "section_title": "On Serving Two Masters",
+                    "section_title": "Bóg i Mamona",
                     "mt": [
                         {
                             "leading": false,
@@ -20681,7 +20681,7 @@
                 },
                 {
                     "id": "225",
-                    "section_title": "The Pharisees Reproved",
+                    "section_title": "Faryzejska świętość",
                     "mt": [
                         null
                     ],
@@ -20711,7 +20711,7 @@
                 },
                 {
                     "id": "226",
-                    "section_title": "Concerning the Law",
+                    "section_title": "Jezus a Prawo",
                     "mt": [
                         {
                             "leading": false,
@@ -20768,7 +20768,7 @@
                 },
                 {
                     "id": "227",
-                    "section_title": "Concerning Divorce",
+                    "section_title": "Nierozerwalność małżeństwa",
                     "mt": [
                         {
                             "leading": false,
@@ -20816,7 +20816,7 @@
                 },
                 {
                     "id": "228",
-                    "section_title": "The Parable of the Rich Man and Lazarus",
+                    "section_title": "Bogacz i ubogi Łazarz",
                     "mt": [
                         null
                     ],
@@ -20901,7 +20901,7 @@
                 },
                 {
                     "id": "229",
-                    "section_title": "Warning against Offenses",
+                    "section_title": "Zgorszenie",
                     "mt": [
                         {
                             "leading": false,
@@ -20959,7 +20959,7 @@
                 },
                 {
                     "id": "230",
-                    "section_title": "On Forgiveness",
+                    "section_title": "Obowiązek przebaczenia",
                     "mt": [
                         {
                             "leading": false,
@@ -20998,7 +20998,7 @@
                 },
                 {
                     "id": "231",
-                    "section_title": "On Faith",
+                    "section_title": "Moc wiary",
                     "mt": [
                         {
                             "leading": false,
@@ -21061,7 +21061,7 @@
                 },
                 {
                     "id": "232",
-                    "section_title": "We are Unprofitable Servants",
+                    "section_title": "Służyć z pokorą",
                     "mt": [
                         null
                     ],
@@ -21101,7 +21101,7 @@
                 },
                 {
                     "id": "233",
-                    "section_title": "The Cleansing of the Ten Lepers",
+                    "section_title": "Wdzięczny Samarytanin",
                     "mt": [
                         null
                     ],
@@ -21166,7 +21166,7 @@
                 },
                 {
                     "id": "234",
-                    "section_title": "On the Coming of the Kingdom of God",
+                    "section_title": "Przyjście królestwa Bożego",
                     "mt": [
                         null
                     ],
@@ -21196,7 +21196,7 @@
                 },
                 {
                     "id": "235",
-                    "section_title": "The Day of the Son of Man",
+                    "section_title": "Dzień Syna Człowieczego",
                     "mt": [
                         {
                             "leading": false,
@@ -21465,7 +21465,7 @@
                 },
                 {
                     "id": "236",
-                    "section_title": "The Parable of the Unjust Judge",
+                    "section_title": "Moc wytrwałej modlitwy",
                     "mt": [
                         null
                     ],
@@ -21525,7 +21525,7 @@
                 },
                 {
                     "id": "237",
-                    "section_title": "The Pharisee and the Publican",
+                    "section_title": "Faryzeusz i celnik",
                     "mt": [
                         null
                     ],
@@ -21576,11 +21576,11 @@
             ]
         },
         {
-            "part_title": "XI. Jézus a lombsátor-ünnepen Jeruzsálemben (János szerint)",
+            "part_title": "XI Jezus podczas Święta Namiotów w Jerozolimie (wg Jana)",
             "sections": [
                 {
                     "id": "238",
-                    "section_title": "Jesus Remains in Galilee",
+                    "section_title": "Przed Świętem Namiotów",
                     "mt": [
                         null
                     ],
@@ -21645,7 +21645,7 @@
                 },
                 {
                     "id": "239",
-                    "section_title": "Journey to Jerusalem in Secret",
+                    "section_title": "Jezus skrycie udaje się do Jerozolimy",
                     "mt": [
                         null
                     ],
@@ -21685,7 +21685,7 @@
                 },
                 {
                     "id": "240",
-                    "section_title": "Teaching in the Temple",
+                    "section_title": "Spory w czasie święta",
                     "mt": [
                         null
                     ],
@@ -21835,7 +21835,7 @@
                 },
                 {
                     "id": "241",
-                    "section_title": "Division among the People regarding Jesus",
+                    "section_title": "Rozdwojenie tłumu z powodu Jezusa",
                     "mt": [
                         null
                     ],
@@ -21920,7 +21920,7 @@
                 },
                 {
                     "id": "242",
-                    "section_title": "The Woman Caught in Adultery",
+                    "section_title": "Kobieta cudzołożna",
                     "mt": [
                         null
                     ],
@@ -22000,7 +22000,7 @@
                 },
                 {
                     "id": "243",
-                    "section_title": "\"I am the Light of the World\"",
+                    "section_title": "Światłość wobec ciemności",
                     "mt": [
                         null
                     ],
@@ -22065,7 +22065,7 @@
                 },
                 {
                     "id": "244",
-                    "section_title": "Discussion with the Jews",
+                    "section_title": "Dyskusja z Żydami",
                     "mt": [
                         null
                     ],
@@ -22130,7 +22130,7 @@
                 },
                 {
                     "id": "245",
-                    "section_title": "\"The Truth will Make You Free\"",
+                    "section_title": "„Prawda was wyzwoli”",
                     "mt": [
                         null
                     ],
@@ -22185,7 +22185,7 @@
                 },
                 {
                     "id": "246",
-                    "section_title": "Children of the Devil",
+                    "section_title": "„Macie diabła za ojca”",
                     "mt": [
                         null
                     ],
@@ -22260,7 +22260,7 @@
                 },
                 {
                     "id": "247",
-                    "section_title": "\"Before Abraham was, I am\"",
+                    "section_title": "„Zanim Abraham stał się, JA JESTEM”",
                     "mt": [
                         null
                     ],
@@ -22340,7 +22340,7 @@
                 },
                 {
                     "id": "248",
-                    "section_title": "Jesus Heals the Man Born Blind",
+                    "section_title": "Uzdrowienie niewidomego od urodzenia",
                     "mt": [
                         null
                     ],
@@ -22565,7 +22565,7 @@
                 },
                 {
                     "id": "249",
-                    "section_title": "\"I am the Good Shepherd\"",
+                    "section_title": "Dobry Pasterz",
                     "mt": [
                         null
                     ],
@@ -22675,7 +22675,7 @@
                 },
                 {
                     "id": "250",
-                    "section_title": "Division among the Jews again",
+                    "section_title": "Rozdwojenie między Żydami",
                     "mt": [
                         null
                     ],
@@ -22711,11 +22711,11 @@
             ]
         },
         {
-            "part_title": "XII. Jézus működése Júdeában",
+            "part_title": "XII Działalność Jezusa w Judei",
             "sections": [
                 {
                     "id": "251",
-                    "section_title": "Departure to Judea",
+                    "section_title": "W drodze z Galilei",
                     "mt": [
                         {
                             "leading": true,
@@ -22763,7 +22763,7 @@
                 },
                 {
                     "id": "252",
-                    "section_title": "On Divorce and Celibacy",
+                    "section_title": "Nierozerwalność małżeństwa",
                     "mt": [
                         {
                             "leading": true,
@@ -22901,7 +22901,7 @@
                 },
                 {
                     "id": "253",
-                    "section_title": "Jesus Blesses the Children",
+                    "section_title": "Jezus błogosławi dzieci",
                     "mt": [
                         {
                             "leading": true,
@@ -22979,7 +22979,7 @@
                 },
                 {
                     "id": "254",
-                    "section_title": "The Rich Young Man",
+                    "section_title": "Bogaty młodzieniec",
                     "mt": [
                         {
                             "leading": true,
@@ -23102,7 +23102,7 @@
                 },
                 {
                     "id": "255",
-                    "section_title": "On Riches and the Rewards of Discipleship",
+                    "section_title": "Niebezpieczeństwo bogactwa",
                     "mt": [
                         {
                             "leading": true,
@@ -23273,7 +23273,7 @@
                 },
                 {
                     "id": "256",
-                    "section_title": "The Parable of the Laborers in the Vineyard",
+                    "section_title": "Przypowieść o robotnikach w winnicy",
                     "mt": [
                         {
                             "leading": true,
@@ -23391,7 +23391,7 @@
                 },
                 {
                     "id": "257",
-                    "section_title": "Jesus at the Feast of Dedication in Jerusalem",
+                    "section_title": "Chrystus – jedno z Ojcem",
                     "mt": [
                         null
                     ],
@@ -23501,7 +23501,7 @@
                 },
                 {
                     "id": "258",
-                    "section_title": "Jesus Withdraws across the Jordan",
+                    "section_title": "W Zajordaniu",
                     "mt": [
                         null
                     ],
@@ -23536,7 +23536,7 @@
                 },
                 {
                     "id": "259",
-                    "section_title": "The Raising of Lazarus",
+                    "section_title": "Wskrzeszenie Łazarza",
                     "mt": [
                         null
                     ],
@@ -23776,7 +23776,7 @@
                 },
                 {
                     "id": "260",
-                    "section_title": "The Chief Priests and Pharisees Take Counsel against Jesus",
+                    "section_title": "Narada kapłanów",
                     "mt": [
                         null
                     ],
@@ -23841,7 +23841,7 @@
                 },
                 {
                     "id": "261",
-                    "section_title": "Jesus Retires to Ephraim",
+                    "section_title": "W Efraim",
                     "mt": [
                         null
                     ],
@@ -23881,7 +23881,7 @@
                 },
                 {
                     "id": "262",
-                    "section_title": "The Third Prediction of the Passion",
+                    "section_title": "Trzecia zapowiedź męki i zmartwychwstania",
                     "mt": [
                         {
                             "leading": true,
@@ -23959,7 +23959,7 @@
                 },
                 {
                     "id": "263",
-                    "section_title": "The Sons of Zebedee; Precedence among the Disciples",
+                    "section_title": "Synowie Zebedeusza",
                     "mt": [
                         {
                             "leading": true,
@@ -24107,7 +24107,7 @@
                 },
                 {
                     "id": "264",
-                    "section_title": "The Healing of the Blind Men (Bartimaeus)",
+                    "section_title": "Niewidomi pod Jerychem",
                     "mt": [
                         {
                             "leading": true,
@@ -24278,7 +24278,7 @@
                 },
                 {
                     "id": "265",
-                    "section_title": "Zacchaeus",
+                    "section_title": "Zacheusz",
                     "mt": [
                         {
                             "leading": false,
@@ -24357,7 +24357,7 @@
                 },
                 {
                     "id": "266",
-                    "section_title": "The Parable of the Pounds",
+                    "section_title": "Przypowieść o talentach",
                     "mt": [
                         {
                             "leading": false,
@@ -24560,7 +24560,7 @@
                 },
                 {
                     "id": "267",
-                    "section_title": "The Anointing at Bethany",
+                    "section_title": "Namaszczenie w Betanii",
                     "mt": [
                         {
                             "leading": false,
@@ -24782,7 +24782,7 @@
                 },
                 {
                     "id": "268",
-                    "section_title": "The Plot against Lazarus",
+                    "section_title": "Postanowienie o straceniu Łazarza",
                     "mt": [
                         null
                     ],
@@ -24818,11 +24818,11 @@
             ]
         },
         {
-            "part_title": "XIII. Jézus utolsó útja Jeruzsálembe",
+            "part_title": "XIII Ostatnia podróż do Jerozolimy",
             "sections": [
                 {
                     "id": "269",
-                    "section_title": "The Triumphal Entry",
+                    "section_title": "Uroczysty wjazd do Jerozolimy",
                     "mt": [
                         {
                             "leading": true,
@@ -25054,7 +25054,7 @@
                 },
                 {
                     "id": "270",
-                    "section_title": "Jesus Weeps over Jerusalem",
+                    "section_title": "Zapowiedź upadku miasta",
                     "mt": [
                         null
                     ],
@@ -25094,7 +25094,7 @@
                 },
                 {
                     "id": "271",
-                    "section_title": "Jesus in Jerusalem (Cleansing the Temple), Return to Bethany",
+                    "section_title": "Jezus w świątyni",
                     "mt": [
                         {
                             "leading": true,
@@ -25200,7 +25200,7 @@
                 },
                 {
                     "id": "272",
-                    "section_title": "The Cursing of the Fig Tree",
+                    "section_title": "Nieurodzajne drzewo figowe",
                     "mt": [
                         {
                             "leading": true,
@@ -25249,7 +25249,7 @@
                 },
                 {
                     "id": "273",
-                    "section_title": "The Cleansing of the Temple",
+                    "section_title": "Wypędzenie przekupniów",
                     "mt": [
                         {
                             "leading": false,
@@ -25341,7 +25341,7 @@
                 },
                 {
                     "id": "274",
-                    "section_title": "The Chief Priests and Scribes Conspire against Jesus",
+                    "section_title": "Arcykapłani i uczeni w Piśmie szukają sposobu, jak zgładzić Jezusa",
                     "mt": [
                         null
                     ],
@@ -25385,7 +25385,7 @@
                 },
                 {
                     "id": "275",
-                    "section_title": "The Fig Tree is Withered",
+                    "section_title": "Moc wiary",
                     "mt": [
                         {
                             "leading": true,
@@ -25477,7 +25477,7 @@
                 },
                 {
                     "id": "276",
-                    "section_title": "The Question about Authority",
+                    "section_title": "Pytanie o władzę",
                     "mt": [
                         {
                             "leading": true,
@@ -25605,7 +25605,7 @@
                 },
                 {
                     "id": "277",
-                    "section_title": "The Parable of the Two Sons",
+                    "section_title": "Przypowieść o dwóch synach",
                     "mt": [
                         {
                             "leading": true,
@@ -25650,7 +25650,7 @@
                 },
                 {
                     "id": "278",
-                    "section_title": "The Parable of the Wicked Husbandmen",
+                    "section_title": "Przypowieść o przewrotnych rolnikach",
                     "mt": [
                         {
                             "leading": true,
@@ -25863,7 +25863,7 @@
                 },
                 {
                     "id": "279",
-                    "section_title": "The Parable of the Great Supper",
+                    "section_title": "Przypowieść o uczcie królewskiej",
                     "mt": [
                         {
                             "leading": true,
@@ -26007,7 +26007,7 @@
                 },
                 {
                     "id": "280",
-                    "section_title": "On Paying Tribute to Caesar",
+                    "section_title": "Sprawa podatków",
                     "mt": [
                         {
                             "leading": true,
@@ -26135,7 +26135,7 @@
                 },
                 {
                     "id": "281",
-                    "section_title": "The Question about the Resurrection",
+                    "section_title": "Sprawa zmartwychwstania",
                     "mt": [
                         {
                             "leading": true,
@@ -26338,7 +26338,7 @@
                 },
                 {
                     "id": "282",
-                    "section_title": "The Great Commandment",
+                    "section_title": "Największe przykazanie",
                     "mt": [
                         {
                             "leading": true,
@@ -26456,7 +26456,7 @@
                 },
                 {
                     "id": "283",
-                    "section_title": "The Question about David's Son",
+                    "section_title": "Mesjasz Synem Bożym",
                     "mt": [
                         {
                             "leading": true,
@@ -26549,7 +26549,7 @@
                 },
                 {
                     "id": "284",
-                    "section_title": "Woe to the Scribes and Pharisees",
+                    "section_title": "Ostrzeżenie przed uczonymi w Piśmie",
                     "mt": [
                         {
                             "leading": true,
@@ -26792,7 +26792,7 @@
                 },
                 {
                     "id": "285",
-                    "section_title": "Jesus' Lament over Jerusalem",
+                    "section_title": "Jezus odwraca się od Miasta",
                     "mt": [
                         {
                             "leading": true,
@@ -26841,7 +26841,7 @@
                 },
                 {
                     "id": "286",
-                    "section_title": "The Widow's Mite",
+                    "section_title": "Grosz wdowi",
                     "mt": [
                         null
                     ],
@@ -26906,11 +26906,11 @@
             ]
         },
         {
-            "part_title": "XIV. A szinoptikus apokalipszis",
+            "part_title": "XIV Eschatologiczna mowa Jezusa",
             "sections": [
                 {
                     "id": "287",
-                    "section_title": "Prediction of the Destruction of the Temple",
+                    "section_title": "Zniszczenie świątyni",
                     "mt": [
                         {
                             "leading": true,
@@ -26968,7 +26968,7 @@
                 },
                 {
                     "id": "288",
-                    "section_title": "Signs before the End",
+                    "section_title": "Początek boleści",
                     "mt": [
                         {
                             "leading": true,
@@ -27081,7 +27081,7 @@
                 },
                 {
                     "id": "289",
-                    "section_title": "Persecutions Foretold",
+                    "section_title": "Prześladowanie uczniów",
                     "mt": [
                         {
                             "leading": true,
@@ -27256,7 +27256,7 @@
                 },
                 {
                     "id": "290",
-                    "section_title": "The Desolating Sacrilege",
+                    "section_title": "Znaki zapowiadające zburzenie Jerozolimy",
                     "mt": [
                         {
                             "leading": true,
@@ -27384,7 +27384,7 @@
                 },
                 {
                     "id": "291",
-                    "section_title": "False Christs and False Prophets",
+                    "section_title": "Ostrzeżenie przed fałszywymi prorokami",
                     "mt": [
                         {
                             "leading": true,
@@ -27480,7 +27480,7 @@
                 },
                 {
                     "id": "292",
-                    "section_title": "The Coming of the Son of Man",
+                    "section_title": "Przyjście Chrystusa",
                     "mt": [
                         {
                             "leading": true,
@@ -27563,7 +27563,7 @@
                 },
                 {
                     "id": "293",
-                    "section_title": "The Time of the Coming: the Parable of the Fig Tree",
+                    "section_title": "Przykład z drzewa figowego. Nieznany czas przyjścia",
                     "mt": [
                         {
                             "leading": true,
@@ -27666,7 +27666,7 @@
                 },
                 {
                     "id": "294",
-                    "section_title": "Conclusion: \"Take Heed, Watch!\" (According to Mark)",
+                    "section_title": "Potrzeba czujności (wg Marka)",
                     "mt": [
                         {
                             "leading": false,
@@ -27770,7 +27770,7 @@
                 },
                 {
                     "id": "295",
-                    "section_title": "Conclusion: \"Take Heed, Watch!\" (According to Luke)",
+                    "section_title": "Potrzeba czujności",
                     "mt": [
                         null
                     ],
@@ -27806,11 +27806,11 @@
             ]
         },
         {
-            "part_title": "XV. A passió előtti idő bemutatásának befejezése",
+            "part_title": "XV Zakończenie opisu czasu przed Męką Pańską",
             "sections": [
                 {
                     "id": "296",
-                    "section_title": "The Parable of the Flood and Exhortation to Watchfulness",
+                    "section_title": "Przypowieść o potopie. Potrzeba czujności",
                     "mt": [
                         {
                             "leading": true,
@@ -27956,7 +27956,7 @@
                 },
                 {
                     "id": "297",
-                    "section_title": "The Parable of the Good Servant and the Wicked Servant",
+                    "section_title": "Przypowieść o słudze wiernym i niewiernym",
                     "mt": [
                         {
                             "leading": true,
@@ -28045,7 +28045,7 @@
                 },
                 {
                     "id": "298",
-                    "section_title": "The Parable of the Ten Virgins",
+                    "section_title": "Przypowieść o pannach roztropnych i nierozsądnych",
                     "mt": [
                         {
                             "leading": true,
@@ -28130,7 +28130,7 @@
                 },
                 {
                     "id": "299",
-                    "section_title": "The Parable of the Talents",
+                    "section_title": "Przypowieść o talentach",
                     "mt": [
                         {
                             "leading": true,
@@ -28333,7 +28333,7 @@
                 },
                 {
                     "id": "300",
-                    "section_title": "The Last Judgment",
+                    "section_title": "Sąd Ostateczny",
                     "mt": [
                         {
                             "leading": true,
@@ -28442,7 +28442,7 @@
                 },
                 {
                     "id": "301",
-                    "section_title": "The Ministry of Jesus in Jerusalem",
+                    "section_title": "Ostatnie dni Jezusa",
                     "mt": [
                         null
                     ],
@@ -28472,7 +28472,7 @@
                 },
                 {
                     "id": "302",
-                    "section_title": "Greeks Seek Jesus; Discourse on His Death",
+                    "section_title": "Godzina Syna Człowieczego",
                     "mt": [
                         null
                     ],
@@ -28577,7 +28577,7 @@
                 },
                 {
                     "id": "303",
-                    "section_title": "The Unbelief of the People",
+                    "section_title": "Niedowiarstwo Żydów",
                     "mt": [
                         null
                     ],
@@ -28632,7 +28632,7 @@
                 },
                 {
                     "id": "304",
-                    "section_title": "Judgment by the Word",
+                    "section_title": "Kto wierzy w Jezusa, wierzy w Ojca",
                     "mt": [
                         null
                     ],
@@ -28688,11 +28688,11 @@
             ]
         },
         {
-            "part_title": "XVI. A szenvedéstörténet",
+            "part_title": "XVI Opowieść o Męce Pańskiej",
             "sections": [
                 {
                     "id": "305",
-                    "section_title": "Jesus' Death is Premeditated",
+                    "section_title": "Spisek przeciw Jezusowi",
                     "mt": [
                         {
                             "leading": true,
@@ -28765,7 +28765,7 @@
                 },
                 {
                     "id": "306",
-                    "section_title": "The Anointing in Bethany",
+                    "section_title": "Namaszczenie w Betanii",
                     "mt": [
                         {
                             "leading": true,
@@ -28987,7 +28987,7 @@
                 },
                 {
                     "id": "307",
-                    "section_title": "The Betrayal by Judas",
+                    "section_title": "Zdrada Judasza",
                     "mt": [
                         {
                             "leading": true,
@@ -29060,7 +29060,7 @@
                 },
                 {
                     "id": "308",
-                    "section_title": "Preparation for the Passover",
+                    "section_title": "Ostatnia Wieczerza",
                     "mt": [
                         {
                             "leading": true,
@@ -29178,7 +29178,7 @@
                 },
                 {
                     "id": "309",
-                    "section_title": "Washing the Disciples' Feet",
+                    "section_title": "Miłość i pokora Syna Bożego",
                     "mt": [
                         null,
                         {
@@ -29333,7 +29333,7 @@
                 },
                 {
                     "id": "310",
-                    "section_title": "Jesus Foretells His Betrayal",
+                    "section_title": "Wyjawienie zdrajcy",
                     "mt": [
                         {
                             "leading": true,
@@ -29475,7 +29475,7 @@
                 },
                 {
                     "id": "311",
-                    "section_title": "The Last Supper",
+                    "section_title": "Ustanowienie Eucharystii",
                     "mt": [
                         {
                             "leading": true,
@@ -29573,7 +29573,7 @@
                 },
                 {
                     "id": "312",
-                    "section_title": "Jesus Foretells His Betrayal",
+                    "section_title": "Wyjawienie zdrajcy",
                     "mt": [
                         {
                             "leading": false,
@@ -29715,7 +29715,7 @@
                 },
                 {
                     "id": "313",
-                    "section_title": "Precedence among the Disciples and the Reward of Discipleship",
+                    "section_title": "Spór o pierwszeństwo",
                     "mt": [
                         {
                             "leading": false,
@@ -29841,7 +29841,7 @@
                 },
                 {
                     "id": "314",
-                    "section_title": "The New Commandment of Love",
+                    "section_title": "Wobec bliskiego rozstania",
                     "mt": [
                         null
                     ],
@@ -29886,7 +29886,7 @@
                 },
                 {
                     "id": "315",
-                    "section_title": "Peter's Denial Predicted",
+                    "section_title": "Przepowiednia zaparcia się Piotra",
                     "mt": [
                         {
                             "leading": true,
@@ -30013,7 +30013,7 @@
                 },
                 {
                     "id": "316",
-                    "section_title": "The Two Swords",
+                    "section_title": "Chwila walki",
                     "mt": [
                         null
                     ],
@@ -30053,7 +30053,7 @@
                 },
                 {
                     "id": "317",
-                    "section_title": "\"Let Not Your Hearts be Troubled\"",
+                    "section_title": "Do domu Ojca",
                     "mt": [
                         null
                     ],
@@ -30143,7 +30143,7 @@
                 },
                 {
                     "id": "318",
-                    "section_title": "The Promise of the Paraclete",
+                    "section_title": "Zapowiedź Pocieszyciela",
                     "mt": [
                         null
                     ],
@@ -30223,7 +30223,7 @@
                 },
                 {
                     "id": "319",
-                    "section_title": "The Gift of Peace",
+                    "section_title": "„Pokój zostawiam wam”",
                     "mt": [
                         null
                     ],
@@ -30268,7 +30268,7 @@
                 },
                 {
                     "id": "320",
-                    "section_title": "Jesus the True Vine",
+                    "section_title": "Prawdziwy krzew winny",
                     "mt": [
                         null
                     ],
@@ -30328,7 +30328,7 @@
                 },
                 {
                     "id": "321",
-                    "section_title": "\"Abide in My Love\"",
+                    "section_title": "„Wytrwajcie w miłości mojej!”",
                     "mt": [
                         null
                     ],
@@ -30393,7 +30393,7 @@
                 },
                 {
                     "id": "322",
-                    "section_title": "The World's Hatred",
+                    "section_title": "Nienawiść świata",
                     "mt": [
                         null
                     ],
@@ -30453,7 +30453,7 @@
                 },
                 {
                     "id": "323",
-                    "section_title": "The Witness of the Paraclete",
+                    "section_title": "Świadectwo Pocieszyciela",
                     "mt": [
                         null
                     ],
@@ -30483,7 +30483,7 @@
                 },
                 {
                     "id": "324",
-                    "section_title": "On Persecutions",
+                    "section_title": "Przestroga",
                     "mt": [
                         null
                     ],
@@ -30523,7 +30523,7 @@
                 },
                 {
                     "id": "325",
-                    "section_title": "The Work of the Paraclete",
+                    "section_title": "Sąd Ducha Świętego",
                     "mt": [
                         null
                     ],
@@ -30598,7 +30598,7 @@
                 },
                 {
                     "id": "326",
-                    "section_title": "Sorrow Turned the Joy",
+                    "section_title": "Zapowiedź powtórnego przyjścia",
                     "mt": [
                         null
                     ],
@@ -30653,7 +30653,7 @@
                 },
                 {
                     "id": "327",
-                    "section_title": "Prayer in the Name of Jesus",
+                    "section_title": "Proście Ojca w imię moje!",
                     "mt": [
                         null
                     ],
@@ -30703,7 +30703,7 @@
                 },
                 {
                     "id": "328",
-                    "section_title": "Prediction of the Disciples' Flight",
+                    "section_title": "Zapowiedź rozproszenia się uczniów",
                     "mt": [
                         null
                     ],
@@ -30748,7 +30748,7 @@
                 },
                 {
                     "id": "329",
-                    "section_title": "The Intercessory Prayer",
+                    "section_title": "Modlitwa arcykapłańska Chrystusa",
                     "mt": [
                         null
                     ],
@@ -30898,7 +30898,7 @@
                 },
                 {
                     "id": "330",
-                    "section_title": "Gethsemane",
+                    "section_title": "Jezus w Ogrójcu",
                     "mt": [
                         {
                             "leading": true,
@@ -31098,7 +31098,7 @@
                 },
                 {
                     "id": "331",
-                    "section_title": "Jesus Arrested",
+                    "section_title": "Pojmanie Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -31320,7 +31320,7 @@
                 },
                 {
                     "id": "332",
-                    "section_title": "Jesus before the Sanhedrin (Peter's Denial)",
+                    "section_title": "Wobec Wysokiej Rady (Zaparcie się Piotra)",
                     "mt": [
                         {
                             "leading": true,
@@ -31627,7 +31627,7 @@
                 },
                 {
                     "id": "333",
-                    "section_title": "Peter's Denial",
+                    "section_title": "Zaparcie się Piotra",
                     "mt": [
                         {
                             "leading": true,
@@ -31779,7 +31779,7 @@
                 },
                 {
                     "id": "334",
-                    "section_title": "Jesus Delivered to Pilate",
+                    "section_title": "Wydanie Jezusa Piłatowi",
                     "mt": [
                         {
                             "leading": true,
@@ -31836,7 +31836,7 @@
                 },
                 {
                     "id": "335",
-                    "section_title": "The Death of Judas",
+                    "section_title": "Koniec zdrajcy",
                     "mt": [
                         {
                             "leading": true,
@@ -31896,7 +31896,7 @@
                 },
                 {
                     "id": "336",
-                    "section_title": "The Trial before Pilate",
+                    "section_title": "Jezus przed Piłatem",
                     "mt": [
                         {
                             "leading": true,
@@ -32038,7 +32038,7 @@
                 },
                 {
                     "id": "337",
-                    "section_title": "Jesus before Herod",
+                    "section_title": "Jezus przed Herodem",
                     "mt": [
                         null
                     ],
@@ -32093,7 +32093,7 @@
                 },
                 {
                     "id": "338",
-                    "section_title": "Pilate Declares Jesus Innocent",
+                    "section_title": "Jezus ponownie przed Piłatem",
                     "mt": [
                         null
                     ],
@@ -32133,7 +32133,7 @@
                 },
                 {
                     "id": "339",
-                    "section_title": "Jesus or Barabbas?",
+                    "section_title": "Jezus odrzucony przez swój naród",
                     "mt": [
                         {
                             "leading": true,
@@ -32300,7 +32300,7 @@
                 },
                 {
                     "id": "340",
-                    "section_title": "\"Behold the Man!\"",
+                    "section_title": "„Oto Człowiek”",
                     "mt": [
                         {
                             "leading": false,
@@ -32448,7 +32448,7 @@
                 },
                 {
                     "id": "341",
-                    "section_title": "Pilate Delivers Jesus to be Crucified",
+                    "section_title": "Wyrok",
                     "mt": [
                         {
                             "leading": true,
@@ -32515,7 +32515,7 @@
                 },
                 {
                     "id": "342",
-                    "section_title": "Jesus Mocked by the Soldiers",
+                    "section_title": "Król wyśmiany",
                     "mt": [
                         {
                             "leading": true,
@@ -32603,7 +32603,7 @@
                 },
                 {
                     "id": "343",
-                    "section_title": "The Road to Golgotha",
+                    "section_title": "Droga na Golgotę",
                     "mt": [
                         {
                             "leading": true,
@@ -32700,7 +32700,7 @@
                 },
                 {
                     "id": "344",
-                    "section_title": "The Crucifixion",
+                    "section_title": "Ukrzyżowanie",
                     "mt": [
                         {
                             "leading": true,
@@ -32847,7 +32847,7 @@
                 },
                 {
                     "id": "345",
-                    "section_title": "Jesus Derided on the Cross",
+                    "section_title": "Wyszydzenie na krzyżu",
                     "mt": [
                         {
                             "leading": true,
@@ -32955,7 +32955,7 @@
                 },
                 {
                     "id": "346",
-                    "section_title": "The Two Thieves",
+                    "section_title": "Dwóch ukrzyżowanych łotrów",
                     "mt": [
                         {
                             "leading": true,
@@ -33018,7 +33018,7 @@
                 },
                 {
                     "id": "347",
-                    "section_title": "The Death of Jesus",
+                    "section_title": "Śmierć Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -33175,7 +33175,7 @@
                 },
                 {
                     "id": "348",
-                    "section_title": "Witnesses of the Crucifixion",
+                    "section_title": "Świadkowie przy krzyżu",
                     "mt": [
                         {
                             "leading": true,
@@ -33247,7 +33247,7 @@
                 },
                 {
                     "id": "349",
-                    "section_title": "Jesus' Side Pierced",
+                    "section_title": "Przebicie boku Jezusa",
                     "mt": [
                         null
                     ],
@@ -33302,7 +33302,7 @@
                 },
                 {
                     "id": "350",
-                    "section_title": "The Burial of Jesus",
+                    "section_title": "Pogrzeb Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -33449,7 +33449,7 @@
                 },
                 {
                     "id": "351",
-                    "section_title": "The Guard at the Tomb",
+                    "section_title": "Straż przy grobie",
                     "mt": [
                         {
                             "leading": true,
@@ -33495,11 +33495,11 @@
             ]
         },
         {
-            "part_title": "XVII. A feltámadott Jézus",
+            "part_title": "XVII Zmartwychwstanie Jezusa Chrystusa",
             "sections": [
                 {
                     "id": "352",
-                    "section_title": "The Women at the Tomb",
+                    "section_title": "Pusty grób",
                     "mt": [
                         {
                             "leading": true,
@@ -33736,7 +33736,7 @@
                 },
                 {
                     "id": "353",
-                    "section_title": "Jesus Appears to the Women",
+                    "section_title": "Jezus ukazuje się niewiastom",
                     "mt": [
                         {
                             "leading": true,
@@ -33828,7 +33828,7 @@
                 },
                 {
                     "id": "354",
-                    "section_title": "The Report of the Guard",
+                    "section_title": "Przekupiona straż",
                     "mt": [
                         {
                             "leading": true,
@@ -33873,7 +33873,7 @@
                 },
                 {
                     "id": "355",
-                    "section_title": "Jesus Appears to Two on the Way to Emmaus",
+                    "section_title": "Uczniowie z Emaus",
                     "mt": [
                         null
                     ],
@@ -34022,7 +34022,7 @@
                 },
                 {
                     "id": "356",
-                    "section_title": "Jesus Appears to His Disciples (Thomas being Absent)",
+                    "section_title": "Jezus ukazuje się Apostołom",
                     "mt": [
                         null
                     ],
@@ -34111,7 +34111,7 @@
                 },
                 {
                     "id": "357",
-                    "section_title": "Jesus Appears to His Disciples (Thomas being Present)",
+                    "section_title": "Niewierny Tomasz",
                     "mt": [
                         null
                     ],
@@ -34161,7 +34161,7 @@
                 },
                 {
                     "id": "358",
-                    "section_title": "Jesus Appears to the Eleven While They Sit at Table",
+                    "section_title": "Ostatni rozkaz",
                     "mt": [
                         null
                     ],
@@ -34206,7 +34206,7 @@
                 },
                 {
                     "id": "359",
-                    "section_title": "Jesus Appears to the Eleven on a Mountain in Galilee",
+                    "section_title": "Jezus ukazuje się uczniom. Ostatni rozkaz",
                     "mt": [
                         {
                             "leading": false,
@@ -34251,7 +34251,7 @@
                 },
                 {
                     "id": "360",
-                    "section_title": "Jesus Appears to His Disciples by the Sea of Tiberias",
+                    "section_title": "Zmartwychwstały ukazuje się nad Morzem Tyberiadzkim",
                     "mt": [
                         null
                     ],
@@ -34342,11 +34342,11 @@
             ]
         },
         {
-            "part_title": "XVIII. Az evangéliumok befejezései",
+            "part_title": "XVIII Zakończenia Ewangelii",
             "sections": [
                 {
                     "id": "363",
-                    "section_title": "The Longer Ending of Mark",
+                    "section_title": "Zakończenie Ewangelii Marka",
                     "mt": [
                         null
                     ],
@@ -34426,7 +34426,7 @@
                 },
                 {
                     "id": "364",
-                    "section_title": "The Ending of Matthew: The Great Commission",
+                    "section_title": "Jezus ukazuje się uczniom. Ostatni rozkaz",
                     "mt": [
                         {
                             "leading": true,
@@ -34471,7 +34471,7 @@
                 },
                 {
                     "id": "365",
-                    "section_title": "The Ending of Luke: Jesus' Last Words and Ascension",
+                    "section_title": "Ostatnie pouczenia. Wniebowstąpienie",
                     "mt": [
                         null,
                         null
@@ -34563,7 +34563,7 @@
                 },
                 {
                     "id": "366",
-                    "section_title": "The Ending of John",
+                    "section_title": "Pierwszy epilog – Ewangelisty",
                     "mt": [
                         null
                     ],
@@ -34593,7 +34593,7 @@
                 },
                 {
                     "id": "367",
-                    "section_title": "The Appendix to John: Jesus at the Sea of Tiberias",
+                    "section_title": "Drugi epilog – Ewangelii. Jezus nad Morzem Tyberiadzkim",
                     "mt": [
                         null
                     ],
