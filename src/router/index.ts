@@ -62,7 +62,13 @@ const router = createRouter({
       component: NotFoundView
     },
   ],
-  scrollBehavior(to) {
+  scrollBehavior(to, from, savedPosition) {
+    if (to.params.translation !== from.params.translation) {
+      return false;
+    }
+    if (savedPosition) {
+      return savedPosition;
+    }
     if (to.hash) {
       return {
         el: to.hash,
