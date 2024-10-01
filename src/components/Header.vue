@@ -5,44 +5,7 @@ export default {
     data() {
         return {
             synopsisStore: useSynopsisStore(),
-            isHeaderVisible: false,
-            navbarHeight: 0
         }
-    },
-    mounted() {
-        this.navbarHeight = this.$refs.customNavbar.offsetHeight;
-
-        window.addEventListener('mousemove', this.handleMouseMove);
-        window.addEventListener('scroll', this.checkScrollPosition);
-        window.addEventListener('resize', this.updateNavbarHeight);
-        this.checkScrollPosition(); // Initial check for scroll position
-    },
-    beforeDestroy() {
-        window.removeEventListener('mousemove', this.handleMouseMove);
-        window.removeEventListener('scroll', this.checkScrollPosition);
-        window.removeEventListener('resize', this.updateNavbarHeight);
-    },
-    methods: {
-        handleMouseMove(event: MouseEvent) {
-            // Check if the dropdown menu is open
-            const isDropdownOpen = this.$el.querySelector('.dropdown-menu.show') !== null;
-
-            // Logic to show the header
-            if (isDropdownOpen) {
-                this.isHeaderVisible = true; // Always show if dropdown is open
-            } else {
-                // Show if at the top or mouse is within navbar height
-                this.isHeaderVisible = window.scrollY === 0 || event.clientY <= this.navbarHeight;
-            }
-        },
-        checkScrollPosition() {
-            // Always show the header if at the top
-            this.isHeaderVisible = window.scrollY === 0;
-        },
-        updateNavbarHeight() {
-            // Update the navbar height if the window is resized
-            this.navbarHeight = this.$refs.customNavbar.offsetHeight;
-        },
     },
 }
 
@@ -56,22 +19,10 @@ export default {
 .hoverable:active {
     background: #adb5bd;
 }
-
-.xyz {
-    opacity: 0; /* Start hidden */
-    transform: translateY(-20px); /* Start slightly above */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Transition for smooth effect */
-}
-
-.xyz.visible {
-    opacity: 1; /* Make visible */
-    transform: translateY(0); /* Move to original position */
-}
-
 </style>
 
 <template>
-    <nav ref="customNavbar" :class="['xyz', { visible: isHeaderVisible }]" class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <router-link
                 :to="{ name: 'synopsis', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }"
