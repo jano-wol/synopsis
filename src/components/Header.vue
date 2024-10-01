@@ -57,13 +57,13 @@ export default {
     background: #adb5bd;
 }
 
-.floating {
+.xyz {
     opacity: 0; /* Start hidden */
     transform: translateY(-20px); /* Start slightly above */
     transition: opacity 0.3s ease, transform 0.3s ease; /* Transition for smooth effect */
 }
 
-.floating.visible {
+.xyz.visible {
     opacity: 1; /* Make visible */
     transform: translateY(0); /* Move to original position */
 }
@@ -71,7 +71,7 @@ export default {
 </style>
 
 <template>
-    <nav ref="customNavbar" :class="['floating', { visible: isHeaderVisible }]" class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
+    <nav ref="customNavbar" :class="['xyz', { visible: isHeaderVisible }]" class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm">
         <div class="container-fluid">
             <router-link
                 :to="{ name: 'synopsis', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }"
