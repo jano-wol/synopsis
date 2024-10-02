@@ -22,12 +22,12 @@ export default {
 </style>
 
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm p-1">
         <div class="container-fluid">
             <router-link
                 :to="{ name: 'synopsis', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }"
                 :class="$route.name == 'synopsis' ? 'active' : ''" class="navbar-brand" aria-current="page">
-                <img src="/favicon.svg" alt="Szinopszis" width="33" height="33">
+                <img src="/favicon.svg" alt="Szinopszis" width="33" height="33" class="d-block mx-auto">
             </router-link>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
