@@ -40,7 +40,7 @@ export default {
 <template>
 
 
-    <div class="row align-items-center mx-3" :id="id">
+    <div class="row align-items-center mx-3 pt-5" :id="id">
         <div class="col-lg-2 col-md-12">
         </div>
         <div class="col-lg-8 col-md-12">
