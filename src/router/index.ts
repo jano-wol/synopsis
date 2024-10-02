@@ -62,14 +62,17 @@ const router = createRouter({
       component: NotFoundView
     },
   ],
-  scrollBehavior(to) {
+  scrollBehavior(to, from) {
     if (to.hash) {
       return {
         el: to.hash,
       }
     }
-    else {
-      return { top: 1 }
+
+    if (to.name !== from.name) {
+      setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
     }
   },
 })
