@@ -1,4 +1,6 @@
 export interface SynopsisScheme {
+    heading: string,
+    subheading: string,
     name: string,
     language: string,
     translation: string,

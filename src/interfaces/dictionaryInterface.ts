@@ -2,8 +2,7 @@ export interface DictionaryScheme {
     menu: MenuScheme,
     tooltips: TooltipsScheme,
     index: IndexScheme,
-    notFound: NotFoundScheme,
-    synopsis: SynopsisScheme
+    notFound: NotFoundScheme
 }
 
 interface MenuScheme {
@@ -31,10 +30,6 @@ interface IndexScheme {
 
 interface NotFoundScheme {
     notFound: string 
-}
-
-interface SynopsisScheme {
-    subheading: string 
 }
 
 
