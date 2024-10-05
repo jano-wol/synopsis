@@ -54,7 +54,7 @@ export default {
       }
     },
     redirectToPreviousLeadingCitation() {
-      let previousSectionId;
+      let previousSectionId : string = "";
       for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
         const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
         for (let j = 0; j < part.sections.length; j++) {
@@ -62,7 +62,7 @@ export default {
           for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
             const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
             if (section.id === this.sectionId) {
-              this.$router.push({ name: "synopsis", hash: "#" + previousSectionId })
+              this.pushToHistoryAndRedirect(previousSectionId)
               return
             }
             if (citation?.leading) {
@@ -80,7 +80,7 @@ export default {
           for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
             const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
             if (Number(section.id) > Number(this.sectionId) && citation?.leading) {
-              this.$router.push({ name: "synopsis", hash: "#" + section.id })
+              this.pushToHistoryAndRedirect(section.id)
               return
             }
           }
