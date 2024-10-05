@@ -38,11 +38,13 @@ export const useSynopsisStore = defineStore('synopsis', {
     },
     actions: {
         loading(task: () => void) {
-            this.isLoading = true;
             setTimeout(() => {
-                task();
-                this.isLoading = false;
-            }, 0);
+                this.isLoading = true;
+                setTimeout(() => {
+                    task();
+                    this.isLoading = false;
+                }, 0);
+            }, 800);
         },
         changeLanguage(language: string) {
             this.loading(() => 
