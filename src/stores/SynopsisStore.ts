@@ -1,3 +1,4 @@
+import { ref, onMounted, nextTick } from 'vue';
 import { defineStore } from 'pinia'
 import type { SectionScheme, SynopsisScheme } from '@/interfaces/synopsisInterface'
 import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
@@ -31,32 +32,46 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme,
                 synopsisBT as SynopsisScheme
-            ]
+            ],
+            isLoading: false
         }
     },
     actions: {
+        loading(task: () => void) {
+            this.isLoading = true;
+            setTimeout(() => {
+                task();
+                this.isLoading = false;
+            }, 0);
+        },
         changeLanguage(language: string) {
-            for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
-                if (this.currentLanguage !== language && this.synopses[synopsisIndex].language === language) {
-                    this.currentLanguage = language
-                    this.currentDictionary = this.dictionary[this.currentLanguage as keyof typeof this.dictionary]
-
-                    this.currentSynopsis = this.synopses[synopsisIndex]
-                    this.currentTranslation = this.currentSynopsis.translation
-                    router.push({ name: router.currentRoute.value.name as string, params: { language: this.currentLanguage, translation: this.currentTranslation } });
-                    break
+            this.loading(() => 
+            {
+                for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
+                    if (this.currentLanguage !== language && this.synopses[synopsisIndex].language === language) {
+                        this.currentLanguage = language
+                        this.currentDictionary = this.dictionary[this.currentLanguage as keyof typeof this.dictionary]
+    
+                        this.currentSynopsis = this.synopses[synopsisIndex]
+                        this.currentTranslation = this.currentSynopsis.translation
+                        router.push({ name: router.currentRoute.value.name as string, params: { language: this.currentLanguage, translation: this.currentTranslation } });
+                        break
+                    }
                 }
-            }
+            })
         },
         changeTranslation(translation: string) {
-            for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
-                if (this.synopses[synopsisIndex].translation == translation) {
-                    this.currentSynopsis = this.synopses[synopsisIndex]
-                    this.currentTranslation = translation
-                    router.push({ name: router.currentRoute.value.name as string, params: { language: this.currentLanguage, translation: this.currentTranslation } });
-                    break
+        this.loading(() => 
+            {
+                for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
+                    if (this.synopses[synopsisIndex].translation == translation) {
+                        this.currentSynopsis = this.synopses[synopsisIndex]
+                        this.currentTranslation = translation
+                        router.push({ name: router.currentRoute.value.name as string, params: { language: this.currentLanguage, translation: this.currentTranslation } });
+                        break
+                    }
                 }
-            }
+            })
         },
         locateSection(id: string): SectionScheme {
             for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
