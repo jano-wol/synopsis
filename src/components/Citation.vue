@@ -25,6 +25,8 @@ export default {
   },
   methods: {
     redirectToLeadingCitation(chapterLocation: string, verseLocation: string): void {
+      // setTimeout(() => {
+        
       for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
         const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
         for (let j = 0; j < part.sections.length; j++) {
@@ -37,14 +39,20 @@ export default {
                 const content = citation.content[m]
                 const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
                 if (content.chapter === chapterLocation && formattedVerse === verseLocation) {
-                  this.$router.push({ name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + section.id })
-                  return
+                  this.$router.push({ name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId }).then(
+                    () => {
+                      this.$router.push({ name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + section.id })
+                      return
+                    }
+                  )
                 }
               }
             }
           }
         }
       }
+      
+      // }, 0);
     },
     redirectToPreviousLeadingCitation() {
       let previousSectionId;
