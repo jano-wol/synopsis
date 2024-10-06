@@ -44,7 +44,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                     task();
                     this.isLoading = false;
                 }, 0);
-            }, 800);
+            }, 500);
         },
         changeLanguage(language: string) {
             this.loading(() => 
