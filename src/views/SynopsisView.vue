@@ -53,22 +53,6 @@ export default {
 
 </script>
 
-<style>
-.spinner-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: white;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(255, 255, 255, 0.5)
-}
-</style>
-
 <template>
   <div class="container-fluid">
     <h1 class="text-center display-1 pt-4">{{ synopsisStore.currentSynopsis.heading }}</h1>
