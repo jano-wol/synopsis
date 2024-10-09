@@ -12,9 +12,9 @@ def blank_values(json_element):
         return None
 
 
-update_blank_json = (sys.argv[3] == "update")
+update_blank_json = (sys.argv[3] == 'update')
 blank_json_file_path = sys.argv[2]
-with open(blank_json_file_path, 'r') as file:
+with open(blank_json_file_path, 'r', encoding='utf-8') as file:
     blank_json = json.load(file)
 
 json_folder = sys.argv[1]
@@ -22,9 +22,9 @@ json_files_found = False
 
 for file in os.listdir(os.fsencode(json_folder)):
     filename = os.fsdecode(file)
-    if filename.endswith(".json"):
+    if filename.endswith('.json'):
         file_to_check = os.path.join(json_folder, filename)
-        with open(file_to_check) as f:
+        with open(file_to_check, 'r', encoding='utf-8') as f:
             try:
                 json_files_found = True
                 json_loaded = json.load(f)
@@ -33,7 +33,7 @@ for file in os.listdir(os.fsencode(json_folder)):
                 sys.exit(1)
             json_loaded = blank_values(json_loaded)
             if update_blank_json:
-                with open(blank_json_file_path, 'w') as file_to_update:
+                with open(blank_json_file_path, 'w', encoding='utf-8') as file_to_update:
                     json.dump(json_loaded, file_to_update, separators=(',', ':'))
                 print(f'{blank_json_file_path} was updated. Test is failed as update was called')
                 sys.exit(1)
