@@ -8,7 +8,7 @@ import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
-const options = {
+const options: { [key: string]: string[] } = {
   "hu": ["KG", "SZIT", "KNB", "UF"],
   "en": ["ESV", "BT"]
 }
