@@ -34,7 +34,7 @@ export default {
         setTimeout(() => {
           this.visibleIndex = index + 1;
           this.delayedRender(index + 1);
-        }, 1);
+        }, 0);
       }
     },
     scrollToAnchor() {
