@@ -15,6 +15,9 @@ function defaultLanguage() {
   if (timeZone === "Europe/Budapest") {
     return "/hu/KG"
   }
+  if (timeZone === "Europe/Warsaw Poland") {
+    return "/en/BT"
+  }
   return "/en/ESV"
 }
 
