@@ -1,5 +1,6 @@
 <script lang="ts">
 import Part from '@/components/Part.vue'
+import Loader from '@/components/Loader.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
@@ -15,7 +16,7 @@ export default {
   },
   components:
   {
-    Part
+    Part, Loader
   },
   mounted() {
     if (this.isValidHash(this.hash)) {
@@ -54,6 +55,7 @@ export default {
 </script>
 
 <template>
+  <Loader />
   <div class="container-fluid">
     <h1 class="text-center display-1 pt-4">{{ synopsisStore.currentSynopsis.heading }}</h1>
     <p class="text-center pb-4">{{ synopsisStore.currentSynopsis.subheading }}</p>

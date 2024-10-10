@@ -37,14 +37,12 @@ export const useSynopsisStore = defineStore('synopsis', {
         }
     },
     actions: {
-        loading(task: () => void, delay: number = 500) {
-            setTimeout(() => {
+        loading(task: () => void) {
                 this.isLoading = true;
                 setTimeout(() => {
                     task();
                     this.isLoading = false;
                 }, 0);
-            }, delay);
         },
         changeLanguage(language: string) {
             this.loading(() => 
