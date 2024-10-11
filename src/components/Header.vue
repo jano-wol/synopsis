@@ -70,11 +70,6 @@ export default {
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li v-if="synopsisStore.isLoading" class="nav-item d-flex align-items-center">
-                        <div class="spinner-border spinner-border-sm mx-3" role="status">
-                            <span class="visually-hidden">Loading...</span>
-                        </div>
-                    </li>
                     <li class="nav-item dropdown">
                         <button class="btn btn-sm btn-light border border-light-subtle dropdown-toggle"
                             data-bs-toggle="dropdown" aria-expanded="false">

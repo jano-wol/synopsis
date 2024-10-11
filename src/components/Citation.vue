@@ -100,7 +100,7 @@ export default {
 
 <template>
   <div class="card h-100" v-if="citation?.content" :class="{ 'shadow border-2 border-secondary bg-body-tertiary': citation.leading }">
-    <div class="card-header bg-light z-1" :class="{ 'bg-dark-subtle': citation.leading }">
+    <div class="card-header bg-white z-1" :class="{ 'bg-dark-subtle': citation.leading }">
       {{ synopsisStore.currentSynopsis.evangelists[evangelist as keyof EvangelistsScheme] }} {{
     synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse,
       citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}

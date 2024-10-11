@@ -8,12 +8,34 @@ import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
-const languageOptionsRegex = "(hu|en)"
-const translationOptionsRegex = "(KG|SZIT|KNB|UF|ESV|BT)"
+const options: { [key: string]: string[] } = {
+  "hu": ["KG", "SZIT", "KNB", "UF"],
+  "en": ["ESV", "BT"]
+}
+
+const languageDefaultRedirect = () =>
+  Object.keys(options).map(language => ({
+    path: `/${language}`,
+    redirect: `/${language}/${options[language][0]}`
+  }));
+
+const translationDefaultRedirect = () =>
+  Object.entries(options).flatMap(([language, versions]) =>
+    versions.map(version => ({
+      path: `/${version}`,
+      redirect: `/${language}/${version}`
+    }))
+  );
+
+const languageOptionsRegex = `(${Object.keys(options).join("|")})`;
+const translationOptionsRegex = `(${Object.values(options).flat().join("|")})`;
 function defaultLanguage() {
   const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
   if (timeZone === "Europe/Budapest") {
     return "/hu/KG"
+  }
+  if (timeZone === "Europe/Warsaw Poland") {
+    return "/en/BT"
   }
   return "/en/ESV"
 }
@@ -25,6 +47,8 @@ const router = createRouter({
       path: '/',
       redirect: defaultLanguage(),
     },
+    ...languageDefaultRedirect(),
+    ...translationDefaultRedirect(),
     {
       path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}`,
       name: 'synopsis',

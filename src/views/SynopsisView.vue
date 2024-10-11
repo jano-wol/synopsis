@@ -1,5 +1,6 @@
 <script lang="ts">
 import Part from '@/components/Part.vue'
+import Loader from '@/components/Loader.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 
@@ -15,10 +16,11 @@ export default {
   },
   components:
   {
-    Part
+    Part, Loader
   },
   mounted() {
     if (this.isValidHash(this.hash)) {
+      this.synopsisStore.isLoading = true
       this.showScroller = true
     }
     this.delayedRender(0);
@@ -32,7 +34,7 @@ export default {
         setTimeout(() => {
           this.visibleIndex = index + 1;
           this.delayedRender(index + 1);
-        }, 1);
+        }, 0);
       }
     },
     scrollToAnchor() {
@@ -42,6 +44,7 @@ export default {
             this.showScroller = false
             this.scrolledToAnchor = true
             anchorElement.scrollIntoView();
+            this.synopsisStore.isLoading = false
           }
         }
     },
@@ -54,15 +57,11 @@ export default {
 </script>
 
 <template>
+  <Loader />
   <div class="container-fluid">
     <h1 class="text-center display-1 pt-4">{{ synopsisStore.currentSynopsis.heading }}</h1>
     <p class="text-center pb-4">{{ synopsisStore.currentSynopsis.subheading }}</p>
-    <div v-if="showScroller" class="spinner-background">
-      <!-- Spinner -->
-      <div class="spinner-border spinner-border-lg" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-    </div>
+
 
     <template v-for="partIndex in synopsisStore.currentSynopsis.parts.length">
       <Part v-if="visibleIndex >= partIndex - 1" :key="partIndex"
