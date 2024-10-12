@@ -7,6 +7,11 @@ export default {
             synopsisStore: useSynopsisStore(),
         }
     },
+    methods: {
+        scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    }
 }
 
 </script>
@@ -25,6 +30,7 @@ export default {
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm p-1">
         <div class="container-fluid">
             <router-link
+                @click="scrollToTop"
                 :to="{ name: 'synopsis', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }"
                 :class="$route.name == 'synopsis' ? 'active' : ''" class="navbar-brand" aria-current="page">
                 <img src="/favicon.svg" alt="Szinopszis" width="33" height="33" class="d-block mx-auto">
@@ -38,6 +44,7 @@ export default {
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <router-link
+                            @click="scrollToTop"
                             :to="{ name: 'synopsis', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }"
                             :class="$route.name == 'synopsis' ? 'active' : ''" class="nav-link" aria-current="page">{{
                     synopsisStore.currentDictionary.menu.synopsis }}
