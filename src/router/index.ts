@@ -93,7 +93,7 @@ const router = createRouter({
         if (element) {
           const elementPosition = element.getBoundingClientRect().top + window.scrollY;
 
-          const offset = 70;
+          const offset = 60;
           window.scrollTo({
             top: elementPosition - offset,
             behavior: 'smooth'

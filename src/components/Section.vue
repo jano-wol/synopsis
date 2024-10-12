@@ -39,7 +39,7 @@ export default {
 
 <style>
 .scroll-margin {
-    scroll-margin-top: 70px;
+    scroll-margin-top: 60px;
 }
 </style>
 
