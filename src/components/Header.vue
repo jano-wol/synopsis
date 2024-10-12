@@ -106,7 +106,8 @@ export default {
                                     <a @click="synopsis.translation !== synopsisStore.currentTranslation ? synopsisStore.changeTranslation(synopsis.translation) : null"
                                         class="dropdown-item hoverable text-black d-flex justify-content-between"
                                         :class="synopsis.translation === synopsisStore.currentTranslation ? 'bg-dark-subtle' : ''">
-                                        <span class="me-3">{{ synopsis.name }}</span>
+                                        <span class="me-3 d-sm-none">{{ synopsis.translation }}</span>
+                                        <span class="me-3 d-none d-sm-block">{{ synopsis.name }}</span>
                                         <span>({{ synopsis.language }})</span>
                                     </a>
                                 </li>
