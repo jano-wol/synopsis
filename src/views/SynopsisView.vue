@@ -41,10 +41,13 @@ export default {
         if (this.hash) {
           const anchorElement = document.getElementById(this.hash);
           if (anchorElement) {
-            this.showScroller = false
-            this.scrolledToAnchor = true
-            anchorElement.scrollIntoView();
-            this.synopsisStore.isLoading = false
+            setTimeout(()=>
+            {
+              this.showScroller = false
+              this.scrolledToAnchor = true
+              anchorElement.scrollIntoView();
+              this.synopsisStore.isLoading = false
+            }, 0)
           }
         }
     },
