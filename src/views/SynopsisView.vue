@@ -58,15 +58,14 @@ export default {
 
 <template>
   <Loader />
-  <div class="container-fluid">
-    <h1 class="text-center display-1">{{ synopsisStore.currentSynopsis.heading }}</h1>
-    <p class="text-center">{{ synopsisStore.currentSynopsis.subheading }}</p>
-
-
+  
+  <h1 class="text-center display-1">{{ synopsisStore.currentSynopsis.heading }}</h1>
+  <p class="text-center">{{ synopsisStore.currentSynopsis.subheading }}</p>
+  
+  
     <template v-for="partIndex in synopsisStore.currentSynopsis.parts.length">
       <Part v-if="visibleIndex >= partIndex - 1" :key="partIndex"
         :part="synopsisStore.currentSynopsis.parts[partIndex - 1]" />
     </template>
 
-  </div>
 </template>
