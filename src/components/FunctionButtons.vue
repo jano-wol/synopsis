@@ -38,8 +38,7 @@ export default {
 
 <template>
     <router-link v-if="$route.name !== 'section'"
-        :to="{ name: 'section', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation, id: id } }"
-        target="_blank">
+        :to="{ name: 'section', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation, id: id } }">
         <button type="button" class="float-right btn btn-light  btn-sm ms-1 mb-1"
             :title="synopsisStore.currentDictionary.tooltips.openSeparately">
             <i class="bi bi-arrow-up-right-square fs-6"></i>
