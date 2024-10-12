@@ -87,8 +87,18 @@ const router = createRouter({
   ],
   scrollBehavior(to, from) {
     if (to.hash) {
-      return {
-        el: to.hash,
+      const el = window.location.href.split("#")[1];
+      if (el.length) {
+        const element = document.getElementById(el);
+        if (element) {
+          const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+
+          const offset = 15;
+          window.scrollTo({
+            top: elementPosition - offset,
+            behavior: 'smooth'
+          });
+        }
       }
     }
 
