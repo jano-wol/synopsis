@@ -22,13 +22,13 @@ export default {
         Kétfajta szövegdobozt különböztetünk meg:
     </p>
     <ul>
-        <li>A törzsszöveg fekete kerettel és árnyékkal jelenik meg. A
+        <li>A törzsszöveg fekete kerettel és szürke fejléccel jelenik meg. A
             <router-link    :to="{ name: 'index', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }">tartalomjegyzékben</router-link>
             vastag kiemeléssel szerepelnek
             a hozzá tartozó idézetek. A törzsszöveg a teljes evangéliumot tartalmazza, ismétlődések nélkül, a versek
             eredeti sorrendjében. Minden szekcióban egy evangélistához, legfeljebb egy törzsszöveg található.
         </li>
-        <li>A párhuzamos szöveg szürke kerettel és árnyék nélkül jelenik meg.</li>
+        <li>A párhuzamos szöveg szürke kerettel és fehér fejléccel jelenik meg.</li>
     </ul>
 
     <p>
