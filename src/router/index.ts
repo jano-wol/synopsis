@@ -98,6 +98,7 @@ const router = createRouter({
             top: elementPosition - offset,
             behavior: 'smooth'
           });
+          return
         }
       }
     }
