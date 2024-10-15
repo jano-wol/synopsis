@@ -22,14 +22,14 @@ export default {
         Two types of text boxes are distinguished:
     </p>
     <ul>
-        <li>Boxes with black frame and grey header contain the body text. The body text contains the whole Gospel, without
+        <li>Boxes with bold frame and grey header contain the body text. The body text contains the whole Gospel, without
             repetitions, in the original
             order of the verses. Each section contains maximum one body text, for one evangelist.
             In the <router-link
                 :to="{ name: 'index', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }">Table
                 of contents</router-link> ther citation appears with bold.
         </li>
-        <li>Boxes with grey frame and white header contain parallel text.</li>
+        <li>Boxes with thin frame and white header contain parallel text.</li>
     </ul>
 
     <p>
