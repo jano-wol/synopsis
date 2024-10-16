@@ -1,14 +1,14 @@
 {
     "heading": "Synopsis",
-    "subheading": "Parallel Gospels of Matthew, Mark, Luke and John",
-    "name": "English Standard Version",
-    "translation": "ESV",
-    "language": "en",
+    "subheading": "Quattuor Evangeliorum",
+    "name": "SBL Greek New Testament",
+    "translation": "SBLGNT",
+    "language": "el",
     "evangelists": {
-        "mt": "Matthew",
-        "mk": "Mark",
-        "lk": "Luke",
-        "jn": "John"
+        "mt": "Ματθαῖος",
+        "mk": "Μᾶρκος",
+        "lk": "Λουκᾶς",
+        "jn": "Ἰωάννης"
     },
     "parts": [
         {
