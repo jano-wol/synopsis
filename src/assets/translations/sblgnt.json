@@ -12,7 +12,7 @@
     },
     "parts": [
         {
-            "part_title": "I. Preface",
+            "part_title": "I. Praefatio",
             "sections": [
                 {
                     "id": "1",
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "part_title": "II. Introduction",
+            "part_title": "II. Exordium",
             "sections": [
                 {
                     "id": "2",
@@ -1365,7 +1365,7 @@
             ]
         },
         {
-            "part_title": "III. Preparation",
+            "part_title": "III. Praeparatio",
             "sections": [
                 {
                     "id": "13",
@@ -2230,7 +2230,7 @@
             ]
         },
         {
-            "part_title": "IV. The Beginning of Jesus' Public Ministry (According to John)",
+            "part_title": "IV. Initium ministerii publici (secundum Ioannem)",
             "sections": [
                 {
                     "id": "21",
@@ -2852,7 +2852,7 @@
             ]
         },
         {
-            "part_title": "V. Jesus' Ministry in Galilee",
+            "part_title": "V. Ministerium in Galilaea",
             "sections": [
                 {
                     "id": "30",
@@ -4850,7 +4850,7 @@
             ]
         },
         {
-            "part_title": "VI. The Sermon on the Mount (According to Matthew)",
+            "part_title": "VI. Sermo in monte (secundum Matthaeum)",
             "sections": [
                 {
                     "id": "50",
@@ -6571,7 +6571,7 @@
             ]
         },
         {
-            "part_title": "VII. The Sermon on the Plain (According to Luke)",
+            "part_title": "VII. Sermo domini (secundum Lucam)",
             "sections": [
                 {
                     "id": "77",
@@ -7201,7 +7201,7 @@
             ]
         },
         {
-            "part_title": "VIII. Jesus' Ministry in Galilee Continued",
+            "part_title": "VIII. Ministerium in Galilaea continuatur",
             "sections": [
                 {
                     "id": "84",
@@ -15554,7 +15554,7 @@
             ]
         },
         {
-            "part_title": "IX. The Way to the Cross",
+            "part_title": "IX. Passio imminet",
             "sections": [
                 {
                     "id": "157",
@@ -17038,7 +17038,7 @@
             ]
         },
         {
-            "part_title": "X. Last Journey to Jerusalem (According to Luke)",
+            "part_title": "X. Iter in Jerusalem (secundum Lucam)",
             "sections": [
                 {
                     "id": "174",
@@ -21578,7 +21578,7 @@
             ]
         },
         {
-            "part_title": "XI. Jesus at the Feast of Booths in Jerusalem (According to John)",
+            "part_title": "XI. In festo scenopegiae Jerusalem (secundum Ioannem)",
             "sections": [
                 {
                     "id": "238",
@@ -22713,7 +22713,7 @@
             ]
         },
         {
-            "part_title": "XII. The Ministry in Judea",
+            "part_title": "XII. Ministerium in Iudaea",
             "sections": [
                 {
                     "id": "251",
@@ -24820,7 +24820,7 @@
             ]
         },
         {
-            "part_title": "XIII. The Final Ministry in Jerusalem",
+            "part_title": "XIII. Ultimum ministerium in Jerusalem",
             "sections": [
                 {
                     "id": "269",
@@ -26908,7 +26908,7 @@
             ]
         },
         {
-            "part_title": "XIV. The Eschatological Discourse",
+            "part_title": "XIV. Sermo eschatologicus",
             "sections": [
                 {
                     "id": "287",
@@ -27808,7 +27808,7 @@
             ]
         },
         {
-            "part_title": "XV. Conclusion of the Account of the Time before the Passion",
+            "part_title": "XV. Conclusio temporis ante passionem narrati",
             "sections": [
                 {
                     "id": "296",
@@ -28690,7 +28690,7 @@
             ]
         },
         {
-            "part_title": "XVI. The Passion Narrative",
+            "part_title": "XVI. Passio",
             "sections": [
                 {
                     "id": "305",
@@ -33497,7 +33497,7 @@
             ]
         },
         {
-            "part_title": "XVII. The Resurrection",
+            "part_title": "XVII. Resurrectio",
             "sections": [
                 {
                     "id": "352",
@@ -34344,7 +34344,7 @@
             ]
         },
         {
-            "part_title": "XVIII. Epilogue: The Endings of the Gospels",
+            "part_title": "XVIII. Epilogus: Evangeliorum conclusiones",
             "sections": [
                 {
                     "id": "363",
