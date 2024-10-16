@@ -1,14 +1,14 @@
 {
     "heading": "Synopsis",
     "subheading": "Quattuor Evangeliorum",
-    "name": "SBL Greek New Testament",
-    "translation": "SBLGNT",
-    "language": "el",
+    "name": "Biblia Sacra Vulgata",
+    "translation": "VULG",
+    "language": "la",
     "evangelists": {
-        "mt": "Ματθαῖος",
-        "mk": "Μᾶρκος",
-        "lk": "Λουκᾶς",
-        "jn": "Ἰωάννης"
+        "mt": "Matthaeus",
+        "mk": "Marcus",
+        "lk": "Lucas",
+        "jn": "Ioannes"
     },
     "parts": [
         {
