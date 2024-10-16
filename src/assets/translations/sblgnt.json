@@ -16,7 +16,7 @@
             "sections": [
                 {
                     "id": "1",
-                    "section_title": "Prologue",
+                    "section_title": "Prologus",
                     "mt": [
                         {
                             "leading": true,
@@ -173,7 +173,7 @@
             "sections": [
                 {
                     "id": "2",
-                    "section_title": "The Promise of the Birth of John the Baptist",
+                    "section_title": "Annuntiatio nativitatis Ioannis",
                     "mt": [
                         null
                     ],
@@ -298,7 +298,7 @@
                 },
                 {
                     "id": "3",
-                    "section_title": "The Annunciation",
+                    "section_title": "Annuntiatio nativitatis Christi",
                     "mt": [
                         null
                     ],
@@ -383,7 +383,7 @@
                 },
                 {
                     "id": "4",
-                    "section_title": "Mary's Visit to Elizabeth",
+                    "section_title": "Visitatio Mariae",
                     "mt": [
                         null
                     ],
@@ -493,7 +493,7 @@
                 },
                 {
                     "id": "5",
-                    "section_title": "The Birth of John the Baptist",
+                    "section_title": "Nativitas Ioannis",
                     "mt": [
                         null
                     ],
@@ -633,7 +633,7 @@
                 },
                 {
                     "id": "6",
-                    "section_title": "The Genealogy of Jesus",
+                    "section_title": "Genealogia Jesu",
                     "mt": [
                         {
                             "leading": true,
@@ -817,7 +817,7 @@
                 },
                 {
                     "id": "7",
-                    "section_title": "The Birth of Jesus",
+                    "section_title": "Christi nativitas",
                     "mt": [
                         {
                             "leading": true,
@@ -916,7 +916,7 @@
                 },
                 {
                     "id": "8",
-                    "section_title": "The Adoration of the Infant Jesus",
+                    "section_title": "Natus adoratur",
                     "mt": [
                         {
                             "leading": true,
@@ -1065,7 +1065,7 @@
                 },
                 {
                     "id": "9",
-                    "section_title": "The Circumcision and Presentation in the Temple",
+                    "section_title": "Circumcisio et praesentatio",
                     "mt": [
                         null
                     ],
@@ -1175,7 +1175,7 @@
                 },
                 {
                     "id": "10",
-                    "section_title": "The Flight into Egypt and Return",
+                    "section_title": "Fuga in Aegyptum et reditus",
                     "mt": [
                         {
                             "leading": true,
@@ -1240,7 +1240,7 @@
                 },
                 {
                     "id": "11",
-                    "section_title": "The Childhood of Jesus at Nazareth",
+                    "section_title": "Puer Jesus in Nazareth",
                     "mt": [
                         {
                             "leading": true,
@@ -1284,7 +1284,7 @@
                 },
                 {
                     "id": "12",
-                    "section_title": "The Boy Jesus in the Temple",
+                    "section_title": "Puer Jesus in Templo",
                     "mt": [
                         null
                     ],
@@ -1369,7 +1369,7 @@
             "sections": [
                 {
                     "id": "13",
-                    "section_title": "John the Baptist",
+                    "section_title": "Ioannes Baptista praecursor Domini",
                     "mt": [
                         {
                             "leading": true,
@@ -1511,7 +1511,7 @@
                 },
                 {
                     "id": "14",
-                    "section_title": "John's Preaching of Repentance",
+                    "section_title": "Ioannes paenitentiam praedicat",
                     "mt": [
                         {
                             "leading": true,
@@ -1570,7 +1570,7 @@
                 },
                 {
                     "id": "15",
-                    "section_title": "John Replies to Questioners",
+                    "section_title": "Ioannes interrogantibus respondet",
                     "mt": [
                         null
                     ],
@@ -1615,7 +1615,7 @@
                 },
                 {
                     "id": "16",
-                    "section_title": "John's Messianic Preaching",
+                    "section_title": "Ioannes Christum evangelizat",
                     "mt": [
                         {
                             "leading": true,
@@ -1712,7 +1712,7 @@
                 },
                 {
                     "id": "17",
-                    "section_title": "The Imprisonment of John",
+                    "section_title": "Ioannes in carcerem mittitur",
                     "mt": [
                         {
                             "leading": false,
@@ -1770,7 +1770,7 @@
                 },
                 {
                     "id": "18",
-                    "section_title": "The Baptism of Jesus",
+                    "section_title": "Baptismus Jesu",
                     "mt": [
                         {
                             "leading": true,
@@ -1882,7 +1882,7 @@
                 },
                 {
                     "id": "19",
-                    "section_title": "The Genealogy of Jesus",
+                    "section_title": "Genealogia Jesu",
                     "mt": [
                         {
                             "leading": false,
@@ -2071,7 +2071,7 @@
                 },
                 {
                     "id": "20",
-                    "section_title": "The Temptation",
+                    "section_title": "Tentatio",
                     "mt": [
                         {
                             "leading": true,
@@ -2234,7 +2234,7 @@
             "sections": [
                 {
                     "id": "21",
-                    "section_title": "The Call of the First Disciples",
+                    "section_title": "Primi discipuli",
                     "mt": [
                         null
                     ],
@@ -2339,7 +2339,7 @@
                 },
                 {
                     "id": "22",
-                    "section_title": "The Wedding at Cana",
+                    "section_title": "Nuptiae in Cana factae",
                     "mt": [
                         null
                     ],
@@ -2414,7 +2414,7 @@
                 },
                 {
                     "id": "23",
-                    "section_title": "The Sojourn at Capernaum",
+                    "section_title": "In Capharnaum manet",
                     "mt": [
                         null
                     ],
@@ -2439,7 +2439,7 @@
                 },
                 {
                     "id": "24",
-                    "section_title": "The First Journey to Jerusalem",
+                    "section_title": "Primum iter in Jerusalem",
                     "mt": [
                         null
                     ],
@@ -2464,7 +2464,7 @@
                 },
                 {
                     "id": "25",
-                    "section_title": "The Cleansing of the Temple",
+                    "section_title": "Purgatio templi",
                     "mt": [
                         {
                             "leading": false,
@@ -2576,7 +2576,7 @@
                 },
                 {
                     "id": "26",
-                    "section_title": "Jesus' Ministry in Jerusalem",
+                    "section_title": "Ministerium in Jerusalem",
                     "mt": [
                         null
                     ],
@@ -2611,7 +2611,7 @@
                 },
                 {
                     "id": "27",
-                    "section_title": "The Discourse with Nicodemus",
+                    "section_title": "Colloquium cum Nicodemo",
                     "mt": [
                         null
                     ],
@@ -2736,7 +2736,7 @@
                 },
                 {
                     "id": "28",
-                    "section_title": "Jesus' Ministry in Judea",
+                    "section_title": "Ministerium in Iudaea",
                     "mt": [
                         null
                     ],
@@ -2761,7 +2761,7 @@
                 },
                 {
                     "id": "29",
-                    "section_title": "John's Testimony to Christ",
+                    "section_title": "Testimonium Ioannis Baptistae",
                     "mt": [
                         null
                     ],
@@ -2856,7 +2856,7 @@
             "sections": [
                 {
                     "id": "30",
-                    "section_title": "The Journey into Galilee",
+                    "section_title": "Iter in Galilaeam",
                     "mt": [
                         {
                             "leading": true,
@@ -2918,7 +2918,7 @@
                 },
                 {
                     "id": "31",
-                    "section_title": "The Discourse with the Woman of Samaria",
+                    "section_title": "Mulier Samaritana",
                     "mt": [
                         null
                     ],
@@ -3133,7 +3133,7 @@
                 },
                 {
                     "id": "32",
-                    "section_title": "Ministry in Galilee",
+                    "section_title": "Ministerium in Galilaea",
                     "mt": [
                         {
                             "leading": true,
@@ -3230,7 +3230,7 @@
                 },
                 {
                     "id": "33",
-                    "section_title": "Jesus' Preaching at Nazareth",
+                    "section_title": "In Nazareth praedicat",
                     "mt": [
                         {
                             "leading": false,
@@ -3393,7 +3393,7 @@
                 },
                 {
                     "id": "34",
-                    "section_title": "The Call of the Disciples",
+                    "section_title": "Vocatio discipulorum",
                     "mt": [
                         {
                             "leading": true,
@@ -3467,7 +3467,7 @@
                 },
                 {
                     "id": "35",
-                    "section_title": "Teaching in the Synagogue at Capernaum",
+                    "section_title": "In synagoga Capharnaum docet",
                     "mt": [
                         null
                     ],
@@ -3511,7 +3511,7 @@
                 },
                 {
                     "id": "36",
-                    "section_title": "The Healing of the Demoniac in the Synagogue",
+                    "section_title": "Daemoniacus in synagoga",
                     "mt": [
                         null
                     ],
@@ -3590,7 +3590,7 @@
                 },
                 {
                     "id": "37",
-                    "section_title": "The Healing of Peter's Mother-in-law",
+                    "section_title": "Socrus Petri",
                     "mt": [
                         {
                             "leading": false,
@@ -3653,7 +3653,7 @@
                 },
                 {
                     "id": "38",
-                    "section_title": "The Sick Healed at Evening",
+                    "section_title": "Sanationes sub vesperum",
                     "mt": [
                         {
                             "leading": false,
@@ -3716,7 +3716,7 @@
                 },
                 {
                     "id": "39",
-                    "section_title": "Jesus Departs from Capernaum",
+                    "section_title": "Jesus Capharnaum relinquit",
                     "mt": [
                         null
                     ],
@@ -3770,7 +3770,7 @@
                 },
                 {
                     "id": "40",
-                    "section_title": "First Preaching Tour in Galilee",
+                    "section_title": "Per Galilaeam praedicat",
                     "mt": [
                         {
                             "leading": true,
@@ -3813,7 +3813,7 @@
                 },
                 {
                     "id": "41",
-                    "section_title": "The Miraculous Draught of Fish",
+                    "section_title": "Petri piscatio",
                     "mt": [
                         null
                     ],
@@ -3888,7 +3888,7 @@
                 },
                 {
                     "id": "42",
-                    "section_title": "The Cleansing of the Leper",
+                    "section_title": "Sanatio leprosi",
                     "mt": [
                         {
                             "leading": false,
@@ -3991,7 +3991,7 @@
                 },
                 {
                     "id": "43",
-                    "section_title": "The Healing of the Paralytic",
+                    "section_title": "Sanatio paralytici",
                     "mt": [
                         {
                             "leading": false,
@@ -4183,7 +4183,7 @@
                 },
                 {
                     "id": "44",
-                    "section_title": "The Call of Levi (Matthew)",
+                    "section_title": "Vocatio Levi publicani",
                     "mt": [
                         {
                             "leading": false,
@@ -4291,7 +4291,7 @@
                 },
                 {
                     "id": "45",
-                    "section_title": "The Question about Fasting",
+                    "section_title": "Quaestio ieiunii",
                     "mt": [
                         {
                             "leading": false,
@@ -4399,7 +4399,7 @@
                 },
                 {
                     "id": "46",
-                    "section_title": "Plucking Grain on the Sabbath",
+                    "section_title": "Spicae sabbato vulsae",
                     "mt": [
                         {
                             "leading": false,
@@ -4522,7 +4522,7 @@
                 },
                 {
                     "id": "47",
-                    "section_title": "The Man with the Withered Hand",
+                    "section_title": "Manus arida",
                     "mt": [
                         {
                             "leading": false,
@@ -4640,7 +4640,7 @@
                 },
                 {
                     "id": "48",
-                    "section_title": "Jesus Heals Multitudes by the Sea",
+                    "section_title": "Sanationes ad mare",
                     "mt": [
                         {
                             "leading": false,
@@ -4741,7 +4741,7 @@
                 },
                 {
                     "id": "49",
-                    "section_title": "The Choosing of the Twelve",
+                    "section_title": "Electio apostolorum",
                     "mt": [
                         {
                             "leading": false,
@@ -4854,7 +4854,7 @@
             "sections": [
                 {
                     "id": "50",
-                    "section_title": "Occasion of the Sermon",
+                    "section_title": "Occasio sermonis",
                     "mt": [
                         {
                             "leading": true,
@@ -4957,7 +4957,7 @@
                 },
                 {
                     "id": "51",
-                    "section_title": "The Beatitudes",
+                    "section_title": "Beatitudines",
                     "mt": [
                         {
                             "leading": true,
@@ -5051,7 +5051,7 @@
                 },
                 {
                     "id": "52",
-                    "section_title": "The Salt of the Earth",
+                    "section_title": "Sal terrae",
                     "mt": [
                         {
                             "leading": true,
@@ -5104,7 +5104,7 @@
                 },
                 {
                     "id": "53",
-                    "section_title": "The Light of the World",
+                    "section_title": "Lux mundi",
                     "mt": [
                         {
                             "leading": true,
@@ -5157,7 +5157,7 @@
                 },
                 {
                     "id": "54",
-                    "section_title": "On the Law and the Prophets",
+                    "section_title": "Legis adimpletio",
                     "mt": [
                         {
                             "leading": true,
@@ -5211,7 +5211,7 @@
                 },
                 {
                     "id": "55",
-                    "section_title": "On Murder and Wrath",
+                    "section_title": "Non occides",
                     "mt": [
                         {
                             "leading": true,
@@ -5280,7 +5280,7 @@
                 },
                 {
                     "id": "56",
-                    "section_title": "On Adultery and Divorce",
+                    "section_title": "Non moechaberis",
                     "mt": [
                         {
                             "leading": true,
@@ -5373,7 +5373,7 @@
                 },
                 {
                     "id": "57",
-                    "section_title": "On Oaths",
+                    "section_title": "Non periurabis",
                     "mt": [
                         {
                             "leading": true,
@@ -5418,7 +5418,7 @@
                 },
                 {
                     "id": "58",
-                    "section_title": "On Retaliation",
+                    "section_title": "Lex talionis",
                     "mt": [
                         {
                             "leading": true,
@@ -5477,7 +5477,7 @@
                 },
                 {
                     "id": "59",
-                    "section_title": "On Love of One's Enemies",
+                    "section_title": "Dilectio inimicorum",
                     "mt": [
                         {
                             "leading": true,
@@ -5574,7 +5574,7 @@
                 },
                 {
                     "id": "60",
-                    "section_title": "On Almsgiving",
+                    "section_title": "De eleemosyna",
                     "mt": [
                         {
                             "leading": true,
@@ -5614,7 +5614,7 @@
                 },
                 {
                     "id": "61",
-                    "section_title": "On Prayer",
+                    "section_title": "De oratione",
                     "mt": [
                         {
                             "leading": true,
@@ -5644,7 +5644,7 @@
                 },
                 {
                     "id": "62",
-                    "section_title": "The Lord's Prayer",
+                    "section_title": "Oratio dominica",
                     "mt": [
                         {
                             "leading": true,
@@ -5742,7 +5742,7 @@
                 },
                 {
                     "id": "63",
-                    "section_title": "On Fasting",
+                    "section_title": "De ieiunio",
                     "mt": [
                         {
                             "leading": true,
@@ -5777,7 +5777,7 @@
                 },
                 {
                     "id": "64",
-                    "section_title": "On Treasures",
+                    "section_title": "De thesaurizando",
                     "mt": [
                         {
                             "leading": true,
@@ -5826,7 +5826,7 @@
                 },
                 {
                     "id": "65",
-                    "section_title": "The Sound Eye",
+                    "section_title": "Oculus simplex",
                     "mt": [
                         {
                             "leading": true,
@@ -5875,7 +5875,7 @@
                 },
                 {
                     "id": "66",
-                    "section_title": "On Serving Two Masters",
+                    "section_title": "Duobus dominis servire",
                     "mt": [
                         {
                             "leading": true,
@@ -5909,7 +5909,7 @@
                 },
                 {
                     "id": "67",
-                    "section_title": "On Anxiety",
+                    "section_title": "Ne solliciti sitis",
                     "mt": [
                         {
                             "leading": true,
@@ -6038,7 +6038,7 @@
                 },
                 {
                     "id": "68",
-                    "section_title": "On Judging",
+                    "section_title": "Nolite iudicare",
                     "mt": [
                         {
                             "leading": true,
@@ -6131,7 +6131,7 @@
                 },
                 {
                     "id": "69",
-                    "section_title": "On Profaning the Holy",
+                    "section_title": "Margaritae ante porcos",
                     "mt": [
                         {
                             "leading": true,
@@ -6156,7 +6156,7 @@
                 },
                 {
                     "id": "70",
-                    "section_title": "God's Answering of Prayer",
+                    "section_title": "Petitio efficax",
                     "mt": [
                         {
                             "leading": true,
@@ -6230,7 +6230,7 @@
                 },
                 {
                     "id": "71",
-                    "section_title": "The Golden Rule",
+                    "section_title": "Regula aurea",
                     "mt": [
                         {
                             "leading": true,
@@ -6264,7 +6264,7 @@
                 },
                 {
                     "id": "72",
-                    "section_title": "The Two Ways",
+                    "section_title": "Via spatiosa",
                     "mt": [
                         {
                             "leading": true,
@@ -6308,7 +6308,7 @@
                 },
                 {
                     "id": "73",
-                    "section_title": "\"By their Fruits\"",
+                    "section_title": "Ex fructibus cognoscetis eos",
                     "mt": [
                         {
                             "leading": true,
@@ -6400,7 +6400,7 @@
                 },
                 {
                     "id": "74",
-                    "section_title": "Saying 'Lord, Lord'",
+                    "section_title": "Qui dicunt: Domine, Domine",
                     "mt": [
                         {
                             "leading": true,
@@ -6467,7 +6467,7 @@
                 },
                 {
                     "id": "75",
-                    "section_title": "The House Built on the Rock",
+                    "section_title": "Sapiens super petram aedificat",
                     "mt": [
                         {
                             "leading": true,
@@ -6526,7 +6526,7 @@
                 },
                 {
                     "id": "76",
-                    "section_title": "The Effect of the Sermon",
+                    "section_title": "Effectus sermonis",
                     "mt": [
                         {
                             "leading": true,
@@ -6575,7 +6575,7 @@
             "sections": [
                 {
                     "id": "77",
-                    "section_title": "Occasion of the Sermon",
+                    "section_title": "Occaslo sermonis",
                     "mt": [
                         {
                             "leading": false,
@@ -6678,7 +6678,7 @@
                 },
                 {
                     "id": "78",
-                    "section_title": "The Beatitudes",
+                    "section_title": "Beatitudines",
                     "mt": [
                         {
                             "leading": false,
@@ -6772,7 +6772,7 @@
                 },
                 {
                     "id": "79",
-                    "section_title": "The Woes",
+                    "section_title": "Ouattuor Vae",
                     "mt": [
                         null
                     ],
@@ -6807,7 +6807,7 @@
                 },
                 {
                     "id": "80",
-                    "section_title": "On Love of One's Enemies",
+                    "section_title": "Dilectio inimicorum",
                     "mt": [
                         {
                             "leading": false,
@@ -6936,7 +6936,7 @@
                 },
                 {
                     "id": "81",
-                    "section_title": "On Judging",
+                    "section_title": "Nolite iudicare",
                     "mt": [
                         {
                             "leading": false,
@@ -7029,7 +7029,7 @@
                 },
                 {
                     "id": "82",
-                    "section_title": "\"By their Fruits\"",
+                    "section_title": "Ex fructibus cognoscetis",
                     "mt": [
                         {
                             "leading": false,
@@ -7121,7 +7121,7 @@
                 },
                 {
                     "id": "83",
-                    "section_title": "The House Built on the Rock",
+                    "section_title": "Domus super petram fundata",
                     "mt": [
                         {
                             "leading": false,
@@ -7205,7 +7205,7 @@
             "sections": [
                 {
                     "id": "84",
-                    "section_title": "Cleansing of the Leper",
+                    "section_title": "Leprosus",
                     "mt": [
                         {
                             "leading": true,
@@ -7308,7 +7308,7 @@
                 },
                 {
                     "id": "85",
-                    "section_title": "The Centurion of Capernaum",
+                    "section_title": "Servus centurionis",
                     "mt": [
                         {
                             "leading": true,
@@ -7507,7 +7507,7 @@
                 },
                 {
                     "id": "86",
-                    "section_title": "The Widow's Son at Nain",
+                    "section_title": "Filius viduae Naim",
                     "mt": [
                         null
                     ],
@@ -7562,7 +7562,7 @@
                 },
                 {
                     "id": "87",
-                    "section_title": "The Healing of Peter's Mother-in-law",
+                    "section_title": "Socrus Petri",
                     "mt": [
                         {
                             "leading": true,
@@ -7625,7 +7625,7 @@
                 },
                 {
                     "id": "88",
-                    "section_title": "The Sick Healed at Evening",
+                    "section_title": "Sanationes sub vesperum",
                     "mt": [
                         {
                             "leading": true,
@@ -7688,7 +7688,7 @@
                 },
                 {
                     "id": "89",
-                    "section_title": "On Following Jesus",
+                    "section_title": "Vulpes foveas habent",
                     "mt": [
                         {
                             "leading": true,
@@ -7767,7 +7767,7 @@
                 },
                 {
                     "id": "90",
-                    "section_title": "Stilling the Storm",
+                    "section_title": "Tempestas sedata",
                     "mt": [
                         {
                             "leading": true,
@@ -7875,7 +7875,7 @@
                 },
                 {
                     "id": "91",
-                    "section_title": "The Gadarene Demoniacs",
+                    "section_title": "Daemoniaci Geraseni",
                     "mt": [
                         {
                             "leading": true,
@@ -8108,7 +8108,7 @@
                 },
                 {
                     "id": "92",
-                    "section_title": "The Healing of the Paralytic",
+                    "section_title": "Sanatio paralytici",
                     "mt": [
                         {
                             "leading": true,
@@ -8300,7 +8300,7 @@
                 },
                 {
                     "id": "93",
-                    "section_title": "The Call of Levi (Matthew)",
+                    "section_title": "Matthaeus publicanus vocatur",
                     "mt": [
                         {
                             "leading": true,
@@ -8408,7 +8408,7 @@
                 },
                 {
                     "id": "94",
-                    "section_title": "The Question about Fasting",
+                    "section_title": "Quaestio ieiunii",
                     "mt": [
                         {
                             "leading": true,
@@ -8516,7 +8516,7 @@
                 },
                 {
                     "id": "95",
-                    "section_title": "Jairus' Daughter and the Woman with a Hemorrhage",
+                    "section_title": "Haemorrhoissa et filia lairi",
                     "mt": [
                         {
                             "leading": true,
@@ -8789,7 +8789,7 @@
                 },
                 {
                     "id": "96",
-                    "section_title": "Two Blind Men",
+                    "section_title": "Duo caeci",
                     "mt": [
                         {
                             "leading": true,
@@ -8960,7 +8960,7 @@
                 },
                 {
                     "id": "97",
-                    "section_title": "The Mute Demoniac",
+                    "section_title": "Daemoniacus mutus",
                     "mt": [
                         {
                             "leading": true,
@@ -9041,7 +9041,7 @@
                 },
                 {
                     "id": "98",
-                    "section_title": "The Harvest is Plentiful",
+                    "section_title": "Messis multa",
                     "mt": [
                         {
                             "leading": true,
@@ -9121,7 +9121,7 @@
                 },
                 {
                     "id": "99",
-                    "section_title": "Commissioning the Twelve",
+                    "section_title": "Missio discipulorum",
                     "mt": [
                         {
                             "leading": true,
@@ -9376,7 +9376,7 @@
                 },
                 {
                     "id": "100",
-                    "section_title": "The Fate of the Disciples",
+                    "section_title": "Parsecutiones futurae",
                     "mt": [
                         {
                             "leading": true,
@@ -9588,7 +9588,7 @@
                 },
                 {
                     "id": "101",
-                    "section_title": "Exhortation to Fearless Confession",
+                    "section_title": "Qui me confitetur",
                     "mt": [
                         {
                             "leading": true,
@@ -9692,7 +9692,7 @@
                 },
                 {
                     "id": "102",
-                    "section_title": "Divisions within Households",
+                    "section_title": "Non veni pacem mittere",
                     "mt": [
                         {
                             "leading": true,
@@ -9746,7 +9746,7 @@
                 },
                 {
                     "id": "103",
-                    "section_title": "The Conditions of Discipleship",
+                    "section_title": "Condiciones sequendi Jesum",
                     "mt": [
                         {
                             "leading": true,
@@ -9822,7 +9822,7 @@
                 },
                 {
                     "id": "104",
-                    "section_title": "Rewards of Discipleship",
+                    "section_title": "Merces discipulos recipientium",
                     "mt": [
                         {
                             "leading": true,
@@ -9884,7 +9884,7 @@
                 },
                 {
                     "id": "105",
-                    "section_title": "Continuation of Journey",
+                    "section_title": "Iter persequitur",
                     "mt": [
                         {
                             "leading": true,
@@ -9909,7 +9909,7 @@
                 },
                 {
                     "id": "106",
-                    "section_title": "John the Baptist's Question and Jesus' Answer",
+                    "section_title": "Legatio Baptistae",
                     "mt": [
                         {
                             "leading": true,
@@ -9988,7 +9988,7 @@
                 },
                 {
                     "id": "107",
-                    "section_title": "Jesus' Witness concerning John",
+                    "section_title": "Jesu de Baptista testimonium",
                     "mt": [
                         {
                             "leading": true,
@@ -10150,7 +10150,7 @@
                 },
                 {
                     "id": "108",
-                    "section_title": "Woes Pronounced on Galilean Cities",
+                    "section_title": "Vae civitatibus Galilaeae",
                     "mt": [
                         {
                             "leading": true,
@@ -10219,7 +10219,7 @@
                 },
                 {
                     "id": "109",
-                    "section_title": "Jesus' Thanksgiving to the Father",
+                    "section_title": "Patri confitetur",
                     "mt": [
                         {
                             "leading": true,
@@ -10268,7 +10268,7 @@
                 },
                 {
                     "id": "110",
-                    "section_title": "\"Come unto Me\"",
+                    "section_title": "Venite ad me omnes",
                     "mt": [
                         {
                             "leading": true,
@@ -10303,7 +10303,7 @@
                 },
                 {
                     "id": "111",
-                    "section_title": "Plucking Grain on the Sabbath",
+                    "section_title": "Spicae sabbato vulsae",
                     "mt": [
                         {
                             "leading": true,
@@ -10426,7 +10426,7 @@
                 },
                 {
                     "id": "112",
-                    "section_title": "Healing the Withered Hand",
+                    "section_title": "Manus arida",
                     "mt": [
                         {
                             "leading": true,
@@ -10544,7 +10544,7 @@
                 },
                 {
                     "id": "113",
-                    "section_title": "Jesus Heals Multitudes by the Sea",
+                    "section_title": "Sanationes",
                     "mt": [
                         {
                             "leading": true,
@@ -10652,7 +10652,7 @@
                 },
                 {
                     "id": "114",
-                    "section_title": "The Woman with the Ointment",
+                    "section_title": "Mulier peccatrix",
                     "mt": [
                         {
                             "leading": false,
@@ -10874,7 +10874,7 @@
                 },
                 {
                     "id": "115",
-                    "section_title": "The Ministering Women",
+                    "section_title": "Mulieres Jesum sequentes",
                     "mt": [
                         null
                     ],
@@ -10909,7 +10909,7 @@
                 },
                 {
                     "id": "116",
-                    "section_title": "Jesus is Thought to be Beside Himself",
+                    "section_title": "Incredulitas suorum",
                     "mt": [
                         null
                     ],
@@ -10939,7 +10939,7 @@
                 },
                 {
                     "id": "117",
-                    "section_title": "On Collusion with Satan",
+                    "section_title": "In quo eiiciat daemonia",
                     "mt": [
                         {
                             "leading": true,
@@ -11114,7 +11114,7 @@
                 },
                 {
                     "id": "118",
-                    "section_title": "The Sin against the Holy Spirit",
+                    "section_title": "Peccatum in Spiritum Sanctum",
                     "mt": [
                         {
                             "leading": true,
@@ -11249,7 +11249,7 @@
                 },
                 {
                     "id": "119",
-                    "section_title": "The Sign of Jonah",
+                    "section_title": "Signum Ionae",
                     "mt": [
                         {
                             "leading": true,
@@ -11372,7 +11372,7 @@
                 },
                 {
                     "id": "120",
-                    "section_title": "The Return of the Evil Spirit",
+                    "section_title": "Immundus spiritus revertitur",
                     "mt": [
                         {
                             "leading": true,
@@ -11426,7 +11426,7 @@
                 },
                 {
                     "id": "121",
-                    "section_title": "Jesus' True Kindred",
+                    "section_title": "Mater et fratres Jesu",
                     "mt": [
                         {
                             "leading": true,
@@ -11528,7 +11528,7 @@
                 },
                 {
                     "id": "122",
-                    "section_title": "The Parable of the Sower",
+                    "section_title": "Parabola seminantis",
                     "mt": [
                         {
                             "leading": true,
@@ -11671,7 +11671,7 @@
                 },
                 {
                     "id": "123",
-                    "section_title": "The Reason for Speaking in Parables",
+                    "section_title": "Quare in parabolis loquatur",
                     "mt": [
                         {
                             "leading": true,
@@ -11804,7 +11804,7 @@
                 },
                 {
                     "id": "124",
-                    "section_title": "Interpretation of the Parable of the Sower",
+                    "section_title": "Parabola seminantis explicatur",
                     "mt": [
                         {
                             "leading": true,
@@ -11927,7 +11927,7 @@
                 },
                 {
                     "id": "125",
-                    "section_title": "\"If anyone has Ears to Hear, Let him Hear\"",
+                    "section_title": "Qui habet aures audiendi, audiat",
                     "mt": [
                         {
                             "leading": false,
@@ -12039,7 +12039,7 @@
                 },
                 {
                     "id": "126",
-                    "section_title": "The Parable of the Seed Growing Secretly",
+                    "section_title": "Ultro semen fructificat",
                     "mt": [
                         null
                     ],
@@ -12079,7 +12079,7 @@
                 },
                 {
                     "id": "127",
-                    "section_title": "The Parable of the Weeds",
+                    "section_title": "Parabola zizaniorum",
                     "mt": [
                         {
                             "leading": true,
@@ -12134,7 +12134,7 @@
                 },
                 {
                     "id": "128",
-                    "section_title": "The Parable of the Mustard Seed",
+                    "section_title": "Parabola grani sinapis",
                     "mt": [
                         {
                             "leading": true,
@@ -12197,7 +12197,7 @@
                 },
                 {
                     "id": "129",
-                    "section_title": "The Parable of the Leaven",
+                    "section_title": "Parabola fermenti",
                     "mt": [
                         {
                             "leading": true,
@@ -12236,7 +12236,7 @@
                 },
                 {
                     "id": "130",
-                    "section_title": "Jesus' Use of Parables",
+                    "section_title": "Sine parabolis non loquebatur",
                     "mt": [
                         {
                             "leading": true,
@@ -12280,7 +12280,7 @@
                 },
                 {
                     "id": "131",
-                    "section_title": "Interpretation of the Parable of the Weeds",
+                    "section_title": "Parabola zizaniorum explicatur",
                     "mt": [
                         {
                             "leading": true,
@@ -12340,7 +12340,7 @@
                 },
                 {
                     "id": "132",
-                    "section_title": "The Parables of the Hidden Treasure and of the Pearl",
+                    "section_title": "Thesaurus in agro et margarita",
                     "mt": [
                         {
                             "leading": true,
@@ -12375,7 +12375,7 @@
                 },
                 {
                     "id": "133",
-                    "section_title": "The Parable of the Net",
+                    "section_title": "Sagena in mari",
                     "mt": [
                         {
                             "leading": true,
@@ -12415,7 +12415,7 @@
                 },
                 {
                     "id": "134",
-                    "section_title": "Treasures New and Old",
+                    "section_title": "Homo paterfamilias",
                     "mt": [
                         {
                             "leading": true,
@@ -12445,7 +12445,7 @@
                 },
                 {
                     "id": "135",
-                    "section_title": "Jesus' True Kindred",
+                    "section_title": "Mater et fratres Jesu",
                     "mt": [
                         {
                             "leading": false,
@@ -12547,7 +12547,7 @@
                 },
                 {
                     "id": "136",
-                    "section_title": "Stilling the Storm",
+                    "section_title": "Tempestas sedata",
                     "mt": [
                         {
                             "leading": false,
@@ -12655,7 +12655,7 @@
                 },
                 {
                     "id": "137",
-                    "section_title": "The Gerasene Demoniac",
+                    "section_title": "Daemoniacus Gerasenus",
                     "mt": [
                         {
                             "leading": false,
@@ -12888,7 +12888,7 @@
                 },
                 {
                     "id": "138",
-                    "section_title": "Jairus' Daughter and the Woman with a Hemorrhage",
+                    "section_title": "Haemorrhoissa et filia lairi",
                     "mt": [
                         {
                             "leading": false,
@@ -13161,7 +13161,7 @@
                 },
                 {
                     "id": "139",
-                    "section_title": "Jesus is Rejected at Nazareth",
+                    "section_title": "Propheta in patria",
                     "mt": [
                         {
                             "leading": true,
@@ -13324,7 +13324,7 @@
                 },
                 {
                     "id": "140",
-                    "section_title": "Second Journey (to Jerusalem)",
+                    "section_title": "Secundum iter (in Jerusalem)",
                     "mt": [
                         null
                     ],
@@ -13349,7 +13349,7 @@
                 },
                 {
                     "id": "141",
-                    "section_title": "The Healing at the Pool",
+                    "section_title": "Languidus ad piscinam Bethsaida",
                     "mt": [
                         null
                     ],
@@ -13599,7 +13599,7 @@
                 },
                 {
                     "id": "142",
-                    "section_title": "Commissioning the Twelve",
+                    "section_title": "Missio apostolorum",
                     "mt": [
                         {
                             "leading": false,
@@ -13761,7 +13761,7 @@
                 },
                 {
                     "id": "143",
-                    "section_title": "Opinions regarding Jesus",
+                    "section_title": "Opinio Herodis et fama Jesu",
                     "mt": [
                         {
                             "leading": true,
@@ -13829,7 +13829,7 @@
                 },
                 {
                     "id": "144",
-                    "section_title": "The Death of John the Baptist",
+                    "section_title": "Mors Baptistae",
                     "mt": [
                         {
                             "leading": true,
@@ -13982,7 +13982,7 @@
                 },
                 {
                     "id": "145",
-                    "section_title": "The Return of the Apostles",
+                    "section_title": "Apostolorum reversio",
                     "mt": [
                         null
                     ],
@@ -14021,7 +14021,7 @@
                 },
                 {
                     "id": "146",
-                    "section_title": "Five Thousand are Fed",
+                    "section_title": "Qulnque milia saturantur",
                     "mt": [
                         {
                             "leading": true,
@@ -14278,7 +14278,7 @@
                 },
                 {
                     "id": "147",
-                    "section_title": "The Walking on the Water",
+                    "section_title": "Super mare ambulat",
                     "mt": [
                         {
                             "leading": true,
@@ -14436,7 +14436,7 @@
                 },
                 {
                     "id": "148",
-                    "section_title": "Healings at Gennesaret",
+                    "section_title": "Sanationes in terra Genesar",
                     "mt": [
                         {
                             "leading": true,
@@ -14519,7 +14519,7 @@
                 },
                 {
                     "id": "149",
-                    "section_title": "The Bread of Life",
+                    "section_title": "Panis vitae",
                     "mt": [
                         null
                     ],
@@ -14709,7 +14709,7 @@
                 },
                 {
                     "id": "150",
-                    "section_title": "Defilement - Traditional and Real",
+                    "section_title": "Manibus non lotis manducare",
                     "mt": [
                         {
                             "leading": true,
@@ -14990,7 +14990,7 @@
                 },
                 {
                     "id": "151",
-                    "section_title": "The Syrophoenician (Canaanite) Woman",
+                    "section_title": "Syrophoenissa (Chananea)",
                     "mt": [
                         {
                             "leading": true,
@@ -15089,7 +15089,7 @@
                 },
                 {
                     "id": "152",
-                    "section_title": "Jesus Heals a Deaf Man and Many Others",
+                    "section_title": "Ephphetha: multi aegroti",
                     "mt": [
                         {
                             "leading": true,
@@ -15163,7 +15163,7 @@
                 },
                 {
                     "id": "153",
-                    "section_title": "Four Thousand are Fed",
+                    "section_title": "Quattuor milla saturantur",
                     "mt": [
                         {
                             "leading": true,
@@ -15277,7 +15277,7 @@
                 },
                 {
                     "id": "154",
-                    "section_title": "The Pharisees Seek a Sign",
+                    "section_title": "Signum de caelo",
                     "mt": [
                         {
                             "leading": true,
@@ -15395,7 +15395,7 @@
                 },
                 {
                     "id": "155",
-                    "section_title": "The Leaven of the Pharisees",
+                    "section_title": "Fermentum Pharisaeorum",
                     "mt": [
                         {
                             "leading": true,
@@ -15508,7 +15508,7 @@
                 },
                 {
                     "id": "156",
-                    "section_title": "A Blind Man is Healed at Bethsaida",
+                    "section_title": "Caecus paulatim sanatur",
                     "mt": [
                         null
                     ],
@@ -15558,7 +15558,7 @@
             "sections": [
                 {
                     "id": "157",
-                    "section_title": "Many Disciples Take Offense at Jesus",
+                    "section_title": "Multi discipuli discedunt",
                     "mt": [
                         null
                     ],
@@ -15613,7 +15613,7 @@
                 },
                 {
                     "id": "158",
-                    "section_title": "Peter's Confession",
+                    "section_title": "Confessio Petri",
                     "mt": [
                         {
                             "leading": true,
@@ -15750,7 +15750,7 @@
                 },
                 {
                     "id": "159",
-                    "section_title": "Jesus Foretells His Passion",
+                    "section_title": "Prima passionis praedicatio",
                     "mt": [
                         {
                             "leading": true,
@@ -15813,7 +15813,7 @@
                 },
                 {
                     "id": "160",
-                    "section_title": "\"If anyone would Come after Me\"",
+                    "section_title": "Qui vult venire post me",
                     "mt": [
                         {
                             "leading": true,
@@ -15930,7 +15930,7 @@
                 },
                 {
                     "id": "161",
-                    "section_title": "The Transfiguration",
+                    "section_title": "Transfiguratio",
                     "mt": [
                         {
                             "leading": true,
@@ -16093,7 +16093,7 @@
                 },
                 {
                     "id": "162",
-                    "section_title": "The Coming of Elijah",
+                    "section_title": "De Elia venturo",
                     "mt": [
                         {
                             "leading": true,
@@ -16152,7 +16152,7 @@
                 },
                 {
                     "id": "163",
-                    "section_title": "Jesus Heals a Boy Possessed by a Spirit",
+                    "section_title": "Puer Iunaticus",
                     "mt": [
                         {
                             "leading": true,
@@ -16348,7 +16348,7 @@
                 },
                 {
                     "id": "164",
-                    "section_title": "Jesus Foretells His Passion again",
+                    "section_title": "Altera passionis praedictio",
                     "mt": [
                         {
                             "leading": true,
@@ -16416,7 +16416,7 @@
                 },
                 {
                     "id": "165",
-                    "section_title": "Payment of the Temple Tax",
+                    "section_title": "Didrachma Templi",
                     "mt": [
                         {
                             "leading": true,
@@ -16456,7 +16456,7 @@
                 },
                 {
                     "id": "166",
-                    "section_title": "True Greatness",
+                    "section_title": "Discipulorum ambitio",
                     "mt": [
                         {
                             "leading": true,
@@ -16558,7 +16558,7 @@
                 },
                 {
                     "id": "167",
-                    "section_title": "The Strange Exorcist",
+                    "section_title": "Monitio tolerantiae",
                     "mt": [
                         {
                             "leading": false,
@@ -16621,7 +16621,7 @@
                 },
                 {
                     "id": "168",
-                    "section_title": "Warnings concerning Temptations",
+                    "section_title": "De scandalis",
                     "mt": [
                         {
                             "leading": true,
@@ -16751,7 +16751,7 @@
                 },
                 {
                     "id": "169",
-                    "section_title": "The Parable of the Lost Sheep",
+                    "section_title": "Ovis perdita",
                     "mt": [
                         {
                             "leading": true,
@@ -16825,7 +16825,7 @@
                 },
                 {
                     "id": "170",
-                    "section_title": "On Reproving One's Brother",
+                    "section_title": "Correctio fraterna",
                     "mt": [
                         {
                             "leading": true,
@@ -16883,7 +16883,7 @@
                 },
                 {
                     "id": "171",
-                    "section_title": "\"Where Two or Three are Gathered\"",
+                    "section_title": "Ubi duo vel tres…",
                     "mt": [
                         {
                             "leading": true,
@@ -16913,7 +16913,7 @@
                 },
                 {
                     "id": "172",
-                    "section_title": "On Reconciliation",
+                    "section_title": "Septuagies septies dimittendum",
                     "mt": [
                         {
                             "leading": true,
@@ -16952,7 +16952,7 @@
                 },
                 {
                     "id": "173",
-                    "section_title": "The Parable of the Unforgiving Servant",
+                    "section_title": "Servus immisericors",
                     "mt": [
                         {
                             "leading": true,
@@ -17042,7 +17042,7 @@
             "sections": [
                 {
                     "id": "174",
-                    "section_title": "Decision to Go to Jerusalem",
+                    "section_title": "Iter ingreditur",
                     "mt": [
                         {
                             "leading": false,
@@ -17090,7 +17090,7 @@
                 },
                 {
                     "id": "175",
-                    "section_title": "Jesus is Rejected by Samaritans",
+                    "section_title": "A Samaritanis non recipitur",
                     "mt": [
                         null
                     ],
@@ -17135,7 +17135,7 @@
                 },
                 {
                     "id": "176",
-                    "section_title": "On Following Jesus",
+                    "section_title": "Sequar te",
                     "mt": [
                         {
                             "leading": false,
@@ -17214,7 +17214,7 @@
                 },
                 {
                     "id": "177",
-                    "section_title": "Commissioning the Seventy-Two",
+                    "section_title": "Septuaginta duo mittuntur",
                     "mt": [
                         {
                             "leading": false,
@@ -17366,7 +17366,7 @@
                 },
                 {
                     "id": "178",
-                    "section_title": "Woes Pronounced on Galilaean Cities",
+                    "section_title": "Vae civitatibus Galilaeae",
                     "mt": [
                         {
                             "leading": false,
@@ -17430,7 +17430,7 @@
                 },
                 {
                     "id": "179",
-                    "section_title": "\"The One who Hears You, Hears Me\"",
+                    "section_title": "Qui vos audit, me audit",
                     "mt": [
                         {
                             "leading": false,
@@ -17473,7 +17473,7 @@
                 },
                 {
                     "id": "180",
-                    "section_title": "The Return of the Seventy-Two",
+                    "section_title": "Septuaginta duo revertuntur",
                     "mt": [
                         null
                     ],
@@ -17513,7 +17513,7 @@
                 },
                 {
                     "id": "181",
-                    "section_title": "Jesus' Thanksgiving to the Father, and the Blessedness of the Disciples",
+                    "section_title": "Patri confitetur, discipulos beatos dicit",
                     "mt": [
                         {
                             "leading": false,
@@ -17590,7 +17590,7 @@
                 },
                 {
                     "id": "182",
-                    "section_title": "The Lawyer's Question",
+                    "section_title": "Mandatum dilectionis",
                     "mt": [
                         {
                             "leading": false,
@@ -17708,7 +17708,7 @@
                 },
                 {
                     "id": "183",
-                    "section_title": "The Parable of the Good Samaritan",
+                    "section_title": "Samaritanus misericors",
                     "mt": [
                         null
                     ],
@@ -17773,7 +17773,7 @@
                 },
                 {
                     "id": "184",
-                    "section_title": "Mary and Martha",
+                    "section_title": "Maria et Martha",
                     "mt": [
                         null
                     ],
@@ -17818,7 +17818,7 @@
                 },
                 {
                     "id": "185",
-                    "section_title": "The Lord's Prayer",
+                    "section_title": "Oratio dominica",
                     "mt": [
                         {
                             "leading": false,
@@ -17887,7 +17887,7 @@
                 },
                 {
                     "id": "186",
-                    "section_title": "The Importunate Friend at Midnight",
+                    "section_title": "Amicus importunus",
                     "mt": [
                         null
                     ],
@@ -17927,7 +17927,7 @@
                 },
                 {
                     "id": "187",
-                    "section_title": "Encouragement to Pray",
+                    "section_title": "Petitlo efficax",
                     "mt": [
                         {
                             "leading": false,
@@ -18001,7 +18001,7 @@
                 },
                 {
                     "id": "188",
-                    "section_title": "The Beelzebul Controversy",
+                    "section_title": "In quo eiiciat daemonia",
                     "mt": [
                         {
                             "leading": false,
@@ -18154,7 +18154,7 @@
                 },
                 {
                     "id": "189",
-                    "section_title": "The Return of the Evil Spirit",
+                    "section_title": "Immundus spiritus revertitur",
                     "mt": [
                         {
                             "leading": false,
@@ -18208,7 +18208,7 @@
                 },
                 {
                     "id": "190",
-                    "section_title": "True Blessedness",
+                    "section_title": "Beatus venter",
                     "mt": [
                         null
                     ],
@@ -18238,7 +18238,7 @@
                 },
                 {
                     "id": "191",
-                    "section_title": "The Sign of Jonah",
+                    "section_title": "Signum Ionae",
                     "mt": [
                         {
                             "leading": false,
@@ -18321,7 +18321,7 @@
                 },
                 {
                     "id": "192",
-                    "section_title": "Concerning Light",
+                    "section_title": "Parabola luminis",
                     "mt": [
                         {
                             "leading": false,
@@ -18364,7 +18364,7 @@
                 },
                 {
                     "id": "193",
-                    "section_title": "The Sound Eye",
+                    "section_title": "Oculus simplex",
                     "mt": [
                         {
                             "leading": false,
@@ -18413,7 +18413,7 @@
                 },
                 {
                     "id": "194",
-                    "section_title": "Discourses against the Pharisees and Lawyers",
+                    "section_title": "Vae pharisaeis et legisperitis",
                     "mt": [
                         {
                             "leading": false,
@@ -18621,7 +18621,7 @@
                 },
                 {
                     "id": "195",
-                    "section_title": "The Leaven of the Pharisees",
+                    "section_title": "Fermentum Pharisaeorum",
                     "mt": [
                         {
                             "leading": false,
@@ -18674,7 +18674,7 @@
                 },
                 {
                     "id": "196",
-                    "section_title": "Exhortation to Fearless Confession",
+                    "section_title": "Ne terreamini",
                     "mt": [
                         {
                             "leading": false,
@@ -18778,7 +18778,7 @@
                 },
                 {
                     "id": "197",
-                    "section_title": "The Sin against the Holy Spirit",
+                    "section_title": "Peccatum in Spiritum Sanctum",
                     "mt": [
                         {
                             "leading": false,
@@ -18836,7 +18836,7 @@
                 },
                 {
                     "id": "198",
-                    "section_title": "The Assistance of the Holy Spirit",
+                    "section_title": "Spiritus in discipulis loquetur",
                     "mt": [
                         {
                             "leading": false,
@@ -18907,7 +18907,7 @@
                 },
                 {
                     "id": "199",
-                    "section_title": "Warning against Covetousness",
+                    "section_title": "Avaritia vitanda",
                     "mt": [
                         null
                     ],
@@ -18942,7 +18942,7 @@
                 },
                 {
                     "id": "200",
-                    "section_title": "The Parable of the Rich Fool",
+                    "section_title": "Parabola divitis stulti",
                     "mt": [
                         null
                     ],
@@ -18992,7 +18992,7 @@
                 },
                 {
                     "id": "201",
-                    "section_title": "Anxieties about Earthly Things",
+                    "section_title": "Nolite solliciti esse",
                     "mt": [
                         {
                             "leading": false,
@@ -19121,7 +19121,7 @@
                 },
                 {
                     "id": "202",
-                    "section_title": "Treasures in Heaven",
+                    "section_title": "Thesaurus caelestis",
                     "mt": [
                         {
                             "leading": false,
@@ -19170,7 +19170,7 @@
                 },
                 {
                     "id": "203",
-                    "section_title": "Watchfulness and Faithfulness",
+                    "section_title": "Servus vigilans et fidelis",
                     "mt": [
                         {
                             "leading": false,
@@ -19314,7 +19314,7 @@
                 },
                 {
                     "id": "204",
-                    "section_title": "Division in Households",
+                    "section_title": "Ignem veni mittere",
                     "mt": [
                         {
                             "leading": false,
@@ -19378,7 +19378,7 @@
                 },
                 {
                     "id": "205",
-                    "section_title": "Interpreting the Times",
+                    "section_title": "Signa temporum",
                     "mt": [
                         {
                             "leading": false,
@@ -19427,7 +19427,7 @@
                 },
                 {
                     "id": "206",
-                    "section_title": "Settlement with One's Accuser",
+                    "section_title": "Reconciliandum in via",
                     "mt": [
                         {
                             "leading": false,
@@ -19476,7 +19476,7 @@
                 },
                 {
                     "id": "207",
-                    "section_title": "Repentance or Destruction (the Parable of the Barren Fig Tree)",
+                    "section_title": "Paenitentia agenda (ficus infructuosa)",
                     "mt": [
                         null
                     ],
@@ -19541,7 +19541,7 @@
                 },
                 {
                     "id": "208",
-                    "section_title": "The Healing of the Woman with a Disabling Spirit on the Sabbath",
+                    "section_title": "Mulier inclinata",
                     "mt": [
                         null
                     ],
@@ -19601,7 +19601,7 @@
                 },
                 {
                     "id": "209",
-                    "section_title": "The Parable of the Mustard Seed",
+                    "section_title": "Parabola grani sinapis",
                     "mt": [
                         {
                             "leading": false,
@@ -19664,7 +19664,7 @@
                 },
                 {
                     "id": "210",
-                    "section_title": "The Parable of the Leaven",
+                    "section_title": "Parabola fermenti",
                     "mt": [
                         {
                             "leading": false,
@@ -19703,7 +19703,7 @@
                 },
                 {
                     "id": "211",
-                    "section_title": "Exclusion from the Kingdom",
+                    "section_title": "Angusta porta; exclusi",
                     "mt": [
                         {
                             "leading": false,
@@ -19840,7 +19840,7 @@
                 },
                 {
                     "id": "212",
-                    "section_title": "A Warning against Herod",
+                    "section_title": "Herodes vulpes",
                     "mt": [
                         null
                     ],
@@ -19875,7 +19875,7 @@
                 },
                 {
                     "id": "213",
-                    "section_title": "The Lament over Jerusalem",
+                    "section_title": "Vae Jerusalem",
                     "mt": [
                         {
                             "leading": false,
@@ -19924,7 +19924,7 @@
                 },
                 {
                     "id": "214",
-                    "section_title": "The Healing of the Man with Dropsy",
+                    "section_title": "Hydropicus",
                     "mt": [
                         null
                     ],
@@ -19974,7 +19974,7 @@
                 },
                 {
                     "id": "215",
-                    "section_title": "Teaching on Humility",
+                    "section_title": "Cum invitatus fueris",
                     "mt": [
                         null
                     ],
@@ -20034,7 +20034,7 @@
                 },
                 {
                     "id": "216",
-                    "section_title": "The Parable of the Great Banquet",
+                    "section_title": "Coena magna",
                     "mt": [
                         {
                             "leading": false,
@@ -20178,7 +20178,7 @@
                 },
                 {
                     "id": "217",
-                    "section_title": "The Conditions of Discipleship",
+                    "section_title": "Conditiones sequendi Jesum",
                     "mt": [
                         {
                             "leading": false,
@@ -20257,7 +20257,7 @@
                 },
                 {
                     "id": "218",
-                    "section_title": "The Parable of Salt",
+                    "section_title": "Parabola salis",
                     "mt": [
                         {
                             "leading": false,
@@ -20310,7 +20310,7 @@
                 },
                 {
                     "id": "219",
-                    "section_title": "The Parable of the Lost Sheep",
+                    "section_title": "Ovis perdita",
                     "mt": [
                         {
                             "leading": false,
@@ -20384,7 +20384,7 @@
                 },
                 {
                     "id": "220",
-                    "section_title": "The Parable of the Lost Coin",
+                    "section_title": "Drachma perdita",
                     "mt": [
                         null
                     ],
@@ -20419,7 +20419,7 @@
                 },
                 {
                     "id": "221",
-                    "section_title": "The Parable of the Prodigal Son",
+                    "section_title": "Filius prodigus",
                     "mt": [
                         null
                     ],
@@ -20549,7 +20549,7 @@
                 },
                 {
                     "id": "222",
-                    "section_title": "The Parable of the Dishonest Manager",
+                    "section_title": "Villicus iniquitatis",
                     "mt": [
                         null
                     ],
@@ -20614,7 +20614,7 @@
                 },
                 {
                     "id": "223",
-                    "section_title": "On Faithfulness in What is Least",
+                    "section_title": "Fides in minimo",
                     "mt": [
                         null
                     ],
@@ -20649,7 +20649,7 @@
                 },
                 {
                     "id": "224",
-                    "section_title": "On Serving Two Masters",
+                    "section_title": "Duobus dominis servire",
                     "mt": [
                         {
                             "leading": false,
@@ -20683,7 +20683,7 @@
                 },
                 {
                     "id": "225",
-                    "section_title": "The Pharisees Reproved",
+                    "section_title": "Pharisaei arguuntur",
                     "mt": [
                         null
                     ],
@@ -20713,7 +20713,7 @@
                 },
                 {
                     "id": "226",
-                    "section_title": "Concerning the Law",
+                    "section_title": "De lege",
                     "mt": [
                         {
                             "leading": false,
@@ -20770,7 +20770,7 @@
                 },
                 {
                     "id": "227",
-                    "section_title": "Concerning Divorce",
+                    "section_title": "Nefas repudii",
                     "mt": [
                         {
                             "leading": false,
@@ -20818,7 +20818,7 @@
                 },
                 {
                     "id": "228",
-                    "section_title": "The Parable of the Rich Man and Lazarus",
+                    "section_title": "De divite et Lazaro mendico",
                     "mt": [
                         null
                     ],
@@ -20903,7 +20903,7 @@
                 },
                 {
                     "id": "229",
-                    "section_title": "Warnings concerning Temptations",
+                    "section_title": "De scandalis",
                     "mt": [
                         {
                             "leading": false,
@@ -20961,7 +20961,7 @@
                 },
                 {
                     "id": "230",
-                    "section_title": "On Forgiveness",
+                    "section_title": "Septies dimittendum",
                     "mt": [
                         {
                             "leading": false,
@@ -21000,7 +21000,7 @@
                 },
                 {
                     "id": "231",
-                    "section_title": "On Faith",
+                    "section_title": "Fides sicut granum sinapis",
                     "mt": [
                         {
                             "leading": false,
@@ -21063,7 +21063,7 @@
                 },
                 {
                     "id": "232",
-                    "section_title": "We are Unworthy Servants",
+                    "section_title": "Servi inutiles sumus",
                     "mt": [
                         null
                     ],
@@ -21103,7 +21103,7 @@
                 },
                 {
                     "id": "233",
-                    "section_title": "The Cleansing of the Ten Lepers",
+                    "section_title": "Decem leprosi",
                     "mt": [
                         null
                     ],
@@ -21168,7 +21168,7 @@
                 },
                 {
                     "id": "234",
-                    "section_title": "On the Coming of the Kingdom of God",
+                    "section_title": "Adventus regni Dei",
                     "mt": [
                         null
                     ],
@@ -21198,7 +21198,7 @@
                 },
                 {
                     "id": "235",
-                    "section_title": "The Day of the Son of Man",
+                    "section_title": "Filius hominis in die sua",
                     "mt": [
                         {
                             "leading": false,
@@ -21467,7 +21467,7 @@
                 },
                 {
                     "id": "236",
-                    "section_title": "The Parable of the Unrighteous Judge",
+                    "section_title": "Iudex iniquitatis et vidua",
                     "mt": [
                         null
                     ],
@@ -21527,7 +21527,7 @@
                 },
                 {
                     "id": "237",
-                    "section_title": "The Pharisee and the Tax Collector",
+                    "section_title": "Pharisaeus et publicanus",
                     "mt": [
                         null
                     ],
@@ -21582,7 +21582,7 @@
             "sections": [
                 {
                     "id": "238",
-                    "section_title": "Jesus Remains in Galilee",
+                    "section_title": "Jesus in Galilaea remanet",
                     "mt": [
                         null
                     ],
@@ -21647,7 +21647,7 @@
                 },
                 {
                     "id": "239",
-                    "section_title": "Journey to Jerusalem in Secret",
+                    "section_title": "Jerusalem ascendit in occulto",
                     "mt": [
                         null
                     ],
@@ -21687,7 +21687,7 @@
                 },
                 {
                     "id": "240",
-                    "section_title": "Teaching in the Temple",
+                    "section_title": "In templo docet",
                     "mt": [
                         null
                     ],
@@ -21837,7 +21837,7 @@
                 },
                 {
                     "id": "241",
-                    "section_title": "Division among the People regarding Jesus",
+                    "section_title": "Dissensio propter Jesum",
                     "mt": [
                         null
                     ],
@@ -21922,7 +21922,7 @@
                 },
                 {
                     "id": "242",
-                    "section_title": "The Woman Caught in Adultery",
+                    "section_title": "Mulier adultera",
                     "mt": [
                         null
                     ],
@@ -22002,7 +22002,7 @@
                 },
                 {
                     "id": "243",
-                    "section_title": "\"I am the Light of the World\"",
+                    "section_title": "Jesus lux mundi",
                     "mt": [
                         null
                     ],
@@ -22067,7 +22067,7 @@
                 },
                 {
                     "id": "244",
-                    "section_title": "Discussion with the Jews",
+                    "section_title": "Disputatio cum Iudaeis",
                     "mt": [
                         null
                     ],
@@ -22132,7 +22132,7 @@
                 },
                 {
                     "id": "245",
-                    "section_title": "\"The Truth will Set You Free\"",
+                    "section_title": "Veritas liberabit vos",
                     "mt": [
                         null
                     ],
@@ -22187,7 +22187,7 @@
                 },
                 {
                     "id": "246",
-                    "section_title": "Children of the Devil",
+                    "section_title": "Filii diaboli",
                     "mt": [
                         null
                     ],
@@ -22262,7 +22262,7 @@
                 },
                 {
                     "id": "247",
-                    "section_title": "\"Before Abraham was, I am\"",
+                    "section_title": "Antequam Abraham fieret, ego sum",
                     "mt": [
                         null
                     ],
@@ -22342,7 +22342,7 @@
                 },
                 {
                     "id": "248",
-                    "section_title": "Jesus Heals the Man Born Blind",
+                    "section_title": "Caecus natus",
                     "mt": [
                         null
                     ],
@@ -22567,7 +22567,7 @@
                 },
                 {
                     "id": "249",
-                    "section_title": "\"I am the Good Shepherd\"",
+                    "section_title": "Pastor bonus",
                     "mt": [
                         null
                     ],
@@ -22677,7 +22677,7 @@
                 },
                 {
                     "id": "250",
-                    "section_title": "Division among the Jews again",
+                    "section_title": "Dissensio iterum facta",
                     "mt": [
                         null
                     ],
@@ -22717,7 +22717,7 @@
             "sections": [
                 {
                     "id": "251",
-                    "section_title": "Departure to Judea",
+                    "section_title": "Iter in Iudaeam",
                     "mt": [
                         {
                             "leading": true,
@@ -22765,7 +22765,7 @@
                 },
                 {
                     "id": "252",
-                    "section_title": "On Divorce and Celibacy",
+                    "section_title": "De matrimonio et virginitate",
                     "mt": [
                         {
                             "leading": true,
@@ -22903,7 +22903,7 @@
                 },
                 {
                     "id": "253",
-                    "section_title": "Jesus Blesses the Children",
+                    "section_title": "Benedictio parvulorum",
                     "mt": [
                         {
                             "leading": true,
@@ -22981,7 +22981,7 @@
                 },
                 {
                     "id": "254",
-                    "section_title": "The Rich Young Man",
+                    "section_title": "Adulescens dives",
                     "mt": [
                         {
                             "leading": true,
@@ -23104,7 +23104,7 @@
                 },
                 {
                     "id": "255",
-                    "section_title": "On Riches and the Rewards of Discipleship",
+                    "section_title": "Foramen acus; centuplum accipiet",
                     "mt": [
                         {
                             "leading": true,
@@ -23275,7 +23275,7 @@
                 },
                 {
                     "id": "256",
-                    "section_title": "The Parable of the Laborers in the Vineyard",
+                    "section_title": "Operarii in vinea",
                     "mt": [
                         {
                             "leading": true,
@@ -23393,7 +23393,7 @@
                 },
                 {
                     "id": "257",
-                    "section_title": "Jesus at the Feast of Dedication in Jerusalem",
+                    "section_title": "Jesus in festo Encaeniorum",
                     "mt": [
                         null
                     ],
@@ -23503,7 +23503,7 @@
                 },
                 {
                     "id": "258",
-                    "section_title": "Jesus Withdraws across the Jordan",
+                    "section_title": "Jesus trans Iordanem",
                     "mt": [
                         null
                     ],
@@ -23538,7 +23538,7 @@
                 },
                 {
                     "id": "259",
-                    "section_title": "The Raising of Lazarus",
+                    "section_title": "Lazarus resuscitatur",
                     "mt": [
                         null
                     ],
@@ -23778,7 +23778,7 @@
                 },
                 {
                     "id": "260",
-                    "section_title": "The Chief Priests and Pharisees Take Counsel against Jesus",
+                    "section_title": "Concilium Pontificum et Pharisaeorum",
                     "mt": [
                         null
                     ],
@@ -23843,7 +23843,7 @@
                 },
                 {
                     "id": "261",
-                    "section_title": "Jesus Retires to Ephraim",
+                    "section_title": "Jesus secedit in Ephrem",
                     "mt": [
                         null
                     ],
@@ -23883,7 +23883,7 @@
                 },
                 {
                     "id": "262",
-                    "section_title": "The Third Prediction of the Passion",
+                    "section_title": "Tertia passionis praedictio",
                     "mt": [
                         {
                             "leading": true,
@@ -23961,7 +23961,7 @@
                 },
                 {
                     "id": "263",
-                    "section_title": "The Sons of Zebedee; Precedence among the Disciples",
+                    "section_title": "Mater filiorum Zebedaei",
                     "mt": [
                         {
                             "leading": true,
@@ -24109,7 +24109,7 @@
                 },
                 {
                     "id": "264",
-                    "section_title": "The Healing of the Blind Men (Bartimaeus)",
+                    "section_title": "Bartimaeus vel duo caeci",
                     "mt": [
                         {
                             "leading": true,
@@ -24280,7 +24280,7 @@
                 },
                 {
                     "id": "265",
-                    "section_title": "Zacchaeus",
+                    "section_title": "Zachaeus",
                     "mt": [
                         {
                             "leading": false,
@@ -24359,7 +24359,7 @@
                 },
                 {
                     "id": "266",
-                    "section_title": "The Parable of the Minas",
+                    "section_title": "Parabola mnarum",
                     "mt": [
                         {
                             "leading": false,
@@ -24562,7 +24562,7 @@
                 },
                 {
                     "id": "267",
-                    "section_title": "The Anointing at Bethany",
+                    "section_title": "Unctio Bethaniae",
                     "mt": [
                         {
                             "leading": false,
@@ -24784,7 +24784,7 @@
                 },
                 {
                     "id": "268",
-                    "section_title": "The Plot against Lazarus",
+                    "section_title": "Pontificum de Lazaro insidiae",
                     "mt": [
                         null
                     ],
@@ -24824,7 +24824,7 @@
             "sections": [
                 {
                     "id": "269",
-                    "section_title": "The Triumphal Entry",
+                    "section_title": "Ingressus triumphalis in Jerusalem",
                     "mt": [
                         {
                             "leading": true,
@@ -25056,7 +25056,7 @@
                 },
                 {
                     "id": "270",
-                    "section_title": "Jesus Weeps over Jerusalem",
+                    "section_title": "Jesus flet super Jerusalem",
                     "mt": [
                         null
                     ],
@@ -25096,7 +25096,7 @@
                 },
                 {
                     "id": "271",
-                    "section_title": "Jesus in Jerusalem (Cleansing the Temple), Return to Bethany",
+                    "section_title": "Jesus in Jerusalem (templum purgat), Bethaniam redit",
                     "mt": [
                         {
                             "leading": true,
@@ -25202,7 +25202,7 @@
                 },
                 {
                     "id": "272",
-                    "section_title": "The Cursing of the Fig Tree",
+                    "section_title": "Ficulnea maledicta",
                     "mt": [
                         {
                             "leading": true,
@@ -25251,7 +25251,7 @@
                 },
                 {
                     "id": "273",
-                    "section_title": "The Cleansing of the Temple",
+                    "section_title": "Purgatio templi",
                     "mt": [
                         {
                             "leading": false,
@@ -25343,7 +25343,7 @@
                 },
                 {
                     "id": "274",
-                    "section_title": "The Chief Priests and Scribes Conspire against Jesus",
+                    "section_title": "Insidiae pontificum et scribarum",
                     "mt": [
                         null
                     ],
@@ -25387,7 +25387,7 @@
                 },
                 {
                     "id": "275",
-                    "section_title": "The Fig Tree is Withered",
+                    "section_title": "Ficulnea arefacta",
                     "mt": [
                         {
                             "leading": true,
@@ -25479,7 +25479,7 @@
                 },
                 {
                     "id": "276",
-                    "section_title": "The Question about Authority",
+                    "section_title": "De potestate Jesu et baptismo Ioannis",
                     "mt": [
                         {
                             "leading": true,
@@ -25607,7 +25607,7 @@
                 },
                 {
                     "id": "277",
-                    "section_title": "The Parable of the Two Sons",
+                    "section_title": "Duo filii",
                     "mt": [
                         {
                             "leading": true,
@@ -25652,7 +25652,7 @@
                 },
                 {
                     "id": "278",
-                    "section_title": "The Parable of the Wicked Tenants",
+                    "section_title": "Vinitores mali",
                     "mt": [
                         {
                             "leading": true,
@@ -25865,7 +25865,7 @@
                 },
                 {
                     "id": "279",
-                    "section_title": "The Parable of the Wedding Feast",
+                    "section_title": "Nuptiae regales",
                     "mt": [
                         {
                             "leading": true,
@@ -26009,7 +26009,7 @@
                 },
                 {
                     "id": "280",
-                    "section_title": "On Paying Taxes to Caesar",
+                    "section_title": "De censu Caesaris",
                     "mt": [
                         {
                             "leading": true,
@@ -26137,7 +26137,7 @@
                 },
                 {
                     "id": "281",
-                    "section_title": "The Question about the Resurrection",
+                    "section_title": "De resurrectione mortuorum",
                     "mt": [
                         {
                             "leading": true,
@@ -26340,7 +26340,7 @@
                 },
                 {
                     "id": "282",
-                    "section_title": "The Great Commandment",
+                    "section_title": "Maximum et primum mandatum",
                     "mt": [
                         {
                             "leading": true,
@@ -26458,7 +26458,7 @@
                 },
                 {
                     "id": "283",
-                    "section_title": "The Question about David's Son",
+                    "section_title": "Filius David?",
                     "mt": [
                         {
                             "leading": true,
@@ -26551,7 +26551,7 @@
                 },
                 {
                     "id": "284",
-                    "section_title": "Woe to the Scribes and Pharisees",
+                    "section_title": "Vae Pharisaeis et scribis",
                     "mt": [
                         {
                             "leading": true,
@@ -26794,7 +26794,7 @@
                 },
                 {
                     "id": "285",
-                    "section_title": "Jesus' Lament over Jerusalem",
+                    "section_title": "Vae Jerusalem",
                     "mt": [
                         {
                             "leading": true,
@@ -26843,7 +26843,7 @@
                 },
                 {
                     "id": "286",
-                    "section_title": "The Widow's Offering",
+                    "section_title": "Quadrans viduae",
                     "mt": [
                         null
                     ],
@@ -26912,7 +26912,7 @@
             "sections": [
                 {
                     "id": "287",
-                    "section_title": "Prediction of the Destruction of the Temple",
+                    "section_title": "Templum evertetur",
                     "mt": [
                         {
                             "leading": true,
@@ -26970,7 +26970,7 @@
                 },
                 {
                     "id": "288",
-                    "section_title": "Signs before the End",
+                    "section_title": "Signa adventus Jesu et consummationis saeculi",
                     "mt": [
                         {
                             "leading": true,
@@ -27083,7 +27083,7 @@
                 },
                 {
                     "id": "289",
-                    "section_title": "Persecutions Foretold",
+                    "section_title": "Persecutiones futurae",
                     "mt": [
                         {
                             "leading": true,
@@ -27258,7 +27258,7 @@
                 },
                 {
                     "id": "290",
-                    "section_title": "The Abomination of Desolation",
+                    "section_title": "Excidium Iudaeae",
                     "mt": [
                         {
                             "leading": true,
@@ -27386,7 +27386,7 @@
                 },
                 {
                     "id": "291",
-                    "section_title": "False Christs and False Prophets",
+                    "section_title": "Pseudochristi et pseudoprophetae",
                     "mt": [
                         {
                             "leading": true,
@@ -27482,7 +27482,7 @@
                 },
                 {
                     "id": "292",
-                    "section_title": "The Coming of the Son of Man",
+                    "section_title": "Filii hominis adventus",
                     "mt": [
                         {
                             "leading": true,
@@ -27565,7 +27565,7 @@
                 },
                 {
                     "id": "293",
-                    "section_title": "The Time of the Coming: the Parable of the Fig Tree",
+                    "section_title": "Tempus adventus: parabola fici",
                     "mt": [
                         {
                             "leading": true,
@@ -27668,7 +27668,7 @@
                 },
                 {
                     "id": "294",
-                    "section_title": "Conclusion: \"Be on Guard, Keep Awake!\" (According to Mark)",
+                    "section_title": "Vigilate (secundum Marcum)",
                     "mt": [
                         {
                             "leading": false,
@@ -27772,7 +27772,7 @@
                 },
                 {
                     "id": "295",
-                    "section_title": "Conclusion: \"Be on Guard, Keep Awake!\" (According to Luke)",
+                    "section_title": "Vigilate (secundum Lucam)",
                     "mt": [
                         null
                     ],
@@ -27812,7 +27812,7 @@
             "sections": [
                 {
                     "id": "296",
-                    "section_title": "The Parable of the Flood and Exhortation to Watchfulness",
+                    "section_title": "Sicut in diebus Noe",
                     "mt": [
                         {
                             "leading": true,
@@ -27958,7 +27958,7 @@
                 },
                 {
                     "id": "297",
-                    "section_title": "The Parable of the Faithful Servant and the Wicked Servant",
+                    "section_title": "Fidelis servus et servus malus",
                     "mt": [
                         {
                             "leading": true,
@@ -28047,7 +28047,7 @@
                 },
                 {
                     "id": "298",
-                    "section_title": "The Parable of the Ten Virgins",
+                    "section_title": "Decem virgines",
                     "mt": [
                         {
                             "leading": true,
@@ -28132,7 +28132,7 @@
                 },
                 {
                     "id": "299",
-                    "section_title": "The Parable of the Talents",
+                    "section_title": "Parabola talentorum",
                     "mt": [
                         {
                             "leading": true,
@@ -28335,7 +28335,7 @@
                 },
                 {
                     "id": "300",
-                    "section_title": "The Final Judgment",
+                    "section_title": "Iudicium ultimum",
                     "mt": [
                         {
                             "leading": true,
@@ -28444,7 +28444,7 @@
                 },
                 {
                     "id": "301",
-                    "section_title": "The Ministry of Jesus in Jerusalem",
+                    "section_title": "Ministerium Jesu in Jerusalem",
                     "mt": [
                         null
                     ],
@@ -28474,7 +28474,7 @@
                 },
                 {
                     "id": "302",
-                    "section_title": "Greeks Seek Jesus; Discourse on His Death",
+                    "section_title": "Jesus et Graeci",
                     "mt": [
                         null
                     ],
@@ -28579,7 +28579,7 @@
                 },
                 {
                     "id": "303",
-                    "section_title": "The Unbelief of the People",
+                    "section_title": "Incredulitas Iudaeorum",
                     "mt": [
                         null
                     ],
@@ -28634,7 +28634,7 @@
                 },
                 {
                     "id": "304",
-                    "section_title": "Judgment by the Word",
+                    "section_title": "Pater mihi mandatum dedit",
                     "mt": [
                         null
                     ],
@@ -28694,7 +28694,7 @@
             "sections": [
                 {
                     "id": "305",
-                    "section_title": "Jesus' Death is Premeditated",
+                    "section_title": "Decretum mortis",
                     "mt": [
                         {
                             "leading": true,
@@ -28767,7 +28767,7 @@
                 },
                 {
                     "id": "306",
-                    "section_title": "The Anointing in Bethany",
+                    "section_title": "Unctio Bethaniae",
                     "mt": [
                         {
                             "leading": true,
@@ -28989,7 +28989,7 @@
                 },
                 {
                     "id": "307",
-                    "section_title": "The Betrayal by Judas",
+                    "section_title": "A luda proditur",
                     "mt": [
                         {
                             "leading": true,
@@ -29062,7 +29062,7 @@
                 },
                 {
                     "id": "308",
-                    "section_title": "Preparation for the Passover",
+                    "section_title": "Cena paschalis praeparatur",
                     "mt": [
                         {
                             "leading": true,
@@ -29180,7 +29180,7 @@
                 },
                 {
                     "id": "309",
-                    "section_title": "Washing the Disciples' Feet",
+                    "section_title": "Discipulorum pedes lavat",
                     "mt": [
                         null,
                         {
@@ -29335,7 +29335,7 @@
                 },
                 {
                     "id": "310",
-                    "section_title": "Jesus Foretells His Betrayal",
+                    "section_title": "Proditorem indicat",
                     "mt": [
                         {
                             "leading": true,
@@ -29477,7 +29477,7 @@
                 },
                 {
                     "id": "311",
-                    "section_title": "The Lord's Supper",
+                    "section_title": "Eucharistiam instituit",
                     "mt": [
                         {
                             "leading": true,
@@ -29575,7 +29575,7 @@
                 },
                 {
                     "id": "312",
-                    "section_title": "Jesus Foretells His Betrayal",
+                    "section_title": "Proditorem indicat",
                     "mt": [
                         {
                             "leading": false,
@@ -29717,7 +29717,7 @@
                 },
                 {
                     "id": "313",
-                    "section_title": "Precedence among the Disciples and the Reward of Discipleship",
+                    "section_title": "Apostolorum contentio",
                     "mt": [
                         {
                             "leading": false,
@@ -29843,7 +29843,7 @@
                 },
                 {
                     "id": "314",
-                    "section_title": "The New Commandment of Love",
+                    "section_title": "Mandatum novum",
                     "mt": [
                         null
                     ],
@@ -29888,7 +29888,7 @@
                 },
                 {
                     "id": "315",
-                    "section_title": "Jesus Foretells Peter's Denial",
+                    "section_title": "Iter in montem Olivarum; negationem Petri praedicit",
                     "mt": [
                         {
                             "leading": true,
@@ -30015,7 +30015,7 @@
                 },
                 {
                     "id": "316",
-                    "section_title": "The Two Swords",
+                    "section_title": "Duo gladii",
                     "mt": [
                         null
                     ],
@@ -30055,7 +30055,7 @@
                 },
                 {
                     "id": "317",
-                    "section_title": "\"Let Not Your Hearts be Troubled\"",
+                    "section_title": "Vadit ad patrem",
                     "mt": [
                         null
                     ],
@@ -30145,7 +30145,7 @@
                 },
                 {
                     "id": "318",
-                    "section_title": "The Promise of the Holy Spirit",
+                    "section_title": "Promissio Paracliti",
                     "mt": [
                         null
                     ],
@@ -30225,7 +30225,7 @@
                 },
                 {
                     "id": "319",
-                    "section_title": "The Gift of Peace",
+                    "section_title": "Pacem meam do vobis",
                     "mt": [
                         null
                     ],
@@ -30270,7 +30270,7 @@
                 },
                 {
                     "id": "320",
-                    "section_title": "Jesus the True Vine",
+                    "section_title": "Vitis vera",
                     "mt": [
                         null
                     ],
@@ -30330,7 +30330,7 @@
                 },
                 {
                     "id": "321",
-                    "section_title": "\"Abide in My Love\"",
+                    "section_title": "Manete in dilectione",
                     "mt": [
                         null
                     ],
@@ -30395,7 +30395,7 @@
                 },
                 {
                     "id": "322",
-                    "section_title": "The World's Hatred",
+                    "section_title": "Mundus discipulos odit",
                     "mt": [
                         null
                     ],
@@ -30455,7 +30455,7 @@
                 },
                 {
                     "id": "323",
-                    "section_title": "The Witness of the Holy Spirit",
+                    "section_title": "Paracliti testimonium",
                     "mt": [
                         null
                     ],
@@ -30485,7 +30485,7 @@
                 },
                 {
                     "id": "324",
-                    "section_title": "On Persecutions",
+                    "section_title": "Persecutiones praedictae",
                     "mt": [
                         null
                     ],
@@ -30525,7 +30525,7 @@
                 },
                 {
                     "id": "325",
-                    "section_title": "The Work of the Holy Spirit",
+                    "section_title": "Paraclitus arguet et docebit",
                     "mt": [
                         null
                     ],
@@ -30600,7 +30600,7 @@
                 },
                 {
                     "id": "326",
-                    "section_title": "Sorrow Turned into Joy",
+                    "section_title": "Modicum",
                     "mt": [
                         null
                     ],
@@ -30655,7 +30655,7 @@
                 },
                 {
                     "id": "327",
-                    "section_title": "Prayer in the Name of Jesus",
+                    "section_title": "Petitio in nomine Jesu",
                     "mt": [
                         null
                     ],
@@ -30705,7 +30705,7 @@
                 },
                 {
                     "id": "328",
-                    "section_title": "Prediction of the Disciples' Flight",
+                    "section_title": "Discipulorum fuga praedicitur",
                     "mt": [
                         null
                     ],
@@ -30750,7 +30750,7 @@
                 },
                 {
                     "id": "329",
-                    "section_title": "The High Priestly Prayer",
+                    "section_title": "Oratio sacerdotalis",
                     "mt": [
                         null
                     ],
@@ -30900,7 +30900,7 @@
                 },
                 {
                     "id": "330",
-                    "section_title": "Gethsemane",
+                    "section_title": "Gethsemani",
                     "mt": [
                         {
                             "leading": true,
@@ -31100,7 +31100,7 @@
                 },
                 {
                     "id": "331",
-                    "section_title": "Jesus Arrested",
+                    "section_title": "Tenetur",
                     "mt": [
                         {
                             "leading": true,
@@ -31322,7 +31322,7 @@
                 },
                 {
                     "id": "332",
-                    "section_title": "Jesus before the Council (Peter's Denial)",
+                    "section_title": "Coram synedrio (negatio Petri)",
                     "mt": [
                         {
                             "leading": true,
@@ -31629,7 +31629,7 @@
                 },
                 {
                     "id": "333",
-                    "section_title": "Peter's Denial",
+                    "section_title": "Negatio Petri",
                     "mt": [
                         {
                             "leading": true,
@@ -31781,7 +31781,7 @@
                 },
                 {
                     "id": "334",
-                    "section_title": "Jesus Delivered to Pilate",
+                    "section_title": "Pontio Pilato traditur",
                     "mt": [
                         {
                             "leading": true,
@@ -31838,7 +31838,7 @@
                 },
                 {
                     "id": "335",
-                    "section_title": "The Death of Judas",
+                    "section_title": "Interitus Iudae",
                     "mt": [
                         {
                             "leading": true,
@@ -31898,7 +31898,7 @@
                 },
                 {
                     "id": "336",
-                    "section_title": "The Trial before Pilate",
+                    "section_title": "A Pilato interrogatur",
                     "mt": [
                         {
                             "leading": true,
@@ -32040,7 +32040,7 @@
                 },
                 {
                     "id": "337",
-                    "section_title": "Jesus before Herod",
+                    "section_title": "Coram Herode",
                     "mt": [
                         null
                     ],
@@ -32095,7 +32095,7 @@
                 },
                 {
                     "id": "338",
-                    "section_title": "Pilate Declares Jesus Innocent",
+                    "section_title": "Pilatus innocentem iudicat",
                     "mt": [
                         null
                     ],
@@ -32135,7 +32135,7 @@
                 },
                 {
                     "id": "339",
-                    "section_title": "Jesus or Barabbas?",
+                    "section_title": "Jesus an Barabbas?",
                     "mt": [
                         {
                             "leading": true,
@@ -32302,7 +32302,7 @@
                 },
                 {
                     "id": "340",
-                    "section_title": "\"Behold the Man!\"",
+                    "section_title": "Eccehomo",
                     "mt": [
                         {
                             "leading": false,
@@ -32450,7 +32450,7 @@
                 },
                 {
                     "id": "341",
-                    "section_title": "Pilate Delivers Jesus to be Crucified",
+                    "section_title": "Condemnatur",
                     "mt": [
                         {
                             "leading": true,
@@ -32517,7 +32517,7 @@
                 },
                 {
                     "id": "342",
-                    "section_title": "Jesus Mocked by the Soldiers",
+                    "section_title": "Spinis coronatur",
                     "mt": [
                         {
                             "leading": true,
@@ -32605,7 +32605,7 @@
                 },
                 {
                     "id": "343",
-                    "section_title": "The Road to Golgotha",
+                    "section_title": "Via ad Golgotha",
                     "mt": [
                         {
                             "leading": true,
@@ -32702,7 +32702,7 @@
                 },
                 {
                     "id": "344",
-                    "section_title": "The Crucifixion",
+                    "section_title": "Crucifigitur",
                     "mt": [
                         {
                             "leading": true,
@@ -32849,7 +32849,7 @@
                 },
                 {
                     "id": "345",
-                    "section_title": "Jesus Derided on the Cross",
+                    "section_title": "In cruce blasphematur",
                     "mt": [
                         {
                             "leading": true,
@@ -32957,7 +32957,7 @@
                 },
                 {
                     "id": "346",
-                    "section_title": "The Two Thieves",
+                    "section_title": "Duo latrones",
                     "mt": [
                         {
                             "leading": true,
@@ -33020,7 +33020,7 @@
                 },
                 {
                     "id": "347",
-                    "section_title": "The Death of Jesus",
+                    "section_title": "Moritur",
                     "mt": [
                         {
                             "leading": true,
@@ -33177,7 +33177,7 @@
                 },
                 {
                     "id": "348",
-                    "section_title": "Witnesses of the Crucifixion",
+                    "section_title": "Stabant iuxta crucem",
                     "mt": [
                         {
                             "leading": true,
@@ -33249,7 +33249,7 @@
                 },
                 {
                     "id": "349",
-                    "section_title": "Jesus' Side Pierced",
+                    "section_title": "Latus aperitur",
                     "mt": [
                         null
                     ],
@@ -33304,7 +33304,7 @@
                 },
                 {
                     "id": "350",
-                    "section_title": "The Burial of Jesus",
+                    "section_title": "Sepelitur",
                     "mt": [
                         {
                             "leading": true,
@@ -33451,7 +33451,7 @@
                 },
                 {
                     "id": "351",
-                    "section_title": "The Guard at the Tomb",
+                    "section_title": "Custodia sepulcri",
                     "mt": [
                         {
                             "leading": true,
@@ -33501,7 +33501,7 @@
             "sections": [
                 {
                     "id": "352",
-                    "section_title": "The Women at the Tomb",
+                    "section_title": "Mulieres ad sepulchrum",
                     "mt": [
                         {
                             "leading": true,
@@ -33738,7 +33738,7 @@
                 },
                 {
                     "id": "353",
-                    "section_title": "Jesus Appears to the Women",
+                    "section_title": "Mulieribus apparet",
                     "mt": [
                         {
                             "leading": true,
@@ -33830,7 +33830,7 @@
                 },
                 {
                     "id": "354",
-                    "section_title": "The Report of the Guard",
+                    "section_title": "Furtum fictum",
                     "mt": [
                         {
                             "leading": true,
@@ -33875,7 +33875,7 @@
                 },
                 {
                     "id": "355",
-                    "section_title": "Jesus Appears to Two on the Way to Emmaus",
+                    "section_title": "Emmaus",
                     "mt": [
                         null
                     ],
@@ -34024,7 +34024,7 @@
                 },
                 {
                     "id": "356",
-                    "section_title": "Jesus Appears to His Disciples (Thomas being Absent)",
+                    "section_title": "Discipulis apparet",
                     "mt": [
                         null
                     ],
@@ -34113,7 +34113,7 @@
                 },
                 {
                     "id": "357",
-                    "section_title": "Jesus Appears to His Disciples (Thomas being Present)",
+                    "section_title": "Thomas",
                     "mt": [
                         null
                     ],
@@ -34163,7 +34163,7 @@
                 },
                 {
                     "id": "358",
-                    "section_title": "Jesus Appears to the Eleven While They Sit at Table",
+                    "section_title": "Recumbentibus apparet",
                     "mt": [
                         null
                     ],
@@ -34208,7 +34208,7 @@
                 },
                 {
                     "id": "359",
-                    "section_title": "Jesus Appears to the Eleven on a Mountain in Galilee",
+                    "section_title": "In monte Galilaeae",
                     "mt": [
                         {
                             "leading": false,
@@ -34253,7 +34253,7 @@
                 },
                 {
                     "id": "360",
-                    "section_title": "Jesus Appears to His Disciples by the Sea of Tiberias",
+                    "section_title": "Ad mare Tiberiadis",
                     "mt": [
                         null
                     ],
@@ -34348,7 +34348,7 @@
             "sections": [
                 {
                     "id": "363",
-                    "section_title": "The Longer Ending of Mark",
+                    "section_title": "Marci conclusio longior",
                     "mt": [
                         null
                     ],
@@ -34428,7 +34428,7 @@
                 },
                 {
                     "id": "364",
-                    "section_title": "The Ending of Matthew: The Great Commission",
+                    "section_title": "Matthaei conclusio: Docete omnes gentes",
                     "mt": [
                         {
                             "leading": true,
@@ -34473,7 +34473,7 @@
                 },
                 {
                     "id": "365",
-                    "section_title": "The Ending of Luke: Jesus' Last Words and Ascension",
+                    "section_title": "Lucae conclusio: Monita Jesu et ascensio",
                     "mt": [
                         null,
                         null
@@ -34565,7 +34565,7 @@
                 },
                 {
                     "id": "366",
-                    "section_title": "The Ending of John",
+                    "section_title": "Ioannis conclusio prior",
                     "mt": [
                         null
                     ],
@@ -34595,7 +34595,7 @@
                 },
                 {
                     "id": "367",
-                    "section_title": "The Appendix to John: Jesus at the Sea of Tiberias",
+                    "section_title": "Ioannis conclusio altera: Ad mare Tiberiadis. Nota finalis",
                     "mt": [
                         null
                     ],
