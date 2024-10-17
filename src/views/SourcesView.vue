@@ -52,6 +52,15 @@ export default {
                 <a href="https://pallottinum.pl/">Tysiąclecia</a>
             </li>
             <li>
+                Greek New Testament,
+                <a href="https://sblgnt.com/">SBL</a>,
+                <a href="https://github.com/LogosBible/SBLGNT">Github</a>
+            </li>
+            <li>
+                Biblia Sacra Vulgata,
+                <a href="https://github.com/aseemsavio/Biblia-Sacra-Vulgata">Github</a>
+            </li>
+            <li>
                 Szinopszis – Máté, Márk, Lukács és János evangéliumának párhuzamos szövege,
                 <a href="https://kalvinkiado.hu/">Kálvin Kiadó</a>
                 , Budapest, 1994, ISBN: 9633005922

@@ -7,9 +7,17 @@
     </p>
     <p>Jelenleg a különböző evangélium fordítások integrációja a cél. A Szinopszis struktúrájában eddig feldolgozott
         fordtások <code class="text-dark">.json</code> formátumban elérhetők itt:
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/kg.json"
+            target="_blank">KG</a>,
         <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/szit.json"
             target="_blank">SZIT</a>,
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/knb.json"
+            target="_blank">KNB</a>,
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/uf.json"
+            target="_blank">UF</a>,
         <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/esv.json"
-            target="_blank">ESV</a>.
+            target="_blank">ESV</a>,
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/bt.json"
+            target="_blank">BT</a>.
     </p>
 </template>
