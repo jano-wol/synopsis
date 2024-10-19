@@ -57,8 +57,8 @@ export default {
                 <a href="https://github.com/LogosBible/SBLGNT">Github</a>
             </li>
             <li>
-                Biblia Sacra Vulgata,
-                <a href="https://github.com/aseemsavio/Biblia-Sacra-Vulgata">Github</a>
+                Nova Vulgata,
+                <a href="https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_index_lt.html">vatican.va</a>
             </li>
             <li>
                 Szinopszis – Máté, Márk, Lukács és János evangéliumának párhuzamos szövege,

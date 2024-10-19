@@ -11,7 +11,7 @@ import synopsisUF from '@/assets/translations/uf.json'
 import synopsisESV from '@/assets/translations/esv.json'
 import synopsisBT from '@/assets/translations/bt.json'
 import synopsisSBLGNT from '@/assets/translations/sblgnt.json'
-import synopsisVULG from '@/assets/translations/vulg.json'
+import synopsisNV from '@/assets/translations/nv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
 
@@ -35,7 +35,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisESV as SynopsisScheme,
                 synopsisBT as SynopsisScheme,
                 synopsisSBLGNT as SynopsisScheme,
-                synopsisVULG as SynopsisScheme
+                synopsisNV as SynopsisScheme
             ],
             isLoading: false
         }
