@@ -4,6 +4,7 @@ import sys
 
 from file_utils import iterate_jsons
 
+required_translations = ['kg', 'esv', 'szit']
 
 def remove_roman_literal(title):
     roman_numeral_pattern = r'^\s*(?=[MDCLXVI])M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})(\.?\s*)'
@@ -62,7 +63,6 @@ def check(json_loaded, file_name):
 
 
 def main():
-    required_translations = ['kgt']
     file_flags = {file_name: False for file_name in required_translations}
     json_folder = sys.argv[1]
     for json_loaded, json_path in iterate_jsons(json_folder):
