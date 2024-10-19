@@ -18,7 +18,9 @@ def add_to_dict(check_dict, section_title, section_idx, leadings):
     else:
         check_dict[section_title] = [[section_idx], [leadings]]
 
+
 def check(json_loaded, file_name):
+    success = True
     seen_part_titles = set()
     evangelists = ['mt', 'mk', 'lk', 'jn']
     section_idx = 0
@@ -33,26 +35,34 @@ def check(json_loaded, file_name):
         for s in p['sections']:
             section_title = s['section_title']
             section_idx = section_idx + 1
-            leadings = [False] * 4
+            leadings = [0] * 4
             for idx in range(4):
-                lead = False
+                lead = 0
                 boxes = s[evangelists[idx]]
                 if boxes is not None:
                     for box in boxes:
                         if box is not None:
                             if box["leading"]:
-                                lead = True
-                leadings[lead] = lead
+                                lead = 1
+                leadings[idx] = lead
             add_to_dict(check_dict, section_title, section_idx, leadings)
     for section_title, (section_indices, leadings) in check_dict.items():
-        if len(section_indices) > 1:
-            print(f'{section_title} -> {section_indices}')
-
-
+        summarize = [0] * 4
+        for leading in leadings:
+            for idx in range(4):
+                summarize[idx] = summarize[idx] + leading[idx]
+        for idx in range(4):
+            if summarize[idx] >= 2:
+                print(
+                    f'Multiple body texts under the same section_title from the same evangelist. file_name={file_name}; section_title={section_title}; evangelist={evangelists[idx]}')
+                success = False
+    if not success:
+        print("Section title test failed.")
+        exit(1)
 
 
 def main():
-    required_translations = ['kg', 'bt']
+    required_translations = ['kgt']
     file_flags = {file_name: False for file_name in required_translations}
     json_folder = sys.argv[1]
     for json_loaded, json_path in iterate_jsons(json_folder):
@@ -63,7 +73,7 @@ def main():
             check(json_loaded, file_name)
     for file_name, tested in file_flags.items():
         if not tested:
-            print(f'Error: {file_name}.json was not tested.')
+            print(f'Test fail: {file_name}.json was not tested.')
             exit(1)
 
 
