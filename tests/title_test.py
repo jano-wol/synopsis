@@ -1,95 +1,40 @@
-import json
 import os
+import re
 import sys
 
 from file_utils import iterate_jsons
 
+def remove_roman_literal(title):
+    roman_numeral_pattern = r'^\s*(?=[MDCLXVI])M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})(\.?\s*)'
+    cleaned_title = re.sub(roman_numeral_pattern, '', title)
+    return cleaned_title.strip()
 
-def get_change_table_path(components_folder, translation):
-    return components_folder + 'TitleChangeTable' + translation + '.vue'
-
-
-def get_id_and_title(table_element):
-    a, b = table_element.split(' ', 1)
-    return a, b
-
-
-def file_to_string(path):
-    with open(path, 'r', encoding='utf-8') as file:
-        try:
-            return file.read()
-        except ValueError as e:
-            print(f'Error while reading string from file={path}. error={e}')
-            sys.exit(1)
-
-
-def check_overwritten(default_titles, overwritten_titles, translation):
-    if overwritten_titles is None:
-        return
-    for id1, title_pair in overwritten_titles.items():
-        title1, title2 = title_pair
-        if id1 not in default_titles:
-            print(f'Change table contains unexpected id. id={id1} translation={translation}')
-            sys.exit(1)
-        default_title = default_titles[id1]
-        if default_title != title1:
-            print(
-                f'Change table mentions wrong default title. id={id1} default_title={default_title} change_table_title={title1} translation={translation}')
-            sys.exit(1)
-
-
-def perform_title_check(id1, json_title, default_titles, overwritten_titles, translation):
-    if overwritten_titles is None or id1 not in overwritten_titles:
-        if id1 not in default_titles:
-            print(f'Translation contains unexpected id. id={id1} translation={translation}')
-            sys.exit(1)
-        default_title = default_titles[id1]
-        if json_title != default_title:
-            print(
-                f'Translation title is not equal to default title, but the change was not mentioned in change table. id={id1} translation_title={json_title} default_title={default_title} translation={translation}')
-            sys.exit(1)
-    else:
-        overwritten_title = overwritten_titles[id1][1]
-        if json_title != overwritten_title:
-            print(
-                f'Change table title and translation title are not equal. id={id1} change_table_title={overwritten_title} translation_title={json_title} translation={translation}')
-            sys.exit(1)
-
-
-def check_json_titles(json_loaded, default_titles, overwritten_titles, translation):
-    for p in json_loaded['parts']:
-        part_title = p['part_title']
-        id1, json_title = get_id_and_title(part_title)
-        perform_title_check(id1, json_title, default_titles, overwritten_titles, translation)
-        for s in p['sections']:
-            id1 = s['id'] + '.'
-            json_title = s['section_title']
-            perform_title_check(id1, json_title, default_titles, overwritten_titles, translation)
-
-
-def update(json_loaded, default_titles, blank_vue, components_folder, translation):
-    changes = []
-    for p in json_loaded['parts']:
-        part_title = p['part_title']
-        id1, json_title = get_id_and_title(part_title)
-        default_title = default_titles[id1]
-        if default_title != json_title:
-            changes.append([id1 + ' ' + default_title, id1 + ' ' + json_title])
-        for s in p['sections']:
-            id1 = s['id'] + '.'
-            json_title = s['section_title']
-            default_title = default_titles[id1]
-            if default_title != json_title:
-                changes.append([id1 + ' ' + default_title, id1 + ' ' + json_title])
-    if not changes:
-        return
-    vue_content = file_to_string(blank_vue)
-
+def check(json_loaded, file_name):
+    seen_part_titles = set()
+    for p in json_loaded["parts"]:
+        part_title = remove_roman_literal(p["part_title"])
+        if part_title in seen_part_titles:
+            print(f"Duplicate part_title found: {part_title}. file_name={file_name}")
+            exit(1)
+        else:
+            seen_part_titles.add(part_title)
+        for s in p["sections"]:
+            print(s["section_title"])
 
 def main():
+    required_translations = ["kg", "bt"]
+    file_flags = {file_name: False for file_name in required_translations}
     json_folder = sys.argv[1]
     for json_loaded, json_path in iterate_jsons(json_folder):
-        pass
+        file_name = os.path.basename(json_path)
+        file_base_name = os.path.splitext(file_name)[0]
+        if file_base_name in required_translations:
+            file_flags[file_base_name] = True
+            check(json_loaded, file_name)
+    for file_name, tested in file_flags.items():
+        if not tested:
+            print(f'Error: {file_name}.json was not tested.')
+            exit(1)
 
 
 if __name__ == "__main__":
