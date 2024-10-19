@@ -11,18 +11,19 @@ def remove_roman_literal(title):
 
 def check(json_loaded, file_name):
     seen_part_titles = set()
-    for p in json_loaded["parts"]:
-        part_title = remove_roman_literal(p["part_title"])
+    evangelists = ['mt', 'mk', 'lk', 'jn']
+    for p in json_loaded['parts']:
+        part_title = remove_roman_literal(p['part_title'])
         if part_title in seen_part_titles:
-            print(f"Duplicate part_title found: {part_title}. file_name={file_name}")
+            print(f'Duplicate part_title found: {part_title}. file_name={file_name}')
             exit(1)
         else:
             seen_part_titles.add(part_title)
-        for s in p["sections"]:
-            print(s["section_title"])
+        for s in p['sections']:
+            print(s['section_title'])
 
 def main():
-    required_translations = ["kg", "bt"]
+    required_translations = ['kg', 'bt']
     file_flags = {file_name: False for file_name in required_translations}
     json_folder = sys.argv[1]
     for json_loaded, json_path in iterate_jsons(json_folder):
@@ -37,5 +38,5 @@ def main():
             exit(1)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
