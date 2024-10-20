@@ -52,6 +52,9 @@ export default {
                 <a href="https://pallottinum.pl/">Tysiąclecia</a>
             </li>
             <li>
+                Biblia, Biblia Jakuba Wujka
+            </li>
+            <li>
                 Greek New Testament,
                 <a href="https://sblgnt.com/">SBL</a>,
                 <a href="https://github.com/LogosBible/SBLGNT">Github</a>
