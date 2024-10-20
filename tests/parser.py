@@ -6,7 +6,8 @@ def parse_line(line):
     evangelists = ['mt', 'mk', 'lk', 'jn']
     space_index = line.find(' ')
     if space_index == -1:
-        return None
+        line = line + ' '
+        space_index = line.find(' ')
     key = line[:space_index]
     if len(key) < 8 or len(key) > 9:
         return None
@@ -29,7 +30,8 @@ def parse_line(line):
     return key_components, line[space_index + 1:]
 
 
-def rewrite(input_bible_dict, out_bible, part_titles, section_titles, not_found_keys_fail, unused_keys_warning, empty_texts_warning):
+def rewrite(input_bible_dict, out_bible, part_titles, section_titles, not_found_keys_fail, unused_keys_warning,
+            empty_texts_warning):
     evangelists = ['mt', 'mk', 'lk', 'jn']
     for p in out_bible['parts']:
         part_titles.append(p['part_title'])
@@ -54,6 +56,9 @@ def rewrite(input_bible_dict, out_bible, part_titles, section_titles, not_found_
     for key, value in input_bible_dict.items():
         if not value[1]:
             unused_keys_warning.append(key)
+    not_found_keys_fail[:] = list(set(not_found_keys_fail))
+    unused_keys_warning[:] = list(set(unused_keys_warning))
+    empty_texts_warning[:] = list(set(empty_texts_warning))
 
 
 def main():
