@@ -52,7 +52,7 @@ export default {
                 <a href="https://pallottinum.pl/">Tysiąclecia</a>
             </li>
             <li>
-                Biblia, Biblia Jakuba Wujka
+                Biblia, przekład Jakuba Wujka (1599); wyd. trzecie poprawione, Kraków, 1962; (Lublin, 1985), ISBN-83-87143-02-2.
             </li>
             <li>
                 Greek New Testament,
