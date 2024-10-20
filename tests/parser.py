@@ -51,7 +51,7 @@ def main():
                 if key_tuple in input_bible_dict:
                     duplicate_keys.append(l)
                 else:
-                    input_bible_dict[key_tuple] = text
+                    input_bible_dict[key_tuple] = [text, False]
             else:
                 wrong_lines.append(l)
     if wrong_lines or duplicate_keys:
