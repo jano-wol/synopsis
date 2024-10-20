@@ -1,6 +1,5 @@
 import copy
 import json
-import os
 import sys
 
 def parse_line(line):
@@ -50,7 +49,7 @@ def main():
                 key, text = result
                 key_tuple = tuple(key)
                 if key_tuple in input_bible_dict:
-                    duplicate_keys.append(l)  # Track duplicate key errors
+                    duplicate_keys.append(l)
                 else:
                     input_bible_dict[key_tuple] = text
             else:
