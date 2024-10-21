@@ -3,6 +3,7 @@ import { defineStore } from 'pinia'
 import type { SectionScheme, SynopsisScheme } from '@/interfaces/synopsisInterface'
 import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
+import type { RouteLocationRaw } from 'vue-router';
 
 import synopsisKG from '@/assets/translations/kg.json'
 import synopsisSZIT from '@/assets/translations/szit.json'
@@ -116,6 +117,14 @@ export const useSynopsisStore = defineStore('synopsis', {
                 return citation + "-" + lastVerse
             }
             return citation
-        }
+        },
+        pushToHistoryAndRedirect(pushToHistoryRoute: RouteLocationRaw, redirectRoute: RouteLocationRaw): void {
+            router.push(pushToHistoryRoute)
+            .then(
+              () => {
+                router.push(redirectRoute)
+              }
+            )
+        },
     }
 })
