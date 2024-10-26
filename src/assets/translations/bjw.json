@@ -173,7 +173,7 @@
             "sections": [
                 {
                     "id": "2",
-                    "section_title": "Zapowiedź narodzenia Jana",
+                    "section_title": "Zapowiedź narodzenia Jana Chrzciciela",
                     "mt": [
                         null
                     ],
@@ -383,7 +383,7 @@
                 },
                 {
                     "id": "4",
-                    "section_title": "Nawiedzenie",
+                    "section_title": "Maryja nawiedza Elżbietę",
                     "mt": [
                         null
                     ],
@@ -493,7 +493,7 @@
                 },
                 {
                     "id": "5",
-                    "section_title": "Narodzenie Jana",
+                    "section_title": "Narodzenie Jana Chrzciciela",
                     "mt": [
                         null
                     ],
@@ -633,7 +633,7 @@
                 },
                 {
                     "id": "6",
-                    "section_title": "Rodowód Jezusa",
+                    "section_title": "Rodowód Pana Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -817,7 +817,7 @@
                 },
                 {
                     "id": "7",
-                    "section_title": "Narodzenie Jezusa",
+                    "section_title": "Poczęcie i narodzenie Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -916,7 +916,7 @@
                 },
                 {
                     "id": "8",
-                    "section_title": "Mędrcy ze Wschodu",
+                    "section_title": "Pokłon trzech mędrców",
                     "mt": [
                         {
                             "leading": true,
@@ -1065,7 +1065,7 @@
                 },
                 {
                     "id": "9",
-                    "section_title": "Obrzezanie i ofiarowanie w świątyni. Starzec Symeon i prorokini Anna",
+                    "section_title": "Obrzezanie i ofiarowanie Jezusa. Starzec Symeon i prorokini Anna",
                     "mt": [
                         null
                     ],
@@ -1615,7 +1615,7 @@
                 },
                 {
                     "id": "16",
-                    "section_title": "Świadectwo Jana o Mesjaszu",
+                    "section_title": "Świadectwo Jana Chrzciciela",
                     "mt": [
                         {
                             "leading": true,
@@ -1712,7 +1712,7 @@
                 },
                 {
                     "id": "17",
-                    "section_title": "Uwięzienie Jana",
+                    "section_title": "Uwięzienie Jana Chrzciciela",
                     "mt": [
                         {
                             "leading": false,
@@ -1770,7 +1770,7 @@
                 },
                 {
                     "id": "18",
-                    "section_title": "Chrzest Jezusa",
+                    "section_title": "Chrzest Pana Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -1882,7 +1882,7 @@
                 },
                 {
                     "id": "19",
-                    "section_title": "Rodowód Jezusa",
+                    "section_title": "Rodowód Pana Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -2071,7 +2071,7 @@
                 },
                 {
                     "id": "20",
-                    "section_title": "Kuszenie Jezusa",
+                    "section_title": "Post na pustyni i kuszenie",
                     "mt": [
                         {
                             "leading": true,
@@ -2234,7 +2234,7 @@
             "sections": [
                 {
                     "id": "21",
-                    "section_title": "Świadectwo uczniów",
+                    "section_title": "Pierwsi uczniowie Jezusa",
                     "mt": [
                         null
                     ],
@@ -2339,7 +2339,7 @@
                 },
                 {
                     "id": "22",
-                    "section_title": "Pierwszy znak w Kanie Galilejskiej",
+                    "section_title": "Cud w Kanie Galilejskiej",
                     "mt": [
                         null
                     ],
@@ -2464,7 +2464,7 @@
                 },
                 {
                     "id": "25",
-                    "section_title": "Wypędzenie przekupniów",
+                    "section_title": "Wyrzucenie kupczących z świątyni",
                     "mt": [
                         {
                             "leading": false,
@@ -2611,7 +2611,7 @@
                 },
                 {
                     "id": "27",
-                    "section_title": "Nikodem",
+                    "section_title": "Rozmowa z Nikodemem",
                     "mt": [
                         null
                     ],
@@ -2918,7 +2918,7 @@
                 },
                 {
                     "id": "31",
-                    "section_title": "Jezus i Samarytanka",
+                    "section_title": "Niewiasta samarytańska",
                     "mt": [
                         null
                     ],
@@ -3230,7 +3230,7 @@
                 },
                 {
                     "id": "33",
-                    "section_title": "Jezus w Nazarecie",
+                    "section_title": "Jezus nie przyjęty w Nazarecie",
                     "mt": [
                         {
                             "leading": false,
@@ -3813,7 +3813,7 @@
                 },
                 {
                     "id": "41",
-                    "section_title": "Obfity połów",
+                    "section_title": "Cudowny połów ryb",
                     "mt": [
                         null
                     ],
@@ -4291,7 +4291,7 @@
                 },
                 {
                     "id": "45",
-                    "section_title": "Sprawa postów",
+                    "section_title": "Spór o post",
                     "mt": [
                         {
                             "leading": false,
@@ -4399,7 +4399,7 @@
                 },
                 {
                     "id": "46",
-                    "section_title": "Łuskanie kłosów w szabat",
+                    "section_title": "Zrywanie kłosów w szabat",
                     "mt": [
                         {
                             "leading": false,
@@ -4640,7 +4640,7 @@
                 },
                 {
                     "id": "48",
-                    "section_title": "Napływ ludu",
+                    "section_title": "Zewsząd zbiegają się rzesze",
                     "mt": [
                         {
                             "leading": false,
@@ -4741,7 +4741,7 @@
                 },
                 {
                     "id": "49",
-                    "section_title": "Wybór Dwunastu",
+                    "section_title": "Wybór Apostołów",
                     "mt": [
                         {
                             "leading": false,
@@ -4957,7 +4957,7 @@
                 },
                 {
                     "id": "51",
-                    "section_title": "Błogosławieństwa",
+                    "section_title": "Chrystus głosi osiem błogosławieństw",
                     "mt": [
                         {
                             "leading": true,
@@ -5051,7 +5051,7 @@
                 },
                 {
                     "id": "52",
-                    "section_title": "Sól, która smak utraci",
+                    "section_title": "Nazywa apostołów solą",
                     "mt": [
                         {
                             "leading": true,
@@ -5104,7 +5104,7 @@
                 },
                 {
                     "id": "53",
-                    "section_title": "Przypowieść o lampie",
+                    "section_title": "Przypowieść o świetle",
                     "mt": [
                         {
                             "leading": true,
@@ -5157,7 +5157,7 @@
                 },
                 {
                     "id": "54",
-                    "section_title": "Jezus a Prawo",
+                    "section_title": "Przyszedł udoskonalić zakon",
                     "mt": [
                         {
                             "leading": true,
@@ -5211,7 +5211,7 @@
                 },
                 {
                     "id": "55",
-                    "section_title": "O morderstwie i o gniewie",
+                    "section_title": "Uczy nie gniewać się na bliźniego",
                     "mt": [
                         {
                             "leading": true,
@@ -5280,7 +5280,7 @@
                 },
                 {
                     "id": "56",
-                    "section_title": "O cudzołóstwie, zgorszeniu i rozwodzie",
+                    "section_title": "O pożądliwości, zgorszeniu i cudzołóstwie",
                     "mt": [
                         {
                             "leading": true,
@@ -5373,7 +5373,7 @@
                 },
                 {
                     "id": "57",
-                    "section_title": "Ósme przykazanie",
+                    "section_title": "O przysiędze",
                     "mt": [
                         {
                             "leading": true,
@@ -5418,7 +5418,7 @@
                 },
                 {
                     "id": "58",
-                    "section_title": "Prawo odwetu",
+                    "section_title": "Jak się złemu sprzeciwiać",
                     "mt": [
                         {
                             "leading": true,
@@ -5477,7 +5477,7 @@
                 },
                 {
                     "id": "59",
-                    "section_title": "Miłość nieprzyjaciół",
+                    "section_title": "Uczy miłować nieprzyjaciół",
                     "mt": [
                         {
                             "leading": true,
@@ -5574,7 +5574,7 @@
                 },
                 {
                     "id": "60",
-                    "section_title": "Jałmużna",
+                    "section_title": "Jak wykonywać dobre uczynki, jałmużnę?",
                     "mt": [
                         {
                             "leading": true,
@@ -5614,7 +5614,7 @@
                 },
                 {
                     "id": "61",
-                    "section_title": "Modlitwa",
+                    "section_title": "Jak się modlić?",
                     "mt": [
                         {
                             "leading": true,
@@ -5644,7 +5644,7 @@
                 },
                 {
                     "id": "62",
-                    "section_title": "Ojcze nasz",
+                    "section_title": "Modlitwa Pańska",
                     "mt": [
                         {
                             "leading": true,
@@ -5742,7 +5742,7 @@
                 },
                 {
                     "id": "63",
-                    "section_title": "Post",
+                    "section_title": "Jak pościć?",
                     "mt": [
                         {
                             "leading": true,
@@ -5777,7 +5777,7 @@
                 },
                 {
                     "id": "64",
-                    "section_title": "Dobra trwałe",
+                    "section_title": "O skarbie niebieskim",
                     "mt": [
                         {
                             "leading": true,
@@ -5826,7 +5826,7 @@
                 },
                 {
                     "id": "65",
-                    "section_title": "Światłem ciała jest oko",
+                    "section_title": "Świecą ciała twego jest oko twoje",
                     "mt": [
                         {
                             "leading": true,
@@ -5875,7 +5875,7 @@
                 },
                 {
                     "id": "66",
-                    "section_title": "Bóg i Mamona",
+                    "section_title": "Bóg i mamona",
                     "mt": [
                         {
                             "leading": true,
@@ -5909,7 +5909,7 @@
                 },
                 {
                     "id": "67",
-                    "section_title": "Zbytnie troski",
+                    "section_title": "O ufności w Bogu",
                     "mt": [
                         {
                             "leading": true,
@@ -6038,7 +6038,7 @@
                 },
                 {
                     "id": "68",
-                    "section_title": "Powściągliwość w sądzeniu",
+                    "section_title": "Nie należy sądzić",
                     "mt": [
                         {
                             "leading": true,
@@ -6131,7 +6131,7 @@
                 },
                 {
                     "id": "69",
-                    "section_title": "O profanowaniu rzeczy świętych",
+                    "section_title": "„Nie rzucajcie pereł waszych przed wieprze”",
                     "mt": [
                         {
                             "leading": true,
@@ -6156,7 +6156,7 @@
                 },
                 {
                     "id": "70",
-                    "section_title": "Wytrwałość w modlitwie",
+                    "section_title": "Zaleca modlitwę",
                     "mt": [
                         {
                             "leading": true,
@@ -6264,7 +6264,7 @@
                 },
                 {
                     "id": "72",
-                    "section_title": "Ciasna brama",
+                    "section_title": "O drodze wąskiej i szerokiej",
                     "mt": [
                         {
                             "leading": true,
@@ -6308,7 +6308,7 @@
                 },
                 {
                     "id": "73",
-                    "section_title": "Poznacie ich po ich owocach",
+                    "section_title": "O prawdziwie dobrych uczynkach",
                     "mt": [
                         {
                             "leading": true,
@@ -6467,7 +6467,7 @@
                 },
                 {
                     "id": "75",
-                    "section_title": "Dobra lub zła budowa",
+                    "section_title": "O mocnym budowaniu",
                     "mt": [
                         {
                             "leading": true,
@@ -6575,7 +6575,7 @@
             "sections": [
                 {
                     "id": "77",
-                    "section_title": "Jezus uzdrawia i naucza",
+                    "section_title": "Sława cudów",
                     "mt": [
                         {
                             "leading": false,
@@ -6678,7 +6678,7 @@
                 },
                 {
                     "id": "78",
-                    "section_title": "Błogosławieństwa",
+                    "section_title": "Chrystus głosi osiem błogosławieństw",
                     "mt": [
                         {
                             "leading": false,
@@ -7029,7 +7029,7 @@
                 },
                 {
                     "id": "82",
-                    "section_title": "Poznacie ich po ich owocach",
+                    "section_title": "Przypowieść o drzewie złym i dobrym",
                     "mt": [
                         {
                             "leading": false,
@@ -7121,7 +7121,7 @@
                 },
                 {
                     "id": "83",
-                    "section_title": "Dobra lub zła budowa",
+                    "section_title": "O mocnym budowaniu",
                     "mt": [
                         {
                             "leading": false,
@@ -7205,7 +7205,7 @@
             "sections": [
                 {
                     "id": "84",
-                    "section_title": "Uzdrowienie trędowatego",
+                    "section_title": "Oczyszczenie trędowatego",
                     "mt": [
                         {
                             "leading": true,
@@ -7308,7 +7308,7 @@
                 },
                 {
                     "id": "85",
-                    "section_title": "Setnik z Kafarnaum",
+                    "section_title": "Uzdrowienie sługi setnika",
                     "mt": [
                         {
                             "leading": true,
@@ -7507,7 +7507,7 @@
                 },
                 {
                     "id": "86",
-                    "section_title": "Młodzieniec z Nain",
+                    "section_title": "Wskrzeszenie młodzieńca z Nain",
                     "mt": [
                         null
                     ],
@@ -7562,7 +7562,7 @@
                 },
                 {
                     "id": "87",
-                    "section_title": "W domu Piotra",
+                    "section_title": "Uzdrowienie świekry Piotra",
                     "mt": [
                         {
                             "leading": true,
@@ -7688,7 +7688,7 @@
                 },
                 {
                     "id": "89",
-                    "section_title": "Naśladowcy Jezusa",
+                    "section_title": "O doskonałym wyrzeczeniu się",
                     "mt": [
                         {
                             "leading": true,
@@ -7767,7 +7767,7 @@
                 },
                 {
                     "id": "90",
-                    "section_title": "Uciszenie burzy",
+                    "section_title": "Uśmierzenie burzy",
                     "mt": [
                         {
                             "leading": true,
@@ -7875,7 +7875,7 @@
                 },
                 {
                     "id": "91",
-                    "section_title": "Uzdrowienie opętanego",
+                    "section_title": "Uzdrowienie opętanych Gerazeńczyków",
                     "mt": [
                         {
                             "leading": true,
@@ -8408,7 +8408,7 @@
                 },
                 {
                     "id": "94",
-                    "section_title": "Sprawa postów",
+                    "section_title": "Spór o post",
                     "mt": [
                         {
                             "leading": true,
@@ -8516,7 +8516,7 @@
                 },
                 {
                     "id": "95",
-                    "section_title": "Córka Jaira i kobieta cierpiąca na krwotok",
+                    "section_title": "Uzdrowienie cierpiącej krwotok i wskrzeszenie córki Jaira",
                     "mt": [
                         {
                             "leading": true,
@@ -8789,7 +8789,7 @@
                 },
                 {
                     "id": "96",
-                    "section_title": "Uzdrowienie dwóch niewidomych",
+                    "section_title": "Leczy dwóch ślepych",
                     "mt": [
                         {
                             "leading": true,
@@ -8960,7 +8960,7 @@
                 },
                 {
                     "id": "97",
-                    "section_title": "Uzdrowienie opętanego niemowy",
+                    "section_title": "Leczy niemego",
                     "mt": [
                         {
                             "leading": true,
@@ -9041,7 +9041,7 @@
                 },
                 {
                     "id": "98",
-                    "section_title": "„Żniwo wprawdzie wielkie, ale robotników mało”",
+                    "section_title": "Lituje się nad ludem i pragnie dlań pasterzy",
                     "mt": [
                         {
                             "leading": true,
@@ -9121,7 +9121,7 @@
                 },
                 {
                     "id": "99",
-                    "section_title": "Rozesłanie Dwunastu",
+                    "section_title": "Jezus rozsyła Apostołów",
                     "mt": [
                         {
                             "leading": true,
@@ -9376,7 +9376,7 @@
                 },
                 {
                     "id": "100",
-                    "section_title": "Zapowiedź prześladowań",
+                    "section_title": "Jezus zapowiada prześladowania",
                     "mt": [
                         {
                             "leading": true,
@@ -9588,7 +9588,7 @@
                 },
                 {
                     "id": "101",
-                    "section_title": "Zachęta do odważnego przyznawania się do Jezusa",
+                    "section_title": "Kogo należy się bać?",
                     "mt": [
                         {
                             "leading": true,
@@ -9692,7 +9692,7 @@
                 },
                 {
                     "id": "102",
-                    "section_title": "Za Jezusem lub przeciw Niemu",
+                    "section_title": "Nie pokój zsyła, ale miecz",
                     "mt": [
                         {
                             "leading": true,
@@ -9746,7 +9746,7 @@
                 },
                 {
                     "id": "103",
-                    "section_title": "Obowiązki uczniów Jezusa",
+                    "section_title": "„Kto by utracił duszę swą dla mnie, znajdzie ją”",
                     "mt": [
                         {
                             "leading": true,
@@ -9822,7 +9822,7 @@
                 },
                 {
                     "id": "104",
-                    "section_title": "Nagroda za oddanie się Jezusowi",
+                    "section_title": "„Kto mnie przyjmuje, przyjmuje tego, który mnie posłał”",
                     "mt": [
                         {
                             "leading": true,
@@ -10150,7 +10150,7 @@
                 },
                 {
                     "id": "108",
-                    "section_title": "Biada nie pokutującym miastom",
+                    "section_title": "Biada zwłaszcza zatwardziałym",
                     "mt": [
                         {
                             "leading": true,
@@ -10219,7 +10219,7 @@
                 },
                 {
                     "id": "109",
-                    "section_title": "Objawienie Ojca i Syna",
+                    "section_title": "Dziękczynna modlitwa Jezusa",
                     "mt": [
                         {
                             "leading": true,
@@ -10303,7 +10303,7 @@
                 },
                 {
                     "id": "111",
-                    "section_title": "Łuskanie kłosów w szabat",
+                    "section_title": "Spór o szabat",
                     "mt": [
                         {
                             "leading": true,
@@ -10426,7 +10426,7 @@
                 },
                 {
                     "id": "112",
-                    "section_title": "Uzdrowienie w szabat",
+                    "section_title": "Uzdrawia uschłą rękę w szabat",
                     "mt": [
                         {
                             "leading": true,
@@ -10544,7 +10544,7 @@
                 },
                 {
                     "id": "113",
-                    "section_title": "Napływ ludu",
+                    "section_title": "Proroctwo Izajasza o słodyczy Chrystusa",
                     "mt": [
                         {
                             "leading": true,
@@ -10652,7 +10652,7 @@
                 },
                 {
                     "id": "114",
-                    "section_title": "Namaszczenie w Betanii",
+                    "section_title": "Grzesznica podczas uczty",
                     "mt": [
                         {
                             "leading": false,
@@ -10874,7 +10874,7 @@
                 },
                 {
                     "id": "115",
-                    "section_title": "Śladem Jezusa",
+                    "section_title": "Podróż po Galilei",
                     "mt": [
                         null
                     ],
@@ -10909,7 +10909,7 @@
                 },
                 {
                     "id": "116",
-                    "section_title": "Wzmożony ruch",
+                    "section_title": "Zbiegnięcie się rzeszy",
                     "mt": [
                         null
                     ],
@@ -10939,7 +10939,7 @@
                 },
                 {
                     "id": "117",
-                    "section_title": "Złośliwe zarzuty",
+                    "section_title": "Bluźniercze obelgi faryzeuszów",
                     "mt": [
                         {
                             "leading": true,
@@ -11372,7 +11372,7 @@
                 },
                 {
                     "id": "120",
-                    "section_title": "Nawrót do grzechu",
+                    "section_title": "Taktyka ducha nieczystego",
                     "mt": [
                         {
                             "leading": true,
@@ -11426,7 +11426,7 @@
                 },
                 {
                     "id": "121",
-                    "section_title": "Prawdziwi krewni Jezusa",
+                    "section_title": "Kto matką i bratem Jezusa?",
                     "mt": [
                         {
                             "leading": true,
@@ -11671,7 +11671,7 @@
                 },
                 {
                     "id": "123",
-                    "section_title": "Cel przypowieści",
+                    "section_title": "Czemu przez przypowieści naucza",
                     "mt": [
                         {
                             "leading": true,
@@ -11927,7 +11927,7 @@
                 },
                 {
                     "id": "125",
-                    "section_title": "„Kto ma uszy do słuchania, niechaj słucha!”",
+                    "section_title": "„Kto ma uszy ku słuchaniu, niechaj słucha!”",
                     "mt": [
                         {
                             "leading": false,
@@ -12079,7 +12079,7 @@
                 },
                 {
                     "id": "127",
-                    "section_title": "Przypowieść o chwaście",
+                    "section_title": "Przypowieść o kąkolu",
                     "mt": [
                         {
                             "leading": true,
@@ -12134,7 +12134,7 @@
                 },
                 {
                     "id": "128",
-                    "section_title": "Przypowieść o ziarnku gorczycy",
+                    "section_title": "Przypowieść o ziarnie gorczycznym",
                     "mt": [
                         {
                             "leading": true,
@@ -12197,7 +12197,7 @@
                 },
                 {
                     "id": "129",
-                    "section_title": "Przypowieść o zaczynie",
+                    "section_title": "Przypowieść o kwasie",
                     "mt": [
                         {
                             "leading": true,
@@ -12280,7 +12280,7 @@
                 },
                 {
                     "id": "131",
-                    "section_title": "Wyjaśnienie przypowieści o chwaście",
+                    "section_title": "Wyjaśnia przypowieść o kąkolu",
                     "mt": [
                         {
                             "leading": true,
@@ -12375,7 +12375,7 @@
                 },
                 {
                     "id": "133",
-                    "section_title": "Przypowieść o sieci",
+                    "section_title": "Przypowieść o niewodzie",
                     "mt": [
                         {
                             "leading": true,
@@ -12445,7 +12445,7 @@
                 },
                 {
                     "id": "135",
-                    "section_title": "Prawdziwi krewni Jezusa",
+                    "section_title": "Krewni Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -12655,7 +12655,7 @@
                 },
                 {
                     "id": "137",
-                    "section_title": "Uzdrowienie opętanego",
+                    "section_title": "Wypędza czarty w wieprze",
                     "mt": [
                         {
                             "leading": false,
@@ -12888,7 +12888,7 @@
                 },
                 {
                     "id": "138",
-                    "section_title": "Córka Jaira i kobieta cierpiąca na krwotok",
+                    "section_title": "Uzdrawia niewiastę mającą krwotok i wskrzeszenie córki Jaira",
                     "mt": [
                         {
                             "leading": false,
@@ -13161,7 +13161,7 @@
                 },
                 {
                     "id": "139",
-                    "section_title": "Jezus w Nazarecie",
+                    "section_title": "Jezus wzgardzony w Nazarecie",
                     "mt": [
                         {
                             "leading": true,
@@ -13349,7 +13349,7 @@
                 },
                 {
                     "id": "141",
-                    "section_title": "Uzdrowienie chromego nad sadzawką",
+                    "section_title": "Uzdrowienie chorego od lat 38",
                     "mt": [
                         null
                     ],
@@ -13599,7 +13599,7 @@
                 },
                 {
                     "id": "142",
-                    "section_title": "Wysłanie Dwunastu",
+                    "section_title": "Rozsyła apostołów",
                     "mt": [
                         {
                             "leading": false,
@@ -13761,7 +13761,7 @@
                 },
                 {
                     "id": "143",
-                    "section_title": "Sąd Heroda o Jezusie",
+                    "section_title": "Różne zdania o Jezusie",
                     "mt": [
                         {
                             "leading": true,
@@ -13829,7 +13829,7 @@
                 },
                 {
                     "id": "144",
-                    "section_title": "Śmierć Jana Chrzciciela",
+                    "section_title": "Zamordowanie Jana Chrzciciela",
                     "mt": [
                         {
                             "leading": true,
@@ -13982,7 +13982,7 @@
                 },
                 {
                     "id": "145",
-                    "section_title": "Powrót Apostołów",
+                    "section_title": "Jezus odpoczywa z apostołami",
                     "mt": [
                         null
                     ],
@@ -14278,7 +14278,7 @@
                 },
                 {
                     "id": "147",
-                    "section_title": "Jezus chodzi po jeziorze",
+                    "section_title": "Jezus chodzi po morzu",
                     "mt": [
                         {
                             "leading": true,
@@ -14436,7 +14436,7 @@
                 },
                 {
                     "id": "148",
-                    "section_title": "Uzdrowienia w Genezaret",
+                    "section_title": "Uzdrawia niemocnych",
                     "mt": [
                         {
                             "leading": true,
@@ -14519,7 +14519,7 @@
                 },
                 {
                     "id": "149",
-                    "section_title": "Chleb żywy",
+                    "section_title": "Jezus chlebem żywota",
                     "mt": [
                         null
                     ],
@@ -14709,7 +14709,7 @@
                 },
                 {
                     "id": "150",
-                    "section_title": "Spór o tradycję",
+                    "section_title": "Ustawy faryzejskie należy odrzucić",
                     "mt": [
                         {
                             "leading": true,
@@ -14990,7 +14990,7 @@
                 },
                 {
                     "id": "151",
-                    "section_title": "Wiara kobiety kananejskiej",
+                    "section_title": "Uzdrawia córkę Chanejki",
                     "mt": [
                         {
                             "leading": true,
@@ -15089,7 +15089,7 @@
                 },
                 {
                     "id": "152",
-                    "section_title": "Uzdrowienia nad jeziorem",
+                    "section_title": "Uzdrawia głuchoniemego",
                     "mt": [
                         {
                             "leading": true,
@@ -15163,7 +15163,7 @@
                 },
                 {
                     "id": "153",
-                    "section_title": "Drugie rozmnożenie chleba",
+                    "section_title": "Powtórnie chleb rozmnaża",
                     "mt": [
                         {
                             "leading": true,
@@ -15277,7 +15277,7 @@
                 },
                 {
                     "id": "154",
-                    "section_title": "Żądanie znaku",
+                    "section_title": "Ukaż nam znak z nieba",
                     "mt": [
                         {
                             "leading": true,
@@ -15395,7 +15395,7 @@
                 },
                 {
                     "id": "155",
-                    "section_title": "„Strzeżcie się kwasu faryzeuszów!”",
+                    "section_title": "O kwasie faryzeuszów i saduceuszów",
                     "mt": [
                         {
                             "leading": true,
@@ -15508,7 +15508,7 @@
                 },
                 {
                     "id": "156",
-                    "section_title": "Uzdrowienie niewidomego w Betsaidzie",
+                    "section_title": "Przywraca wzrok ślepemu",
                     "mt": [
                         null
                     ],
@@ -15558,7 +15558,7 @@
             "sections": [
                 {
                     "id": "157",
-                    "section_title": "Zgorszenie uczniów",
+                    "section_title": "Różny skutek obietnicy",
                     "mt": [
                         null
                     ],
@@ -15613,7 +15613,7 @@
                 },
                 {
                     "id": "158",
-                    "section_title": "Wyznanie Piotra",
+                    "section_title": "Wyznanie Piotra, jego prymat",
                     "mt": [
                         {
                             "leading": true,
@@ -15750,7 +15750,7 @@
                 },
                 {
                     "id": "159",
-                    "section_title": "Pierwsza zapowiedź męki i zmartwychwstania",
+                    "section_title": "Przepowiednia męki",
                     "mt": [
                         {
                             "leading": true,
@@ -15813,7 +15813,7 @@
                 },
                 {
                     "id": "160",
-                    "section_title": "Warunki naśladowania Jezusa",
+                    "section_title": "Naśladowanie Chrystusa",
                     "mt": [
                         {
                             "leading": true,
@@ -15930,7 +15930,7 @@
                 },
                 {
                     "id": "161",
-                    "section_title": "Przemienienie Jezusa",
+                    "section_title": "Przemienienie Pańskie",
                     "mt": [
                         {
                             "leading": true,
@@ -16093,7 +16093,7 @@
                 },
                 {
                     "id": "162",
-                    "section_title": "Przyjście Eliasza",
+                    "section_title": "O przyjściu Eliasza",
                     "mt": [
                         {
                             "leading": true,
@@ -16152,7 +16152,7 @@
                 },
                 {
                     "id": "163",
-                    "section_title": "Uzdrowienie epileptyka",
+                    "section_title": "Uzdrowienie chłopca",
                     "mt": [
                         {
                             "leading": true,
@@ -16348,7 +16348,7 @@
                 },
                 {
                     "id": "164",
-                    "section_title": "Druga zapowiedź męki i zmartwychwstania",
+                    "section_title": "Druga zapowiedź męki",
                     "mt": [
                         {
                             "leading": true,
@@ -16416,7 +16416,7 @@
                 },
                 {
                     "id": "165",
-                    "section_title": "Podatek na świątynię",
+                    "section_title": "Danina na świątynię",
                     "mt": [
                         {
                             "leading": true,
@@ -16456,7 +16456,7 @@
                 },
                 {
                     "id": "166",
-                    "section_title": "Spór o pierwszeństwo",
+                    "section_title": "Chrystus zaleca pokorę",
                     "mt": [
                         {
                             "leading": true,
@@ -16558,7 +16558,7 @@
                 },
                 {
                     "id": "167",
-                    "section_title": "W imię Jezusa",
+                    "section_title": "Dobre czyny w imię Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -16621,7 +16621,7 @@
                 },
                 {
                     "id": "168",
-                    "section_title": "Zgorszenie",
+                    "section_title": "Potępienie zgorszenia",
                     "mt": [
                         {
                             "leading": true,
@@ -16751,7 +16751,7 @@
                 },
                 {
                     "id": "169",
-                    "section_title": "Owca zabłąkana",
+                    "section_title": "Zgubiona owca",
                     "mt": [
                         {
                             "leading": true,
@@ -16883,7 +16883,7 @@
                 },
                 {
                     "id": "171",
-                    "section_title": "„Gdzie są dwaj albo trzej zebrani w imię moje…”",
+                    "section_title": "„Gdzie są dwaj albo trzej zgromadzeni w imię moje…”",
                     "mt": [
                         {
                             "leading": true,
@@ -16952,7 +16952,7 @@
                 },
                 {
                     "id": "173",
-                    "section_title": "Nielitościwy dłużnik",
+                    "section_title": "Niemiłosierny sługa-dłużnik",
                     "mt": [
                         {
                             "leading": true,
@@ -17135,7 +17135,7 @@
                 },
                 {
                     "id": "176",
-                    "section_title": "Naśladowcy Jezusa",
+                    "section_title": "Niedoskonali uczniowie",
                     "mt": [
                         {
                             "leading": false,
@@ -17214,7 +17214,7 @@
                 },
                 {
                     "id": "177",
-                    "section_title": "Wysłanie siedemdziesięciu dwóch",
+                    "section_title": "Rozesłanie siedemdziesięciu dwóch uczniów",
                     "mt": [
                         {
                             "leading": false,
@@ -17366,7 +17366,7 @@
                 },
                 {
                     "id": "178",
-                    "section_title": "Biada nie pokutującym miastom",
+                    "section_title": "Niepokutujące miasta",
                     "mt": [
                         {
                             "leading": false,
@@ -17430,7 +17430,7 @@
                 },
                 {
                     "id": "179",
-                    "section_title": "„Kto was słucha, Mnie słucha”",
+                    "section_title": "„Kto was słucha, mnie słucha”",
                     "mt": [
                         {
                             "leading": false,
@@ -17473,7 +17473,7 @@
                 },
                 {
                     "id": "180",
-                    "section_title": "Radość apostoła",
+                    "section_title": "Powrót uczniów",
                     "mt": [
                         null
                     ],
@@ -17513,7 +17513,7 @@
                 },
                 {
                     "id": "181",
-                    "section_title": "Objawienie Ojca i Syna",
+                    "section_title": "Dziękczynna modlitwa Jezusa",
                     "mt": [
                         {
                             "leading": false,
@@ -17818,7 +17818,7 @@
                 },
                 {
                     "id": "185",
-                    "section_title": "Ojcze nasz",
+                    "section_title": "Modlitwa Pańska",
                     "mt": [
                         {
                             "leading": false,
@@ -18001,7 +18001,7 @@
                 },
                 {
                     "id": "188",
-                    "section_title": "Złośliwe zarzuty",
+                    "section_title": "Bluźnierstwo faryzeuszów",
                     "mt": [
                         {
                             "leading": false,
@@ -18154,7 +18154,7 @@
                 },
                 {
                     "id": "189",
-                    "section_title": "Nawrót do grzechu",
+                    "section_title": "Taktyka ducha nieczystego",
                     "mt": [
                         {
                             "leading": false,
@@ -18208,7 +18208,7 @@
                 },
                 {
                     "id": "190",
-                    "section_title": "Prawdziwie błogosławieni",
+                    "section_title": "Macierzyństwo Maryi błogosławione",
                     "mt": [
                         null
                     ],
@@ -18238,7 +18238,7 @@
                 },
                 {
                     "id": "191",
-                    "section_title": "Żądanie znaku",
+                    "section_title": "Jonasz figurą Mesjasza",
                     "mt": [
                         {
                             "leading": false,
@@ -18321,7 +18321,7 @@
                 },
                 {
                     "id": "192",
-                    "section_title": "Przypowieść o świetle",
+                    "section_title": "Porównanie ze świecą",
                     "mt": [
                         {
                             "leading": false,
@@ -18364,7 +18364,7 @@
                 },
                 {
                     "id": "193",
-                    "section_title": "Światłem ciała jest oko",
+                    "section_title": "Świecą ciała jest oko",
                     "mt": [
                         {
                             "leading": false,
@@ -18413,7 +18413,7 @@
                 },
                 {
                     "id": "194",
-                    "section_title": "Spór o tradycję",
+                    "section_title": "Napiętnowanie obłudy faryzejskiej",
                     "mt": [
                         {
                             "leading": false,
@@ -18621,7 +18621,7 @@
                 },
                 {
                     "id": "195",
-                    "section_title": "„Strzeżcie się kwasu faryzeuszów!”",
+                    "section_title": "„Strzeżcie się kwasu faryzejskiego!”",
                     "mt": [
                         {
                             "leading": false,
@@ -18674,7 +18674,7 @@
                 },
                 {
                     "id": "196",
-                    "section_title": "Zachęta do odważnego przyznawania się do Jezusa",
+                    "section_title": "Kogo należy się bać?",
                     "mt": [
                         {
                             "leading": false,
@@ -18836,7 +18836,7 @@
                 },
                 {
                     "id": "198",
-                    "section_title": "Pomoc Ducha Świętego",
+                    "section_title": "Pociecha w prześladowaniu",
                     "mt": [
                         {
                             "leading": false,
@@ -18907,7 +18907,7 @@
                 },
                 {
                     "id": "199",
-                    "section_title": "Ostrzeżenie przed chciwością",
+                    "section_title": "Przestroga przed chciwością",
                     "mt": [
                         null
                     ],
@@ -18992,7 +18992,7 @@
                 },
                 {
                     "id": "201",
-                    "section_title": "Zbytnie troski",
+                    "section_title": "Nadmierna troska",
                     "mt": [
                         {
                             "leading": false,
@@ -19121,7 +19121,7 @@
                 },
                 {
                     "id": "202",
-                    "section_title": "Dobra trwałe",
+                    "section_title": "Dobra, które nie niszczeją",
                     "mt": [
                         {
                             "leading": false,
@@ -19170,7 +19170,7 @@
                 },
                 {
                     "id": "203",
-                    "section_title": "Gotowość na przyjście Pana",
+                    "section_title": "Przypowieść o wiernym słudze",
                     "mt": [
                         {
                             "leading": false,
@@ -19314,7 +19314,7 @@
                 },
                 {
                     "id": "204",
-                    "section_title": "Za Jezusem lub przeciw Niemu",
+                    "section_title": "Ogień i rozłąka",
                     "mt": [
                         {
                             "leading": false,
@@ -19427,7 +19427,7 @@
                 },
                 {
                     "id": "206",
-                    "section_title": "„Pogódź się ze swoim przeciwnikiem!”",
+                    "section_title": "„Pogódź się prędko z przeciwnikiem swoim!”",
                     "mt": [
                         {
                             "leading": false,
@@ -19476,7 +19476,7 @@
                 },
                 {
                     "id": "207",
-                    "section_title": "Nieurodzajne drzewo figowe",
+                    "section_title": "Przypowieść o fidze",
                     "mt": [
                         null
                     ],
@@ -19541,7 +19541,7 @@
                 },
                 {
                     "id": "208",
-                    "section_title": "Uzdrowienie kobiety w szabat",
+                    "section_title": "Niewiasta uzdrowiona w szabat",
                     "mt": [
                         null
                     ],
@@ -19601,7 +19601,7 @@
                 },
                 {
                     "id": "209",
-                    "section_title": "Przypowieść o ziarnku gorczycy",
+                    "section_title": "Przypowieść o ziarnie gorczycy",
                     "mt": [
                         {
                             "leading": false,
@@ -19664,7 +19664,7 @@
                 },
                 {
                     "id": "210",
-                    "section_title": "Przypowieść o zaczynie",
+                    "section_title": "Przypowieść o kwasie",
                     "mt": [
                         {
                             "leading": false,
@@ -19703,7 +19703,7 @@
                 },
                 {
                     "id": "211",
-                    "section_title": "Ciasna brama",
+                    "section_title": "O ciasnej bramie",
                     "mt": [
                         {
                             "leading": false,
@@ -19840,7 +19840,7 @@
                 },
                 {
                     "id": "212",
-                    "section_title": "Chytry Herod",
+                    "section_title": "Jezus i Herod",
                     "mt": [
                         null
                     ],
@@ -19875,7 +19875,7 @@
                 },
                 {
                     "id": "213",
-                    "section_title": "Jezus odwraca się od Miasta",
+                    "section_title": "Skarga na Jerozolimę",
                     "mt": [
                         {
                             "leading": false,
@@ -19924,7 +19924,7 @@
                 },
                 {
                     "id": "214",
-                    "section_title": "Nowe uzdrowienie w szabat",
+                    "section_title": "Uzdrowienie chorego na puchlinę",
                     "mt": [
                         null
                     ],
@@ -19974,7 +19974,7 @@
                 },
                 {
                     "id": "215",
-                    "section_title": "Skromność. Kogo zapraszać na ucztę",
+                    "section_title": "Ostatnie miejsce na uczcie",
                     "mt": [
                         null
                     ],
@@ -20034,7 +20034,7 @@
                 },
                 {
                     "id": "216",
-                    "section_title": "Przypowieść o uczcie królewskiej",
+                    "section_title": "Przypowieść o zaproszonych na gody",
                     "mt": [
                         {
                             "leading": false,
@@ -20178,7 +20178,7 @@
                 },
                 {
                     "id": "217",
-                    "section_title": "Obowiązki uczniów Jezusa",
+                    "section_title": "Potrzeba zaparcia się",
                     "mt": [
                         {
                             "leading": false,
@@ -20257,7 +20257,7 @@
                 },
                 {
                     "id": "218",
-                    "section_title": "Sól, która smak utraci",
+                    "section_title": "„Jeśli sól zwietrzeje, czym solona będzie?”",
                     "mt": [
                         {
                             "leading": false,
@@ -20310,7 +20310,7 @@
                 },
                 {
                     "id": "219",
-                    "section_title": "Owca zabłąkana",
+                    "section_title": "Przypowieść o zgubionej owcy",
                     "mt": [
                         {
                             "leading": false,
@@ -20384,7 +20384,7 @@
                 },
                 {
                     "id": "220",
-                    "section_title": "Zgubiona drachma",
+                    "section_title": "Przypowieść o zgubionej drachmie",
                     "mt": [
                         null
                     ],
@@ -20419,7 +20419,7 @@
                 },
                 {
                     "id": "221",
-                    "section_title": "Syn marnotrawny",
+                    "section_title": "Przypowieść o synu marnotrawnym",
                     "mt": [
                         null
                     ],
@@ -20549,7 +20549,7 @@
                 },
                 {
                     "id": "222",
-                    "section_title": "Obrotny rządca",
+                    "section_title": "Przypowieść o niesprawiedliwym włodarzu",
                     "mt": [
                         null
                     ],
@@ -20614,7 +20614,7 @@
                 },
                 {
                     "id": "223",
-                    "section_title": "„Kto w drobnej rzeczy jest wierny…”",
+                    "section_title": "„Kto wierny jest w najmniejszej rzeczy…”",
                     "mt": [
                         null
                     ],
@@ -20649,7 +20649,7 @@
                 },
                 {
                     "id": "224",
-                    "section_title": "Bóg i Mamona",
+                    "section_title": "Bóg i mamona",
                     "mt": [
                         {
                             "leading": false,
@@ -20713,7 +20713,7 @@
                 },
                 {
                     "id": "226",
-                    "section_title": "Jezus a Prawo",
+                    "section_title": "Jezus a Zakon",
                     "mt": [
                         {
                             "leading": false,
@@ -20770,7 +20770,7 @@
                 },
                 {
                     "id": "227",
-                    "section_title": "Nierozerwalność małżeństwa",
+                    "section_title": "Nierozwiązalność małżeństwa",
                     "mt": [
                         {
                             "leading": false,
@@ -20818,7 +20818,7 @@
                 },
                 {
                     "id": "228",
-                    "section_title": "Bogacz i ubogi Łazarz",
+                    "section_title": "Przypowieść o bogaczu i Łazarzu",
                     "mt": [
                         null
                     ],
@@ -20903,7 +20903,7 @@
                 },
                 {
                     "id": "229",
-                    "section_title": "Zgorszenie",
+                    "section_title": "O zgorszeniu",
                     "mt": [
                         {
                             "leading": false,
@@ -20961,7 +20961,7 @@
                 },
                 {
                     "id": "230",
-                    "section_title": "Obowiązek przebaczenia",
+                    "section_title": "Obowiązek odpuszczania win",
                     "mt": [
                         {
                             "leading": false,
@@ -21103,7 +21103,7 @@
                 },
                 {
                     "id": "233",
-                    "section_title": "Wdzięczny Samarytanin",
+                    "section_title": "Oczyszczenie dziesięciu trędowatych",
                     "mt": [
                         null
                     ],
@@ -21168,7 +21168,7 @@
                 },
                 {
                     "id": "234",
-                    "section_title": "Przyjście królestwa Bożego",
+                    "section_title": "O nadejściu królestwa Bożego",
                     "mt": [
                         null
                     ],
@@ -21467,7 +21467,7 @@
                 },
                 {
                     "id": "236",
-                    "section_title": "Moc wytrwałej modlitwy",
+                    "section_title": "Niesprawiedliwy sędzia i wdowa",
                     "mt": [
                         null
                     ],
@@ -21527,7 +21527,7 @@
                 },
                 {
                     "id": "237",
-                    "section_title": "Faryzeusz i celnik",
+                    "section_title": "Przypowieść o faryzeuszu i celniku",
                     "mt": [
                         null
                     ],
@@ -21582,7 +21582,7 @@
             "sections": [
                 {
                     "id": "238",
-                    "section_title": "Przed Świętem Namiotów",
+                    "section_title": "Niedowiarstwo krewnych Jezusa",
                     "mt": [
                         null
                     ],
@@ -21647,7 +21647,7 @@
                 },
                 {
                     "id": "239",
-                    "section_title": "Jezus skrycie udaje się do Jerozolimy",
+                    "section_title": "Różne zdania o Jezusie",
                     "mt": [
                         null
                     ],
@@ -21687,7 +21687,7 @@
                 },
                 {
                     "id": "240",
-                    "section_title": "Spory w czasie święta",
+                    "section_title": "Jezus uczy w świątyni",
                     "mt": [
                         null
                     ],
@@ -21837,7 +21837,7 @@
                 },
                 {
                     "id": "241",
-                    "section_title": "Rozdwojenie tłumu z powodu Jezusa",
+                    "section_title": "Czy Jezus jest Mesjaszem?",
                     "mt": [
                         null
                     ],
@@ -21922,7 +21922,7 @@
                 },
                 {
                     "id": "242",
-                    "section_title": "Kobieta cudzołożna",
+                    "section_title": "Jawnogrzesznica",
                     "mt": [
                         null
                     ],
@@ -22002,7 +22002,7 @@
                 },
                 {
                     "id": "243",
-                    "section_title": "Światłość wobec ciemności",
+                    "section_title": "Jezus światłością świata",
                     "mt": [
                         null
                     ],
@@ -22067,7 +22067,7 @@
                 },
                 {
                     "id": "244",
-                    "section_title": "Dyskusja z Żydami",
+                    "section_title": "Jezus Synem Boga",
                     "mt": [
                         null
                     ],
@@ -22132,7 +22132,7 @@
                 },
                 {
                     "id": "245",
-                    "section_title": "„Prawda was wyzwoli”",
+                    "section_title": "„Prawda was wyswobodzi”",
                     "mt": [
                         null
                     ],
@@ -22187,7 +22187,7 @@
                 },
                 {
                     "id": "246",
-                    "section_title": "„Macie diabła za ojca”",
+                    "section_title": "Kto Synem Bożym?",
                     "mt": [
                         null
                     ],
@@ -22262,7 +22262,7 @@
                 },
                 {
                     "id": "247",
-                    "section_title": "„Zanim Abraham stał się, JA JESTEM”",
+                    "section_title": "„Pierwej niż Abraham się stał, jam jest”",
                     "mt": [
                         null
                     ],
@@ -22342,7 +22342,7 @@
                 },
                 {
                     "id": "248",
-                    "section_title": "Uzdrowienie niewidomego od urodzenia",
+                    "section_title": "Uzdrowienie ślepego od urodzenia",
                     "mt": [
                         null
                     ],
@@ -22567,7 +22567,7 @@
                 },
                 {
                     "id": "249",
-                    "section_title": "Dobry Pasterz",
+                    "section_title": "Jezus dobrym pasterzem",
                     "mt": [
                         null
                     ],
@@ -22677,7 +22677,7 @@
                 },
                 {
                     "id": "250",
-                    "section_title": "Rozdwojenie między Żydami",
+                    "section_title": "Niezgoda między Żydami",
                     "mt": [
                         null
                     ],
@@ -22717,7 +22717,7 @@
             "sections": [
                 {
                     "id": "251",
-                    "section_title": "W drodze z Galilei",
+                    "section_title": "Po drodze do Jeruzalem",
                     "mt": [
                         {
                             "leading": true,
@@ -22765,7 +22765,7 @@
                 },
                 {
                     "id": "252",
-                    "section_title": "Nierozerwalność małżeństwa",
+                    "section_title": "Nauka o małżeństwie i czystości",
                     "mt": [
                         {
                             "leading": true,
@@ -22903,7 +22903,7 @@
                 },
                 {
                     "id": "253",
-                    "section_title": "Jezus błogosławi dzieci",
+                    "section_title": "Błogosławi dzieciom",
                     "mt": [
                         {
                             "leading": true,
@@ -23104,7 +23104,7 @@
                 },
                 {
                     "id": "255",
-                    "section_title": "Niebezpieczeństwo bogactwa",
+                    "section_title": "Niebezpieczeństwo bogactw",
                     "mt": [
                         {
                             "leading": true,
@@ -23393,7 +23393,7 @@
                 },
                 {
                     "id": "257",
-                    "section_title": "Chrystus – jedno z Ojcem",
+                    "section_title": "Chrystus jest współistotny Ojcu",
                     "mt": [
                         null
                     ],
@@ -23778,7 +23778,7 @@
                 },
                 {
                     "id": "260",
-                    "section_title": "Narada kapłanów",
+                    "section_title": "Sanhedryn postanawia zgładzić Jezusa",
                     "mt": [
                         null
                     ],
@@ -23843,7 +23843,7 @@
                 },
                 {
                     "id": "261",
-                    "section_title": "W Efraim",
+                    "section_title": "Jezus uchodzi do Efrem",
                     "mt": [
                         null
                     ],
@@ -23883,7 +23883,7 @@
                 },
                 {
                     "id": "262",
-                    "section_title": "Trzecia zapowiedź męki i zmartwychwstania",
+                    "section_title": "Ponowna zapowiedź męki",
                     "mt": [
                         {
                             "leading": true,
@@ -23961,7 +23961,7 @@
                 },
                 {
                     "id": "263",
-                    "section_title": "Synowie Zebedeusza",
+                    "section_title": "Prośba synów Zebedeuszowych",
                     "mt": [
                         {
                             "leading": true,
@@ -24109,7 +24109,7 @@
                 },
                 {
                     "id": "264",
-                    "section_title": "Niewidomi pod Jerychem",
+                    "section_title": "Ślepi w Jerycho",
                     "mt": [
                         {
                             "leading": true,
@@ -24359,7 +24359,7 @@
                 },
                 {
                     "id": "266",
-                    "section_title": "Przypowieść o talentach",
+                    "section_title": "Przypowieść o minach",
                     "mt": [
                         {
                             "leading": false,
@@ -24784,7 +24784,7 @@
                 },
                 {
                     "id": "268",
-                    "section_title": "Postanowienie o straceniu Łazarza",
+                    "section_title": "Postanowienie o zabiciu Łazarza",
                     "mt": [
                         null
                     ],
@@ -24824,7 +24824,7 @@
             "sections": [
                 {
                     "id": "269",
-                    "section_title": "Uroczysty wjazd do Jerozolimy",
+                    "section_title": "Triumfalny wjazd do Jerozolimy",
                     "mt": [
                         {
                             "leading": true,
@@ -25056,7 +25056,7 @@
                 },
                 {
                     "id": "270",
-                    "section_title": "Zapowiedź upadku miasta",
+                    "section_title": "Zapowiedź upadku Jerozolimy",
                     "mt": [
                         null
                     ],
@@ -25202,7 +25202,7 @@
                 },
                 {
                     "id": "272",
-                    "section_title": "Nieurodzajne drzewo figowe",
+                    "section_title": "Przeklina figę",
                     "mt": [
                         {
                             "leading": true,
@@ -25251,7 +25251,7 @@
                 },
                 {
                     "id": "273",
-                    "section_title": "Wypędzenie przekupniów",
+                    "section_title": "Wyrzuca kupczących z świątyni",
                     "mt": [
                         {
                             "leading": false,
@@ -25343,7 +25343,7 @@
                 },
                 {
                     "id": "274",
-                    "section_title": "Arcykapłani i uczeni w Piśmie szukają sposobu, jak zgładzić Jezusa",
+                    "section_title": "Przedniejsi kapłani i doktorowie i starsi ludu starają się zgubić Jezusa",
                     "mt": [
                         null
                     ],
@@ -25479,7 +25479,7 @@
                 },
                 {
                     "id": "276",
-                    "section_title": "Pytanie o władzę",
+                    "section_title": "Utarczki z faryzeuszami",
                     "mt": [
                         {
                             "leading": true,
@@ -25607,7 +25607,7 @@
                 },
                 {
                     "id": "277",
-                    "section_title": "Przypowieść o dwóch synach",
+                    "section_title": "Przypowieść o dwu synach",
                     "mt": [
                         {
                             "leading": true,
@@ -25652,7 +25652,7 @@
                 },
                 {
                     "id": "278",
-                    "section_title": "Przypowieść o przewrotnych rolnikach",
+                    "section_title": "Przewrotni dzierżawcy w winnicy",
                     "mt": [
                         {
                             "leading": true,
@@ -25865,7 +25865,7 @@
                 },
                 {
                     "id": "279",
-                    "section_title": "Przypowieść o uczcie królewskiej",
+                    "section_title": "Gody królewskie",
                     "mt": [
                         {
                             "leading": true,
@@ -26009,7 +26009,7 @@
                 },
                 {
                     "id": "280",
-                    "section_title": "Sprawa podatków",
+                    "section_title": "Czy płacić podatki?",
                     "mt": [
                         {
                             "leading": true,
@@ -26137,7 +26137,7 @@
                 },
                 {
                     "id": "281",
-                    "section_title": "Sprawa zmartwychwstania",
+                    "section_title": "O zmartwychwstaniu",
                     "mt": [
                         {
                             "leading": true,
@@ -26340,7 +26340,7 @@
                 },
                 {
                     "id": "282",
-                    "section_title": "Największe przykazanie",
+                    "section_title": "Które przykazanie największe?",
                     "mt": [
                         {
                             "leading": true,
@@ -26458,7 +26458,7 @@
                 },
                 {
                     "id": "283",
-                    "section_title": "Mesjasz Synem Bożym",
+                    "section_title": "Mesjasz Panem Dawida",
                     "mt": [
                         {
                             "leading": true,
@@ -26551,7 +26551,7 @@
                 },
                 {
                     "id": "284",
-                    "section_title": "Ostrzeżenie przed uczonymi w Piśmie",
+                    "section_title": "Jezus gromi faryzeizm",
                     "mt": [
                         {
                             "leading": true,
@@ -26794,7 +26794,7 @@
                 },
                 {
                     "id": "285",
-                    "section_title": "Jezus odwraca się od Miasta",
+                    "section_title": "Skarga na Jerozolimę",
                     "mt": [
                         {
                             "leading": true,
@@ -27482,7 +27482,7 @@
                 },
                 {
                     "id": "292",
-                    "section_title": "Przyjście Chrystusa",
+                    "section_title": "Przyjście Syna Człowieczego",
                     "mt": [
                         {
                             "leading": true,
@@ -27668,7 +27668,7 @@
                 },
                 {
                     "id": "294",
-                    "section_title": "Potrzeba czujności (wg Marka)",
+                    "section_title": "Należy czuwać (wg Marka)",
                     "mt": [
                         {
                             "leading": false,
@@ -27772,7 +27772,7 @@
                 },
                 {
                     "id": "295",
-                    "section_title": "Potrzeba czujności",
+                    "section_title": "Zachęta do czujności",
                     "mt": [
                         null
                     ],
@@ -28047,7 +28047,7 @@
                 },
                 {
                     "id": "298",
-                    "section_title": "Przypowieść o pannach roztropnych i nierozsądnych",
+                    "section_title": "Panny mądre i głupie",
                     "mt": [
                         {
                             "leading": true,
@@ -28579,7 +28579,7 @@
                 },
                 {
                     "id": "303",
-                    "section_title": "Niedowiarstwo Żydów",
+                    "section_title": "Zaślepienie Żydów",
                     "mt": [
                         null
                     ],
@@ -28634,7 +28634,7 @@
                 },
                 {
                     "id": "304",
-                    "section_title": "Kto wierzy w Jezusa, wierzy w Ojca",
+                    "section_title": "Boskie posłannictwo Jezusa",
                     "mt": [
                         null
                     ],
@@ -28694,7 +28694,7 @@
             "sections": [
                 {
                     "id": "305",
-                    "section_title": "Spisek przeciw Jezusowi",
+                    "section_title": "Zamiary wrogów",
                     "mt": [
                         {
                             "leading": true,
@@ -28767,7 +28767,7 @@
                 },
                 {
                     "id": "306",
-                    "section_title": "Namaszczenie w Betanii",
+                    "section_title": "Uczta w Betanii",
                     "mt": [
                         {
                             "leading": true,
@@ -29062,7 +29062,7 @@
                 },
                 {
                     "id": "308",
-                    "section_title": "Przygotowanie Paschy",
+                    "section_title": "Ostatnia Wieczerza",
                     "mt": [
                         {
                             "leading": true,
@@ -29180,7 +29180,7 @@
                 },
                 {
                     "id": "309",
-                    "section_title": "Miłość i pokora Syna Bożego",
+                    "section_title": "Chrystus umywa nogi apostołom. Zalecenie pokory",
                     "mt": [
                         null,
                         {
@@ -29717,7 +29717,7 @@
                 },
                 {
                     "id": "313",
-                    "section_title": "Kto jest największy?",
+                    "section_title": "Spór o pierwszeństwo",
                     "mt": [
                         {
                             "leading": false,
@@ -29843,7 +29843,7 @@
                 },
                 {
                     "id": "314",
-                    "section_title": "Wobec bliskiego rozstania",
+                    "section_title": "Nowe przykazanie",
                     "mt": [
                         null
                     ],
@@ -29888,7 +29888,7 @@
                 },
                 {
                     "id": "315",
-                    "section_title": "Przepowiednia zaparcia się Piotra",
+                    "section_title": "Zapowiedź zaparcia się Piotra",
                     "mt": [
                         {
                             "leading": true,
@@ -30015,7 +30015,7 @@
                 },
                 {
                     "id": "316",
-                    "section_title": "Chwila walki",
+                    "section_title": "Dwa miecze",
                     "mt": [
                         null
                     ],
@@ -30055,7 +30055,7 @@
                 },
                 {
                     "id": "317",
-                    "section_title": "Do domu Ojca",
+                    "section_title": "Jezus pociesza uczniów",
                     "mt": [
                         null
                     ],
@@ -30145,7 +30145,7 @@
                 },
                 {
                     "id": "318",
-                    "section_title": "Zapowiedź Pocieszyciela",
+                    "section_title": "Nie zostawi ich sierotami",
                     "mt": [
                         null
                     ],
@@ -30270,7 +30270,7 @@
                 },
                 {
                     "id": "320",
-                    "section_title": "Prawdziwy krzew winny",
+                    "section_title": "Jezus prawdziwym szczepem winnym",
                     "mt": [
                         null
                     ],
@@ -30330,7 +30330,7 @@
                 },
                 {
                     "id": "321",
-                    "section_title": "„Wytrwajcie w miłości mojej!”",
+                    "section_title": "„Trwajcież w miłości mojej!”",
                     "mt": [
                         null
                     ],
@@ -30485,7 +30485,7 @@
                 },
                 {
                     "id": "324",
-                    "section_title": "Przestroga",
+                    "section_title": "Prześladowanie uczniów i Chrystusa",
                     "mt": [
                         null
                     ],
@@ -30525,7 +30525,7 @@
                 },
                 {
                     "id": "325",
-                    "section_title": "Sąd Ducha Świętego",
+                    "section_title": "Obietnica Ducha Świętego",
                     "mt": [
                         null
                     ],
@@ -30600,7 +30600,7 @@
                 },
                 {
                     "id": "326",
-                    "section_title": "Zapowiedź powtórnego przyjścia",
+                    "section_title": "Smutek w radość się zamieni",
                     "mt": [
                         null
                     ],
@@ -30705,7 +30705,7 @@
                 },
                 {
                     "id": "328",
-                    "section_title": "Zapowiedź rozproszenia się uczniów",
+                    "section_title": "Zapowiedź rozpierzchnięcia się uczniów",
                     "mt": [
                         null
                     ],
@@ -30750,7 +30750,7 @@
                 },
                 {
                     "id": "329",
-                    "section_title": "Modlitwa arcykapłańska Chrystusa",
+                    "section_title": "Modlitwa arcykapłańska",
                     "mt": [
                         null
                     ],
@@ -30900,7 +30900,7 @@
                 },
                 {
                     "id": "330",
-                    "section_title": "Jezus w Ogrójcu",
+                    "section_title": "Jezus w Ogrojcu",
                     "mt": [
                         {
                             "leading": true,
@@ -31322,7 +31322,7 @@
                 },
                 {
                     "id": "332",
-                    "section_title": "Wobec Wysokiej Rady (Zaparcie się Piotra)",
+                    "section_title": "Jezus przed Radą. (Zaparcie się Piotra)",
                     "mt": [
                         {
                             "leading": true,
@@ -31781,7 +31781,7 @@
                 },
                 {
                     "id": "334",
-                    "section_title": "Wydanie Jezusa Piłatowi",
+                    "section_title": "U Piłata",
                     "mt": [
                         {
                             "leading": true,
@@ -31838,7 +31838,7 @@
                 },
                 {
                     "id": "335",
-                    "section_title": "Koniec zdrajcy",
+                    "section_title": "Rozpacz Judasza",
                     "mt": [
                         {
                             "leading": true,
@@ -32135,7 +32135,7 @@
                 },
                 {
                     "id": "339",
-                    "section_title": "Jezus odrzucony przez swój naród",
+                    "section_title": "Jezus i Barabasz",
                     "mt": [
                         {
                             "leading": true,
@@ -32450,7 +32450,7 @@
                 },
                 {
                     "id": "341",
-                    "section_title": "Wyrok",
+                    "section_title": "Skazany na śmierć",
                     "mt": [
                         {
                             "leading": true,
@@ -32517,7 +32517,7 @@
                 },
                 {
                     "id": "342",
-                    "section_title": "Król wyśmiany",
+                    "section_title": "Cierniem ukoronowanie",
                     "mt": [
                         {
                             "leading": true,
@@ -32849,7 +32849,7 @@
                 },
                 {
                     "id": "345",
-                    "section_title": "Wyszydzenie na krzyżu",
+                    "section_title": "Szyderstwa",
                     "mt": [
                         {
                             "leading": true,
@@ -32957,7 +32957,7 @@
                 },
                 {
                     "id": "346",
-                    "section_title": "Dwóch ukrzyżowanych łotrów",
+                    "section_title": "Dobry i zły łotr",
                     "mt": [
                         {
                             "leading": true,
@@ -33249,7 +33249,7 @@
                 },
                 {
                     "id": "349",
-                    "section_title": "Przebicie boku Jezusa",
+                    "section_title": "Otwarcie boku Jezusowego",
                     "mt": [
                         null
                     ],
@@ -33501,7 +33501,7 @@
             "sections": [
                 {
                     "id": "352",
-                    "section_title": "Pusty grób",
+                    "section_title": "Niewiasty przy grobie",
                     "mt": [
                         {
                             "leading": true,
@@ -33830,7 +33830,7 @@
                 },
                 {
                     "id": "354",
-                    "section_title": "Przekupiona straż",
+                    "section_title": "Straż przekupiona",
                     "mt": [
                         {
                             "leading": true,
@@ -33875,7 +33875,7 @@
                 },
                 {
                     "id": "355",
-                    "section_title": "Uczniowie z Emaus",
+                    "section_title": "Po drodze do Emaus",
                     "mt": [
                         null
                     ],
@@ -34024,7 +34024,7 @@
                 },
                 {
                     "id": "356",
-                    "section_title": "Jezus ukazuje się Apostołom",
+                    "section_title": "Jezus zjawia się Apostołom",
                     "mt": [
                         null
                     ],
@@ -34113,7 +34113,7 @@
                 },
                 {
                     "id": "357",
-                    "section_title": "Niewierny Tomasz",
+                    "section_title": "Jezus zjawia się Tomaszowi",
                     "mt": [
                         null
                     ],
@@ -34208,7 +34208,7 @@
                 },
                 {
                     "id": "359",
-                    "section_title": "Jezus ukazuje się uczniom. Ostatni rozkaz",
+                    "section_title": "Zjawienie się Jezusa na górze. Ostatni rozkaz",
                     "mt": [
                         {
                             "leading": false,
@@ -34253,7 +34253,7 @@
                 },
                 {
                     "id": "360",
-                    "section_title": "Zmartwychwstały ukazuje się nad Morzem Tyberiadzkim",
+                    "section_title": "Jezus ukazuje się nad Morzem Tyberiadzkim",
                     "mt": [
                         null
                     ],
@@ -34428,7 +34428,7 @@
                 },
                 {
                     "id": "364",
-                    "section_title": "Jezus ukazuje się uczniom. Ostatni rozkaz",
+                    "section_title": "Zjawienie się Jezusa na górze. Ostatni rozkaz",
                     "mt": [
                         {
                             "leading": true,
@@ -34473,7 +34473,7 @@
                 },
                 {
                     "id": "365",
-                    "section_title": "Ostatnie pouczenia. Wniebowstąpienie",
+                    "section_title": "Mowa pożegnalna. Wniebowstąpienie",
                     "mt": [
                         null,
                         null
@@ -34595,7 +34595,7 @@
                 },
                 {
                     "id": "367",
-                    "section_title": "Drugi epilog – Ewangelii. Jezus nad Morzem Tyberiadzkim",
+                    "section_title": "Drugi epilog – Ewangelii. Jezus ukazuje się nad Morzem Tyberiadzkim",
                     "mt": [
                         null
                     ],
