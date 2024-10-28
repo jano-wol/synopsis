@@ -2,6 +2,7 @@
 import type { PropType } from 'vue';
 import type { PartScheme, CitationScheme, SectionScheme, EvangelistsScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
+import { Redirection } from "@/enums/Redirection"
 import toLeading from "@/assets/redirect/toLeading.json"
 import toPrevious from "@/assets/redirect/toPrevious.json"
 import toNext from "@/assets/redirect/toNext.json"
@@ -10,6 +11,7 @@ export default {
   data() {
     return {
       synopsisStore: useSynopsisStore(),
+      redirection: Redirection
     }
   },
   props: {
@@ -27,22 +29,22 @@ export default {
     },
   },
   methods: {
-    redirectToLeadingCitation(citation: string): void {
+    redirectToCitation(redirection: Redirection, citation: string): void {
+      let redirectionSectionId = ""
+      switch (redirection) {
+        case Redirection.TO_LEADING:
+          redirectionSectionId = toLeading[citation]
+          break
+        case Redirection.TO_PREVIOUS:
+          redirectionSectionId = toPrevious[citation]
+          break
+        case Redirection.TO_NEXT:
+          redirectionSectionId = toNext[citation]
+          break
+      }
       this.synopsisStore.pushToHistoryAndRedirect(
         { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
-        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + toLeading[citation] }
-      )
-    },
-    redirectToPreviousLeadingCitation(citation: string) {
-      this.synopsisStore.pushToHistoryAndRedirect(
-        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
-        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + toPrevious[citation] }
-      )
-    },
-    redirectToNextLeadingCitation(citation: string) {
-      this.synopsisStore.pushToHistoryAndRedirect(
-        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
-        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + toNext[citation] }
+        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + redirectionSectionId }
       )
     },
     isLastSection(evangelist: string) {
@@ -64,7 +66,7 @@ export default {
       citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
       <template v-if="!$route.params.id">
         <button v-if="!citation.leading"
-          @click="redirectToLeadingCitation(
+          @click="redirectToCitation(redirection.TO_LEADING,
                     evangelist +
                     synopsisStore.getCitation(
                       citation.content[0].chapter,
@@ -78,7 +80,7 @@ export default {
         </button>
 
         <button v-if="citation.leading
-    && !isLastSection(evangelist)" @click="redirectToNextLeadingCitation(
+    && !isLastSection(evangelist)" @click="redirectToCitation(redirection.TO_NEXT,
                     evangelist +
                     synopsisStore.getCitation(
                       citation.content[0].chapter,
@@ -89,7 +91,8 @@ export default {
           type="button" class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.nextMainText">
           <i class="bi bi-arrow-down fs-6"></i>
         </button>
-        <button v-if="citation.leading && sectionId !== '1'" @click="redirectToPreviousLeadingCitation(
+        <button v-if="citation.leading && sectionId !== '1'"
+                  @click="redirectToCitation(redirection.TO_PREVIOUS,
                     evangelist +
                     synopsisStore.getCitation(
                       citation.content[0].chapter,
