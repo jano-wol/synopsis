@@ -14,6 +14,7 @@
                 <li><a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/esv.json" target="_blank">ESV</a></li>
                 <li><a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/bt.json" target="_blank">BT</a></li>
                 <li><a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/bjw.json" target="_blank">BJW</a></li>
+                <li><a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/rsp.json" target="_blank">RSP</a></li>
                 <li><a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/sblgnt.json" target="_blank">SBLGNT</a></li>
                 <li><a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/vulg.json" target="_blank">VULG</a></li>
             </ul>

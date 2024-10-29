@@ -20,6 +20,8 @@
         <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/bt.json"
             target="_blank">BT</a>,
         <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/bjw.json"
-            target="_blank">BJW</a>.            
+            target="_blank">BJW</a>,
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/rsp.json"
+            target="_blank">RSP</a>.
     </p>
 </template>
