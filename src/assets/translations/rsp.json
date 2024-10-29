@@ -12,7 +12,7 @@
     },
     "parts": [
         {
-            "part_title": "I Przedmowa",
+            "part_title": "I Предисловие",
             "sections": [
                 {
                     "id": "1",
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "part_title": "II Preludium",
+            "part_title": "II Введение",
             "sections": [
                 {
                     "id": "2",
@@ -1365,7 +1365,7 @@
             ]
         },
         {
-            "part_title": "III Życie publiczne Jezusa – okres przygotowania",
+            "part_title": "III Иоанн Креститель приуготовляет путь Господу",
             "sections": [
                 {
                     "id": "13",
@@ -2230,7 +2230,7 @@
             ]
         },
         {
-            "part_title": "IV Początek życia publicznego Jezusa (wg Jana)",
+            "part_title": "IV Начало публичного служения Иисуса (по Иоанну)",
             "sections": [
                 {
                     "id": "21",
@@ -2852,7 +2852,7 @@
             ]
         },
         {
-            "part_title": "V Działalność Jezusa w Galilei",
+            "part_title": "V Иисус в Галилее",
             "sections": [
                 {
                     "id": "30",
@@ -4850,7 +4850,7 @@
             ]
         },
         {
-            "part_title": "VI Kazanie na Górze (wg Mateusza)",
+            "part_title": "VI Нагорная проповедь (по Матфею)",
             "sections": [
                 {
                     "id": "50",
@@ -6571,7 +6571,7 @@
             ]
         },
         {
-            "part_title": "VII Kazanie na równinie (wg Łukasza)",
+            "part_title": "VII Проповедь на равнине (по Луке)",
             "sections": [
                 {
                     "id": "77",
@@ -7201,7 +7201,7 @@
             ]
         },
         {
-            "part_title": "VIII Stwierdzenie nauki przez szereg cudów",
+            "part_title": "VIII Дальнейшее служение Иисуса в Галилее",
             "sections": [
                 {
                     "id": "84",
@@ -15554,7 +15554,7 @@
             ]
         },
         {
-            "part_title": "IX Na drodze męki",
+            "part_title": "IX Иисус на дороге Страстей",
             "sections": [
                 {
                     "id": "157",
@@ -17038,7 +17038,7 @@
             ]
         },
         {
-            "part_title": "X Po drodze do Jeruzalem (wg Łukasza)",
+            "part_title": "X На пути в Иерусалим (по Луке)",
             "sections": [
                 {
                     "id": "174",
@@ -21578,7 +21578,7 @@
             ]
         },
         {
-            "part_title": "XI Zbawiciel w Jeruzalem podczas Święta Kuczek (wg Jana)",
+            "part_title": "XI Иисус на празднике кущей в Иерусалиме (по Иоанну)",
             "sections": [
                 {
                     "id": "238",
@@ -22713,7 +22713,7 @@
             ]
         },
         {
-            "part_title": "XII Jezus w Judei",
+            "part_title": "XII Служение Иисуса в Иудее",
             "sections": [
                 {
                     "id": "251",
@@ -24820,7 +24820,7 @@
             ]
         },
         {
-            "part_title": "XIII Ostatni pobyt w Jeruzalem",
+            "part_title": "XIII Последний путь Иисуса в Иерусалим",
             "sections": [
                 {
                     "id": "269",
@@ -26908,7 +26908,7 @@
             ]
         },
         {
-            "part_title": "XIV Proroctwo o zburzeniu Jerozolimy i końcu świata",
+            "part_title": "XIV Пророчество о разрушении Иерусалима и конце света",
             "sections": [
                 {
                     "id": "287",
@@ -27808,7 +27808,7 @@
             ]
         },
         {
-            "part_title": "XV Zakończenie opisu czasu przed Męką Pańską",
+            "part_title": "XV Завершение описания времени перед Страстями",
             "sections": [
                 {
                     "id": "296",
@@ -28690,7 +28690,7 @@
             ]
         },
         {
-            "part_title": "XVI Męka Jezusa",
+            "part_title": "XVI Страсти Иисуса",
             "sections": [
                 {
                     "id": "305",
@@ -33497,7 +33497,7 @@
             ]
         },
         {
-            "part_title": "XVII Zmartwychwstanie Jezusa",
+            "part_title": "XVII Воскрешение Иисуса Христа",
             "sections": [
                 {
                     "id": "352",
@@ -34344,7 +34344,7 @@
             ]
         },
         {
-            "part_title": "XVIII Zakończenia Ewangelii",
+            "part_title": "XVIII Эпилог: Окончания Евангелий",
             "sections": [
                 {
                     "id": "363",
