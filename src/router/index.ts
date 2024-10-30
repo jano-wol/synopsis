@@ -115,29 +115,25 @@ router.beforeEach((to, from, next) => {
   useSynopsisStore().setupLanguage(to.params.language)
   useSynopsisStore().setupTranslation(to.params.translation)
   
-  console.log(to.matched)
   const requiresLanguage = to.matched.some((record) => {
     return record.path.includes(`/:language${languageOptionsRegex}?`);
   });
   const requiresTranslation = to.matched.some((record) => {
     return record.path.includes(`/:translation${translationOptionsRegex}?`);
   });
-  console.log(requiresLanguage, requiresTranslation)
-  let myparams = { ...to.params }
+  let params = { ...to.params }
   if (requiresLanguage)
   {
-    console.log("ITT")
-    myparams.language = useSynopsisStore().currentLanguage
+    params.language = useSynopsisStore().currentLanguage
   }
   if (requiresTranslation)
   {
-    console.log("OTT")
-    myparams.translation = useSynopsisStore().currentTranslation
+    params.translation = useSynopsisStore().currentTranslation
   }
 
   
-  if (myparams.language !== to.params.language || myparams.translation !== to.params.translation) {
-    next({ ...to, params: myparams });
+  if (params.language !== to.params.language || params.translation !== to.params.translation) {
+    next({ ...to, params: params });
   } else {
     next();
   }
