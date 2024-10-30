@@ -24,14 +24,6 @@ export default {
     },
   },
   methods: {
-    pushToHistoryAndRedirect(sectionId: string): void {
-      this.$router.push({ name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId })
-      .then(
-        () => {
-          this.$router.push({ name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + sectionId })
-        }
-      )
-    },
     redirectToLeadingCitation(chapterLocation: string, verseLocation: string): void {
       for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
         const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
@@ -44,7 +36,10 @@ export default {
                 const content = citation.content[m]
                 const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
                 if (content.chapter === chapterLocation && formattedVerse === verseLocation) {
-                  this.pushToHistoryAndRedirect(section.id)
+                  this.synopsisStore.pushToHistoryAndRedirect(
+                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
+                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + section.id }
+                  )
                   return
                 }
               }
@@ -62,7 +57,10 @@ export default {
           for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
             const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
             if (section.id === this.sectionId) {
-              this.pushToHistoryAndRedirect(previousSectionId)
+              this.synopsisStore.pushToHistoryAndRedirect(
+                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
+                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + previousSectionId }
+                  )
               return
             }
             if (citation?.leading) {
@@ -80,7 +78,10 @@ export default {
           for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
             const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
             if (Number(section.id) > Number(this.sectionId) && citation?.leading) {
-              this.pushToHistoryAndRedirect(section.id)
+              this.synopsisStore.pushToHistoryAndRedirect(
+                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
+                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + section.id }
+                  )
               return
             }
           }
