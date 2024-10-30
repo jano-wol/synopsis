@@ -2,11 +2,16 @@
 import type { PropType } from 'vue';
 import type { PartScheme, CitationScheme, SectionScheme, EvangelistsScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
+import { Redirection } from "@/enums/Redirection"
+import toLeading from "@/assets/redirect/toLeading.json"
+import toPrevious from "@/assets/redirect/toPrevious.json"
+import toNext from "@/assets/redirect/toNext.json"
 
 export default {
   data() {
     return {
       synopsisStore: useSynopsisStore(),
+      redirection: Redirection
     }
   },
   props: {
@@ -24,69 +29,23 @@ export default {
     },
   },
   methods: {
-    redirectToLeadingCitation(chapterLocation: string, verseLocation: string): void {
-      for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
-        const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
-        for (let j = 0; j < part.sections.length; j++) {
-          const section: SectionScheme = part.sections[j]
-          for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
-            const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
-            if (citation?.leading) {
-              for (let m = 0; m < citation.content.length; m++) {
-                const content = citation.content[m]
-                const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
-                if (content.chapter === chapterLocation && formattedVerse === verseLocation) {
-                  this.synopsisStore.pushToHistoryAndRedirect(
-                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
-                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + section.id }
-                  )
-                  return
-                }
-              }
-            }
-          }
-        }
+    redirectToCitation(redirection: Redirection, citation: string): void {
+      let redirectionSectionId = ""
+      switch (redirection) {
+        case Redirection.TO_LEADING:
+          redirectionSectionId = toLeading[citation]
+          break
+        case Redirection.TO_PREVIOUS:
+          redirectionSectionId = toPrevious[citation]
+          break
+        case Redirection.TO_NEXT:
+          redirectionSectionId = toNext[citation]
+          break
       }
-    },
-    redirectToPreviousLeadingCitation() {
-      let previousSectionId : string = "";
-      for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
-        const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
-        for (let j = 0; j < part.sections.length; j++) {
-          const section: SectionScheme = part.sections[j]
-          for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
-            const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
-            if (section.id === this.sectionId) {
-              this.synopsisStore.pushToHistoryAndRedirect(
-                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
-                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + previousSectionId }
-                  )
-              return
-            }
-            if (citation?.leading) {
-              previousSectionId = section.id
-            }
-          }
-        }
-      }
-    },
-    redirectToNextLeadingCitation() {
-      for (let i = 0; i < useSynopsisStore().currentSynopsis.parts.length; i++) {
-        const part: PartScheme = useSynopsisStore().currentSynopsis.parts[i]
-        for (let j = 0; j < part.sections.length; j++) {
-          const section: SectionScheme = part.sections[j]
-          for (let l = 0; l < section[this.evangelist as keyof SectionScheme].length; l++) {
-            const citation = section[this.evangelist as keyof SectionScheme][l] as CitationScheme
-            if (Number(section.id) > Number(this.sectionId) && citation?.leading) {
-              this.synopsisStore.pushToHistoryAndRedirect(
-                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
-                    { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + section.id }
-                  )
-              return
-            }
-          }
-        }
-      }
+      this.synopsisStore.pushToHistoryAndRedirect(
+        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
+        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + redirectionSectionId }
+      )
     },
     isLastSection(evangelist: string) {
       return ((evangelist === 'mt' && this.sectionId === '364')
@@ -107,19 +66,41 @@ export default {
       citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
       <template v-if="!$route.params.id">
         <button v-if="!citation.leading"
-          @click="redirectToLeadingCitation(citation.content[0].chapter, citation.content[0].verse)" type="button"
-          class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.jumpToMainText">
+          @click="redirectToCitation(redirection.TO_LEADING,
+                    evangelist +
+                    synopsisStore.getCitation(
+                      citation.content[0].chapter,
+                      citation.content[0].verse,
+                      citation.content[citation.content.length - 1].chapter,
+                      citation.content[citation.content.length - 1].verse)
+                    )"
+          type="button" class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.jumpToMainText">
 
           <i class="bi bi-compass fs-6 text-secondary"></i>
         </button>
 
         <button v-if="citation.leading
-    && !isLastSection(evangelist)" @click="redirectToNextLeadingCitation()" type="button"
-          class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.nextMainText">
+    && !isLastSection(evangelist)" @click="redirectToCitation(redirection.TO_NEXT,
+                    evangelist +
+                    synopsisStore.getCitation(
+                      citation.content[0].chapter,
+                      citation.content[0].verse,
+                      citation.content[citation.content.length - 1].chapter,
+                      citation.content[citation.content.length - 1].verse)
+                    )"
+          type="button" class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.nextMainText">
           <i class="bi bi-arrow-down fs-6"></i>
         </button>
-        <button v-if="citation.leading && sectionId !== '1'" @click="redirectToPreviousLeadingCitation()" type="button"
-          class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.previousMainText">
+        <button v-if="citation.leading && sectionId !== '1'"
+                  @click="redirectToCitation(redirection.TO_PREVIOUS,
+                    evangelist +
+                    synopsisStore.getCitation(
+                      citation.content[0].chapter,
+                      citation.content[0].verse,
+                      citation.content[citation.content.length - 1].chapter,
+                      citation.content[citation.content.length - 1].verse)
+                    )"
+          type="button" class=" float-end btn  btn-sm py-0 m-0" :title="synopsisStore.currentDictionary.tooltips.previousMainText">
           <i class="bi bi-arrow-up fs-6"></i>
         </button>
       </template>
