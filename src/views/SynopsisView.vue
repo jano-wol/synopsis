@@ -63,7 +63,7 @@ export default {
   <Loader />
   
   <h1 class="text-center display-1">{{ synopsisStore.currentSynopsis.heading }}</h1>
-  <p class="text-center">{{ synopsisStore.currentSynopsis.subheading }}</p>
+  <h2 class="text-center fs-6">{{ synopsisStore.currentSynopsis.subheading }}</h2>
   
   
     <template v-for="partIndex in synopsisStore.currentSynopsis.parts.length">
