@@ -113,7 +113,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   useSynopsisStore().setupLanguage(to.params.language)
-  useSynopsisStore().setupTranslation(to.params.translation)
+  useSynopsisStore().setupTranslation(to.params.translation, options)
   
   const requiresLanguage = to.matched.some((record) => {
     return record.path.includes(`/:language${languageOptionsRegex}?`);

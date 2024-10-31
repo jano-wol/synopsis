@@ -23,7 +23,7 @@ export const useSynopsisStore = defineStore('synopsis', {
         return {
             currentDictionary: dictionaryHu,
             currentLanguage: "hu",
-            currentTranslation: "KG",
+            currentTranslation: "",
             currentSynopsis: synopsisKG,
             dictionary: {
                hu: dictionaryHu as DictionaryScheme,
@@ -100,7 +100,12 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
         },
-        setupTranslation(translation: string | string[]) {
+        setupTranslation(translation: string | string[], options : { [key: string]: string[] }) {
+            if (!this.currentTranslation)
+            {
+                this.currentTranslation = options[this.currentLanguage][0]
+                return
+            }
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (translation === this.synopses[synopsisIndex].translation) {
                     this.currentTranslation = translation
