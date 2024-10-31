@@ -17,7 +17,7 @@ def main():
     json_folder = sys.argv[1]
     json_files_found = False
     blank_json_file_path = sys.argv[2]
-    with open(blank_json_file_path, 'r', encoding='utf-8') as file:
+    with open(blank_json_file_path, 'r') as file:
         blank_json = json.load(file)
     update_blank_json = (sys.argv[3] == 'update')
 
@@ -25,7 +25,7 @@ def main():
         json_files_found = True
         json_loaded = blank_values(json_loaded)
         if update_blank_json:
-            with open(blank_json_file_path, 'w', encoding='utf-8') as file_to_update:
+            with open(blank_json_file_path, 'w') as file_to_update:
                 json.dump(json_loaded, file_to_update, separators=(',', ':'))
             print(f'{blank_json_file_path} was updated. Test is failed as update was called')
             sys.exit(1)

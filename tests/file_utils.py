@@ -8,7 +8,7 @@ def iterate_jsons(json_folder):
         filename = os.fsdecode(file)
         if filename.endswith('.json'):
             json_path = os.path.join(json_folder, filename)
-            with open(json_path, 'r', encoding='utf-8') as f:
+            with open(json_path, 'r') as f:
                 try:
                     json_loaded = json.load(f)
                     yield json_loaded, json_path
