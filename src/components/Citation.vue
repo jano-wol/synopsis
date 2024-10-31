@@ -30,16 +30,16 @@ export default {
   },
   methods: {
     redirectToCitation(redirection: Redirection, citation: string): void {
-      let redirectionSectionId = ""
+      let redirectionSectionId = 0
       switch (redirection) {
         case Redirection.TO_LEADING:
-          redirectionSectionId = toLeading[citation]
+          redirectionSectionId = toLeading[citation as keyof typeof toLeading]
           break
         case Redirection.TO_PREVIOUS:
-          redirectionSectionId = toPrevious[citation]
+          redirectionSectionId = toPrevious[citation as keyof typeof toPrevious]
           break
         case Redirection.TO_NEXT:
-          redirectionSectionId = toNext[citation]
+          redirectionSectionId = toNext[citation as keyof typeof toNext]
           break
       }
       this.synopsisStore.pushToHistoryAndRedirect(
