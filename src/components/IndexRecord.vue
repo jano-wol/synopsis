@@ -32,10 +32,11 @@ export default {
                 <table class="table bg-dark table-sm table-striped table-bordered">
                     <thead>
                         <tr>
-                            <th class="fw-normal text-nowrap" scope="col"># ( <i
-                                    class="bi bi-arrow-down-left-square fs-6"></i> )</th>
-                            <th class="fw-normal text-nowrap" scope="col">{{ synopsisStore.currentDictionary.index.title }} ( <i
-                                    class="bi bi-arrow-up-right-square fs-6"></i> )</th>
+                            <th class="fw-normal text-nowrap" scope="col">
+                                <i class="bi bi-arrow-down-left-square fs-6"></i></th>
+                            <th class="fw-normal text-nowrap" scope="col">
+                                <i class="bi bi-arrow-up-right-square fs-6"></i>
+                            </th>
                             <th class="text-center fw-normal" scope="col">{{ synopsisStore.currentSynopsis.evangelists.mt }}
                             </th>
                             <th class="text-center fw-normal" scope="col">{{ synopsisStore.currentSynopsis.evangelists.mk }}
