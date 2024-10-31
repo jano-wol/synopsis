@@ -13,52 +13,77 @@ export default {
 
 <template>
     <p>
-
-        A Szinopszis Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.<br>
-        Az egymás mellett elhelyezkedő szövegdobozok az evangélium párhuzamos részeit tartalmazzák.<br>
+        A Szinopszis Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.
     </p>
-
     <p>
-        Kétfajta szövegdobozt különböztetünk meg:
+        Az egymás mellett elhelyezkedő szövegdobozok az evangélium párhuzamos részeit tartalmazzák.
     </p>
+    <h2 class="fs-3">
+        Felépítés
+    </h2>
     <ul>
-        <li>A törzsszöveg vastag kerettel és szürke fejléccel jelenik meg. A
+        <li>
+            A Szinopszis 18 <b>részből</b> áll, amelyek az evangélium átfogó eseményeit tagolják. A részeket római számokkal jelöljük.
+        </li>
+        <li>
+            A Szinopszis 365* <b>szekcióból</b> áll, amelyek a <b>részeket</b> taglalják. A szekciókat arab számokkal jelöljük.
+        </li> 
+    </ul>
+
+    <h2 class="fs-3">
+        Szövegtípusok
+    </h2>
+    <ul>
+        <li>
+            <b>Törzsszöveg:</b>
+            Minden <b>szekcióban</b> egy evangélistához, legfeljebb egy törzsszöveg található. A törzsszövegek összeolvasva a teljes evangéliumot tartalmazzzák, ismétlődések nélkül, a versek eredeti sorrendjében.<br>
+            A törzsszöveg vastag keretes, szürke fejléces szövegdobozban jelenik meg. A
             <router-link    :to="{ name: 'index', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }">tartalomjegyzékben</router-link>
             vastag kiemeléssel szerepelnek
-            a hozzá tartozó idézetek. A törzsszöveg a teljes evangéliumot tartalmazza, ismétlődések nélkül, a versek
-            eredeti sorrendjében. Minden szekcióban egy evangélistához, legfeljebb egy törzsszöveg található.
+            a hozzá tartozó idézetek. 
         </li>
-        <li>A párhuzamos szöveg vékony kerettel és fehér fejléccel jelenik meg.</li>
+        <li>
+            <b>Párhuzamos szöveg:</b>
+            A <b>törzsszöveggel</b> párhuzamba állított szöveg.<br>
+            Vékony keretes, fehér fejléces szövegdobozban jelenik meg.
+        </li>
     </ul>
 
-    <p>
-        A szekciók címe mellett a következő gombok találhatók.
-    </p>
+    <h2 class="fs-3">
+        Jelmagyarázat
+    </h2>
     <ul>
-        <li><i class="bi bi-arrow-up-right-square"></i> vagy <i class="bi bi-arrow-down-left-square"></i> : <br> A
-            megnyitás külön oldalon ( <i class="bi bi-arrow-up-right-square"></i> ) gomb megnyomásával az adott
-            szekció megnyitható egy különálló, saját aloldalon. <br> A megnyitás az eredeti helyen ( <i
-                class="bi bi-arrow-down-left-square"></i> ) gomb megnyomásával az adott szekció elérhető a
-            Szinopszis egész szövegében elhelyezve.
+        <li>
+            <i class="bi bi-arrow-up-right-square"></i> :
+            <b>Megnyitás elkülönítve.</b>
+            Az adott szekció megnyitása egy különálló, saját aloldalon.
         </li>
-        <li><i class="bi bi-link-45deg"></i> : A másolás gomb megnyomásával vágólapra kerül a link, ami az adott
-            szekcióra mutat.</li>
-    </ul>
-
-    <p>
-        A Szinopszis egész szövegében, a szövegdobozok fejlécében a következő gombok találhatók.
-    </p>
-    <ul>
-        <li><i class="bi bi-compass"></i> : Az átirányítás gombra kattintva az adott párhuzamos szöveg
-            törzsszevegének
-            a szekciója érhető el a Szinopszis egész szövegében elhelyezve.
+        <li>
+            <i class="bi bi-arrow-down-left-square"></i> :
+            <b>Megnyitás kontextusban.</b>
+            Az adott szekció megnyitása a Szinopszis egész szövegében elhelyezve.
         </li>
-        <li><i class="bi bi-arrow-up"></i> és <i class="bi bi-arrow-down"></i> : A navigációs gombokra kattintva az
-            adott törzsszöveget megelőző ( <i class="bi bi-arrow-up"></i> ), illetve követő ( <i
-                class="bi bi-arrow-down"></i> ) törzsszöveg szekciója érhető el a Szinopszis egész
-            szövegében elhelyezve.
+        <li>
+            <i class="bi bi-link-45deg"></i> :
+            <b>Link másolása.</b>
+            Az adott szekció linkjének vágólapra másolása.
         </li>
-
+        <br>
+        <li>
+            <i class="bi bi-compass"></i> :
+            <b>Átirányítás törzsszövegre.</b>
+            Az adott párhuzamos szöveg törzsszövegéhez való navigálás.
+        </li>
+        <li>
+            <i class="bi bi-arrow-up"></i> :
+            <b>Átirányítás az előző törzsszövegre.</b>
+            Az adott törzsszöveg folytatásához való navigálás.
+        </li>
+        <li>
+            <i class="bi bi-arrow-down"></i> :
+            <b>Átirányítás a következő törzsszövegre.</b>
+            Az adott törzsszöveg előzményéhez való navigálás.
+        </li>
     </ul>
 
     <p>
