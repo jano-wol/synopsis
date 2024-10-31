@@ -5,6 +5,7 @@ import sys
 from file_utils import iterate_jsons
 
 checked_translations = ['kg', 'esv', 'szit', 'bt', 'bjw', 'nv', 'sblgnt']
+evangelists = ['mt', 'mk', 'lk', 'jn']
 
 
 def remove_roman_literal(title):
@@ -31,8 +32,8 @@ def add_to_dict(check_dict, section_title, section_idx, leadings):
     else:
         check_dict[section_title] = [[section_idx], [leadings]]
 
+
 def get_main_body_counts(section):
-    evangelists = ['mt', 'mk', 'lk', 'jn']
     leadings = [0] * 4
     for idx in range(4):
         lead = 0
@@ -44,7 +45,6 @@ def get_main_body_counts(section):
                         lead = 1
         leadings[idx] = lead
     return leadings
-
 
 
 def check_section_titles(json_loaded, file_name):
