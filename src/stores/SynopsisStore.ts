@@ -3,6 +3,7 @@ import { defineStore } from 'pinia'
 import type { SectionScheme, SynopsisScheme } from '@/interfaces/synopsisInterface'
 import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
+import type { RouteLocationRaw } from 'vue-router';
 
 import synopsisKG from '@/assets/translations/kg.json'
 import synopsisSZIT from '@/assets/translations/szit.json'
@@ -10,8 +11,9 @@ import synopsisKNB from '@/assets/translations/knb.json'
 import synopsisUF from '@/assets/translations/uf.json'
 import synopsisESV from '@/assets/translations/esv.json'
 import synopsisBT from '@/assets/translations/bt.json'
+import synopsisBJW from '@/assets/translations/bjw.json'
 import synopsisSBLGNT from '@/assets/translations/sblgnt.json'
-import synopsisVULG from '@/assets/translations/vulg.json'
+import synopsisNV from '@/assets/translations/nv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
 
@@ -21,7 +23,7 @@ export const useSynopsisStore = defineStore('synopsis', {
         return {
             currentDictionary: dictionaryHu,
             currentLanguage: "hu",
-            currentTranslation: "KG",
+            currentTranslation: "",
             currentSynopsis: synopsisKG,
             dictionary: {
                hu: dictionaryHu as DictionaryScheme,
@@ -34,8 +36,9 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme,
                 synopsisBT as SynopsisScheme,
+                synopsisBJW as SynopsisScheme,
                 synopsisSBLGNT as SynopsisScheme,
-                synopsisVULG as SynopsisScheme
+                synopsisNV as SynopsisScheme
             ],
             isLoading: false
         }
@@ -97,7 +100,12 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
         },
-        setupTranslation(translation: string | string[]) {
+        setupTranslation(translation: string | string[], options : { [key: string]: string[] }) {
+            if (!this.currentTranslation)
+            {
+                this.currentTranslation = options[this.currentLanguage][0]
+                return
+            }
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (translation === this.synopses[synopsisIndex].translation) {
                     this.currentTranslation = translation
@@ -114,6 +122,14 @@ export const useSynopsisStore = defineStore('synopsis', {
                 return citation + "-" + lastVerse
             }
             return citation
-        }
+        },
+        pushToHistoryAndRedirect(pushToHistoryRoute: RouteLocationRaw, redirectRoute: RouteLocationRaw): void {
+            router.push(pushToHistoryRoute)
+            .then(
+              () => {
+                router.push(redirectRoute)
+              }
+            )
+        },
     }
 })
