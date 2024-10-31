@@ -7,13 +7,20 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build-linux:
     runs-on: ubuntu-latest
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-
     - name: Run tests
       run: |
         ./tests/test.sh
+
+  build-windows:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Run tests on Windows
+      shell: bash
+      run: ./tests/test.sh
