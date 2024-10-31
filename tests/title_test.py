@@ -25,12 +25,11 @@ def check_part_titles(json_loaded, file_name):
             seen_part_titles.add(part_title)
 
 
-def add_to_dict(check_dict, section_title, section_idx, leadings):
-    if section_title in check_dict:
-        check_dict[section_title][0].append(section_idx)
-        check_dict[section_title][1].append(leadings)
+def add_to_dict(check_section_titles_dict, section_title, main_body_counts):
+    if section_title in check_section_titles_dict:
+        check_section_titles_dict[section_title].append(main_body_counts)
     else:
-        check_dict[section_title] = [[section_idx], [leadings]]
+        check_section_titles_dict[section_title] = [main_body_counts]
 
 
 def get_main_body_counts(section):
@@ -49,23 +48,21 @@ def get_main_body_counts(section):
 
 def check_section_titles(json_loaded, file_name):
     success = True
-    section_idx = 0
-    check_dict = {}
+    check_section_titles_dict = {}
     for p in json_loaded['parts']:
         for section in p['sections']:
             section_title = section['section_title']
             main_body_counts = get_main_body_counts(section)
-            section_idx = section_idx + 1
-            add_to_dict(check_dict, section_title, section_idx, main_body_counts)
-    for section_title, (section_indices, main_body_counts) in check_dict.items():
-        summarize = [0] * 4
-        for leading in main_body_counts:
+            add_to_dict(check_section_titles_dict, section_title, main_body_counts)
+    for section_title, main_body_counts in check_section_titles_dict.items():
+        summary = [0] * 4
+        for main_body_count in main_body_counts:
             for idx in range(4):
-                summarize[idx] = summarize[idx] + leading[idx]
+                summary[idx] = summary[idx] + main_body_count[idx]
         for idx in range(4):
-            if summarize[idx] >= 2:
+            if summary[idx] >= 2:
                 print(
-                    f'Multiple body texts under the same section title from the same evangelist. file_name={file_name}; section_title={section_title}; evangelist={evangelists[idx]}')
+                    f'Repeated section titles found for different main bodies. file_name={file_name}; section_title={section_title}; Evangelist={evangelists[idx]}')
                 success = False
     if not success:
         print('Section title test failed.')
