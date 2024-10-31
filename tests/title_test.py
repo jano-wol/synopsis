@@ -33,17 +33,11 @@ def add_to_dict(check_section_titles_dict, section_title, main_body_counts):
 
 
 def get_main_body_counts(section):
-    leadings = [0] * 4
-    for idx in range(4):
-        lead = 0
-        boxes = section[evangelists[idx]]
-        if boxes is not None:
-            for box in boxes:
-                if box is not None:
-                    if box['leading']:
-                        lead = 1
-        leadings[idx] = lead
-    return leadings
+    return [
+        1 if any(box is not None and box['leading'] for box in section[evangelist])
+        else 0
+        for evangelist in evangelists
+    ]
 
 
 def check_section_titles(json_loaded, file_name):
@@ -55,12 +49,9 @@ def check_section_titles(json_loaded, file_name):
             main_body_counts = get_main_body_counts(section)
             add_to_dict(check_section_titles_dict, section_title, main_body_counts)
     for section_title, main_body_counts in check_section_titles_dict.items():
-        summary = [0] * 4
-        for main_body_count in main_body_counts:
-            for idx in range(4):
-                summary[idx] = summary[idx] + main_body_count[idx]
-        for idx in range(4):
-            if summary[idx] >= 2:
+        summary = [sum(count[idx] for count in main_body_counts) for idx in range(4)]
+        for idx, count in enumerate(summary):
+            if count >= 2:
                 print(
                     f'Repeated section titles found for different main bodies. file_name={file_name}; section_title={section_title}; Evangelist={evangelists[idx]}')
                 success = False
