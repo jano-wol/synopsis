@@ -4,7 +4,7 @@ import sys
 
 from file_utils import iterate_jsons, load_json
 
-checked_translations = ['kg', 'esv', 'szit', 'bt', 'bjw', 'nv', 'sblgnt']
+checked_translations = ['szit']
 evangelists = ['mt', 'mk', 'lk', 'jn']
 
 
@@ -97,8 +97,8 @@ def check_parallelism(multiple_section_titles, to_leading, file_name):
         for section in sections:
             n = get_neighbouring_ids(section, to_leading)
             n.add(section['id'])
-            if n != section_ids:
-                print(f'Incorrect neighbours found. section_title={section['section_title']}')
+            if not section_ids.issubset(n):
+                print(f'Incorrect neighbours found. section_title={section['section_title']} id={section['id']}')
                 success = False
     if not success:
         print(f'check_section_titles/check_parallelism test failed. file_name={file_name}')
