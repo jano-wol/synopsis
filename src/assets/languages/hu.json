@@ -16,9 +16,6 @@
         "previousMainText": "Előző törzsszöveg",
         "jumpToMainText": "Ugrás a törzsszöveghez"
     },
-    "index": {
-        "title": "Cím"
-    },
     "notFound": {
         "notFound": "Az oldal nem található"
     }
