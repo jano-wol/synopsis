@@ -53,8 +53,7 @@ def get_multiple_section_titles(json_loaded):
     return multiple_section_titles
 
 
-def check_section_titles(json_loaded, file_name):
-    multiple_section_titles = get_multiple_section_titles(json_loaded)
+def check_main_body_multiplicities(multiple_section_titles, file_name):
     success = True
     for section_title, sections in multiple_section_titles.items():
         summary = [sum(get_main_body_counts(section)[idx] for section in sections) for idx in range(4)]
@@ -64,8 +63,18 @@ def check_section_titles(json_loaded, file_name):
                     f'Repeated section titles found for different main bodies. file_name={file_name}; section_title={section_title}; Evangelist={evangelists[idx]}')
                 success = False
     if not success:
-        print('Section title test failed.')
+        print('check_section_titles/check_main_body_multiplicities test failed.')
         exit(1)
+
+
+def check_parallelism(multiple_section_titles, file_name):
+    pass
+
+
+def check_section_titles(json_loaded, file_name):
+    multiple_section_titles = get_multiple_section_titles(json_loaded)
+    check_main_body_multiplicities(multiple_section_titles, file_name)
+    check_parallelism(multiple_section_titles, file_name)
 
 
 def check_translation(json_loaded, file_name):
