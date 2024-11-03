@@ -4,7 +4,7 @@ import sys
 
 from file_utils import iterate_jsons
 
-checked_translations = ['kg', 'esv', 'szit', 'bt', 'bjw', 'nv', 'sblgnt']
+checked_translations = ['kg', 'esv', 'szit', 'bt', 'bjw', 'nv', 'sblgnt', 'knb']
 evangelists = ['mt', 'mk', 'lk', 'jn']
 
 
@@ -40,16 +40,24 @@ def get_main_body_counts(section):
     ]
 
 
-def check_section_titles(json_loaded, file_name):
-    success = True
-    check_section_titles_dict = {}
+def get_multiple_section_titles(json_loaded):
+    multiple_section_titles = {}
     for p in json_loaded['parts']:
         for section in p['sections']:
             section_title = section['section_title']
-            main_body_counts = get_main_body_counts(section)
-            add_to_dict(check_section_titles_dict, section_title, main_body_counts)
-    for section_title, main_body_counts in check_section_titles_dict.items():
-        summary = [sum(count[idx] for count in main_body_counts) for idx in range(4)]
+            if section_title in multiple_section_titles:
+                multiple_section_titles[section_title].append(section)
+            else:
+                multiple_section_titles[section_title] = [section]
+    multiple_section_titles = {k: v for k, v in multiple_section_titles.items() if len(v) > 1}
+    return multiple_section_titles
+
+
+def check_section_titles(json_loaded, file_name):
+    multiple_section_titles = get_multiple_section_titles(json_loaded)
+    success = True
+    for section_title, sections in multiple_section_titles.items():
+        summary = [sum(get_main_body_counts(section)[idx] for section in sections) for idx in range(4)]
         for idx, count in enumerate(summary):
             if count >= 2:
                 print(
