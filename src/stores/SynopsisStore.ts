@@ -62,7 +62,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                         this.currentSynopsis = this.synopses[synopsisIndex]
                         this.currentTranslation = this.currentSynopsis.translation
                         router.push({ name: router.currentRoute.value.name as string });
-                        break
+                        return
                     }
                 }
             })
@@ -75,7 +75,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                         this.currentSynopsis = this.synopses[synopsisIndex]
                         this.currentTranslation = translation
                         router.push({ name: router.currentRoute.value.name as string });
-                        break
+                        return
                     }
                 }
             })
@@ -97,6 +97,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 if (language === this.synopses[synopsisIndex].language) {
                     this.currentDictionary = this.dictionary[language as keyof typeof this.dictionary]
                     this.currentLanguage = language
+                    return
                 }
             }
         },
@@ -110,6 +111,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 if (translation === this.synopses[synopsisIndex].translation) {
                     this.currentTranslation = translation
                     this.currentSynopsis = this.synopses[synopsisIndex]
+                    return
                 }
             }
         },
