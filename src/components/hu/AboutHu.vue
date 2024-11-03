@@ -38,7 +38,7 @@ export default {
             <b>Törzsszöveg:</b>
             Minden <b>szekcióban</b> egy evangélistához, legfeljebb egy törzsszöveg található. A törzsszövegek összeolvasva a teljes evangéliumot tartalmazzák, ismétlődések nélkül, a versek eredeti sorrendjében.<br>
             A törzsszöveg vastag keretes, szürke fejléces szövegdobozban jelenik meg. A
-            <router-link    :to="{ name: 'index', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }">tartalomjegyzékben</router-link>
+            <router-link    :to="{ name: 'index' }">tartalomjegyzékben</router-link>
             vastag kiemeléssel szerepelnek
             a hozzá tartozó versek.
         </li>
@@ -88,6 +88,6 @@ export default {
 
     <p>
         További részletek a <router-link
-            :to="{ name: 'sources', params: { language: synopsisStore.currentLanguage } }">Források</router-link> menüpont alatt találhatók.
+            :to="{ name: 'sources' }">Források</router-link> menüpont alatt találhatók.
     </p>
 </template>

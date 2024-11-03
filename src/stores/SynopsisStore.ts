@@ -61,7 +61,7 @@ export const useSynopsisStore = defineStore('synopsis', {
     
                         this.currentSynopsis = this.synopses[synopsisIndex]
                         this.currentTranslation = this.currentSynopsis.translation
-                        router.push({ name: router.currentRoute.value.name as string, params: { language: this.currentLanguage, translation: this.currentTranslation } });
+                        router.push({ name: router.currentRoute.value.name as string });
                         break
                     }
                 }
@@ -74,7 +74,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                     if (this.synopses[synopsisIndex].translation == translation) {
                         this.currentSynopsis = this.synopses[synopsisIndex]
                         this.currentTranslation = translation
-                        router.push({ name: router.currentRoute.value.name as string, params: { language: this.currentLanguage, translation: this.currentTranslation } });
+                        router.push({ name: router.currentRoute.value.name as string });
                         break
                     }
                 }
