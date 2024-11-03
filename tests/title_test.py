@@ -67,8 +67,26 @@ def check_main_body_multiplicities(multiple_section_titles, file_name):
         exit(1)
 
 
-def get_neighbouring_ids(section):
-    return set()
+def get_to_leading_key(ev, c1, v1, c2, v2):
+    if c1 == c2 and v1 == v2:
+        return ev + c1 + ',' + v1
+    if c1 == c2:
+        return ev + c1 + ',' + v1 + '-' + v2
+    return ev + c1 + ',' + v1 + '-' + c2 + ',' + v2
+
+
+def get_neighbouring_ids(section, to_leading):
+    ret = set()
+    for evangelist in evangelists:
+        for box in section[evangelist]:
+            if box is not None and box['leading'] is False:
+                first_element = box['content'][0]
+                last_element = box['content'][-1]
+                k = get_to_leading_key(evangelist, first_element['chapter'], first_element['verse'],
+                                       last_element['chapter'], last_element['verse'])
+                ret.add(str(to_leading[k]))
+    return ret
+
 
 def check_parallelism(multiple_section_titles, to_leading, file_name):
     success = True
@@ -77,7 +95,7 @@ def check_parallelism(multiple_section_titles, to_leading, file_name):
         for section in sections:
             section_ids.add(section['id'])
         for section in sections:
-            n = get_neighbouring_ids(section)
+            n = get_neighbouring_ids(section, to_leading)
             n.add(section['id'])
             if n != section_ids:
                 print(f'Incorrect neighbours found. section_title={section['section_title']}')
@@ -85,6 +103,7 @@ def check_parallelism(multiple_section_titles, to_leading, file_name):
     if not success:
         print(f'check_section_titles/check_parallelism test failed. file_name={file_name}')
         exit(1)
+
 
 def check_section_titles(json_loaded, to_leading, file_name):
     multiple_section_titles = get_multiple_section_titles(json_loaded)
