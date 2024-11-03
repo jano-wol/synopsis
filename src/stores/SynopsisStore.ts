@@ -101,7 +101,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
         },
         setupTranslation(translation: string | string[], options : { [key: string]: string[] }) {
-            if (!this.currentTranslation)
+            if (!translation && !this.currentTranslation)
             {
                 this.currentTranslation = options[this.currentLanguage][0]
                 return
