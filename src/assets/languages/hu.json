@@ -8,9 +8,9 @@
         "translations": "Fordítások"
     },
     "tooltips": {
-        "share": "Megosztási link másolása",
-        "location": "Megosztási link másolása Szinopszisban",
-        "openInSynopsis": "Megnyitás a Szinopszisban",
+        "share": "Link másolása",
+        "location": "Link másolása kontextusban",
+        "openInSynopsis": "Megnyitás kontextusban",
         "openSeparately": "Megnyitás külön oldalon",
         "nextMainText": "Következő törzsszöveg",
         "previousMainText": "Előző törzsszöveg",

@@ -55,7 +55,7 @@ export default {
     <ul>
         <li>
             <i class="bi bi-arrow-up-right-square"></i> :
-            <b>Megnyitás elkülönítve.</b>
+            <b>Megnyitás külön oldalon.</b>
             Az adott szekció megnyitása egy különálló, saját aloldalon.
         </li>
         <li>
