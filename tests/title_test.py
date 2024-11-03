@@ -67,10 +67,21 @@ def check_main_body_multiplicities(multiple_section_titles, file_name):
         exit(1)
 
 
+def get_neighbouring_ids(section):
+    return set()
+
 def check_parallelism(multiple_section_titles, to_leading, file_name):
     success = True
     for section_title, sections in multiple_section_titles.items():
-        pass
+        section_ids = set()
+        for section in sections:
+            section_ids.add(section['id'])
+        for section in sections:
+            n = get_neighbouring_ids(section)
+            n.add(section['id'])
+            if n != section_ids:
+                print(f'Incorrect neighbours found. section_title={section['section_title']}')
+                success = False
     if not success:
         print(f'check_section_titles/check_parallelism test failed. file_name={file_name}')
         exit(1)
