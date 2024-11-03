@@ -19,9 +19,9 @@ export default {
 <template>
   <div>
     <div class="row">
-      <h2 class="event text-center display-4 mt-5">
+      <h3 class="event text-center display-5 mt-5">
         {{ part?.part_title }}
-      </h2>
+      </h3>
     </div>
     <Section v-for="section in part.sections" :id="section.id" :key="section.id"/>
   </div>

@@ -1712,7 +1712,7 @@
                 },
                 {
                     "id": "17",
-                    "section_title": "János elfogatása",
+                    "section_title": "Keresztelő János elfogatása",
                     "mt": [
                         {
                             "leading": false,
@@ -1882,7 +1882,7 @@
                 },
                 {
                     "id": "19",
-                    "section_title": "Jézus nemzetségtáblája",
+                    "section_title": "Jézus Krisztus származása",
                     "mt": [
                         {
                             "leading": false,
@@ -2234,7 +2234,7 @@
             "sections": [
                 {
                     "id": "21",
-                    "section_title": "Jézus elhívja első tanítványait",
+                    "section_title": "Az első tanítványok",
                     "mt": [
                         null
                     ],
@@ -3393,7 +3393,7 @@
                 },
                 {
                     "id": "34",
-                    "section_title": "Jézus elhívja első tanítványait",
+                    "section_title": "A tanítványok elhívása",
                     "mt": [
                         {
                             "leading": true,

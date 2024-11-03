@@ -1,5 +1,20 @@
+<script lang="ts">
+import SourcesUsed from "@/components/SourcesUsed.vue"
+import AvailableSources from "@/components/AvailableSources.vue"
+
+export default {
+    components: {
+        SourcesUsed,
+        AvailableSources
+    }
+}
+
+</script>
+
 <template>
-    <h2>Differences compared to sources</h2>
+    <h2 class="fs-3">Sources used</h2>
+    <SourcesUsed />    
+    <h2 class="fs-3">Differences compared to sources</h2>
     <ul>
         <li>
             Secondary parallels are not included.<br>
@@ -51,4 +66,6 @@
             <!-- Note: For details of the unification, see the documentation for contributors. -->
         </li>
     </ul>
+    <h2 class="fs-3">Available sources</h2>
+    <AvailableSources />
 </template>

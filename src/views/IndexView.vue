@@ -12,17 +12,7 @@ export default {
   },
   components: { IndexRecord },
   mounted() {
-    this.delayedRender(1);
-  },
-  methods: {
-    delayedRender(index: number) {
-      if (index < this.synopsisStore.currentSynopsis.parts.length) {
-        setTimeout(() => {
-          this.visibleIndex = index + 1;
-          this.delayedRender(index + 1);
-        }, 1);
-      }
-    }
+    this.synopsisStore.delayedRender(0, () => {this.visibleIndex++});
   }
 }
 

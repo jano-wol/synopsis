@@ -8,7 +8,7 @@ import type { RouteLocationRaw } from 'vue-router';
 import synopsisKG from '@/assets/translations/kg.json'
 import synopsisSZIT from '@/assets/translations/szit.json'
 import synopsisKNB from '@/assets/translations/knb.json'
-import synopsisUF from '@/assets/translations/uf.json'
+import synopsisRUF from '@/assets/translations/ruf.json'
 import synopsisESV from '@/assets/translations/esv.json'
 import synopsisBT from '@/assets/translations/bt.json'
 import synopsisBJW from '@/assets/translations/bjw.json'
@@ -24,7 +24,7 @@ export const useSynopsisStore = defineStore('synopsis', {
         return {
             currentDictionary: dictionaryHu,
             currentLanguage: "hu",
-            currentTranslation: "KG",
+            currentTranslation: "",
             currentSynopsis: synopsisKG,
             dictionary: {
                hu: dictionaryHu as DictionaryScheme,
@@ -34,7 +34,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisKG as SynopsisScheme,
                 synopsisSZIT as SynopsisScheme,
                 synopsisKNB as SynopsisScheme,
-                synopsisUF as SynopsisScheme,
+                synopsisRUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme,
                 synopsisBT as SynopsisScheme,
                 synopsisBJW as SynopsisScheme,
@@ -63,8 +63,8 @@ export const useSynopsisStore = defineStore('synopsis', {
     
                         this.currentSynopsis = this.synopses[synopsisIndex]
                         this.currentTranslation = this.currentSynopsis.translation
-                        router.push({ name: router.currentRoute.value.name as string, params: { language: this.currentLanguage, translation: this.currentTranslation } });
-                        break
+                        router.push({ name: router.currentRoute.value.name as string });
+                        return
                     }
                 }
             })
@@ -76,8 +76,8 @@ export const useSynopsisStore = defineStore('synopsis', {
                     if (this.synopses[synopsisIndex].translation == translation) {
                         this.currentSynopsis = this.synopses[synopsisIndex]
                         this.currentTranslation = translation
-                        router.push({ name: router.currentRoute.value.name as string, params: { language: this.currentLanguage, translation: this.currentTranslation } });
-                        break
+                        router.push({ name: router.currentRoute.value.name as string });
+                        return
                     }
                 }
             })
@@ -99,14 +99,21 @@ export const useSynopsisStore = defineStore('synopsis', {
                 if (language === this.synopses[synopsisIndex].language) {
                     this.currentDictionary = this.dictionary[language as keyof typeof this.dictionary]
                     this.currentLanguage = language
+                    return
                 }
             }
         },
-        setupTranslation(translation: string | string[]) {
+        setupTranslation(translation: string | string[], options : { [key: string]: string[] }) {
+            if (!translation && !this.currentTranslation)
+            {
+                this.currentTranslation = options[this.currentLanguage][0]
+                return
+            }
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (translation === this.synopses[synopsisIndex].translation) {
                     this.currentTranslation = translation
                     this.currentSynopsis = this.synopses[synopsisIndex]
+                    return
                 }
             }
         },
@@ -127,6 +134,14 @@ export const useSynopsisStore = defineStore('synopsis', {
                 router.push(redirectRoute)
               }
             )
+        },
+        delayedRender(index: number, preRender: () => void) {
+            preRender()
+            if (index < this.currentSynopsis.parts.length) {
+              setTimeout(() => {
+                this.delayedRender(index + 1, preRender);
+              }, 0);
+            }
         },
     }
 })
