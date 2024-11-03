@@ -133,5 +133,13 @@ export const useSynopsisStore = defineStore('synopsis', {
               }
             )
         },
+        delayedRender(index: number, preRender: () => void) {
+            preRender()
+            if (index < this.currentSynopsis.parts.length) {
+              setTimeout(() => {
+                this.delayedRender(index + 1, preRender);
+              }, 0);
+            }
+        },
     }
 })
