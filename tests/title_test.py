@@ -4,7 +4,7 @@ import sys
 
 from file_utils import iterate_jsons, load_json
 
-checked_translations = ['kg', 'esv', 'szit', 'bt', 'bjw', 'nv', 'sblgnt']
+checked_translations = ['kg', 'esv', 'szit', 'bt', 'bjw', 'nv', 'sblgnt', 'knb']
 evangelists = ['mt', 'mk', 'lk', 'jn']
 
 
