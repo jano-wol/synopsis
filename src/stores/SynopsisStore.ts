@@ -8,7 +8,7 @@ import type { RouteLocationRaw } from 'vue-router';
 import synopsisKG from '@/assets/translations/kg.json'
 import synopsisSZIT from '@/assets/translations/szit.json'
 import synopsisKNB from '@/assets/translations/knb.json'
-import synopsisUF from '@/assets/translations/uf.json'
+import synopsisRUF from '@/assets/translations/ruf.json'
 import synopsisESV from '@/assets/translations/esv.json'
 import synopsisBT from '@/assets/translations/bt.json'
 import synopsisBJW from '@/assets/translations/bjw.json'
@@ -33,7 +33,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisKG as SynopsisScheme,
                 synopsisSZIT as SynopsisScheme,
                 synopsisKNB as SynopsisScheme,
-                synopsisUF as SynopsisScheme,
+                synopsisRUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme,
                 synopsisBT as SynopsisScheme,
                 synopsisBJW as SynopsisScheme,
