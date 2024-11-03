@@ -9,7 +9,7 @@ import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
-  "hu": ["KG", "SZIT", "KNB", "UF"],
+  "hu": ["KG", "SZIT", "KNB", "RUF"],
   "en": ["ESV", "BT", "BJW", "SBLGNT", "NV"]
 }
 
