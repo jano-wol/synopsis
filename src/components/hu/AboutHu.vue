@@ -26,7 +26,7 @@ export default {
             A Szinopszis 18 <b>részből</b> áll, amelyek az evangélium átfogó eseményeit tagolják. A részeket római számokkal jelöljük.
         </li>
         <li>
-            A Szinopszis <router-link :to="{ name: 'sources' }">365</router-link> <b>szekcióból</b> áll, amelyek a <b>részeket</b> taglalják. A szekciókat arab számokkal jelöljük.
+            A Szinopszis 362* <b>szekcióból</b> áll, amelyek a <b>részeket</b> taglalják. A szekciókat arab számokkal jelöljük.
         </li> 
     </ul>
 
@@ -36,7 +36,7 @@ export default {
     <ul>
         <li>
             <b>Törzsszöveg:</b>
-            Minden <b>szekcióban</b> egy evangélistához, legfeljebb egy törzsszöveg található. A törzsszövegek összeolvasva a teljes evangéliumot tartalmazzák, ismétlődések nélkül, a versek eredeti sorrendjében.<br>
+            Minden <b>szekcióban</b> egy evangélistához, pontosan egy* törzsszöveg található. A törzsszövegek összeolvasva a teljes evangéliumot tartalmazzák, ismétlődések nélkül, a versek eredeti sorrendjében.<br>
             A törzsszöveg vastag keretes, szürke fejléces szövegdobozban jelenik meg. A
             <router-link    :to="{ name: 'index' }">tartalomjegyzékben</router-link>
             vastag kiemeléssel szerepelnek
@@ -87,7 +87,8 @@ export default {
     </ul>
 
     <p>
-        További részletek a <router-link
-            :to="{ name: 'sources' }">Források</router-link> menüpont alatt találhatók.
+        
     </p>
+
+    <p class="small">* Eltérés a forrástól. További részletek a <router-link :to="{ name: 'sources' }">Források</router-link> menüpont alatt találhatók.</p>
 </template>

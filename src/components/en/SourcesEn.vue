@@ -29,6 +29,11 @@ export default {
         </li>
         <br>
         <li>
+            Section 358, 359 and 360. is not included.<br>
+            Reason: These sections does not contain leading text.<br>
+            Note: The numbering of other parts remains the same.
+        </li>
+        <li>
             Section 361 is not not included.<br>
             Reason: It refers to 1Cor15,3-8, which is not part of the four gospels.<br>
             Note: The numbering of other parts remains the same.
