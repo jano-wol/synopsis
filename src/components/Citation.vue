@@ -43,8 +43,8 @@ export default {
           break
       }
       this.synopsisStore.pushToHistoryAndRedirect(
-        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + this.sectionId },
-        { name: "synopsis", params: { language: this.synopsisStore.currentLanguage, translation: this.synopsisStore.currentTranslation }, hash: "#" + redirectionSectionId }
+        { name: "synopsis", hash: "#" + this.sectionId },
+        { name: "synopsis", hash: "#" + redirectionSectionId }
       )
     },
     isLastSection(evangelist: string) {

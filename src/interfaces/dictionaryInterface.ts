@@ -1,7 +1,6 @@
 export interface DictionaryScheme {
     menu: MenuScheme,
     tooltips: TooltipsScheme,
-    index: IndexScheme,
     notFound: NotFoundScheme
 }
 
@@ -22,10 +21,6 @@ interface TooltipsScheme {
     nextMainText: string,
     previousMainText: string,
     jumpToMainText: string
-}
-
-interface IndexScheme {
-    title: string 
 }
 
 interface NotFoundScheme {

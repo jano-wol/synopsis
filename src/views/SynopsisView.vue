@@ -23,33 +23,23 @@ export default {
       this.synopsisStore.isLoading = true
       this.showScroller = true
     }
-    this.delayedRender(0);
+    this.synopsisStore.delayedRender(0, this.scrollToAnchor);
   },
   methods: {
-    delayedRender(index: number) {
-      if (!this.scrolledToAnchor) {
-        this.scrollToAnchor();
-      }
-      if (index < this.synopsisStore.currentSynopsis.parts.length) {
-        setTimeout(() => {
-          this.visibleIndex = index + 1;
-          this.delayedRender(index + 1);
-        }, 0);
-      }
-    },
     scrollToAnchor() {
-        if (this.hash) {
-          const anchorElement = document.getElementById(this.hash);
-          if (anchorElement) {
-            setTimeout(()=>
-            {
-              this.showScroller = false
-              this.scrolledToAnchor = true
-              anchorElement.scrollIntoView();
-              this.synopsisStore.isLoading = false
-            }, 0)
-          }
+      this.visibleIndex++;
+      if (this.hash && !this.scrolledToAnchor) {
+        const anchorElement = document.getElementById(this.hash);
+        if (anchorElement) {
+          setTimeout(()=>
+          {
+            this.showScroller = false
+            this.scrolledToAnchor = true
+            anchorElement.scrollIntoView();
+            this.synopsisStore.isLoading = false
+          }, 0)
         }
+      }
     },
     isValidHash(hash: string) {
       return parseInt(hash) > 0 && parseInt(hash) < 368 && parseInt(hash) !== 361 && parseInt(hash) !== 362

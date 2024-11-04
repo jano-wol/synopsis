@@ -26,7 +26,7 @@ export default {
             A Szinopszis 18 <b>részből</b> áll, amelyek az evangélium átfogó eseményeit tagolják. A részeket római számokkal jelöljük.
         </li>
         <li>
-            A Szinopszis 365* <b>szekcióból</b> áll, amelyek a <b>részeket</b> taglalják. A szekciókat arab számokkal jelöljük.
+            A Szinopszis 362* <b>szekcióból</b> áll, amelyek a <b>részeket</b> taglalják. A szekciókat arab számokkal jelöljük.
         </li> 
     </ul>
 
@@ -36,11 +36,11 @@ export default {
     <ul>
         <li>
             <b>Törzsszöveg:</b>
-            Minden <b>szekcióban</b> egy evangélistához, legfeljebb egy törzsszöveg található. A törzsszövegek összeolvasva a teljes evangéliumot tartalmazzzák, ismétlődések nélkül, a versek eredeti sorrendjében.<br>
+            Minden <b>szekcióban</b> egy evangélistához, pontosan egy* törzsszöveg található. A törzsszövegek összeolvasva a teljes evangéliumot tartalmazzák, ismétlődések nélkül, a versek eredeti sorrendjében.<br>
             A törzsszöveg vastag keretes, szürke fejléces szövegdobozban jelenik meg. A
-            <router-link    :to="{ name: 'index', params: { language: synopsisStore.currentLanguage, translation: synopsisStore.currentTranslation } }">tartalomjegyzékben</router-link>
+            <router-link    :to="{ name: 'index' }">tartalomjegyzékben</router-link>
             vastag kiemeléssel szerepelnek
-            a hozzá tartozó idézetek. 
+            a hozzá tartozó versek.
         </li>
         <li>
             <b>Párhuzamos szöveg:</b>
@@ -55,7 +55,7 @@ export default {
     <ul>
         <li>
             <i class="bi bi-arrow-up-right-square"></i> :
-            <b>Megnyitás elkülönítve.</b>
+            <b>Megnyitás külön oldalon.</b>
             Az adott szekció megnyitása egy különálló, saját aloldalon.
         </li>
         <li>
@@ -77,17 +77,18 @@ export default {
         <li>
             <i class="bi bi-arrow-up"></i> :
             <b>Átirányítás az előző törzsszövegre.</b>
-            Az adott törzsszöveg folytatásához való navigálás.
+            Az adott törzsszöveg előzményéhez való navigálás.
         </li>
         <li>
             <i class="bi bi-arrow-down"></i> :
             <b>Átirányítás a következő törzsszövegre.</b>
-            Az adott törzsszöveg előzményéhez való navigálás.
+            Az adott törzsszöveg folytatásához való navigálás.
         </li>
     </ul>
 
     <p>
-        További részletekért lásd a <router-link
-            :to="{ name: 'sources', params: { language: synopsisStore.currentLanguage } }">Források</router-link> menüpontot.
+        
     </p>
+
+    <p class="small">* Eltérés a forrástól. További részletek a <router-link :to="{ name: 'sources' }">Források</router-link> menüpont alatt találhatók.</p>
 </template>
