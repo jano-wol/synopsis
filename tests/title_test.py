@@ -76,29 +76,28 @@ def get_to_leading_key(ev, c1, v1, c2, v2):
 
 
 def get_neighbouring_ids(section, to_leading):
-    ret = set()
-    for evangelist in evangelists:
-        for box in section[evangelist]:
-            if box is not None and box['leading'] is False:
-                first_element = box['content'][0]
-                last_element = box['content'][-1]
-                k = get_to_leading_key(evangelist, first_element['chapter'], first_element['verse'],
-                                       last_element['chapter'], last_element['verse'])
-                ret.add(str(to_leading[k]))
-    return ret
+    return {
+        str(to_leading[get_to_leading_key(
+            evangelist,
+            box['content'][0]['chapter'], box['content'][0]['verse'],
+            box['content'][-1]['chapter'], box['content'][-1]['verse']
+        )])
+        for evangelist in evangelists
+        for box in section[evangelist]
+        if box and not box['leading']
+    }
 
 
 def check_parallelism(multiple_section_titles, to_leading, file_name):
     success = True
     for section_title, sections in multiple_section_titles.items():
-        section_ids = set()
+        section_ids = {section['id'] for section in sections}
         for section in sections:
-            section_ids.add(section['id'])
-        for section in sections:
+            section_id = section['id']
             n = get_neighbouring_ids(section, to_leading)
-            n.add(section['id'])
+            n.add(section_id)
             if not section_ids.issubset(n):
-                print(f'Incorrect neighbours found. section_title={section['section_title']} id={section['id']}')
+                print(f'Incorrect neighbours found. section_title={section['section_title']} id={section_id}')
                 success = False
     if not success:
         print(f'check_section_titles/check_parallelism test failed. file_name={file_name}')
