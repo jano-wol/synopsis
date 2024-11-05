@@ -28,6 +28,11 @@ export default {
         </li>
         <br>
         <li>
+            A 358., 359., 360. szekció nem szerepel.<br>
+            Indoklás: Ezek a szekciók nem tartalmaznak törzsszöveget.<br>
+            Megjegyzés: A további fejezetek számozása nem változik.
+        </li>
+        <li>
             A 361. szekció nem szerepel.<br>
             Indoklás: 1Kor15,3-8 fejezetre hivatkozik, amely nem része a négy evangéliumnak.<br>
             Megjegyzés: A további fejezetek számozása nem változik.
