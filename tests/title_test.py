@@ -2,9 +2,9 @@ import os
 import re
 import sys
 
-from file_utils import iterate_jsons
+from file_utils import iterate_jsons, load_json
 
-checked_translations = ['kg', 'esv', 'szit', 'knb', 'bt', 'bjw', 'nv', 'sblgnt']
+checked_translations = ['szit']
 evangelists = ['mt', 'mk', 'lk', 'jn']
 
 
@@ -40,40 +40,91 @@ def get_main_body_counts(section):
     ]
 
 
-def check_section_titles(json_loaded, file_name):
-    success = True
-    check_section_titles_dict = {}
+def get_multiple_section_titles(json_loaded):
+    multiple_section_titles = {}
     for p in json_loaded['parts']:
         for section in p['sections']:
             section_title = section['section_title']
-            main_body_counts = get_main_body_counts(section)
-            add_to_dict(check_section_titles_dict, section_title, main_body_counts)
-    for section_title, main_body_counts in check_section_titles_dict.items():
-        summary = [sum(count[idx] for count in main_body_counts) for idx in range(4)]
+            if section_title in multiple_section_titles:
+                multiple_section_titles[section_title].append(section)
+            else:
+                multiple_section_titles[section_title] = [section]
+    multiple_section_titles = {k: v for k, v in multiple_section_titles.items() if len(v) > 1}
+    return multiple_section_titles
+
+
+def check_main_body_multiplicities(multiple_section_titles, file_name):
+    success = True
+    for section_title, sections in multiple_section_titles.items():
+        summary = [sum(get_main_body_counts(section)[idx] for section in sections) for idx in range(4)]
         for idx, count in enumerate(summary):
             if count >= 2:
                 print(
-                    f'Repeated section titles found for different main bodies. file_name={file_name}; section_title={section_title}; Evangelist={evangelists[idx]}')
+                    f'Repeated section titles found for different main bodies. section_title={section_title}; Evangelist={evangelists[idx]}')
                 success = False
     if not success:
-        print('Section title test failed.')
+        print(f'check_section_titles/check_main_body_multiplicities test failed. file_name={file_name}')
         exit(1)
 
 
-def check_translation(json_loaded, file_name):
+def get_to_leading_key(ev, c1, v1, c2, v2):
+    if c1 == c2 and v1 == v2:
+        return ev + c1 + ',' + v1
+    if c1 == c2:
+        return ev + c1 + ',' + v1 + '-' + v2
+    return ev + c1 + ',' + v1 + '-' + c2 + ',' + v2
+
+
+def get_neighbouring_ids(section, to_leading):
+    return {
+        str(to_leading[get_to_leading_key(
+            evangelist,
+            box['content'][0]['chapter'], box['content'][0]['verse'],
+            box['content'][-1]['chapter'], box['content'][-1]['verse']
+        )])
+        for evangelist in evangelists
+        for box in section[evangelist]
+        if box and not box['leading']
+    }
+
+
+def check_parallelism(multiple_section_titles, to_leading, file_name):
+    success = True
+    for section_title, sections in multiple_section_titles.items():
+        section_ids = {section['id'] for section in sections}
+        for section in sections:
+            section_id = section['id']
+            n = get_neighbouring_ids(section, to_leading)
+            n.add(section_id)
+            if not section_ids.issubset(n):
+                print(f'Incorrect neighbours found. section_title={section['section_title']} id={section_id}')
+                success = False
+    if not success:
+        print(f'check_section_titles/check_parallelism test failed. file_name={file_name}')
+        exit(1)
+
+
+def check_section_titles(json_loaded, to_leading, file_name):
+    multiple_section_titles = get_multiple_section_titles(json_loaded)
+    check_main_body_multiplicities(multiple_section_titles, file_name)
+    check_parallelism(multiple_section_titles, to_leading, file_name)
+
+
+def check_translation(json_loaded, to_leading, file_name):
     check_part_titles(json_loaded, file_name)
-    check_section_titles(json_loaded, file_name)
+    check_section_titles(json_loaded, to_leading, file_name)
 
 
 def main():
     file_flags = {file_name: False for file_name in checked_translations}
     json_folder = sys.argv[1]
+    to_leading = load_json(sys.argv[2])
     for json_loaded, json_path in iterate_jsons(json_folder):
         file_name = os.path.basename(json_path)
         file_base_name = os.path.splitext(file_name)[0]
         if file_base_name in checked_translations:
             file_flags[file_base_name] = True
-            check_translation(json_loaded, file_name)
+            check_translation(json_loaded, to_leading, file_name)
     for file_name, tested in file_flags.items():
         if not tested:
             print(f'Test fail: {file_name}.json was not tested.')
