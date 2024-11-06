@@ -29,7 +29,7 @@ export default {
         </li>
         <br>
         <li>
-            Sections 358, 359, and 360 are not included.<br>
+            Sections 358, 359 and 360 are not included.<br>
             Reason: These sections do not contain body text.<br>
             Note: The numbering of other parts remains the same.
         </li>
