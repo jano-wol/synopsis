@@ -9,7 +9,7 @@ import Section from '@/components/Section.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
-  "hu": ["KG", "SZIT", "KNB", "UF"],
+  "hu": ["KG", "SZIT", "KNB", "RUF"],
   "en": ["ESV", "BT", "BJW", "SBLGNT", "NV"]
 }
 
@@ -50,32 +50,32 @@ const router = createRouter({
     ...languageDefaultRedirect(),
     ...translationDefaultRedirect(),
     {
-      path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}`,
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?`,
       name: 'synopsis',
       component: SynopsisView
     },
     {
-      path: `/:language${languageOptionsRegex}/about`,
+      path: `/:language${languageOptionsRegex}?/about`,
       name: 'about',
       component: AboutView
     },
     {
-      path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}/index`,
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/index`,
       name: 'index',
       component: IndexView
     },
     {
-      path: `/:language${languageOptionsRegex}/sources`,
+      path: `/:language${languageOptionsRegex}?/sources`,
       name: 'sources',
       component: SourcesView
     },
     {
-      path: `/:language${languageOptionsRegex}/contact`,
+      path: `/:language${languageOptionsRegex}?/contact`,
       name: 'contact',
       component: ContactView
     },
     {
-      path: `/:language${languageOptionsRegex}/:translation${translationOptionsRegex}/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])`,
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/:id([1-9]|[1-9]\\d|[12]\\d{2}|3[0-5]\\d|36[0-7])`,
       name: 'section',
       component: Section,
       props: true
@@ -111,8 +111,32 @@ const router = createRouter({
   },
 })
 
-router.beforeEach((to) => {
+router.beforeEach((to, from, next) => {
   useSynopsisStore().setupLanguage(to.params.language)
-  useSynopsisStore().setupTranslation(to.params.translation)
+  useSynopsisStore().setupTranslation(to.params.translation, options)
+  
+  const requiresLanguage = to.matched.some((record) => {
+    return record.path.includes(`/:language${languageOptionsRegex}?`);
+  });
+  const requiresTranslation = to.matched.some((record) => {
+    return record.path.includes(`/:translation${translationOptionsRegex}?`);
+  });
+  let params = { ...to.params }
+  if (requiresLanguage)
+  {
+    params.language = useSynopsisStore().currentLanguage
+  }
+  if (requiresTranslation)
+  {
+    params.translation = useSynopsisStore().currentTranslation
+  }
+
+  
+  if (params.language !== to.params.language || params.translation !== to.params.translation) {
+    next({ ...to, params: params });
+  } else {
+    next();
+  }
+
 })
 export default router

@@ -1,5 +1,20 @@
+<script lang="ts">
+import SourcesUsed from "@/components/SourcesUsed.vue"
+import AvailableSources from "@/components/AvailableSources.vue"
+
+export default {
+    components: {
+        SourcesUsed,
+        AvailableSources
+    }
+}
+
+</script>
+
 <template>
-    <h2>Eltérések a forrásoktól</h2>
+    <h2 class="fs-3">Felhasznált források</h2>
+    <SourcesUsed />    
+    <h2 class="fs-3">Eltérések a forrásoktól</h2>
     <ul>
         <li>
             A másodlagos párhuzamok nem szerepelnek.<br>
@@ -12,6 +27,11 @@
             Megjegyzés: A törzsszöveg folytonossága így fennmarad.
         </li>
         <br>
+        <li>
+            A 358., 359., 360. szekció nem szerepel.<br>
+            Indoklás: Ezek a szekciók nem tartalmaznak törzsszöveget.<br>
+            Megjegyzés: A további fejezetek számozása nem változik.
+        </li>
         <li>
             A 361. szekció nem szerepel.<br>
             Indoklás: 1Kor15,3-8 fejezetre hivatkozik, amely nem része a négy evangéliumnak.<br>
@@ -50,4 +70,6 @@
             <!-- Megjegyzés: Az egységesítés szempontjait lásd a contributorok számára készített dokumentációban.  -->
         </li>
     </ul>
+    <h2 class="fs-3">Felhasználható források</h2>
+    <AvailableSources />
 </template>

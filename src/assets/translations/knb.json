@@ -173,7 +173,7 @@
             "sections": [
                 {
                     "id": "2",
-                    "section_title": "Keresztelő János születésének igérete",
+                    "section_title": "Keresztelő János születésének ígérete",
                     "mt": [
                         null
                     ],
@@ -298,7 +298,7 @@
                 },
                 {
                     "id": "3",
-                    "section_title": "Jézus születésének igérete",
+                    "section_title": "Jézus születésének ígérete",
                     "mt": [
                         null
                     ],
@@ -1712,7 +1712,7 @@
                 },
                 {
                     "id": "17",
-                    "section_title": "János elfogatása",
+                    "section_title": "Keresztelő János elfogatása",
                     "mt": [
                         {
                             "leading": false,
@@ -1882,7 +1882,7 @@
                 },
                 {
                     "id": "19",
-                    "section_title": "Jézus nemzetségi táblázata",
+                    "section_title": "Jézus Krisztus származása",
                     "mt": [
                         {
                             "leading": false,
@@ -2230,11 +2230,11 @@
             ]
         },
         {
-            "part_title": "IV. Jézus nyilvános működésének kezedete (János szerint)",
+            "part_title": "IV. Jézus nyilvános működésének kezdete (János szerint)",
             "sections": [
                 {
                     "id": "21",
-                    "section_title": "Jézus elhívja első tanítványait",
+                    "section_title": "Az első tanítványok",
                     "mt": [
                         null
                     ],
@@ -3393,7 +3393,7 @@
                 },
                 {
                     "id": "34",
-                    "section_title": "Jézus elhívja első tanítványait",
+                    "section_title": "A tanítványok elhívása",
                     "mt": [
                         {
                             "leading": true,
@@ -4640,7 +4640,7 @@
                 },
                 {
                     "id": "48",
-                    "section_title": "Jézus sok beteget gyógyít a tenger mellett",
+                    "section_title": "Jézus sok beteget meggyógyít a tenger mellett",
                     "mt": [
                         {
                             "leading": false,
@@ -4741,7 +4741,7 @@
                 },
                 {
                     "id": "49",
-                    "section_title": "A tizenkét tanítvány elhívása",
+                    "section_title": "A tizenkét apostol kiválasztása",
                     "mt": [
                         {
                             "leading": false,
@@ -9121,7 +9121,7 @@
                 },
                 {
                     "id": "99",
-                    "section_title": "Jézus kiküldi tizenkét tanítványát",
+                    "section_title": "Jézus elküldi tizenkét apostolát",
                     "mt": [
                         {
                             "leading": true,
@@ -10544,7 +10544,7 @@
                 },
                 {
                     "id": "113",
-                    "section_title": "Jézus sok beteget gyógyít a tenger mellett",
+                    "section_title": "Jézus sok beteget meggyógyít a tenger mellett",
                     "mt": [
                         {
                             "leading": true,
@@ -13599,7 +13599,7 @@
                 },
                 {
                     "id": "142",
-                    "section_title": "Jézus kiküldi tizenkét tanítványát",
+                    "section_title": "Jézus elküldi tizenkét apostolát",
                     "mt": [
                         {
                             "leading": false,
@@ -13982,7 +13982,7 @@
                 },
                 {
                     "id": "145",
-                    "section_title": "A tanítványok visszatérése",
+                    "section_title": "Az apostolok visszatérése",
                     "mt": [
                         null
                     ],
@@ -15613,7 +15613,7 @@
                 },
                 {
                     "id": "158",
-                    "section_title": "Péter vallástétele",
+                    "section_title": "Péter vallomása",
                     "mt": [
                         {
                             "leading": true,
@@ -17214,7 +17214,7 @@
                 },
                 {
                     "id": "177",
-                    "section_title": "Jézus kiküldi hetvenkét tanítványát",
+                    "section_title": "Jézus elküldi hetvenkét tanítványát",
                     "mt": [
                         {
                             "leading": false,
@@ -28474,7 +28474,7 @@
                 },
                 {
                     "id": "302",
-                    "section_title": "A földbe esett búzaszem",
+                    "section_title": "A földbe hullott gabonaszem",
                     "mt": [
                         null
                     ],
@@ -30145,7 +30145,7 @@
                 },
                 {
                     "id": "318",
-                    "section_title": "A másik Pártfogó igérete",
+                    "section_title": "A Szentlélek elküldésének ígérete",
                     "mt": [
                         null
                     ],
@@ -30455,7 +30455,7 @@
                 },
                 {
                     "id": "323",
-                    "section_title": "A Pártfogó bizonyságtétele",
+                    "section_title": "A Vigasztaló tanúságtétele",
                     "mt": [
                         null
                     ],
@@ -34160,186 +34160,6 @@
                             ]
                         }
                     ]
-                },
-                {
-                    "id": "358",
-                    "section_title": "Az apostolok kiküldése",
-                    "mt": [
-                        null
-                    ],
-                    "mk": [
-                        {
-                            "leading": false,
-                            "content": [
-                                {
-                                    "text": "Végül megjelent a tizenegynek, amikor asztalnál ültek. Szemükre vetette hitetlenségüket és szívük keménységét, hogy nem hittek azoknak, akik őt feltámadása után látták.",
-                                    "chapter": "16",
-                                    "verse": "14"
-                                },
-                                {
-                                    "text": "Azután ezt mondta nekik: »Menjetek el az egész világra, és hirdessétek az evangéliumot minden teremtménynek.",
-                                    "chapter": "16",
-                                    "verse": "15"
-                                },
-                                {
-                                    "text": "Aki hisz és megkeresztelkedik, az üdvözül; aki pedig nem hisz, elkárhozik.",
-                                    "chapter": "16",
-                                    "verse": "16"
-                                },
-                                {
-                                    "text": "Azokat, akik hisznek, ezek a jelek fogják kísérni: a nevemben ördögöket űznek ki, új nyelveken szólnak,",
-                                    "chapter": "16",
-                                    "verse": "17"
-                                },
-                                {
-                                    "text": "kígyókat vesznek fel, és ha valami halálosat isznak, nem árt nekik; a betegekre teszik kezüket, és azok meggyógyulnak.«",
-                                    "chapter": "16",
-                                    "verse": "18"
-                                }
-                            ]
-                        }
-                    ],
-                    "lk": [
-                        null
-                    ],
-                    "jn": [
-                        null
-                    ]
-                },
-                {
-                    "id": "359",
-                    "section_title": "Jézus megjelenik a tizenegy tanítványnak Galileában egy hegyen. Az apostolok kiküldése",
-                    "mt": [
-                        {
-                            "leading": false,
-                            "content": [
-                                {
-                                    "text": "A tizenegy tanítvány pedig elment Galileába, arra a hegyre, ahova Jézus rendelte őket.",
-                                    "chapter": "28",
-                                    "verse": "16"
-                                },
-                                {
-                                    "text": "Amikor meglátták őt, leborultak, bár egyesek még kételkedtek.",
-                                    "chapter": "28",
-                                    "verse": "17"
-                                },
-                                {
-                                    "text": "Jézus odament és azt mondta nekik: »Nekem adatott minden hatalom a mennyben és a földön.",
-                                    "chapter": "28",
-                                    "verse": "18"
-                                },
-                                {
-                                    "text": "Menjetek tehát, és tegyetek tanítvánnyá minden népet. Kereszteljétek meg őket az Atya és a Fiú és a Szentlélek nevében,",
-                                    "chapter": "28",
-                                    "verse": "19"
-                                },
-                                {
-                                    "text": "és tanítsátok meg őket arra, hogy megtartsák mindazt, amit parancsoltam nektek! És íme, én veletek vagyok minden nap a világ végéig!«",
-                                    "chapter": "28",
-                                    "verse": "20"
-                                }
-                            ]
-                        }
-                    ],
-                    "mk": [
-                        null
-                    ],
-                    "lk": [
-                        null
-                    ],
-                    "jn": [
-                        null
-                    ]
-                },
-                {
-                    "id": "360",
-                    "section_title": "Jézus megjelenik a tanítványoknak a Tibériás tengernél",
-                    "mt": [
-                        null
-                    ],
-                    "mk": [
-                        null
-                    ],
-                    "lk": [
-                        null
-                    ],
-                    "jn": [
-                        {
-                            "leading": false,
-                            "content": [
-                                {
-                                    "text": "Ezek után Jézus ismét megjelent a tanítványoknak a Tibériási tengernél. Így jelent meg:",
-                                    "chapter": "21",
-                                    "verse": "1"
-                                },
-                                {
-                                    "text": "Együtt volt Simon Péter, Tamás, akit Ikernek hívnak, a galileai Kánából való Natanael, Zebedeus fiai, és még másik kettő a tanítványai közül.",
-                                    "chapter": "21",
-                                    "verse": "2"
-                                },
-                                {
-                                    "text": "Simon Péter azt mondta nekik: »Megyek halászni.« Azok azt felelték: »Megyünk veled mi is.« Elindultak tehát, és beszálltak a bárkába, de azon az éjszakán semmit sem fogtak.",
-                                    "chapter": "21",
-                                    "verse": "3"
-                                },
-                                {
-                                    "text": "Amikor már megvirradt, Jézus a parton állt, de a tanítványok nem tudták, hogy Jézus az.",
-                                    "chapter": "21",
-                                    "verse": "4"
-                                },
-                                {
-                                    "text": "Jézus azt mondta nekik: »Fiaim, nincs valami ennivalótok?« Azt felelték: »Nincsen!«",
-                                    "chapter": "21",
-                                    "verse": "5"
-                                },
-                                {
-                                    "text": "Ő ekkor azt mondta nekik: »Vessétek a hálót a bárka jobb oldalára, és találni fogtok!« Kivetették, de kihúzni már nem tudták a tömérdek hal miatt.",
-                                    "chapter": "21",
-                                    "verse": "6"
-                                },
-                                {
-                                    "text": "Akkor az a tanítvány, akit Jézus szeretett, így szólt Péterhez: »Az Úr az!« Amint Simon Péter meghallotta, hogy az Úr az, magára öltötte köntösét, mert neki volt vetkőzve, és a tengerbe vetette magát.",
-                                    "chapter": "21",
-                                    "verse": "7"
-                                },
-                                {
-                                    "text": "A többi tanítvány pedig a bárkával jött ki, mert nem voltak messze a parttól, csak mintegy kétszáz könyöknyire, és húzták maguk után a halakkal telt hálót.",
-                                    "chapter": "21",
-                                    "verse": "8"
-                                },
-                                {
-                                    "text": "Amikor partra szálltak, égő parazsat pillantottak meg, rajta halat és mellette kenyeret.",
-                                    "chapter": "21",
-                                    "verse": "9"
-                                },
-                                {
-                                    "text": "Jézus azt mondta nekik: »Hozzatok a halakból, amelyeket most fogtatok!«",
-                                    "chapter": "21",
-                                    "verse": "10"
-                                },
-                                {
-                                    "text": "Erre Simon Péter visszament, és partra vonta a hálót, amely meg volt tömve százötvenhárom nagy hallal. És bár ennyi volt, nem szakadozott a háló.",
-                                    "chapter": "21",
-                                    "verse": "11"
-                                },
-                                {
-                                    "text": "Jézus azt mondta nekik: »Gyertek, egyetek!« A tanítványok közül senki sem merte őt megkérdezni: »Ki vagy te?« Tudták ugyanis, hogy az Úr az.",
-                                    "chapter": "21",
-                                    "verse": "12"
-                                },
-                                {
-                                    "text": "Jézus odament, fogta a kenyeret, és odaadta nekik, ugyanígy a halat is.",
-                                    "chapter": "21",
-                                    "verse": "13"
-                                },
-                                {
-                                    "text": "Jézus ekkor már harmadszor jelent meg a tanítványainak azóta, hogy föltámadt a halálból.",
-                                    "chapter": "21",
-                                    "verse": "14"
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         },
@@ -34428,7 +34248,7 @@
                 },
                 {
                     "id": "364",
-                    "section_title": "Máté befejezése: az apostolok kiküldése",
+                    "section_title": "Máté befejezése: az apostolok küldetése",
                     "mt": [
                         {
                             "leading": true,
