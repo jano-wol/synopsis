@@ -97,7 +97,8 @@ def check_parallelism(multiple_section_titles, to_leading, file_name):
             n = get_neighbouring_ids(section, to_leading)
             n.add(section_id)
             if not section_ids.issubset(n):
-                print(f'Incorrect neighbours found. section_title={section['section_title']} id={section_id}')
+                title = section['section_title']
+                print(f'Incorrect neighbours found. section_title={title} id={section_id}')
                 success = False
     if not success:
         print(f'check_section_titles/check_parallelism test failed. file_name={file_name}')
