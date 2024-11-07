@@ -116,6 +116,16 @@ class BibleSec:
     def fix_close_sec(self):
         self.end = self.end.next()
 
+    def intersect(self, other: 'BibleSec') -> 'BibleSec':
+        if self.is_empty() or other.is_empty():
+            return self
+        start = max(self.start, other.start)
+        end = min(self.end, other.end)
+        return BibleSec(start, end)
+
+    def is_intersect(self, other: 'BibleSec') -> bool:
+        return not self.intersect(other).is_empty()
+
     @classmethod
     def from_closed_string(cls, closed_str: str) -> 'BibleSec':
         if '-' in closed_str:
