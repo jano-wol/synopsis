@@ -59,6 +59,8 @@ def main():
     bible_path = translation_folder + '/' + 'kg.json'
     bible_json = load_json(bible_path)
     print(BibleRef.bible_ref_list)
+    for x in BibleRef.bible_ref_list:
+        assert BibleRef.from_repr(str(x)) == x
     intervals = get_body_intervals(bible_json)
     to_leading_path = redirect_folder + '/' + 'toLeading.json'
     to_leading_json = load_json(to_leading_path)
