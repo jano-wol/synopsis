@@ -32,7 +32,8 @@ def main():
             print(f'{blank_json_file_path} was updated. Test is failed as update was called')
             sys.exit(1)
         if json_loaded != blank_json:
-            print(f'Invalid json={json_path}. error=Not fitting scheme of blank json.({blank_json_file_path})')
+            print(
+                f'Invalid json={json_path}. error=Not fitting the structure defined by blank json.({blank_json_file_path})')
             sys.exit(1)
     if json_files_found is False:
         print(f'No json files were found in folder={json_folder}')
