@@ -1,5 +1,6 @@
-from typing import Tuple
+import bisect
 import sys
+from typing import Tuple
 
 from bible_ref import BibleRef, BibleSec
 from file_utils import load_json
@@ -35,13 +36,23 @@ def main():
     BibleRef.class_init(translation_folder)
     bible_path = translation_folder + '/' + 'kg.json'
     bible_json = load_json(bible_path)
-    print(BibleRef.bible_ref_list)
     body_text_intervals = get_body_text_intervals(bible_json)
-    print(body_text_intervals)
+    body_text_rights = [el[0].end for el in body_text_intervals]
     to_leading_path = redirect_folder + '/' + 'toLeading.json'
     to_leading_json = load_json(to_leading_path)
-    for e in to_leading_json:
+    for e, v in to_leading_json.items():
         sec = BibleSec.from_closed_string(e)
+        start = sec.start
+        index = bisect.bisect_right(body_text_rights, start)
+        assert body_text_intervals[index][0].is_intersect(sec)
+        solutions = set()
+        while index < len(body_text_intervals) and body_text_intervals[index][0].is_intersect(sec):
+            solutions.add(body_text_intervals[index][1])
+            index = index + 1
+        assert v in solutions
+        if len(solutions) > 1:
+            print(f'{e} {solutions}')
+
 
 
 if __name__ == '__main__':
