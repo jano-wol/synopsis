@@ -25,7 +25,7 @@ def get_body_text_intervals(bible_json) -> list[Tuple[BibleSec, int]]:
                         start = BibleRef.from_string(str_1)
                         end = BibleRef.from_string(str_2)
                         sec = BibleSec(start, end)
-                        sec.fix_close_sec()
+                        sec.fix_closed()
                         ret.append((sec, id_1))
     return ret
 

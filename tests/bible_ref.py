@@ -45,15 +45,6 @@ class BibleRef:
             for idx, ref in enumerate(cls.bible_ref_list):
                 cls.bible_ref_dict[ref] = idx
 
-    @classmethod
-    def from_string(cls, repr_str: str) -> 'BibleRef':
-        parts = repr_str.split(",")
-        evangelist = parts[0][0:2]
-        chapter = int(parts[0][2:])
-        verse_str = parts[1]
-        verse, x = BibleRef.split_verse(verse_str)
-        return BibleRef(evangelist, chapter, verse, x)
-
     def next(self) -> 'BibleRef':
         idx = self._get_idx() + 1
         if self.x == '':
@@ -61,8 +52,14 @@ class BibleRef:
                 idx = idx + 1
         return BibleRef.bible_ref_list[idx]
 
-    def _get_idx(self) -> int:
-        return BibleRef.bible_ref_dict[self]
+    @staticmethod
+    def from_string(repr_str: str) -> 'BibleRef':
+        parts = repr_str.split(",")
+        evangelist = parts[0][0:2]
+        chapter = int(parts[0][2:])
+        verse_str = parts[1]
+        verse, x = BibleRef.split_verse(verse_str)
+        return BibleRef(evangelist, chapter, verse, x)
 
     @staticmethod
     def split_verse(verse_str: str) -> Tuple[int, str]:
@@ -73,6 +70,9 @@ class BibleRef:
             verse = int(verse_str[:-1])
             x = verse_str[-1]
         return verse, x
+
+    def _get_idx(self) -> int:
+        return BibleRef.bible_ref_dict[self]
 
     @staticmethod
     def _get_bible_refs(bible):
@@ -113,7 +113,7 @@ class BibleSec:
     def is_empty(self) -> bool:
         return self.end <= self.start
 
-    def fix_close_sec(self):
+    def fix_closed(self):
         self.end = self.end.next()
 
     def intersect(self, other: 'BibleSec') -> 'BibleSec':
