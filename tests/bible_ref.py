@@ -1,7 +1,7 @@
 from functools import total_ordering
 from typing import Tuple
 
-from file_utils import load_json
+from file_utils import iterate_jsons
 
 
 @total_ordering
@@ -33,8 +33,7 @@ class BibleRef:
     @classmethod
     def class_init(cls, json_folder_path: str):
         if not cls.bible_ref_dict:
-            bible_path = json_folder_path + '/' + 'kg.json'  # json_test.py assures that any translation can be chosen
-            bible = load_json(bible_path)
+            bible, _ = next(iterate_jsons(json_folder_path))
             BibleRef._get_bible_refs(bible)
 
             # add end element

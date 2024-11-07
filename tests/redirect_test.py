@@ -1,9 +1,10 @@
 import bisect
+import os
 import sys
 from typing import Tuple
 
 from bible_ref import BibleRef, BibleSec
-from file_utils import load_json
+from file_utils import iterate_jsons, load_json
 
 evangelists = ['mt', 'mk', 'lk', 'jn']
 
@@ -34,11 +35,10 @@ def main():
     redirect_folder = sys.argv[1]
     translation_folder = sys.argv[2]
     BibleRef.class_init(translation_folder)
-    bible_path = translation_folder + '/' + 'kg.json'
-    bible_json = load_json(bible_path)
+    bible_json, _ = next(iterate_jsons(translation_folder))
     body_text_intervals = get_body_text_intervals(bible_json)
     body_text_rights = [el[0].end for el in body_text_intervals]
-    to_leading_path = redirect_folder + '/' + 'toLeading.json'
+    to_leading_path = os.path.join(redirect_folder, 'toLeading.json')
     to_leading_json = load_json(to_leading_path)
     for e, v in to_leading_json.items():
         sec = BibleSec.from_closed_string(e)
