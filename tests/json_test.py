@@ -5,8 +5,10 @@ from file_utils import iterate_jsons
 
 
 def blank_values(json_element):
+    whitelisted_keys = ['chapter', 'verse', 'id', 'leading']
     if isinstance(json_element, dict):
-        return {k: blank_values(v) for k, v in json_element.items()}
+        return {k: (blank_values(v) if k not in whitelisted_keys else v)
+                for k, v in json_element.items()}
     elif isinstance(json_element, list):
         return [blank_values(item) for item in json_element]
     else:
