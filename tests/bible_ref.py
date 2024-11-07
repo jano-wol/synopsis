@@ -122,8 +122,10 @@ class BibleSec:
         self.end = self.end.next()
 
     def intersect(self, other: 'BibleSec') -> 'BibleSec':
-        if self.is_empty() or other.is_empty():
+        if self.is_empty():
             return self
+        if other.is_empty():
+            return other
         start = max(self.start, other.start)
         end = min(self.end, other.end)
         return BibleSec(start, end)
