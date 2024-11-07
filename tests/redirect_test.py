@@ -4,39 +4,70 @@ import sys
 
 from file_utils import load_json
 
+evangelists = ['mt', 'mk', 'lk', 'jn']
 
 
-def compare_part_titles(t1, t2):
-    for part1, part2 in zip(t1['parts'], t2['parts']):
-        part_title1 = part1['part_title']
-        part_title2 = part2['part_title']
-        if part_title1 != part_title2:
-            print(f'KNB={part_title1} <-> SZIT={part_title2}')
-
-
-def compare_section_titles(t1, t2):
-    for part1, part2 in zip(t1['parts'], t2['parts']):
-        sections1 = part1['sections']
-        sections2 = part2['sections']
-        for section1, section2 in zip(sections1, sections2):
-            section_title1 = section1['section_title']
-            section_title2 = section2['section_title']
-            if section_title1 != section_title2:
-                print(f'KNB={section_title1} <-> SZIT={section_title2}')
-
+def verse_to_float(s):
+    if s[-1] == 'a':
+        return float(s[:-1])
+    if s[-1] == 'b':
+        return float(s[:-1]) + 0.5
+    return float(s)
 
 
 def get_body_intervals(bible_json):
-    pass
+    ret = {}
+    for evangelist in evangelists:
+        l = []
+        for p in bible_json['parts']:
+            for section in p['sections']:
+                for box in section[evangelist]:
+                    if box and box['leading']:
+                        l.append([[float(box['content'][0]['chapter']), verse_to_float(box['content'][0]['verse'])],
+                                  [float(box['content'][-1]['chapter']), verse_to_float(box['content'][-1]['verse'])]])
+        ret[evangelist] = l
+    return ret
+
+
+def dc(s):
+    s1 = s[2:]
+    if '-' in s1:
+        result0 = s1.split('-', 1)[0]
+        ch1 = float(result0.split(',', 1)[0])
+        verse1 = result0.split(',', 1)[1]
+        verse1 = verse_to_float(verse1)
+        result1 = s1.split('-', 1)[1]
+        if ',' in result1:
+            ch2 = float(result1.split(',', 1)[0])
+            verse2 = result1.split(',', 1)[1]
+            verse2 = verse_to_float(verse2)
+        else:
+            ch2 = ch1
+            verse2 = verse_to_float(result1)
+    else:
+        ch = float(s1.split(',', 1)[0])
+        verse = s1.split(',', 1)[1]
+        verse = verse_to_float(verse)
+        ch1 = ch
+        ch2 = ch
+        verse1 = verse
+        verse2 = verse
+    return s[:2], [ch1, verse1], [ch2, verse2]
 
 
 def main():
     redirect_folder = sys.argv[1]
     translation_folder = sys.argv[2]
-    bible_json = translation_folder + '\\' + 'kg.json'
+    bible_path = translation_folder + '\\' + 'kg.json'
+    bible_json = load_json(bible_path)
     intervals = get_body_intervals(bible_json)
+    print(intervals)
+    to_leading_path = redirect_folder + '\\' + 'toLeading.json'
+    to_leading_json = load_json(to_leading_path)
+    for e in to_leading_json:
+        evangelist, first, last = dc(e)
+        print(f'{evangelist}, {first}, {last}')
 
-    to_leading_json = redirect_folder + '\\' + 'toLeading.json'
 
 if __name__ == '__main__':
     main()
