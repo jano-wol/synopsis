@@ -29,17 +29,17 @@ export default {
         </li>
         <br>
         <li>
-            Section 358, 359 and 360 is not included.<br>
-            Reason: These sections does not contain leading text.<br>
+            Sections 358, 359 and 360 are not included.<br>
+            Reason: These sections do not contain body text.<br>
             Note: The numbering of other parts remains the same.
         </li>
         <li>
-            Section 361 is not not included.<br>
+            Section 361 is not included.<br>
             Reason: It refers to 1Cor15,3-8, which is not part of the four gospels.<br>
             Note: The numbering of other parts remains the same.
         </li>
         <li>
-            Section 362 is not not included.<br>
+            Section 362 is not included.<br>
             Reason: It follows the non-canonical ending of Mark.<br>
             Note: The numbering of other parts remains the same.
         </li>
