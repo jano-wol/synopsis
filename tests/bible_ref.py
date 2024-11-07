@@ -40,6 +40,12 @@ class BibleRef:
             bible_path = json_folder_path + '/' + 'kg.json'  # json_test.py assures that any translation can be chosen
             bible = load_json(bible_path)
             BibleRef._get_bible_refs(bible)
+
+            # add end element
+            a = BibleRef.bible_ref_list[-1]
+            BibleRef.bible_ref_list.append(BibleRef(a.evangelist, 99, 99, ''))
+
+            # init bible_ref_dict
             for idx, ref in enumerate(cls.bible_ref_list):
                 cls.bible_ref_dict[ref] = idx
 
@@ -47,8 +53,8 @@ class BibleRef:
     def from_repr(cls, repr_str) -> 'BibleRef':
         parts = repr_str.split(",")
         evangelist = parts[0][0:2]
-        chapter=int(parts[0][2:])
-        verse_str=parts[1]
+        chapter = int(parts[0][2:])
+        verse_str = parts[1]
         if verse_str[-1].isdigit():
             verse = int(verse_str)
             x = ''
@@ -90,4 +96,32 @@ class BibleRef:
                                             BibleRef(evangelist, int(v['chapter']), int(v['verse']), ''))
                                     else:
                                         BibleRef.bible_ref_list.append(
-                                            BibleRef(evangelist, int(v['chapter']), int(v['verse'][:-1]), v['verse'][-1]))
+                                            BibleRef(evangelist, int(v['chapter']), int(v['verse'][:-1]),
+                                                     v['verse'][-1]))
+
+
+class BibleSec:
+    start: 'BibleRef'
+    end: 'BibleRef'
+
+    def __init__(self, start: 'BibleRef', end: 'BibleRef'):
+        self.start = start
+        self.end = end
+
+    def __repr__(self) -> str:
+        s1 = str(self.start)
+
+    def __eq__(self, other: 'BibleRef') -> bool:
+        return (self._get_evangelist_idx(), self.chapter, self.verse, self.x) == (
+            other._get_evangelist_idx(), other.chapter, other.verse, other.x)
+
+    def __lt__(self, other: 'BibleRef') -> bool:
+        idx1 = self._get_idx()
+        idx2 = other._get_idx()
+        return idx1 < idx2
+
+    def __hash__(self):
+        return hash((self.evangelist, self.chapter, self.verse, self.x))
+
+    def is_empty(self) -> bool:
+        return self.end <= self.start
