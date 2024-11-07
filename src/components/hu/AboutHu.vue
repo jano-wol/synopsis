@@ -37,8 +37,8 @@ export default {
         <li>
             <b>Törzsszöveg:</b>
             Minden <b>szekcióban</b> egy evangélistához, pontosan egy* törzsszöveg található. A törzsszövegek összeolvasva a teljes evangéliumot tartalmazzák, ismétlődések nélkül, a versek eredeti sorrendjében.<br>
-            A törzsszöveg vastag keretes, szürke fejléces szövegdobozban jelenik meg. A
-            <router-link    :to="{ name: 'index' }">tartalomjegyzékben</router-link>
+            A törzsszöveg vastag keretes, szürke fejléces szövegdobozban jelenik meg. Az
+            <router-link    :to="{ name: 'index' }">Indexben</router-link>
             vastag kiemeléssel szerepelnek
             a hozzá tartozó versek.
         </li>
