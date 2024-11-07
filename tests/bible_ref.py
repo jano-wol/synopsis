@@ -1,12 +1,11 @@
 from functools import total_ordering
+from typing import Tuple
 
 from file_utils import load_json
 
 
 @total_ordering
 class BibleRef:
-    evangelist_list: list[str] = ['mt', 'mk', 'lk', 'jn']
-    evangelist_dict: dict[str, int] = {}
     bible_ref_list: list['BibleRef'] = []
     bible_ref_dict: dict['BibleRef', int] = {}
 
@@ -20,8 +19,8 @@ class BibleRef:
         return f'{self.evangelist}{self.chapter},{self.verse}{self.x}'
 
     def __eq__(self, other: 'BibleRef') -> bool:
-        return (self._get_evangelist_idx(), self.chapter, self.verse, self.x) == (
-            other._get_evangelist_idx(), other.chapter, other.verse, other.x)
+        return (self.evangelist, self.chapter, self.verse, self.x) == (
+            other.evangelist, other.chapter, other.verse, other.x)
 
     def __lt__(self, other: 'BibleRef') -> bool:
         idx1 = self._get_idx()
@@ -32,10 +31,7 @@ class BibleRef:
         return hash((self.evangelist, self.chapter, self.verse, self.x))
 
     @classmethod
-    def class_init(cls, json_folder_path):
-        if not cls.evangelist_dict:
-            for idx, book in enumerate(cls.evangelist_list):
-                cls.evangelist_dict[book] = idx
+    def class_init(cls, json_folder_path: str):
         if not cls.bible_ref_dict:
             bible_path = json_folder_path + '/' + 'kg.json'  # json_test.py assures that any translation can be chosen
             bible = load_json(bible_path)
@@ -50,17 +46,12 @@ class BibleRef:
                 cls.bible_ref_dict[ref] = idx
 
     @classmethod
-    def from_repr(cls, repr_str) -> 'BibleRef':
+    def from_string(cls, repr_str: str) -> 'BibleRef':
         parts = repr_str.split(",")
         evangelist = parts[0][0:2]
         chapter = int(parts[0][2:])
         verse_str = parts[1]
-        if verse_str[-1].isdigit():
-            verse = int(verse_str)
-            x = ''
-        else:
-            verse = int(verse_str[:-1])
-            x = verse_str[-1]
+        verse, x = BibleRef.split_verse(verse_str)
         return BibleRef(evangelist, chapter, verse, x)
 
     def next(self) -> 'BibleRef':
@@ -70,15 +61,22 @@ class BibleRef:
                 idx = idx + 1
         return BibleRef.bible_ref_list[idx]
 
-    def _get_evangelist_idx(self) -> int:
-        return BibleRef.evangelist_dict[self.evangelist]
-
     def _get_idx(self) -> int:
         return BibleRef.bible_ref_dict[self]
 
     @staticmethod
+    def split_verse(verse_str: str) -> Tuple[int, str]:
+        if verse_str[-1].isdigit():
+            verse = int(verse_str)
+            x = ''
+        else:
+            verse = int(verse_str[:-1])
+            x = verse_str[-1]
+        return verse, x
+
+    @staticmethod
     def _get_bible_refs(bible):
-        for evangelist in BibleRef.evangelist_list:
+        for evangelist in ['mt', 'mk', 'lk', 'jn']:
             for p in bible['parts']:
                 for section in p['sections']:
                     for box in section[evangelist]:
@@ -91,37 +89,52 @@ class BibleRef:
                                     BibleRef.bible_ref_list.append(
                                         BibleRef(evangelist, int(v['chapter']), int(v['verse'][:-1]), 'a'))
                                 else:
-                                    if verse_str[-1].isdigit():
-                                        BibleRef.bible_ref_list.append(
-                                            BibleRef(evangelist, int(v['chapter']), int(v['verse']), ''))
-                                    else:
-                                        BibleRef.bible_ref_list.append(
-                                            BibleRef(evangelist, int(v['chapter']), int(v['verse'][:-1]),
-                                                     v['verse'][-1]))
+                                    verse, x = BibleRef.split_verse(verse_str)
+                                    BibleRef.bible_ref_list.append(BibleRef(evangelist, int(v['chapter']), verse, x))
 
 
 class BibleSec:
-    start: 'BibleRef'
-    end: 'BibleRef'
+    start: BibleRef
+    end: BibleRef
 
-    def __init__(self, start: 'BibleRef', end: 'BibleRef'):
+    def __init__(self, start: BibleRef, end: BibleRef):
         self.start = start
         self.end = end
 
     def __repr__(self) -> str:
-        s1 = str(self.start)
+        return f'[{self.start};{self.end})'
 
-    def __eq__(self, other: 'BibleRef') -> bool:
-        return (self._get_evangelist_idx(), self.chapter, self.verse, self.x) == (
-            other._get_evangelist_idx(), other.chapter, other.verse, other.x)
-
-    def __lt__(self, other: 'BibleRef') -> bool:
-        idx1 = self._get_idx()
-        idx2 = other._get_idx()
-        return idx1 < idx2
+    def __eq__(self, other: 'BibleSec') -> bool:
+        return (self.start, self.end) == (other.start, other.end)
 
     def __hash__(self):
-        return hash((self.evangelist, self.chapter, self.verse, self.x))
+        return hash((self.start, self.end))
 
     def is_empty(self) -> bool:
         return self.end <= self.start
+
+    def fix_close_sec(self):
+        self.end = self.end.next()
+
+    @classmethod
+    def from_closed_string(cls, closed_str: str) -> 'BibleSec':
+        if '-' in closed_str:
+            str_1 = closed_str.split('-', 1)[0]
+            start = BibleRef.from_string(str_1)
+            str_2 = closed_str.split('-', 1)[1]
+            if ',' in str_2:
+                start_2_1 = str_2.split(',', 1)[0]
+                start_2_2 = str_2.split(',', 1)[1]
+                if start_2_1[0].isdigit():
+                    chapter = int(start_2_1)
+                    verse, x = BibleRef.split_verse(start_2_2)
+                    end = BibleRef(start.evangelist, chapter, verse, x)
+                else:
+                    end = BibleRef.from_string(str_2)
+            else:
+                verse, x = BibleRef.split_verse(str_2)
+                end = BibleRef(start.evangelist, start.chapter, verse, x)
+        else:
+            start = BibleRef.from_string(closed_str)
+            end = BibleRef.from_string(closed_str)
+        return BibleSec(start, end.next())

@@ -1,6 +1,6 @@
 import sys
 
-from bible_ref import BibleRef
+from bible_ref import BibleRef, BibleSec
 from file_utils import load_json
 
 evangelists = ['mt', 'mk', 'lk', 'jn']
@@ -12,17 +12,24 @@ def verse_to_float(s):
         return float(s[:-1]) + 0.5
     return float(s)
 
-def get_body_intervals(bible_json):
-    ret = {}
+def get_body_intervals(bible_json) -> list[BibleSec]:
+    ret = []
     for evangelist in evangelists:
-        l = []
         for p in bible_json['parts']:
             for section in p['sections']:
                 for box in section[evangelist]:
                     if box and box['leading']:
-                        l.append([[float(box['content'][0]['chapter']), verse_to_float(box['content'][0]['verse'])],
-                                  [float(box['content'][-1]['chapter']), verse_to_float(box['content'][-1]['verse'])]])
-        ret[evangelist] = l
+                        chapter_str_1 = box['content'][0]['chapter']
+                        verse_str_1 = box['content'][0]['verse']
+                        chapter_str_2 = box['content'][-1]['chapter']
+                        verse_str_2 = box['content'][-1]['verse']
+                        str_1 = f'{evangelist}{chapter_str_1},{verse_str_1}'
+                        str_2 = f'{evangelist}{chapter_str_2},{verse_str_2}'
+                        start = BibleRef.from_string(str_1)
+                        end = BibleRef.from_string(str_2)
+                        sec = BibleSec(start, end)
+                        sec.fix_close_sec()
+                        ret.append(sec)
     return ret
 
 
@@ -59,14 +66,11 @@ def main():
     bible_path = translation_folder + '/' + 'kg.json'
     bible_json = load_json(bible_path)
     print(BibleRef.bible_ref_list)
-    for x in BibleRef.bible_ref_list:
-        assert BibleRef.from_repr(str(x)) == x
     intervals = get_body_intervals(bible_json)
     to_leading_path = redirect_folder + '/' + 'toLeading.json'
     to_leading_json = load_json(to_leading_path)
     for e in to_leading_json:
-        evangelist, first, last = dc(e)
-        print(f'{evangelist}, {first}, {last}')
+        sec = BibleSec.from_closed_string(e)
 
 
 if __name__ == '__main__':
