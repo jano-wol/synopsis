@@ -39,9 +39,16 @@ class BibleRef:
             other.evangelist, other.chapter, other.verse, other.x)
 
     def __lt__(self, other: 'BibleRef') -> bool:
-        idx1 = self._get_idx()
-        idx2 = other._get_idx()
-        return idx1 < idx2
+        evangelists = ['mt', 'mk', 'lk', 'jn']
+        index_1 = evangelists.index(self.evangelist)
+        index_2 = evangelists.index(other.evangelist)
+        if index_1 != index_2:
+            return index_1 < index_2
+        if self.chapter != other.chapter:
+            return self.chapter < other.chapter
+        if self.verse != other.verse:
+            return self.verse < other.verse
+        return self.x < other.x
 
     def __hash__(self) -> int:
         return hash((self.evangelist, self.chapter, self.verse, self.x))
