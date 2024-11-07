@@ -1,3 +1,4 @@
+from typing import Tuple
 import sys
 
 from bible_ref import BibleRef, BibleSec
@@ -6,11 +7,12 @@ from file_utils import load_json
 evangelists = ['mt', 'mk', 'lk', 'jn']
 
 
-def get_body_text_intervals(bible_json) -> list[BibleSec]:
+def get_body_text_intervals(bible_json) -> list[Tuple[BibleSec, int]]:
     ret = []
     for evangelist in evangelists:
         for p in bible_json['parts']:
             for section in p['sections']:
+                id_1 = int(section['id'])
                 for box in section[evangelist]:
                     if box and box['leading']:
                         chapter_str_1 = box['content'][0]['chapter']
@@ -23,7 +25,7 @@ def get_body_text_intervals(bible_json) -> list[BibleSec]:
                         end = BibleRef.from_string(str_2)
                         sec = BibleSec(start, end)
                         sec.fix_close_sec()
-                        ret.append(sec)
+                        ret.append((sec, id_1))
     return ret
 
 
