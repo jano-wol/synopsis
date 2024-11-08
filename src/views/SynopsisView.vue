@@ -19,6 +19,8 @@ export default {
     Part, Loader
   },
   mounted() {
+    this.synopsisStore.getDailyGospelSection(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSection)});
+
     if (this.isValidHash(this.hash)) {
       this.synopsisStore.isLoading = true
       this.showScroller = true

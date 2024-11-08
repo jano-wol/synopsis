@@ -23,6 +23,10 @@ export default {
             synopsisStore: useSynopsisStore(),
         }
     },
+    mounted()
+    {
+        this.synopsisStore.getDailyGospelSection(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSection)});
+    },
     components: {
         Citation,
         FunctionButtons
@@ -52,6 +56,7 @@ export default {
         <div class="col-lg-8 col-md-12">
             <h4 class="text-center fs-3">
                 {{ id }}. {{ section.section_title }}
+                <i v-if="synopsisStore.dailyGospelSection == id" class="bi bi-sun"></i>
             </h4>
         </div>
         <div class="col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end">

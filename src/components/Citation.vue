@@ -106,7 +106,7 @@ export default {
       </template>
 
     </div>
-    <div class="card-body">
+    <div class="card-body" :class="{'bg-warning-subtle': synopsisStore.dailyGospelSection == sectionId && synopsisStore.dailyGospelEvangelist === evangelist}">
       <p>
         <template v-for="verse in citation?.content" :key="verse.chapter+','+verse.verse">
           {{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}
