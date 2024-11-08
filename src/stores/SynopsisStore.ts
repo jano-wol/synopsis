@@ -12,6 +12,7 @@ import synopsisRUF from '@/assets/translations/ruf.json'
 import synopsisESV from '@/assets/translations/esv.json'
 import synopsisBT from '@/assets/translations/bt.json'
 import synopsisBJW from '@/assets/translations/bjw.json'
+import synopsisRSP from '@/assets/translations/rsp.json'
 import synopsisSBLGNT from '@/assets/translations/sblgnt.json'
 import synopsisNV from '@/assets/translations/nv.json'
 import dictionaryEn from '@/assets/languages/en.json'
@@ -37,6 +38,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisESV as SynopsisScheme,
                 synopsisBT as SynopsisScheme,
                 synopsisBJW as SynopsisScheme,
+                synopsisRSP as SynopsisScheme,
                 synopsisSBLGNT as SynopsisScheme,
                 synopsisNV as SynopsisScheme
             ],

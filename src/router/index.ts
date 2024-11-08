@@ -10,7 +10,7 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
   "hu": ["KG", "SZIT", "KNB", "RUF"],
-  "en": ["ESV", "BT", "BJW", "SBLGNT", "NV"]
+  "en": ["ESV", "BT", "BJW", "RSP", "SBLGNT", "NV"]
 }
 
 const languageDefaultRedirect = () =>
@@ -114,7 +114,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   useSynopsisStore().setupLanguage(to.params.language)
   useSynopsisStore().setupTranslation(to.params.translation, options)
-  
+
   const requiresLanguage = to.matched.some((record) => {
     return record.path.includes(`/:language${languageOptionsRegex}?`);
   });
@@ -131,7 +131,7 @@ router.beforeEach((to, from, next) => {
     params.translation = useSynopsisStore().currentTranslation
   }
 
-  
+
   if (params.language !== to.params.language || params.translation !== to.params.translation) {
     next({ ...to, params: params });
   } else {
