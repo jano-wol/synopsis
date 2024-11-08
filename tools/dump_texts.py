@@ -53,6 +53,7 @@ def main():
     dump_part_titles(bible_json)
     dump_section_titles(bible_json)
     dump_biblical_text(bible_json)
+    print(bible_json['language'])
 
 if __name__ == '__main__':
     main()
