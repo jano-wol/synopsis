@@ -12,6 +12,6 @@
         linken érhető el.
     </p>
     <p>Jelenleg a különböző evangélium fordítások integrációja a cél. A Szinopszis struktúrájában eddig feldolgozott
-        fordtások <code class="text-dark">.json</code> formátumban elérhetők a <router-link :to="{name: 'sources'}">Források</router-link> menü pontban a Felhasználható források cím alatt.        
+        fordtások <code class="text-dark">.json</code> formátumban elérhetők a <router-link :to="{name: 'sources'}">Források</router-link> menü pontban a Felhasználható források cím alatt.
     </p>
 </template>
