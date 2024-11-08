@@ -12,7 +12,7 @@
     },
     "parts": [
         {
-            "part_title": "I. Preface",
+            "part_title": "I. Eingang",
             "sections": [
                 {
                     "id": "1",
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "part_title": "II. Introduction",
+            "part_title": "II. Vorgeschichte",
             "sections": [
                 {
                     "id": "2",
@@ -1365,7 +1365,7 @@
             ]
         },
         {
-            "part_title": "III. Preparation",
+            "part_title": "III. Vorbereitung",
             "sections": [
                 {
                     "id": "13",
@@ -2230,7 +2230,7 @@
             ]
         },
         {
-            "part_title": "IV. The Beginning of Jesus' Public Ministry (According to John)",
+            "part_title": "IV. Erste Wirksamkeit Jesu (nach Johannes)",
             "sections": [
                 {
                     "id": "21",
@@ -2852,7 +2852,7 @@
             ]
         },
         {
-            "part_title": "V. Jesus' Ministry in Galilee",
+            "part_title": "V. Wirksamkeit in Galiläa",
             "sections": [
                 {
                     "id": "30",
@@ -4850,7 +4850,7 @@
             ]
         },
         {
-            "part_title": "VI. The Sermon on the Mount (According to Matthew)",
+            "part_title": "VI. Die Bergpredigt (nach Matthäus)",
             "sections": [
                 {
                     "id": "50",
@@ -6571,7 +6571,7 @@
             ]
         },
         {
-            "part_title": "VII. The Sermon on the Plain (According to Luke)",
+            "part_title": "VII. Die Feldrede (nach Lukas)",
             "sections": [
                 {
                     "id": "77",
@@ -7201,7 +7201,7 @@
             ]
         },
         {
-            "part_title": "VIII. Jesus' Ministry in Galilee Continued",
+            "part_title": "VIII. Weitere Wirksamkeit in Galiläa",
             "sections": [
                 {
                     "id": "84",
@@ -15554,7 +15554,7 @@
             ]
         },
         {
-            "part_title": "IX. The Way to the Cross",
+            "part_title": "IX. Der Weg zur Passion",
             "sections": [
                 {
                     "id": "157",
@@ -17038,7 +17038,7 @@
             ]
         },
         {
-            "part_title": "X. Last Journey to Jerusalem (According to Luke)",
+            "part_title": "X. Auf dem Wege nach Jerusalem (nach Lukas)",
             "sections": [
                 {
                     "id": "174",
@@ -21578,7 +21578,7 @@
             ]
         },
         {
-            "part_title": "XI. Jesus at the Feast of Booths in Jerusalem (According to John)",
+            "part_title": "XI. Jesus auf dem Laubhüttenfest",
             "sections": [
                 {
                     "id": "238",
@@ -22713,7 +22713,7 @@
             ]
         },
         {
-            "part_title": "XII. The Ministry in Judea",
+            "part_title": "XII. Wirksamkeit in Judäa",
             "sections": [
                 {
                     "id": "251",
@@ -24820,7 +24820,7 @@
             ]
         },
         {
-            "part_title": "XIII. The Final Ministry in Jerusalem",
+            "part_title": "XIII. Letzte Wirksamkeit in Jerusalem",
             "sections": [
                 {
                     "id": "269",
@@ -26908,7 +26908,7 @@
             ]
         },
         {
-            "part_title": "XIV. The Eschatological Discourse",
+            "part_title": "XIV. Die synoptische Apokalypse",
             "sections": [
                 {
                     "id": "287",
@@ -27808,7 +27808,7 @@
             ]
         },
         {
-            "part_title": "XV. Conclusion of the Account of the Time before the Passion",
+            "part_title": "XV. Abschluss der Darstellung der Zeit vor der Passion",
             "sections": [
                 {
                     "id": "296",
@@ -28690,7 +28690,7 @@
             ]
         },
         {
-            "part_title": "XVI. The Passion Narrative",
+            "part_title": "XVI. Die Leidensgeschichte",
             "sections": [
                 {
                     "id": "305",
@@ -33497,7 +33497,7 @@
             ]
         },
         {
-            "part_title": "XVII. The Resurrection",
+            "part_title": "XVII. Der Auferstandene",
             "sections": [
                 {
                     "id": "352",
@@ -34164,7 +34164,7 @@
             ]
         },
         {
-            "part_title": "XVIII. Epilogue: The Endings of the Gospels",
+            "part_title": "XVIII. Ausgang: Die Evangelienschlüsse",
             "sections": [
                 {
                     "id": "363",
