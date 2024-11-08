@@ -16,7 +16,7 @@
             "sections": [
                 {
                     "id": "1",
-                    "section_title": "Prolog",
+                    "section_title": "Пролог",
                     "mt": [
                         {
                             "leading": true,
@@ -173,7 +173,7 @@
             "sections": [
                 {
                     "id": "2",
-                    "section_title": "Zapowiedź narodzenia Jana Chrzciciela",
+                    "section_title": "Предсказание о рождении Иоанна Крестителя",
                     "mt": [
                         null
                     ],
@@ -298,7 +298,7 @@
                 },
                 {
                     "id": "3",
-                    "section_title": "Zwiastowanie Maryi",
+                    "section_title": "Благовещение Ангела о рождении Иисуса Христа",
                     "mt": [
                         null
                     ],
@@ -383,7 +383,7 @@
                 },
                 {
                     "id": "4",
-                    "section_title": "Maryja nawiedza Elżbietę",
+                    "section_title": "Посещение Елисаветы",
                     "mt": [
                         null
                     ],
@@ -493,7 +493,7 @@
                 },
                 {
                     "id": "5",
-                    "section_title": "Narodzenie Jana Chrzciciela",
+                    "section_title": "Рождение Иоанна и наречение имени; песнь Захарии «Благословен Господь»",
                     "mt": [
                         null
                     ],
@@ -633,7 +633,7 @@
                 },
                 {
                     "id": "6",
-                    "section_title": "Rodowód Jezusa",
+                    "section_title": "Родословная Иисуса Христа",
                     "mt": [
                         {
                             "leading": true,
@@ -817,7 +817,7 @@
                 },
                 {
                     "id": "7",
-                    "section_title": "Poczęcie i narodzenie Jezusa",
+                    "section_title": "Рождество Христово",
                     "mt": [
                         {
                             "leading": true,
@@ -916,7 +916,7 @@
                 },
                 {
                     "id": "8",
-                    "section_title": "Pokłon trzech mędrców",
+                    "section_title": "Волхвы с востока",
                     "mt": [
                         {
                             "leading": true,
@@ -1065,7 +1065,7 @@
                 },
                 {
                     "id": "9",
-                    "section_title": "Obrzezanie i ofiarowanie Jezusa. Starzec Symeon i prorokini Anna",
+                    "section_title": "Обрезание и посвящение Иисуса. Встреча Богомладенца в храме Симеоном и Анной",
                     "mt": [
                         null
                     ],
@@ -1175,7 +1175,7 @@
                 },
                 {
                     "id": "10",
-                    "section_title": "Ucieczka do Egiptu i powrót do Nazaretu",
+                    "section_title": "Бегство Святого Семейства в Египет",
                     "mt": [
                         {
                             "leading": true,
@@ -1240,7 +1240,7 @@
                 },
                 {
                     "id": "11",
-                    "section_title": "Dziecięctwo Jezusa w Nazarecie",
+                    "section_title": "«Младенец возрастал»",
                     "mt": [
                         {
                             "leading": true,
@@ -1284,7 +1284,7 @@
                 },
                 {
                     "id": "12",
-                    "section_title": "Dwunastoletni Jezus w świątyni",
+                    "section_title": "Двенадцатилетний Иисус в храме",
                     "mt": [
                         null
                     ],
@@ -1369,7 +1369,7 @@
             "sections": [
                 {
                     "id": "13",
-                    "section_title": "Jan Chrzciciel",
+                    "section_title": "Иоанн Креститель",
                     "mt": [
                         {
                             "leading": true,
@@ -1511,7 +1511,7 @@
                 },
                 {
                     "id": "14",
-                    "section_title": "Wezwanie do nawrócenia",
+                    "section_title": "«Сотворите же достойный плод покаяния!»",
                     "mt": [
                         {
                             "leading": true,
@@ -1570,7 +1570,7 @@
                 },
                 {
                     "id": "15",
-                    "section_title": "Szczególne wskazania",
+                    "section_title": "Ответы Иоанна Крестителя на вопросы",
                     "mt": [
                         null
                     ],
@@ -1615,7 +1615,7 @@
                 },
                 {
                     "id": "16",
-                    "section_title": "Świadectwo Jana Chrzciciela",
+                    "section_title": "Свидетельство Иоанна о Мессии",
                     "mt": [
                         {
                             "leading": true,
@@ -1712,7 +1712,7 @@
                 },
                 {
                     "id": "17",
-                    "section_title": "Uwięzienie Jana Chrzciciela",
+                    "section_title": "Заключение Иоанна в темницу",
                     "mt": [
                         {
                             "leading": false,
@@ -1770,7 +1770,7 @@
                 },
                 {
                     "id": "18",
-                    "section_title": "Chrzest Jezusa",
+                    "section_title": "Крещение Господне",
                     "mt": [
                         {
                             "leading": true,
@@ -1882,7 +1882,7 @@
                 },
                 {
                     "id": "19",
-                    "section_title": "Rodowód Jezusa",
+                    "section_title": "Родословная Иисуса Христа",
                     "mt": [
                         {
                             "leading": false,
@@ -2071,7 +2071,7 @@
                 },
                 {
                     "id": "20",
-                    "section_title": "Post na pustyni i kuszenie",
+                    "section_title": "Искушение Иисуса Христа в пустыне",
                     "mt": [
                         {
                             "leading": true,
@@ -2234,7 +2234,7 @@
             "sections": [
                 {
                     "id": "21",
-                    "section_title": "Pierwsi uczniowie Jezusa",
+                    "section_title": "Призвание первых Апостолов",
                     "mt": [
                         null
                     ],
@@ -2339,7 +2339,7 @@
                 },
                 {
                     "id": "22",
-                    "section_title": "Cud w Kanie Galilejskiej",
+                    "section_title": "Первое чудо в Кане",
                     "mt": [
                         null
                     ],
@@ -2414,7 +2414,7 @@
                 },
                 {
                     "id": "23",
-                    "section_title": "Pobyt w Kafarnaum",
+                    "section_title": "Пребывание в Капернауме",
                     "mt": [
                         null
                     ],
@@ -2439,7 +2439,7 @@
                 },
                 {
                     "id": "24",
-                    "section_title": "Jezus udaje się do Jerozolimy",
+                    "section_title": "«Иисус пришел в Иерусалим»",
                     "mt": [
                         null
                     ],
@@ -2464,7 +2464,7 @@
                 },
                 {
                     "id": "25",
-                    "section_title": "Wyrzucenie kupczących z świątyni",
+                    "section_title": "Изгнание продавцов из храма",
                     "mt": [
                         {
                             "leading": false,
@@ -2576,7 +2576,7 @@
                 },
                 {
                     "id": "26",
-                    "section_title": "Jezus w Jerozolimie",
+                    "section_title": "Иисус в Иерусалиме",
                     "mt": [
                         null
                     ],
@@ -2611,7 +2611,7 @@
                 },
                 {
                     "id": "27",
-                    "section_title": "Rozmowa z Nikodemem",
+                    "section_title": "Никодим",
                     "mt": [
                         null
                     ],
@@ -2736,7 +2736,7 @@
                 },
                 {
                     "id": "28",
-                    "section_title": "Podróż do ziemi judzkiej",
+                    "section_title": "Путешествие в землю Иудейскую",
                     "mt": [
                         null
                     ],
@@ -2761,7 +2761,7 @@
                 },
                 {
                     "id": "29",
-                    "section_title": "Jezus a Jan Chrzciciel",
+                    "section_title": "Дальнейшее свидетельство Иоанна Крестителя об Иисусе Христе",
                     "mt": [
                         null
                     ],
@@ -2856,7 +2856,7 @@
             "sections": [
                 {
                     "id": "30",
-                    "section_title": "Podróż do Galilei",
+                    "section_title": "Путешествие в Галилею",
                     "mt": [
                         {
                             "leading": true,
@@ -2918,7 +2918,7 @@
                 },
                 {
                     "id": "31",
-                    "section_title": "Niewiasta samarytańska",
+                    "section_title": "Иисус Христос и самарянка у колодца",
                     "mt": [
                         null
                     ],
@@ -3133,7 +3133,7 @@
                 },
                 {
                     "id": "32",
-                    "section_title": "Jezus w Galilei",
+                    "section_title": "Иисус в Галилее",
                     "mt": [
                         {
                             "leading": true,
@@ -3230,7 +3230,7 @@
                 },
                 {
                     "id": "33",
-                    "section_title": "Jezus nie przyjęty w Nazarecie",
+                    "section_title": "Проповедь в Назаретской синагоге",
                     "mt": [
                         {
                             "leading": false,
@@ -3393,7 +3393,7 @@
                 },
                 {
                     "id": "34",
-                    "section_title": "Powołanie pierwszych uczniów",
+                    "section_title": "Призвание Симона, Андрея, Иакова и Иоанна",
                     "mt": [
                         {
                             "leading": true,
@@ -3467,7 +3467,7 @@
                 },
                 {
                     "id": "35",
-                    "section_title": "Nauczanie w Kafarnaum",
+                    "section_title": "Проповедь в Капернауме",
                     "mt": [
                         null
                     ],
@@ -3511,7 +3511,7 @@
                 },
                 {
                     "id": "36",
-                    "section_title": "Uzdrowienie opętanego w synagodze",
+                    "section_title": "Исцеление одержимого в синагоге",
                     "mt": [
                         null
                     ],
@@ -3590,7 +3590,7 @@
                 },
                 {
                     "id": "37",
-                    "section_title": "W domu Piotra",
+                    "section_title": "Исцеление тещи Петра",
                     "mt": [
                         {
                             "leading": false,
@@ -3653,7 +3653,7 @@
                 },
                 {
                     "id": "38",
-                    "section_title": "Liczne uzdrowienia",
+                    "section_title": "Многочисленные исцеления",
                     "mt": [
                         {
                             "leading": false,
@@ -3716,7 +3716,7 @@
                 },
                 {
                     "id": "39",
-                    "section_title": "Jezus opuszcza Kafarnaum",
+                    "section_title": "Иисус покидает Капернаум",
                     "mt": [
                         null
                     ],
@@ -3770,7 +3770,7 @@
                 },
                 {
                     "id": "40",
-                    "section_title": "Podróże po Galilei",
+                    "section_title": "Путешествия по Галилее",
                     "mt": [
                         {
                             "leading": true,
@@ -3813,7 +3813,7 @@
                 },
                 {
                     "id": "41",
-                    "section_title": "Cudowny połów ryb",
+                    "section_title": "Чудесный улов",
                     "mt": [
                         null
                     ],
@@ -3888,7 +3888,7 @@
                 },
                 {
                     "id": "42",
-                    "section_title": "Uzdrowienie trędowatego",
+                    "section_title": "Исцеление прокаженного",
                     "mt": [
                         {
                             "leading": false,
@@ -3991,7 +3991,7 @@
                 },
                 {
                     "id": "43",
-                    "section_title": "Uzdrowienie paralityka",
+                    "section_title": "Исцеление расслабленного",
                     "mt": [
                         {
                             "leading": false,
@@ -4183,7 +4183,7 @@
                 },
                 {
                     "id": "44",
-                    "section_title": "Powołanie Lewiego",
+                    "section_title": "Призвание Левия",
                     "mt": [
                         {
                             "leading": false,
@@ -4291,7 +4291,7 @@
                 },
                 {
                     "id": "45",
-                    "section_title": "Spór o post",
+                    "section_title": "О посте: новое вино и новые мехи",
                     "mt": [
                         {
                             "leading": false,
@@ -4399,7 +4399,7 @@
                 },
                 {
                     "id": "46",
-                    "section_title": "Zrywanie kłosów w szabat",
+                    "section_title": "«Сын Человеческий есть Господин и субботы»",
                     "mt": [
                         {
                             "leading": false,
@@ -4522,7 +4522,7 @@
                 },
                 {
                     "id": "47",
-                    "section_title": "Uzdrowienie w szabat",
+                    "section_title": "Исцеление сухорукого в субботу",
                     "mt": [
                         {
                             "leading": false,
@@ -4640,7 +4640,7 @@
                 },
                 {
                     "id": "48",
-                    "section_title": "Zewsząd zbiegają się rzesze",
+                    "section_title": "«За Ним последовало множество народа»",
                     "mt": [
                         {
                             "leading": false,
@@ -4741,7 +4741,7 @@
                 },
                 {
                     "id": "49",
-                    "section_title": "Wybór Apostołów",
+                    "section_title": "Избрание двенадцати Апостолов",
                     "mt": [
                         {
                             "leading": false,
@@ -4854,7 +4854,7 @@
             "sections": [
                 {
                     "id": "50",
-                    "section_title": "Jezus uzdrawia i naucza",
+                    "section_title": "Проповедь и исцеления в Галилее",
                     "mt": [
                         {
                             "leading": true,
@@ -4957,7 +4957,7 @@
                 },
                 {
                     "id": "51",
-                    "section_title": "Chrystus głosi osiem błogosławieństw",
+                    "section_title": "Блаженства",
                     "mt": [
                         {
                             "leading": true,
@@ -5051,7 +5051,7 @@
                 },
                 {
                     "id": "52",
-                    "section_title": "Nazywa apostołów solą",
+                    "section_title": "«Вы – соль»",
                     "mt": [
                         {
                             "leading": true,
@@ -5104,7 +5104,7 @@
                 },
                 {
                     "id": "53",
-                    "section_title": "Przypowieść o świetle",
+                    "section_title": "«Вы – свет»",
                     "mt": [
                         {
                             "leading": true,
@@ -5157,7 +5157,7 @@
                 },
                 {
                     "id": "54",
-                    "section_title": "Przyszedł udoskonalić zakon",
+                    "section_title": "«Не нарушить, но исполнить»",
                     "mt": [
                         {
                             "leading": true,
@@ -5211,7 +5211,7 @@
                 },
                 {
                     "id": "55",
-                    "section_title": "Uczy nie gniewać się na bliźniego",
+                    "section_title": "О гневе и убийстве; «брат твой против тебя»",
                     "mt": [
                         {
                             "leading": true,
@@ -5280,7 +5280,7 @@
                 },
                 {
                     "id": "56",
-                    "section_title": "O pożądliwości, zgorszeniu i cudzołóstwie",
+                    "section_title": "Взгляд с вожделением; о разводе",
                     "mt": [
                         {
                             "leading": true,
@@ -5373,7 +5373,7 @@
                 },
                 {
                     "id": "57",
-                    "section_title": "O przysiędze",
+                    "section_title": "О клятве",
                     "mt": [
                         {
                             "leading": true,
@@ -5418,7 +5418,7 @@
                 },
                 {
                     "id": "58",
-                    "section_title": "Jak się złemu sprzeciwiać",
+                    "section_title": "«Око за око, а Я говорю вам…»",
                     "mt": [
                         {
                             "leading": true,
@@ -5477,7 +5477,7 @@
                 },
                 {
                     "id": "59",
-                    "section_title": "Uczy miłować nieprzyjaciół",
+                    "section_title": "«Любите врагов ваших»",
                     "mt": [
                         {
                             "leading": true,
@@ -5574,7 +5574,7 @@
                 },
                 {
                     "id": "60",
-                    "section_title": "Jak wykonywać dobre uczynki, jałmużnę?",
+                    "section_title": "Учение о милостыне",
                     "mt": [
                         {
                             "leading": true,
@@ -5614,7 +5614,7 @@
                 },
                 {
                     "id": "61",
-                    "section_title": "Jak się modlić?",
+                    "section_title": "О молитве",
                     "mt": [
                         {
                             "leading": true,
@@ -5644,7 +5644,7 @@
                 },
                 {
                     "id": "62",
-                    "section_title": "Modlitwa Pańska",
+                    "section_title": "«Отче наш…»",
                     "mt": [
                         {
                             "leading": true,
@@ -5742,7 +5742,7 @@
                 },
                 {
                     "id": "63",
-                    "section_title": "Jak pościć?",
+                    "section_title": "Пост",
                     "mt": [
                         {
                             "leading": true,
@@ -5777,7 +5777,7 @@
                 },
                 {
                     "id": "64",
-                    "section_title": "O skarbie niebieskim",
+                    "section_title": "О сокровищах на небесах",
                     "mt": [
                         {
                             "leading": true,
@@ -5826,7 +5826,7 @@
                 },
                 {
                     "id": "65",
-                    "section_title": "Świecą ciała twego jest oko twoje",
+                    "section_title": "Око – светильник",
                     "mt": [
                         {
                             "leading": true,
@@ -5875,7 +5875,7 @@
                 },
                 {
                     "id": "66",
-                    "section_title": "Bóg i mamona",
+                    "section_title": "Служение двум господам",
                     "mt": [
                         {
                             "leading": true,
@@ -5909,7 +5909,7 @@
                 },
                 {
                     "id": "67",
-                    "section_title": "O ufności w Bogu",
+                    "section_title": "О заботах",
                     "mt": [
                         {
                             "leading": true,
@@ -6038,7 +6038,7 @@
                 },
                 {
                     "id": "68",
-                    "section_title": "Nie należy sądzić",
+                    "section_title": "Сучок и бревно",
                     "mt": [
                         {
                             "leading": true,
@@ -6131,7 +6131,7 @@
                 },
                 {
                     "id": "69",
-                    "section_title": "„Nie rzucajcie pereł waszych przed wieprze”",
+                    "section_title": "Жемчуг пред свиньями",
                     "mt": [
                         {
                             "leading": true,
@@ -6156,7 +6156,7 @@
                 },
                 {
                     "id": "70",
-                    "section_title": "Zaleca modlitwę",
+                    "section_title": "Молитва о благих дарах Божиих",
                     "mt": [
                         {
                             "leading": true,
@@ -6230,7 +6230,7 @@
                 },
                 {
                     "id": "71",
-                    "section_title": "Złota zasada postępowania",
+                    "section_title": "Поступай с другими так, как хотел бы, чтобы они поступали с тобой",
                     "mt": [
                         {
                             "leading": true,
@@ -6264,7 +6264,7 @@
                 },
                 {
                     "id": "72",
-                    "section_title": "O drodze wąskiej i szerokiej",
+                    "section_title": "Тесные врата к жизни",
                     "mt": [
                         {
                             "leading": true,
@@ -6308,7 +6308,7 @@
                 },
                 {
                     "id": "73",
-                    "section_title": "O prawdziwie dobrych uczynkach",
+                    "section_title": "Лжепророки узнаются по плодам",
                     "mt": [
                         {
                             "leading": true,
@@ -6400,7 +6400,7 @@
                 },
                 {
                     "id": "74",
-                    "section_title": "Spełnianie woli Boga",
+                    "section_title": "«Не всякий, говорящий Мне: Господи! Господи…»",
                     "mt": [
                         {
                             "leading": true,
@@ -6467,7 +6467,7 @@
                 },
                 {
                     "id": "75",
-                    "section_title": "O mocnym budowaniu",
+                    "section_title": "Благоразумный и безрассудный строители",
                     "mt": [
                         {
                             "leading": true,
@@ -6526,7 +6526,7 @@
                 },
                 {
                     "id": "76",
-                    "section_title": "Zdumienie nauką Jezusa",
+                    "section_title": "Иисус Христос учит как власть имеющий",
                     "mt": [
                         {
                             "leading": true,
@@ -6575,7 +6575,7 @@
             "sections": [
                 {
                     "id": "77",
-                    "section_title": "Sława cudów",
+                    "section_title": "Иисус исцеляет и учит",
                     "mt": [
                         {
                             "leading": false,
@@ -6678,7 +6678,7 @@
                 },
                 {
                     "id": "78",
-                    "section_title": "Chrystus głosi osiem błogosławieństw",
+                    "section_title": "Восемь блаженств Христоса",
                     "mt": [
                         {
                             "leading": false,
@@ -6772,7 +6772,7 @@
                 },
                 {
                     "id": "79",
-                    "section_title": "Przekleństwa",
+                    "section_title": "«Горе вам…»",
                     "mt": [
                         null
                     ],
@@ -6807,7 +6807,7 @@
                 },
                 {
                     "id": "80",
-                    "section_title": "Miłość nieprzyjaciół",
+                    "section_title": "О любви врагов",
                     "mt": [
                         {
                             "leading": false,
@@ -6936,7 +6936,7 @@
                 },
                 {
                     "id": "81",
-                    "section_title": "Powściągliwość w sądzeniu",
+                    "section_title": "О суде",
                     "mt": [
                         {
                             "leading": false,
@@ -7029,7 +7029,7 @@
                 },
                 {
                     "id": "82",
-                    "section_title": "Przypowieść o drzewie złym i dobrym",
+                    "section_title": "«Познаётся по плоду»",
                     "mt": [
                         {
                             "leading": false,
@@ -7121,7 +7121,7 @@
                 },
                 {
                     "id": "83",
-                    "section_title": "O mocnym budowaniu",
+                    "section_title": "Дом основан на камне",
                     "mt": [
                         {
                             "leading": false,
@@ -7205,7 +7205,7 @@
             "sections": [
                 {
                     "id": "84",
-                    "section_title": "Oczyszczenie trędowatego",
+                    "section_title": "Исцеление прокаженного",
                     "mt": [
                         {
                             "leading": true,
@@ -7308,7 +7308,7 @@
                 },
                 {
                     "id": "85",
-                    "section_title": "Uzdrowienie sługi setnika",
+                    "section_title": "Исцеление слуги сотника",
                     "mt": [
                         {
                             "leading": true,
@@ -7507,7 +7507,7 @@
                 },
                 {
                     "id": "86",
-                    "section_title": "Wskrzeszenie młodzieńca z Nain",
+                    "section_title": "Воскрешение сына вдовы в Наине",
                     "mt": [
                         null
                     ],
@@ -7562,7 +7562,7 @@
                 },
                 {
                     "id": "87",
-                    "section_title": "Uzdrowienie świekry Piotra",
+                    "section_title": "Исцеление тещи Петра",
                     "mt": [
                         {
                             "leading": true,
@@ -7625,7 +7625,7 @@
                 },
                 {
                     "id": "88",
-                    "section_title": "Liczne uzdrowienia",
+                    "section_title": "Множество исцелений",
                     "mt": [
                         {
                             "leading": true,
@@ -7688,7 +7688,7 @@
                 },
                 {
                     "id": "89",
-                    "section_title": "O doskonałym wyrzeczeniu się",
+                    "section_title": "О следовании за Иисусом",
                     "mt": [
                         {
                             "leading": true,
@@ -7767,7 +7767,7 @@
                 },
                 {
                     "id": "90",
-                    "section_title": "Uśmierzenie burzy",
+                    "section_title": "Укрощение бури",
                     "mt": [
                         {
                             "leading": true,
@@ -7875,7 +7875,7 @@
                 },
                 {
                     "id": "91",
-                    "section_title": "Uzdrowienie opętanych Gerazeńczyków",
+                    "section_title": "Исцеление бесноватых в Гергесинской стране",
                     "mt": [
                         {
                             "leading": true,
@@ -8108,7 +8108,7 @@
                 },
                 {
                     "id": "92",
-                    "section_title": "Uzdrowienie paralityka",
+                    "section_title": "Исцеление расслабленного",
                     "mt": [
                         {
                             "leading": true,
@@ -8300,7 +8300,7 @@
                 },
                 {
                     "id": "93",
-                    "section_title": "Powołanie Mateusza",
+                    "section_title": "Призвание Матфея",
                     "mt": [
                         {
                             "leading": true,
@@ -8408,7 +8408,7 @@
                 },
                 {
                     "id": "94",
-                    "section_title": "Spór o post",
+                    "section_title": "О посте",
                     "mt": [
                         {
                             "leading": true,
@@ -8516,7 +8516,7 @@
                 },
                 {
                     "id": "95",
-                    "section_title": "Uzdrowienie cierpiącej krwotok i wskrzeszenie córki Jaira",
+                    "section_title": "Дочь Иаира; кровоточива женщина",
                     "mt": [
                         {
                             "leading": true,
@@ -8789,7 +8789,7 @@
                 },
                 {
                     "id": "96",
-                    "section_title": "Leczy dwóch ślepych",
+                    "section_title": "Исцеление двух слепых",
                     "mt": [
                         {
                             "leading": true,
@@ -8960,7 +8960,7 @@
                 },
                 {
                     "id": "97",
-                    "section_title": "Leczy niemego",
+                    "section_title": "Исцеление немого бесноватого",
                     "mt": [
                         {
                             "leading": true,
@@ -9041,7 +9041,7 @@
                 },
                 {
                     "id": "98",
-                    "section_title": "Lituje się nad ludem i pragnie dlań pasterzy",
+                    "section_title": "Жалость над толпою",
                     "mt": [
                         {
                             "leading": true,
@@ -9121,7 +9121,7 @@
                 },
                 {
                     "id": "99",
-                    "section_title": "Jezus rozsyła Apostołów",
+                    "section_title": "Иисус посылает апостолов",
                     "mt": [
                         {
                             "leading": true,
@@ -9376,7 +9376,7 @@
                 },
                 {
                     "id": "100",
-                    "section_title": "Jezus zapowiada prześladowania",
+                    "section_title": "Судьба учеников",
                     "mt": [
                         {
                             "leading": true,
@@ -9588,7 +9588,7 @@
                 },
                 {
                     "id": "101",
-                    "section_title": "Kogo należy się bać?",
+                    "section_title": "Призыв к смелому исповеданию Иисуса",
                     "mt": [
                         {
                             "leading": true,
@@ -9692,7 +9692,7 @@
                 },
                 {
                     "id": "102",
-                    "section_title": "Nie pokój zsyła, ale miecz",
+                    "section_title": "«Не мир пришел Я принести, но меч»",
                     "mt": [
                         {
                             "leading": true,
@@ -9746,7 +9746,7 @@
                 },
                 {
                     "id": "103",
-                    "section_title": "„Kto by utracił duszę swą dla mnie, znajdzie ją”",
+                    "section_title": "«Потерявший душу свою ради Меня сбережет ее»",
                     "mt": [
                         {
                             "leading": true,
@@ -9822,7 +9822,7 @@
                 },
                 {
                     "id": "104",
-                    "section_title": "„Kto mnie przyjmuje, przyjmuje tego, który mnie posłał”",
+                    "section_title": "«Кто принимает Меня, принимает Пославшего Меня»",
                     "mt": [
                         {
                             "leading": true,
@@ -9884,7 +9884,7 @@
                 },
                 {
                     "id": "105",
-                    "section_title": "Kontynuacja nauczania",
+                    "section_title": "Продолжение учения",
                     "mt": [
                         {
                             "leading": true,
@@ -9909,7 +9909,7 @@
                 },
                 {
                     "id": "106",
-                    "section_title": "Poselstwo Jana Chrzciciela",
+                    "section_title": "Вопрошание Иоанна Крестителя об Иисусе Христ",
                     "mt": [
                         {
                             "leading": true,
@@ -9988,7 +9988,7 @@
                 },
                 {
                     "id": "107",
-                    "section_title": "Świadectwo Jezusa o Janie",
+                    "section_title": "Иисус Христос говорит об Иоанне",
                     "mt": [
                         {
                             "leading": true,
@@ -10150,7 +10150,7 @@
                 },
                 {
                     "id": "108",
-                    "section_title": "Biada zwłaszcza zatwardziałym",
+                    "section_title": "Горе вам, города Галилеи",
                     "mt": [
                         {
                             "leading": true,
@@ -10219,7 +10219,7 @@
                 },
                 {
                     "id": "109",
-                    "section_title": "Dziękczynna modlitwa Jezusa",
+                    "section_title": "Утаено от мудрых и открыто младенцам",
                     "mt": [
                         {
                             "leading": true,
@@ -10268,7 +10268,7 @@
                 },
                 {
                     "id": "110",
-                    "section_title": "Wezwanie do utrudzonych",
+                    "section_title": "«Придите ко Мне все труждающиеся и обремененные»",
                     "mt": [
                         {
                             "leading": true,
@@ -10303,7 +10303,7 @@
                 },
                 {
                     "id": "111",
-                    "section_title": "Spór o szabat",
+                    "section_title": "Срывание колосьев в субботу",
                     "mt": [
                         {
                             "leading": true,
@@ -10426,7 +10426,7 @@
                 },
                 {
                     "id": "112",
-                    "section_title": "Uzdrawia uschłą rękę w szabat",
+                    "section_title": "Исцеление сухорукого в субботу",
                     "mt": [
                         {
                             "leading": true,
@@ -10544,7 +10544,7 @@
                 },
                 {
                     "id": "113",
-                    "section_title": "Proroctwo Izajasza o słodyczy Chrystusa",
+                    "section_title": "Исполнение пророчества Исаии",
                     "mt": [
                         {
                             "leading": true,
@@ -10652,7 +10652,7 @@
                 },
                 {
                     "id": "114",
-                    "section_title": "Grzesznica podczas uczty",
+                    "section_title": "Женщина помазала миром ноги Иисуса Христа",
                     "mt": [
                         {
                             "leading": false,
@@ -10874,7 +10874,7 @@
                 },
                 {
                     "id": "115",
-                    "section_title": "Podróż po Galilei",
+                    "section_title": "Иисус Христос благовествует по городам",
                     "mt": [
                         null
                     ],
@@ -10909,7 +10909,7 @@
                 },
                 {
                     "id": "116",
-                    "section_title": "Zbiegnięcie się rzeszy",
+                    "section_title": "Намерение ближних Иисуса",
                     "mt": [
                         null
                     ],
@@ -10939,7 +10939,7 @@
                 },
                 {
                     "id": "117",
-                    "section_title": "Bluźniercze obelgi faryzeuszów",
+                    "section_title": "Обвинение Иисуса Христа фарисеями",
                     "mt": [
                         {
                             "leading": true,
@@ -11114,7 +11114,7 @@
                 },
                 {
                     "id": "118",
-                    "section_title": "Grzech przeciwko Duchowi Świętemu",
+                    "section_title": "Хуление Духа Святого",
                     "mt": [
                         {
                             "leading": true,
@@ -11249,7 +11249,7 @@
                 },
                 {
                     "id": "119",
-                    "section_title": "Znak Jonasza",
+                    "section_title": "Знамение Ионы пророка",
                     "mt": [
                         {
                             "leading": true,
@@ -11372,7 +11372,7 @@
                 },
                 {
                     "id": "120",
-                    "section_title": "Taktyka ducha nieczystego",
+                    "section_title": "Нечистый дух и выметенный дом",
                     "mt": [
                         {
                             "leading": true,
@@ -11426,7 +11426,7 @@
                 },
                 {
                     "id": "121",
-                    "section_title": "Kto matką i bratem Jezusa?",
+                    "section_title": "«Матерь и братья» Иисуса",
                     "mt": [
                         {
                             "leading": true,
@@ -11528,7 +11528,7 @@
                 },
                 {
                     "id": "122",
-                    "section_title": "Przypowieść o siewcy",
+                    "section_title": "Притча о сеятеле",
                     "mt": [
                         {
                             "leading": true,
@@ -11671,7 +11671,7 @@
                 },
                 {
                     "id": "123",
-                    "section_title": "Czemu przez przypowieści naucza",
+                    "section_title": "Почему Он говорил притчами?",
                     "mt": [
                         {
                             "leading": true,
@@ -11804,7 +11804,7 @@
                 },
                 {
                     "id": "124",
-                    "section_title": "Wyjaśnienie przypowieści o siewcy",
+                    "section_title": "Изъяснение притчи о сеятеле",
                     "mt": [
                         {
                             "leading": true,
@@ -11927,7 +11927,7 @@
                 },
                 {
                     "id": "125",
-                    "section_title": "„Kto ma uszy ku słuchaniu, niechaj słucha!”",
+                    "section_title": "«Замечайте, что слышите»",
                     "mt": [
                         {
                             "leading": false,
@@ -12039,7 +12039,7 @@
                 },
                 {
                     "id": "126",
-                    "section_title": "Przypowieść o zasiewie",
+                    "section_title": "Притча о растущем семени",
                     "mt": [
                         null
                     ],
@@ -12079,7 +12079,7 @@
                 },
                 {
                     "id": "127",
-                    "section_title": "Przypowieść o kąkolu",
+                    "section_title": "Притча о пшенице и плевелах",
                     "mt": [
                         {
                             "leading": true,
@@ -12134,7 +12134,7 @@
                 },
                 {
                     "id": "128",
-                    "section_title": "Przypowieść o ziarnie gorczycznym",
+                    "section_title": "Притча о зерне горчичном",
                     "mt": [
                         {
                             "leading": true,
@@ -12197,7 +12197,7 @@
                 },
                 {
                     "id": "129",
-                    "section_title": "Przypowieść o kwasie",
+                    "section_title": "Притча о закваске",
                     "mt": [
                         {
                             "leading": true,
@@ -12236,7 +12236,7 @@
                 },
                 {
                     "id": "130",
-                    "section_title": "O nauczaniu w przypowieściach",
+                    "section_title": "Учение в притчах",
                     "mt": [
                         {
                             "leading": true,
@@ -12280,7 +12280,7 @@
                 },
                 {
                     "id": "131",
-                    "section_title": "Wyjaśnia przypowieść o kąkolu",
+                    "section_title": "Изъяснение притчи о пшенице и плевелах",
                     "mt": [
                         {
                             "leading": true,
@@ -12340,7 +12340,7 @@
                 },
                 {
                     "id": "132",
-                    "section_title": "Przypowieść o skarbie i perle",
+                    "section_title": "Притчи о сокрытом на поле сокровище и драгоценной жемчужине",
                     "mt": [
                         {
                             "leading": true,
@@ -12375,7 +12375,7 @@
                 },
                 {
                     "id": "133",
-                    "section_title": "Przypowieść o niewodzie",
+                    "section_title": "Притча о закинутом неводе",
                     "mt": [
                         {
                             "leading": true,
@@ -12415,7 +12415,7 @@
                 },
                 {
                     "id": "134",
-                    "section_title": "Skarbiec rzeczy nowych i starych",
+                    "section_title": "Хозяин",
                     "mt": [
                         {
                             "leading": true,
@@ -12445,7 +12445,7 @@
                 },
                 {
                     "id": "135",
-                    "section_title": "Krewni Jezusa",
+                    "section_title": "Истинные родственники Иисуса",
                     "mt": [
                         {
                             "leading": false,
@@ -12547,7 +12547,7 @@
                 },
                 {
                     "id": "136",
-                    "section_title": "Uciszenie burzy",
+                    "section_title": "«И ветер и море повинуются Ему»",
                     "mt": [
                         {
                             "leading": false,
@@ -12655,7 +12655,7 @@
                 },
                 {
                     "id": "137",
-                    "section_title": "Wypędza czarty w wieprze",
+                    "section_title": "Иисус Христос изгоняет легион бесов, который входит в стадо свиней",
                     "mt": [
                         {
                             "leading": false,
@@ -12888,7 +12888,7 @@
                 },
                 {
                     "id": "138",
-                    "section_title": "Uzdrawia niewiastę mającą krwotok i wskrzeszenie córki Jaira",
+                    "section_title": "Воскрешение дочери Иаира; исцеление кровоточивой женщины",
                     "mt": [
                         {
                             "leading": false,
@@ -13161,7 +13161,7 @@
                 },
                 {
                     "id": "139",
-                    "section_title": "Jezus wzgardzony w Nazarecie",
+                    "section_title": "«Не бывает пророк без чести»",
                     "mt": [
                         {
                             "leading": true,
@@ -13324,7 +13324,7 @@
                 },
                 {
                     "id": "140",
-                    "section_title": "Jezus ponownie udaje się do Jerozolimy",
+                    "section_title": "Второе путешествие Иисуса в Иерусалим",
                     "mt": [
                         null
                     ],
@@ -13349,7 +13349,7 @@
                 },
                 {
                     "id": "141",
-                    "section_title": "Uzdrowienie chorego od lat 38",
+                    "section_title": "Исцеление расслабленного при овчей купели",
                     "mt": [
                         null
                     ],
@@ -13599,7 +13599,7 @@
                 },
                 {
                     "id": "142",
-                    "section_title": "Rozsyła apostołów",
+                    "section_title": "Двенадцать посланы на служение",
                     "mt": [
                         {
                             "leading": false,
@@ -13761,7 +13761,7 @@
                 },
                 {
                     "id": "143",
-                    "section_title": "Różne zdania o Jezusie",
+                    "section_title": "Служение Иисуса Христа вызывает недоумение Ирода",
                     "mt": [
                         {
                             "leading": true,
@@ -13829,7 +13829,7 @@
                 },
                 {
                     "id": "144",
-                    "section_title": "Zamordowanie Jana Chrzciciela",
+                    "section_title": "Иоанн Креститель обезглавлен Иродом",
                     "mt": [
                         {
                             "leading": true,
@@ -13982,7 +13982,7 @@
                 },
                 {
                     "id": "145",
-                    "section_title": "Jezus odpoczywa z apostołami",
+                    "section_title": "Возвращение апостолов",
                     "mt": [
                         null
                     ],
@@ -14021,7 +14021,7 @@
                 },
                 {
                     "id": "146",
-                    "section_title": "Pierwsze rozmnożenie chleba",
+                    "section_title": "Насыщение 5000",
                     "mt": [
                         {
                             "leading": true,
@@ -14278,7 +14278,7 @@
                 },
                 {
                     "id": "147",
-                    "section_title": "Jezus chodzi po morzu",
+                    "section_title": "Хождение по водам",
                     "mt": [
                         {
                             "leading": true,
@@ -14436,7 +14436,7 @@
                 },
                 {
                     "id": "148",
-                    "section_title": "Uzdrawia niemocnych",
+                    "section_title": "Исцеления в земле Геннисаретской",
                     "mt": [
                         {
                             "leading": true,
@@ -14519,7 +14519,7 @@
                 },
                 {
                     "id": "149",
-                    "section_title": "Jezus chlebem żywota",
+                    "section_title": "«Хлеб жизни»",
                     "mt": [
                         null
                     ],
@@ -14709,7 +14709,7 @@
                 },
                 {
                     "id": "150",
-                    "section_title": "Ustawy faryzejskie należy odrzucić",
+                    "section_title": "Предания старцев, обвинение фарисеев",
                     "mt": [
                         {
                             "leading": true,
@@ -14990,7 +14990,7 @@
                 },
                 {
                     "id": "151",
-                    "section_title": "Uzdrawia córkę Chanejki",
+                    "section_title": "Исцеление дочери хананеянки",
                     "mt": [
                         {
                             "leading": true,
@@ -15089,7 +15089,7 @@
                 },
                 {
                     "id": "152",
-                    "section_title": "Uzdrawia głuchoniemego",
+                    "section_title": "Исцеление глухого косноязычного",
                     "mt": [
                         {
                             "leading": true,
@@ -15163,7 +15163,7 @@
                 },
                 {
                     "id": "153",
-                    "section_title": "Powtórnie chleb rozmnaża",
+                    "section_title": "Насыщение 4000",
                     "mt": [
                         {
                             "leading": true,
@@ -15277,7 +15277,7 @@
                 },
                 {
                     "id": "154",
-                    "section_title": "Ukaż nam znak z nieba",
+                    "section_title": "Фарисеи требуют знамения",
                     "mt": [
                         {
                             "leading": true,
@@ -15395,7 +15395,7 @@
                 },
                 {
                     "id": "155",
-                    "section_title": "O kwasie faryzeuszów i saduceuszów",
+                    "section_title": "«Берегитесь закваски фарисейской»",
                     "mt": [
                         {
                             "leading": true,
@@ -15508,7 +15508,7 @@
                 },
                 {
                     "id": "156",
-                    "section_title": "Przywraca wzrok ślepemu",
+                    "section_title": "Исцеление слепого в Вифсаиде",
                     "mt": [
                         null
                     ],
@@ -15558,7 +15558,7 @@
             "sections": [
                 {
                     "id": "157",
-                    "section_title": "Różny skutek obietnicy",
+                    "section_title": "Отступление некоторых учеников от Иисуса",
                     "mt": [
                         null
                     ],
@@ -15613,7 +15613,7 @@
                 },
                 {
                     "id": "158",
-                    "section_title": "Wyznanie Piotra, jego prymat",
+                    "section_title": "Петр исповедует Иисуса Христом, Сыном Божиим",
                     "mt": [
                         {
                             "leading": true,
@@ -15750,7 +15750,7 @@
                 },
                 {
                     "id": "159",
-                    "section_title": "Przepowiednia męki",
+                    "section_title": "Первое предсказание страданий и воскресения",
                     "mt": [
                         {
                             "leading": true,
@@ -15813,7 +15813,7 @@
                 },
                 {
                     "id": "160",
-                    "section_title": "Naśladowanie Chrystusa",
+                    "section_title": "Иисус говорит о следовании за Ним и кресте; о сбережении и потере души ради Него",
                     "mt": [
                         {
                             "leading": true,
@@ -15930,7 +15930,7 @@
                 },
                 {
                     "id": "161",
-                    "section_title": "Przemienienie Pańskie",
+                    "section_title": "Преображение Господне",
                     "mt": [
                         {
                             "leading": true,
@@ -16093,7 +16093,7 @@
                 },
                 {
                     "id": "162",
-                    "section_title": "O przyjściu Eliasza",
+                    "section_title": "О пришествии Илии",
                     "mt": [
                         {
                             "leading": true,
@@ -16152,7 +16152,7 @@
                 },
                 {
                     "id": "163",
-                    "section_title": "Uzdrowienie chłopca",
+                    "section_title": "Исцеление бесноватого отрока",
                     "mt": [
                         {
                             "leading": true,
@@ -16348,7 +16348,7 @@
                 },
                 {
                     "id": "164",
-                    "section_title": "Druga zapowiedź męki",
+                    "section_title": "Второе предсказание страданий и воскресения",
                     "mt": [
                         {
                             "leading": true,
@@ -16416,7 +16416,7 @@
                 },
                 {
                     "id": "165",
-                    "section_title": "Danina na świątynię",
+                    "section_title": "Уплата подати на храм",
                     "mt": [
                         {
                             "leading": true,
@@ -16456,7 +16456,7 @@
                 },
                 {
                     "id": "166",
-                    "section_title": "Chrystus zaleca pokorę",
+                    "section_title": "Первенство чрез служение всем",
                     "mt": [
                         {
                             "leading": true,
@@ -16558,7 +16558,7 @@
                 },
                 {
                     "id": "167",
-                    "section_title": "Dobre czyny w imię Jezusa",
+                    "section_title": "Добрые дела во имя Иисуса",
                     "mt": [
                         {
                             "leading": false,
@@ -16621,7 +16621,7 @@
                 },
                 {
                     "id": "168",
-                    "section_title": "Potępienie zgorszenia",
+                    "section_title": "Причина соблазна и геенна огненная",
                     "mt": [
                         {
                             "leading": true,
@@ -16751,7 +16751,7 @@
                 },
                 {
                     "id": "169",
-                    "section_title": "Zgubiona owca",
+                    "section_title": "Заблудившаяся овца",
                     "mt": [
                         {
                             "leading": true,
@@ -16825,7 +16825,7 @@
                 },
                 {
                     "id": "170",
-                    "section_title": "Upomnienie braterskie",
+                    "section_title": "Согрешающий брат",
                     "mt": [
                         {
                             "leading": true,
@@ -16883,7 +16883,7 @@
                 },
                 {
                     "id": "171",
-                    "section_title": "„Gdzie są dwaj albo trzej zgromadzeni w imię moje…”",
+                    "section_title": "«Где двое или трое собраны во имя Мое…»",
                     "mt": [
                         {
                             "leading": true,
@@ -16913,7 +16913,7 @@
                 },
                 {
                     "id": "172",
-                    "section_title": "Obowiązek przebaczenia",
+                    "section_title": "О прощении",
                     "mt": [
                         {
                             "leading": true,
@@ -16952,7 +16952,7 @@
                 },
                 {
                     "id": "173",
-                    "section_title": "Niemiłosierny sługa-dłużnik",
+                    "section_title": "Притча о немилосердном должнике",
                     "mt": [
                         {
                             "leading": true,
@@ -17042,7 +17042,7 @@
             "sections": [
                 {
                     "id": "174",
-                    "section_title": "W drodze z Galilei",
+                    "section_title": "По пути из Галилеи",
                     "mt": [
                         {
                             "leading": false,
@@ -17090,7 +17090,7 @@
                 },
                 {
                     "id": "175",
-                    "section_title": "Niegościnni Samarytanie",
+                    "section_title": "Отвержение Иисуса самарянами",
                     "mt": [
                         null
                     ],
@@ -17135,7 +17135,7 @@
                 },
                 {
                     "id": "176",
-                    "section_title": "Niedoskonali uczniowie",
+                    "section_title": "«Негде приклонить голову». «Мертвые пусть погребают мертвецов»",
                     "mt": [
                         {
                             "leading": false,
@@ -17214,7 +17214,7 @@
                 },
                 {
                     "id": "177",
-                    "section_title": "Rozesłanie siedemdziesięciu dwóch uczniów",
+                    "section_title": "Семьдесят учеников посланы на служение",
                     "mt": [
                         {
                             "leading": false,
@@ -17366,7 +17366,7 @@
                 },
                 {
                     "id": "178",
-                    "section_title": "Niepokutujące miasta",
+                    "section_title": "Горе вам, города Галилеи",
                     "mt": [
                         {
                             "leading": false,
@@ -17430,7 +17430,7 @@
                 },
                 {
                     "id": "179",
-                    "section_title": "„Kto was słucha, mnie słucha”",
+                    "section_title": "«Слушающий вас Меня слушает»",
                     "mt": [
                         {
                             "leading": false,
@@ -17473,7 +17473,7 @@
                 },
                 {
                     "id": "180",
-                    "section_title": "Powrót uczniów",
+                    "section_title": "Возвращение семидесяти учеников",
                     "mt": [
                         null
                     ],
@@ -17513,7 +17513,7 @@
                 },
                 {
                     "id": "181",
-                    "section_title": "Dziękczynna modlitwa Jezusa",
+                    "section_title": "Иисус прославляет Отца; «утаил от мудрых», «открыл младенцам»",
                     "mt": [
                         {
                             "leading": false,
@@ -17590,7 +17590,7 @@
                 },
                 {
                     "id": "182",
-                    "section_title": "Największe przykazanie",
+                    "section_title": "Великая заповедь",
                     "mt": [
                         {
                             "leading": false,
@@ -17708,7 +17708,7 @@
                 },
                 {
                     "id": "183",
-                    "section_title": "Miłosierny Samarytanin",
+                    "section_title": "Притча о милосердном самарянине",
                     "mt": [
                         null
                     ],
@@ -17773,7 +17773,7 @@
                 },
                 {
                     "id": "184",
-                    "section_title": "Marta i Maria",
+                    "section_title": "Марфа и Мария",
                     "mt": [
                         null
                     ],
@@ -17818,7 +17818,7 @@
                 },
                 {
                     "id": "185",
-                    "section_title": "Modlitwa Pańska",
+                    "section_title": "«Отче наш»",
                     "mt": [
                         {
                             "leading": false,
@@ -17887,7 +17887,7 @@
                 },
                 {
                     "id": "186",
-                    "section_title": "Natrętny przyjaciel",
+                    "section_title": "Притча о человеке, просящем хлеба в полночь у своего друга",
                     "mt": [
                         null
                     ],
@@ -17927,7 +17927,7 @@
                 },
                 {
                     "id": "187",
-                    "section_title": "Wytrwałość w modlitwie",
+                    "section_title": "«Просите, и дано будет вам»",
                     "mt": [
                         {
                             "leading": false,
@@ -18001,7 +18001,7 @@
                 },
                 {
                     "id": "188",
-                    "section_title": "Bluźnierstwo faryzeuszów",
+                    "section_title": "Силою веельзевула или перстом Божиим? Сильнейший победит сильного",
                     "mt": [
                         {
                             "leading": false,
@@ -18154,7 +18154,7 @@
                 },
                 {
                     "id": "189",
-                    "section_title": "Taktyka ducha nieczystego",
+                    "section_title": "Выметенный дом",
                     "mt": [
                         {
                             "leading": false,
@@ -18208,7 +18208,7 @@
                 },
                 {
                     "id": "190",
-                    "section_title": "Macierzyństwo Maryi błogosławione",
+                    "section_title": "Блаженны слышащие и соблюдающие",
                     "mt": [
                         null
                     ],
@@ -18238,7 +18238,7 @@
                 },
                 {
                     "id": "191",
-                    "section_title": "Jonasz figurą Mesjasza",
+                    "section_title": "Знамение Ионы",
                     "mt": [
                         {
                             "leading": false,
@@ -18321,7 +18321,7 @@
                 },
                 {
                     "id": "192",
-                    "section_title": "Porównanie ze świecą",
+                    "section_title": "Сравнение со свечой",
                     "mt": [
                         {
                             "leading": false,
@@ -18364,7 +18364,7 @@
                 },
                 {
                     "id": "193",
-                    "section_title": "Świecą ciała jest oko",
+                    "section_title": "Светильник тела есть око",
                     "mt": [
                         {
                             "leading": false,
@@ -18413,7 +18413,7 @@
                 },
                 {
                     "id": "194",
-                    "section_title": "Napiętnowanie obłudy faryzejskiej",
+                    "section_title": "«Горе» фарисеям; законники, их ненависть к Иисусу Христу",
                     "mt": [
                         {
                             "leading": false,
@@ -18621,7 +18621,7 @@
                 },
                 {
                     "id": "195",
-                    "section_title": "„Strzeżcie się kwasu faryzejskiego!”",
+                    "section_title": "«Берегитесь закваски фарисейской!»",
                     "mt": [
                         {
                             "leading": false,
@@ -18674,7 +18674,7 @@
                 },
                 {
                     "id": "196",
-                    "section_title": "Kogo należy się bać?",
+                    "section_title": "Кого бояться?",
                     "mt": [
                         {
                             "leading": false,
@@ -18778,7 +18778,7 @@
                 },
                 {
                     "id": "197",
-                    "section_title": "Grzech przeciwko Duchowi Świętemu",
+                    "section_title": "Хуление Духа Святого",
                     "mt": [
                         {
                             "leading": false,
@@ -18836,7 +18836,7 @@
                 },
                 {
                     "id": "198",
-                    "section_title": "Pociecha w prześladowaniu",
+                    "section_title": "Помощь Святого Духа",
                     "mt": [
                         {
                             "leading": false,
@@ -18907,7 +18907,7 @@
                 },
                 {
                     "id": "199",
-                    "section_title": "Przestroga przed chciwością",
+                    "section_title": "Предостережение об алчости",
                     "mt": [
                         null
                     ],
@@ -18942,7 +18942,7 @@
                 },
                 {
                     "id": "200",
-                    "section_title": "Przypowieść o bogatym głupcu",
+                    "section_title": "Притча о безумном богаче",
                     "mt": [
                         null
                     ],
@@ -18992,7 +18992,7 @@
                 },
                 {
                     "id": "201",
-                    "section_title": "Nadmierna troska",
+                    "section_title": "«Не заботьтесь»; «посмотрите на лилии»; «ищите Царствия Божия»",
                     "mt": [
                         {
                             "leading": false,
@@ -19121,7 +19121,7 @@
                 },
                 {
                     "id": "202",
-                    "section_title": "Dobra, które nie niszczeją",
+                    "section_title": "Сокровище неоскудевающее на небесах",
                     "mt": [
                         {
                             "leading": false,
@@ -19170,7 +19170,7 @@
                 },
                 {
                     "id": "203",
-                    "section_title": "Przypowieść o wiernym słudze",
+                    "section_title": "Бодрствуйте; верный домоправитель",
                     "mt": [
                         {
                             "leading": false,
@@ -19314,7 +19314,7 @@
                 },
                 {
                     "id": "204",
-                    "section_title": "Ogień i rozłąka",
+                    "section_title": "Разделение в доме",
                     "mt": [
                         {
                             "leading": false,
@@ -19378,7 +19378,7 @@
                 },
                 {
                     "id": "205",
-                    "section_title": "Znaki czasu",
+                    "section_title": "«Как же времени сего не узнаете?»",
                     "mt": [
                         {
                             "leading": false,
@@ -19427,7 +19427,7 @@
                 },
                 {
                     "id": "206",
-                    "section_title": "„Pogódź się prędko z przeciwnikiem swoim!”",
+                    "section_title": "Покайся или погибни",
                     "mt": [
                         {
                             "leading": false,
@@ -19476,7 +19476,7 @@
                 },
                 {
                     "id": "207",
-                    "section_title": "Przypowieść o fidze",
+                    "section_title": "Притча о смоковнице",
                     "mt": [
                         null
                     ],
@@ -19541,7 +19541,7 @@
                 },
                 {
                     "id": "208",
-                    "section_title": "Niewiasta uzdrowiona w szabat",
+                    "section_title": "Исцеление скорченной женщины в субботу",
                     "mt": [
                         null
                     ],
@@ -19601,7 +19601,7 @@
                 },
                 {
                     "id": "209",
-                    "section_title": "Przypowieść o ziarnie gorczycy",
+                    "section_title": "Притча о зерне горчичном",
                     "mt": [
                         {
                             "leading": false,
@@ -19664,7 +19664,7 @@
                 },
                 {
                     "id": "210",
-                    "section_title": "Przypowieść o kwasie",
+                    "section_title": "Притча о закваске",
                     "mt": [
                         {
                             "leading": false,
@@ -19703,7 +19703,7 @@
                 },
                 {
                     "id": "211",
-                    "section_title": "O ciasnej bramie",
+                    "section_title": "Когда тесные врата затворены",
                     "mt": [
                         {
                             "leading": false,
@@ -19840,7 +19840,7 @@
                 },
                 {
                     "id": "212",
-                    "section_title": "Jezus i Herod",
+                    "section_title": "Ответ Иисуса Христа Ироду",
                     "mt": [
                         null
                     ],
@@ -19875,7 +19875,7 @@
                 },
                 {
                     "id": "213",
-                    "section_title": "Skarga na Jerozolimę",
+                    "section_title": "«Иерусалим! Иерусалим!»",
                     "mt": [
                         {
                             "leading": false,
@@ -19924,7 +19924,7 @@
                 },
                 {
                     "id": "214",
-                    "section_title": "Uzdrowienie chorego na puchlinę",
+                    "section_title": "Исцеление страдающего водяной болезнью в субботу",
                     "mt": [
                         null
                     ],
@@ -19974,7 +19974,7 @@
                 },
                 {
                     "id": "215",
-                    "section_title": "Ostatnie miejsce na uczcie",
+                    "section_title": "Притча о выборе первых мест; приглашение нищих на пир",
                     "mt": [
                         null
                     ],
@@ -20034,7 +20034,7 @@
                 },
                 {
                     "id": "216",
-                    "section_title": "Przypowieść o zaproszonych na gody",
+                    "section_title": "Приглашение на большой ужин и отказ званых",
                     "mt": [
                         {
                             "leading": false,
@@ -20178,7 +20178,7 @@
                 },
                 {
                     "id": "217",
-                    "section_title": "Potrzeba zaparcia się",
+                    "section_title": "Цена следования за Христом; несение своего креста",
                     "mt": [
                         {
                             "leading": false,
@@ -20257,7 +20257,7 @@
                 },
                 {
                     "id": "218",
-                    "section_title": "„Jeśli sól zwietrzeje, czym solona będzie?”",
+                    "section_title": "«Если соль потеряет силу, чем исправить ее?»",
                     "mt": [
                         {
                             "leading": false,
@@ -20310,7 +20310,7 @@
                 },
                 {
                     "id": "219",
-                    "section_title": "Przypowieść o zgubionej owcy",
+                    "section_title": "Притча о потерянной овце",
                     "mt": [
                         {
                             "leading": false,
@@ -20384,7 +20384,7 @@
                 },
                 {
                     "id": "220",
-                    "section_title": "Przypowieść o zgubionej drachmie",
+                    "section_title": "Притча о потерянной драхме",
                     "mt": [
                         null
                     ],
@@ -20419,7 +20419,7 @@
                 },
                 {
                     "id": "221",
-                    "section_title": "Przypowieść o synu marnotrawnym",
+                    "section_title": "Притча о блудном сыне, его отце и брате",
                     "mt": [
                         null
                     ],
@@ -20549,7 +20549,7 @@
                 },
                 {
                     "id": "222",
-                    "section_title": "Przypowieść o niesprawiedliwym włodarzu",
+                    "section_title": "Притча о неверном управителе",
                     "mt": [
                         null
                     ],
@@ -20614,7 +20614,7 @@
                 },
                 {
                     "id": "223",
-                    "section_title": "„Kto wierny jest w najmniejszej rzeczy…”",
+                    "section_title": "«Верный в малом и во многом верен»",
                     "mt": [
                         null
                     ],
@@ -20649,7 +20649,7 @@
                 },
                 {
                     "id": "224",
-                    "section_title": "Bóg i mamona",
+                    "section_title": "Бог и маммона",
                     "mt": [
                         {
                             "leading": false,
@@ -20683,7 +20683,7 @@
                 },
                 {
                     "id": "225",
-                    "section_title": "Faryzejska świętość",
+                    "section_title": "Укор фарисеям",
                     "mt": [
                         null
                     ],
@@ -20713,7 +20713,7 @@
                 },
                 {
                     "id": "226",
-                    "section_title": "Jezus a Zakon",
+                    "section_title": "Иисус и закон",
                     "mt": [
                         {
                             "leading": false,
@@ -20770,7 +20770,7 @@
                 },
                 {
                     "id": "227",
-                    "section_title": "Nierozwiązalność małżeństwa",
+                    "section_title": "О разводе",
                     "mt": [
                         {
                             "leading": false,
@@ -20818,7 +20818,7 @@
                 },
                 {
                     "id": "228",
-                    "section_title": "Przypowieść o bogaczu i Łazarzu",
+                    "section_title": "Притча о богаче и нищем Лазаре",
                     "mt": [
                         null
                     ],
@@ -20903,7 +20903,7 @@
                 },
                 {
                     "id": "229",
-                    "section_title": "O zgorszeniu",
+                    "section_title": "О соблазнах",
                     "mt": [
                         {
                             "leading": false,
@@ -20961,7 +20961,7 @@
                 },
                 {
                     "id": "230",
-                    "section_title": "Obowiązek odpuszczania win",
+                    "section_title": "О прощении",
                     "mt": [
                         {
                             "leading": false,
@@ -21000,7 +21000,7 @@
                 },
                 {
                     "id": "231",
-                    "section_title": "Moc wiary",
+                    "section_title": "О вере",
                     "mt": [
                         {
                             "leading": false,
@@ -21063,7 +21063,7 @@
                 },
                 {
                     "id": "232",
-                    "section_title": "Służyć z pokorą",
+                    "section_title": "О послушании",
                     "mt": [
                         null
                     ],
@@ -21103,7 +21103,7 @@
                 },
                 {
                     "id": "233",
-                    "section_title": "Oczyszczenie dziesięciu trędowatych",
+                    "section_title": "Десять прокаженных",
                     "mt": [
                         null
                     ],
@@ -21168,7 +21168,7 @@
                 },
                 {
                     "id": "234",
-                    "section_title": "O nadejściu królestwa Bożego",
+                    "section_title": "Когда придет Царствие Божие?",
                     "mt": [
                         null
                     ],
@@ -21198,7 +21198,7 @@
                 },
                 {
                     "id": "235",
-                    "section_title": "Dzień Syna Człowieczego",
+                    "section_title": "«В тот день, когда Сын Человеческий явится»",
                     "mt": [
                         {
                             "leading": false,
@@ -21467,7 +21467,7 @@
                 },
                 {
                     "id": "236",
-                    "section_title": "Niesprawiedliwy sędzia i wdowa",
+                    "section_title": "Притча о неправедном судье",
                     "mt": [
                         null
                     ],
@@ -21527,7 +21527,7 @@
                 },
                 {
                     "id": "237",
-                    "section_title": "Przypowieść o faryzeuszu i celniku",
+                    "section_title": "Молитва фарисея и мытаря",
                     "mt": [
                         null
                     ],
@@ -21582,7 +21582,7 @@
             "sections": [
                 {
                     "id": "238",
-                    "section_title": "Niedowiarstwo krewnych Jezusa",
+                    "section_title": "Иисус отвергает предложение Его братьев",
                     "mt": [
                         null
                     ],
@@ -21647,7 +21647,7 @@
                 },
                 {
                     "id": "239",
-                    "section_title": "Różne zdania o Jezusie",
+                    "section_title": "Тайное путешествие Иисуса в Иерусалим",
                     "mt": [
                         null
                     ],
@@ -21687,7 +21687,7 @@
                 },
                 {
                     "id": "240",
-                    "section_title": "Jezus uczy w świątyni",
+                    "section_title": "Иисус Христос учит явно в храме на празднике; Неудачная попытка схватить Иисуса Христа",
                     "mt": [
                         null
                     ],
@@ -21837,7 +21837,7 @@
                 },
                 {
                     "id": "241",
-                    "section_title": "Czy Jezus jest Mesjaszem?",
+                    "section_title": "«Никогда человек не говорил так»",
                     "mt": [
                         null
                     ],
@@ -21922,7 +21922,7 @@
                 },
                 {
                     "id": "242",
-                    "section_title": "Jawnogrzesznica",
+                    "section_title": "Иисус Христос прощает взятую в прелюбодеянии",
                     "mt": [
                         null
                     ],
@@ -22002,7 +22002,7 @@
                 },
                 {
                     "id": "243",
-                    "section_title": "Jezus światłością świata",
+                    "section_title": "«Я свет миру»; Отец и Сын",
                     "mt": [
                         null
                     ],
@@ -22067,7 +22067,7 @@
                 },
                 {
                     "id": "244",
-                    "section_title": "Jezus Synem Boga",
+                    "section_title": "«Что Я слышал от Отца, то и говорю»",
                     "mt": [
                         null
                     ],
@@ -22132,7 +22132,7 @@
                 },
                 {
                     "id": "245",
-                    "section_title": "„Prawda was wyswobodzi”",
+                    "section_title": "«Истина сделает вас свободными»",
                     "mt": [
                         null
                     ],
@@ -22187,7 +22187,7 @@
                 },
                 {
                     "id": "246",
-                    "section_title": "Kto Synem Bożym?",
+                    "section_title": "«Кто от Бога, тот слушает слова Божии»",
                     "mt": [
                         null
                     ],
@@ -22262,7 +22262,7 @@
                 },
                 {
                     "id": "247",
-                    "section_title": "„Pierwej niż Abraham się stał, jam jest”",
+                    "section_title": "«Прежде, нежели был Авраам, Я есмь»",
                     "mt": [
                         null
                     ],
@@ -22342,7 +22342,7 @@
                 },
                 {
                     "id": "248",
-                    "section_title": "Uzdrowienie ślepego od urodzenia",
+                    "section_title": "Исцеление слепорожденного",
                     "mt": [
                         null
                     ],
@@ -22567,7 +22567,7 @@
                 },
                 {
                     "id": "249",
-                    "section_title": "Jezus dobrym pasterzem",
+                    "section_title": "«Я есмь пастырь добрый»",
                     "mt": [
                         null
                     ],
@@ -22677,7 +22677,7 @@
                 },
                 {
                     "id": "250",
-                    "section_title": "Niezgoda między Żydami",
+                    "section_title": "Раздор среди иудеев",
                     "mt": [
                         null
                     ],
@@ -22717,7 +22717,7 @@
             "sections": [
                 {
                     "id": "251",
-                    "section_title": "Po drodze do Jeruzalem",
+                    "section_title": "Путь в Иудею",
                     "mt": [
                         {
                             "leading": true,
@@ -22765,7 +22765,7 @@
                 },
                 {
                     "id": "252",
-                    "section_title": "Nauka o małżeństwie i czystości",
+                    "section_title": "Причина для развода",
                     "mt": [
                         {
                             "leading": true,
@@ -22903,7 +22903,7 @@
                 },
                 {
                     "id": "253",
-                    "section_title": "Błogosławi dzieciom",
+                    "section_title": "Иисус благословляет детей",
                     "mt": [
                         {
                             "leading": true,
@@ -22981,7 +22981,7 @@
                 },
                 {
                     "id": "254",
-                    "section_title": "Bogaty młodzieniec",
+                    "section_title": "Богатый юноша",
                     "mt": [
                         {
                             "leading": true,
@@ -23104,7 +23104,7 @@
                 },
                 {
                     "id": "255",
-                    "section_title": "Niebezpieczeństwo bogactw",
+                    "section_title": "«Трудно богатому войти…»",
                     "mt": [
                         {
                             "leading": true,
@@ -23275,7 +23275,7 @@
                 },
                 {
                     "id": "256",
-                    "section_title": "Przypowieść o robotnikach w winnicy",
+                    "section_title": "Притча о работниках в винограднике и их плата",
                     "mt": [
                         {
                             "leading": true,
@@ -23393,7 +23393,7 @@
                 },
                 {
                     "id": "257",
-                    "section_title": "Chrystus jest współistotny Ojcu",
+                    "section_title": "Иисус на празднике обновления",
                     "mt": [
                         null
                     ],
@@ -23503,7 +23503,7 @@
                 },
                 {
                     "id": "258",
-                    "section_title": "W Zajordaniu",
+                    "section_title": "Его уход за Иордан",
                     "mt": [
                         null
                     ],
@@ -23538,7 +23538,7 @@
                 },
                 {
                     "id": "259",
-                    "section_title": "Wskrzeszenie Łazarza",
+                    "section_title": "Воскрешение Лазаря",
                     "mt": [
                         null
                     ],
@@ -23778,7 +23778,7 @@
                 },
                 {
                     "id": "260",
-                    "section_title": "Sanhedryn postanawia zgładzić Jezusa",
+                    "section_title": "Первосвященники и фарисеи «положили убить Его»",
                     "mt": [
                         null
                     ],
@@ -23843,7 +23843,7 @@
                 },
                 {
                     "id": "261",
-                    "section_title": "Jezus uchodzi do Efrem",
+                    "section_title": "В Ефраиме",
                     "mt": [
                         null
                     ],
@@ -23883,7 +23883,7 @@
                 },
                 {
                     "id": "262",
-                    "section_title": "Ponowna zapowiedź męki",
+                    "section_title": "Третье предсказание страданий и воскресения",
                     "mt": [
                         {
                             "leading": true,
@@ -23961,7 +23961,7 @@
                 },
                 {
                     "id": "263",
-                    "section_title": "Prośba synów Zebedeuszowych",
+                    "section_title": "Сыновья Зеведея",
                     "mt": [
                         {
                             "leading": true,
@@ -24109,7 +24109,7 @@
                 },
                 {
                     "id": "264",
-                    "section_title": "Ślepi w Jerycho",
+                    "section_title": "Слепые в Иерихоне",
                     "mt": [
                         {
                             "leading": true,
@@ -24280,7 +24280,7 @@
                 },
                 {
                     "id": "265",
-                    "section_title": "Zacheusz",
+                    "section_title": "Закхей",
                     "mt": [
                         {
                             "leading": false,
@@ -24359,7 +24359,7 @@
                 },
                 {
                     "id": "266",
-                    "section_title": "Przypowieść o minach",
+                    "section_title": "Притча о минах",
                     "mt": [
                         {
                             "leading": false,
@@ -24562,7 +24562,7 @@
                 },
                 {
                     "id": "267",
-                    "section_title": "Namaszczenie w Betanii",
+                    "section_title": "Мария из Вифании помазала ноги Иисуса Христа",
                     "mt": [
                         {
                             "leading": false,
@@ -24784,7 +24784,7 @@
                 },
                 {
                     "id": "268",
-                    "section_title": "Postanowienie o zabiciu Łazarza",
+                    "section_title": "Постановление об убийстве Лазаря",
                     "mt": [
                         null
                     ],
@@ -24824,7 +24824,7 @@
             "sections": [
                 {
                     "id": "269",
-                    "section_title": "Triumfalny wjazd do Jerozolimy",
+                    "section_title": "Торжественный въезд в Иерусалим",
                     "mt": [
                         {
                             "leading": true,
@@ -25056,7 +25056,7 @@
                 },
                 {
                     "id": "270",
-                    "section_title": "Zapowiedź upadku Jerozolimy",
+                    "section_title": "Плач об Иерусалиме",
                     "mt": [
                         null
                     ],
@@ -25096,7 +25096,7 @@
                 },
                 {
                     "id": "271",
-                    "section_title": "Jezus w świątyni",
+                    "section_title": "Изгнание из храма продающих и покупающих",
                     "mt": [
                         {
                             "leading": true,
@@ -25202,7 +25202,7 @@
                 },
                 {
                     "id": "272",
-                    "section_title": "Przeklina figę",
+                    "section_title": "Проклятие бесплодной смоковницы",
                     "mt": [
                         {
                             "leading": true,
@@ -25251,7 +25251,7 @@
                 },
                 {
                     "id": "273",
-                    "section_title": "Wyrzuca kupczących z świątyni",
+                    "section_title": "Очищение храма",
                     "mt": [
                         {
                             "leading": false,
@@ -25343,7 +25343,7 @@
                 },
                 {
                     "id": "274",
-                    "section_title": "Przedniejsi kapłani i doktorowie i starsi ludu starają się zgubić Jezusa",
+                    "section_title": "Вожделение первосвященников, книжников и старейшин народа об убийстве Иисуса",
                     "mt": [
                         null
                     ],
@@ -25387,7 +25387,7 @@
                 },
                 {
                     "id": "275",
-                    "section_title": "Moc wiary",
+                    "section_title": "О силе веры",
                     "mt": [
                         {
                             "leading": true,
@@ -25479,7 +25479,7 @@
                 },
                 {
                     "id": "276",
-                    "section_title": "Utarczki z faryzeuszami",
+                    "section_title": "Вопрос первосвященников о власти Иисуса Христа",
                     "mt": [
                         {
                             "leading": true,
@@ -25607,7 +25607,7 @@
                 },
                 {
                     "id": "277",
-                    "section_title": "Przypowieść o dwu synach",
+                    "section_title": "Притча о двух сыновьях",
                     "mt": [
                         {
                             "leading": true,
@@ -25652,7 +25652,7 @@
                 },
                 {
                     "id": "278",
-                    "section_title": "Przewrotni dzierżawcy w winnicy",
+                    "section_title": "Притча о злых виноградарях",
                     "mt": [
                         {
                             "leading": true,
@@ -25865,7 +25865,7 @@
                 },
                 {
                     "id": "279",
-                    "section_title": "Gody królewskie",
+                    "section_title": "Притча о брачном пире",
                     "mt": [
                         {
                             "leading": true,
@@ -26009,7 +26009,7 @@
                 },
                 {
                     "id": "280",
-                    "section_title": "Czy płacić podatki?",
+                    "section_title": "Вопрос о подати кесарю",
                     "mt": [
                         {
                             "leading": true,
@@ -26137,7 +26137,7 @@
                 },
                 {
                     "id": "281",
-                    "section_title": "O zmartwychwstaniu",
+                    "section_title": "О воскресении",
                     "mt": [
                         {
                             "leading": true,
@@ -26340,7 +26340,7 @@
                 },
                 {
                     "id": "282",
-                    "section_title": "Które przykazanie największe?",
+                    "section_title": "Наибольшая заповедь",
                     "mt": [
                         {
                             "leading": true,
@@ -26458,7 +26458,7 @@
                 },
                 {
                     "id": "283",
-                    "section_title": "Mesjasz Panem Dawida",
+                    "section_title": "Вопросы книжникам и предостережение против них",
                     "mt": [
                         {
                             "leading": true,
@@ -26551,7 +26551,7 @@
                 },
                 {
                     "id": "284",
-                    "section_title": "Jezus gromi faryzeizm",
+                    "section_title": "Наставление Иисуса Христа о фарисеях",
                     "mt": [
                         {
                             "leading": true,
@@ -26794,7 +26794,7 @@
                 },
                 {
                     "id": "285",
-                    "section_title": "Skarga na Jerozolimę",
+                    "section_title": "Укоризны Иерусалиму",
                     "mt": [
                         {
                             "leading": true,
@@ -26843,7 +26843,7 @@
                 },
                 {
                     "id": "286",
-                    "section_title": "Grosz wdowi",
+                    "section_title": "Две лепты бедной вдовы",
                     "mt": [
                         null
                     ],
@@ -26912,7 +26912,7 @@
             "sections": [
                 {
                     "id": "287",
-                    "section_title": "Zniszczenie świątyni",
+                    "section_title": "Иисус Христос предсказывает разрушение храма",
                     "mt": [
                         {
                             "leading": true,
@@ -26970,7 +26970,7 @@
                 },
                 {
                     "id": "288",
-                    "section_title": "Początek boleści",
+                    "section_title": "«Скажи нам, когда это будет?»",
                     "mt": [
                         {
                             "leading": true,
@@ -27083,7 +27083,7 @@
                 },
                 {
                     "id": "289",
-                    "section_title": "Prześladowanie uczniów",
+                    "section_title": "«Будут предавать вас на мучения и убивать вас»",
                     "mt": [
                         {
                             "leading": true,
@@ -27258,7 +27258,7 @@
                 },
                 {
                     "id": "290",
-                    "section_title": "Znaki zapowiadające zburzenie Jerozolimy",
+                    "section_title": "Признаки запустения Иерусалима",
                     "mt": [
                         {
                             "leading": true,
@@ -27386,7 +27386,7 @@
                 },
                 {
                     "id": "291",
-                    "section_title": "Ostrzeżenie przed fałszywymi prorokami",
+                    "section_title": "Лжехристы и лжепророки",
                     "mt": [
                         {
                             "leading": true,
@@ -27482,7 +27482,7 @@
                 },
                 {
                     "id": "292",
-                    "section_title": "Przyjście Syna Człowieczego",
+                    "section_title": "«Увидят Сына Человеческого, грядущего на облаках»",
                     "mt": [
                         {
                             "leading": true,
@@ -27565,7 +27565,7 @@
                 },
                 {
                     "id": "293",
-                    "section_title": "Przykład z drzewa figowego. Nieznany czas przyjścia",
+                    "section_title": "Притча о смоковнице. «О дне же том и часе никто не знает»",
                     "mt": [
                         {
                             "leading": true,
@@ -27668,7 +27668,7 @@
                 },
                 {
                     "id": "294",
-                    "section_title": "Należy czuwać (wg Marka)",
+                    "section_title": "Бодрствуйте и молитесь (по Марку)",
                     "mt": [
                         {
                             "leading": false,
@@ -27772,7 +27772,7 @@
                 },
                 {
                     "id": "295",
-                    "section_title": "Zachęta do czujności",
+                    "section_title": "Бодрствуйте и молитесь (по Луке)",
                     "mt": [
                         null
                     ],
@@ -27812,7 +27812,7 @@
             "sections": [
                 {
                     "id": "296",
-                    "section_title": "Przypowieść o potopie. Potrzeba czujności",
+                    "section_title": "Притча о потопе. «Бодрствуйте, потому что не знаете, в который час Господь ваш приидет»",
                     "mt": [
                         {
                             "leading": true,
@@ -27958,7 +27958,7 @@
                 },
                 {
                     "id": "297",
-                    "section_title": "Przypowieść o słudze wiernym i niewiernym",
+                    "section_title": "Притча о верном и неверном слуге",
                     "mt": [
                         {
                             "leading": true,
@@ -28047,7 +28047,7 @@
                 },
                 {
                     "id": "298",
-                    "section_title": "Panny mądre i głupie",
+                    "section_title": "Притча о десяти девах",
                     "mt": [
                         {
                             "leading": true,
@@ -28132,7 +28132,7 @@
                 },
                 {
                     "id": "299",
-                    "section_title": "Przypowieść o talentach",
+                    "section_title": "Притча о талантах",
                     "mt": [
                         {
                             "leading": true,
@@ -28335,7 +28335,7 @@
                 },
                 {
                     "id": "300",
-                    "section_title": "Sąd Ostateczny",
+                    "section_title": "Притча о Страшном Суде; отделение праведников от грешников",
                     "mt": [
                         {
                             "leading": true,
@@ -28444,7 +28444,7 @@
                 },
                 {
                     "id": "301",
-                    "section_title": "Ostatnie dni Jezusa",
+                    "section_title": "Последнее поучение в храме",
                     "mt": [
                         null
                     ],
@@ -28474,7 +28474,7 @@
                 },
                 {
                     "id": "302",
-                    "section_title": "Godzina Syna Człowieczego",
+                    "section_title": "Прославление Сына Человеческого",
                     "mt": [
                         null
                     ],
@@ -28579,7 +28579,7 @@
                 },
                 {
                     "id": "303",
-                    "section_title": "Zaślepienie Żydów",
+                    "section_title": "Пророчество Исаии о слепых глазах",
                     "mt": [
                         null
                     ],
@@ -28634,7 +28634,7 @@
                 },
                 {
                     "id": "304",
-                    "section_title": "Boskie posłannictwo Jezusa",
+                    "section_title": "Отец дал Мне заповедь",
                     "mt": [
                         null
                     ],
@@ -28694,7 +28694,7 @@
             "sections": [
                 {
                     "id": "305",
-                    "section_title": "Zamiary wrogów",
+                    "section_title": "Предсказание Иисуса Христа о Своей смерти; заговор первосвященников и старейшин",
                     "mt": [
                         {
                             "leading": true,
@@ -28767,7 +28767,7 @@
                 },
                 {
                     "id": "306",
-                    "section_title": "Uczta w Betanii",
+                    "section_title": "Помазание Иисуса Христа в Вифании",
                     "mt": [
                         {
                             "leading": true,
@@ -28989,7 +28989,7 @@
                 },
                 {
                     "id": "307",
-                    "section_title": "Zdrada Judasza",
+                    "section_title": "Предательство Иуды",
                     "mt": [
                         {
                             "leading": true,
@@ -29062,7 +29062,7 @@
                 },
                 {
                     "id": "308",
-                    "section_title": "Ostatnia Wieczerza",
+                    "section_title": "Приготовление к Пасхе",
                     "mt": [
                         {
                             "leading": true,
@@ -29180,7 +29180,7 @@
                 },
                 {
                     "id": "309",
-                    "section_title": "Chrystus umywa nogi apostołom. Zalecenie pokory",
+                    "section_title": "Иисус Христос умыл ноги ученикам; «и вы должны умывать ноги друг другу»",
                     "mt": [
                         null,
                         {
@@ -29335,7 +29335,7 @@
                 },
                 {
                     "id": "310",
-                    "section_title": "Wyjawienie zdrajcy",
+                    "section_title": "Предсказание Иисуса Христа о предательстве",
                     "mt": [
                         {
                             "leading": true,
@@ -29477,7 +29477,7 @@
                 },
                 {
                     "id": "311",
-                    "section_title": "Ustanowienie Eucharystii",
+                    "section_title": "Хлеб и Вино",
                     "mt": [
                         {
                             "leading": true,
@@ -29575,7 +29575,7 @@
                 },
                 {
                     "id": "312",
-                    "section_title": "Wyjawienie zdrajcy",
+                    "section_title": "Предсказание Иисуса Христа о предательстве",
                     "mt": [
                         {
                             "leading": false,
@@ -29717,7 +29717,7 @@
                 },
                 {
                     "id": "313",
-                    "section_title": "Spór o pierwszeństwo",
+                    "section_title": "Кто больше?",
                     "mt": [
                         {
                             "leading": false,
@@ -29843,7 +29843,7 @@
                 },
                 {
                     "id": "314",
-                    "section_title": "Nowe przykazanie",
+                    "section_title": "Новая заповедь: «да любите друг друга»",
                     "mt": [
                         null
                     ],
@@ -29888,7 +29888,7 @@
                 },
                 {
                     "id": "315",
-                    "section_title": "Zapowiedź zaparcia się Piotra",
+                    "section_title": "Предсказание об отречении Петра",
                     "mt": [
                         {
                             "leading": true,
@@ -30015,7 +30015,7 @@
                 },
                 {
                     "id": "316",
-                    "section_title": "Dwa miecze",
+                    "section_title": "Два меча",
                     "mt": [
                         null
                     ],
@@ -30055,7 +30055,7 @@
                 },
                 {
                     "id": "317",
-                    "section_title": "Jezus pociesza uczniów",
+                    "section_title": "«В доме Отца Моего обителей много»",
                     "mt": [
                         null
                     ],
@@ -30145,7 +30145,7 @@
                 },
                 {
                     "id": "318",
-                    "section_title": "Nie zostawi ich sierotami",
+                    "section_title": "Обещан иной Утешитель",
                     "mt": [
                         null
                     ],
@@ -30225,7 +30225,7 @@
                 },
                 {
                     "id": "319",
-                    "section_title": "„Pokój zostawiam wam”",
+                    "section_title": "«Мир оставляю вам, мир Мой даю вам»",
                     "mt": [
                         null
                     ],
@@ -30270,7 +30270,7 @@
                 },
                 {
                     "id": "320",
-                    "section_title": "Jezus prawdziwym szczepem winnym",
+                    "section_title": "Истинная виноградная лоза и ветви",
                     "mt": [
                         null
                     ],
@@ -30330,7 +30330,7 @@
                 },
                 {
                     "id": "321",
-                    "section_title": "„Trwajcież w miłości mojej!”",
+                    "section_title": "«Пребудьте в любви Моей»",
                     "mt": [
                         null
                     ],
@@ -30395,7 +30395,7 @@
                 },
                 {
                     "id": "322",
-                    "section_title": "Nienawiść świata",
+                    "section_title": "«Меня гнали, будут гнать и вас»",
                     "mt": [
                         null
                     ],
@@ -30455,7 +30455,7 @@
                 },
                 {
                     "id": "323",
-                    "section_title": "Świadectwo Pocieszyciela",
+                    "section_title": "Свидетельство Утешителя",
                     "mt": [
                         null
                     ],
@@ -30485,7 +30485,7 @@
                 },
                 {
                     "id": "324",
-                    "section_title": "Prześladowanie uczniów i Chrystusa",
+                    "section_title": "Иисус Христос предостерегает учеников",
                     "mt": [
                         null
                     ],
@@ -30525,7 +30525,7 @@
                 },
                 {
                     "id": "325",
-                    "section_title": "Obietnica Ducha Świętego",
+                    "section_title": "Иисус обещает послать Утешителя",
                     "mt": [
                         null
                     ],
@@ -30600,7 +30600,7 @@
                 },
                 {
                     "id": "326",
-                    "section_title": "Smutek w radość się zamieni",
+                    "section_title": "Он исшел от Отца и идет к Отцу",
                     "mt": [
                         null
                     ],
@@ -30655,7 +30655,7 @@
                 },
                 {
                     "id": "327",
-                    "section_title": "Proście Ojca w imię moje!",
+                    "section_title": "Просите Отца во имя Мое!",
                     "mt": [
                         null
                     ],
@@ -30705,7 +30705,7 @@
                 },
                 {
                     "id": "328",
-                    "section_title": "Zapowiedź rozpierzchnięcia się uczniów",
+                    "section_title": "«Мужайтесь: Я победил мир»",
                     "mt": [
                         null
                     ],
@@ -30750,7 +30750,7 @@
                 },
                 {
                     "id": "329",
-                    "section_title": "Modlitwa arcykapłańska",
+                    "section_title": "Молитва за оставляемых учеников",
                     "mt": [
                         null
                     ],
@@ -30900,7 +30900,7 @@
                 },
                 {
                     "id": "330",
-                    "section_title": "Jezus w Ogrojcu",
+                    "section_title": "Гефсимания",
                     "mt": [
                         {
                             "leading": true,
@@ -31100,7 +31100,7 @@
                 },
                 {
                     "id": "331",
-                    "section_title": "Pojmanie Jezusa",
+                    "section_title": "Предательство и взятие Иисуса",
                     "mt": [
                         {
                             "leading": true,
@@ -31322,7 +31322,7 @@
                 },
                 {
                     "id": "332",
-                    "section_title": "Jezus przed Radą. (Zaparcie się Piotra)",
+                    "section_title": "На суде Синедриона (Отречение Петра)",
                     "mt": [
                         {
                             "leading": true,
@@ -31629,7 +31629,7 @@
                 },
                 {
                     "id": "333",
-                    "section_title": "Zaparcie się Piotra",
+                    "section_title": "Отречение Петра",
                     "mt": [
                         {
                             "leading": true,
@@ -31781,7 +31781,7 @@
                 },
                 {
                     "id": "334",
-                    "section_title": "U Piłata",
+                    "section_title": "Предание Иисуса Пилату",
                     "mt": [
                         {
                             "leading": true,
@@ -31838,7 +31838,7 @@
                 },
                 {
                     "id": "335",
-                    "section_title": "Rozpacz Judasza",
+                    "section_title": "Конец Иуды",
                     "mt": [
                         {
                             "leading": true,
@@ -31898,7 +31898,7 @@
                 },
                 {
                     "id": "336",
-                    "section_title": "Jezus przed Piłatem",
+                    "section_title": "Иисус пред Пилатом",
                     "mt": [
                         {
                             "leading": true,
@@ -32040,7 +32040,7 @@
                 },
                 {
                     "id": "337",
-                    "section_title": "Jezus przed Herodem",
+                    "section_title": "Иисус перед Иродом",
                     "mt": [
                         null
                     ],
@@ -32095,7 +32095,7 @@
                 },
                 {
                     "id": "338",
-                    "section_title": "Jezus ponownie przed Piłatem",
+                    "section_title": "Пилат признаёт Иисуса невиновным",
                     "mt": [
                         null
                     ],
@@ -32135,7 +32135,7 @@
                 },
                 {
                     "id": "339",
-                    "section_title": "Jezus i Barabasz",
+                    "section_title": "Иисус или Варавва?",
                     "mt": [
                         {
                             "leading": true,
@@ -32302,7 +32302,7 @@
                 },
                 {
                     "id": "340",
-                    "section_title": "„Oto Człowiek”",
+                    "section_title": "«Се, Человек!»",
                     "mt": [
                         {
                             "leading": false,
@@ -32450,7 +32450,7 @@
                 },
                 {
                     "id": "341",
-                    "section_title": "Skazany na śmierć",
+                    "section_title": "Пилат предал Его на распятие",
                     "mt": [
                         {
                             "leading": true,
@@ -32517,7 +32517,7 @@
                 },
                 {
                     "id": "342",
-                    "section_title": "Cierniem ukoronowanie",
+                    "section_title": "Венчание терновым венцом",
                     "mt": [
                         {
                             "leading": true,
@@ -32605,7 +32605,7 @@
                 },
                 {
                     "id": "343",
-                    "section_title": "Droga na Golgotę",
+                    "section_title": "Путь на Голгофу",
                     "mt": [
                         {
                             "leading": true,
@@ -32702,7 +32702,7 @@
                 },
                 {
                     "id": "344",
-                    "section_title": "Ukrzyżowanie",
+                    "section_title": "Распятие",
                     "mt": [
                         {
                             "leading": true,
@@ -32849,7 +32849,7 @@
                 },
                 {
                     "id": "345",
-                    "section_title": "Szyderstwa",
+                    "section_title": "Насмешки над Иисусом Христом",
                     "mt": [
                         {
                             "leading": true,
@@ -32957,7 +32957,7 @@
                 },
                 {
                     "id": "346",
-                    "section_title": "Dobry i zły łotr",
+                    "section_title": "Два разбойника",
                     "mt": [
                         {
                             "leading": true,
@@ -33020,7 +33020,7 @@
                 },
                 {
                     "id": "347",
-                    "section_title": "Śmierć Jezusa",
+                    "section_title": "Смерть Иисуса",
                     "mt": [
                         {
                             "leading": true,
@@ -33177,7 +33177,7 @@
                 },
                 {
                     "id": "348",
-                    "section_title": "Świadkowie przy krzyżu",
+                    "section_title": "Свидетели при кресте",
                     "mt": [
                         {
                             "leading": true,
@@ -33249,7 +33249,7 @@
                 },
                 {
                     "id": "349",
-                    "section_title": "Otwarcie boku Jezusowego",
+                    "section_title": "Воин пронзил Ему ребра",
                     "mt": [
                         null
                     ],
@@ -33304,7 +33304,7 @@
                 },
                 {
                     "id": "350",
-                    "section_title": "Pogrzeb Jezusa",
+                    "section_title": "Погребение Иисуса Христа",
                     "mt": [
                         {
                             "leading": true,
@@ -33451,7 +33451,7 @@
                 },
                 {
                     "id": "351",
-                    "section_title": "Straż przy grobie",
+                    "section_title": "Охрана гроба",
                     "mt": [
                         {
                             "leading": true,
@@ -33501,7 +33501,7 @@
             "sections": [
                 {
                     "id": "352",
-                    "section_title": "Niewiasty przy grobie",
+                    "section_title": "Пустой гроб",
                     "mt": [
                         {
                             "leading": true,
@@ -33738,7 +33738,7 @@
                 },
                 {
                     "id": "353",
-                    "section_title": "Jezus ukazuje się niewiastom",
+                    "section_title": "Явление Иисуса женщинам",
                     "mt": [
                         {
                             "leading": true,
@@ -33830,7 +33830,7 @@
                 },
                 {
                     "id": "354",
-                    "section_title": "Straż przekupiona",
+                    "section_title": "Подкуп стражи священниками",
                     "mt": [
                         {
                             "leading": true,
@@ -33875,7 +33875,7 @@
                 },
                 {
                     "id": "355",
-                    "section_title": "Po drodze do Emaus",
+                    "section_title": "По пути в Эммаус; «открылись у них глаза»",
                     "mt": [
                         null
                     ],
@@ -34024,7 +34024,7 @@
                 },
                 {
                     "id": "356",
-                    "section_title": "Jezus zjawia się Apostołom",
+                    "section_title": "Иисус является ученикам (без Фомы)",
                     "mt": [
                         null
                     ],
@@ -34113,7 +34113,7 @@
                 },
                 {
                     "id": "357",
-                    "section_title": "Jezus zjawia się Tomaszowi",
+                    "section_title": "Иисус является ученикам (при Фоме)",
                     "mt": [
                         null
                     ],
@@ -34168,7 +34168,7 @@
             "sections": [
                 {
                     "id": "363",
-                    "section_title": "Zakończenie Ewangelii Marka",
+                    "section_title": "Длинное окончание Евангелия от Марка",
                     "mt": [
                         null
                     ],
@@ -34248,7 +34248,7 @@
                 },
                 {
                     "id": "364",
-                    "section_title": "Zjawienie się Jezusa na górze. Ostatni rozkaz",
+                    "section_title": "Окончание Евангелия от Матфея. Явление одиннадцати; «Идите, научите все народы…»",
                     "mt": [
                         {
                             "leading": true,
@@ -34293,7 +34293,7 @@
                 },
                 {
                     "id": "365",
-                    "section_title": "Mowa pożegnalna. Wniebowstąpienie",
+                    "section_title": "Окончание Евангелия от Луки: Последние слова Иисуса и Вознесение",
                     "mt": [
                         null,
                         null
@@ -34385,7 +34385,7 @@
                 },
                 {
                     "id": "366",
-                    "section_title": "Pierwszy epilog – Ewangelisty",
+                    "section_title": "Первое окончание Евангелия от Иоанна. «Сие же написано, дабы вы уверовали»",
                     "mt": [
                         null
                     ],
@@ -34415,7 +34415,7 @@
                 },
                 {
                     "id": "367",
-                    "section_title": "Drugi epilog – Ewangelii. Jezus ukazuje się nad Morzem Tyberiadzkim",
+                    "section_title": "Второе окончание Евангелия от Иоанна. Явление Иисуса Христа семи ученикам при море Тивериадском",
                     "mt": [
                         null
                     ],
