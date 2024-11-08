@@ -1,5 +1,4 @@
 import os
-import re
 import sys
 
 from file_utils import load_json
@@ -34,8 +33,8 @@ def compare_translations(t1, t2):
 
 def main():
     json_folder = sys.argv[1]
-    p1 = json_folder + '\\' + checked_translations[0] + '.json'
-    p2 = json_folder + '\\' + checked_translations[1] + '.json'
+    p1 = os.path.join(json_folder, checked_translations[0] + '.json')
+    p2 = os.path.join(json_folder, checked_translations[1] + '.json')
     t1 = load_json(p1)
     t2 = load_json(p2)
     compare_translations(t1, t2)
