@@ -1,14 +1,14 @@
 {
-    "heading": "Synopsis",
-    "subheading": "Parallel Gospels of Matthew, Mark, Luke and John",
-    "name": "English Standard Version",
-    "translation": "ESV",
-    "language": "en",
+    "heading": "Synopse",
+    "subheading": "Parallele Evangelien von Matthäus, Markus, Lukas und Johannes",
+    "name": "Einheitsübersetzung",
+    "translation": "EU",
+    "language": "de",
     "evangelists": {
-        "mt": "Matthew",
-        "mk": "Mark",
-        "lk": "Luke",
-        "jn": "John"
+        "mt": "Matthäus",
+        "mk": "Markus",
+        "lk": "Lukas",
+        "jn": "Johannes"
     },
     "parts": [
         {
