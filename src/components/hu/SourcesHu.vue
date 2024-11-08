@@ -51,8 +51,8 @@ export default {
         <br>
         <li>
             A SZIT fordításában:<br>
-            A 139. szekcióban a Mk6,6a idézet a SZIT szerkesztésében a Mk6,6 idézetnek felel meg.<br>
-            A 142. szekcióban a Mk6,6b idézet a SZIT szerkesztésében a Mk6,7 idézet elejének felel meg.<br>
+            A Szinopszis Mk6,6a idézete a SZIT szerkesztésében a Mk6,6 idézetnek felel meg.<br>
+            A Szinopszis Mk6,6b idézete a SZIT szerkesztésében a Mk6,7 idézet elejének felel meg.<br>
             Indoklás: Nem követi kivételes számozás a Szinopszis törzsszövegét a többi fordításhoz képest.<br>
             Megjegyzés: Feltehetően hiba a Szent István Társulat szövegének szerkesztésében.
         </li>

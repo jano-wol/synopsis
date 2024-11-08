@@ -5,8 +5,9 @@ from file_utils import iterate_jsons
 
 
 def blank_values(json_element):
+    whitelisted_keys = ['chapter', 'verse', 'id', 'leading']
     if isinstance(json_element, dict):
-        return {k: blank_values(v) for k, v in json_element.items()}
+        return {k: (blank_values(v) if k not in whitelisted_keys else v) for k, v in json_element.items()}
     elif isinstance(json_element, list):
         return [blank_values(item) for item in json_element]
     else:
@@ -30,7 +31,8 @@ def main():
             print(f'{blank_json_file_path} was updated. Test is failed as update was called')
             sys.exit(1)
         if json_loaded != blank_json:
-            print(f'Invalid json={json_path}. error=Not fitting scheme of blank json.({blank_json_file_path})')
+            print(
+                f'Invalid json={json_path}. error=Not fitting the structure defined by blank json.({blank_json_file_path})')
             sys.exit(1)
     if json_files_found is False:
         print(f'No json files were found in folder={json_folder}')

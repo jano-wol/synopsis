@@ -29,17 +29,17 @@ export default {
         </li>
         <br>
         <li>
-            Section 358, 359 and 360 is not included.<br>
-            Reason: These sections does not contain leading text.<br>
+            Sections 358, 359 and 360 are not included.<br>
+            Reason: These sections do not contain body text.<br>
             Note: The numbering of other parts remains the same.
         </li>
         <li>
-            Section 361 is not not included.<br>
+            Section 361 is not included.<br>
             Reason: It refers to 1Cor15,3-8, which is not part of the four gospels.<br>
             Note: The numbering of other parts remains the same.
         </li>
         <li>
-            Section 362 is not not included.<br>
+            Section 362 is not included.<br>
             Reason: It follows the non-canonical ending of Mark.<br>
             Note: The numbering of other parts remains the same.
         </li>
@@ -52,8 +52,8 @@ export default {
         <br>
         <li>
             In SZIT translation:<br>
-            In section 139, the quotation Mk6,6a is equivalent with quotation Mk6,6 in SZIT edition.<br>
-            In section 142, the quotation Mk6,6b is equivalent with beginning of quotation Mk6,7 in SZIT edition.<br>
+            The quotation Mk6,6a in Synopsis is equivalent with quotation Mk6,6 in SZIT edition.<br>
+            The quotation Mk6,6b in Synopsis is equivalent with beginning of quotation Mk6,7 in SZIT edition.<br>
             Reason: No exceptional numbering follows the main text of the Synopsis compared to other translations.<br>
             Note: Probably an error in the editing of the text of the SZIT publisher.
         </li>
