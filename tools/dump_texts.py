@@ -16,7 +16,7 @@ def find_values_by_key(data, target_key):
             yield from find_values_by_key(item, target_key)
 
 def dump_header(bible_json):
-    with open("dump_header.txt", 'w', encoding='utf-8') as f:
+    with open("dump_header", 'w', encoding='utf-8') as f:
         for key, value in bible_json.items():
             if key == "parts":
                 break
