@@ -66,6 +66,12 @@ class Translation:
                 else:
                     self.ref_to_text[bible_ref] = text
 
+        for box, box_ref in self.iterate_on_main_boxes():
+            b = Box(box, box_ref.e)
+            for bible_ref, text in  b.iterate():
+                assert bible_ref not in self.body_ref_to_box_ref
+                self.body_ref_to_box_ref[bible_ref] = box_ref
+
     def __repr__(self) -> str:
         return str(self.json)
 
