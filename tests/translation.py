@@ -1,6 +1,6 @@
 import json
 
-from typing import Generator, Tuple
+from typing import Iterator, Tuple
 
 from bible import BibleRef, BibleSec, evangelists
 
@@ -31,7 +31,7 @@ class Box:
     def is_body(self) -> bool:
         return self.json['leading']
 
-    def iterate(self) -> Generator[Tuple[BibleRef, str], None, None]:
+    def iterate(self) -> Iterator[Tuple[BibleRef, str]]:
         for v in self.json['content']:
             verse_str = v['verse']
             verse, x = BibleRef.split_verse(verse_str)
@@ -52,28 +52,26 @@ class Translation:
     def __repr__(self) -> str:
         return str(self.json)
 
-    def iterate_on_parts(self) -> Generator[json, None, None]:
+    def iterate_on_parts(self) -> Iterator[json]:
         for part in self.json['parts']:
             yield part
 
-    def iterate_on_sections(self) -> Generator[json, None, None]:
+    def iterate_on_sections(self) -> Iterator[json]:
         for part in self.iterate_on_parts():
             for section in part['sections']:
                 yield section
 
-    def iterate_on_boxes(self) -> Generator[json, None, None]:
+    def iterate_on_boxes(self) -> Iterator[json]:
         for section in self.iterate_on_sections():
             for evangelist in evangelists:
                 for box in section[evangelist]:
                     if box:
                         yield box
 
-    def iterate_on_main_boxes(self) -> Generator[json, None, None]:
-        for section in self.iterate_on_sections():
-            for evangelist in evangelists:
-                for box in section[evangelist]:
-                    if box and box['leading']:
-                        yield box
+    def iterate_on_main_boxes(self) -> Iterator[json]:
+        for box in self.iterate_on_boxes():
+            if box and box['leading']:
+                yield box
 
     def get_box(self, ref: BoxRef) -> Box:
         return Box(self.json['parts'][ref.part_idx]['sections'][ref.section_idx_loc][evangelists[ref.e]][ref.idx], ref)
