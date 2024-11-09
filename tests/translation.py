@@ -80,6 +80,7 @@ class Translation:
                     first = bible_ref
                 last = bible_ref
             self.body_text_partition.append(BibleSec(first, last.next()))
+        self.body_text_partition.sort(key=lambda x: x.start)
 
     def __repr__(self) -> str:
         return str(self.json)
