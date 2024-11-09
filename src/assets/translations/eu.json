@@ -16,7 +16,7 @@
             "sections": [
                 {
                     "id": "1",
-                    "section_title": "Einleitung",
+                    "section_title": "Prolog",
                     "mt": [
                         {
                             "leading": true,
@@ -18413,7 +18413,7 @@
                 },
                 {
                     "id": "194",
-                    "section_title": "Rede gegen die Pharisäer und Schriftgelehrten",
+                    "section_title": "Rede gegen die Pharisäer und Gesetzeslehrer",
                     "mt": [
                         {
                             "leading": false,
