@@ -58,14 +58,13 @@ class Translation:
             assert id_str not in self.section_titles
             self.section_titles[id_str] = section['section_title']
 
-        for box, ref in self.iterate_on_boxes():
-            b = Box(box, ref.e)
-            for ref_curr, text in  b.iterate():
-                print(ref_curr)
-                if ref_curr in self.ref_to_text:
-                    assert self.ref_to_text[ref_curr] == text, f'{self.ref_to_text[ref_curr]} != {text}, {ref_curr}'
+        for box, box_ref in self.iterate_on_boxes():
+            b = Box(box, box_ref.e)
+            for bible_ref, text in  b.iterate():
+                if bible_ref in self.ref_to_text:
+                    assert self.ref_to_text[bible_ref] == text, f'{self.ref_to_text[bible_ref]} != {text}, {bible_ref}'
                 else:
-                    self.ref_to_text[ref_curr] = text
+                    self.ref_to_text[bible_ref] = text
 
     def __repr__(self) -> str:
         return str(self.json)
