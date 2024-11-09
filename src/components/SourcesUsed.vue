@@ -37,6 +37,10 @@
             Biblia, przekład Jakuba Wujka (1599); wyd. trzecie poprawione, Kraków, 1962; (Lublin, 1985), ISBN: 8387143022.
         </li>
         <li>
+            Библия,
+            <a href="https://azbyka.ru/biblia/">Синодальный перевод</a>
+        </li>
+        <li>
             Greek New Testament,
             <a href="https://sblgnt.com/">SBL</a>,
             <a href="https://github.com/LogosBible/SBLGNT">Github</a>
