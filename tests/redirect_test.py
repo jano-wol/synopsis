@@ -34,7 +34,6 @@ def get_body_text_intervals(bible_json) -> list[Tuple[BibleSec, int]]:
 def main():
     redirect_folder = sys.argv[1]
     translation_folder = sys.argv[2]
-    BibleRef.class_init(translation_folder)
     bible_json, _ = next(iterate_jsons(translation_folder))
     body_text_intervals = get_body_text_intervals(bible_json)
     body_text_rights = [el[0].end for el in body_text_intervals]
