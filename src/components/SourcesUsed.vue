@@ -26,6 +26,10 @@
             <a href="https://api.esv.org/">esv.org API</a>
         </li>
         <li>
+            Bibel,
+            <a href="https://www.bibleserver.com/EU/">Einheitsübersetzung 2016</a>
+        </li>
+        <li>
             Biblia,
             <a href="https://pallottinum.pl/">Tysiąclecia</a>
         </li>
