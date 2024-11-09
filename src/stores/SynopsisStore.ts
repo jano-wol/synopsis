@@ -10,6 +10,7 @@ import synopsisSZIT from '@/assets/translations/szit.json'
 import synopsisKNB from '@/assets/translations/knb.json'
 import synopsisRUF from '@/assets/translations/ruf.json'
 import synopsisESV from '@/assets/translations/esv.json'
+import synopsisEU from '@/assets/translations/eu.json'
 import synopsisBT from '@/assets/translations/bt.json'
 import synopsisBJW from '@/assets/translations/bjw.json'
 import synopsisRSP from '@/assets/translations/rsp.json'
@@ -36,6 +37,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisKNB as SynopsisScheme,
                 synopsisRUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme,
+                synopsisEU as SynopsisScheme,
                 synopsisBT as SynopsisScheme,
                 synopsisBJW as SynopsisScheme,
                 synopsisRSP as SynopsisScheme,
