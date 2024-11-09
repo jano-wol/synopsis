@@ -127,7 +127,7 @@ class Translation:
                 if bible_ref in self.ref_to_text:
                     if self.ref_to_text[bible_ref] != text:
                         print(
-                            f'Same ref, different text failure.\ntext_1={self.ref_to_text[bible_ref]}\ntext_2={text}\nverse={bible_ref} translation={self.get_name()}')
+                            f'Same verse, different text failure.\ntext_1={self.ref_to_text[bible_ref]}\ntext_2={text}\nverse={bible_ref} translation={self.get_name()}')
                 else:
                     self.ref_to_text[bible_ref] = text
         cut_verses = self.get_cut_verses()
