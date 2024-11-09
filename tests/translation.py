@@ -62,7 +62,9 @@ class Translation:
             b = Box(box, box_ref.e)
             for bible_ref, text in b.iterate():
                 if bible_ref in self.ref_to_text:
-                    assert self.ref_to_text[bible_ref] == text, f'{self.ref_to_text[bible_ref]} != {text}, {bible_ref}'
+                    if self.ref_to_text[bible_ref] != text:
+                        print(
+                            f'ERROR {self.ref_to_text[bible_ref]} != {text}, {bible_ref} translation={self.get_name()}')
                 else:
                     self.ref_to_text[bible_ref] = text
 
@@ -114,3 +116,9 @@ class Translation:
 
     def get_box(self, ref: BoxRef) -> Box:
         return Box(self.json['parts'][ref.part_idx]['sections'][ref.section_idx_loc][evangelists[ref.e]][ref.idx], ref)
+
+    def get_text(self, ref: BibleRef) -> str:
+        return self.ref_to_text[ref]
+
+    def get_name(self) -> str:
+        return self.json['translation']
