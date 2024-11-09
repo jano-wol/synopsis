@@ -121,26 +121,37 @@ class Translation:
             self.section_titles[id_str] = section['section_title']
 
     def _init_ref_to_text(self):
+        rt = self.ref_to_text
         for box, box_ref in self.iterate_on_boxes():
             b = Box(box, box_ref.e)
             for bible_ref, text in b.iterate():
-                if bible_ref in self.ref_to_text:
-                    if self.ref_to_text[bible_ref] != text:
+                if bible_ref in rt:
+                    if rt[bible_ref] != text:
                         print(
-                            f'Verse {bible_ref} with multiple texts in {self.get_name()}:\ntext_1={self.ref_to_text[bible_ref]}\ntext_2={text}')
+                            f'Verse {bible_ref} with multiple texts in {self.get_name()}:\ntext_1={rt[bible_ref]}\ntext_2={text}')
                 else:
                     self.ref_to_text[bible_ref] = text
         cut_verses = self.get_cut_verses()
         for v in cut_verses:
             a = BibleRef(v.e, v.chapter, v.verse, 1)
             b = BibleRef(v.e, v.chapter, v.verse, 2)
-            concat = self.ref_to_text[a] + ' ' + self.ref_to_text[b]
-            if v in self.ref_to_text:
-                if self.ref_to_text[v] != concat:
-                    print(
-                        f'Cut verse a + b failure in {self.get_name()}:\n{a}={self.ref_to_text[a]}\n{b}={self.ref_to_text[b]}\n{v} ={self.ref_to_text[v]}')
+            if a in rt and b in rt and v in rt:
+                concat = rt[a] + ' ' + rt[b]
+                if rt[v] != concat:
+                    print(f'Cut verse a + b failure in {self.get_name()}:\n{a}={rt[a]}\n{b}={rt[b]}\n{v} ={rt[v]}')
+            elif a in self.ref_to_text and b in self.ref_to_text:
+                rt[v] = rt[a] + ' ' + rt[b]
+            elif a in rt and v in rt:
+                if not rt[v].startswith(rt[a]):
+                    print(f'Cut verse prefix failure in {self.get_name()}:\n{a}={rt[a]}\n{v} ={rt[v]}')
+                rt[b] = rt[v][(len(rt[a]) + 1):]
+            elif b in rt and v in rt:
+                if not rt[v].endswith(rt[b]):
+                    print(f'Cut verse suffix failure in {self.get_name()}:\n{b}={rt[b]}\n{v} ={rt[v]}')
+                rt[a] = rt[v][: -(len(rt[b]) + 1)]
             else:
-                self.ref_to_text[v] = concat
+                c = a if a in rt else b
+                print(f'Isolated cut verse in {self.get_name()}: verse{c}. A pair or a base verse should exist.')
 
     def _init_body_ref_to_box_ref(self):
         for box, box_ref in self.iterate_on_main_boxes():
