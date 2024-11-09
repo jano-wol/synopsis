@@ -51,48 +51,10 @@ class Translation:
 
         for part, part_idx in self.iterate_on_parts():
             self.part_titles.append(part['part_title'])
-
-        for section, section_idx_loc in self.iterate_on_sections():
-            id_str = section['id']
-            assert id_str.isdigit()
-            assert id_str not in self.section_titles
-            self.section_titles[id_str] = section['section_title']
-
-        for box, box_ref in self.iterate_on_boxes():
-            b = Box(box, box_ref.e)
-            for bible_ref, text in b.iterate():
-                if bible_ref in self.ref_to_text:
-                    if self.ref_to_text[bible_ref] != text:
-                        print(
-                            f'Same ref, different text failure.\ntext_1={self.ref_to_text[bible_ref]}\ntext_2={text}\nverse={bible_ref} translation={self.get_name()}')
-                else:
-                    self.ref_to_text[bible_ref] = text
-        cut_verses = self.get_cut_verses()
-        for v in cut_verses:
-            a = BibleRef(v.e, v.chapter, v.verse, 1)
-            b = BibleRef(v.e, v.chapter, v.verse, 2)
-            concat = self.ref_to_text[a] + ' ' + self.ref_to_text[b]
-            if v in self.ref_to_text:
-                if self.ref_to_text[v] != concat:
-                    print(f'Cut verse a + b failure.\ntext_1={self.ref_to_text[v]}\nconcat={concat}\nverse={v} translation={self.get_name()}')
-            else:
-                self.ref_to_text[v] = concat
-
-        for box, box_ref in self.iterate_on_main_boxes():
-            b = Box(box, box_ref.e)
-            for bible_ref, text in b.iterate():
-                assert bible_ref not in self.body_ref_to_box_ref
-                self.body_ref_to_box_ref[bible_ref] = box_ref
-
-        for box, box_ref in self.iterate_on_main_boxes():
-            b = Box(box, box_ref.e)
-            first, last = BibleRef.end(), BibleRef.end()
-            for index, (bible_ref, text) in enumerate(b.iterate()):
-                if index == 0:
-                    first = bible_ref
-                last = bible_ref
-            self.body_text_partition.append(BibleSec(first, last.next()))
-        self.body_text_partition.sort(key=lambda x: x.start)
+        self._init_section_titles()
+        self._init_ref_to_text()
+        self._init_body_ref_to_box_ref()
+        self._init_body_text_partition()
 
     def __repr__(self) -> str:
         return str(self.json)
@@ -150,3 +112,50 @@ class Translation:
                 if bible_ref.is_cut_ref():
                     ret.append(bible_ref.get_base_ref())
         return sorted(set(ret))
+
+    def _init_section_titles(self):
+        for section, section_idx_loc in self.iterate_on_sections():
+            id_str = section['id']
+            assert id_str.isdigit()
+            assert id_str not in self.section_titles
+            self.section_titles[id_str] = section['section_title']
+
+    def _init_ref_to_text(self):
+        for box, box_ref in self.iterate_on_boxes():
+            b = Box(box, box_ref.e)
+            for bible_ref, text in b.iterate():
+                if bible_ref in self.ref_to_text:
+                    if self.ref_to_text[bible_ref] != text:
+                        print(
+                            f'Same ref, different text failure.\ntext_1={self.ref_to_text[bible_ref]}\ntext_2={text}\nverse={bible_ref} translation={self.get_name()}')
+                else:
+                    self.ref_to_text[bible_ref] = text
+        cut_verses = self.get_cut_verses()
+        for v in cut_verses:
+            a = BibleRef(v.e, v.chapter, v.verse, 1)
+            b = BibleRef(v.e, v.chapter, v.verse, 2)
+            concat = self.ref_to_text[a] + ' ' + self.ref_to_text[b]
+            if v in self.ref_to_text:
+                if self.ref_to_text[v] != concat:
+                    print(
+                        f'Cut verse a + b failure.\ntext_1={self.ref_to_text[v]}\nconcat={concat}\nverse={v} translation={self.get_name()}')
+            else:
+                self.ref_to_text[v] = concat
+
+    def _init_body_ref_to_box_ref(self):
+        for box, box_ref in self.iterate_on_main_boxes():
+            b = Box(box, box_ref.e)
+            for bible_ref, text in b.iterate():
+                assert bible_ref not in self.body_ref_to_box_ref
+                self.body_ref_to_box_ref[bible_ref] = box_ref
+
+    def _init_body_text_partition(self):
+        for box, box_ref in self.iterate_on_main_boxes():
+            b = Box(box, box_ref.e)
+            first, last = BibleRef.end(), BibleRef.end()
+            for index, (bible_ref, text) in enumerate(b.iterate()):
+                if index == 0:
+                    first = bible_ref
+                last = bible_ref
+            self.body_text_partition.append(BibleSec(first, last.next()))
+        self.body_text_partition.sort(key=lambda x: x.start)
