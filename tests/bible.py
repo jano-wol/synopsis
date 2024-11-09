@@ -1,8 +1,6 @@
 from functools import total_ordering
 from typing import Tuple
 
-from file_utils import iterate_jsons
-
 # @formatter:off
 evangelists = ['mt', 'mk', 'lk', 'jn']
 lengths = {
@@ -33,8 +31,7 @@ class BibleRef:
         self.x = x
 
     def __repr__(self) -> str:
-        if self.x == 0:
-            s = ''
+        s = ''
         if self.x == 1:
             s = 'a'
         if self.x == 2:
