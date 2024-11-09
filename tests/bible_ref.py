@@ -17,12 +17,15 @@ lengths = {
 def get_number_of_chapters(evangelist):
     return len(lengths[evangelist])
 
+
 def get_number_of_verses(evangelist, chapter):
     return lengths[evangelist][chapter - 1]
+
 
 @total_ordering
 class BibleRef:
     """Represents a gospel reference with evangelist, chapter, verse, and optional notes, e.g., mt5,38 or jn19,16a"""
+
     def __init__(self, e: int, chapter: int, verse: int, x: int):
         self.e = e
         self.chapter = chapter
@@ -44,6 +47,8 @@ class BibleRef:
         return hash((self.e, self.chapter, self.verse, self.x))
 
     def next(self) -> 'BibleRef':
+        if self == BibleRef.end():
+            ValueError('next called on end')
         if self.x == 1:
             return BibleRef(self.e, self.chapter, self.verse, 2)
         else:
@@ -58,6 +63,13 @@ class BibleRef:
             else:
                 return BibleRef(self.e, 99, 99, 0)
 
+    @staticmethod
+    def begin() -> 'BibleRef':
+        return BibleRef(0, 1, 1, 0)
+
+    @staticmethod
+    def end() -> 'BibleRef':
+        return BibleRef(3, 99, 99, 0)
 
     @staticmethod
     def from_string(repr_str: str) -> 'BibleRef':
