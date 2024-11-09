@@ -92,7 +92,7 @@ class BibleRef:
             x = 0
         else:
             verse = int(verse_str[:-1])
-            x = 1 if verse == 'a' else 2
+            x = 1 if verse_str[-1] == 'a' else 2
         return verse, x
 
 
