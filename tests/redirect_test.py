@@ -3,7 +3,7 @@ import os
 import sys
 from typing import Tuple
 
-from bible_ref import BibleRef, BibleSec
+from bible import BibleRef, BibleSec
 from file_utils import iterate_jsons, load_json
 
 evangelists = ['mt', 'mk', 'lk', 'jn']
@@ -51,6 +51,7 @@ def main():
         assert v in solutions
         if len(solutions) > 1:
             print(f'{e} {solutions}')
+
 
 
 

@@ -33,7 +33,13 @@ class BibleRef:
         self.x = x
 
     def __repr__(self) -> str:
-        return f'{evangelists[self.e]}{self.chapter},{self.verse}{self.x}'
+        if self.x == 0:
+            s = ''
+        if self.x == 1:
+            s = 'a'
+        if self.x == 2:
+            s = 'b'
+        return f'{evangelists[self.e]}{self.chapter},{self.verse}{s}'
 
     def __eq__(self, other: 'BibleRef') -> bool:
         return (self.e, self.chapter, self.verse, self.x) == (
