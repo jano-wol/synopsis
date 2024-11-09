@@ -8,11 +8,15 @@ from bible import BibleRef, BibleSec, evangelists
 class BoxRef:
     """Represents a box reference in a translation"""
 
-    def __init__(self, part_idx: int, section_idx: int, e: int, idx: int):
+    def __init__(self, part_idx: int, section_idx_loc: int, section_idx_glob: int, e: int, idx: int):
         self.part_idx = part_idx
-        self.section_idx = section_idx
+        self.section_idx_loc = section_idx_loc
+        self.section_idx_glob = section_idx_glob
         self.e = e
         self.idx = idx
+
+    def __repr__(self) -> str:
+        return f'({self.part_idx};{self.section_idx_glob};{evangelists[self.e]};{self.idx})'
 
 
 class Box:
@@ -20,6 +24,9 @@ class Box:
     def __init__(self, loaded_json, e):
         self.json: json = loaded_json
         self.e = e
+
+    def __repr__(self) -> str:
+        return str(self.json)
 
     def is_body(self) -> bool:
         return self.json['leading']
@@ -42,11 +49,31 @@ class Translation:
         self.body_ref_to_box_ref: dict[BibleRef, BoxRef] = {}
         self.body_text_partition: list[BibleSec] = []
 
-    def iterate_on_all_boxes(self):
-        pass
+    def __repr__(self) -> str:
+        return str(self.json)
 
-    def iterate_on_main_boxes(self):
-        pass
+    def iterate_on_parts(self) -> Generator[json, None, None]:
+        for part in self.json['parts']:
+            yield part
+
+    def iterate_on_sections(self) -> Generator[json, None, None]:
+        for part in self.iterate_on_parts():
+            for section in part['sections']:
+                yield section
+
+    def iterate_on_boxes(self) -> Generator[json, None, None]:
+        for section in self.iterate_on_sections():
+            for evangelist in evangelists:
+                for box in section[evangelist]:
+                    if box:
+                        yield box
+
+    def iterate_on_main_boxes(self) -> Generator[json, None, None]:
+        for section in self.iterate_on_sections():
+            for evangelist in evangelists:
+                for box in section[evangelist]:
+                    if box and box['leading']:
+                        yield box
 
     def get_box(self, ref: BoxRef) -> Box:
-        return Box(self.json['parts'][ref.part_idx]['sections'][ref.section_idx][evangelists[ref.e]][ref.idx], ref)
+        return Box(self.json['parts'][ref.part_idx]['sections'][ref.section_idx_loc][evangelists[ref.e]][ref.idx], ref)

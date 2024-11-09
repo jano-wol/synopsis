@@ -5,6 +5,7 @@ from typing import Tuple
 
 from bible import BibleRef, BibleSec
 from file_utils import iterate_jsons, load_json
+from translation import Box, BoxRef, Translation
 
 evangelists = ['mt', 'mk', 'lk', 'jn']
 
@@ -51,9 +52,13 @@ def main():
         assert v in solutions
         if len(solutions) > 1:
             print(f'{e} {solutions}')
+    r = BoxRef(17, 0, 363, 1, 0)
+    print(r)
+    translation = Translation(bible_json)
+    #print(translation.get_box(r))
 
-
-
+    for b in translation.iterate_on_main_boxes():
+        print(b)
 
 if __name__ == '__main__':
     main()
