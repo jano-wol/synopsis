@@ -65,6 +65,12 @@ class BibleRef:
             else:
                 return BibleRef(self.e, 99, 99, 0)
 
+    def is_cut_ref(self) -> bool:
+        return self.x != 0
+
+    def get_base_ref(self) -> 'BibleRef':
+        return BibleRef(self.e, self.chapter, self.verse, 0)
+
     @staticmethod
     def begin() -> 'BibleRef':
         return BibleRef(0, 1, 1, 0)

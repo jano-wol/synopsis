@@ -122,3 +122,21 @@ class Translation:
 
     def get_name(self) -> str:
         return self.json['translation']
+
+    def get_cut_verses(self):
+        ret = []
+        for box, box_ref in self.iterate_on_boxes():
+            b = Box(box, box_ref.e)
+            for bible_ref, text in b.iterate():
+                if bible_ref.is_cut_ref():
+                    ret.append(bible_ref.get_base_ref())
+        return sorted(set(ret))
+
+    def get_cut_main_verses(self) -> list[BibleRef]:
+        ret = []
+        for box, box_ref in self.iterate_on_main_boxes():
+            b = Box(box, box_ref.e)
+            for bible_ref, text in b.iterate():
+                if bible_ref.is_cut_ref():
+                    ret.append(bible_ref.get_base_ref())
+        return sorted(set(ret))
