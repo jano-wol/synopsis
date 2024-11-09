@@ -33224,6 +33224,11 @@
                             "leading": false,
                             "content": [
                                 {
+                                    "text": null,
+                                    "chapter": "19",
+                                    "verse": "24b"
+                                },
+                                {
                                     "text": "Stabant autem iuxta crucem Iesu mater eius et soror matris eius, Maria Cleopae, et Maria Magdalene.",
                                     "chapter": "19",
                                     "verse": "25"
