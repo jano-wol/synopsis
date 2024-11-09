@@ -64,9 +64,19 @@ class Translation:
                 if bible_ref in self.ref_to_text:
                     if self.ref_to_text[bible_ref] != text:
                         print(
-                            f'ERROR {self.ref_to_text[bible_ref]} != {text}, {bible_ref} translation={self.get_name()}')
+                            f'Same ref, different text failure.\ntext_1={self.ref_to_text[bible_ref]}\ntext_2={text}\nverse={bible_ref} translation={self.get_name()}')
                 else:
                     self.ref_to_text[bible_ref] = text
+        cut_verses = self.get_cut_verses()
+        for v in cut_verses:
+            a = BibleRef(v.e, v.chapter, v.verse, 1)
+            b = BibleRef(v.e, v.chapter, v.verse, 2)
+            concat = self.ref_to_text[a] + ' ' + self.ref_to_text[b]
+            if v in self.ref_to_text:
+                if self.ref_to_text[v] != concat:
+                    print(f'Cut verse a + b failure.\ntext_1={self.ref_to_text[v]}\nconcat={concat}\nverse={v} translation={self.get_name()}')
+            else:
+                self.ref_to_text[v] = concat
 
         for box, box_ref in self.iterate_on_main_boxes():
             b = Box(box, box_ref.e)
