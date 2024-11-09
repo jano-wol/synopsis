@@ -32353,11 +32353,6 @@
                                     "text": "Et postquam illuserunt ei, exuerunt illum purpuram et induerunt eum vestimentis suis. Et educunt illum, ut crucifigerent eum.",
                                     "chapter": "15",
                                     "verse": "20"
-                                },
-                                {
-                                    "text": "Et postquam illuserunt ei, exuerunt illum purpuram et induerunt eum vestimentis suis. Et educunt illum, ut crucifigerent eum.",
-                                    "chapter": "15",
-                                    "verse": "20"
                                 }
                             ]
                         }
@@ -33228,6 +33223,11 @@
                         {
                             "leading": false,
                             "content": [
+                                {
+                                    "text": null,
+                                    "chapter": "19",
+                                    "verse": "24b"
+                                },
                                 {
                                     "text": "Stabant autem iuxta crucem Iesu mater eius et soror matris eius, Maria Cleopae, et Maria Magdalene.",
                                     "chapter": "19",

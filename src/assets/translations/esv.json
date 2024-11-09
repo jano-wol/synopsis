@@ -32353,11 +32353,6 @@
                                     "text": "And when they had mocked him, they stripped him of the purple cloak and put his own clothes on him. And they led him out to crucify him.",
                                     "chapter": "15",
                                     "verse": "20"
-                                },
-                                {
-                                    "text": "And when they had mocked him, they stripped him of the purple cloak and put his own clothes on him. And they led him out to crucify him.",
-                                    "chapter": "15",
-                                    "verse": "20"
                                 }
                             ]
                         }
@@ -33228,6 +33223,11 @@
                         {
                             "leading": false,
                             "content": [
+                                {
+                                    "text": null,
+                                    "chapter": "19",
+                                    "verse": "24b"
+                                },
                                 {
                                     "text": "but standing by the cross of Jesus were his mother and his mother’s sister, Mary the wife of Clopas, and Mary Magdalene.",
                                     "chapter": "19",

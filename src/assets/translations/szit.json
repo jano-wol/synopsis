@@ -32353,11 +32353,6 @@
                                     "text": "Azután, hogy így kigúnyolták, levették róla a bíbort és a saját ruháját adták rá.",
                                     "chapter": "15",
                                     "verse": "20"
-                                },
-                                {
-                                    "text": "Ezután kivezették, hogy keresztre feszítsék.",
-                                    "chapter": "15",
-                                    "verse": "20"
                                 }
                             ]
                         }
@@ -33228,6 +33223,11 @@
                         {
                             "leading": false,
                             "content": [
+                                {
+                                    "text": null,
+                                    "chapter": "19",
+                                    "verse": "24b"
+                                },
                                 {
                                     "text": "Jézus keresztje alatt ott állt anyja, anyjának nővére, Mária, aki Kleofás felesége volt és Mária Magdolna.",
                                     "chapter": "19",

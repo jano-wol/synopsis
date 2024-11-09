@@ -32350,12 +32350,7 @@
                                     "verse": "19"
                                 },
                                 {
-                                    "text": "A Skoro się z niego naśmiali, zdjęli z niego purpurę i włożyli nań szaty jego, i wyprowadzili go, aby go ukrzyżować.",
-                                    "chapter": "15",
-                                    "verse": "20"
-                                },
-                                {
-                                    "text": "A Skoro się z niego naśmiali, zdjęli z niego purpurę i włożyli nań szaty jego, i wyprowadzili go, aby go ukrzyżować.",
+                                    "text": "A skoro się z niego naśmiali, zdjęli z niego purpurę i włożyli nań szaty jego, i wyprowadzili go, aby go ukrzyżować.",
                                     "chapter": "15",
                                     "verse": "20"
                                 }
@@ -32575,7 +32570,7 @@
                                     "verse": "19"
                                 },
                                 {
-                                    "text": "A Skoro się z niego naśmiali, zdjęli z niego purpurę i włożyli nań szaty jego,",
+                                    "text": "A skoro się z niego naśmiali, zdjęli z niego purpurę i włożyli nań szaty jego,",
                                     "chapter": "15",
                                     "verse": "20a"
                                 }
@@ -33228,6 +33223,11 @@
                         {
                             "leading": false,
                             "content": [
+                                {
+                                    "text": null,
+                                    "chapter": "19",
+                                    "verse": "24b"
+                                },
                                 {
                                     "text": "A stały obok krzyża Jezusowego matka jego i siostra matki jego, Maria Kleofasowa, i Maria Magdalena.",
                                     "chapter": "19",

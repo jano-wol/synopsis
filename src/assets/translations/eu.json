@@ -32353,11 +32353,6 @@
                                     "text": "Nachdem sie so ihren Spott mit ihm getrieben hatten, nahmen sie ihm den Purpurmantel ab und zogen ihm seine eigenen Kleider wieder an. Dann führten sie Jesus hinaus, um ihn zu kreuzigen.",
                                     "chapter": "15",
                                     "verse": "20"
-                                },
-                                {
-                                    "text": "Nachdem sie so ihren Spott mit ihm getrieben hatten, nahmen sie ihm den Purpurmantel ab und zogen ihm seine eigenen Kleider wieder an. Dann führten sie Jesus hinaus, um ihn zu kreuzigen.",
-                                    "chapter": "15",
-                                    "verse": "20"
                                 }
                             ]
                         }
@@ -33228,6 +33223,11 @@
                         {
                             "leading": false,
                             "content": [
+                                {
+                                    "text": null,
+                                    "chapter": "19",
+                                    "verse": "24b"
+                                },
                                 {
                                     "text": "Bei dem Kreuz Jesu standen seine Mutter und die Schwester seiner Mutter, Maria, die Frau des Klopas, und Maria von Magdala.",
                                     "chapter": "19",
