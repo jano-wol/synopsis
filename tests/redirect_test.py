@@ -55,6 +55,7 @@ def main():
     r = BoxRef(17, 0, 363, 1, 0)
     print(r)
     translation = Translation(bible_json)
+    print(translation.body_text_partition)
     #print(translation.get_box(r))
 
     for b in translation.iterate_on_main_boxes():

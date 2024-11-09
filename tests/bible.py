@@ -50,8 +50,7 @@ class BibleRef:
         return hash((self.e, self.chapter, self.verse, self.x))
 
     def next(self) -> 'BibleRef':
-        if self == BibleRef.end():
-            ValueError('next called on end')
+        assert self != BibleRef.end(), 'next called on end'
         if self.x == 1:
             return BibleRef(self.e, self.chapter, self.verse, 2)
         else:

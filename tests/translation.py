@@ -60,7 +60,7 @@ class Translation:
 
         for box, box_ref in self.iterate_on_boxes():
             b = Box(box, box_ref.e)
-            for bible_ref, text in  b.iterate():
+            for bible_ref, text in b.iterate():
                 if bible_ref in self.ref_to_text:
                     assert self.ref_to_text[bible_ref] == text, f'{self.ref_to_text[bible_ref]} != {text}, {bible_ref}'
                 else:
@@ -68,9 +68,18 @@ class Translation:
 
         for box, box_ref in self.iterate_on_main_boxes():
             b = Box(box, box_ref.e)
-            for bible_ref, text in  b.iterate():
+            for bible_ref, text in b.iterate():
                 assert bible_ref not in self.body_ref_to_box_ref
                 self.body_ref_to_box_ref[bible_ref] = box_ref
+
+        for box, box_ref in self.iterate_on_main_boxes():
+            b = Box(box, box_ref.e)
+            first, last = BibleRef.end(), BibleRef.end()
+            for index, (bible_ref, text) in enumerate(b.iterate()):
+                if index == 0:
+                    first = bible_ref
+                last = bible_ref
+            self.body_text_partition.append(BibleSec(first, last.next()))
 
     def __repr__(self) -> str:
         return str(self.json)
