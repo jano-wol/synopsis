@@ -127,7 +127,7 @@ class Translation:
                 if bible_ref in self.ref_to_text:
                     if self.ref_to_text[bible_ref] != text:
                         print(
-                            f'Same verse, different text failure.\ntext_1={self.ref_to_text[bible_ref]}\ntext_2={text}\nverse={bible_ref} translation={self.get_name()}')
+                            f'Verse {bible_ref} with multiple texts in {self.get_name()}:\ntext_1={self.ref_to_text[bible_ref]}\ntext_2={text}')
                 else:
                     self.ref_to_text[bible_ref] = text
         cut_verses = self.get_cut_verses()
@@ -138,7 +138,7 @@ class Translation:
             if v in self.ref_to_text:
                 if self.ref_to_text[v] != concat:
                     print(
-                        f'Cut verse a + b failure.\ntext_1={self.ref_to_text[v]}\nconcat={concat}\nverse={v} translation={self.get_name()}')
+                        f'Cut verse a + b failure in {self.get_name()}:\n{a}={self.ref_to_text[a]}\n{b}={self.ref_to_text[b]}\n{v} ={self.ref_to_text[v]}')
             else:
                 self.ref_to_text[v] = concat
 
