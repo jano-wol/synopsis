@@ -107,7 +107,7 @@ class Translation:
     def get_name(self) -> str:
         return self.json['translation']
 
-    def get_cut_verses(self):
+    def get_cut_verses(self) -> list[BibleRef]:
         ret = []
         for box, box_ref in self.iterate_on_boxes():
             b = Box(box, box_ref.e)
