@@ -20,10 +20,13 @@ def test_box_interval_property(translation):
                     assert bible_ref.x == 1, f'Unexpected cut ref at the end of a box. box_ref={box_ref} ref={bible_ref}'
                 bible_ref = bible_ref.get_base_ref()
             assert prev_ref.next() == bible_ref, f'Box interval property failed. box_ref={box_ref} prev_ref={prev_ref} ref={bible_ref}'
-
+            prev_ref = bible_ref
 
 def main():
     translation_folder = sys.argv[1]
     bible_json, _ = next(iterate_jsons(translation_folder))
     translation = Translation(bible_json)
     test_box_interval_property(translation)
+
+if __name__ == '__main__':
+    main()
