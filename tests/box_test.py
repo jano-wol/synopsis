@@ -68,8 +68,8 @@ def test_main_body_ordering(translation):
                     start = False
                     continue
                 curr = box.get_sec()
-                assert prev.start < curr.start and (
-                        prev.end == curr.start or prev.end == curr.start.get_base_ref()), f'Main body boxes are not fitting. box_ref={box_ref} prev={prev} curr={curr}'
+                assert prev.begin < curr.begin and (
+                        prev.end == curr.begin or prev.end == curr.begin.get_base_ref()), f'Main body boxes are not fitting. box_ref={box_ref} prev={prev} curr={curr}'
                 prev = curr
 
 

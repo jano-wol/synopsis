@@ -110,25 +110,25 @@ class BibleRef:
 
 
 class BibleSec:
-    """Represents consecutive gospel verses as [start, end), with start and end as BibleRef objects"""
+    """Represents consecutive gospel verses as [begin, end), with start and end as BibleRef objects"""
     start: BibleRef
     end: BibleRef
 
-    def __init__(self, start: BibleRef, end: BibleRef):
-        self.start = start
+    def __init__(self, begin: BibleRef, end: BibleRef):
+        self.begin = begin
         self.end = end
 
     def __repr__(self) -> str:
-        return f'[{self.start};{self.end})'
+        return f'[{self.begin};{self.end})'
 
     def __eq__(self, other: 'BibleSec') -> bool:
-        return (self.start, self.end) == (other.start, other.end)
+        return (self.begin, self.end) == (other.begin, other.end)
 
     def __hash__(self):
-        return hash((self.start, self.end))
+        return hash((self.begin, self.end))
 
     def is_empty(self) -> bool:
-        return self.end <= self.start
+        return self.end <= self.begin
 
     def fix_closed(self):
         """If end is inclusive, adjusts self to be a left-closed, right-open interval"""
@@ -139,7 +139,7 @@ class BibleSec:
             return self
         if other.is_empty():
             return other
-        start = max(self.start, other.start)
+        start = max(self.begin, other.begin)
         end = min(self.end, other.end)
         return BibleSec(start, end)
 

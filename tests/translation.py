@@ -56,9 +56,10 @@ class Box:
         ret = ret + f'-'
         if start.e != end.e:
             return ret + str(end)
+        s = {1: 'a', 2: 'b'}.get(end.x, '')
         if start.chapter != end.chapter:
-            return ret + str(end.chapter) + ',' + str(end.verse)
-        return ret + str(end.verse)
+            return ret + str(end.chapter) + ',' + str(end.verse) + s
+        return ret + str(end.verse) + s
 
     def _get_ref(self, content_element) -> BibleRef:
         verse_str = content_element['verse']
@@ -206,4 +207,4 @@ class Translation:
                     first = bible_ref
                 last = bible_ref
             self.body_text_partition.append(BibleSec(first, last.next()))
-        self.body_text_partition.sort(key=lambda x: x.start)
+        self.body_text_partition.sort(key=lambda x: x.begin)
