@@ -36,7 +36,9 @@ class Box:
             yield self._get_ref(v), v['text']
 
     def length(self) -> int:
-        return len(self.json['content'])
+        ret = len(self.json['content'])
+        assert 0 < ret, f'Box length should be positive. json={self.json}'
+        return ret
 
     def get_sec(self) -> BibleSec:
         length = self.length()

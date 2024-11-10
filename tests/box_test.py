@@ -2,7 +2,7 @@ import sys
 
 from bible import BibleRef
 from file_utils import iterate_jsons
-from translation import Box, Translation
+from translation import Translation
 
 
 def test_box_interval_property(translation):
@@ -13,6 +13,8 @@ def test_box_interval_property(translation):
             if index != 0 and index != length - 1:
                 assert not bible_ref.is_cut_ref(), f'Cut verse in the middle of a box. box_ref={box_ref}'
             if index == 0:
+                if bible_ref.is_cut_ref():
+                    assert (bible_ref.x == 2) or (length == 1), f'Unexpected cut ref at the start of a box. box_ref={box_ref} ref={bible_ref}'
                 prev_ref = bible_ref
                 continue
             if index == length - 1:
