@@ -1,11 +1,10 @@
 import bisect
 import os
 import sys
-from typing import Tuple
 
-from bible import BibleRef, BibleSec, evangelists
+from bible import BibleSec
 from file_utils import iterate_jsons, load_json
-from translation import Box, BoxRef, Translation
+from translation import Translation
 
 leading_file_name = 'toLeading.json'
 next_file_name = 'toNext.json'
@@ -37,9 +36,9 @@ def test_leading(redirect_folder, translation):
     body_text_rights = [el.end for el in translation.body_text_partition]
     for parallel_section_str, lead_section in to_leading_json.items():
         possible_lead_sections = get_possible_lead_sections(parallel_section_str, translation, body_text_rights)
-        assert lead_section in possible_lead_sections
-        if len(possible_lead_sections) > 1:
-            print(f'{parallel_section_str} {possible_lead_sections}')
+        assert lead_section in possible_lead_sections, f'{parallel_section_str} lead is expected to be in {possible_lead_sections}. curr_val={lead_section}'
+        #if len(possible_lead_sections) > 1:
+        #    print(f'{parallel_section_str} {possible_lead_sections}')
 
     for box, box_ref in translation.iterate_on_parallel_boxes():
         assert box.get_closed_str() in to_leading_json, f'Leading was not found for str={box.get_closed_str()} box_ref={box_ref}. Possible values={get_possible_lead_sections(box.get_closed_str(), translation, body_text_rights)}'
