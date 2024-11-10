@@ -15,23 +15,32 @@ previous_file_name = 'toPrevious.json'
 def get_redirect_file_path(redirect_folder, file_name):
     return os.path.join(redirect_folder, file_name)
 
+
+def get_possible_lead_sections(parallel_section_str, translation):
+    body_text_rights = [el.end for el in translation.body_text_partition]
+    sec = BibleSec.from_closed_string(parallel_section_str)
+    start = sec.start
+    index = bisect.bisect_right(body_text_rights, start)
+    assert translation.body_text_partition[index].is_intersect(sec)
+    if index > 0:
+        assert not translation.body_text_partition[index - 1].is_intersect(sec)
+    possible_lead_sections = set()
+    while index < len(translation.body_text_partition) and translation.body_text_partition[index].is_intersect(sec):
+        possible_lead_sections.add(
+            int(translation.body_ref_to_box_ref[translation.body_text_partition[index].start].section_id))
+        index = index + 1
+    return possible_lead_sections
+
+
 def test_leading(redirect_folder, translation):
     to_leading_path = get_redirect_file_path(redirect_folder, leading_file_name)
     to_leading_json = load_json(to_leading_path)
-    body_text_rights = [el.end for el in translation.body_text_partition]
-    print(body_text_rights)
-    for e, v in to_leading_json.items():
-        sec = BibleSec.from_closed_string(e)
-        start = sec.start
-        index = bisect.bisect_right(body_text_rights, start)
-        assert translation.body_text_partition[index].is_intersect(sec)
-        solutions = set()
-        while index < len(translation.body_text_partition) and translation.body_text_partition[index].is_intersect(sec):
-            solutions.add(int(translation.body_ref_to_box_ref[translation.body_text_partition[index].start].section_id))
-            index = index + 1
-        assert v in solutions
-        if len(solutions) > 1:
-            print(f'{e} {solutions}')
+    for parallel_section_str, lead_section in to_leading_json.items():
+        possible_lead_sections = get_possible_lead_sections(parallel_section_str, translation)
+        assert lead_section in possible_lead_sections
+        if len(possible_lead_sections) > 1:
+            print(f'{parallel_section_str} {possible_lead_sections}')
+
 
 def test_neighbourhood(redirect_folder, translation):
     to_leading_path = get_redirect_file_path(redirect_folder, leading_file_name)
@@ -45,23 +54,7 @@ def main():
     translation = Translation(bible_json)
     test_leading(redirect_folder, translation)
     test_neighbourhood(redirect_folder, translation)
-    #for e, v in to_leading_json.items():
-    #    sec = BibleSec.from_closed_string(e)
-    #    start = sec.start
-    #    index = bisect.bisect_right(body_text_rights, start)
-    #    assert body_text_intervals[index][0].is_intersect(sec)
-    #    solutions = set()
-    #    while index < len(body_text_intervals) and body_text_intervals[index][0].is_intersect(sec):
-    #        solutions.add(body_text_intervals[index][1])
-    #        index = index + 1
-    #    assert v in solutions
-    #    if len(solutions) > 1:
-    #        print(f'{e} {solutions}')
-    #r = BoxRef(17, 0, 363, 1, 0)
-    #print(r)
-    #translation = Translation(bible_json)
-    print(translation.body_text_partition)
-    #print(translation.get_box(r))
+
 
 if __name__ == '__main__':
     main()
