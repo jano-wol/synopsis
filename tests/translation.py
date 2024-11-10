@@ -127,10 +127,18 @@ class Translation:
         return sorted(set(ret))
 
     def _init_section_titles(self):
+        start = True
+        prev = 0
         for section, section_idx_loc in self.iterate_on_sections():
             id_str = section['id']
             assert id_str.isdigit()
             assert id_str not in self.section_titles
+            if start:
+                start = False
+            else:
+                assert prev < int(id_str), f'Section id should increase. prev={prev} curr={int(id_str)}'
+            assert int(id_str) <= 367, f'Section id should be maximum 367. curr={int(id_str)}'
+            prev = start
             self.section_titles[id_str] = section['section_title']
 
     def _init_ref_to_text(self):
