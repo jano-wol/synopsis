@@ -2,10 +2,10 @@ import os
 import re
 import sys
 
+from bible import evangelists
 from file_utils import iterate_jsons
 
 checked_translations = ['kg', 'esv', 'szit', 'knb', 'bt', 'bjw', 'rsp', 'nv', 'sblgnt', 'eu']
-evangelists = ['mt', 'mk', 'lk', 'jn']
 
 
 def remove_roman_literal(title):
