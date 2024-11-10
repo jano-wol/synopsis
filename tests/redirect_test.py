@@ -37,7 +37,7 @@ def test_leading(redirect_folder, translation):
     for parallel_section_str, lead_section in to_leading_json.items():
         possible_lead_sections = get_possible_lead_sections(parallel_section_str, translation, body_text_rights)
         assert lead_section in possible_lead_sections, f'{parallel_section_str} lead is expected to be in {possible_lead_sections}. curr_val={lead_section}'
-        #if len(possible_lead_sections) > 1:
+        # if len(possible_lead_sections) > 1:
         #    print(f'{parallel_section_str} {possible_lead_sections}')
 
     used_keys = set()
@@ -48,6 +48,7 @@ def test_leading(redirect_folder, translation):
         used_keys.add(closed_str)
     unused_keys = all_keys - used_keys
     assert not unused_keys, f'Unused keys found in {leading_file_name}. unused_keys={unused_keys}'
+
 
 def find_index(target, sorted_list):
     index = bisect.bisect_left(sorted_list, target)
