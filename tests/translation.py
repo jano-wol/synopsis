@@ -1,6 +1,6 @@
 import json
 
-from typing import Iterator, Tuple
+from typing import Any, Iterator, Tuple
 
 from bible import BibleRef, BibleSec, evangelists
 
@@ -88,13 +88,13 @@ class Translation:
     def __repr__(self) -> str:
         return str(self.json)
 
-    def iterate_on_parts(self) -> Tuple[Iterator[json], int]:
+    def iterate_on_parts(self) -> Tuple[Iterator[Any], int]:
         idx = 0
         for part in self.json['parts']:
             yield part, idx
             idx = idx + 1
 
-    def iterate_on_sections(self) -> Tuple[Iterator[json], Tuple[int, int]]:
+    def iterate_on_sections(self) -> Tuple[Iterator[Any], Tuple[int, int]]:
         for part, part_idx in self.iterate_on_parts():
             idx = 0
             for section in part['sections']:
