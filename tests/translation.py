@@ -33,12 +33,21 @@ class Box:
 
     def iterate(self) -> Iterator[Tuple[BibleRef, str]]:
         for v in self.json['content']:
-            verse_str = v['verse']
-            verse, x = BibleRef.split_verse(verse_str)
-            yield BibleRef(self.e, int(v['chapter']), verse, x), v['text']
+            yield self._get_ref(v), v['text']
 
     def length(self) -> int:
         return len(self.json['content'])
+
+    def get_sec(self) -> BibleSec:
+        length = self.length()
+        start = self._get_ref(self.json['content'][0])
+        end = self._get_ref(self.json['content'][length - 1]).next()
+        return BibleSec(start, end)
+
+    def _get_ref(self, content_element) -> BibleRef:
+        verse_str = content_element['verse']
+        verse, x = BibleRef.split_verse(verse_str)
+        return BibleRef(self.e, int(content_element['chapter']), verse, x)
 
 
 class Translation:

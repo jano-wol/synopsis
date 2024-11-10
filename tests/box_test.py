@@ -57,7 +57,19 @@ def test_main_body_partition_property(translation):
 
 
 def test_main_body_ordering(translation):
-    pass
+    for e in range(4):
+        start = True
+        prev = None
+        for box, box_ref in translation.iterate_on_main_boxes():
+            b = Box(box, box_ref.e)
+            if e == box_ref.e:
+                if start:
+                    prev = b.get_sec()
+                    start = False
+                    continue
+                curr = b.get_sec()
+                assert prev.start < curr.start and (prev.end == curr.start or prev.end == curr.start.get_base_ref()), f'Main body boxes are not fitting. box_ref={box_ref} prev={prev} curr={curr}'
+                prev = curr
 
 
 def main():
