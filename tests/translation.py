@@ -46,6 +46,20 @@ class Box:
         end = self._get_ref(self.json['content'][length - 1]).next()
         return BibleSec(start, end)
 
+    def get_closed_str(self):
+        length = self.length()
+        start = self._get_ref(self.json['content'][0])
+        end = self._get_ref(self.json['content'][length - 1])
+        ret = str(start)
+        if start == end:
+            return ret
+        ret = ret + f'-'
+        if start.e != end.e:
+            return ret + str(end)
+        if start.chapter != end.chapter:
+            return ret + str(end.chapter) + ',' + str(end.verse)
+        return ret + str(end.verse)
+
     def _get_ref(self, content_element) -> BibleRef:
         verse_str = content_element['verse']
         verse, x = BibleRef.split_verse(verse_str)
@@ -98,6 +112,11 @@ class Translation:
     def iterate_on_main_boxes(self) -> Tuple[Box, BoxRef]:
         for box, ref in self.iterate_on_boxes():
             if box and box.json['leading']:
+                yield box, ref
+
+    def iterate_on_parallel_boxes(self) -> Tuple[Box, BoxRef]:
+        for box, ref in self.iterate_on_boxes():
+            if box and not box.json['leading']:
                 yield box, ref
 
     def get_box(self, ref: BoxRef) -> Box:

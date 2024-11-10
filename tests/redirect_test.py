@@ -41,6 +41,10 @@ def test_leading(redirect_folder, translation):
         if len(possible_lead_sections) > 1:
             print(f'{parallel_section_str} {possible_lead_sections}')
 
+    for box, box_ref in translation.iterate_on_parallel_boxes():
+        assert box.get_closed_str() in to_leading_json, f'str={box.get_closed_str()}, box_ref={box_ref}'
+
+
 
 def test_neighbourhood(redirect_folder, translation):
     to_leading_path = get_redirect_file_path(redirect_folder, leading_file_name)
