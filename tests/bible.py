@@ -71,6 +71,14 @@ class BibleRef:
     def get_base_ref(self) -> 'BibleRef':
         return BibleRef(self.e, self.chapter, self.verse, 0)
 
+    def get_cut_ref_pair(self) -> 'BibleRef':
+        assert self.is_cut_ref(), f'method should be called on cut refs! self={self}'
+        return BibleRef(self.e, self.chapter, self.verse, 3 - self.x)
+
+    def cut_base_ref(self) -> Tuple['BibleRef', 'BibleRef']:
+        assert not self.is_cut_ref(), f'method should be called on base refs! self={self}'
+        return BibleRef(self.e, self.chapter, self.verse, 1), BibleRef(self.e, self.chapter, self.verse, 2)
+
     @staticmethod
     def begin() -> 'BibleRef':
         return BibleRef(0, 1, 1, 0)

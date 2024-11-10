@@ -16,7 +16,7 @@ class BoxRef:
         self.idx = idx
 
     def __repr__(self) -> str:
-        return f'({self.part_idx};{self.section_id};{evangelists[self.e]};{self.idx})'
+        return f'({self.section_id};{evangelists[self.e]};{self.idx})'
 
 
 class Box:
