@@ -84,18 +84,18 @@ class Translation:
                 yield section, (part_idx, idx)
                 idx = idx + 1
 
-    def iterate_on_boxes(self) -> Tuple[Iterator[json], BoxRef]:
+    def iterate_on_boxes(self) -> Tuple[Box, BoxRef]:
         for section, [part_idx, section_idx_loc] in self.iterate_on_sections():
             for e in range(4):
                 idx = 0
-                for box in section[evangelists[e]]:
-                    if box:
-                        yield box, BoxRef(part_idx, section_idx_loc, section['id'], e, idx)
+                for box_json in section[evangelists[e]]:
+                    if box_json:
+                        yield Box(box_json, e), BoxRef(part_idx, section_idx_loc, section['id'], e, idx)
                     idx = idx + 1
 
-    def iterate_on_main_boxes(self) -> Tuple[Iterator[json], BoxRef]:
+    def iterate_on_main_boxes(self) -> Tuple[Box, BoxRef]:
         for box, ref in self.iterate_on_boxes():
-            if box and box['leading']:
+            if box and box.json['leading']:
                 yield box, ref
 
     def get_box(self, ref: BoxRef) -> Box:
@@ -110,8 +110,7 @@ class Translation:
     def get_cut_verses(self) -> list[BibleRef]:
         ret = []
         for box, box_ref in self.iterate_on_boxes():
-            b = Box(box, box_ref.e)
-            for bible_ref, text in b.iterate():
+            for bible_ref, text in box.iterate():
                 if bible_ref.is_cut_ref():
                     ret.append(bible_ref.get_base_ref())
         return sorted(set(ret))
@@ -135,8 +134,7 @@ class Translation:
     def _init_ref_to_text(self):
         rt = self.ref_to_text
         for box, box_ref in self.iterate_on_boxes():
-            b = Box(box, box_ref.e)
-            for bible_ref, text in b.iterate():
+            for bible_ref, text in box.iterate():
                 if bible_ref in rt:
                     if rt[bible_ref] != text:
                         print(
@@ -167,16 +165,14 @@ class Translation:
 
     def _init_body_ref_to_box_ref(self):
         for box, box_ref in self.iterate_on_main_boxes():
-            b = Box(box, box_ref.e)
-            for bible_ref, text in b.iterate():
+            for bible_ref, text in box.iterate():
                 assert bible_ref not in self.body_ref_to_box_ref, f'Body text verse not unique. verse={bible_ref}'
                 self.body_ref_to_box_ref[bible_ref] = box_ref
 
     def _init_body_text_partition(self):
         for box, box_ref in self.iterate_on_main_boxes():
-            b = Box(box, box_ref.e)
             first, last = BibleRef.end(), BibleRef.end()
-            for index, (bible_ref, text) in enumerate(b.iterate()):
+            for index, (bible_ref, text) in enumerate(box.iterate()):
                 if index == 0:
                     first = bible_ref
                 last = bible_ref

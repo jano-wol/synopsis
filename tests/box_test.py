@@ -7,10 +7,9 @@ from translation import Box, Translation
 
 def test_box_interval_property(translation):
     for box, box_ref in translation.iterate_on_boxes():
-        b = Box(box, box_ref.e)
-        length = b.length()
+        length = box.length()
         prev_ref = None
-        for index, (bible_ref, _) in enumerate(b.iterate()):
+        for index, (bible_ref, _) in enumerate(box.iterate()):
             if index != 0 and index != length - 1:
                 assert not bible_ref.is_cut_ref(), f'Cut verse in the middle of a box. box_ref={box_ref}'
             if index == 0:
@@ -27,8 +26,7 @@ def test_box_interval_property(translation):
 def test_main_body_partition_property(translation):
     all_main_body_refs = set()
     for box, box_ref in translation.iterate_on_main_boxes():
-        b = Box(box, box_ref.e)
-        for bible_ref, _ in b.iterate():
+        for bible_ref, _ in box.iterate():
             assert bible_ref not in all_main_body_refs, f'Ref multiple times in main body. ref={bible_ref}'
             all_main_body_refs.add(bible_ref)
     for ref in all_main_body_refs:
@@ -61,13 +59,12 @@ def test_main_body_ordering(translation):
         start = True
         prev = None
         for box, box_ref in translation.iterate_on_main_boxes():
-            b = Box(box, box_ref.e)
             if e == box_ref.e:
                 if start:
-                    prev = b.get_sec()
+                    prev = box.get_sec()
                     start = False
                     continue
-                curr = b.get_sec()
+                curr = box.get_sec()
                 assert prev.start < curr.start and (prev.end == curr.start or prev.end == curr.start.get_base_ref()), f'Main body boxes are not fitting. box_ref={box_ref} prev={prev} curr={curr}'
                 prev = curr
 
