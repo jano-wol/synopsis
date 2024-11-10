@@ -160,7 +160,7 @@ class Translation:
         for box, box_ref in self.iterate_on_main_boxes():
             b = Box(box, box_ref.e)
             for bible_ref, text in b.iterate():
-                assert bible_ref not in self.body_ref_to_box_ref
+                assert bible_ref not in self.body_ref_to_box_ref, f'Body text verse not unique. verse={bible_ref}'
                 self.body_ref_to_box_ref[bible_ref] = box_ref
 
     def _init_body_text_partition(self):
