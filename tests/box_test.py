@@ -14,7 +14,8 @@ def test_box_interval_property(translation):
                 assert not bible_ref.is_cut_ref(), f'Cut verse in the middle of a box. box_ref={box_ref}'
             if index == 0:
                 if bible_ref.is_cut_ref():
-                    assert (bible_ref.x == 2) or (length == 1), f'Unexpected cut ref at the start of a box. box_ref={box_ref} ref={bible_ref}'
+                    assert (bible_ref.x == 2) or (
+                                length == 1), f'Unexpected cut ref at the start of a box. box_ref={box_ref} ref={bible_ref}'
                 prev_ref = bible_ref
                 continue
             if index == length - 1:
@@ -67,7 +68,8 @@ def test_main_body_ordering(translation):
                     start = False
                     continue
                 curr = box.get_sec()
-                assert prev.start < curr.start and (prev.end == curr.start or prev.end == curr.start.get_base_ref()), f'Main body boxes are not fitting. box_ref={box_ref} prev={prev} curr={curr}'
+                assert prev.start < curr.start and (
+                        prev.end == curr.start or prev.end == curr.start.get_base_ref()), f'Main body boxes are not fitting. box_ref={box_ref} prev={prev} curr={curr}'
                 prev = curr
 
 
