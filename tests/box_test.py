@@ -47,8 +47,7 @@ def test_main_body_partition_property(translation):
     for r in all_base_refs:
         if r not in all_main_body_refs:
             a, b = r.cut_base_ref()
-            assert a in all_main_body_refs, f'Missing base reference. Cuts were not find either. ref={r}'
-            assert b in all_main_body_refs, f'Missing base reference. Cuts were not find either. ref={r}'
+            assert a in all_main_body_refs and b in all_main_body_refs, f'Missing base reference. ref={r}'
 
     for r in all_main_body_refs:
         if r.is_cut_ref():
@@ -57,12 +56,17 @@ def test_main_body_partition_property(translation):
             assert r in all_base_refs, f'Unknown main body ref. ref={r}'
 
 
+def test_main_body_ordering(translation):
+    pass
+
+
 def main():
     translation_folder = sys.argv[1]
     bible_json, _ = next(iterate_jsons(translation_folder))
     translation = Translation(bible_json)
     test_box_interval_property(translation)
     test_main_body_partition_property(translation)
+    test_main_body_ordering(translation)
 
 
 if __name__ == '__main__':
