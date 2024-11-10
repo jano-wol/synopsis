@@ -42,7 +42,7 @@ def test_leading(redirect_folder, translation):
             print(f'{parallel_section_str} {possible_lead_sections}')
 
     for box, box_ref in translation.iterate_on_parallel_boxes():
-        assert box.get_closed_str() in to_leading_json, f'str={box.get_closed_str()} box_ref={box_ref}'
+        assert box.get_closed_str() in to_leading_json, f'Leading was not found for str={box.get_closed_str()} box_ref={box_ref}. Possible values={get_possible_lead_sections(box.get_closed_str(), translation, body_text_rights)}'
 
 
 def find_index(target, sorted_list):
