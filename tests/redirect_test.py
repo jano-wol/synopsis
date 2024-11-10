@@ -40,9 +40,14 @@ def test_leading(redirect_folder, translation):
         #if len(possible_lead_sections) > 1:
         #    print(f'{parallel_section_str} {possible_lead_sections}')
 
+    used_keys = set()
+    all_keys = set(to_leading_json.keys())
     for box, box_ref in translation.iterate_on_parallel_boxes():
-        assert box.get_closed_str() in to_leading_json, f'Leading was not found for str={box.get_closed_str()} box_ref={box_ref}. Possible values={get_possible_lead_sections(box.get_closed_str(), translation, body_text_rights)}'
-
+        closed_str = box.get_closed_str()
+        assert closed_str in to_leading_json, f'Leading was not found for str={closed_str} box_ref={box_ref}. Possible values={get_possible_lead_sections(closed_str, translation, body_text_rights)}'
+        used_keys.add(closed_str)
+    unused_keys = all_keys - used_keys
+    assert not unused_keys, f'Unused keys found in {leading_file_name}. unused_keys={unused_keys}'
 
 def find_index(target, sorted_list):
     index = bisect.bisect_left(sorted_list, target)
@@ -59,15 +64,26 @@ def test_main_body_neighbours(redirect_folder, translation):
     for sec in translation.body_text_partition:
         main_body_counts[sec.begin.e] = main_body_counts[sec.begin.e] + 1
 
+    used_keys_next = set()
+    used_keys_prev = set()
+    all_keys_next = set(next_json.keys())
+    all_keys_prev = set(previous_json.keys())
     for e in range(4):
         index = 0
         for box, box_ref in translation.iterate_on_main_boxes():
             if box.e == e:
+                closed_str = box.get_closed_str()
                 if index != 0:
-                    assert box.get_closed_str() in previous_json, f'str={box.get_closed_str()} not found in {previous_file_name} box_ref={box_ref}'
+                    assert closed_str in previous_json, f'str={closed_str} not found in {previous_file_name} box_ref={box_ref}'
+                    used_keys_prev.add(closed_str)
                 if index != main_body_counts[e] - 1:
-                    assert box.get_closed_str() in next_json, f'str={box.get_closed_str()} not found in {next_file_name} box_ref={box_ref}'
+                    assert closed_str in next_json, f'str={closed_str} not found in {next_file_name} box_ref={box_ref}'
+                    used_keys_next.add(closed_str)
                 index = index + 1
+    unused_keys_next = all_keys_next - used_keys_next
+    unused_keys_prev = all_keys_prev - used_keys_prev
+    assert not unused_keys_next, f'Unused keys found in {next_file_name}. unused_keys={unused_keys_next}'
+    assert not unused_keys_prev, f'Unused keys found in {previous_file_name}. unused_keys={unused_keys_prev}'
 
     body_text_lefts = [el.begin for el in translation.body_text_partition]
     for main_body_str, v_json in next_json.items():
