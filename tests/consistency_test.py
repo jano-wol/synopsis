@@ -1,4 +1,3 @@
-import json
 import sys
 
 from file_utils import iterate_jsons

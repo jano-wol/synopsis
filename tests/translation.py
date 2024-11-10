@@ -37,6 +37,9 @@ class Box:
             verse, x = BibleRef.split_verse(verse_str)
             yield BibleRef(self.e, int(v['chapter']), verse, x), v['text']
 
+    def length(self) -> int:
+        return len(self.json['content'])
+
 
 class Translation:
     """Represents a bible translation"""
