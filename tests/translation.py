@@ -8,7 +8,7 @@ from bible import BibleRef, BibleSec, evangelists
 class BoxRef:
     """Represents a box reference in a translation"""
 
-    def __init__(self, part_idx: int, section_idx_loc: int, section_id: int, e: int, idx: int):
+    def __init__(self, part_idx: int, section_idx_loc: int, section_id: str, e: int, idx: int):
         self.part_idx = part_idx
         self.section_idx_loc = section_idx_loc
         self.section_id = section_id
