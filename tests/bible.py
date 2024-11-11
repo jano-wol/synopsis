@@ -110,7 +110,7 @@ class BibleRef:
 
 
 class BibleSec:
-    """Represents consecutive gospel verses as [begin, end), with start and end as BibleRef objects"""
+    """Represents consecutive gospel verses as [begin, end), with begin and end as BibleRef objects"""
     def __init__(self, begin: BibleRef, end: BibleRef):
         self.begin = begin
         self.end = end
