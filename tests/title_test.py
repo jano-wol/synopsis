@@ -2,10 +2,12 @@ import os
 import re
 import sys
 
+from bible import evangelists
 from file_utils import iterate_jsons
 
 checked_translations = ['kg', 'esv', 'szit', 'knb', 'bt', 'bjw', 'rsp', 'nv', 'sblgnt', 'eu']
-evangelists = ['mt', 'mk', 'lk', 'jn']
+roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI',
+                 'XVII', 'XVIII']
 
 
 def remove_roman_literal(title):
@@ -16,13 +18,17 @@ def remove_roman_literal(title):
 
 def check_part_titles(json_loaded, file_name):
     seen_part_titles = set()
+    part_id = 1
     for p in json_loaded['parts']:
+        part_title = p['part_title']
+        assert p['part_title'].startswith(roman[part_id - 1]), f'Starting roman numeral mismatch. part_title={part_title}'
         part_title = remove_roman_literal(p['part_title'])
         if part_title in seen_part_titles:
             print(f'Duplicate part_title found: {part_title}. file_name={file_name}')
             exit(1)
         else:
             seen_part_titles.add(part_title)
+        part_id = part_id + 1
 
 
 def add_to_dict(check_section_titles_dict, section_title, main_body_counts):
