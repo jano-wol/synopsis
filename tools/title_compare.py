@@ -22,8 +22,8 @@ def compare_section_titles(t1, t2):
             section_title1 = section1['section_title']
             section_title2 = section2['section_title']
             if section_title1 != section_title2:
-                print(f'KNB={section_title1} <-> SZIT={section_title2}')
-
+                print(
+                    f'{checked_translations[0].upper()}={section_title1} <-> {checked_translations[1].upper()}={section_title2}')
 
 
 def compare_translations(t1, t2):
@@ -38,6 +38,7 @@ def main():
     t1 = load_json(p1)
     t2 = load_json(p2)
     compare_translations(t1, t2)
+
 
 if __name__ == '__main__':
     main()
