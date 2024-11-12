@@ -1,368 +1,367 @@
-1.	Prologus
-2.	Annuntiatio nativitatis Ioannis
-3.	Annuntiatio nativitatis Christi
-4.	Visitatio Mariae
-5.	Nativitas Ioannis
-6.	Genealogia Jesu
-7.	Christi nativitas
-8.	Natus adoratur
-9.	Circumcisio et praesentatio
-10.	Fuga in Aegyptum et reditus
-11.	Puer Jesus in Nazareth
-12.	Puer Jesus in Templo
-13.	Ioannes Baptista praecursor Domini
-14.	Ioannes paenitentiam praedicat
-15.	Ioannes interrogantibus respondet
-16.	Ioannes Christum evangelizat
-17.	Ioannes in carcerem mittitur
-18.	Baptismus Jesu
-19.	Genealogia Jesu
-20.	Tentatio
-21.	Primi discipuli
-22.	Nuptiae in Cana factae
-23.	In Capharnaum manet
-24.	Primum iter in Jerusalem
-25.	Purgatio templi
-26.	Ministerium in Jerusalem
-27.	Colloquium cum Nicodemo
-28.	Ministerium in ludaea
-29.	Testimonium Ioannis Baptistae
-30.	Iter in Galilaeam
-31.	Mulier Samaritana
-32.	Ministerium in Galilaea
-33.	In Nazareth praedicat
-34.	Vocatio discipulorum
-35.	In synagoga Capharnaum docet
-36.	Daemoniacus in synagoga
-37.	Socrus Petri
-38.	Sanationes sub vesperum
-39.	Jesus Capharnaum relinquit
-40.	Per Galilaeam praedicat
-41.	Petri piscatio
-42.	Sanatio leprosi
-43.	Sanatio paralytici
-44.	Vocatio Levi publicani
-45.	Quaestio ieiunii
-46.	Spicae sabbato vulsae
-47.	Manus arida
-48.	Sanationes ad mare
-49.	Electio apostolorum
-50.	Occasio sermonis
-51.	Occasion of the Sermon
-52.	Sal terrae
-53.	Lux mundi
-54.	Legis adimpletio
-55.	Non occides
-56.	Non moechaberis
-57.	Non periurabis
-58.	Lex talionis
-59.	Dilectio inimicorum
-60.	De eleemosyna
-61.	De oratione
-62.	Oratio dominica
-63.	De ieiunio
-64.	De thesaurizando
-65.	Oculus Simplex
-66.	Duobus dominis servire
-67.	Ne solliciti sitis
-68.	Nolite iudicare
-69.	Margaritae ante porcos
-70.	Petitio efficax
-71.	Regula aurea
-72.	Via spatiosa
-73.	Ex fructibus cognoscetis eos
-74.	Qui dicunt: Domine, Domine
-75.	Sapiens super petram aedificat
-76.	Effectus sermonis
-77.	Occasio sermonis
-78.	Beatitudines
-79.	Quattuor Vae
-80.	Dilectio inimicorum
-81.	Nolite judicare
-82.	Ex fructibus cognoscetis
-83.	Domus super petram fundata
-84.	Leprosus
-85.	Servus centurionis
-86.	Filius viduae Naim
-87.	Socrus Petri
-88.	Sanationes sub vesperum
-89.	Vulpes foveas habent
-90.	Tempestas sedata
-91.	Daemoniaci Geraseni
-92.	Sanatio paralytici
-93.	Matthaeus publicanus vocatur
-94.	Quaestio ieiunii
-95.	Haemorrhoissa et filia lairi
-96.	Duo caeci
-97.	Daemoniacus mutus
-98.	Messis multa
-99.	Missio discipulorum
-100.	Persecutiones futurae
-101.	Qui me confitetur
-102.	Non veni pacem mittere
-103.	Condiciones sequendi Jesum
-104.	Merces discipulos recipientium
-105.	Iter persequitur
-106.	Legatio Baptistae
-107.	Jesu de Baptista testimonium
-108.	Vae civitatibus Galilaeae
-109.	Patri confitetur
-110.	Venite ad me omnes
-111.	Spicae sabbato vulsae
-112.	Manus arida
-113.	Sanationes
-114.	Mulier peccatrix
-115.	Mulieres Jesum sequentes
-116.	Incredulitas suorum
-117.	In quo eiiciat daemonia
-118.	Peccatum in Spiritum Sanctum
-119.	Signum lonae
-120.	Immundus spiritus revertitur
-121.	Mater et fratres Jesu
-122.	Parabola seminantis
-123.	Ouare in parabolis loquatur
-124.	Parabola seminantis explicatur
-125.	Qui habet aures audiendi, audiat
-126.	Ultro semen fructificat
-127.	Parabola zizaniorum
-128.	Parabola grani sinapis
-129.	Parabola fermenti
-130.	Sine parabolis non loquebatur
-131.	Parabola zizaniorum explicatur
-132.	Thesaurus in agro et margarita
-133.	Sagena in mari
-134.	Homo paterfamilias
-135.	Mater et fratres Jesu
-136.	Tempestas sedata
-137.	Daemoniacus Gerasenus
-138.	Haemorrhoissa et filia Iairi
-139.	Propheta in patria
-140.	Secundum iter (in Jerusalem)
-141.	Languidus ad piscinam Bethsaida
-142.	Missio apostolorum
-143.	Opinio Herodis et fama Jesu
-144.	Mors Baptistae
-145.	Apostolorum reversio
-146.	Quinque milia saturantur
-147.	Super mare ambulat
-148.	Sanationes in terra Genesar
-149.	Panis vitae
-150.	Manibus non lotis manducare
-151.	Syrophoenissa (Chananea)
-152.	Ephphetha; multi aegroti
-153.	Quattuor milia saturantur
-154.	Signum de caelo
-155.	Fermentum Pharisaeorum
-156.	Caecus paulatim sanatur
-157.	Multi discipuli discedunt
-158.	Confessio Petri
-159.	Prima passionis praedicatio
-160.	Qui vult venire post me
-161.	Transfiguratio
-162.	De Elia venturo
-163.	Puer lunaticus
-164.	Altera passionis praedictio
-165.	Didrachma Templi
-166.	Discipulorum ambitio
-167.	Monitio tolerantiae
-168.	De scandalis
-169.	Ovis perdita
-170.	Correctio fraterna
-171.	Ubi duo vel tres ...
-172.	Septuagies septies dimittendum
-173.	Servus immisericors
-174.	Iter ingreditur
-175.	A Samaritanis non recipitur
-176.	Sequar te
-177.	Septuaginta duo mittuntur
-178.	Vae civitatibus Galilaeae
-179.	Qui vos audit, me audit
-180.	Septuaginta duo revertuntur
-181.	Patri confitetur, discipulos beatos and dicit
-182.	Mandatum dilectionis
-183.	Samaritanus misericors
-184.	Maria et Martha
-185.	Oratio dominica
-186.	Amicus importunus
-187.	Petitio efficax
-188.	In quo eiiciat daemonia
-189.	Immundus spiritus revertitur
-190.	Beatus venter
-191.	Signum lonae
-192.	Parabola luminis
-193.	Oculus Simplex
-194.	Vae pharisaeis et legisperitis
-195.	Fermentum Pharisaeorum
-196.	Ne terreamini
-197.	Peccatum in Spiritum Sanctum
-198.	Spiritus in discipulis loquetur
-199.	Avaritia vitanda
-200.	Parabola divitis stulti
-201.	Nolite solliciti esse
-202.	Thesaurus caelestis
-203.	Servus vigilans et fidelis
-204.	Ignem veni mittere
-205.	Signa temporum
-206.	Reconciliandum in via
-207.	Paenitentia agenda (ficus infructuosa)
-208.	Mulier inclinata
-209.	Parabola grani sinapis
-210.	Parabola fermenti
-211.	Angusta porta; exclusi
-212.	Herodes vulpes
-213.	Vae Jerusalem
-214.	Hydropicus
-215.	Cum invitatus fueris
-216.	Coena magna
-217.	Conditiones sequendi Jesum
-218.	Parabola salis
-219.	Ovis perdita
-220.	Drachma perdita
-221.	Filius prodigus
-222.	Villicus iniquitatis
-223.	Fides in minimo
-224.	Duobus dominis servire
-225.	Pharisaei arguuntur
-226.	De lege
-227.	Nefas repudii
-228.	De divite et Lazaro mendico
-229.	De scandalis
-230.	Septies dimittendum
-231.	Fides sicut granum sinapis
-232.	Servi inutiles sumus
-233.	Decem leprosi
-234.	Adventus regni Dei
-235.	Filius hominis in die sua
-236.	Iudex iniquitatis et vidua
-237.	Pharisaeus et publicanus
-238.	Jesus in Galilaea remanet
-239.	Jerusalem ascendit in occulto
-240.	In templo docet
-241.	Dissensio propter Jesum
-242.	Mulier adultera
-243.	Jesus lux mundi
-244.	Disputatio cum ludaeis
-245.	Veritas liberabit vos
-246.	Filii diaboli
-247.	Antequam Abraham fieret, ego sum
-248.	Caecus natus
-249.	Pastor bonus
-250.	Dissensio iterum facta
-251.	Iter in ludaeam
-252.	De matrimonio et virginitate
-253.	Benedictio parvulorum
-254.	Adulescens dives
-255.	Foramen acus; centuplum accipiet
-256.	Operarii in vinea
-257.	Jesus in festo Encaeniorum
-258.	Jesus trans Iordanem
-259.	Lazarus resuscitatur
-260.	Concilium Pontificum et Pharisaeorum
-261.	Jesus secedit in Ephrem
-262.	Tertia passionis praedictio
-263.	Mater filiorum Zebedaei
-264.	Bartimaeus vel duo caeci
-265.	Zachaeus
-266.	Parabola mnarum
-267.	Unctio Bethaniae
-268.	Pontificum de Lazaro insidiae
-269.	Ingressus triumphalis in Jerusalem
-270.	Jesus flet super Jerusalem
-271.	Jesus in Jerusalem (templum purgat), Bethaniam redit
-272.	Ficulnea maledicta
-273.	Purgatio templi
-274.	Insidiae pontificum et scribarum
-275.	Ficulnea arefacta
-276.	De potestate Jesu et baptismo
-277.	Duo filii
-278.	Vinitores mall
-279.	Nuptiae regales
-280.	De censu Caesaris
-281.	De resurrectione mortuorum
-282.	Maximum et primum mandatum
-283.	Filius David ?
-284.	Vae Pharisaeis et scribis
-285.	Vae Jerusalem
-286.	Quadrans viduae
-287.	Templum evertetur
-288.	Signa adventus Jesu et consummationis saeculi
-289.	Persecutiones futurae
-290.	Excidium ludaeae
-291.	Pseudochristi et pseudoprophetae
-292.	Filii hominis adventus
-293.	Tempus adventus: parabola fici
-294.	Vigilate (secundum Marcum)
-295.	Vigilate (secundum Lucam)
-296.	Sicut in diebus Noe
-297.	Fidelis servus et servus malus
-298.	Decem virgines
-299.	Parabola talentorum
-300.	Iudicium ultimum
-301.	Conclusiones (secundum Ioannem)
-302.	Jesus et Graeci
-303.	Incredulitas ludaeorum
-304.	Pater mihi mandatum dedit
-305.	Decretum mortis
-306.	Unctio Bethaniae
-307.	A Iuda proditur
-308.	Cena paschalis praeparatur
-309.	Discipulorum pedes lavat
-310.	Proditorem indicat
-311.	Eucharistiam instituit
-312.	Proditorem indicat
-313.	Apostolorum contentio
-314.	Mandatum novum
-315.	Iter in montem Olivarum; negationem Petri praedicit
-316.	Duo gladii
-317.	Vadit ad patrem
-318.	Promissio Paracliti
-319.	Pacem meam do vobis
-320.	Vitis vera
-321.	Manete in dilectione
-322.	Mundus discipulos odit
-323.	Paracliti testimonium
-324.	Persecutiones praedictae
-325.	Paraclitus arguet et docebit
-326.	Modicum
-327.	Petitio in nomine Jesu
-328.	Discipulorum fuga praedicitur
-329.	Oratio sacerdotalis
-330.	Gethsemani
-331.	Tenetur
-332.	Coram synedrio (negatio Petri)
-333.	Negatio Petri
-334.	Pontio Pilato traditur
-335.	Interitus ludae
-336.	A Pilato interrogatur
-337.	Coram Herode
-338.	Pilatus innocentem iudicat
-339.	Jesus an Barabbas?
-340.	Ecce homo
-341.	Condemnatur
-342.	Spinis coronatur
-343.	Via ad Golgotha
-344.	Crucifigitur
-345.	In cruce blasphematur
-346.	Duo latrones
-347.	Moritur
-348.	Stabant iuxta crucem
-349.	Latus aperitur
-350.	Sepelitur
-351.	Custodia sepulcri
-352.	Mulieres ad sepulchrum
-353.	Mulieribus apparet
-354.	Furtum fictum
-355.	Emmaus
-356.	Discipulis apparet
-357.	Thomas
-358.	Recumbentibus apparet
-359.	In monte Galilaeae
-360.	Ad mare Tiberiadis
-361.	Narratio Pauli
-362.	Marci conclusio brevior
-363.	Marci conclusio longior
-364.	Matthaei conclusio: Docete omnes gentes
-365.	Lucae conclusio: Monita Jesu et ascensio
-366.	Ioannis conclusio prior
-367.	Ioannis conclusio altera: Ad mare Tiberiadis. Nota finalis
-
+1.	Prológus
+2.	Keresztelő János születésének igérete
+3.	Jézus születésének igérete
+4.	Mária Erzsébetnél
+5.	Keresztelő János születése
+6.	Jézus Krisztus származása
+7.	Jézus Krisztus születése
+8.	A gyermek imádása
+9.	Körülmetélés és bemutatás a templomban. Simeon és Anna
+10.	Menekülés Egyiptomba és visszatérés
+11.	Jézus gyermeksége Názáretben
+12.	A tizenkét éves Jézus a templomban
+13.	Keresztelő János
+14.	Keresztelő János megtérésre hívó beszéde
+15.	Keresztelő János válaszai az őt kérdezőknek
+16.	Keresztelő János bizonyságtétele a Messiásról
+17.	János elfogatása
+18.	Jézus megkeresztelkedése
+19.	Jézus nemzetségi táblázata
+20.	Jézus megkísértése
+21.	Jézus elhívja első tanítványait
+22.	A kánai menyegző
+23.	Tartózkodás Kapernaumban
+24.	Jézus először megy Jeruzsálembe
+25.	Jézus megtisztítja a templomot
+26.	Jézus Jeruzsálemben
+27.	Nikodémus Jézusnál
+28.	Utazás Judeába
+29.	Keresztelő János bizonyságtétele
+30.	Utazás Galileába
+31.	Jézus és a samáriai asszony
+32.	Jézus Galileában
+33.	Jézus Názáretben
+34.	Jézus elhívja első tanítványait
+35.	Jézus tanít a kapernaumi zsinagógában
+36.	Jézus tisztátalan lelket űz ki
+37.	Jézus meggyógyítja Péter anyósát
+38.	Jézus sok beteget meggyógyít
+39.	Jézus elhagyja Kapernaumot
+40.	Utazások Galileában
+41.	Péter halfogása
+42.	Jézus meggyógyít egy leprást
+43.	Jézus meggyógyítja a bénát
+44.	Jézus elhívja Lévit
+45.	Jézus tanítása a böjtről
+46.	Kalásztépés szombaton
+47.	Jézus szombaton gyógyít
+48.	Jézus sok beteget gyógyít a tenger mellett
+49.	A tizenkét tanítvány elhívása
+50.	Bevezetés
+51.	Kik a boldogok?
+52.	Az ízetlenné vált só
+53.	Példabeszéd a világosságról
+54.	A törvény magyarázata
+55.	Az ölésről és a haragról
+56.	A házasságtörésről és a válásról
+57.	Az esküről
+58.	A megtorlásról
+59.	Szeressétek ellenségeiteket!
+60.	Az adakozás
+61.	Az imádkozás
+62.	A Miatyánk
+63.	A böjtölés
+64.	Az igazi kincs
+65.	A test lámpása a szem
+66.	Isten és a mammon
+67.	Isten gondviselése
+68.	A képmutató ítélkezés
+69.	A szent dolgok megbecsülése
+70.	Az imádság meghallgatása
+71.	Az aranyszabály
+72.	Szoros kapu, keskeny út
+73.	A hamis próféták
+74.	Isten akaratának cselekvése
+75.	Aki kősziklára épít
+76.	A Hegyi Beszéd vége
+77.	Jézus tanít és gyógyít
+78.	Kik a boldogok?
+79.	„Jaj nektek!”
+80.	Az ellenség szeretete
+81.	A képmutató ítélkezés
+82.	Amilyen a fa, olyan a gyümölcse
+83.	Aki kősziklára épít
+84.	Jézus meggyógyít egy leprást
+85.	Jézus meggyógyítja a kapernaumi százados szolgáját
+86.	Jézus feltámasztja a naini ifjút
+87.	Jézus meggyógyítja Péter anyósát
+88.	Jézus sok beteget meggyógyít
+89.	Jézus követése
+90.	Jézus lecsendesíti a tengert
+91.	Jézus meggyógyít két gadarai megszállottat
+92.	Jézus meggyógyítja a bénát
+93.	Jézus elhívja Mátét
+94.	Jézus tanítása a böjtről
+95.	A vérfolyásos asszony meggyógyítása. Jairus lányának feltámasztása
+96.	Jézus meggyógyít két vakot
+97.	Jézus meggyógyítja a megszállott némát
+98.	Az aratnivaló sok, a munkás kevés
+99.	Jézus kiküldi tizenkét tanítványát
+100.	A tanítványok sorsa
+101.	Figyelmeztetés a félelem nélküli hitvallásra
+102.	Jézus küldetéséről
+103.	Jézus követésének feltételei
+104.	Jézus ígérete az őt követőknek
+105.	Az út folytatása
+106.	Keresztelő János kérdése és Jézus válasza
+107.	Jézus bizonyságtétele Keresztelő Jánosról
+108.	Jézus kárhoztatja a meg nem térő galileai városokat
+109.	Jézus hálaadása: az Atya dicsérete
+110.	Jézus magához hívja a megfáradtakat és megterhelteket
+111.	Kalásztépés szombaton
+112.	Jézus meggyógyítja a sorvadt kezűt szombaton
+113.	Jézus sok beteget gyógyít a tenger mellett
+114.	A bűnös nő megkeni Jézus lábát
+115.	A Jézust követő asszonyok
+116.	Jézus rokonainak a szándéka
+117.	Jézust Belzebub szövetségesének mondják
+118.	A Szentlélek elleni bűn
+119.	Jézustól jelt kívánnak
+120.	A visszaesésről
+121.	Jézus igazi rokonai
+122.	Példabeszéd a magvetőről
+123.	Miért mondasz példabeszédeket?
+124.	A magvetőről szóló példázat magyarázata
+125.	„Ha valakinek van füle a hallásra, hallja!”
+126.	A magától növekedő vetés
+127.	A búza és a konkoly
+128.	A mustármag
+129.	A kovász
+130.	Jézus példázatairól
+131.	A búza és a konkoly példázatának értelme
+132.	Az elrejtett kincs és az igazgyöngy
+133.	A hálóról
+134.	A gazda
+135.	Jézus igazi rokonai
+136.	Jézus lecsendesíti a tengert
+137.	Jézus meggyógyítja a gadarai megszállottat
+138.	A vérfolyásos asszony meggyógyítása. Jairus leányának feltámasztása
+139.	Jézus Názáretben
+140.	Jézus második útja Jeruzsálembe
+141.	Jézus beteget gyógyít szombaton a Betesda tavánál
+142.	Jézus kiküldi tizenkét tanítványát
+143.	Heródes és a nép vélekedése Jézusról
+144.	Keresztelő János halála
+145.	A tanítványok visszatérése
+146.	Ötezer ember megvendégelése
+147.	Jézus a tengeren jár
+148.	Jézus sok beteget meggyógyít
+149.	Jézus az élet kenyere
+150.	Jézus tanítása a tisztaságról
+151.	A kánaáni asszony
+152.	A süketnéma és sok beteg meggyógyítása
+153.	Négyezer ember megvendégelése
+154.	A farizeusok jelt kívánnak
+155.	„Őrizkedjetek a farizeusok kovászától!”
+156.	A bétsaidai vak meggyógyítása
+157.	A tanítványok zúgolódása
+158.	Péter vallástétele
+159.	Jézus először szól nyíltan haláláról és feltámadásáról
+160.	Jézus követése
+161.	Jézus megdicsőülése
+162.	Illés eljövetele
+163.	A holdkóros (megszállott) fiú meggyógyítása
+164.	Jézus másodszor szól haláláról és feltámadásáról
+165.	Jézus megfizeti a templomadót
+166.	A tanítványok vetélkedése
+167.	Az ismeretlen ördögűző. Jézus türelemre int
+168.	Óvás a megbotránkoztatástól
+169.	Az eltévedt juh
+170.	Testvériség a gyülekezetben
+171.	Ahol ketten vagy hárman összegyűlnek…
+172.	A megbocsátás
+173.	A gonosz szolga
+174.	Útban Galileából
+175.	Jézust nem fogadják be egy samáriai faluban
+176.	Jézus követése
+177.	Jézus kiküldi hetvenkét tanítványát
+178.	Jézus kárhoztatja a meg nem térő galileai városokat
+179.	„Aki titeket hallgat, engem hallgat”
+180.	A hetvenkét tanítvány visszatérése
+181.	Jézus hálaadása
+182.	A nagy parancsolat
+183.	Az irgalmas samaritánus
+184.	Mária és Márta
+185.	A Miatyánk
+186.	Példázat a sürgős kérésről
+187.	Az imádság meghallgatása
+188.	Jézust Belzebub szövetségesének mondják
+189.	A visszaesésről
+190.	Jézus anyját boldognak mondják
+191.	Jónás jele
+192.	Példázat a lámpásról
+193.	A test lámpása a szem
+194.	Jézus beszéde a farizeusok és a törvénytudók ellen
+195.	„Óvakodjatok a farizeusok kovászától!”
+196.	Bátorítás vallástételre
+197.	A Szentlélek elleni bűn
+198.	A Szentlélek segítsége
+199.	A kapzsiságról
+200.	A bolond gazdag
+201.	Isten gondviselése
+202.	Az igazi kincs
+203.	Intés vigyázásra. Az okos és a gonosz szolga
+204.	Meghasonlás az evangélium miatt
+205.	Az idők jele
+206.	Megbékélés útközben
+207.	A terméketlen fügefa
+208.	Jézus meggyógyítja a meggörnyedt asszonyt
+209.	A mustármag
+210.	A kovász
+211.	A szoros kapu
+212.	Jézus üzen Herodesnek
+213.	Jézus ítéletet mond Jeruzsálem felett
+214.	Jézus meggyógyít egy vizkórost szombaton
+215.	A főhelyek válogatása. Vendéglátás viszonzás nélkül
+216.	A nagy vacsora
+217.	Önmegtagadás és kereszthordozás
+218.	Az izetlenné vált só
+219.	Az elveszett juh
+220.	Az elveszett drahma
+221.	A tékozló fiú
+222.	A hamis sáfár
+223.	Hűség a kevésen
+224.	Isten és a mammon
+225.	A farizeusok ellen
+226.	A törvény érvényessége
+227.	A válás tilalma
+228.	A gazdag és Lázár
+229.	Botránkozás és botránkoztatás
+230.	A megbocsátás
+231.	A mustármagnyi hit
+232.	A szolga jutalma
+233.	Tíz leprás meggyógyítása
+234.	Isten országa eljövetele
+235.	Az Emberfia eljövetele
+236.	A hamis bíró
+237.	A farizeus és a vámszedő
+238.	Jézus további tartózkodása Galileában
+239.	Jézus titokban Jeruzsálembe megy
+240.	Jézus nyilvánosan tanít a templomban
+241.	Ellentétes vélemények Jézusról
+242.	Jézus és a házasságtörő asszony
+243.	Jézus a világ világossága
+244.	Jézus az Atyától jön, és az Atyához megy
+245.	Jézus megszabadít a bűntől
+246.	Ábrahám utódai és az ördög fiai
+247.	Jézus előbb volt, mint Ábrahám
+248.	A vakon született ember meggyógyítása szombaton
+249.	A jó pásztor
+250.	A vélemények újabb megoszlása
+251.	Úton Judeába
+252.	Kérdés a házassági elválásról
+253.	Jézus megáldja a gyermekeket
+254.	A gazdag ifjú
+255.	A gazdagság veszélye és a tanítványok jutalma
+256.	A szőlőmunkások
+257.	Jézus a templomszentelési ünnepen Jeruzsálemben
+258.	Jézus a Jordánnál
+259.	Lázár feltámasztása
+260.	A nagytanács elhatározza Jézus megölését
+261.	Jézus Efraimban
+262.	Jézus harmadszor szól haláláról és feltámadásáról
+263.	Zebedeus fiainak kérése
+264.	Vakok meggyógyítása (Bartimeus)
+265.	Zákeus
+266.	A minák
+267.	Jézus megkenetése Betániában
+268.	A nagytanács elhatározza Lázár megölését
+269.	Jézus bevonulása Jeruzsálembe
+270.	Jézus siratja Jeruzsálemet
+271.	Jézus megtisztítja a templomot
+272.	A fügefa elszáradása
+273.	Jézus megtisztítja a templomot
+274.	A főpapok és az írástudók elhatározzák Jézus megölését
+275.	A fügefa elszáradása
+276.	Kérdés Jézus hatalmáról
+277.	A két testvér példázata
+278.	A gonosz szőlőművesek
+279.	A királyi menyegző
+280.	Az adópénz
+281.	Kérdés a feltámadásról
+282.	A nagy parancsolat
+283.	Krisztus Dávidnak Fia és Ura
+284.	Jézus beszéde az írástudók és a farizeusok ellen
+285.	Jézus panasza Jeruzsálem ellen
+286.	Az özvegy asszony két fillérje
+287.	Jézus jövendölése a templomról
+288.	A nagy megpróbáltatás ideje
+289.	Jézus jövendölése az üldöztetésekről
+290.	Itélet Judea felett
+291.	Jézus figyelmeztet a hamis prófétákra
+292.	Az Emberfia eljövetele
+293.	Jézus visszajövetelének időpontja, példázat a fügefáról
+294.	Befejezés: intés éberségre (Márk szerint)
+295.	Befejezés: intés éberségre (Lukács szerint)
+296.	Példázat a vízözönről és intés éberségre
+297.	Az okos és a gonosz szolga
+298.	A tíz szűz
+299.	A talentumok
+300.	Az utolsó ítéletről
+301.	Jézus jeruzsálemi működésének jellemzése
+302.	A földbe esett búzaszem
+303.	A nép hite és hitetlensége
+304.	Aki hisz Jézusban, az Atyában hisz
+305.	A nép vezetőinek tanácskozása Jézus ellen
+306.	Jézus megkenetése Betániában
+307.	Júdás elárulja Jézust
+308.	Az utolsó vacsora
+309.	Jézus megmossa tanítványai lábát
+310.	Az áruló leleplezése
+311.	Az úrvacsora
+312.	Az áruló leleplezése
+313.	Ki a legnagyobb?
+314.	Az új parancsolat
+315.	Úton az Olajfák hegyére, Jézus megjövendöli Péter tagadását
+316.	A két kard
+317.	Jézus az út az Atyához
+318.	A másik Pártfogó igérete
+319.	„Békességet hagyok nektek”
+320.	Az igazi szőlőtő
+321.	Aki Krisztusban marad, megmarad a szeretetben
+322.	A tanítványok és a világ
+323.	A Pártfogó bizonyságtétele
+324.	Az üldöztetésekről
+325.	A Szentlélek elvezet a teljes igazságra
+326.	Jézus közeli visszatérését ígéri
+327.	Jézus az imádság meghallgatását ígéri
+328.	Jézus megjövendöli a tanítványok elszéledését
+329.	Jézus főpapi imádsága
+330.	A Gecsemáné kertben
+331.	Jézus elfogatása
+332.	Jézus a nagytanács előtt (Péter tagadása)
+333.	Péter megtagadja Jézust
+334.	Jézust átadják Pilátusnak
+335.	Júdás halála
+336.	Jézus Pilátus előtt
+337.	Jézus Heródes előtt
+338.	Pilátus Jézust ártatlannak jelenti ki
+339.	Jézus és Barabbás
+340.	Pilátus kiszolgáltatja Jézust
+341.	Jézus elítélése
+342.	Jézus megcsúfolása
+343.	Jézus útja a Golgotára
+344.	Jézus megfeszítése
+345.	A megfeszített gyalázása
+346.	A két lator
+347.	Jézus halála
+348.	Tanúk a kereszt körül
+349.	Jézus halála
+350.	Jézus temetése
+351.	A sír őrzése
+352.	Az üres sír
+353.	Jézus megjelenik az asszonyoknak
+354.	Az őrség megvesztegetése
+355.	Jézus megjelenik két tanítványnak az emmausi úton
+356.	Jézus megjelenik a tanítványoknak (Tamás távollétében)
+357.	Jézus megjelenik a tanítványoknak (Tamás jelenlétében)
+358.	Az apostolok kiküldése
+359.	Jézus megjelenik a tizenegy tanítványnak Galileában egy hegyen. Az apostolok kiküldése
+360.	Jézus megjelenik a tanítványoknak a Tibériás tengernél
+361.    Pál tudósítása Jézus megjelenéséről
+362.	Márk rövidebb befejezése
+363.	Márk hosszabb befejezése
+364.	Máté befejezése: az apostolok kiküldése
+365.	Lukács befejezése: Jézus utolsó szavai és mennybemenetele
+366.	Az első, János szerinti befejezés: az evangélium célja
+367.	A második, János szerinti befejezés: Jézus megjelenik a Tiberias tengernél. A nagy halfogás. Jézus kérdése Péterhez, Péter megbizatása. Jézus szava Péter és a szeretett tanítvány sorsáról
