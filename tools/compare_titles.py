@@ -35,7 +35,7 @@ def main():
                     key, value = split_part_title(part_title)
                     original_title = original_titles[en]['part_titles'][key]
                     if original_title != value:
-                        file.write(original_title +' <-> ' +  value + '\n')
+                        file.write(original_title + ' <-> ' +  value + '\n')
             with open(json_loaded["translation"] + '_diff_section_titles', 'w', encoding='utf-8') as file:
                 file.write('original_section_title <-> current_section_title\n')
                 for i in range(370):
@@ -44,7 +44,7 @@ def main():
                         original_key = str(i) + '.'
                         original_title = original_titles[en]['section_titles'][original_key]
                         if original_title != value:
-                            file.write(original_title +' <-> ' +  value + '\n')
+                            file.write(original_key  + ' ' + original_title + ' <-> ' + original_key  + ' ' + value + '\n')
 
     if json_files_found is False:
         print(f'No json files were found in folder={json_folder}')
