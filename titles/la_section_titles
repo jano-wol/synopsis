@@ -25,7 +25,7 @@
 25.	Purgatio templi
 26.	Ministerium in Jerusalem
 27.	Colloquium cum Nicodemo
-28.	Ministerium in ludaea
+28.	Ministerium in Iudaea
 29.	Testimonium Ioannis Baptistae
 30.	Iter in Galilaeam
 31.	Mulier Samaritana
@@ -48,7 +48,7 @@
 48.	Sanationes ad mare
 49.	Electio apostolorum
 50.	Occasio sermonis
-51.	Occasion of the Sermon
+51.	Beatitudines
 52.	Sal terrae
 53.	Lux mundi
 54.	Legis adimpletio
@@ -62,7 +62,7 @@
 62.	Oratio dominica
 63.	De ieiunio
 64.	De thesaurizando
-65.	Oculus Simplex
+65.	Oculus simplex
 66.	Duobus dominis servire
 67.	Ne solliciti sitis
 68.	Nolite iudicare
@@ -78,7 +78,7 @@
 78.	Beatitudines
 79.	Quattuor Vae
 80.	Dilectio inimicorum
-81.	Nolite judicare
+81.	Nolite iudicare
 82.	Ex fructibus cognoscetis
 83.	Domus super petram fundata
 84.	Leprosus
@@ -92,7 +92,7 @@
 92.	Sanatio paralytici
 93.	Matthaeus publicanus vocatur
 94.	Quaestio ieiunii
-95.	Haemorrhoissa et filia lairi
+95.	Haemorrhoissa et filia Iairi
 96.	Duo caeci
 97.	Daemoniacus mutus
 98.	Messis multa
@@ -116,11 +116,11 @@
 116.	Incredulitas suorum
 117.	In quo eiiciat daemonia
 118.	Peccatum in Spiritum Sanctum
-119.	Signum lonae
+119.	Signum Ionae
 120.	Immundus spiritus revertitur
 121.	Mater et fratres Jesu
 122.	Parabola seminantis
-123.	Ouare in parabolis loquatur
+123.	Quare in parabolis loquatur
 124.	Parabola seminantis explicatur
 125.	Qui habet aures audiendi, audiat
 126.	Ultro semen fructificat
@@ -178,7 +178,7 @@
 178.	Vae civitatibus Galilaeae
 179.	Qui vos audit, me audit
 180.	Septuaginta duo revertuntur
-181.	Patri confitetur, discipulos beatos and dicit
+181.	Patri confitetur, discipulos beatos dicit
 182.	Mandatum dilectionis
 183.	Samaritanus misericors
 184.	Maria et Martha
@@ -188,9 +188,9 @@
 188.	In quo eiiciat daemonia
 189.	Immundus spiritus revertitur
 190.	Beatus venter
-191.	Signum lonae
+191.	Signum Ionae
 192.	Parabola luminis
-193.	Oculus Simplex
+193.	Oculus simplex
 194.	Vae pharisaeis et legisperitis
 195.	Fermentum Pharisaeorum
 196.	Ne terreamini
@@ -241,14 +241,14 @@
 241.	Dissensio propter Jesum
 242.	Mulier adultera
 243.	Jesus lux mundi
-244.	Disputatio cum ludaeis
+244.	Disputatio cum Iudaeis
 245.	Veritas liberabit vos
 246.	Filii diaboli
 247.	Antequam Abraham fieret, ego sum
 248.	Caecus natus
 249.	Pastor bonus
 250.	Dissensio iterum facta
-251.	Iter in ludaeam
+251.	Iter in Iudaeam
 252.	De matrimonio et virginitate
 253.	Benedictio parvulorum
 254.	Adulescens dives
@@ -275,19 +275,19 @@
 275.	Ficulnea arefacta
 276.	De potestate Jesu et baptismo
 277.	Duo filii
-278.	Vinitores mall
+278.	Vinitores mali
 279.	Nuptiae regales
 280.	De censu Caesaris
 281.	De resurrectione mortuorum
 282.	Maximum et primum mandatum
-283.	Filius David ?
+283.	Filius David?
 284.	Vae Pharisaeis et scribis
 285.	Vae Jerusalem
 286.	Quadrans viduae
 287.	Templum evertetur
 288.	Signa adventus Jesu et consummationis saeculi
 289.	Persecutiones futurae
-290.	Excidium ludaeae
+290.	Excidium Iudaeae
 291.	Pseudochristi et pseudoprophetae
 292.	Filii hominis adventus
 293.	Tempus adventus: parabola fici
@@ -298,9 +298,9 @@
 298.	Decem virgines
 299.	Parabola talentorum
 300.	Iudicium ultimum
-301.	Conclusiones (secundum Ioannem)
+301.	Ministerium Jesu in Jerusalem
 302.	Jesus et Graeci
-303.	Incredulitas ludaeorum
+303.	Incredulitas Iudaeorum
 304.	Pater mihi mandatum dedit
 305.	Decretum mortis
 306.	Unctio Bethaniae
@@ -332,7 +332,7 @@
 332.	Coram synedrio (negatio Petri)
 333.	Negatio Petri
 334.	Pontio Pilato traditur
-335.	Interitus ludae
+335.	Interitus Iudae
 336.	A Pilato interrogatur
 337.	Coram Herode
 338.	Pilatus innocentem iudicat
