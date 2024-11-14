@@ -3,12 +3,22 @@ import sys
 from file_utils import iterate_jsons
 from translation import Translation
 
-forbidden_sub_texts = ['  ', '..', ' …', '… ']
+forbidden_sub_texts = {'  ', '..', ' …', '… ', ' .', ' ,'}
+exclusions = {'NV_mk5,41': {' .'}}
+
+
+def get_forbidden_sub_texts_ex(ref, t):
+    key = t.get_name() + '_' + str(ref.get_base_ref())
+    ex = exclusions.get(key, set())
+    return forbidden_sub_texts - ex
+
 
 def check_forbidden_sub_texts(t):
-    for text in t.iterate_on_all_texts():
-        assert not any(subtext in text for subtext in forbidden_sub_texts), f'text={text} contains forbidden sub text. Translation={t.get_name()}'
-
+    for ref, text in t.iterate_on_all_texts():
+        if any(subtext in text for subtext in forbidden_sub_texts):
+            forbidden_sub_texts_ex = get_forbidden_sub_texts_ex(ref, t)
+            assert not any(subtext in text for subtext in
+                           forbidden_sub_texts_ex), f'text={text} contains forbidden sub text. Translation={t.get_name()}'
 
 
 def main():
