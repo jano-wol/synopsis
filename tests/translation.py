@@ -120,6 +120,29 @@ class Translation:
             if box and not box.json['leading']:
                 yield box, ref
 
+    def iterate_on_all_biblical_text(self) -> Tuple[BibleRef, str]:
+        for box, box_ref in self.iterate_on_boxes():
+            for ref, t in box.iterate():
+                if t:
+                    yield ref, t
+
+
+    def iterate_on_section_titles(self) -> str:
+        for k, v in self.section_titles.items():
+            yield v
+
+    def iterate_on_part_titles(self) -> str:
+        for t in self.part_titles:
+            yield t
+
+    def iterate_on_all_texts(self) -> str:
+        for t in self.iterate_on_part_titles():
+            yield t
+        for t in self.iterate_on_section_titles():
+            yield t
+        for ref, t in self.iterate_on_all_biblical_text():
+            yield t
+
     def get_box(self, ref: BoxRef) -> Box:
         return Box(self.json['parts'][ref.part_idx]['sections'][ref.section_idx_loc][evangelists[ref.e]][ref.idx], ref)
 
