@@ -1,9 +1,9 @@
 name: CD
 
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
 jobs:
   build-and-deploy:
@@ -27,4 +27,3 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
           server-dir: /www/
-          secure: false
