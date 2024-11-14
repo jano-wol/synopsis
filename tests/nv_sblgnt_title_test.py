@@ -14,9 +14,9 @@ def main():
     nv = Translation(json_nv)
     sblgnt = Translation(json_sblgnt)
     for title_nv, title_sblgnt in zip(nv.iterate_on_part_titles(), sblgnt.iterate_on_part_titles()):
-        assert title_nv == title_sblgnt, f'el and la part title misalignment. title_nv={title_nv} title_sblgnt={title_sblgnt}'
+        assert title_nv == title_sblgnt, f'nv and sblgnt part title misalignment. title_nv={title_nv} title_sblgnt={title_sblgnt}'
     for title_nv, title_sblgnt in zip(nv.iterate_on_section_titles(), sblgnt.iterate_on_section_titles()):
-        assert title_nv == title_sblgnt, f'el and la section title misalignment. title_nv={title_nv} title_sblgnt={title_sblgnt}'
+        assert title_nv == title_sblgnt, f'nv and sblgnt section title misalignment. title_nv={title_nv} title_sblgnt={title_sblgnt}'
 
 
 if __name__ == '__main__':
