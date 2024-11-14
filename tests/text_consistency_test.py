@@ -8,6 +8,8 @@ exclusions = {'NV_mk5,41': {' .'}}
 
 
 def get_forbidden_sub_texts_ex(ref, t):
+    if ref is None:
+        return forbidden_sub_texts
     key = t.get_name() + '_' + str(ref.get_base_ref())
     ex = exclusions.get(key, set())
     return forbidden_sub_texts - ex
