@@ -12,5 +12,6 @@ python3 "$SCRIPT_FOLDER"/json_test.py "$TRANSLATION_FOLDER" "$BLANK_JSON" "$UPDA
 python3 "$SCRIPT_FOLDER"/box_test.py "$TRANSLATION_FOLDER"
 python3 "$SCRIPT_FOLDER"/redirect_test.py "$TRANSLATION_FOLDER" "$REDIRECT_FOLDER"
 python3 "$SCRIPT_FOLDER"/text_consistency_test.py "$TRANSLATION_FOLDER"
+python3 "$SCRIPT_FOLDER"/nv_sblgnt_title_test.py "$TRANSLATION_FOLDER"
 python3 "$SCRIPT_FOLDER"/title_test.py "$TRANSLATION_FOLDER"
 echo "All tests passed"
