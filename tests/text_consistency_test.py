@@ -3,7 +3,7 @@ import sys
 from file_utils import iterate_jsons
 from translation import Translation
 
-forbidden_sub_texts = {'  ', '..', ' …', '… ', ' .', ' ,'}
+forbidden_sub_texts = {'  ', '..', ' …', '… ', ' .', ' ,', ',,'}
 exclusions = {'NV_mk5,41': {' .'}}
 
 
