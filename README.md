@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="33" src="public/favicon.svg">
+</p>
+
 # Synopsis
 Website for the parallel Gospels of Matthew, Mark, Luke and John.
 
