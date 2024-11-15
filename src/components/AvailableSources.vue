@@ -13,7 +13,7 @@ export default {
 
 <template>
     <ul>
-        <li v-for="synopsis in synopsisStore.synopses">
+        <li v-for="synopsis in synopsisStore.synopses" :key="synopsis.translation">
             <a
             :href="`https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/${synopsis.translation.toLowerCase()}.json`">
             {{synopsis.translation}}
