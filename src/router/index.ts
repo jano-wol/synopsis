@@ -121,7 +121,7 @@ router.beforeEach((to, from, next) => {
   const requiresTranslation = to.matched.some((record) => {
     return record.path.includes(`/:translation${translationOptionsRegex}?`);
   });
-  let params = { ...to.params }
+  const params = { ...to.params }
   if (requiresLanguage)
   {
     params.language = useSynopsisStore().currentLanguage
