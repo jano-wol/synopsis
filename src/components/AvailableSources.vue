@@ -19,5 +19,10 @@ export default {
             {{synopsis.translation}}
             </a>
         </li>
+        <li>
+            <a
+                href="`https://raw.githubusercontent.com/anwolosz/synopsis/feature/s-122-5/resources/synopsis_part_titles.json`">Part titles of Synopsis Quattuor Evangeliorum
+            </a>
+        </li>
     </ul>
 </template>
