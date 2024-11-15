@@ -21,7 +21,7 @@ export default {
         </li>
         <li>
             <a
-                href="`https://raw.githubusercontent.com/anwolosz/synopsis/main/resources/synopsis_part_titles.json`">Part titles of Synopsis Quattuor Evangeliorum
+                href="https://raw.githubusercontent.com/anwolosz/synopsis/main/resources/synopsis_part_titles.json">Structural titles of Synopsis Quattuor Evangeliorum (de, en, la) and Szinopszis (hu)
             </a>
         </li>
     </ul>
