@@ -21,7 +21,7 @@ export default {
         </li>
         <li>
             <a
-                href="`https://raw.githubusercontent.com/anwolosz/synopsis/feature/s-122-5/resources/synopsis_part_titles.json`">Part titles of Synopsis Quattuor Evangeliorum
+                href="`https://raw.githubusercontent.com/anwolosz/synopsis/main/resources/synopsis_part_titles.json`">Part titles of Synopsis Quattuor Evangeliorum
             </a>
         </li>
     </ul>
