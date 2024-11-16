@@ -1,1 +1,2 @@
 npx prettier --write "src/assets/translations/*.json"
+npx prettier --write "resources/*.json"
