@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-    FTP_SERVER: ${{ secrets.FTP_SERVER }}
+      FTP_SERVER: ${{ secrets.FTP_SERVER }}
 
     steps:
       - name: Checkout repository
