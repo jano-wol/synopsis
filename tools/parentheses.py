@@ -1,7 +1,7 @@
 import os
 import sys
 
-from bible import BibleRef, evangelists
+from bible import BibleRef
 from file_utils import iterate_jsons
 from translation import Translation
 
@@ -22,6 +22,7 @@ def get_titles(t):
         yield text
     for text in t.iterate_on_section_titles():
         yield text
+
 
 def get_texts_exactly_once(t):
     curr = BibleRef.begin()
@@ -47,6 +48,16 @@ def test_title(l, r, t):
                 if counter == -1:
                     print(f'{name} {text} {counter} {l}{r} title!!!')
                     counter = 0
+    if counter != 0:
+        print(f'TITLE TEST ERROR! {name} {counter} {l}{r}')
+
+
+def dump_chapter(t, e, chapter):
+    curr = BibleRef(e, chapter, 1, 0)
+    while curr.e == e and curr.chapter == chapter and curr != BibleRef.end():
+        text = t.ref_to_text[curr]
+        print(text)
+        curr = curr.next()
 
 
 def check_parentheses(t):
@@ -58,23 +69,17 @@ def check_parentheses(t):
     for l, r in p:
         test_title(l, r, t)
         counter = 0
-        old_ref = BibleRef.end()
         for ref, text in get_texts_exactly_once(t):
-            if ref.verse == 1 and counter != 0:
-                counter = 0
-                print(f'{name} {evangelists[old_ref.e]}{old_ref.chapter} contains error.')
             for c in text:
                 if c == l:
                     counter += 1
                 if c == r:
                     counter -= 1
                     if counter == -1:
-                        print(f'{name} {text} {counter} {ref}')
+                        print(f'ERROR! {name} {text} {counter} {ref} {l}{r}')
                         counter = 0
-            old_ref = ref
         if counter != 0:
-                print(f'{name} {evangelists[old_ref.e]}{old_ref.chapter} contains error.')
-
+            print(f'ERROR! {name} {counter} {l}{r}')
 
 
 def main():
