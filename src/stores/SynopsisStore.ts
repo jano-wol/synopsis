@@ -146,25 +146,28 @@ export const useSynopsisStore = defineStore('synopsis', {
               }, 0);
             }
         },
-        async getDailyGospelSection(date: Date) : Promise<void> {
-            const dailyGospel = await fetchDailyGospel(date);
-            const dailyGospelCitation = parseCitation(dailyGospel.passage)
-            console.log(dailyGospelCitation)
-            
-            for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
-                const part: PartScheme = this.currentSynopsis.parts[i]
-                for (let j = 0; j < part.sections.length; j++) {
-                    const section: SectionScheme = part.sections[j]
-                    for (let l = 0; l < section[dailyGospelCitation.evangelist as keyof SectionScheme].length; l++) {
-                        const citation = section[dailyGospelCitation.evangelist as keyof SectionScheme][l] as CitationScheme
-                        if (citation?.leading) {
-                            for (let m = 0; m < citation.content.length; m++) {
-                                const content = citation.content[m]
-                                const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
-                                if (content.chapter === dailyGospelCitation.chapter && formattedVerse === dailyGospelCitation.verse) {
-                                    this.dailyGospelSection = section.id
-                                    this.dailyGospelEvangelist = dailyGospelCitation.evangelist
-                                return
+        async getDailyGospel(date: Date) : Promise<void> {
+            if (this.dailyGospelSection === null)
+            {
+                const dailyGospel = await fetchDailyGospel(date);
+                const dailyGospelCitation = parseCitation(dailyGospel.passage)
+                console.log(dailyGospelCitation)
+                
+                for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
+                    const part: PartScheme = this.currentSynopsis.parts[i]
+                    for (let j = 0; j < part.sections.length; j++) {
+                        const section: SectionScheme = part.sections[j]
+                        for (let l = 0; l < section[dailyGospelCitation.evangelist as keyof SectionScheme].length; l++) {
+                            const citation = section[dailyGospelCitation.evangelist as keyof SectionScheme][l] as CitationScheme
+                            if (citation?.leading) {
+                                for (let m = 0; m < citation.content.length; m++) {
+                                    const content = citation.content[m]
+                                    const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
+                                    if (content.chapter === dailyGospelCitation.chapter && formattedVerse === dailyGospelCitation.verse) {
+                                        this.dailyGospelSection = section.id
+                                        this.dailyGospelEvangelist = dailyGospelCitation.evangelist
+                                    return
+                                    }
                                 }
                             }
                         }
