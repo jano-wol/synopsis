@@ -27,8 +27,14 @@ export function parseCitation(citation: string) {
   if (match) {
     return {
       evangelist: match[1].toLowerCase(),
-      chapter: match[2],
-      verse: match[3],
+      start: {
+        chapter: match[2],
+        verse: match[3],
+      },
+      end: {
+        chapter: match[5] ? match[4] : match[2],
+        verse: match[5] || (match[4] || match[3]),
+      }
     };
   } else {
     throw new Error('Invalid reference format');
