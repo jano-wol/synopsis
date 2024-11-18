@@ -1,7 +1,7 @@
 {
   "heading": "Szinopszis",
   "subheading": "Máté, Márk, Lukács és János evangéliumának párhuzamos szövege",
-  "name": "Revideált új fordítás",
+  "name": "Revideált Új Fordítás",
   "translation": "RUF",
   "language": "hu",
   "evangelists": {
@@ -12,7 +12,7 @@
   },
   "parts": [
     {
-      "part_title": "I. BEVEZETÉS",
+      "part_title": "I. Bevezetés",
       "sections": [
         {
           "id": "1",
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "part_title": "II. ELŐTÖRTÉNET",
+      "part_title": "II. Előtörténet",
       "sections": [
         {
           "id": "2",
@@ -1365,7 +1365,7 @@
       ]
     },
     {
-      "part_title": "III. JÉZUS ÚTJÁNAK ELŐKÉSZÍTÉSE",
+      "part_title": "III. Jézus útjának előkészítése",
       "sections": [
         {
           "id": "13",
@@ -2230,7 +2230,7 @@
       ]
     },
     {
-      "part_title": "IV. JÉZUS NYILVÁNOS MŰKÖDÉSÉNEK KEZDETE (JÁNOS SZERINT)",
+      "part_title": "IV. Jézus nyilvános működésének kezdete (János szerint)",
       "sections": [
         {
           "id": "21",
@@ -2852,7 +2852,7 @@
       ]
     },
     {
-      "part_title": "V. JÉZUS GALILEÁBAN",
+      "part_title": "V. Jézus Galileában",
       "sections": [
         {
           "id": "30",
@@ -4850,7 +4850,7 @@
       ]
     },
     {
-      "part_title": "VI. A HEGYI BESZÉD (MÁTÉ SZERINT)",
+      "part_title": "VI. A hegyi beszéd (Máté szerint)",
       "sections": [
         {
           "id": "50",
@@ -6571,7 +6571,7 @@
       ]
     },
     {
-      "part_title": "VII. A MEZŐN MONDOTT BESZÉD (LUKÁCS SZERINT)",
+      "part_title": "VII. A mezőn mondott beszéd (Lukács szerint)",
       "sections": [
         {
           "id": "77",
@@ -7201,7 +7201,7 @@
       ]
     },
     {
-      "part_title": "VIII. JÉZUS TOVÁBBI MŰKÖDÉSE GALILEÁBAN",
+      "part_title": "VIII. Jézus további működése Galileában",
       "sections": [
         {
           "id": "84",
@@ -15554,7 +15554,7 @@
       ]
     },
     {
-      "part_title": "IX. A SZENVEDÉSEK ÚTJÁN",
+      "part_title": "IX. A szenvedések útján",
       "sections": [
         {
           "id": "157",
@@ -17038,7 +17038,7 @@
       ]
     },
     {
-      "part_title": "X. ÚTON JERUZSÁLEMBE (LUKÁCS SZERINT)",
+      "part_title": "X. Úton Jeruzsálembe (Lukács szerint)",
       "sections": [
         {
           "id": "174",
@@ -21578,7 +21578,7 @@
       ]
     },
     {
-      "part_title": "XI. JÉZUS A LOMBSÁTOR-ÜNNEPEN JERUZSÁLEMBEN (JÁNOS SZERINT)",
+      "part_title": "XI. Jézus Jeruzsálemben a lombsátrak ünnepén (János szerint)",
       "sections": [
         {
           "id": "238",
@@ -22713,7 +22713,7 @@
       ]
     },
     {
-      "part_title": "XII. JÉZUS MŰKÖDÉSE JÚDEÁBAN",
+      "part_title": "XII. Jézus működése Júdeában",
       "sections": [
         {
           "id": "251",
@@ -24820,7 +24820,7 @@
       ]
     },
     {
-      "part_title": "XIII. JÉZUS UTOLSÓ ÚTJA JERUZSÁLEMBE",
+      "part_title": "XIII. Jézus utolsó útja Jeruzsálembe",
       "sections": [
         {
           "id": "269",
@@ -26908,7 +26908,7 @@
       ]
     },
     {
-      "part_title": "XIV. A SZINOPTIKUS APOKALIPSZIS",
+      "part_title": "XIV. A szinoptikus apokalipszis",
       "sections": [
         {
           "id": "287",
@@ -27808,7 +27808,7 @@
       ]
     },
     {
-      "part_title": "XV. A PASSIÓ ELŐTTI IDŐ BEMUTATÁSÁNAK BEFEJEZÉSE",
+      "part_title": "XV. A passió előtti idő bemutatásának befejezése",
       "sections": [
         {
           "id": "296",
@@ -28690,7 +28690,7 @@
       ]
     },
     {
-      "part_title": "XVI. A SZENVEDÉSTÖRTÉNET",
+      "part_title": "XVI. A szenvedéstörténet",
       "sections": [
         {
           "id": "305",
@@ -33497,7 +33497,7 @@
       ]
     },
     {
-      "part_title": "XVII. A FELTÁMADOTT JÉZUS",
+      "part_title": "XVII. A feltámadott Jézus",
       "sections": [
         {
           "id": "352",
@@ -34164,7 +34164,7 @@
       ]
     },
     {
-      "part_title": "XVIII. AZ EVANGÉLIUMOK BEFEJEZÉSEI",
+      "part_title": "XVIII. Az evangéliumok befejezései",
       "sections": [
         {
           "id": "363",
