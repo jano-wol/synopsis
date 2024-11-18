@@ -1,4 +1,4 @@
-import type { DailyGospel } from "@/interfaces/dailyGospel";
+import type { DailyGospel } from "@/interfaces/dailyGospelInterface";
 
 
 export async function fetchDailyGospel(date: Date): Promise<DailyGospel> {
