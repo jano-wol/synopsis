@@ -25,7 +25,10 @@ export default {
     },
     mounted()
     {
-        this.synopsisStore.getDailyGospelSection(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSection)});
+        if (this.$route.name === 'section')
+        {
+            this.synopsisStore.getDailyGospelSection(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSection)});
+        }
     },
     components: {
         Citation,
