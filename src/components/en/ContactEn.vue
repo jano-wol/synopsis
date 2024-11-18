@@ -17,6 +17,6 @@
         <a href="https://github.com/anwolosz/synopsis" target="_blank">this</a> link.
     </p>
     <p>Currently, the aim is to integrate the different Gospel translations. The processed translations (in <code
-            class="text-dark">.json</code> format) can be found in the <router-link :to="{name: 'sources'}">Sources</router-link> page, under Available resources.
+            class="text-dark">.json</code> format) can be found in the <router-link :to="{name: 'sources'}">Sources</router-link> page, under Downloadable Materials.
     </p>
 </template>
