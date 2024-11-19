@@ -1,7 +1,7 @@
-import type { DailyGospel } from "@/interfaces/dailyGospelInterface";
+import type { DailyGospelScheme, QuoteScheme } from "@/interfaces/dailyGospelInterface";
 
 
-export async function fetchDailyGospel(date: Date): Promise<DailyGospel> {
+export async function fetchDailyGospel(date: Date): Promise<DailyGospelScheme> {
     try {
         const month = String(date.getMonth() + 1).padStart(2, '0');
         const day = String(date.getDate()).padStart(2, '0');
@@ -20,7 +20,7 @@ export async function fetchDailyGospel(date: Date): Promise<DailyGospel> {
     }
 }
 
-export function parseCitation(citation: string) {
+export function parseCitation(citation: string) : QuoteScheme {
   const regex = /^([A-Za-z]{2})\s(\d+),(\d+)(?:-(\d+)(?:,(\d+))?)?/;
   const match = citation.match(regex);
 

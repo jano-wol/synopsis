@@ -19,6 +19,7 @@ import synopsisSBLGNT from '@/assets/translations/sblgnt.json'
 import synopsisNV from '@/assets/translations/nv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
+import type { QuoteScheme } from '@/interfaces/dailyGospelInterface';
 
 
 export const useSynopsisStore = defineStore('synopsis', {
@@ -44,7 +45,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisNV as SynopsisScheme
             ],
             isLoading: false,
-            dailyGospel: null as any, //TODO: proper typing
+            dailyGospel: null as null | QuoteScheme,
             dailyGospelSections: [] as Array<string>,
         }
     },
@@ -150,7 +151,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             if (this.dailyGospel === null)
             {
                 const dailyGospel = await fetchDailyGospel(date);
-                const dailyGospelCitation = parseCitation(dailyGospel.passage) //TODO: proper typing
+                const dailyGospelCitation : QuoteScheme = parseCitation(dailyGospel.passage)
                 this.dailyGospel = dailyGospelCitation;
                 console.log(dailyGospelCitation)
                 
@@ -181,7 +182,6 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
         },
-                //TODO: proper typing
         //TODO: quote? what is citation, what is quote, what is verse?
         isQuoteInDailyGospel(chapter: string, verse: string){
             if (this.dailyGospel)
