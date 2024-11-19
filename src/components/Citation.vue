@@ -1,6 +1,6 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-import type { PartScheme, CitationScheme, SectionScheme, EvangelistsScheme } from '@/interfaces/synopsisInterface';
+import type { CitationScheme, SectionScheme, EvangelistsScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 import { Redirection } from "@/enums/Redirection"
 import toLeading from "@/assets/redirect/toLeading.json"
@@ -106,10 +106,11 @@ export default {
       </template>
 
     </div>
-    <div class="card-body" :class="{'bg-warning-subtle': synopsisStore.dailyGospelSection == sectionId && synopsisStore.dailyGospelEvangelist === evangelist}">
+    <!-- TODO: verse.verse not good -->
+    <div class="card-body">
       <p>
         <template v-for="verse in citation?.content" :key="verse.chapter+','+verse.verse">
-          {{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}
+          <span :class="{'bg-warning-subtle' : synopsisStore.isQuoteInDailyGospel(verse.chapter, verse.verse) }">{{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}</span>
         </template>
       </p>
     </div>

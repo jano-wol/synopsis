@@ -44,8 +44,8 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisNV as SynopsisScheme
             ],
             isLoading: false,
-            dailyGospelSection: null as null | string,
-            dailyGospelEvangelist: null as null | string,
+            dailyGospel: null as any, //TODO: proper typing
+            dailyGospelSections: [] as Array<string>,
         }
     },
     actions: {
@@ -147,10 +147,11 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
         },
         async getDailyGospel(date: Date) : Promise<void> {
-            if (this.dailyGospelSection === null)
+            if (this.dailyGospel === null)
             {
                 const dailyGospel = await fetchDailyGospel(date);
-                const dailyGospelCitation = parseCitation(dailyGospel.passage)
+                const dailyGospelCitation = parseCitation(dailyGospel.passage) //TODO: proper typing
+                this.dailyGospel = dailyGospelCitation;
                 console.log(dailyGospelCitation)
                 
                 for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
@@ -164,9 +165,14 @@ export const useSynopsisStore = defineStore('synopsis', {
                                     const content = citation.content[m]
                                     const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
                                     if (content.chapter === dailyGospelCitation.start.chapter && formattedVerse === dailyGospelCitation.start.verse) {
-                                        this.dailyGospelSection = section.id
-                                        this.dailyGospelEvangelist = dailyGospelCitation.evangelist
-                                    return
+                                        this.dailyGospelSections.push(section.id)
+                                        this.dailyGospel.evangelist = dailyGospelCitation.evangelist
+                                    }
+                                    else if (this.dailyGospelSections.length > 0) {
+                                        this.dailyGospelSections.push(section.id)
+                                    }
+                                    if (content.chapter === dailyGospelCitation.end.chapter && formattedVerse === dailyGospelCitation.end.verse) {
+                                        return
                                     }
                                 }
                             }
@@ -175,5 +181,32 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
             }
         },
+                //TODO: proper typing
+        //TODO: quote? what is citation, what is quote, what is verse?
+        isQuoteInDailyGospel(chapter: string, verse: string){
+            if (this.dailyGospel)
+            {                
+                const quoteChapter = parseInt(chapter, 10);
+                const quoteVerse = parseInt(verse.replace(/[^\d]/g, ""), 10);
+                const startChapter = parseInt(this.dailyGospel.start.chapter, 10);
+                const startVerse = parseInt(this.dailyGospel.start.verse, 10);
+                const endChapter = parseInt(this.dailyGospel.end.chapter, 10);
+                const endVerse = parseInt(this.dailyGospel.end.verse, 10);
+            
+                if (quoteChapter < startChapter || quoteChapter > endChapter) {
+                    return false;
+                }
+            
+                if (quoteChapter === startChapter && quoteVerse < startVerse) {
+                    return false;
+                }
+            
+                if (quoteChapter === endChapter && quoteVerse > endVerse) {
+                    return false;
+                }
+
+                return true
+            }
+        }
     }
 })

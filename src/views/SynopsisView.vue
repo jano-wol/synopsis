@@ -19,7 +19,7 @@ export default {
     Part, Loader
   },
   mounted() {
-    this.synopsisStore.getDailyGospel(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSection)});
+    this.synopsisStore.getDailyGospel(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
 
     if (this.isValidHash(this.hash)) {
       this.synopsisStore.isLoading = true
