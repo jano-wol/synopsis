@@ -6,6 +6,7 @@ import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
+import Sections from '@/components/Sections.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
@@ -65,6 +66,11 @@ const router = createRouter({
       component: IndexView
     },
     {
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/today`,
+      name: 'today',
+      component: Sections
+    },
+    {
       path: `/:language${languageOptionsRegex}?/sources`,
       name: 'sources',
       component: SourcesView
@@ -79,7 +85,8 @@ const router = createRouter({
       name: 'section',
       component: Section,
       props: true
-    }, {
+    },
+    {
       path: '/:param(.*)*',
       name: 'notFound',
       component: NotFoundView

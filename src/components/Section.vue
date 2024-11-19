@@ -11,6 +11,7 @@ export default {
             requested: true,
             default: "0"
         },
+        //TODO: remove unused props, language, translation
         language: {
             type: String
         },

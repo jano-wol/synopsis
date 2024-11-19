@@ -110,7 +110,7 @@ export default {
     <div class="card-body">
       <p>
         <template v-for="verse in citation?.content" :key="verse.chapter+','+verse.verse">
-          <span :class="{'bg-warning-subtle' : synopsisStore.isQuoteInDailyGospel(verse.chapter, verse.verse) }">{{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}</span>
+          <span :class="{'bg-warning-subtle' : synopsisStore.isQuoteInDailyGospel(evangelist, verse.chapter, verse.verse) }">{{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}</span>
         </template>
       </p>
     </div>

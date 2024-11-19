@@ -169,7 +169,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                                         this.dailyGospelSections.push(section.id)
                                         this.dailyGospel.evangelist = dailyGospelCitation.evangelist
                                     }
-                                    else if (this.dailyGospelSections.length > 0) {
+                                    else if (this.dailyGospelSections.length > 0 && !this.dailyGospelSections.includes(section.id) ) {
                                         this.dailyGospelSections.push(section.id)
                                     }
                                     if (content.chapter === dailyGospelCitation.end.chapter && formattedVerse === dailyGospelCitation.end.verse) {
@@ -183,8 +183,8 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
         },
         //TODO: quote? what is citation, what is quote, what is verse?
-        isQuoteInDailyGospel(chapter: string, verse: string){
-            if (this.dailyGospel)
+        isQuoteInDailyGospel(evangelist: string, chapter: string, verse: string){
+            if (this.dailyGospel && this.dailyGospel.evangelist === evangelist)
             {                
                 const quoteChapter = parseInt(chapter, 10);
                 const quoteVerse = parseInt(verse.replace(/[^\d]/g, ""), 10);

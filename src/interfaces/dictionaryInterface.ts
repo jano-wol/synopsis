@@ -10,6 +10,7 @@ interface MenuScheme {
     about: string, 
     sources: string, 
     contact: string,
+    dailyGospel: string,
     translations: string
 }
 
