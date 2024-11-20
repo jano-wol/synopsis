@@ -20,7 +20,7 @@
         </li>
         <li>
             Biblia,
-            Magyar Bibliatársulat újfordítású Bibliája (1990),
+            Magyar Bibliatársulat újfordítású Bibliája (2014),
             <a href="https://szentiras.hu/api">szentiras.hu/api</a>,
             2024.
         </li>
