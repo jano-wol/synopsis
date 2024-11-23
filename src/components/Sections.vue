@@ -11,7 +11,7 @@ export default {
     data() {
         return {
             synopsisStore: useSynopsisStore(),
-            gospelSections: null as null | QuoteScheme,
+            gospelSections: [] as Array<string>,
         }
     },
     mounted()

@@ -1,5 +1,4 @@
 <script lang="ts">
-// TODO: need enum in enum name? what about redirection? make it consistent
 import { ErrorCode } from "@/enums/ErrorCode";
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
