@@ -200,7 +200,7 @@ export const useSynopsisStore = defineStore('synopsis', {
 
         },
         //TODO: quote? what is citation, what is quote, what is verse?
-        isQuoteInDailyGospel(evangelist: string, chapter: string, verse: string, isDaily : boolean = true){
+        isQuoteInGospel(evangelist: string, chapter: string, verse: string, isDaily : boolean = true){
             let gospel = this.dailyGospel
             if (!isDaily) {
                 gospel = this.dateGospel

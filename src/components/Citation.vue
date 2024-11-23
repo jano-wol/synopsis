@@ -58,8 +58,8 @@ export default {
   computed: {
     spanClass() {
       return (evangelist: string, chapter:string, verse:string) => {
-        const isInGospel = this.synopsisStore.isQuoteInDailyGospel(evangelist, chapter, verse);
-        const isInGospelFalse = this.synopsisStore.isQuoteInDailyGospel(evangelist, chapter, verse, false);
+        const isInGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse);
+        const isInGospelFalse = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse, false);
 
         if (isInGospel && isInGospelFalse) {
           return 'bg-success-subtle';
