@@ -54,7 +54,24 @@ export default {
         || (evangelist === 'jn' && this.sectionId === '367')
       )
     }
-  }
+  },
+  computed: {
+    spanClass() {
+      return (evangelist: string, chapter:string, verse:string) => {
+        const isInGospel = this.synopsisStore.isQuoteInDailyGospel(evangelist, chapter, verse);
+        const isInGospelFalse = this.synopsisStore.isQuoteInDailyGospel(evangelist, chapter, verse, false);
+
+        if (isInGospel && isInGospelFalse) {
+          return 'bg-success-subtle';
+        } else if (isInGospel) {
+          return 'bg-warning-subtle';
+        } else if (isInGospelFalse) {
+          return 'bg-info-subtle';
+        }
+        return '';
+      };
+    },
+  },
 }
 </script>
 
@@ -110,11 +127,7 @@ export default {
     <div class="card-body">
       <p>
         <template v-for="verse in citation?.content" :key="verse.chapter+','+verse.verse">
-          <span :class="{
-            'bg-warning-subtle' : synopsisStore.isQuoteInDailyGospel(evangelist, verse.chapter, verse.verse),
-            'bg-info-subtle' : synopsisStore.isQuoteInDailyGospel(evangelist, verse.chapter, verse.verse, false)
-
-          }">{{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}</span>
+          <span :class="spanClass(evangelist, verse.chapter, verse.verse)">{{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}</span>
         </template>
       </p>
     </div>
