@@ -7,7 +7,7 @@ import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
-import Sections from '@/components/Sections.vue'
+import DailyGospelView from '@/components/DailyGospelView.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
@@ -69,7 +69,7 @@ const router = createRouter({
     {
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/today`,
       name: 'today',
-      component: Sections
+      component: DailyGospelView
     },
     {
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/:date`,

@@ -6,7 +6,6 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 import ErrorMessage from '@/components/ErrorMessage.vue'
 import Loader from '@/components/Loader.vue';
 
-//TODO: rename this compoenent and move it to vew dir
 export default {
     data() {
         return {
