@@ -5,7 +5,7 @@ import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
 import type { RouteLocationRaw } from 'vue-router';
 
-import { fetchDailyGospel, parseCitation } from '@/utils/dailyGospel';
+import { fetchDailyGospel, isValidDate, parseCitation } from '@/utils/dailyGospel';
 
 
 import synopsisKG from '@/assets/translations/kg.json'
@@ -51,7 +51,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             dailyGospelSections: [] as Array<string>,
             dateGospel: null as null | QuoteScheme,
             dateGospelSections: [] as Array<string>,
-            error: null as null | ErrorMessage,
+            error: null as null | ErrorMessageEnum,
         }
     },
     actions: {
@@ -152,9 +152,14 @@ export const useSynopsisStore = defineStore('synopsis', {
               }, 0);
             }
         },
-        async getGospel(date: Date, isDaily: boolean = true) : Promise<void> {
+        async getGospel(date: string, isDaily: boolean = true) : Promise<void> {
             if (this.dailyGospel && isDaily)
             {
+                return
+            }
+            if (!isValidDate(date))
+            {
+                this.error = ErrorMessageEnum.DATE
                 return
             }
 
@@ -172,7 +177,8 @@ export const useSynopsisStore = defineStore('synopsis', {
                 {
                     this.isLoading = true
                 }
-                let  dailyGospel = await fetchDailyGospel(date);
+                //TODO: rename to fetchGospel
+                let  dailyGospel = await fetchDailyGospel(new Date(date));
                 this.isLoading = false
                 let gospel =  parseCitation(dailyGospel.passage)
                 if (isDaily)

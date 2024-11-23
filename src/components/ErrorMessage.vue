@@ -15,7 +15,7 @@ export default {
             case ErrorMessageEnum.SERVER:
                 return 'The requested gospel is currently unavailable.';
             case ErrorMessageEnum.DATE:
-                return 'Date ERROR';
+                return `Invalid date (${this.$route.params.date}). Please use the format YYYY-MM-DD (e.g., ${new Date().toISOString().split('T')[0]}).`;
         }
         }
     }
@@ -24,8 +24,8 @@ export default {
 
 <template>
     <div class="container">
-        <h1 class="text-center" v-if="synopsisStore.error !== null">
+        <p class="text-center" v-if="synopsisStore.error !== null">
                 {{ getMessage(synopsisStore.error) }}
-        </h1>
+        </p>
     </div>
 </template>

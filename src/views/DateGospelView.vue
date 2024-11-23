@@ -16,7 +16,7 @@ export default {
     mounted()
     {
         this.gospelSections = this.synopsisStore.dateGospelSections
-        this.synopsisStore.getGospel(new Date(this.$route.params.date), false).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
+        this.synopsisStore.getGospel(this.$route.params.date as string, false).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
     },
     components: {
         Section, Loader, ErrorMessage

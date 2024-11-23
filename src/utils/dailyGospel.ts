@@ -43,18 +43,12 @@ export function parseCitation(citation: string) : QuoteScheme {
   }
 }
 
-function isValidDate(value : Date) {
-  const date = new Date(value);
+export function isValidDate(value : string) : boolean {
+  const regex = /^\d{4}-\d{2}-\d{2}$/;
 
-  // Check if the date is invalid
-  if (isNaN(date.getTime())) {
+  if (!regex.test(value)) {
       return false;
   }
 
-  // Extract components and validate
-  const year = date.getFullYear();
-  const month = date.getMonth(); // Note: 0-based, Jan = 0
-  const day = date.getDate();
-
-  return year > 0 && month >= 0 && month <= 11 && day > 0 && day <= 31;
+  return true;
 }

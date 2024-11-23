@@ -6,6 +6,7 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 import ErrorMessage from '@/components/ErrorMessage.vue'
 import Loader from '@/components/Loader.vue';
 
+//TODO: rename this compoenent and move it to vew dir
 export default {
     data() {
         return {
@@ -19,7 +20,7 @@ export default {
         //.renaming component sections to calendar or dailygospel etc
         //.think aobut keep it sections, and use it in /language/translation/:id too
         this.gospelSections = this.synopsisStore.dailyGospelSections
-        this.synopsisStore.getGospel(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
+        this.synopsisStore.getGospel(new Date().toISOString().split('T')[0]).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
     },
     components: {
         Section, Loader, ErrorMessage
