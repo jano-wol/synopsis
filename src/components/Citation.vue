@@ -81,7 +81,7 @@ export default {
       {{ synopsisStore.currentSynopsis.evangelists[evangelist as keyof EvangelistsScheme] }} {{
     synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse,
       citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
-      <template v-if="!$route.params.id">
+      <template v-if="$route.name === 'synopsis'">
         <button v-if="!citation.leading"
           @click="redirectToCitation(redirection.TO_LEADING,
                     evangelist +

@@ -32,7 +32,5 @@ export default {
 <template>
     <Loader />
     <ErrorMessage />
-    <!-- TODO: prepare if server is not answering, error handling etc -->
-     <!-- TODO: Section out of context doesnt have function buttons, here they does have  -->
     <Section v-for="id in gospelSections" :id="id" />
 </template>
