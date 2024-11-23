@@ -47,6 +47,8 @@ export const useSynopsisStore = defineStore('synopsis', {
             isLoading: false,
             dailyGospel: null as null | QuoteScheme,
             dailyGospelSections: [] as Array<string>,
+            dateGospel: null as null | QuoteScheme,
+            dateGospelSections: [] as Array<string>,
         }
     },
     actions: {
@@ -147,51 +149,71 @@ export const useSynopsisStore = defineStore('synopsis', {
               }, 0);
             }
         },
-        async getDailyGospel(date: Date) : Promise<void> {
-            if (this.dailyGospel === null)
+        async getGospel(date: Date, isDaily: boolean = true) : Promise<void> {
+            if (this.dailyGospel && isDaily)
             {
-                const dailyGospel = await fetchDailyGospel(date);
-                const dailyGospelCitation : QuoteScheme = parseCitation(dailyGospel.passage)
-                this.dailyGospel = dailyGospelCitation;
-                console.log(dailyGospelCitation)
-                
-                for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
-                    const part: PartScheme = this.currentSynopsis.parts[i]
-                    for (let j = 0; j < part.sections.length; j++) {
-                        const section: SectionScheme = part.sections[j]
-                        for (let l = 0; l < section[dailyGospelCitation.evangelist as keyof SectionScheme].length; l++) {
-                            const citation = section[dailyGospelCitation.evangelist as keyof SectionScheme][l] as CitationScheme
-                            if (citation?.leading) {
-                                for (let m = 0; m < citation.content.length; m++) {
-                                    const content = citation.content[m]
-                                    const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
-                                    if (content.chapter === dailyGospelCitation.start.chapter && formattedVerse === dailyGospelCitation.start.verse) {
-                                        this.dailyGospelSections.push(section.id)
-                                        this.dailyGospel.evangelist = dailyGospelCitation.evangelist
-                                    }
-                                    else if (this.dailyGospelSections.length > 0 && !this.dailyGospelSections.includes(section.id) ) {
-                                        this.dailyGospelSections.push(section.id)
-                                    }
-                                    if (content.chapter === dailyGospelCitation.end.chapter && formattedVerse === dailyGospelCitation.end.verse) {
-                                        return
-                                    }
+                return
+            }
+
+            let gospelSections = this.dailyGospelSections
+            if (!isDaily)
+            {
+                gospelSections = this.dateGospelSections
+            }
+
+            const dailyGospel = await fetchDailyGospel(date);
+            let gospel =  parseCitation(dailyGospel.passage)
+            if (isDaily)
+            {
+                this.dailyGospel = gospel
+            }
+            else {
+                this.dateGospel = gospel
+            }
+            console.log(this.dailyGospel)
+            console.log(this.dateGospel)
+            
+            for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
+                const part: PartScheme = this.currentSynopsis.parts[i]
+                for (let j = 0; j < part.sections.length; j++) {
+                    const section: SectionScheme = part.sections[j]
+                    for (let l = 0; l < section[gospel.evangelist as keyof SectionScheme].length; l++) {
+                        const citation = section[gospel.evangelist as keyof SectionScheme][l] as CitationScheme
+                        if (citation?.leading) {
+                            for (let m = 0; m < citation.content.length; m++) {
+                                const content = citation.content[m]
+                                const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
+                                if (content.chapter === gospel.start.chapter && formattedVerse === gospel.start.verse) {
+                                    gospelSections.push(section.id)
+                                }
+                                else if (gospelSections.length > 0 && !gospelSections.includes(section.id) ) {
+                                    gospelSections.push(section.id)
+                                }
+                                if (content.chapter === gospel.end.chapter && formattedVerse === gospel.end.verse) {
+                                    return
                                 }
                             }
                         }
                     }
                 }
             }
+
         },
         //TODO: quote? what is citation, what is quote, what is verse?
-        isQuoteInDailyGospel(evangelist: string, chapter: string, verse: string){
-            if (this.dailyGospel && this.dailyGospel.evangelist === evangelist)
+        isQuoteInDailyGospel(evangelist: string, chapter: string, verse: string, isDaily : boolean = true){
+            let gospel = this.dailyGospel
+            if (!isDaily) {
+                gospel = this.dateGospel
+            }
+            console.log("!!!" + gospel)
+            if (gospel && gospel.evangelist === evangelist)
             {                
                 const quoteChapter = parseInt(chapter, 10);
                 const quoteVerse = parseInt(verse.replace(/[^\d]/g, ""), 10);
-                const startChapter = parseInt(this.dailyGospel.start.chapter, 10);
-                const startVerse = parseInt(this.dailyGospel.start.verse, 10);
-                const endChapter = parseInt(this.dailyGospel.end.chapter, 10);
-                const endVerse = parseInt(this.dailyGospel.end.verse, 10);
+                const startChapter = parseInt(gospel.start.chapter, 10);
+                const startVerse = parseInt(gospel.start.verse, 10);
+                const endChapter = parseInt(gospel.end.chapter, 10);
+                const endVerse = parseInt(gospel.end.verse, 10);
             
                 if (quoteChapter < startChapter || quoteChapter > endChapter) {
                     return false;

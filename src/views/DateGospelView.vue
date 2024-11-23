@@ -13,20 +13,8 @@ export default {
     },
     mounted()
     {
-        //TODO: think about:
-        //.renaming component sections to calendar or dailygospel etc
-        //.think aobut keep it sections, and use it in /language/translation/:id too
-        if (this.$route.name === 'today')
-        {
-            this.gospelSections = this.synopsisStore.dailyGospelSections
-            this.synopsisStore.getGospel(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
-        }
-        if (this.$route.name === 'calendar')
-        {
-            this.gospelSections = this.synopsisStore.dateGospelSections
-            this.synopsisStore.getGospel(new Date(this.$route.params.date), false).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
-
-        }
+        this.gospelSections = this.synopsisStore.dateGospelSections
+        this.synopsisStore.getGospel(new Date(this.$route.params.date), false).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
     },
     components: {
         Section

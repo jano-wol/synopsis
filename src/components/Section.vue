@@ -28,7 +28,7 @@ export default {
     {
         if (this.$route.name === 'section')
         {
-            this.synopsisStore.getDailyGospel(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
+            this.synopsisStore.getGospel(new Date()).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
         }
     },
     components: {

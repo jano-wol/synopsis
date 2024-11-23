@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import SynopsisView from '@/views/SynopsisView.vue'
 import IndexView from '@/views/IndexView.vue'
+import DateGospelView from '@/views/DateGospelView.vue'
 import SourcesView from '@/views/SourcesView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
@@ -69,6 +70,11 @@ const router = createRouter({
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/today`,
       name: 'today',
       component: Sections
+    },
+    {
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/:date`,
+      name: 'calendar',
+      component: DateGospelView
     },
     {
       path: `/:language${languageOptionsRegex}?/sources`,
