@@ -15,9 +15,6 @@ export default {
     },
     mounted()
     {
-        //TODO: think about:
-        //.renaming component sections to calendar or dailygospel etc
-        //.think aobut keep it sections, and use it in /language/translation/:id too
         this.gospelSections = this.synopsisStore.dailyGospelSections
         this.synopsisStore.getGospel(new Date().toISOString().split('T')[0]).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
     },

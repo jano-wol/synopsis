@@ -30,7 +30,7 @@ export default {
 
 
 <template>
-    // v-if won't work properly if it will be possible to change date on the 'calendar' route 
+    <!-- v-if won't work properly if it will be possible to change date on the 'calendar' route  -->
     <Loader v-if="synopsisStore.dateGospel === null"/>
     <ErrorMessage />
     <Section v-for="id in gospelSections" :id="id" />

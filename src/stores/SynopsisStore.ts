@@ -5,7 +5,7 @@ import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
 import type { RouteLocationRaw } from 'vue-router';
 
-import { fetchDailyGospel, isValidDate, parseCitation } from '@/utils/dailyGospel';
+import { fetchGospel, isValidDate, parseCitation } from '@/utils/dailyGospel';
 
 
 import synopsisKG from '@/assets/translations/kg.json'
@@ -177,7 +177,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                     this.isLoading = true
                 }
                 //TODO: rename to fetchGospel
-                let  dailyGospel = await fetchDailyGospel(new Date(date));
+                let  dailyGospel = await fetchGospel(new Date(date));
                 this.isLoading = false
                 let gospel =  parseCitation(dailyGospel.passage)
                 if (isDaily)

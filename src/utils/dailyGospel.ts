@@ -1,7 +1,7 @@
 import type { DailyGospelScheme, QuoteScheme } from "@/interfaces/dailyGospelInterface";
 
 
-export async function fetchDailyGospel(date: Date): Promise<DailyGospelScheme> {
+export async function fetchGospel(date: Date): Promise<DailyGospelScheme> {
     try {
       console.log(date.getMonth())
         const month = String(date.getMonth() + 1).padStart(2, '0');
