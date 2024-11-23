@@ -1,6 +1,6 @@
 <script lang="ts">
 // TODO: need enum in enum name? what about redirection? make it consistent
-import { ErrorMessageEnum } from "@/enums/ErrorMessageEnum";
+import { ErrorCode } from "@/enums/ErrorCode";
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 export default {
@@ -10,11 +10,11 @@ export default {
         }
     },
     methods: {
-        getMessage(error : ErrorMessageEnum) {
+        getMessage(error : ErrorCode) {
         switch (error) {
-            case ErrorMessageEnum.SERVER:
+            case ErrorCode.SERVER:
                 return this.synopsisStore.currentDictionary.error.server;
-            case ErrorMessageEnum.DATE:
+            case ErrorCode.DATE:
                 return this.synopsisStore.currentDictionary.error.date;
         }
         }

@@ -20,8 +20,7 @@ import synopsisNV from '@/assets/translations/nv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
 import type { QuoteScheme } from '@/interfaces/dailyGospelInterface';
-import { errorMessages } from 'vue/compiler-sfc';
-import { ErrorMessageEnum } from '@/enums/ErrorMessageEnum';
+import { ErrorCode } from '@/enums/ErrorCode';
 
 
 export const useSynopsisStore = defineStore('synopsis', {
@@ -51,7 +50,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             dailyGospelSections: [] as Array<string>,
             dateGospel: null as null | QuoteScheme,
             dateGospelSections: [] as Array<string>,
-            error: null as null | ErrorMessageEnum,
+            error: null as null | ErrorCode,
         }
     },
     actions: {
@@ -159,7 +158,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
             if (!isValidDate(date))
             {
-                this.error = ErrorMessageEnum.DATE
+                this.error = ErrorCode.DATE
                 return
             }
 
@@ -218,7 +217,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
             catch (error) {
                 this.isLoading = false
-                this.error = ErrorMessageEnum.SERVER
+                this.error = ErrorCode.SERVER
             }
         },
         //TODO: quote? what is citation, what is quote, what is verse?
