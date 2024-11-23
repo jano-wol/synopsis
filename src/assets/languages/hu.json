@@ -19,5 +19,9 @@
     },
     "notFound": {
         "notFound": "Az oldal nem található"
+    },
+    "error": {
+        "server": "A kért evangélium jelenleg nem elérhető.",
+        "date": "Érvénytelen dátum. Kérjük, használja az YYYY-MM-DD formátumot."
     }
 }
