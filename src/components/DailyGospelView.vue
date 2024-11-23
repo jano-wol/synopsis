@@ -30,7 +30,7 @@ export default {
 
 
 <template>
-    <Loader />
+    <Loader v-if="synopsisStore.dailyGospel === null"/>
     <ErrorMessage />
     <Section v-for="id in gospelSections" :id="id" />
 </template>

@@ -6,11 +6,14 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 import ErrorMessage from '@/components/ErrorMessage.vue'
 import Loader from '@/components/Loader.vue'
 
+//TODO: very similar to dailygosepl component. its needed to be separated a separataed because of realoading.
+// when visiting on 'calendar' first then 'today', it should be rerendered. acceptable, but think about a better option
+// also in the future it could have unique functions (eg calendar for date selection, next day, last day etc)
 export default {
     data() {
         return {
             synopsisStore: useSynopsisStore(),
-            gospelSections: null as null | QuoteScheme,
+            gospelSections: [] as Array<string>,
         }
     },
     mounted()
@@ -27,9 +30,8 @@ export default {
 
 
 <template>
-    <Loader />
+    // v-if won't work properly if it will be possible to change date on the 'calendar' route 
+    <Loader v-if="synopsisStore.dateGospel === null"/>
     <ErrorMessage />
-    <!-- TODO: prepare if server is not answering, error handling etc -->
-     <!-- TODO: Section out of context doesnt have function buttons, here they does have  -->
     <Section v-for="id in gospelSections" :id="id" />
 </template>

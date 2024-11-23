@@ -125,6 +125,7 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
+  //TODO: not good, if change translation when error is shown error disappears
   useSynopsisStore().error = null
 
   useSynopsisStore().setupLanguage(to.params.language)

@@ -172,7 +172,7 @@ export const useSynopsisStore = defineStore('synopsis', {
 
             // TODO: reduce try block length            
             try{
-                if (router.currentRoute.value.name === "today" || router.currentRoute.value.name === "calendar")
+                if ((router.currentRoute.value.name === "today") || router.currentRoute.value.name === "calendar")
                 {
                     this.isLoading = true
                 }
