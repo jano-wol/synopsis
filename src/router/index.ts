@@ -125,6 +125,8 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
+  useSynopsisStore().error = null
+
   useSynopsisStore().setupLanguage(to.params.language)
   useSynopsisStore().setupTranslation(to.params.translation, options)
   

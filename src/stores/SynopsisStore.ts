@@ -20,6 +20,8 @@ import synopsisNV from '@/assets/translations/nv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
 import type { QuoteScheme } from '@/interfaces/dailyGospelInterface';
+import { errorMessages } from 'vue/compiler-sfc';
+import { ErrorMessageEnum } from '@/enums/ErrorMessageEnum';
 
 
 export const useSynopsisStore = defineStore('synopsis', {
@@ -49,6 +51,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             dailyGospelSections: [] as Array<string>,
             dateGospel: null as null | QuoteScheme,
             dateGospelSections: [] as Array<string>,
+            error: null as null | ErrorMessage,
         }
     },
     actions: {
@@ -155,49 +158,62 @@ export const useSynopsisStore = defineStore('synopsis', {
                 return
             }
 
+
+
             let gospelSections = this.dailyGospelSections
             if (!isDaily)
             {
                 gospelSections = this.dateGospelSections
             }
 
-            const dailyGospel = await fetchDailyGospel(date);
-            let gospel =  parseCitation(dailyGospel.passage)
-            if (isDaily)
-            {
-                this.dailyGospel = gospel
-            }
-            else {
-                this.dateGospel = gospel
-            }
-            console.log(this.dailyGospel)
-            console.log(this.dateGospel)
-            
-            for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
-                const part: PartScheme = this.currentSynopsis.parts[i]
-                for (let j = 0; j < part.sections.length; j++) {
-                    const section: SectionScheme = part.sections[j]
-                    for (let l = 0; l < section[gospel.evangelist as keyof SectionScheme].length; l++) {
-                        const citation = section[gospel.evangelist as keyof SectionScheme][l] as CitationScheme
-                        if (citation?.leading) {
-                            for (let m = 0; m < citation.content.length; m++) {
-                                const content = citation.content[m]
-                                const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
-                                if (content.chapter === gospel.start.chapter && formattedVerse === gospel.start.verse) {
-                                    gospelSections.push(section.id)
-                                }
-                                else if (gospelSections.length > 0 && !gospelSections.includes(section.id) ) {
-                                    gospelSections.push(section.id)
-                                }
-                                if (content.chapter === gospel.end.chapter && formattedVerse === gospel.end.verse) {
-                                    return
+            // TODO: reduce try block length            
+            try{
+                if (router.currentRoute.value.name === "today" || router.currentRoute.value.name === "calendar")
+                {
+                    this.isLoading = true
+                }
+                let  dailyGospel = await fetchDailyGospel(date);
+                this.isLoading = false
+                let gospel =  parseCitation(dailyGospel.passage)
+                if (isDaily)
+                {
+                    this.dailyGospel = gospel
+                }
+                else {
+                    this.dateGospel = gospel
+                }
+                console.log(this.dailyGospel)
+                console.log(this.dateGospel)
+                
+                for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
+                    const part: PartScheme = this.currentSynopsis.parts[i]
+                    for (let j = 0; j < part.sections.length; j++) {
+                        const section: SectionScheme = part.sections[j]
+                        for (let l = 0; l < section[gospel.evangelist as keyof SectionScheme].length; l++) {
+                            const citation = section[gospel.evangelist as keyof SectionScheme][l] as CitationScheme
+                            if (citation?.leading) {
+                                for (let m = 0; m < citation.content.length; m++) {
+                                    const content = citation.content[m]
+                                    const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
+                                    if (content.chapter === gospel.start.chapter && formattedVerse === gospel.start.verse) {
+                                        gospelSections.push(section.id)
+                                    }
+                                    else if (gospelSections.length > 0 && !gospelSections.includes(section.id) ) {
+                                        gospelSections.push(section.id)
+                                    }
+                                    if (content.chapter === gospel.end.chapter && formattedVerse === gospel.end.verse) {
+                                        return
+                                    }
                                 }
                             }
                         }
                     }
                 }
             }
-
+            catch (error) {
+                this.isLoading = false
+                this.error = ErrorMessageEnum.SERVER
+            }
         },
         //TODO: quote? what is citation, what is quote, what is verse?
         isQuoteInGospel(evangelist: string, chapter: string, verse: string, isDaily : boolean = true){
