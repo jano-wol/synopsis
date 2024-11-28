@@ -109,15 +109,11 @@ export const useSynopsisStore = defineStore('synopsis', {
                     const section = part.sections[j][evangelist as keyof SectionScheme] as CitationScheme[]
                     for (let k = 0; k < section.length; k++)
                     {
-                        // console.log(section[k])
                         if (section[k]?.leading)
                         {
                             const content = section[k].content;
-                            // console.log(content)
                             for (let l = 0; l < content.length; l++)
                             {
-                                
-                                 console.log(verse)
                                  // TODO: simple Lk 9,43 not working (in interval it's working properly)
                                 if (
                                     content[l].chapter == chapter  
@@ -125,8 +121,6 @@ export const useSynopsisStore = defineStore('synopsis', {
                                     || content[l].verse == verse + 'a'
                                     || content[l].verse == verse + 'b')
                                 ) {
-                                    console.log("YY")
-                                    console.log("AAAA: " + content[l].verse)
                                     return content[l].verse
                                 }
                             }
@@ -134,9 +128,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                     }
                 }
             }
-            console.log("ZZ")
             const match = verse.match(/^\d+/); 
-            console.log("BBBB: " + ( match ? match[0] : verse))
             return match ? match[0] : verse
         },
         setupLanguage(language: string | string[]) {
@@ -217,10 +209,8 @@ export const useSynopsisStore = defineStore('synopsis', {
                 let  dailyGospel = await fetchGospel(new Date(date));
                 this.isLoading = false
                 let gospel =  parseCitation(dailyGospel.passage)
-                console.log(gospel)
                 gospel.start.verse = this.formatVerse(gospel.evangelist, gospel.start.chapter, gospel.start.verse)
                 gospel.end.verse = this.formatVerse(gospel.evangelist, gospel.end.chapter, gospel.end.verse)
-                console.log(gospel)
                 if (isDaily)
                 {
                     this.dailyGospel = gospel
@@ -228,8 +218,6 @@ export const useSynopsisStore = defineStore('synopsis', {
                 else {
                     this.dateGospel = gospel
                 }
-                // console.log(this.dailyGospel)
-                // console.log(this.dateGospel)
                 
                 for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
                     const part: PartScheme = this.currentSynopsis.parts[i]
@@ -262,13 +250,10 @@ export const useSynopsisStore = defineStore('synopsis', {
         },
         //TODO: quote? what is citation, what is quote, what is verse?
         isQuoteInGospel(evangelist: string, chapter: string, verse: string, isDaily : boolean = true){
-            // console.log("ASD")   
             let gospel = this.dailyGospel
             if (!isDaily) {
                 gospel = this.dateGospel
             }
-            // console.log("HELLO")
-            // console.log(gospel)
             if (gospel && gospel.evangelist === evangelist)
             {       
                 const parseVerse = (verse: string) => {
@@ -294,9 +279,6 @@ export const useSynopsisStore = defineStore('synopsis', {
                     return false;
                 }
                 
-                
-                // console.log(quoteChapter, quoteVerse, startChapter, startVerse)  
-            
                 if (quoteChapter === startChapter && compareVerses(quoteVerse, startVerse) < 0) {
                     return false;
                 }

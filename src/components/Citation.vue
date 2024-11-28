@@ -58,7 +58,6 @@ export default {
   computed: {
     spanClass() {
       return (evangelist: string, chapter:string, verse:string) => {
-        // console.log("ABCD")
         const isInDailyGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse);
         const isInDateGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse, false);
 
