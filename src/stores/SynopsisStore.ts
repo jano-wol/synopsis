@@ -240,14 +240,13 @@ export const useSynopsisStore = defineStore('synopsis', {
                             if (citation?.leading) {
                                 for (let m = 0; m < citation.content.length; m++) {
                                     const content = citation.content[m]
-                                    const formattedVerse = content.verse.slice(-1) === "a" || content.verse.slice(-1) === "b" ? content.verse.slice(0, -1) : content.verse
-                                    if (content.chapter === gospel.start.chapter && formattedVerse === gospel.start.verse) {
+                                    if (content.chapter === gospel.start.chapter && content.verse === gospel.start.verse) {
                                         gospelSections.push(section.id)
                                     }
                                     else if (gospelSections.length > 0 && !gospelSections.includes(section.id) ) {
                                         gospelSections.push(section.id)
                                     }
-                                    if (content.chapter === gospel.end.chapter && formattedVerse === gospel.end.verse) {
+                                    if (content.chapter === gospel.end.chapter && content.verse === gospel.end.verse) {
                                         return
                                     }
                                 }
