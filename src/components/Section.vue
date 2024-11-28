@@ -10,13 +10,6 @@ export default {
             type: String,
             requested: true,
             default: "0"
-        },
-        //TODO: remove unused props, language, translation
-        language: {
-            type: String
-        },
-        translation: {
-            type: String
         }
     },
     data() {
