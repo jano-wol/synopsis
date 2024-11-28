@@ -1,6 +1,6 @@
 import type { DailyGospelScheme, QuoteScheme } from "@/interfaces/dailyGospelInterface";
 
-
+//TODO: rename this util to gospel or smthg
 export async function fetchGospel(date: Date): Promise<DailyGospelScheme> {
     try {
       console.log(date.getMonth())
@@ -23,10 +23,14 @@ export async function fetchGospel(date: Date): Promise<DailyGospelScheme> {
 }
 
 export function parseCitation(citation: string) : QuoteScheme {
-  const regex = /^([A-Za-z]{2})\s(\d+),(\d+)(?:-(\d+)(?:,(\d+))?)?/;
+  console.log(citation)
+  // const regex = /^([A-Za-z]{2})\s(\d+),(\d+)(?:-(\d+)(?:,(\d+))?)?/;
+
+  const regex = /^([A-Za-z]{2})\s(\d+),(\d+[ab]?)(?:-(\d+[ab]?)(?:,(\d+[ab]?))?)?/;
   const match = citation.match(regex);
 
   if (match) {
+    console.log(match[1], match[2], match[3], match[4], match[5])
     return {
       evangelist: match[1].toLowerCase(),
       start: {

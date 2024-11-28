@@ -102,6 +102,43 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
             return this.currentSynopsis.parts[0].sections[0]
         },
+        formatVerse(evangelist: string, chapter: string, verse: string): string {
+            for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
+                const part = this.currentSynopsis.parts[i]
+                for (let j = 0; j < part.sections.length; j++) {
+                    const section = part.sections[j][evangelist as keyof SectionScheme]
+                    for (let k = 0; k < section.length; k++)
+                    {
+                        // console.log(section[k])
+                        if (section[k]?.leading)
+                        {
+                            const content = section[k].content;
+                            // console.log(content)
+                            for (let l = 0; l < content.length; l++)
+                            {
+                                
+                                 console.log(verse)
+                                 // TODO: simple Lk 9,43 not working (in interval it's working properly)
+                                if (
+                                    content[l].chapter == chapter  
+                                    && (content[l].verse == verse
+                                    || content[l].verse == verse + 'a'
+                                    || content[l].verse == verse + 'b')
+                                ) {
+                                    console.log("YY")
+                                    console.log("AAAA: " + content[l].verse)
+                                    return content[l].verse
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            console.log("ZZ")
+            const match = verse.match(/^\d+/); 
+            console.log("BBBB: " + ( match ? match[0] : verse))
+            return match ? match[0] : verse
+        },
         setupLanguage(language: string | string[]) {
             for (let synopsisIndex = 0; synopsisIndex < this.synopses.length; synopsisIndex++) {
                 if (language === this.synopses[synopsisIndex].language) {
@@ -180,6 +217,10 @@ export const useSynopsisStore = defineStore('synopsis', {
                 let  dailyGospel = await fetchGospel(new Date(date));
                 this.isLoading = false
                 let gospel =  parseCitation(dailyGospel.passage)
+                console.log(gospel)
+                gospel.start.verse = this.formatVerse(gospel.evangelist, gospel.start.chapter, gospel.start.verse)
+                gospel.end.verse = this.formatVerse(gospel.evangelist, gospel.end.chapter, gospel.end.verse)
+                console.log(gospel)
                 if (isDaily)
                 {
                     this.dailyGospel = gospel
@@ -187,8 +228,8 @@ export const useSynopsisStore = defineStore('synopsis', {
                 else {
                     this.dateGospel = gospel
                 }
-                console.log(this.dailyGospel)
-                console.log(this.dateGospel)
+                // console.log(this.dailyGospel)
+                // console.log(this.dateGospel)
                 
                 for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
                     const part: PartScheme = this.currentSynopsis.parts[i]
@@ -222,33 +263,50 @@ export const useSynopsisStore = defineStore('synopsis', {
         },
         //TODO: quote? what is citation, what is quote, what is verse?
         isQuoteInGospel(evangelist: string, chapter: string, verse: string, isDaily : boolean = true){
+            // console.log("ASD")   
             let gospel = this.dailyGospel
             if (!isDaily) {
                 gospel = this.dateGospel
             }
-            console.log("!!!" + gospel)
+            // console.log("HELLO")
+            // console.log(gospel)
             if (gospel && gospel.evangelist === evangelist)
-            {                
-                const quoteChapter = parseInt(chapter, 10);
-                const quoteVerse = parseInt(verse.replace(/[^\d]/g, ""), 10);
-                const startChapter = parseInt(gospel.start.chapter, 10);
-                const startVerse = parseInt(gospel.start.verse, 10);
-                const endChapter = parseInt(gospel.end.chapter, 10);
-                const endVerse = parseInt(gospel.end.verse, 10);
+            {       
+                const parseVerse = (verse: string) => {
+                    const match = verse.match(/^(\d+)([a-z]?)$/);
+                    if (!match) return { number: Infinity, letter: "" }; // Invalid verse fallback
+                    return { number: parseInt(match[1], 10), letter: match[2] || "" };
+                };
             
+                const compareVerses = (verse1: { number: number; letter: string }, verse2: { number: number; letter: string }) => {
+                    if (verse1.number !== verse2.number) return verse1.number - verse2.number;
+                    return verse1.letter.localeCompare(verse2.letter);
+                };
+            
+                const quoteChapter = parseInt(chapter, 10);
+                const quoteVerse = parseVerse(verse);
+                const startChapter = parseInt(gospel.start.chapter, 10);
+                const startVerse = parseVerse(gospel.start.verse);
+                const endChapter = parseInt(gospel.end.chapter, 10);
+                const endVerse = parseVerse(gospel.end.verse);
+
+                
                 if (quoteChapter < startChapter || quoteChapter > endChapter) {
                     return false;
                 }
+                
+                
+                // console.log(quoteChapter, quoteVerse, startChapter, startVerse)  
             
-                if (quoteChapter === startChapter && quoteVerse < startVerse) {
+                if (quoteChapter === startChapter && compareVerses(quoteVerse, startVerse) < 0) {
                     return false;
                 }
             
-                if (quoteChapter === endChapter && quoteVerse > endVerse) {
+                if (quoteChapter === endChapter && compareVerses(quoteVerse, endVerse) > 0) {
                     return false;
                 }
-
-                return true
+            
+                return true;
             }
         }
     }
