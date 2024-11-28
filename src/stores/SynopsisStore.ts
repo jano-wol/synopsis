@@ -104,9 +104,9 @@ export const useSynopsisStore = defineStore('synopsis', {
         },
         formatVerse(evangelist: string, chapter: string, verse: string): string {
             for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
-                const part = this.currentSynopsis.parts[i]
+                const part : PartScheme = this.currentSynopsis.parts[i]
                 for (let j = 0; j < part.sections.length; j++) {
-                    const section = part.sections[j][evangelist as keyof SectionScheme]
+                    const section = part.sections[j][evangelist as keyof SectionScheme] as CitationScheme[]
                     for (let k = 0; k < section.length; k++)
                     {
                         // console.log(section[k])
