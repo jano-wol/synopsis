@@ -190,6 +190,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 this.error = ErrorCode.DATE
                 return
             }
+            useSynopsisStore().error = null
 
 
 
