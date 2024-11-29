@@ -35,5 +35,5 @@ export default {
     <!-- v-if won't work properly if it will be possible to change date on the 'calendar' route  -->
     <Loader v-if="synopsisStore.dateGospel === null && synopsisStore.error === null"/>
     <ErrorMessage />
-    <Section v-for="id in gospelSections" :id="id" />
+    <Section v-for="id in gospelSections" :id="id" :key="id" />
 </template>

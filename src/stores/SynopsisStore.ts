@@ -211,9 +211,9 @@ export const useSynopsisStore = defineStore('synopsis', {
                     this.isLoading = true
                 }
 
-                let  dailyGospel = await fetchGospel(new Date(date));
+                const  dailyGospel = await fetchGospel(new Date(date));
                 this.isLoading = false
-                let gospel =  parseCitation(dailyGospel.passage)
+                const gospel =  parseCitation(dailyGospel.passage)
                 gospel.start.verse = this.formatVerse(gospel.evangelist, gospel.start.chapter, gospel.start.verse)
                 gospel.end.verse = this.formatVerse(gospel.evangelist, gospel.end.chapter, gospel.end.verse)
                 if (isDaily)
