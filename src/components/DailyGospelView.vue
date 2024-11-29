@@ -29,5 +29,6 @@ export default {
 <template>
     <Loader v-if="synopsisStore.dailyGospel === null && synopsisStore.error === null"/>
     <ErrorMessage />
+    <h1 class="text-center"><i class="bi bi-sun"></i></h1>
     <Section v-for="id in gospelSections" :id="id" :key="id" />
 </template>

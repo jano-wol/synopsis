@@ -53,7 +53,7 @@ export default {
         <div class="col-lg-8 col-md-12">
             <h4 class="text-center fs-3">
                 {{ id }}. {{ section.section_title }}
-                <i v-if="synopsisStore.dailyGospelSections.includes(id)" class="bi bi-sun"></i>
+
             </h4>
         </div>
         <div class="col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end">
