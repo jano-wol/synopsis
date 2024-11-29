@@ -1,7 +1,8 @@
 export interface DictionaryScheme {
     menu: MenuScheme,
     tooltips: TooltipsScheme,
-    notFound: NotFoundScheme
+    notFound: NotFoundScheme,
+    error: ErrorScheme
 }
 
 interface MenuScheme {
@@ -10,6 +11,7 @@ interface MenuScheme {
     about: string, 
     sources: string, 
     contact: string,
+    dailyGospel: string,
     translations: string
 }
 
@@ -25,6 +27,11 @@ interface TooltipsScheme {
 
 interface NotFoundScheme {
     notFound: string 
+}
+
+interface ErrorScheme {
+    server: string,
+    date: string
 }
 
 

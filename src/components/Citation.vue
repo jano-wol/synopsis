@@ -1,6 +1,6 @@
 <script lang="ts">
 import type { PropType } from 'vue';
-import type { PartScheme, CitationScheme, SectionScheme, EvangelistsScheme } from '@/interfaces/synopsisInterface';
+import type { CitationScheme, SectionScheme, EvangelistsScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 import { Redirection } from "@/enums/Redirection"
 import toLeading from "@/assets/redirect/toLeading.json"
@@ -54,7 +54,24 @@ export default {
         || (evangelist === 'jn' && this.sectionId === '367')
       )
     }
-  }
+  },
+  computed: {
+    spanClass() {
+      return (evangelist: string, chapter:string, verse:string) => {
+        const isInDailyGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse);
+        const isInDateGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse, false);
+
+        if (isInDailyGospel && isInDateGospel) {
+          return 'bg-success-subtle';
+        } else if (isInDailyGospel) {
+          return 'bg-warning-subtle';
+        } else if (isInDateGospel) {
+          return 'bg-info-subtle';
+        }
+        return '';
+      };
+    },
+  },
 }
 </script>
 
@@ -64,7 +81,7 @@ export default {
       {{ synopsisStore.currentSynopsis.evangelists[evangelist as keyof EvangelistsScheme] }} {{
     synopsisStore.getCitation(citation.content[0].chapter, citation.content[0].verse,
       citation.content[citation.content.length - 1].chapter, citation.content[citation.content.length - 1].verse) }}
-      <template v-if="!$route.params.id">
+      <template v-if="$route.name === 'synopsis'">
         <button v-if="!citation.leading"
           @click="redirectToCitation(redirection.TO_LEADING,
                     evangelist +
@@ -106,10 +123,11 @@ export default {
       </template>
 
     </div>
+    <!-- TODO: verse.verse not good -->
     <div class="card-body">
       <p>
         <template v-for="verse in citation?.content" :key="verse.chapter+','+verse.verse">
-          {{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}
+          <span :class="spanClass(evangelist, verse.chapter, verse.verse)">{{ " " }}<sup class="text-secondary">{{ verse.verse }}</sup>{{ verse.text }}</span>
         </template>
       </p>
     </div>

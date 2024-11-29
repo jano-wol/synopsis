@@ -1,11 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import SynopsisView from '@/views/SynopsisView.vue'
 import IndexView from '@/views/IndexView.vue'
+import DateGospelView from '@/views/DateGospelView.vue'
 import SourcesView from '@/views/SourcesView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
+import DailyGospelView from '@/components/DailyGospelView.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
@@ -67,6 +69,16 @@ const router = createRouter({
       component: IndexView
     },
     {
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/today`,
+      name: 'today',
+      component: DailyGospelView
+    },
+    {
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/:date`,
+      name: 'calendar',
+      component: DateGospelView
+    },
+    {
       path: `/:language${languageOptionsRegex}?/sources`,
       name: 'sources',
       component: SourcesView
@@ -81,7 +93,8 @@ const router = createRouter({
       name: 'section',
       component: Section,
       props: true
-    }, {
+    },
+    {
       path: '/:param(.*)*',
       name: 'notFound',
       component: NotFoundView
