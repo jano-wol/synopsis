@@ -5,7 +5,7 @@ import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
 import type { RouteLocationRaw } from 'vue-router';
 
-import { fetchGospel, isValidDate, parseCitation } from '@/utils/dailyGospel';
+import { fetchGospel, isValidDate, parseCitation } from '@/utils/calendarGospel';
 
 
 import synopsisKG from '@/assets/translations/kg.json'
