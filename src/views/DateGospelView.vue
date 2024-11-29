@@ -7,8 +7,10 @@ import ErrorMessage from '@/components/ErrorMessage.vue'
 import Loader from '@/components/Loader.vue'
 
 //TODO: very similar to dailygosepl component. its needed to be separated a separataed because of realoading.
-// when visiting on 'calendar' first then 'today', it should be rerendered. acceptable, but think about a better option
-// also in the future it could have unique functions (eg calendar for date selection, next day, last day etc)
+// when visiting on 'calendar' first then 'today', it should be rerendered. acceptable, but think about a better option.
+//
+// also in the future it could have unique functions (eg calendar for date selection, next day, last day etc),
+// so it might be proper to separate them
 export default {
     data() {
         return {
@@ -31,7 +33,7 @@ export default {
 
 <template>
     <!-- v-if won't work properly if it will be possible to change date on the 'calendar' route  -->
-    <Loader v-if="synopsisStore.dateGospel === null"/>
+    <Loader v-if="synopsisStore.dateGospel === null && synopsisStore.error === null"/>
     <ErrorMessage />
     <Section v-for="id in gospelSections" :id="id" />
 </template>

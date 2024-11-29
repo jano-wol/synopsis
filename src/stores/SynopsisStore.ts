@@ -206,7 +206,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 {
                     this.isLoading = true
                 }
-                //TODO: rename to fetchGospel
+
                 let  dailyGospel = await fetchGospel(new Date(date));
                 this.isLoading = false
                 let gospel =  parseCitation(dailyGospel.passage)

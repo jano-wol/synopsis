@@ -1,6 +1,5 @@
 import type { DailyGospelScheme, QuoteScheme } from "@/interfaces/dailyGospelInterface";
 
-//TODO: rename this util to gospel or smthg
 export async function fetchGospel(date: Date): Promise<DailyGospelScheme> {
     try {
         const month = String(date.getMonth() + 1).padStart(2, '0');
