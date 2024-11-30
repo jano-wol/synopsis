@@ -5,7 +5,6 @@ import sys
 from bible import evangelists
 from file_utils import iterate_jsons
 
-checked_translations = ['kg', 'esv', 'szit', 'knb', 'bt', 'bjw', 'rsp', 'nv', 'sblgnt', 'eu']
 roman = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI',
                  'XVII', 'XVIII']
 
@@ -72,18 +71,15 @@ def check_translation(json_loaded, file_name):
 
 
 def main():
-    file_flags = {file_name: False for file_name in checked_translations}
     json_folder = sys.argv[1]
+    json_files_found = False
     for json_loaded, json_path in iterate_jsons(json_folder):
+        json_files_found = True
         file_name = os.path.basename(json_path)
-        file_base_name = os.path.splitext(file_name)[0]
-        if file_base_name in checked_translations:
-            file_flags[file_base_name] = True
-            check_translation(json_loaded, file_name)
-    for file_name, tested in file_flags.items():
-        if not tested:
-            print(f'Test fail: {file_name}.json was not tested.')
-            exit(1)
+        check_translation(json_loaded, file_name)
+    if not json_files_found:
+        print(f'No json files were found in folder={json_folder}')
+        sys.exit(1)
 
 
 if __name__ == '__main__':

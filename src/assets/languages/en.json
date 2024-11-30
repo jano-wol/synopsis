@@ -5,6 +5,7 @@
         "about": "About",
         "sources": "Sources",
         "contact": "Contact",
+        "dailyGospel": "Daily Gospel",
         "translations": "Translations"
     },
     "tooltips": {
@@ -18,5 +19,9 @@
     },
     "notFound": {
         "notFound": "Not found"
+    },
+    "error": {
+        "server": "The requested gospel is currently unavailable.",
+        "date": "Invalid date. Please use the format YYYY-MM-DD."
     }
 }

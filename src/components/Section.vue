@@ -10,17 +10,18 @@ export default {
             type: String,
             requested: true,
             default: "0"
-        },
-        language: {
-            type: String
-        },
-        translation: {
-            type: String
         }
     },
     data() {
         return {
             synopsisStore: useSynopsisStore(),
+        }
+    },
+    mounted()
+    {
+        if (this.$route.name === 'section')
+        {
+            this.synopsisStore.getGospel(new Date().toISOString().split('T')[0]).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
         }
     },
     components: {
@@ -52,6 +53,7 @@ export default {
         <div class="col-lg-8 col-md-12">
             <h4 class="text-center fs-3">
                 {{ id }}. {{ section.section_title }}
+
             </h4>
         </div>
         <div class="col-lg-2 col-md-12 d-flex justify-content-center justify-content-lg-end">

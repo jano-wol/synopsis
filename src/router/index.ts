@@ -1,11 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import SynopsisView from '@/views/SynopsisView.vue'
 import IndexView from '@/views/IndexView.vue'
+import DateGospelView from '@/views/DateGospelView.vue'
 import SourcesView from '@/views/SourcesView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
+import DailyGospelView from '@/components/DailyGospelView.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
@@ -13,17 +15,17 @@ const options: { [key: string]: string[] } = {
   "en": ["ESV", "EU", "BT", "BJW", "RSP", "SBLGNT", "NV"]
 }
 
-const languageDefaultRedirect = () =>
+const languageDefaultRedirect = (path : string) =>
   Object.keys(options).map(language => ({
-    path: `/${language}`,
-    redirect: `/${language}/${options[language][0]}`
+    path: `/${language}/${path}`,
+    redirect: `/${language}/${options[language][0]}/${path}`
   }));
 
-const translationDefaultRedirect = () =>
+const translationDefaultRedirect = (path : string) =>
   Object.entries(options).flatMap(([language, versions]) =>
     versions.map(version => ({
-      path: `/${version}`,
-      redirect: `/${language}/${version}`
+      path: `/${version}/${path}`,
+      redirect: `/${language}/${version}/${path}`
     }))
   );
 
@@ -47,13 +49,15 @@ const router = createRouter({
       path: '/',
       redirect: defaultLanguage(),
     },
-    ...languageDefaultRedirect(),
-    ...translationDefaultRedirect(),
+    ...languageDefaultRedirect(''),
+    ...translationDefaultRedirect(''),
     {
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?`,
       name: 'synopsis',
       component: SynopsisView
     },
+    ...languageDefaultRedirect('index'),
+    ...translationDefaultRedirect('index'),
     {
       path: `/:language${languageOptionsRegex}?/about`,
       name: 'about',
@@ -63,6 +67,16 @@ const router = createRouter({
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/index`,
       name: 'index',
       component: IndexView
+    },
+    {
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/today`,
+      name: 'today',
+      component: DailyGospelView
+    },
+    {
+      path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/:date`,
+      name: 'calendar',
+      component: DateGospelView
     },
     {
       path: `/:language${languageOptionsRegex}?/sources`,
@@ -79,7 +93,8 @@ const router = createRouter({
       name: 'section',
       component: Section,
       props: true
-    }, {
+    },
+    {
       path: '/:param(.*)*',
       name: 'notFound',
       component: NotFoundView
