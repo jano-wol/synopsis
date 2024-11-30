@@ -78,7 +78,7 @@ export default {
                     <!-- TODO: is it the best place in the header? -->
                     <li class="nav-item">
                         <router-link :to="{ name: 'today' }"
-                            :class="$route.name == 'contact' ? 'active' : ''" class="nav-link" aria-current="page">{{
+                            :class="$route.name == 'today' ? 'active' : ''" class="nav-link" aria-current="page">{{
                     synopsisStore.currentDictionary.menu.dailyGospel }}
                         </router-link>
                     </li>
