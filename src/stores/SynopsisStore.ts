@@ -223,7 +223,33 @@ export const useSynopsisStore = defineStore('synopsis', {
                 else {
                     this.dateGospel = gospel
                 }
-                
+
+                        // Parse function for chapter and verse with two parameters
+                const parseChapterVerse = (chapter: string, verse: string) => {
+                const chapterNumber = parseInt(chapter, 10);
+                const match = verse.match(/^(\d+)([a-z]?)$/);
+
+                if (isNaN(chapterNumber) || !match) {
+                    return { chapter: Infinity, verse: Infinity, letter: "" }; // Invalid input fallback
+                }
+
+                return {
+                    chapter: chapterNumber,            // Parsed chapter number
+                    verse: parseInt(match[1], 10),     // Parsed verse number
+                    letter: match[2] || ""             // Parsed optional letter
+                };
+            };
+
+            //TODO: similar function used in isQuoteInGospel
+            const compareChapterVerses = (
+                cv1: { chapter: number; verse: number; letter: string },
+                cv2: { chapter: number; verse: number; letter: string }
+            ) => {
+                if (cv1.chapter !== cv2.chapter) return cv1.chapter - cv2.chapter;  // Compare chapters
+                if (cv1.verse !== cv2.verse) return cv1.verse - cv2.verse;          // Compare verses
+                return cv1.letter.localeCompare(cv2.letter);                        // Compare optional letters
+            };
+                                
                 for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
                     const part: PartScheme = this.currentSynopsis.parts[i]
                     for (let j = 0; j < part.sections.length; j++) {
@@ -233,15 +259,20 @@ export const useSynopsisStore = defineStore('synopsis', {
                             if (citation?.leading) {
                                 for (let m = 0; m < citation.content.length; m++) {
                                     const content = citation.content[m]
-                                    if (content.chapter === gospel.start.chapter && content.verse === gospel.start.verse) {
+                                    
+                                    const contentQuote = parseChapterVerse(content.chapter, content.verse);
+                                    const gospelStartQuote = parseChapterVerse(gospel.start.chapter, gospel.start.verse);
+                                    const gospelEndQuote = parseChapterVerse(gospel.end.chapter, gospel.end.verse);
+
+                                    if (
+                                        compareChapterVerses(gospelStartQuote, contentQuote) <= 0 
+                                        && 
+                                        compareChapterVerses(contentQuote, gospelEndQuote) <= 0  
+                                        &&
+                                        !gospelSections.includes(section.id) 
+                                     ){
                                         gospelSections.push(section.id)
-                                    }
-                                    else if (gospelSections.length > 0 && !gospelSections.includes(section.id) ) {
-                                        gospelSections.push(section.id)
-                                    }
-                                    if (content.chapter === gospel.end.chapter && content.verse === gospel.end.verse) {
-                                        return
-                                    }
+                                     }
                                 }
                             }
                         }
