@@ -1,5 +1,5 @@
-export interface DailyGospelScheme {
-    passage: string;
+export interface GospelScheme {
+    gospel: QuoteScheme;
 }
 
 interface VerseScheme {
@@ -7,8 +7,14 @@ interface VerseScheme {
     verse: string;
 }
 
+interface QuoteIntervalScheme {
+    start: VerseScheme
+    end: VerseScheme
+}
+
 export interface QuoteScheme {
     evangelist: string,
+    intervals: QuoteIntervalScheme[]
     start: VerseScheme
     end: VerseScheme
 }

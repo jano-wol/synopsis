@@ -5,7 +5,7 @@ import type { DictionaryScheme } from '@/interfaces/dictionaryInterface'
 import router from '../router';
 import type { RouteLocationRaw } from 'vue-router';
 
-import { fetchGospel, isValidDate, parseCitation } from '@/utils/calendarGospel';
+import { fetchGospel, isValidDate} from '@/utils/calendarGospel';
 
 
 import synopsisKG from '@/assets/translations/kg.json'
@@ -213,9 +213,12 @@ export const useSynopsisStore = defineStore('synopsis', {
 
                 const  dailyGospel = await fetchGospel(new Date(date));
                 this.isLoading = false
-                const gospel =  parseCitation(dailyGospel.passage)
-                gospel.start.verse = this.formatVerse(gospel.evangelist, gospel.start.chapter, gospel.start.verse)
-                gospel.end.verse = this.formatVerse(gospel.evangelist, gospel.end.chapter, gospel.end.verse)
+                const gospel = dailyGospel.gospel
+                for (let i = 0; i<gospel.intervals.length; i++)
+                {
+                    gospel.intervals[i].start.verse = this.formatVerse(gospel.evangelist, gospel.intervals[i].start.chapter, gospel.intervals[i].start.verse)
+                    gospel.intervals[i].end.verse = this.formatVerse(gospel.evangelist, gospel.intervals[i].end.chapter, gospel.intervals[i].end.verse)
+                }
                 if (isDaily)
                 {
                     this.dailyGospel = gospel
@@ -223,56 +226,58 @@ export const useSynopsisStore = defineStore('synopsis', {
                 else {
                     this.dateGospel = gospel
                 }
+                    // TODO: duplicated functions in isInQuote
+                    const parseChapterVerse = (chapter: string, verse: string) => {
+                    const chapterNumber = parseInt(chapter, 10);
+                    const match = verse.match(/^(\d+)([a-z]?)$/);
 
-                        // Parse function for chapter and verse with two parameters
-                const parseChapterVerse = (chapter: string, verse: string) => {
-                const chapterNumber = parseInt(chapter, 10);
-                const match = verse.match(/^(\d+)([a-z]?)$/);
+                    if (isNaN(chapterNumber) || !match) {
+                        return { chapter: Infinity, verse: Infinity, letter: "" }; // Invalid input fallback
+                    }
 
-                if (isNaN(chapterNumber) || !match) {
-                    return { chapter: Infinity, verse: Infinity, letter: "" }; // Invalid input fallback
-                }
+                    return {
+                        chapter: chapterNumber,
+                        verse: parseInt(match[1], 10),
+                        letter: match[2] || ""
+                    };
+                 };
 
-                return {
-                    chapter: chapterNumber,            // Parsed chapter number
-                    verse: parseInt(match[1], 10),     // Parsed verse number
-                    letter: match[2] || ""             // Parsed optional letter
+                //TODO: similar function used in isQuoteInGospel
+                const compareChapterVerses = (
+                    cv1: { chapter: number; verse: number; letter: string },
+                    cv2: { chapter: number; verse: number; letter: string }
+                ) => {
+                    if (cv1.chapter !== cv2.chapter) return cv1.chapter - cv2.chapter;  // Compare chapters
+                    if (cv1.verse !== cv2.verse) return cv1.verse - cv2.verse;          // Compare verses
+                    return cv1.letter.localeCompare(cv2.letter);                        // Compare optional letters
                 };
-            };
+            
+                for ( let n = 0 ; n < gospel.intervals.length; n ++)
+                {
+                    for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
+                        const part: PartScheme = this.currentSynopsis.parts[i]
+                        for (let j = 0; j < part.sections.length; j++) {
+                            const section: SectionScheme = part.sections[j]
+                            for (let l = 0; l < section[gospel.evangelist as keyof SectionScheme].length; l++) {
+                                const citation = section[gospel.evangelist as keyof SectionScheme][l] as CitationScheme
+                                if (citation?.leading) {
+                                    for (let m = 0; m < citation.content.length; m++) {
+                                        const content = citation.content[m]
+                                        
+                                        const contentQuote = parseChapterVerse(content.chapter, content.verse);
+                                        const gospelStartQuote = parseChapterVerse(gospel.intervals[n].start.chapter, gospel.intervals[n].start.verse);
+                                        const gospelEndQuote = parseChapterVerse(gospel.intervals[n].end.chapter, gospel.intervals[n].end.verse);
 
-            //TODO: similar function used in isQuoteInGospel
-            const compareChapterVerses = (
-                cv1: { chapter: number; verse: number; letter: string },
-                cv2: { chapter: number; verse: number; letter: string }
-            ) => {
-                if (cv1.chapter !== cv2.chapter) return cv1.chapter - cv2.chapter;  // Compare chapters
-                if (cv1.verse !== cv2.verse) return cv1.verse - cv2.verse;          // Compare verses
-                return cv1.letter.localeCompare(cv2.letter);                        // Compare optional letters
-            };
-                                
-                for (let i = 0; i < this.currentSynopsis.parts.length; i++) {
-                    const part: PartScheme = this.currentSynopsis.parts[i]
-                    for (let j = 0; j < part.sections.length; j++) {
-                        const section: SectionScheme = part.sections[j]
-                        for (let l = 0; l < section[gospel.evangelist as keyof SectionScheme].length; l++) {
-                            const citation = section[gospel.evangelist as keyof SectionScheme][l] as CitationScheme
-                            if (citation?.leading) {
-                                for (let m = 0; m < citation.content.length; m++) {
-                                    const content = citation.content[m]
-                                    
-                                    const contentQuote = parseChapterVerse(content.chapter, content.verse);
-                                    const gospelStartQuote = parseChapterVerse(gospel.start.chapter, gospel.start.verse);
-                                    const gospelEndQuote = parseChapterVerse(gospel.end.chapter, gospel.end.verse);
-
-                                    if (
-                                        compareChapterVerses(gospelStartQuote, contentQuote) <= 0 
-                                        && 
-                                        compareChapterVerses(contentQuote, gospelEndQuote) <= 0  
-                                        &&
-                                        !gospelSections.includes(section.id) 
-                                     ){
-                                        gospelSections.push(section.id)
-                                     }
+                                        if (
+                                            compareChapterVerses(gospelStartQuote, contentQuote) <= 0 
+                                            && 
+                                            compareChapterVerses(contentQuote, gospelEndQuote) <= 0  
+                                            &&
+                                            !gospelSections.includes(section.id) 
+                                        ){
+                                            gospelSections.push(section.id)
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -292,38 +297,43 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
             if (gospel && gospel.evangelist === evangelist)
             {       
-                const parseVerse = (verse: string) => {
+                const parseChapterVerse = (chapter: string, verse: string) => {
+                    const chapterNumber = parseInt(chapter, 10);
                     const match = verse.match(/^(\d+)([a-z]?)$/);
-                    if (!match) return { number: Infinity, letter: "" }; // Invalid verse fallback
-                    return { number: parseInt(match[1], 10), letter: match[2] || "" };
-                };
+
+                    if (isNaN(chapterNumber) || !match) {
+                        return { chapter: Infinity, verse: Infinity, letter: "" }; // Invalid input fallback
+                    }
+
+                    return {
+                        chapter: chapterNumber,            // Parsed chapter number
+                        verse: parseInt(match[1], 10),     // Parsed verse number
+                        letter: match[2] || ""             // Parsed optional letter
+                    };
+                 };
             
-                const compareVerses = (verse1: { number: number; letter: string }, verse2: { number: number; letter: string }) => {
-                    if (verse1.number !== verse2.number) return verse1.number - verse2.number;
-                    return verse1.letter.localeCompare(verse2.letter);
+                const compareChapterVerses = (
+                    cv1: { chapter: number; verse: number; letter: string },
+                    cv2: { chapter: number; verse: number; letter: string }
+                ) => {
+                    if (cv1.chapter !== cv2.chapter) return cv1.chapter - cv2.chapter;  // Compare chapters
+                    if (cv1.verse !== cv2.verse) return cv1.verse - cv2.verse;          // Compare verses
+                    return cv1.letter.localeCompare(cv2.letter);                        // Compare optional letters
                 };
-            
-                const quoteChapter = parseInt(chapter, 10);
-                const quoteVerse = parseVerse(verse);
-                const startChapter = parseInt(gospel.start.chapter, 10);
-                const startVerse = parseVerse(gospel.start.verse);
-                const endChapter = parseInt(gospel.end.chapter, 10);
-                const endVerse = parseVerse(gospel.end.verse);
 
                 
-                if (quoteChapter < startChapter || quoteChapter > endChapter) {
-                    return false;
+                const parsedQuote = parseChapterVerse(chapter, verse);
+                for (let i = 0; i < gospel.intervals.length; i++)
+                    {
+                    const parsedStart = parseChapterVerse(gospel.intervals[i].start.chapter, gospel.intervals[i].start.verse);
+                    const parsedEnd = parseChapterVerse(gospel.intervals[i].end.chapter, gospel.intervals[i].end.verse);
+
+                    if (compareChapterVerses(parsedQuote, parsedEnd) <= 0 && compareChapterVerses(parsedQuote, parsedStart) >= 0) {
+                        return true;
+                    }
                 }
-                
-                if (quoteChapter === startChapter && compareVerses(quoteVerse, startVerse) < 0) {
-                    return false;
-                }
-            
-                if (quoteChapter === endChapter && compareVerses(quoteVerse, endVerse) > 0) {
-                    return false;
-                }
-            
-                return true;
+
+                return false;
             }
         }
     }
