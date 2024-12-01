@@ -13,52 +13,73 @@ export default {
 
 <template>
     <p>
-
         Synopsis contains the Gospels of Matthew, Mark, Luke and John in parallel.<br>
-        On the main page, text boxes next to each other contain parallel verses of the four Gospels.<br>
+        Text boxes next to each other contain parallel verses of the four Gospels.
     </p>
-
-    <p>
-        Two types of text boxes are distinguished:
-    </p>
+    <h2 class="fs-3">
+        Structure
+    </h2>
     <ul>
-        <li>Boxes with bold frame and grey header contain the body text. The body text contains the whole Gospel, without
-            repetitions, in the original
-            order of the verses. Each section contains maximum one body text, for one evangelist.
-            In the <router-link
-                :to="{ name: 'index' }">Table
-                of contents</router-link> ther citation appears with bold.
+        <li>
+            The Synopsis consists of 18 <b>parts</b>, which outline the events of the Gospels. The parts are marked with Roman numerals.
         </li>
-        <li>Boxes with thin frame and white header contain parallel text.</li>
+        <li>
+            Each part is divided into <b>sections</b>, a total of 362, which are marked with Arabic numerals.
+        </li> 
+    </ul>
+
+    <h2 class="fs-3">
+        Text Types
+    </h2>
+    <ul>
+        <li>
+            <b>Body texts:</b>
+            These appear in text boxes that have bold frames and grey headers. The body texts listed beneath one another include all the verses of a given Gospel in order, without repetitions. (In the <router-link    :to="{ name: 'index' }">Index</router-link>, verses corresponding to body texts are highlighted in bold.)
+        </li>
+        <li>
+            <b>Parallel texts:</b>
+            These appear in text boxes that have thin frames and white headers. They are texts aligned in parallel with the body texts. (In the <router-link    :to="{ name: 'index' }">Index</router-link>, verses corresponding to parallel texts are not highlighted in bold.)
+        </li>
+    </ul>
+
+    <h2 class="fs-3">
+        Explanation of symbols
+    </h2>
+    <ul>
+        <li>
+            <i class="bi bi-arrow-up-right-square"></i> :
+            <b>Opening on a separate page.</b>
+            Opening the given section on a separate, standalone subpage.
+        </li>
+        <li>
+            <i class="bi bi-arrow-down-left-square"></i> :
+            <b>Opening in context.</b>
+            Opening the given section within the entire text of the Synopsis.
+        </li>
+        <li>
+            <i class="bi bi-link-45deg"></i> :
+            <b>Copy link.</b>
+            Copying the link of the given section to the clipboard.
+        </li>
+        <br>
+        <li>
+            <i class="bi bi-compass"></i> :
+            <b>Redirect to body text.</b>
+            Navigating to the body text corresponding to the given parallel text.
+        </li>
+        <li>
+            <i class="bi bi-arrow-up"></i> :
+            <b>Redirect to previous body text.</b>
+            Navigating to the body text preceding the given one.
+        </li>
+        <li>
+            <i class="bi bi-arrow-down"></i> :
+            <b>Redirect to next body text.</b>
+            Navigating to the body text following the given one.
+        </li>
     </ul>
 
     <p>
-        Next to sections the following buttons can be found:
-    </p>
-    <ul>
-        <li><i class="bi bi-arrow-up-right-square"></i> or <i class="bi bi-arrow-down-left-square"></i> : <br> Open link
-            at its separate page ( <i class="bi bi-arrow-up-right-square"></i> )<br>
-            Open link at original place ( <i class="bi bi-arrow-down-left-square"></i> ): returns the reader to the
-            section’s original place on the main page.
-        </li>
-        <li><i class="bi bi-link-45deg"></i> : copies section’s link to clipboard.</li>
-    </ul>
-
-    <p>
-        At the main page in the headers of text boxes the following buttons can be found:
-    </p>
-    <ul>
-        <li><i class="bi bi-compass"></i> : Only in parallel text. Redirects the reader to where the chosen parallel
-            text is found in the body text.
-        </li>
-        <li><i class="bi bi-arrow-up"></i> és <i class="bi bi-arrow-down"></i> : Only in main text. Redirects the reader
-            to the next ( <i class="bi bi-arrow-down"></i> ) or previous ( <i class="bi bi-arrow-up"></i> ) body text in
-            the same Gospel.
-        </li>
-
-    </ul>
-
-    <p>
-        More details under <router-link :to="{ name: 'sources' }">Sources</router-link>.
+        
     </p>
 </template>

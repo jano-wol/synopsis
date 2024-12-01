@@ -13,10 +13,8 @@ export default {
 
 <template>
     <p>
-        A Szinopszis Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.
-    </p>
-    <p>
-        Az egymás mellett elhelyezkedő szövegdobozok az evangélium párhuzamos részeit tartalmazzák.
+        A Szinopszis Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.<br>
+        Az egymás mellett elhelyezkedő szövegdobozok az evangéliumok párhuzamos részeit tartalmazzák.
     </p>
     <h2 class="fs-3">
         Felépítés
@@ -26,7 +24,7 @@ export default {
             A Szinopszis 18 <b>részből</b> áll, amelyek az evangélium átfogó eseményeit tagolják. A részeket római számokkal jelöljük.
         </li>
         <li>
-            A Szinopszis 362* <b>szekcióból</b> áll, amelyek a <b>részeket</b> taglalják. A szekciókat arab számokkal jelöljük.
+            Az egyes részek <b>szekciókra</b> tagolódnak, összesen 362 darabra, és ezeket arab számokkal jelöljük.
         </li> 
     </ul>
 
@@ -35,17 +33,19 @@ export default {
     </h2>
     <ul>
         <li>
-            <b>Törzsszöveg:</b>
-            Minden <b>szekcióban</b> egy evangélistához, pontosan egy* törzsszöveg található. A törzsszövegek összeolvasva a teljes evangéliumot tartalmazzák, ismétlődések nélkül, a versek eredeti sorrendjében.<br>
-            A törzsszöveg vastag keretes, szürke fejléces szövegdobozban jelenik meg. Az
+            <b>Törzsszövegek:</b>
+            vastag keretes, szürke fejléces szövegdobozban jelennek meg.
+            Az egymás alatt elhelyezkedő törzsszövegek egy-egy evangélium összes versét ismétlődések nélkül, sorrendben tartalmazzák.
+            (Az
             <router-link    :to="{ name: 'index' }">Indexben</router-link>
-            vastag kiemeléssel szerepelnek
-            a hozzá tartozó versek.
+            a törzsszövegekhez tartozó versek vastag kiemeléssel szerepelnek.)
         </li>
         <li>
-            <b>Párhuzamos szöveg:</b>
-            A <b>törzsszöveggel</b> párhuzamba állított szöveg.<br>
-            Vékony keretes, fehér fejléces szövegdobozban jelenik meg.
+            <b>Párhuzamos szövegek:</b>
+            vékony keretes, fehér fejléces szövegdobozban jelennek meg. A törzsszövegekkel párhuzamba állított szövegek.
+             (Az
+            <router-link    :to="{ name: 'index' }">Indexben</router-link>
+            a párhuzamos szövegekhez tartozó versek kiemelés nélkül szerepelnek.)
         </li>
     </ul>
 
@@ -89,6 +89,4 @@ export default {
     <p>
         
     </p>
-
-    <p class="small">* Eltérés a forrástól. További részletek a <router-link :to="{ name: 'sources' }">Források</router-link> menüpont alatt találhatók.</p>
 </template>
