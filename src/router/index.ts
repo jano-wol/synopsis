@@ -68,6 +68,8 @@ const router = createRouter({
       name: 'index',
       component: IndexView
     },
+    ...languageDefaultRedirect('calendar/today'),
+    ...translationDefaultRedirect('calendar/today'),
     {
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/today`,
       name: 'today',
