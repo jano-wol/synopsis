@@ -18,6 +18,6 @@
             href="https://github.com/anwolosz/synopsis" target="_blank">ezen</a> a
         linken érhető el.<br>
     Jelenleg a különböző evangéliumfordítások integrációja a cél. A Szinopszis struktúrájában eddig feldolgozott
-        fordtások <code class="text-dark">.json</code> formátumban elérhetők a <router-link :to="{name: 'sources'}">Források</router-link> menüpontban a Letölthető anyagok cím alatt.
+        fordtások <code class="text-dark">.json</code> formátumban elérhetők a <router-link :to="{name: 'sources'}">Források</router-link> menüpontban a "Letölthető anyagok" cím alatt.
     </p>
 </template>
