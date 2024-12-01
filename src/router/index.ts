@@ -11,7 +11,7 @@ import DailyGospelView from '@/components/DailyGospelView.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
-  "hu": ["KG", "SZIT", "KNB", "RUF"],
+  "hu": ["SZIT", "KG", "KNB", "RUF"],
   "en": ["ESV", "EU", "BT", "BJW", "RSP", "SBLGNT", "NV"]
 }
 
@@ -34,12 +34,12 @@ const translationOptionsRegex = `(${Object.values(options).flat().join("|")})`;
 function defaultLanguage() {
   const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone
   if (timeZone === "Europe/Budapest") {
-    return "/hu/KG"
+    return `/hu/${options.hu[0]}`
   }
   if (timeZone === "Europe/Warsaw Poland") {
     return "/en/BT"
   }
-  return "/en/ESV"
+  return `/en/${options.en[0]}`
 }
 
 const router = createRouter({

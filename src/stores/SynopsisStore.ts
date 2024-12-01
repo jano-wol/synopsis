@@ -8,8 +8,8 @@ import type { RouteLocationRaw } from 'vue-router';
 import { fetchGospel, isValidDate} from '@/utils/calendarGospel';
 
 
-import synopsisKG from '@/assets/translations/kg.json'
 import synopsisSZIT from '@/assets/translations/szit.json'
+import synopsisKG from '@/assets/translations/kg.json'
 import synopsisKNB from '@/assets/translations/knb.json'
 import synopsisRUF from '@/assets/translations/ruf.json'
 import synopsisESV from '@/assets/translations/esv.json'
@@ -37,8 +37,8 @@ export const useSynopsisStore = defineStore('synopsis', {
                en: dictionaryEn as DictionaryScheme
             },
             synopses: [
-                synopsisKG as SynopsisScheme,
                 synopsisSZIT as SynopsisScheme,
+                synopsisKG as SynopsisScheme,
                 synopsisKNB as SynopsisScheme,
                 synopsisRUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme,
