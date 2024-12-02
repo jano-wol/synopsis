@@ -41,7 +41,7 @@ def decode(daily_str):
     evangelist = daily_str.split(' ')[0]
     rest_str = daily_str.split(' ')[1]
     ret['evangelist'] = rename[evangelist]
-    ret['daily_gospel'] = []
+    ret['intervals'] = []
     codes = rest_str.split(',')
     chapter = None
     for idx in range(len(codes)):
@@ -52,7 +52,7 @@ def decode(daily_str):
         else:
             assert chapter is not None
             chapter, ret_dict = handle_code_part(chapter, codes[idx])
-        ret['daily_gospel'].append(ret_dict)
+        ret['intervals'].append(ret_dict)
     return ret
 
 
