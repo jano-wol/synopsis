@@ -78,6 +78,7 @@ def main():
     print(f'not read because of verse brakes: {sorted(sub_ref_problems)}')
     all_refs_sorted = sorted(all_refs)
     print(f'not read because of missing: {sorted(all_refs_sorted)}')
+    print(len(sorted(all_refs_sorted)))
 
 if __name__ == '__main__':
     main()
