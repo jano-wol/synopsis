@@ -50,9 +50,15 @@ def decode(daily_str):
     chapter = None
     for idx in range(len(codes)):
         if ':' in codes[idx]:
-            chapter = codes[idx].split(':')[0]
-            s2 = codes[idx][len(chapter) + 1:]
-            chapter, ret_dict = handle_code_part(chapter, s2)
+            index_1 = codes[idx].find(':')
+            index_2 = codes[idx].find('-')
+            if index_1 < index_2 or index_2 == -1:
+                chapter = codes[idx].split(':')[0]
+                s2 = codes[idx][len(chapter) + 1:]
+                chapter, ret_dict = handle_code_part(chapter, s2)
+            else:
+                assert chapter is not None
+                chapter, ret_dict = handle_code_part(chapter, codes[idx])
         else:
             assert chapter is not None
             chapter, ret_dict = handle_code_part(chapter, codes[idx])
