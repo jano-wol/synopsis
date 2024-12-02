@@ -1,10 +1,39 @@
 import json
 import sys
 
-rename = { 'Matthew' : 'mt',
-           'Mark'    : 'mk',
-           'Luke'    : 'lk',
-           'John'    : 'jn' }
+rename = {'Matthew': 'mt',
+          'Mark': 'mk',
+          'Luke': 'lk',
+          'John': 'jn'}
+
+
+def handle_code_part(chapter, s2):
+    if '-' in s2:
+        s3 = s2.split('-')[0]
+        s4 = s2.split('-')[1]
+        assert s3.isdigit()
+        if ':' in s4:
+            ret_dict = {'start': {}, 'end': {}}
+            ret_dict['start']['chapter'] = int(chapter)
+            ret_dict['start']['verse'] = s3
+            s5 = s4.split(':')[0]
+            s6 = s4.split(':')[1]
+            ret_dict['end']['chapter'] = int(s5)
+            ret_dict['end']['verse'] = s6
+            chapter = s5
+        else:
+            ret_dict = {'start': {}, 'end': {}}
+            ret_dict['start']['chapter'] = int(chapter)
+            ret_dict['start']['verse'] = s3
+            ret_dict['end']['chapter'] = int(chapter)
+            ret_dict['end']['verse'] = s4
+    else:
+        ret_dict = {'start': {}, 'end': {}}
+        ret_dict['start']['chapter'] = int(chapter)
+        ret_dict['start']['verse'] = s2
+        ret_dict['end']['chapter'] = int(chapter)
+        ret_dict['end']['verse'] = s2
+    return chapter, ret_dict
 
 
 def decode(daily_str):
@@ -16,42 +45,14 @@ def decode(daily_str):
     codes = rest_str.split(',')
     chapter = None
     for idx in range(len(codes)):
-        if idx == 0:
-            s1 = codes[idx].split(':')[0]
+        if ':' in codes[idx]:
+            chapter = codes[idx].split(':')[0]
             s2 = codes[idx].split(':')[1]
-            if '-' in s2:
-                s3 = s2.split('-')[0]
-                s4 = s2.split('-')[1]
-                assert s3.isdigit()
-                if ':' in s4:
-                    ret_dict = {'start': {}, 'end': {}}
-                    ret_dict['start']['chapter'] = int(s1)
-                    ret_dict['start']['verse'] = s3
-                    s5 = s4.split(':')[0]
-                    s6 = s4.split(':')[1]
-                    ret_dict['end']['chapter'] = int(s5)
-                    ret_dict['end']['verse'] = s6
-                    chapter = int(s5)
-                    ret['daily_gospel'].append(ret_dict)
-                else:
-                    ret_dict = {'start': {}, 'end': {}}
-                    ret_dict['start']['chapter'] = int(s1)
-                    ret_dict['start']['verse'] = s3
-                    ret_dict['end']['chapter'] = int(s1)
-                    ret_dict['end']['verse'] = s4
-                    chapter = int(s1)
-                    ret['daily_gospel'].append(ret_dict)
-            else:
-                ret_dict = {'start': {}, 'end': {}}
-                ret_dict['start']['chapter'] = int(s1)
-                ret_dict['start']['verse'] = s2
-                ret_dict['end']['chapter'] = int(s1)
-                ret_dict['end']['verse'] = s2
-                chapter = int(s1)
+            chapter, ret_dict = handle_code_part(chapter, s2)
         else:
-            print(f'{chapter} // {codes[idx]}')
-            pass
-
+            assert chapter is not None
+            chapter, ret_dict = handle_code_part(chapter, codes[idx])
+        ret['daily_gospel'].append(ret_dict)
     return ret
 
 
