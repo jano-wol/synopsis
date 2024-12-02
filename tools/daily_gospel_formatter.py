@@ -9,10 +9,14 @@ rename = {'Matthew': 'mt',
 
 def handle_code_part(chapter, s2):
     if '-' in s2:
+        count1 = s2.count('-')
+        assert count1 == 1
         s3 = s2.split('-')[0]
         s4 = s2.split('-')[1]
         assert s3.isdigit()
         if ':' in s4:
+            count2 = s2.count(':')
+            assert count2 == 1
             ret_dict = {'start': {}, 'end': {}}
             ret_dict['start']['chapter'] = int(chapter)
             ret_dict['start']['verse'] = s3
@@ -47,7 +51,7 @@ def decode(daily_str):
     for idx in range(len(codes)):
         if ':' in codes[idx]:
             chapter = codes[idx].split(':')[0]
-            s2 = codes[idx].split(':')[1]
+            s2 = codes[idx][len(chapter) + 1:]
             chapter, ret_dict = handle_code_part(chapter, s2)
         else:
             assert chapter is not None
@@ -65,7 +69,13 @@ def main():
     for key in start_json.keys():
         colour_str = start_json[key]['colour']
         color_list = colour_str.split(" or ") if colour_str else None
-        colour_map[key] = color_list
+        if color_list is None:
+            colour_map[key] = None
+            continue
+        color_list_lower = []
+        for c in color_list:
+            color_list_lower.append(c.lower())
+        colour_map[key] = color_list_lower
 
     daily_gospel_map = {}
     for key in start_json.keys():
