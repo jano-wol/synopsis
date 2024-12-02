@@ -77,8 +77,23 @@ def main():
                     start = start.next()
     print(f'not read because of verse brakes: {sorted(sub_ref_problems)}')
     all_refs_sorted = sorted(all_refs)
+    sorted_list = sorted(all_refs_sorted)
     print(f'not read because of missing: {sorted(all_refs_sorted)}')
-    print(len(sorted(all_refs_sorted)))
+
+    idx = 0
+    while idx < len(sorted_list):
+        start = sorted_list[idx]
+        end = sorted_list[idx]
+        while end.next() in sorted_list:
+            end = end.next()
+            idx += 1
+        idx += 1
+        if start == end:
+            print(f'[{start}]')
+        else:
+            print(f'[{start}-{end}]')
+
+
 
 if __name__ == '__main__':
     main()
