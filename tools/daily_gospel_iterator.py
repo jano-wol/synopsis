@@ -16,17 +16,19 @@ def main():
             colours.add(c)
     print(colours)
 
-    broken_verses = set()
+    broken_verses_start = set()
+    broken_verses_end = set()
     for a in start_json:
         assert len(start_json[a]['daily_gospel']) > 0
         dg = start_json[a]['daily_gospel']
         for reading in dg:
             for interval in reading['intervals']:
                 if not interval['start']['verse'].isdigit():
-                    broken_verses.add(reading['evangelist'] + '_' + str(interval['end']['chapter']) + '_' + interval['start']['verse'])
+                    broken_verses_start.add(reading['evangelist'] + '_' + str(interval['end']['chapter']) + '_' + interval['start']['verse'])
                 if not interval['end']['verse'].isdigit():
-                    broken_verses.add(reading['evangelist'] + '_' + str(interval['end']['chapter']) + '_' + interval['end']['verse'])
-    print(broken_verses)
+                    broken_verses_end.add(reading['evangelist'] + '_' + str(interval['end']['chapter']) + '_' + interval['end']['verse'])
+    print(broken_verses_start)
+    print(broken_verses_end)
 
 if __name__ == '__main__':
     main()
