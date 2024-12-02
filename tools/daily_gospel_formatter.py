@@ -12,6 +12,46 @@ def decode(daily_str):
     evangelist = daily_str.split(' ')[0]
     rest_str = daily_str.split(' ')[1]
     ret['evangelist'] = rename[evangelist]
+    ret['daily_gospel'] = []
+    codes = rest_str.split(',')
+    chapter = None
+    for idx in range(len(codes)):
+        if idx == 0:
+            s1 = codes[idx].split(':')[0]
+            s2 = codes[idx].split(':')[1]
+            if '-' in s2:
+                s3 = s2.split('-')[0]
+                s4 = s2.split('-')[1]
+                assert s3.isdigit()
+                if ':' in s4:
+                    ret_dict = {'start': {}, 'end': {}}
+                    ret_dict['start']['chapter'] = int(s1)
+                    ret_dict['start']['verse'] = s3
+                    s5 = s4.split(':')[0]
+                    s6 = s4.split(':')[1]
+                    ret_dict['end']['chapter'] = int(s5)
+                    ret_dict['end']['verse'] = s6
+                    chapter = int(s5)
+                    ret['daily_gospel'].append(ret_dict)
+                else:
+                    ret_dict = {'start': {}, 'end': {}}
+                    ret_dict['start']['chapter'] = int(s1)
+                    ret_dict['start']['verse'] = s3
+                    ret_dict['end']['chapter'] = int(s1)
+                    ret_dict['end']['verse'] = s4
+                    chapter = int(s1)
+                    ret['daily_gospel'].append(ret_dict)
+            else:
+                ret_dict = {'start': {}, 'end': {}}
+                ret_dict['start']['chapter'] = int(s1)
+                ret_dict['start']['verse'] = s2
+                ret_dict['end']['chapter'] = int(s1)
+                ret_dict['end']['verse'] = s2
+                chapter = int(s1)
+        else:
+            print(f'{chapter} // {codes[idx]}')
+            pass
+
     return ret
 
 
