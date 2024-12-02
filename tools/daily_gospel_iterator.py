@@ -24,7 +24,7 @@ def main():
         for reading in dg:
             for interval in reading['intervals']:
                 if not interval['start']['verse'].isdigit():
-                    broken_verses_start.add(reading['evangelist'] + '_' + str(interval['end']['chapter']) + '_' + interval['start']['verse'])
+                    broken_verses_start.add(reading['evangelist'] + '_' + str(interval['start']['chapter']) + '_' + interval['start']['verse'])
                 if not interval['end']['verse'].isdigit():
                     broken_verses_end.add(reading['evangelist'] + '_' + str(interval['end']['chapter']) + '_' + interval['end']['verse'])
     print(broken_verses_start)
