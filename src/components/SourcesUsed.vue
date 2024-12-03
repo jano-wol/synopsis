@@ -2,13 +2,13 @@
     <ul>
         <li>
             Biblia,
-            Károli Gáspár revideált,
+            Szent István Társulat,
             <a href="https://szentiras.hu/api">szentiras.hu/api</a>,
             2024.
         </li>
         <li>
             Biblia,
-            Szent István Társulat,
+            Károli Gáspár revideált,
             <a href="https://szentiras.hu/api">szentiras.hu/api</a>,
             2024.
         </li>
