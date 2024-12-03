@@ -16,6 +16,6 @@
     </h2>
     <p>The <a href="https://www.synopticus.org/">synopticus.org</a> project is open-source, with development taking place on GitHub. The repository is available at
             <a href="https://github.com/anwolosz/synopsis" target="_blank">this</a> link.<br>
-       Currently, the goal is to integrate various Gospel translations. All translations processed so far in the structure of the Synopsis are available in <code class="text-dark">.json</code> format under the 'Downloadable Materials' section in the <router-link :to="{name: 'sources'}">Sources</router-link> menu.
+       Currently, the goal is to integrate various Gospel translations. All translations processed so far in the structure of the synopsis are available in <code class="text-dark">.json</code> format under the 'Downloadable Materials' section in the <router-link :to="{name: 'sources'}">Sources</router-link> menu.
     </p>
 </template>

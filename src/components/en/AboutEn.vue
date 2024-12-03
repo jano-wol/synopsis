@@ -13,15 +13,15 @@ export default {
 
 <template>
     <p>
-        Synopsis contains the Gospels of Matthew, Mark, Luke and John in parallel.<br>
-        Text boxes next to each other contain parallel verses of the four Gospels.
+        The synopsis contains the Gospels of Matthew, Mark, Luke, and John in parallel. The text boxes placed next to each other present the parallel passages of the Gospels. These parallels were determined by the German theologian Kurt Aland in his work <i>Synopsis Quattuor Evangeliorum</i>.<br>
+        On this site, we use this structure and fill it with various Gospel translations.
     </p>
     <h2 class="fs-3">
         Structure
     </h2>
     <ul>
         <li>
-            The Synopsis consists of 18 <b>parts</b>, which outline the events of the Gospels. The parts are marked with Roman numerals.
+            The synopsis consists of 18 <b>parts</b>, which outline the events of the Gospels. The parts are marked with Roman numerals.
         </li>
         <li>
             Each part is divided into <b>sections</b>, a total of 362, which are marked with Arabic numerals.
@@ -54,7 +54,7 @@ export default {
         <li>
             <i class="bi bi-arrow-down-left-square"></i> :
             <b>Opening in context.</b>
-            Opening the given section within the entire text of the Synopsis.
+            Opening the given section within the entire text of the synopsis.
         </li>
         <li>
             <i class="bi bi-link-45deg"></i> :
