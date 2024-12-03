@@ -13,15 +13,15 @@ export default {
 
 <template>
     <p>
-        A Szinopszis Máté, Márk, Lukács és János evangéliumának párhuzamos szövege.<br>
-        Az egymás mellett elhelyezkedő szövegdobozok az evangéliumok párhuzamos részeit tartalmazzák.
+        A szinopszis Máté, Márk, Lukács és János evangéliumának párhuzamos szövegeit tartalmazza. Az egymás mellett elhelyezkedő szövegdobozok az evangéliumok párhuzamos részeit mutatják be. A párhuzamokat Kurt Aland német teológus határozta meg <i>Synopsis Quattuor Evangeliorum</i> című művében.<br>
+        Ezen a honlapon ezt a struktúrát töltjük fel különböző evangéliumfordításokkal.
     </p>
     <h2 class="fs-3">
         Felépítés
     </h2>
     <ul>
         <li>
-            A Szinopszis 18 <b>részből</b> áll, amelyek az evangélium átfogó eseményeit tagolják. A részeket római számokkal jelöljük.
+            A szinopszis 18 <b>részből</b> áll, amelyek az evangélium átfogó eseményeit tagolják. A részeket római számokkal jelöljük.
         </li>
         <li>
             Az egyes részek <b>szekciókra</b> tagolódnak, összesen 362 darabra, és ezeket arab számokkal jelöljük.
@@ -61,7 +61,7 @@ export default {
         <li>
             <i class="bi bi-arrow-down-left-square"></i> :
             <b>Megnyitás kontextusban.</b>
-            Az adott szekció megnyitása a Szinopszis egész szövegében elhelyezve.
+            Az adott szekció megnyitása a szinopszis egész szövegében elhelyezve.
         </li>
         <li>
             <i class="bi bi-link-45deg"></i> :
