@@ -13,7 +13,7 @@ export default {
 
 <template>
     <p>
-        The synopsis contains the Gospels of Matthew, Mark, Luke, and John in parallel. The text boxes placed next to each other present the parallel passages of the Gospels. These parallels were determined by the German theologian Kurt Aland in his work <i>Synopsis Quattuor Evangeliorum</i>.<br>
+        The synopsis contains the Gospels of Matthew, Mark, Luke and John in parallel. The text boxes placed next to each other present the parallel passages of the Gospels. These parallels were determined by the German theologian Kurt Aland in his work <i>Synopsis Quattuor Evangeliorum</i>.<br>
         On this site, we use this structure and fill it with various Gospel translations.
     </p>
     <h2 class="fs-3">
