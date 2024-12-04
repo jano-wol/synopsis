@@ -71,7 +71,7 @@ def main():
                 while start <= end:
                     n = BibleRef(start.e, start.chapter, start.verse, 2)
                     if n in sub_ref_problems:
-                        if end.get_base_ref() != start:
+                        if end.get_base_ref() != start or end.is_cut_ref() == False:
                             sub_ref_problems.discard(n)
                     all_refs.discard(start)
                     start = start.next()
