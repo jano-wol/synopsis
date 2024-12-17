@@ -80,7 +80,15 @@ def main():
     test_box_interval_property(translation)
     test_main_body_partition_property(translation)
     test_main_body_ordering(translation)
-
+    curr_cuts = translation.get_cut_verses()
+    print(curr_cuts)
+    secondary_cuts = [BibleRef(2, 6, 14, 0), BibleRef(0, 26, 60, 0), BibleRef(0, 13, 57, 0), BibleRef(2, 3, 2, 0), BibleRef(0, 12, 15, 0), BibleRef(1, 1, 45, 0), BibleRef(1, 6, 6, 0), BibleRef(0, 13, 2, 0), BibleRef(1, 4, 1, 0), BibleRef(1, 6, 6, 0), BibleRef(2, 8, 18, 0), BibleRef(2, 6, 20, 0), BibleRef(3, 15, 20, 0), BibleRef(0, 12, 15, 0), BibleRef(0, 13, 2, 0), BibleRef(1, 4, 1, 0), BibleRef(1, 6, 56, 0), BibleRef(3, 16, 2, 0), BibleRef(2, 9, 48, 0), BibleRef(0, 21, 31, 0), BibleRef(1, 6, 6, 0), BibleRef(2, 9, 50, 0), BibleRef(3, 9, 39, 0), BibleRef(1, 8, 17, 0), BibleRef(1, 6, 56, 0), BibleRef(0, 16, 13, 0), BibleRef(1, 8, 27, 0), BibleRef(2, 9, 18, 0), BibleRef(0, 14, 12, 0), BibleRef(1, 5, 29, 0), BibleRef(0, 13, 54, 0), BibleRef(0, 13, 57, 0), BibleRef(1, 6, 2, 0), BibleRef(2, 9, 10, 0), BibleRef(0, 10, 2, 0), BibleRef(2, 6, 13, 0), BibleRef(2, 6, 14, 0), BibleRef(2, 24, 6, 0), BibleRef(2, 9, 43, 0), BibleRef(2, 3, 22, 0), BibleRef(0, 17, 9, 0), BibleRef(1, 9, 9, 0), BibleRef(2, 24, 6, 0), BibleRef(2, 18, 14, 0), BibleRef(1, 6, 6, 0), BibleRef(2, 9, 48, 0), BibleRef(0, 14, 12, 0), BibleRef(2, 9, 10, 0), BibleRef(2, 9, 50, 0), BibleRef(0, 16, 2, 0), BibleRef(1, 12, 38, 0), BibleRef(0, 25, 20, 0), BibleRef(0, 9, 30, 0), BibleRef(2, 18, 43, 0), BibleRef(2, 4, 22, 0), BibleRef(1, 8, 17, 0), BibleRef(2, 8, 10, 0), BibleRef(1, 9, 35, 0), BibleRef(2, 9, 43, 0), BibleRef(2, 24, 6, 0), BibleRef(2, 8, 18, 0), BibleRef(2, 21, 5, 0), BibleRef(0, 21, 19, 0), BibleRef(1, 12, 12, 0), BibleRef(1, 12, 34, 0), BibleRef(1, 12, 34, 0), BibleRef(2, 9, 48, 0), BibleRef(2, 18, 14, 0), BibleRef(2, 21, 8, 0), BibleRef(2, 8, 18, 0), BibleRef(1, 8, 38, 0), BibleRef(2, 9, 26, 0), BibleRef(2, 3, 22, 0), BibleRef(1, 8, 17, 0), BibleRef(2, 8, 21, 0), BibleRef(3, 8, 38, 0), BibleRef(0, 27, 26, 0), BibleRef(1, 15, 15, 0), BibleRef(2, 23, 33, 0), BibleRef(1, 15, 36, 0)]
+    new_cuts = set()
+    for ref in secondary_cuts:
+        if ref not in curr_cuts:
+            new_cuts.add(ref)
+    print(sorted(new_cuts))
+    print(len(new_cuts))
 
 if __name__ == '__main__':
     main()
