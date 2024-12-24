@@ -9,16 +9,16 @@ import { fetchGospel, isValidDate} from '@/utils/calendarGospel';
 
 
 import synopsisSZIT from '@/assets/translations/szit.json'
-import synopsisKG from '@/assets/translations/kg.json'
-import synopsisKNB from '@/assets/translations/knb.json'
-import synopsisRUF from '@/assets/translations/ruf.json'
+// import synopsisKG from '@/assets/translations/kg.json'
+// import synopsisKNB from '@/assets/translations/knb.json'
+// import synopsisRUF from '@/assets/translations/ruf.json'
 import synopsisESV from '@/assets/translations/esv.json'
-import synopsisEU from '@/assets/translations/eu.json'
-import synopsisBT from '@/assets/translations/bt.json'
-import synopsisBJW from '@/assets/translations/bjw.json'
-import synopsisRSP from '@/assets/translations/rsp.json'
-import synopsisSBLGNT from '@/assets/translations/sblgnt.json'
-import synopsisNV from '@/assets/translations/nv.json'
+// import synopsisEU from '@/assets/translations/eu.json'
+// import synopsisBT from '@/assets/translations/bt.json'
+// import synopsisBJW from '@/assets/translations/bjw.json'
+// import synopsisRSP from '@/assets/translations/rsp.json'
+// import synopsisSBLGNT from '@/assets/translations/sblgnt.json'
+// import synopsisNV from '@/assets/translations/nv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
 import type { QuoteScheme } from '@/interfaces/dailyGospelInterface';
@@ -31,23 +31,23 @@ export const useSynopsisStore = defineStore('synopsis', {
             currentDictionary: dictionaryHu,
             currentLanguage: "hu",
             currentTranslation: "",
-            currentSynopsis: synopsisKG,
+            currentSynopsis: synopsisSZIT,
             dictionary: {
                hu: dictionaryHu as DictionaryScheme,
                en: dictionaryEn as DictionaryScheme
             },
             synopses: [
                 synopsisSZIT as SynopsisScheme,
-                synopsisKG as SynopsisScheme,
-                synopsisKNB as SynopsisScheme,
-                synopsisRUF as SynopsisScheme,
+                // synopsisKG as SynopsisScheme,
+                // synopsisKNB as SynopsisScheme,
+                // synopsisRUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme,
-                synopsisEU as SynopsisScheme,
-                synopsisBT as SynopsisScheme,
-                synopsisBJW as SynopsisScheme,
-                synopsisRSP as SynopsisScheme,
-                synopsisSBLGNT as SynopsisScheme,
-                synopsisNV as SynopsisScheme
+                // synopsisEU as SynopsisScheme,
+                // synopsisBT as SynopsisScheme,
+                // synopsisBJW as SynopsisScheme,
+                // synopsisRSP as SynopsisScheme,
+                // synopsisSBLGNT as SynopsisScheme,
+                // synopsisNV as SynopsisScheme
             ],
             isLoading: false,
             dailyGospel: null as null | QuoteScheme,
@@ -335,6 +335,39 @@ export const useSynopsisStore = defineStore('synopsis', {
 
                 return false;
             }
-        }
+        },
+        async loadSynopsis(translation : string)
+        {
+            const synopsis = (await import(`@/assets/translations/${translation}.json`)).default;
+            this.synopses.push(synopsis)
+        },
+        async loadSynopses() {
+            if (this.synopses.length < 11)
+            {
+                const translationsToLoad = [
+                'kg',
+                'knb',
+                'ruf',
+                'esv',
+                'eu',
+                'bt',
+                'bjw',
+                'rsp',
+                'sblgnt',
+                'nv',
+                ];
+
+                for (const path of translationsToLoad) {
+                    try {
+                    const translation = (await import(`@/assets/translations/${path}.json`)).default;
+                    if (!this.synopses.includes(translation)) {
+                        this.synopses.push(translation);
+                    }
+                    } catch (error) {
+                    console.error(`Error loading translation from ${path}:`, error);
+                    }
+                }
+            }
+        },
     }
 })
