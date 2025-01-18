@@ -342,16 +342,19 @@ export const useSynopsisStore = defineStore('synopsis', {
             .map((value) => value);
             return translationsToLoad
         },
-        async loadSynopsis(translation : string)
-        {
-            const synopsis = (await import(`@/assets/translations/${translation}.json`)).default;
-            this.synopses.push(synopsis)
+        sortTranslaions(){
             const translations = this.getTranslationsList()
             this.synopses.sort((a, b) => {
                 const indexA = translations.indexOf(a.translation);
                 const indexB = translations.indexOf(b.translation);
                 return (indexA === -1 ? Number.MAX_VALUE : indexA) - (indexB === -1 ? Number.MAX_VALUE : indexB);
               });
+        },
+        async loadSynopsis(translation : string)
+        {
+            const synopsis = (await import(`@/assets/translations/${translation}.json`)).default;
+            this.synopses.push(synopsis)
+            this.sortTranslaions()
         },
         async loadSynopses() {
             const translationsToLoad = this.getTranslationsList()
@@ -362,11 +365,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                     const translation = (await import(`@/assets/translations/${path.toLowerCase()}.json`)).default;
                     if (!this.synopses.includes(translation)) {
                         this.synopses.push(translation);
-                        this.synopses.sort((a, b) => {
-                            const indexA = translationsToLoad.indexOf(a.translation);
-                            const indexB = translationsToLoad.indexOf(b.translation);
-                            return (indexA === -1 ? Number.MAX_VALUE : indexA) - (indexB === -1 ? Number.MAX_VALUE : indexB);
-                          });
+                        this.sortTranslaions()
                     }
                     } catch (error) {
                     console.error(`Error loading translation from ${path.toLowerCase()}:`, error);
