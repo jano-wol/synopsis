@@ -9,11 +9,7 @@ import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
 import DailyGospelView from '@/components/DailyGospelView.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
-
-const options: { [key: string]: string[] } = {
-  "hu": ["SZIT", "KG", "KNB", "RUF"],
-  "en": ["ESV", "EU", "BT", "BJW", "RSP", "SBLGNT", "NV"]
-}
+import { options } from '@/utils/options'
 
 const languageDefaultRedirect = (path : string) =>
   Object.keys(options).map(language => ({
@@ -128,8 +124,19 @@ const router = createRouter({
   },
 })
 
-router.beforeEach((to, from, next) => {
+router.beforeEach(async (to, from, next) => {
+  
   useSynopsisStore().setupLanguage(to.params.language)
+  let translations = []
+  for (let i = 0; i< useSynopsisStore().synopses.length; i++)
+  {
+    translations.push(useSynopsisStore().synopses[i].translation)
+  }
+  if (to.params.translation && !translations.includes(to.params.translation as string))
+  {
+    await useSynopsisStore().loadSynopsis((to.params.translation as string).toLowerCase())
+  }
+  useSynopsisStore().loadSynopses()
   useSynopsisStore().setupTranslation(to.params.translation, options)
 
   const requiresLanguage = to.matched.some((record) => {
