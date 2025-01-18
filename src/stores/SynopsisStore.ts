@@ -23,7 +23,7 @@ import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
 import type { QuoteScheme } from '@/interfaces/dailyGospelInterface';
 import { ErrorCode } from '@/enums/ErrorCode';
-
+import { options } from '@/utils/options';
 
 export const useSynopsisStore = defineStore('synopsis', {
     state: () => {
@@ -336,35 +336,40 @@ export const useSynopsisStore = defineStore('synopsis', {
                 return false;
             }
         },
+        getTranslationsList(){
+            const translationsToLoad : string[]  = Object.values(options)
+            .flat()
+            .map((value) => value);
+            return translationsToLoad
+        },
         async loadSynopsis(translation : string)
         {
             const synopsis = (await import(`@/assets/translations/${translation}.json`)).default;
             this.synopses.push(synopsis)
+            const translations = this.getTranslationsList()
+            this.synopses.sort((a, b) => {
+                const indexA = translations.indexOf(a.translation);
+                const indexB = translations.indexOf(b.translation);
+                return (indexA === -1 ? Number.MAX_VALUE : indexA) - (indexB === -1 ? Number.MAX_VALUE : indexB);
+              });
         },
         async loadSynopses() {
-            if (this.synopses.length < 11)
+            const translationsToLoad = this.getTranslationsList()
+            if (this.synopses.length < translationsToLoad.length)
             {
-                const translationsToLoad = [
-                'kg',
-                'knb',
-                'ruf',
-                'esv',
-                'eu',
-                'bt',
-                'bjw',
-                'rsp',
-                'sblgnt',
-                'nv',
-                ];
-
                 for (const path of translationsToLoad) {
                     try {
-                    const translation = (await import(`@/assets/translations/${path}.json`)).default;
+                    const translation = (await import(`@/assets/translations/${path.toLowerCase()}.json`)).default;
                     if (!this.synopses.includes(translation)) {
                         this.synopses.push(translation);
+                        this.synopses.sort((a, b) => {
+                            const indexA = translationsToLoad.indexOf(a.translation);
+                            const indexB = translationsToLoad.indexOf(b.translation);
+                            return (indexA === -1 ? Number.MAX_VALUE : indexA) - (indexB === -1 ? Number.MAX_VALUE : indexB);
+                          });
                     }
                     } catch (error) {
-                    console.error(`Error loading translation from ${path}:`, error);
+                    console.error(`Error loading translation from ${path.toLowerCase()}:`, error);
                     }
                 }
             }

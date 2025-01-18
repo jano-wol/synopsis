@@ -9,11 +9,7 @@ import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
 import DailyGospelView from '@/components/DailyGospelView.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
-
-const options: { [key: string]: string[] } = {
-  "hu": ["SZIT", "KG", "KNB", "RUF"],
-  "en": ["ESV", "EU", "BT", "BJW", "RSP", "SBLGNT", "NV"]
-}
+import { options } from '@/utils/options'
 
 const languageDefaultRedirect = (path : string) =>
   Object.keys(options).map(language => ({
