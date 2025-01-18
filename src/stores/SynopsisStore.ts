@@ -9,16 +9,7 @@ import { fetchGospel, isValidDate} from '@/utils/calendarGospel';
 
 
 import synopsisSZIT from '@/assets/translations/szit.json'
-// import synopsisKG from '@/assets/translations/kg.json'
-// import synopsisKNB from '@/assets/translations/knb.json'
-// import synopsisRUF from '@/assets/translations/ruf.json'
 import synopsisESV from '@/assets/translations/esv.json'
-// import synopsisEU from '@/assets/translations/eu.json'
-// import synopsisBT from '@/assets/translations/bt.json'
-// import synopsisBJW from '@/assets/translations/bjw.json'
-// import synopsisRSP from '@/assets/translations/rsp.json'
-// import synopsisSBLGNT from '@/assets/translations/sblgnt.json'
-// import synopsisNV from '@/assets/translations/nv.json'
 import dictionaryEn from '@/assets/languages/en.json'
 import dictionaryHu from '@/assets/languages/hu.json'
 import type { QuoteScheme } from '@/interfaces/dailyGospelInterface';
@@ -38,16 +29,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             },
             synopses: [
                 synopsisSZIT as SynopsisScheme,
-                // synopsisKG as SynopsisScheme,
-                // synopsisKNB as SynopsisScheme,
-                // synopsisRUF as SynopsisScheme,
                 synopsisESV as SynopsisScheme,
-                // synopsisEU as SynopsisScheme,
-                // synopsisBT as SynopsisScheme,
-                // synopsisBJW as SynopsisScheme,
-                // synopsisRSP as SynopsisScheme,
-                // synopsisSBLGNT as SynopsisScheme,
-                // synopsisNV as SynopsisScheme
             ],
             isLoading: false,
             dailyGospel: null as null | QuoteScheme,
