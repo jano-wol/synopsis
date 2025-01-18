@@ -126,6 +126,7 @@ const router = createRouter({
 
 router.beforeEach(async (to, from, next) => {
   
+  useSynopsisStore().setupLanguage(to.params.language)
   let translations = []
   for (let i = 0; i< useSynopsisStore().synopses.length; i++)
   {
@@ -136,7 +137,6 @@ router.beforeEach(async (to, from, next) => {
     await useSynopsisStore().loadSynopsis((to.params.translation as string).toLowerCase())
   }
   useSynopsisStore().loadSynopses()
-  useSynopsisStore().setupLanguage(to.params.language)
   useSynopsisStore().setupTranslation(to.params.translation, options)
 
   const requiresLanguage = to.matched.some((record) => {
