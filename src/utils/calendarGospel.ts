@@ -1,22 +1,12 @@
 import type { GospelScheme, QuoteScheme } from "@/interfaces/dailyGospelInterface";
 
-export async function fetchGospel(date: Date): Promise<GospelScheme> {
-    try {
+export async function fetchGospel(date: Date): Promise<QuoteScheme> {
         const month = String(date.getMonth() + 1).padStart(2, '0');
         const day = String(date.getDate()).padStart(2, '0');
-        // const response = await fetch(`http://localhost:3000/${date.getFullYear()}/${month}/${day}`);
-        const response = await fetch(`https://igenaptar-api-production.up.railway.app/${date.getFullYear()}/${month}/${day}`);
-        if (!response.ok) {
-          throw new Error(`Error: ${response.status} - ${response.statusText}`);
-        }
-        
+        const url = `${import.meta.env.BASE_URL}calendar/${date.getFullYear()}/${month}/${day}.json`;
+        const response = await fetch(url);
         const data = await response.json();
-        return data;
-
-    } catch (error) {
-        console.error("Fetch error:", error);
-        throw error;
-    }
+        return data.daily_gospel[0];
 }
 
 export function isValidDate(value : string) : boolean {

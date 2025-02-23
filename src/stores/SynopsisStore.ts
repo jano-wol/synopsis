@@ -193,9 +193,8 @@ export const useSynopsisStore = defineStore('synopsis', {
                     this.isLoading = true
                 }
 
-                const  dailyGospel = await fetchGospel(new Date(date));
+                const  gospel = await fetchGospel(new Date(date));
                 this.isLoading = false
-                const gospel = dailyGospel.gospel
                 for (let i = 0; i<gospel.intervals.length; i++)
                 {
                     gospel.intervals[i].start.verse = this.formatVerse(gospel.evangelist, gospel.intervals[i].start.chapter, gospel.intervals[i].start.verse)
