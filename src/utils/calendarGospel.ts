@@ -3,10 +3,18 @@ import type { GospelScheme, QuoteScheme } from "@/interfaces/dailyGospelInterfac
 export async function fetchGospel(date: Date): Promise<QuoteScheme> {
         const month = String(date.getMonth() + 1).padStart(2, '0');
         const day = String(date.getDate()).padStart(2, '0');
-        const url = `${import.meta.env.BASE_URL}calendar/${date.getFullYear()}/${month}/${day}.json`;
-        const response = await fetch(url);
-        const data = await response.json();
-        return data.daily_gospel[0];
+        try {
+          const response = await fetch(`https://www.synopticus.org/gospel-calendar/api.php?date=${date.getFullYear()}-${month}-${day}`);
+          if (!response.ok) {
+            throw new Error(`Error: ${response.status} - ${response.statusText}`);
+          }
+          const data = await response.json();
+          return data.gospels[0];
+        }
+        catch (error) {
+          console.error("Fetch error:", error);
+          throw error;
+      }
 }
 
 export function isValidDate(value : string) : boolean {
