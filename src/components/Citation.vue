@@ -58,15 +58,9 @@ export default {
   computed: {
     spanClass() {
       return (evangelist: string, chapter:string, verse:string) => {
-        const isInDailyGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse);
-        const isInDateGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse, false);
-
-        if (isInDailyGospel && isInDateGospel) {
-          return 'bg-success-subtle';
-        } else if (isInDailyGospel) {
-          return 'bg-warning-subtle';
-        } else if (isInDateGospel) {
-          return 'bg-info-subtle';
+        const isInDateGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse);
+        if (isInDateGospel) {
+          return "bg-warning-subtle "
         }
         return '';
       };

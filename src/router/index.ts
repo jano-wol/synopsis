@@ -7,7 +7,6 @@ import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import Section from '@/components/Section.vue'
-import DailyGospelView from '@/components/DailyGospelView.vue'
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 import { options } from '@/utils/options'
 
@@ -69,8 +68,18 @@ const router = createRouter({
     {
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/today`,
       name: 'today',
-      component: DailyGospelView
-    },
+      redirect: (to) => {
+        const today = useSynopsisStore().date; // YYYY-MM-DD format
+        return {
+          name: 'calendar',
+          params: {
+            language: to.params.language,
+            translation: to.params.translation,
+            date: today,
+          },
+        };
+      },
+    },    
     {
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/:date`,
       name: 'calendar',

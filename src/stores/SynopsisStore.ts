@@ -32,8 +32,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                 synopsisESV as SynopsisScheme,
             ],
             isLoading: false,
-            dailyGospel: null as null | QuoteScheme,
-            dailyGospelSections: [] as Array<string>,
+            date: new Date().toISOString().split('T')[0],
             dateGospel: null as null | QuoteScheme,
             dateGospelSections: [] as Array<string>,
             error: null as null | ErrorCode,
@@ -166,11 +165,7 @@ export const useSynopsisStore = defineStore('synopsis', {
               }, 0);
             }
         },
-        async getGospel(date: string, isDaily: boolean = true) : Promise<void> {
-            if (this.dailyGospel && isDaily)
-            {
-                return
-            }
+        async getGospel(date: string) : Promise<void> {
             if (!isValidDate(date))
             {
                 this.error = ErrorCode.DATE
@@ -180,11 +175,7 @@ export const useSynopsisStore = defineStore('synopsis', {
 
 
 
-            let gospelSections = this.dailyGospelSections
-            if (!isDaily)
-            {
-                gospelSections = this.dateGospelSections
-            }
+            
 
             // TODO: reduce try block length            
             try{
@@ -194,19 +185,16 @@ export const useSynopsisStore = defineStore('synopsis', {
                 }
 
                 const  gospel = await fetchGospel(new Date(date));
+                this.date = date
+                this.dateGospelSections = []
+                
                 this.isLoading = false
                 for (let i = 0; i<gospel.intervals.length; i++)
                 {
                     gospel.intervals[i].start.verse = this.formatVerse(gospel.evangelist, gospel.intervals[i].start.chapter, gospel.intervals[i].start.verse)
                     gospel.intervals[i].end.verse = this.formatVerse(gospel.evangelist, gospel.intervals[i].end.chapter, gospel.intervals[i].end.verse)
                 }
-                if (isDaily)
-                {
-                    this.dailyGospel = gospel
-                }
-                else {
                     this.dateGospel = gospel
-                }
                     // TODO: duplicated functions in isInQuote
                     const parseChapterVerse = (chapter: string, verse: string) => {
                     const chapterNumber = parseInt(chapter, 10);
@@ -254,9 +242,9 @@ export const useSynopsisStore = defineStore('synopsis', {
                                             && 
                                             compareChapterVerses(contentQuote, gospelEndQuote) <= 0  
                                             &&
-                                            !gospelSections.includes(section.id) 
+                                            !this.dateGospelSections.includes(section.id) 
                                         ){
-                                            gospelSections.push(section.id)
+                                            this.dateGospelSections.push(section.id)
                                         }
                                     }
                                 }
@@ -271,11 +259,8 @@ export const useSynopsisStore = defineStore('synopsis', {
             }
         },
         //TODO: quote? what is citation, what is quote, what is verse?
-        isQuoteInGospel(evangelist: string, chapter: string, verse: string, isDaily : boolean = true){
-            let gospel = this.dailyGospel
-            if (!isDaily) {
-                gospel = this.dateGospel
-            }
+        isQuoteInGospel(evangelist: string, chapter: string, verse: string){
+            let gospel = this.dateGospel
             if (gospel && gospel.evangelist === evangelist)
             {       
                 const parseChapterVerse = (chapter: string, verse: string) => {

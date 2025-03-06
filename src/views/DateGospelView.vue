@@ -15,13 +15,11 @@ export default {
     data() {
         return {
             synopsisStore: useSynopsisStore(),
-            gospelSections: [] as Array<string>,
         }
     },
     mounted()
     {
-        this.gospelSections = this.synopsisStore.dateGospelSections
-        this.synopsisStore.getGospel(this.$route.params.date as string, false).then(() => { console.log(this.synopsisStore.dailyGospelSections)});
+        this.synopsisStore.getGospel(this.$route.params.date as string).then(() => { console.log(this.synopsisStore.dateGospelSections)});
     },
     components: {
         Section, Loader, ErrorMessage
@@ -35,5 +33,5 @@ export default {
     <!-- v-if won't work properly if it will be possible to change date on the 'calendar' route  -->
     <Loader v-if="synopsisStore.dateGospel === null && synopsisStore.error === null"/>
     <ErrorMessage />
-    <Section v-for="id in gospelSections" :id="id" :key="id" />
+    <Section v-for="id in synopsisStore.dateGospelSections" :id="id" :key="id" />
 </template>
