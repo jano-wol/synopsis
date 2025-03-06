@@ -1,7 +1,7 @@
 <script lang="ts">
 import Section from '@/components/Section.vue'
 import type { QuoteScheme } from '@/interfaces/dailyGospelInterface';
-import type { CitationScheme, SectionScheme } from '@/interfaces/synopsisInterface';
+import type { SectionScheme } from '@/interfaces/synopsisInterface';
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 import ErrorMessage from '@/components/ErrorMessage.vue'
 import Loader from '@/components/Loader.vue'
@@ -54,7 +54,6 @@ export default {
 
 
 <template>
-    <!-- v-if won't work properly if it will be possible to change date on the 'calendar' route  -->
     <Loader v-if="synopsisStore.dateGospel === null && synopsisStore.error === null"/>
     <ErrorMessage />
     <template v-if="synopsisStore.dateGospel !== null">
