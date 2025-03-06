@@ -5,6 +5,7 @@ import type { CitationScheme, SectionScheme } from '@/interfaces/synopsisInterfa
 import { useSynopsisStore } from "@/stores/SynopsisStore"
 import ErrorMessage from '@/components/ErrorMessage.vue'
 import Loader from '@/components/Loader.vue'
+import router from '../router';
 
 export default {
     data() {
@@ -15,15 +16,20 @@ export default {
     },
     mounted()
     {
+        this.selectedDate = this.$route.params.date as string;
         this.synopsisStore.getGospel(this.$route.params.date as string)
+    },
+    beforeRouteUpdate(to)
+    {
+        this.synopsisStore.getGospel(to.params.date as string)
+        this.selectedDate = to.params.date as string
     },
     components: {
         Section, Loader, ErrorMessage
     },
     methods: {
         handleDateChange() {
-            console.log(this.selectedDate)
-            this.synopsisStore.getGospel(this.selectedDate)
+            router.push({ name: "calendar", params: {date: this.selectedDate}});
         }
     }
 }
@@ -38,7 +44,9 @@ export default {
     <template v-if="synopsisStore.dateGospel !== null">
         <h1 class="text-center"><i class="bi bi-sun"></i></h1>
         <div class="d-flex justify-content-center">
-            <input type="date" class="form-control w-auto" min="1901-01-01" max="2100-12-31"
+            <input type="date" class="form-control w-auto"
+            min="1901-01-01"
+            max="2100-12-31"
             @change="handleDateChange()"
             v-model="selectedDate">
         </div>
