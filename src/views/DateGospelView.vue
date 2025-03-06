@@ -6,11 +6,6 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 import ErrorMessage from '@/components/ErrorMessage.vue'
 import Loader from '@/components/Loader.vue'
 
-//TODO: very similar to dailygosepl component. its needed to be separated a separataed because of realoading.
-// when visiting on 'calendar' first then 'today', it should be rerendered. acceptable, but think about a better option.
-//
-// also in the future it could have unique functions (eg calendar for date selection, next day, last day etc),
-// so it might be proper to separate them
 export default {
     data() {
         return {
@@ -19,7 +14,7 @@ export default {
     },
     mounted()
     {
-        this.synopsisStore.getGospel(this.$route.params.date as string).then(() => { console.log(this.synopsisStore.dateGospelSections)});
+        this.synopsisStore.getGospel(this.$route.params.date as string)
     },
     components: {
         Section, Loader, ErrorMessage
