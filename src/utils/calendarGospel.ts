@@ -1,6 +1,6 @@
 import type { GospelScheme, QuoteScheme } from "@/interfaces/dailyGospelInterface";
 
-export async function fetchGospel(date: Date): Promise<QuoteScheme> {
+export async function fetchGospel(date: Date): Promise<GospelScheme> {
         const month = String(date.getMonth() + 1).padStart(2, '0');
         const day = String(date.getDate()).padStart(2, '0');
         try {
@@ -9,7 +9,7 @@ export async function fetchGospel(date: Date): Promise<QuoteScheme> {
             throw new Error(`Error: ${response.status} - ${response.statusText}`);
           }
           const data = await response.json();
-          return data.gospels[0];
+          return {color: data.colors, gospel: data.gospels[0]};
         }
         catch (error) {
           console.error("Fetch error:", error);

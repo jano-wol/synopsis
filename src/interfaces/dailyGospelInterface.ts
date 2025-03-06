@@ -1,4 +1,5 @@
 export interface GospelScheme {
+    color: string;
     gospel: QuoteScheme;
 }
 
@@ -18,3 +19,4 @@ export interface QuoteScheme {
     start: VerseScheme
     end: VerseScheme
 }
+

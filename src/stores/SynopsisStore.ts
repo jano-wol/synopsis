@@ -33,6 +33,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             ],
             isLoading: false,
             date: new Date().toISOString().split('T')[0],
+            color: "",
             dateGospel: null as null | QuoteScheme,
             dateGospelSections: [] as Array<string>,
             error: null as null | ErrorCode,
@@ -184,7 +185,9 @@ export const useSynopsisStore = defineStore('synopsis', {
                     this.isLoading = true
                 }
 
-                const  gospel = await fetchGospel(new Date(date));
+                const  gospelInfo = await fetchGospel(new Date(date));
+                const  gospel = gospelInfo.gospel
+                this.color = gospelInfo.color
                 this.date = date
                 this.dateGospelSections = []
                 
