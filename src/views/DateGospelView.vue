@@ -6,6 +6,7 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 import ErrorMessage from '@/components/ErrorMessage.vue'
 import Loader from '@/components/Loader.vue'
 import router from '../router';
+import { dateToString, stringToDate } from '@/utils/date';
 
 export default {
     data() {
@@ -28,8 +29,23 @@ export default {
         Section, Loader, ErrorMessage
     },
     methods: {
-        handleDateChange() {
+        navigateDate() {
             router.push({ name: "calendar", params: {date: this.selectedDate}});
+        },
+        shiftDate(n: number)
+        {
+            const date = stringToDate(this.selectedDate)
+            date.setDate(date.getDate() + n);
+            this.selectedDate = dateToString(date)
+            this.navigateDate()
+        },
+        navigateTomorrow()
+        {
+            this.shiftDate(1)
+        },
+        navigateYesterday()
+        {
+            this.shiftDate(-1)
         }
     }
 }
@@ -44,11 +60,13 @@ export default {
     <template v-if="synopsisStore.dateGospel !== null">
         <h1 class="text-center"><i class="bi bi-sun"></i></h1>
         <div class="d-flex justify-content-center">
+            <button class="btn" @click="navigateYesterday()"><i class="bi bi-chevron-left"></i></button>
             <input type="date" class="form-control w-auto"
             min="1901-01-01"
             max="2100-12-31"
-            @change="handleDateChange()"
+            @change="navigateDate()"
             v-model="selectedDate">
+            <button class="btn" @click="navigateTomorrow()"><i class="bi bi-chevron-right"></i></button>
         </div>
     </template>
 
