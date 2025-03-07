@@ -57,7 +57,6 @@ export default {
     <Loader v-if="synopsisStore.dateGospel === null && synopsisStore.error === null"/>
     <ErrorMessage />
     <template v-if="synopsisStore.dateGospel !== null">
-        <p>{{ synopsisStore.color }}</p>
         <h1 class="text-center"><i class="bi bi-sun"></i></h1>
         <div class="d-flex justify-content-center">
             <button class="btn" @click="navigateYesterday()"><i class="bi bi-chevron-left"></i></button>

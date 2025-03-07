@@ -60,23 +60,22 @@ export default {
       return (evangelist: string, chapter:string, verse:string) => {
         const isInDateGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse);
         if (isInDateGospel) {
-          console.log("HELLO")
           switch (this.synopsisStore.color)
           {
             case "white":
-              return "bg-white"
+              return "liturgical-white shadow-sm border-bottom border-top"
             case "violet":
-              return "bg-primary-subtle" 
+              return "liturgical-violet" 
             case "rose":
-              return "bg-danger-subtle" 
+              return "liturgical-rose" 
             case "black":
-              return "bg-dark-subtle" 
+              return "liturgical-black" 
             case "red":
-              return "bg-danger" 
+              return "liturgical-red" 
             case "green":
-              return "bg-success-subtle" 
+              return "liturgical-green" 
             default:
-              return "bg-warning-subtle"
+              return "shadow-sm border-bottom border-top"
           }
         }
         return '';
@@ -85,6 +84,27 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+  .liturgical-white {
+    background: #fff
+  }
+  .liturgical-violet {
+    background: #e2d9f3
+  }
+  .liturgical-rose {
+    background: #f7d6e6
+  }
+  .liturgical-black {
+    background: #ced4da
+  }
+  .liturgical-red {
+    background: #f1aeb5
+  }
+  .liturgical-green {
+    background: #d1e7dd
+  }
+</style>
 
 <template>
   <div class="card h-100" v-if="citation?.content" :class="{ 'shadow border-2 border-secondary bg-body-tertiary': citation.leading }">
