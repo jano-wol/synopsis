@@ -33,7 +33,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             ],
             isLoading: false,
             date: new Date().toISOString().split('T')[0],
-            color: "",
+            color: null as null | string,
             dateGospel: null as null | QuoteScheme,
             dateGospelSections: [] as Array<string>,
             error: null as null | ErrorCode,

@@ -60,7 +60,24 @@ export default {
       return (evangelist: string, chapter:string, verse:string) => {
         const isInDateGospel = this.synopsisStore.isQuoteInGospel(evangelist, chapter, verse);
         if (isInDateGospel) {
-          return "bg-warning-subtle "
+          console.log("HELLO")
+          switch (this.synopsisStore.color)
+          {
+            case "white":
+              return "bg-white"
+            case "violet":
+              return "bg-primary-subtle" 
+            case "rose":
+              return "bg-danger-subtle" 
+            case "black":
+              return "bg-dark-subtle" 
+            case "red":
+              return "bg-danger" 
+            case "green":
+              return "bg-success-subtle" 
+            default:
+              return "bg-warning-subtle"
+          }
         }
         return '';
       };

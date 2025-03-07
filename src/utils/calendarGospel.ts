@@ -9,7 +9,7 @@ export async function fetchGospel(date: Date): Promise<GospelScheme> {
             throw new Error(`Error: ${response.status} - ${response.statusText}`);
           }
           const data = await response.json();
-          return {color: data.colors, gospel: data.gospels[0]};
+          return {color: data.colors[0], gospel: data.gospels[0]};
         }
         catch (error) {
           console.error("Fetch error:", error);
