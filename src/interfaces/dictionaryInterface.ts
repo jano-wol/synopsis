@@ -22,7 +22,10 @@ interface TooltipsScheme {
     openSeparately: string,
     nextMainText: string,
     previousMainText: string,
-    jumpToMainText: string
+    jumpToMainText: string,
+    liturgicalColor: string,
+    nextDay: string,
+    previousDay: string
 }
 
 interface NotFoundScheme {

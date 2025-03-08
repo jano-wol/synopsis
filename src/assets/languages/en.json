@@ -15,7 +15,10 @@
         "openSeparately": "Open separately",
         "nextMainText": "Next main text",
         "previousMainText": "Previous main text",
-        "jumpToMainText": "Jump to main text"
+        "jumpToMainText": "Jump to main text",
+        "liturgicalColor": "Liturgical colour",
+        "nextDay": "Next day",
+        "previousDay": "Previous day"
     },
     "notFound": {
         "notFound": "Not found"

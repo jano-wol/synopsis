@@ -81,15 +81,22 @@ export default {
     <template v-if="synopsisStore.dateGospel !== null">
         <h1 class="text-center"><i class="bi bi-sun"></i></h1>
         <div class="d-flex justify-content-center">
-            <button class="btn" @click="navigateYesterday()"><i class="bi bi-chevron-left"></i></button>
+            <button class="btn" @click="navigateYesterday()"
+            :title="synopsisStore.currentDictionary.tooltips.previousDay">
+                <i class="bi bi-chevron-left"></i>
+            </button>
             <input type="date" class="form-control w-auto"
             min="1901-01-01"
             max="2100-12-31"
             @input="navigateDate()"
             v-model="selectedDate">
-            <button class="btn" @click="navigateTomorrow()"><i class="bi bi-chevron-right"></i></button>
+            <button class="btn" @click="navigateTomorrow()"
+            :title="synopsisStore.currentDictionary.tooltips.nextDay">
+                <i class="bi bi-chevron-right"></i>
+            </button>
         </div>
-        <div class="d-flex justify-content-center" v-if="synopsisStore.color">
+        <div class="d-flex justify-content-center" v-if="synopsisStore.color"
+        :title="synopsisStore.currentDictionary.tooltips.liturgicalColor">
             <hr class="w-25 rounded-pill opacity-100" :class="synopsisStore.color">
         </div>
         

@@ -15,7 +15,10 @@
         "openSeparately": "Megnyitás külön oldalon",
         "nextMainText": "Következő törzsszöveg",
         "previousMainText": "Előző törzsszöveg",
-        "jumpToMainText": "Ugrás a törzsszöveghez"
+        "jumpToMainText": "Ugrás a törzsszöveghez",
+        "liturgicalColor": "Liturgikus szín",
+        "nextDay": "Következő nap",
+        "previousDay": "Előző nap"
     },
     "notFound": {
         "notFound": "Az oldal nem található"
