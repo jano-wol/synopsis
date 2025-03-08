@@ -19,8 +19,6 @@ export default {
     Part, Loader
   },
   mounted() {
-    this.synopsisStore.getGospel(this.synopsisStore.date)
-
     if (this.isValidHash(this.hash)) {
       this.synopsisStore.isLoading = true
       this.showScroller = true

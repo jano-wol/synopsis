@@ -17,13 +17,6 @@ export default {
             synopsisStore: useSynopsisStore(),
         }
     },
-    mounted()
-    {
-        if (this.$route.name === 'section')
-        {
-            this.synopsisStore.getGospel(this.synopsisStore.date)
-        }
-    },
     components: {
         Citation,
         FunctionButtons
