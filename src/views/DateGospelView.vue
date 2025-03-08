@@ -52,6 +52,28 @@ export default {
 
 </script>
 
+<style scoped>
+  .white {
+    border: 5px solid white;
+    box-shadow: 0px 0px 2px lightgray;
+  }
+  .violet {
+    border: 5px solid #6f42c1;
+  }
+  .rose {
+    border: 5px solid #ffbbdd;
+  }
+  .black {
+    border: 5px solid #000;
+  }
+  .red {
+    border: 5px solid #dc3545;
+  }
+  .green {
+    border: 5px solid #198754;
+  }
+</style>
+
 
 <template>
     <Loader v-if="synopsisStore.dateGospel === null && synopsisStore.error === null"/>
@@ -67,6 +89,10 @@ export default {
             v-model="selectedDate">
             <button class="btn" @click="navigateTomorrow()"><i class="bi bi-chevron-right"></i></button>
         </div>
+        <div class="d-flex justify-content-center" v-if="synopsisStore.color">
+            <hr class="w-25 rounded-pill opacity-100" :class="synopsisStore.color">
+        </div>
+        
     </template>
 
     <Section v-for="id in synopsisStore.dateGospelSections" :id="id" :key="id" />
