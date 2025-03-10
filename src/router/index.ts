@@ -69,7 +69,7 @@ const router = createRouter({
       path: `/:language${languageOptionsRegex}?/:translation${translationOptionsRegex}?/calendar/today`,
       name: 'today',
       redirect: (to) => {
-        const today = useSynopsisStore().date; // YYYY-MM-DD format
+        const today = useSynopsisStore().date;
         return {
           name: 'calendar',
           params: {

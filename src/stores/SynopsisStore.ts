@@ -204,7 +204,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                     const match = verse.match(/^(\d+)([a-z]?)$/);
 
                     if (isNaN(chapterNumber) || !match) {
-                        return { chapter: Infinity, verse: Infinity, letter: "" }; // Invalid input fallback
+                        return { chapter: Infinity, verse: Infinity, letter: "" };
                     }
 
                     return {
@@ -219,9 +219,9 @@ export const useSynopsisStore = defineStore('synopsis', {
                     cv1: { chapter: number; verse: number; letter: string },
                     cv2: { chapter: number; verse: number; letter: string }
                 ) => {
-                    if (cv1.chapter !== cv2.chapter) return cv1.chapter - cv2.chapter;  // Compare chapters
-                    if (cv1.verse !== cv2.verse) return cv1.verse - cv2.verse;          // Compare verses
-                    return cv1.letter.localeCompare(cv2.letter);                        // Compare optional letters
+                    if (cv1.chapter !== cv2.chapter) return cv1.chapter - cv2.chapter;
+                    if (cv1.verse !== cv2.verse) return cv1.verse - cv2.verse;
+                    return cv1.letter.localeCompare(cv2.letter);
                 };
             
                 for ( let n = 0 ; n < gospel.intervals.length; n ++)
@@ -285,9 +285,9 @@ export const useSynopsisStore = defineStore('synopsis', {
                     cv1: { chapter: number; verse: number; letter: string },
                     cv2: { chapter: number; verse: number; letter: string }
                 ) => {
-                    if (cv1.chapter !== cv2.chapter) return cv1.chapter - cv2.chapter;  // Compare chapters
-                    if (cv1.verse !== cv2.verse) return cv1.verse - cv2.verse;          // Compare verses
-                    return cv1.letter.localeCompare(cv2.letter);                        // Compare optional letters
+                    if (cv1.chapter !== cv2.chapter) return cv1.chapter - cv2.chapter;
+                    if (cv1.verse !== cv2.verse) return cv1.verse - cv2.verse;
+                    return cv1.letter.localeCompare(cv2.letter);
                 };
 
                 
