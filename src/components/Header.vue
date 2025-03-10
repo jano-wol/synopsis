@@ -75,7 +75,6 @@ export default {
                     synopsisStore.currentDictionary.menu.contact }}
                         </router-link>
                     </li>
-                    <!-- TODO: is it the best place in the header? -->
                     <li class="nav-item">
                         <router-link :to="{ name: 'today' }"
                             :class="$route.name == 'today' ? 'active' : ''" class="nav-link" aria-current="page">{{
