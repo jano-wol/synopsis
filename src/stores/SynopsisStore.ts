@@ -311,7 +311,7 @@ export const useSynopsisStore = defineStore('synopsis', {
             .map((value) => value);
             return translationsToLoad
         },
-        sortTranslaions(){
+        sortTranslations(){
             const translations = this.getTranslationsList()
             this.synopses.sort((a, b) => {
                 const indexA = translations.indexOf(a.translation);
@@ -323,7 +323,7 @@ export const useSynopsisStore = defineStore('synopsis', {
         {
             const synopsis = (await import(`@/assets/translations/${translation}.json`)).default;
             this.synopses.push(synopsis)
-            this.sortTranslaions()
+            this.sortTranslations()
         },
         async loadSynopses() {
             const translationsToLoad = this.getTranslationsList()
@@ -334,7 +334,7 @@ export const useSynopsisStore = defineStore('synopsis', {
                     const translation = (await import(`@/assets/translations/${path.toLowerCase()}.json`)).default;
                     if (!this.synopses.includes(translation)) {
                         this.synopses.push(translation);
-                        this.sortTranslaions()
+                        this.sortTranslations()
                     }
                     } catch (error) {
                     console.error(`Error loading translation from ${path.toLowerCase()}:`, error);
