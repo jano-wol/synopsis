@@ -271,13 +271,13 @@ export const useSynopsisStore = defineStore('synopsis', {
                     const match = verse.match(/^(\d+)([a-z]?)$/);
 
                     if (isNaN(chapterNumber) || !match) {
-                        return { chapter: Infinity, verse: Infinity, letter: "" }; // Invalid input fallback
+                        return { chapter: Infinity, verse: Infinity, letter: "" };
                     }
 
                     return {
-                        chapter: chapterNumber,            // Parsed chapter number
-                        verse: parseInt(match[1], 10),     // Parsed verse number
-                        letter: match[2] || ""             // Parsed optional letter
+                        chapter: chapterNumber,
+                        verse: parseInt(match[1], 10),
+                        letter: match[2] || ""
                     };
                  };
             
